@@ -2,24 +2,26 @@
 contributed by Hashi
 
 ## Understanding Aethernity:
-What is Aeternity:
-What is blockchain (Highlevel):
-What is special about Aethernity and how does it compare to other blockchains: (Focus on Oracles, practicality, flexibility, the AE court, state channels)
-What is an Oracle:
-How does Aeternity work (Highlevel, also describe the proof system, state channels):
-What are AE Tokens and how are they used consumed:
-How can Aeternity be used: Examples / Use Cases (Get creative mind juices flowing)
-Purchasing, aquiring Aeternity: Info on crowdsales, exchanges etc.
+*What is Aeternity:
+*What is blockchain (Highlevel):
+*What is special about Aethernity and how does it compare to other blockchains: (Focus on Oracles, practicality, flexibility, the AE court, state channels)
+*What is an Oracle:
+*How does Aeternity work (Highlevel, also describe the proof system, state channels):
+*What are AE Tokens and how are they used consumed:
+*How can Aeternity be used: Examples / Use Cases (Get creative mind juices flowing)
+*Purchasing, aquiring Aeternity: Info on crowdsales, exchanges etc.
 
 ## Getting Started & Beginners Guide:
-Where to start: 
-Types of users, and where they might start.
-Investors, Speculators, Users: Wallet
-Contract writers & Developers: xxxx
-Miners & Developers: xxx
-Applications and Components: Wallets, Accounts, Nodes (ea type) 
-Grid of application/platform availability eg.)Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
-Links to each software with installation guides, common CLI interaction etc for newbies.
+*Where to start: 
+*Types of users, and where they might start.
+1 Investors
+2 Speculators
+3 Users: Wallet
+4 Contract writers & Developers: xxxx
+5 Miners & Developers: xxx
+*Applications and Components: Wallets, Accounts, Nodes (ea type) 
+*Grid of application/platform availability eg.)Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
+*Links to each software with installation guides, common CLI interaction etc for newbies.
 
 ## Aeternity Contracts
 How contracts work.
