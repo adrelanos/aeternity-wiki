@@ -3,15 +3,15 @@
 On Ethereum contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts.
 On Aeternity each contract only exists for a moment. It is settled independently of all the other contracts.
 
-# Since contracts on Aeternity are independent, they can be processed in parallel. #
-
-Since contracts are independent, it is much easier to prove and verify what each contract does.
+# Why is Aeternity faster than Ethereum? #
+Since contracts on Aeternity are independent, they can be processed in parallel.
 
 On Ethereum it is possible to move computation, but it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
 
 On Aeternity computation by default happens off-chain.
 
 # How does Aeternity protect from the next DAO happening? #
+Since contracts are independent, it is much easier to prove and verify what each contract does.
 
 The DAO was a problem where some people trusted other people to spend their money for them.
 If you give your money to someone, and trust them to spend it for you wisely, there is nothing that I can do to stop them from robbing you.
