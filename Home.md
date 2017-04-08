@@ -2,9 +2,10 @@ Welcome to the Wiki of Aeternity!
 
 This will be rapidly expanded.
 
-* [[1.-Understanding-Aeternity]]
+* [[Understanding-Aeternity]]
+* [[Getting-Started]]
+* [[Aeternity-Contracts]]
+* [[Mining]]
 * [[Frequently-Asked-Questions]]
-* [[Frequently-Asked-Questions]]
-* [[Frequently-Asked-Questions]]
-* [[Frequently-Asked-Questions]]
-* [[Frequently-Asked-Questions]]
+* [[Research-and-Theory]]
+* [[Contacts-and-Groups]]
