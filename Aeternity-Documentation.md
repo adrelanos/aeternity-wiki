@@ -24,18 +24,18 @@ contributed by Hashi
 * Links to each software with installation guides, common CLI interaction etc for newbies.
 
 ## Aeternity Contracts
-How contracts work.
-Contract components and participants:
-How & when are contracts executed?
-Writing a contract: Documentation to syntax and sample common code.
-Executing a contract: Documentation on submitting code to chain or running code of chain. Retrieving, triggering and updating state.
+* How contracts work.
+* Contract components and participants:
+* How & when are contracts executed?
+* Writing a contract: Documentation to syntax and sample common code.
+* Executing a contract: Documentation on submitting code to chain or running code of chain. Retrieving, triggering and updating state.
 
 ## Mining:
-Proof Systems with explanation:
-Proof-of-Work
-Proof-of-Stake
-Mining & Node types:
-How can you earn AE by securing the network and setting up a node:
+* Proof Systems with explanation:
+1 Proof-of-Work
+2 Proof-of-Stake
+* Mining & Node types:
+* How can you earn AE by securing the network and setting up a node:
 
 ## FAQ
 * [Link to FAQ](https://github.com/aeternity/testnet/wiki/Frequently-Asked-Questions)
