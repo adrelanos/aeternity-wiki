@@ -1,5 +1,5 @@
 # Documentation
-(contributed by Hashi):
+contributed by Hashi
 
 ## Understanding Aethernity:
 What is Aeternity:
@@ -36,6 +36,7 @@ Mining & Node types:
 How can you earn AE by securing the network and setting up a node:
 
 ## FAQ
+[Link to FAQ](https://github.com/aeternity/testnet/wiki/Frequently-Asked-Questions)
 User Contributed questions + Answers: Ongoing
 
 ## Research and Theory:
