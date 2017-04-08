@@ -12,16 +12,16 @@ contributed by Hashi
 * Purchasing, aquiring Aeternity: Info on crowdsales, exchanges etc.
 
 ## Getting Started & Beginners Guide:
-*Where to start: 
-*Types of users, and where they might start.
+* Where to start: 
+* Types of users, and where they might start.
 1 Investors
 2 Speculators
 3 Users: Wallet
 4 Contract writers & Developers: xxxx
 5 Miners & Developers: xxx
-*Applications and Components: Wallets, Accounts, Nodes (ea type) 
-*Grid of application/platform availability eg.)Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
-*Links to each software with installation guides, common CLI interaction etc for newbies.
+* Applications and Components: Wallets, Accounts, Nodes (ea type) 
+* Grid of application/platform availability eg.)Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
+* Links to each software with installation guides, common CLI interaction etc for newbies.
 
 ## Aeternity Contracts
 How contracts work.
@@ -38,16 +38,16 @@ Mining & Node types:
 How can you earn AE by securing the network and setting up a node:
 
 ## FAQ
-[Link to FAQ](https://github.com/aeternity/testnet/wiki/Frequently-Asked-Questions)
-User Contributed questions + Answers: Ongoing
+* [Link to FAQ](https://github.com/aeternity/testnet/wiki/Frequently-Asked-Questions)
+* User Contributed questions + Answers: Ongoing
 
 ## Research and Theory:
-Concepts, Research, third party research and theories. Eg.) Turing, State Channels, Blockchain etc.
+* Concepts, Research, third party research and theories. Eg.) Turing, State Channels, Blockchain etc.
 
 ## Contacts and Groups:
-Links to get in touch:
-Communities:
-Developers
-Support
-Discussion
+* Links to get in touch:
+* Communities:
+* Developers
+* Support
+* Discussion
 
