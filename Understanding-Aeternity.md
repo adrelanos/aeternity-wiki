@@ -1,4 +1,9 @@
 # What is Aeternity?
+
+(en)lightning smart contracts on a global scale
+
+The æternity blockchain is designed to deliver unmatched efficiency, transparent governance and global scalability´.
+
 # What is blockchain?
 (Highlevel)
 # What is special about Aethernity and how does it compare to other blockchains?
