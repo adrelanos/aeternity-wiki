@@ -27,3 +27,11 @@ We wont need any special verification software to be sure of the correctness of 
 Channels can be connected to each other using hashlocking. This is how cross chain atomic swaps work. This is how the lightning network works. This is how we can build prediction markets with more than 2 users.
 
 # How does on-chain conflict resolution work? #
+
+# What is the Circulating Supply of AE? #
+AE currently in circulation: TODO
+
+AE in circulation after contribution phase 2: TODO
+
+# What is Maximum Supply of AE? #
+AE cap is at: TODO
