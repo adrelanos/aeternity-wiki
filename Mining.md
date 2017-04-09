@@ -1,4 +1,7 @@
 # What is mining?
+
+A bounty will be given to volunteers who run the aeternity mining software on computers, servers or mobile devices. The bounty will be given in form of AE, which is the digital coin of the aeternity network, which can then be kept do do things on aeternity or be sold on the market.
+
 # Proof Systems
 * Proof-of-Work
 * Proof-of-Stake
