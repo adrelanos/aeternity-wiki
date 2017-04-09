@@ -5,7 +5,9 @@
 The æternity blockchain is designed to deliver unmatched efficiency, transparent governance and global scalability´.
 
 # What is blockchain?
-(Highlevel)
+
+A secure ledger distributed among volunteers computers governed by the æternity software only. The rules of the ledger can only be modified by ... [the majority of the æternity stake holders participating as miners?]
+
 # What is special about Aethernity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 # What is an Oracle?
