@@ -6,3 +6,10 @@
 # Research
 Eg.) Turing, State Channels, Blockchain etc.
 # Working Theories
+
+# Open problems
+## Optimal properties of consensus algorithms
+## Censorship resistance
+## Maximally accurate time stamping
+## Scalable validation
+## Optimal data availability solutions
