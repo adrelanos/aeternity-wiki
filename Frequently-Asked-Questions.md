@@ -45,3 +45,5 @@ AE in circulation after contribution phase 2: TODO
 Answer by vdramaliev on [reddit](https://www.reddit.com/r/Aeternity/comments/64z73r/will_there_have_the_cap_amount_of_aeon/).
 
 It is very much possible for the mining reward amount to be modifiable by the users through a prediction market.
+
+# Can malicious rich people make an oracle lie? #
