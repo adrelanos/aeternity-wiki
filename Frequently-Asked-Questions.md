@@ -72,3 +72,10 @@ Even a whale can't afford to do this attack many times, and we quickly recover a
 
 # How does aeternity compare to ...? #
 
+Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/Aeternity/comments/63tabp/aeternity_vs_qtum_vs_cosmos/) and [here](https://www.reddit.com/r/Aeternity/comments/63mhg7/how_does_aeternity_contrast_with_truebit/).
+
+* Ethereum is a turing complete stateful smart contract system. It allows for examples apps like: subcurrencies, domain name servers, and blackjack card game gambling.
+* Cosmos is a way to move coins from one blockchain to another.
+* Qtum is a proposal for a software suite for making dapps on blockchains like Aeternity or Ethereum.
+* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the Aeternity oracle. Aeternity's oracle is market based instead of voting based. Aeternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
+* Aeternity is a turing complete stateless smart contract system with a built in oracle. It allows for the creation of trustless Dapps. For example: insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
