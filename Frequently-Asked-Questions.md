@@ -1,3 +1,5 @@
+![FAQ image](https://cdn-images-1.medium.com/max/1400/1*zsBAnzRQJuhIJ4phSDoEEA.png)
+
 Table of Contents
 =================
 
