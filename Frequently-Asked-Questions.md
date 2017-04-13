@@ -69,3 +69,6 @@ If people try to make the oracle lie, then the blockchain ends up forking into t
 The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with.
 
 Even a whale can't afford to do this attack many times, and we quickly recover after each attack with an honest oracle.
+
+# How does aeternity compare to ...? #
+
