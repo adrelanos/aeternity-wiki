@@ -60,9 +60,9 @@ It is very much possible for the mining reward amount to be modifiable by the us
 
 # Can malicious rich people make an oracle lie? #
 
-Answered by agorism1337 on [reddit](https://www.reddit.com/r/Aeternity/comments/64x733/the_highest_stakes_the_whales_decide_what_will_be/).
+Answered by agorism1337 on [reddit](https://www.reddit.com/r/Aeternity/comments/64x733/the_highest_stakes_the_whales_decide_what_will_be/). (modified)
 
-The oracle has changed a little since then. Both that old version of the oracle and the new version of the oracle are secure against the attack you describe. If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both side of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official Aeternity blockchain, the other is a new altcoin.
+If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both side of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official Aeternity blockchain, the other is a new altcoin.
 
 The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with.
 
