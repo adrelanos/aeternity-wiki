@@ -26,7 +26,8 @@ We wont need any special verification software to be sure of the correctness of 
 
 Channels can be connected to each other using hashlocking. This is how cross chain atomic swaps work. This is how the lightning network works. This is how we can build prediction markets with more than 2 users.
 
-# How does on-chain conflict resolution work? #
+# How does on-chain conflict resolution work? (crypto-court) #
+
 Answer by agorism1337 from [reddit](https://www.reddit.com/r/Aeternity/comments/64x1u7/how_does_onchain_conflict_resolution_work/).
 
 It is possible that you each submit conflicting final channel states to the blockchain. The blockchain processes both options, and examines which has a higher nonce. The higher nonced version of the state is accepted, and the other is rejected.
