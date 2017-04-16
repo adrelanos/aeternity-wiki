@@ -3,6 +3,7 @@
 Table of Contents
 =================
 
+   * [Table of Contents](#table-of-contents)
    * [How is Aeternity different from Ethereum?](#how-is-aeternity-different-from-ethereum)
    * [Why is Aeternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
    * [How does Aeternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
@@ -11,6 +12,17 @@ Table of Contents
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
    * [What is Maximum Supply of AE?](#what-is-maximum-supply-of-ae)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
+   * [How does aeternity compare to ...?](#how-does-aeternity-compare-to-)
+   * [æternity, a new blockchain?](#æternity-a-new-blockchain)
+   * [What can the AE token be used for?](#what-can-the-ae-token-be-used-for)
+   * [What are some of the more interesting applications that can be created on æternity?](#what-are-some-of-the-more-interesting-applications-that-can-be-created-on-æternity)
+   * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
+   * [What are some of the features of æternity virtual machine?](#what-are-some-of-the-features-of-æternity-virtual-machine)
+   * [Why do we need Ethereum?](#why-do-we-need-ethereum)
+   * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
+   * [What’s the difference between an account and the æternity wallet?](#whats-the-difference-between-an-account-and-the-æternity-wallet)
+   * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
+   * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
 
 # How is Aeternity different from Ethereum? #
 
