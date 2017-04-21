@@ -20,4 +20,4 @@
 [IRC](http://www.aeternity.com/#)
 
 ## Community - Meetup
-[Worldwide Meetup list](https://docs.google.com/spreadsheets/d/196EV6OVOmlxxy8-0j5bBiGltqQRSyvmrdFQiQxNwYWc/edit)
+[Aeternity Meetup list](https://docs.google.com/spreadsheets/d/196EV6OVOmlxxy8-0j5bBiGltqQRSyvmrdFQiQxNwYWc/edit)
