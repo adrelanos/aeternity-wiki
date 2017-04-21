@@ -7,6 +7,7 @@ This will be rapidly expanded.
 * [[Understanding-Aeternity]]
 * [[Getting-Started]]
 * [[Aeternity-Contracts]]
+* [[Aeternity-Blog]]
 * [[Mining]]
 * [[Frequently-Asked-Questions]]
 * [[Research-and-Theory]]
