@@ -7,12 +7,15 @@
 ## Decentralized Oracles
 ## Consensus
 ## Futarchy
+here follows a collection of papers on Futarchy in order of time of publication:
 * [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
 * [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
 * [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
 * [Markets for the Future - by Matt Liston](https://medium.com/@ConsenSys/markets-for-the-future-c73fa73fe35d)
 * [Empirical Cryptoeconomics - by Vitalik Buterin](https://www.reddit.com/r/ethereum/comments/453sid/empirical_cryptoeconomics/)
 * [DAOs, Democracy and Governance - by Ralph C. Merkle](http://merkle.com/papers/DAOdemocracyDraft.pdf)
+* [Response to Merkle’s DAO Paper - by Dan Finlay](https://medium.com/@danfinlay/response-to-merkles-dao-paper-61d76d2dd333)
+* [BFF: A Recursive Merkle DAO - by Dan Finlay](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
 * [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 # Research
 Eg.) Turing, State Channels, Blockchain etc.
