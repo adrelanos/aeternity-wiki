@@ -2,7 +2,7 @@ We are humæn
 
 Crypto believers and true experts in each of their fields, who have taken on the challenge to build æternity.
 
-Yanislav Malahov
+![y](/user/pages/01.home/_10.team/yanislav.jpg)
 Yanislav Malahov
 
 FOUNDER
