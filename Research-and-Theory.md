@@ -7,7 +7,7 @@
 ## Decentralized Oracles
 ## Consensus
 ## Futarchy
-here follows a collection of papers on Futarchy in order of time of publication:
+here follow a collection of in-depth analysis about Futarchy ordered by publication date:
 * [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
 * [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
 * [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
