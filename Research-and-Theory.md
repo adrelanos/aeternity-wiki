@@ -9,6 +9,8 @@
 ## Futarchy
 * [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
 * [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
+* [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
+* [Markets for the Future - by Matt Liston](https://medium.com/@ConsenSys/markets-for-the-future-c73fa73fe35d)
 * [DAOs, Democracy and Governance - by Ralph C. Merkle](http://merkle.com/papers/DAOdemocracyDraft.pdf)
 * [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 # Research
