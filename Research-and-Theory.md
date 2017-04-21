@@ -7,8 +7,10 @@
 ## Decentralized Oracles
 ## Consensus
 ## Futarchy
-* [Futarchy: Vote Values, But Bet Beliefs - by by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
+* [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
 * [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
+* [DAOs, Democracy and Governance - by Ralph C. Merkle](http://merkle.com/papers/DAOdemocracyDraft.pdf)
+* [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 # Research
 Eg.) Turing, State Channels, Blockchain etc.
 # Working Theories
