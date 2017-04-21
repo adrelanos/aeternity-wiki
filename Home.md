@@ -8,8 +8,10 @@ This will be rapidly expanded.
 * [[Getting-Started]]
 * [[Aeternity-Contracts]]
 * [[Aeternity-Team]]
+* [Aeternity-Blog](https://blog.aeternity.com/)
 * [[Mining]]
 * [[Frequently-Asked-Questions]]
 * [[Research-and-Theory]]
 * [[Contacts-and-Groups]]
 * [[Bounty]]
+
