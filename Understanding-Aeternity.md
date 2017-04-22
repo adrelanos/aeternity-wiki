@@ -20,6 +20,8 @@ A secure ledger distributed among volunteers computers governed by the æternity
 
 # What is an Oracle?
 
+An Oracle is a node that verifies transactions.
+
 # How does Æternity work?
 (Highlevel, also describe the proof system, state channels):
 
