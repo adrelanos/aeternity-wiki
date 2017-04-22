@@ -1,6 +1,6 @@
 # How best to get in touch
 
-## Social & Discussions
+## Social 
 [Facebook](https://www.facebook.com/aeternityproject/),
 [Twitter](https://twitter.com/aetrnty),
 [Reddit](https://www.reddit.com/r/Aeternity/),
@@ -11,12 +11,8 @@
 [Medium](https://blog.aeternity.com/), 
 [Bitcointalk](https://bitcointalk.org/index.php?topic=1733140.0),
 
-## Developers & Support
+## Development & Support
 [Github](https://github.com/aeternity), 
-[Slack](https://slack.aeternity.com/), 
-[IRC](http://www.aeternity.com/#)
-
-## Support
 [Telegram](https://telegram.me/aeternity), 
 [Slack](https://slack.aeternity.com/), 
 [IRC](http://www.aeternity.com/#)
