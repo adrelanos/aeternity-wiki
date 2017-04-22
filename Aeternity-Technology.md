@@ -11,7 +11,7 @@
 <table class="table table_technology m-0">
 <tbody>
 <tr>
-<td class="align-top">
+<td class="align-top" class="img-fluid">
 <img src="http://www.aeternity.com/user/pages/02.technology/_technology/1.png" alt="">
 </td>
 <td class="align-middle">
