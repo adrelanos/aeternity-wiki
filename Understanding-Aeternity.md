@@ -1,12 +1,16 @@
 # What is Aeternity?
 
-Aeternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, or Augur. Aeternity is unique in many ways, but the key features being the following:
+Aeternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, or Augur. Aeternity will use secure smart contracts that interface with real-world data through decentralized oracles. Aeternity differs from Ethereum by using trustless Turing-complete state channels to achieve scalability.
+
+
+Aeternity is unique in many ways, but the key features being the following:
 
 - Hybrid PoW
 - Oracle Machine 
 - State Channels
 - Off-chain transactions will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions
 - Governance
+- Address naming system
 
 # What is blockchain?
 
@@ -18,6 +22,11 @@ A secure ledger distributed among volunteers computers governed by the æternity
 # How does Aeternity work?
 (Highlevel, also describe the proof system, state channels):
 # What are AE Tokens and how are they used consumed?
+
+The Aeternity tokens will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
+
+All Aeternity tokens will be distributed via the genesis block through an Ethereum Smart contract.
+
 # How can Aeternity be used?
 Examples / Use Cases (Get creative mind juices flowing)
 # Purchasing and acquiring Aeternity: 
