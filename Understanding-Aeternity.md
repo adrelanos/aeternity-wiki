@@ -1,8 +1,12 @@
 # What is Aeternity?
 
-(en)lightning smart contracts on a global scale
+Aeternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, or Augur. Aeternity is unique in many ways, but the key features being the following:
 
-The æternity blockchain is designed to deliver unmatched efficiency, transparent governance and global scalability´.
+- Hybrid PoW
+- Oracle Machine 
+- State Channels
+- Off-chain transactions will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions
+- Governance
 
 # What is blockchain?
 
@@ -17,4 +21,7 @@ A secure ledger distributed among volunteers computers governed by the æternity
 # How can Aeternity be used?
 Examples / Use Cases (Get creative mind juices flowing)
 # Purchasing and acquiring Aeternity: 
-Info on crowdsales, exchanges etc.
+
+The first round available to purchase Aeternity was during Aeternity's public 'Friends, Family and Real Innovators' round which took place on April 3rd, 13:05 GMT and lasted for 72 hours until April 6th 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH. 
+
+The second round will begin May 21st. You can participate as well as follow for any updates here: https://wallet.aeternity.com/
