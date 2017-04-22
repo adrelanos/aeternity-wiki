@@ -8,6 +8,7 @@ This will be rapidly expanded.
 * [[Getting-Started]]
 * [[Aeternity-Contracts]]
 * [[Aeternity-Team]]
+* [[Aeternity-Technology]]
 * [Aeternity-Blog](https://blog.aeternity.com/)
 * [Aeternity-Wallet](https://wallet.aeternity.com/)
 * [[Mining]]
