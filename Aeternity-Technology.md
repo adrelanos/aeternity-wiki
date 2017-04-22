@@ -12,7 +12,7 @@
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/1.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/1.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">INDUSTRIAL GRADE CODE BASE</strong>
@@ -30,7 +30,7 @@ Erlang is the perfect choice to write a blockchain from scratch allowing to achi
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/2.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/2.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">BLOCKCHAIN NETWORKS</strong>
@@ -48,7 +48,7 @@ MIT-licensed modules will allow easy implementation in blockchain consortiums an
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/3.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/3.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">AE TOKEN</strong>
@@ -67,7 +67,7 @@ The initial amount of AE for the genesis block will be determined by a smart con
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/4.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/4.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">SMART CONTRACTS</strong>
@@ -86,7 +86,7 @@ In other words: They are one-to-one- sidechains, where the blockchain acts as a 
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/5.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/5.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">ORACLES</strong>
@@ -105,7 +105,7 @@ Each user can ask questions about the environment. Everybody can answer. The con
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/6.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/6.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">NAMES (DNS)</strong>
@@ -123,7 +123,7 @@ The blockchain’s state includes a mapping from unique human-friendly strings t
 <tbody>
 <tr>
 <td class="align-top">
-<img src="/user/pages/02.technology/_technology/7.png" alt="">
+<img src="http://www.aeternity.com/user/pages/02.technology/_technology/7.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">ACCOUNTS & IDENTITY</strong>
@@ -146,7 +146,7 @@ Create and own your identity on the æternity network - then use it everywhere o
 <div class="row">
 <div class="col-lg-4">
 <div class="lg-vertical-center">
-<img src="/user/themes/aeon/img/aeternity_logo_footer.png" class="img-fluid">
+<img src="http://www.aeternity.com/user/themes/aeon/img/aeternity_logo_footer.png" class="img-fluid">
 </div>
 </div>
 <div class="col-lg-8 mt-4">
