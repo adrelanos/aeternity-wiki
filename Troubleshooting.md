@@ -3,3 +3,7 @@
 Perhaps the testnet was reset? Try deleting folder _/deps/pink_hash_ in your _testnet_ folder.
 
 ([source](https://github.com/aeternity/testnet/issues/41))
+
+# System Requirements #
+# Building from Source #
+# What if my question isn't answered here? # 
