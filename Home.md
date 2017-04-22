@@ -9,9 +9,9 @@ This will be rapidly expanded.
 * [[Aeternity-Contracts]]
 * [[Aeternity-Team]]
 * [Aeternity-Blog](https://blog.aeternity.com/)
+* [Aeternity-Wallet](https://wallet.aeternity.com/)
 * [[Mining]]
 * [[Frequently-Asked-Questions]]
 * [[Research-and-Theory]]
 * [[Contacts-and-Groups]]
 * [[Bounty]]
-
