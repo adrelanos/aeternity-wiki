@@ -6,24 +6,26 @@
 
 - Hybrid PoW
 - Oracle Machine 
-- State Channels
-- Off-chain transactions will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions
+- State Channels, or "Off-chain transactions" will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions
 - Governance
 - Address naming system
 
 # What is blockchain?
 
-A secure ledger distributed among volunteers computers governed by the æternity software only. The rules of the ledger can only be modified by ... [the majority of the æternity stake holders participating as miners?]
+A secure ledger distributed among volunteers computers governed by the æternity software only. 
 
 # What is special about Æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
 # What is an Oracle?
 
-An Oracle is a node that verifies transactions.
+An oracle is a mechanism to teach the blockchain true facts about our world.
 
 # What is State Channels?
-State channel are most interesting differential part of Æternity. Basic principle is that only affected party should know about  transection. On Æternity, the only state update that can be settled on the block chain is a transfer of aeon, and transaction parties already deposited in to channel. This makes all channel independent from each other. For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
+Only the parties participating in a smart contract know about the contents of that smart contract.
+When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
+No contract state is stored on-chain, so all channels are independent from each other. This means that channel transactions can be processed in parallel.
+ For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 
 # How does Æternity work?
 (Highlevel, also describe the proof system, state channels):
@@ -32,7 +34,7 @@ State channel are most interesting differential part of Æternity. Basic princip
 
 The Æternity tokens will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
 
-All Æternity tokens will be distributed via the genesis block through an Ethereum Smart contract.
+All Æternity tokens will be distributed via the genesis block through an Ethereum Smart contract, and by mining.
 
 # How can Æternity be used?
 Examples / Use Cases (Get creative mind juices flowing)
