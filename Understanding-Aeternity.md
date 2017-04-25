@@ -22,6 +22,9 @@ A secure ledger distributed among volunteers computers governed by the æternity
 
 An Oracle is a node that verifies transactions.
 
+# What is State Channels?
+State channel are most interesting differential part of Æternity. Basic principle is that only affected party should know about  transection. On Æternity, the only state update that can be settled on the block chain is a transfer of aeon, and transaction parties already deposited in to channel. This makes all channel independent from each other. For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
+
 # How does Æternity work?
 (Highlevel, also describe the proof system, state channels):
 
