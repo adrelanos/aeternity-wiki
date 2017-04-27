@@ -13,7 +13,7 @@ These instructions assume basic familiarity with command line. The fastest way t
 * `cd FOLDER_NAME` _(go deeper)_ 
 * `dir` _(list contents)_
 
-These are the very basic commands so that you know how to navigate folders from command line. I suggest creating a folder `c:/code` to keep all your code there. Use the command `md code` creates the folder.
+These are the very basic commands so that you know how to navigate folders from command line. I suggest creating a folder `c:/code` to keep all your code there. The command `md code` creates the folder.
 
 ## 0. Download and install Git
 
