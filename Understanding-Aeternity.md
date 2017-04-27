@@ -2,17 +2,17 @@
 
 Æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, or Augur. Æternity will use secure smart contracts that interface with real-world data through decentralized oracles. Æternity differs from Ethereum by using trustless Turing-complete state channels to achieve scalability.
 
-Æternity is unique in many ways, but the key features being the following:
+Æternity is unique in many ways, but the key features are:
 
-- Hybrid PoW
-- Oracle Machine 
-- State Channels, or "Off-chain transactions" will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions
-- Governance
-- Address naming system
+- Hybrid PoW;
+- Oracle Machine;
+- State Channels, or "Off-chain transactions" will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions;
+- Governance;
+- Address naming system;
 
 # What is blockchain?
 
-A secure ledger distributed among volunteers computers governed by the æternity software only. 
+A secure ledger distributed among volunteer's computers governed only by the Æternity software. 
 
 # What is special about Æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
