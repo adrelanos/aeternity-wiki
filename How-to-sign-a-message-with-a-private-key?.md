@@ -35,7 +35,8 @@ We also need to install these libraries locally:
 
 - https://security.stackexchange.com/a/118579/6582
 - https://github.com/joaojeronimo/rimrafall
-- it's inherit property of any software - even if it open-source and has well-established reputation you never know...
+- it's inherit property of any software...
+- ...even if it open-source and has well-established reputation you never know
 - _(not being paranoid, just being aware of security implications)_
 
 ---
