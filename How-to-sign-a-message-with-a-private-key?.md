@@ -29,6 +29,17 @@ We also need to install these libraries locally:
 
  `npm install bs58 bitcoinjs-lib bitcoinjs-message ecurve bigi`
 
+---
+
+**WARNING:** Installing from npm can also be dangerous, see links below:
+
+- https://security.stackexchange.com/a/118579/6582
+- https://github.com/joaojeronimo/rimrafall
+- it's inherit property of any software - even if it open-source and has well-established reputation you never know...
+- _(not being paranoid, just being aware of security implications)_
+
+---
+
 From here we can use `browserify` to make it available in the browser:
 
 `browserify index.js --standalone library > bitcoin.js`
