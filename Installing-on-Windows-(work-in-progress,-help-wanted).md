@@ -13,7 +13,7 @@ These instructions assume basic familiarity with command line. The fastest way t
 * `cd FOLDER_NAME` _(go deeper)_ 
 * `dir` _(list contents)_
 
-These are the very basic commands so that you know how to navigate folders from command line. I suggest creating folder `c:/code` to keep all your code there. 
+These are the very basic commands so that you know how to navigate folders from command line. I suggest creating a folder `c:/code` to keep all your code there. Use the command `md code` creates the folder.
 
 ## 0. Download and install Git
 
@@ -25,7 +25,7 @@ In that way you'll be able to get source code directly from repository.
 
 https://www.erlang.org/downloads
 
-For more adventurous build it from source.
+For the more adventurous, build it from source.
 
 ## 2. Add the folder to the path
 
@@ -38,7 +38,7 @@ It many clicks away, I've reported a usability bug, it's by design: http://imgur
 
 Here someone provides great instructions: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
 
-In case link goes offline:
+In case the link goes offline:
 
 **3.1)** `git clone https://github.com/rebar/rebar`
 
@@ -47,7 +47,7 @@ In case link goes offline:
 **3.3)** same business as previously, add the directory to the path so that you can execute `rebar`
 
 
-## 4. Get code and dependencies
+## 4. Get code and dependencies:
 
 **4.1)** `git clone https://github.com/aeternity/testnet.git`
 
