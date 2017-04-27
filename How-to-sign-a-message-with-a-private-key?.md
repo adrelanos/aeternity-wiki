@@ -33,11 +33,13 @@ We also need to install these libraries locally:
 
 **WARNING:** Installing from npm can also be dangerous, see links below:
 
-- https://security.stackexchange.com/a/118579/6582
+- https://security.stackexchange.com/questions/118547/unpublished-modules-on-npm-could-an-attacker-take-advantage-of-their-former-not/118579
 - https://github.com/joaojeronimo/rimrafall
 - it's inherit property of any software...
 - ...even if it open-source and has well-established reputation you never know
 - _(not being paranoid, just being aware of security implications)_
+
+>  As you mentioned you cannot republish a file of a particular version. By setting an exact version in your dependencies your application will only download this version. If an attacker was to gain control of the package they could only push malicious code to users of a later package.
 
 ---
 
