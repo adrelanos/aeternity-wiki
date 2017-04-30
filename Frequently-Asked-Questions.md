@@ -4,9 +4,9 @@ Table of Contents
 =================
 
    * [Table of Contents](#table-of-contents)
-   * [How is Aeternity different from Ethereum?](#how-is-aeternity-different-from-ethereum)
-   * [Why is Aeternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
-   * [How does Aeternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
+   * [How is æternity different from Ethereum?](#how-is-aeternity-different-from-ethereum)
+   * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
+   * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
@@ -24,31 +24,31 @@ Table of Contents
    * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
    * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
 
-# How is Aeternity different from Ethereum? #
+# How is æternity different from Ethereum? #
 
 On Ethereum contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts.
-On Aeternity each contract only exists for a moment. It is settled independently of all the other contracts.
+On æternity each contract only exists for a moment. It is settled independently of all the other contracts.
 
-# Why is Aeternity faster than Ethereum? #
-Since contracts on Aeternity are independent, they can be processed in parallel.
+# Why is æternity faster than Ethereum? #
+Since contracts on æternity are independent, they can be processed in parallel.
 
 On Ethereum it is possible to move computation, but it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
 
-On Aeternity computation by default happens off-chain.
+On æternity computation by default happens off-chain.
 
-# How does Aeternity protect from the next DAO happening? #
+# How does æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
 
 The DAO was a problem where some people trusted other people to spend their money for them.
 If you give your money to someone, and trust them to spend it for you wisely, there is nothing that I can do to stop them from robbing you.
 
-Aeternity supports many trustless contracts. There is no reason you should ever use trust with Aeternity, or any other blockchain system.
+æternity supports many trustless contracts. There is no reason you should ever use trust with æternity, or any other blockchain system.
 Any smart contract that requires trust is not so smart.
 
 # Is smart contract verification on the roadmap? #
 
-The language for Aeternity is very simple. Smart contracts do not depend on each other's state, so it is easy to prove the correctness of a smart contract.
-We wont need any special verification software to be sure of the correctness of Aeternity contracts.
+The language for æternity is very simple. Smart contracts do not depend on each other's state, so it is easy to prove the correctness of a smart contract.
+We wont need any special verification software to be sure of the correctness of æternity contracts.
 
 Channels can be connected to each other using hashlocking. This is how cross chain atomic swaps work. This is how the lightning network works. This is how we can build prediction markets with more than 2 users.
 
@@ -76,7 +76,7 @@ It is very much possible for the mining reward amount to be modifiable by the us
 
 Answered by agorism1337 on [reddit](https://www.reddit.com/r/Aeternity/comments/64x733/the_highest_stakes_the_whales_decide_what_will_be/). (modified)
 
-If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both side of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official Aeternity blockchain, the other is a new altcoin.
+If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both side of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, the other is a new altcoin.
 
 The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with.
 
@@ -88,9 +88,9 @@ Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/A
 
 * Ethereum is a turing complete stateful smart contract system. It allows for examples apps like: subcurrencies, domain name servers, and blackjack card game gambling.
 * Cosmos is a way to move coins from one blockchain to another.
-* Qtum is a proposal for a software suite for making dapps on blockchains like Aeternity or Ethereum.
-* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the Aeternity oracle. Aeternity's oracle is market based instead of voting based. Aeternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
-* Aeternity is a turing complete stateless smart contract system with a built in oracle. It allows for the creation of trustless Dapps. For example: insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
+* Qtum is a proposal for a software suite for making dapps on blockchains like æternity or Ethereum.
+* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity oracle. æternity's oracle is market based instead of voting based. æternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
+* æternity is a turing complete stateless smart contract system with a built in oracle. It allows for the creation of trustless Dapps. For example: insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
 
 # æternity, a new blockchain? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
