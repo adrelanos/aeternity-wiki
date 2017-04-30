@@ -294,4 +294,4 @@ Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle",
 <div class="card-block">
 <h4 class="card-title">You?</h4>
 <h5 class="card-text text-uppercase">Open Position</h5>
-[Email](info@aeternity.com)
+info@aeternity.com
