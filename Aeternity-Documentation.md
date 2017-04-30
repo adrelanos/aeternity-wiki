@@ -1,10 +1,10 @@
 # Documentation
 contributed by Hashi
 
-## Understanding Aethernity:
+## Understanding Aeternity:
 * What is Aeternity:
 * What is blockchain (Highlevel):
-* What is special about Aethernity and how does it compare to other blockchains: (Focus on Oracles, practicality, flexibility, the AE court, state channels)
+* What is special about Aeternity and how does it compare to other blockchains: (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 * What is an Oracle:
 * How does Aeternity work (Highlevel, also describe the proof system, state channels):
 * What are AE Tokens and how are they used consumed:
