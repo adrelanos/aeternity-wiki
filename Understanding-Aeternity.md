@@ -19,12 +19,13 @@ A secure ledger distributed among volunteer's computers governed only by the Æt
 
 # What is an Oracle?
 
-An oracle is a mechanism to teach the blockchain true facts about our world.
+An oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of prediction markets and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information, accessible to the public.
 
 # What are State Channels?
+The State Channel design enables off chain verification of data and smart contracts, only if the verification in the channel fails is the block chain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence the programability of complex relationships for large numbers of users, as well as handling high volumes of products and information in parallel, is aeternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contract state is stored on-chain, so all channels are independent from each other. This means that channel transactions can be processed in parallel.
+No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the aeternity system can scale as well as known centralized solutions available today.
  For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 
 # How does Æternity work?
@@ -34,7 +35,7 @@ No contract state is stored on-chain, so all channels are independent from each 
 
 The Æternity tokens will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
 
-All Æternity tokens will be distributed via the genesis block through an Ethereum Smart contract, and by mining.
+All Æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
 
 # How can Æternity be used?
 Examples / Use Cases (Get creative mind juices flowing)
