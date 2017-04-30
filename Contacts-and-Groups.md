@@ -9,7 +9,7 @@
 [WeChat](http://www.aeternity.com/#),
 [QQ](http://www.aeternity.com/#),
 [Medium](https://blog.aeternity.com/), 
-[Bitcointalk](https://bitcointalk.org/index.php?topic=1733140.0),
+[Bitcointalk](https://bitcointalk.org/index.php?topic=1733140.0)
 
 ## Development & Support
 [Github](https://github.com/aeternity), 
