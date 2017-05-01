@@ -5,6 +5,12 @@ Perhaps the testnet was reset? Try deleting folder _/deps/pink_hash_ in your _te
 ([source](https://github.com/aeternity/testnet/issues/41))
 
 # System Requirements #
+
+Erlang (version >= 18)
+Ubuntu (version >=16) (Windows coming soon)
+OR 
+Mac
+
 # Building from Source #
 
 ## For Ubuntu
