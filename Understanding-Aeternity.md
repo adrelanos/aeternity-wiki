@@ -38,7 +38,22 @@ The Æternity tokens will be used to pay for resources consumed through the plat
 All Æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
 
 # How can Æternity be used?
-Examples / Use Cases (Get creative mind juices flowing)
+
+Toll API: Payment channels allow for a new kind of API, where one
+pays for every call to the API, possibly every HTTP-request.
+Paying to access an API solves DDoS problems, and it makes
+it easier to build high-quality APIs that are always available.
+
+Stable value assets : We
+can use the combination smart contracts and oracles to program synthetic assets that stay
+nearly the same price as a real world asset.
+
+Event contracts: Event contracts pay when an event
+happens and don’t pay when an event does not happen, as
+per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistle blowing and supporting prediction markets.
+
+Like any platform, the potential applications are limited only by the imagination of the user base. 
+
 # Purchasing and acquiring Æternity: 
 
 The first round available to purchase Æternity was during Æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH. 
