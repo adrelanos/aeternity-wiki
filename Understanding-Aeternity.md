@@ -52,6 +52,10 @@ Event contracts: Event contracts pay when an event
 happens and don’t pay when an event does not happen, as
 per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistle blowing and supporting prediction markets.
 
+Micropayments: Aeternity's state channels will allow for off-chain, peer-to-peer payments will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
+
+P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wifi hotspots. Think of it like an Uber-for-wifi. Anyone could offer wifi to anyone else via their mobile phone for a price. 
+
 Like any platform, the potential applications are limited only by the imagination of the user base. 
 
 # Purchasing and acquiring Æternity: 
