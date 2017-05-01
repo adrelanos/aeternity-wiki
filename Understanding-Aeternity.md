@@ -17,6 +17,8 @@ A secure ledger distributed among volunteer's computers governed only by the Æt
 # What is special about Æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
+While other smart contract platforms can have oracle machines implemented on top of them, Æternity is unique in that it contains oracles as a smart contract "primitive." Having mechanisms that allow for real-world truth to enter into the chain state, in a reliable way, offers the possibility of smart contract creation with substantial real-world use cases. 
+ 
 # What is an Oracle?
 
 An oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of prediction markets and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information, accessible to the public.
