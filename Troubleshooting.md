@@ -76,3 +76,5 @@ rebar compile
 Now you can run your node with ```sh start.sh```
 
 # What if my question isn't answered here? # 
+
+Visit our [Slack](http://slack.aeternity.com/) or [Gitter](https://gitter.im/aeternity/Lobby) channels.
