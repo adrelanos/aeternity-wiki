@@ -40,6 +40,18 @@ Each block contains the following components:
 
 The hash of the previous block is required to maintain an ordering of the blockchain. The transaction tree contains all transactions that are included in the current block. With the exception of the consensus vote tree, all the trees are fully under consensus: if a tree is changed from one block to the next, this change has to be due to a transaction in the new block’s transaction tree, and a Merkle proof of the update has to be included in the block’s proof tree. The purpose of the three remaining trees will hopefully become clear in the following sections.
 
+### State channels:
+
+On æternity, the only state update that can be settled on the blockchain is a transfer of aeon, and the only aeon that can be transferred are the ones that the transacting parties already deposited into the channel. This makes all channels
+independent from each other, which has the immediate benefit that any transactions related to channels can be processed
+in parallel, greatly improving transaction throughput.
+
+The blockchain is only used to settle the final outcome or to resolve conflicts that arise, roughly analogous to the judicial system. However, because the blockchain’s behavior will be predictable, there is no gain in disputing the intended result of a state channel; malicious actors are incentivized to behave correctly and only settle the final state on the blockchain. All taken together, this increases transaction speed and volume by several orders of magnitude, as well as privacy.
+
+### Smart contracts:
+
+Despite that the only state that can be settled on-chain is a transfer of aeon, Æternity still features a Turing-complete virtual machine that can run “smart contracts”. Contracts on Æternity are strictly agreements that distribute funds according to some rules, which stands in stark contrast to the entity-like contracts of e.g. Ethereum. Two of the more notable practical differences is that by default, only the involved parties know about a given contract, and only parties that have an open state channel can create a valid contract. If the parties agree to a contract, they sign it and keep copies for future reference. It is only submitted to the blockchain if its outcome is disputed, in which case the code is only ever stored as part of the submitted transaction, never in any other state. If this happens, the blockchain distributes the tokens according to the contract and closes the channel.
+
 # Contracts interaction
 
 Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a the simple hashlocking operation. [(White Paper)(http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
