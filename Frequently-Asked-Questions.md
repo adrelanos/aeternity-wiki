@@ -27,7 +27,9 @@ Table of Contents
 # How is æternity different from Ethereum and Bitcoin? #
 
 On Bitcoin Smart-contracts do not exist as of yet.
+
 On Ethereum Smart-contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts.
+
 On æternity each contract only exists for a moment. It is settled independently of all the other contracts via state channels.
 
 # Why is æternity faster than Ethereum? #
