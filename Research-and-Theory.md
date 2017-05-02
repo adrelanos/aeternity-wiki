@@ -10,6 +10,15 @@ When a channel is settled on-chain, the only way it changes the blockchain state
 No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the Æternity system can scale as well as known centralized solutions available today.
  For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 ## Decentralized Oracles
+An oracle is a mechanism that tells the blockchain facts about the world we live in e.g. the close price of Apple shares on a particular date. Aeternity's oracle system uses the same consensus system as the Aeternity blockchain itself i.e. it does not require a separate consensus layer on top of the AE mainnet. 
+
+To launch an oracle, an aeon holder has to commit to answering a yes or no question (e.g. whether the price of an Apple share is above $200) and specify additional conditions such as the timeframe in which the Aeon holder can answer that question. The aeon holder then has to deposit/commit a certain amount of aeon, which is proportional to the timeframe during which the oracle is operational. When the oracle supplies an answer that is accepted as the truth by users, the deposit will be returned to the creator of the oracle. Otherwise, the deposit will be destroyed.
+
+Once the oracle has submitted an answer, other users are free to dispute the answer by submitting a counter-claim by depositing the same amount of aeon as the oracle creator. If there are no counter-claims by the end of the timeframe, the answer supplied by the oracle is deemed to be the truth. If there are counter-claims, the consensus system for the AE mainnet will be used to decide on which is the correct answer.
+
+Therefore, what is in effect achieved is a decentralised oracle system. The truth value of oracle answers, if in dispute, will be ultimately determined by the decentralised consensus system of the AE network.
+
+For more information, refer to the [Aeternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 ## Consensus
 ## Futarchy
 here follow a collection of in-depth analysis about Futarchy ordered by publication date:
