@@ -10,7 +10,7 @@ The use of the blockchain is not free, but requires that the user spends a token
 
 ### Accounts:
 
-Each account has an address and a balance of aeon and also a nonce which increases with every transaction and the height of its last update. Each account 2 also has to pay a small fee for the amount of time it is open. The costs of creating and keeping accounts prevents spam and disincentives state-bloat. The reward for deleting accounts incentives the reclaiming of space.
+Each account has an address and a balance of aeon and also a nonce which increases with every transaction and the height of its last update. Each account has also to pay a small fee for the amount of time it is open. The costs of creating and keeping accounts prevents spam and disincentives state-bloat. The reward for deleting accounts incentives the reclaiming of space.
 
 ### Name system: 
 
@@ -54,7 +54,11 @@ Despite that the only state that can be settled on-chain is a transfer of aeon, 
 
 # Contracts interaction
 
-Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a the simple hashlocking operation. [(White Paper)(http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
+Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a the simple hashlocking operation. 
+
+[(White Paper)(http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) 
+
+This function can be used to predicate
 the execution of code branches in different contracts on the existence of the same secret value. As a simple example usage, hashlocks make it possible for users that don’t share a state channel between them, to trustlessly send each other aeon, as long as there is a path of channels between them.
 
 
