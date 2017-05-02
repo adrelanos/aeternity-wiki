@@ -8,9 +8,19 @@ Unlike Bitcoin, Ethereum and most other cryptocurrencies, æternity uses a hybri
 
 The Consensus on the aeternity blockchain is achieved via a hybrid Proof-of-Work (PoW) and Proof-of-Stake (PoS) algorithm. The Proof-of-work will be done by miners via the "Cuckoo Cycle" algorithm. Proof-of-Stake is implemented via on-chain prediction markets, which project the information available to the network to one single number between 0 and 1. This number is used to signal to the miners which version of the blockchain to mine on.
 
-# Mining & Node types:## 
+# Mining & Node types:
 
+The aeternity Blockchain will feature multiple types of nodes that each fulfill a certain task on the network. Use cases are diverse, and the best ones are yet to be imagined.
 
+* Some nodes will be providing liquidity to the State channels lightning network. These nodes will maintain multiple connection channels with other nodes. Creating a channel with them will enable any node to establish state channel contracts with many others. This will involve a fee paid to the node.
+
+* Some nodes will be run as trust-less exchanges multiple assests. These nodes collect transaction fees from their users. State channels can be used through these nodes to play games using Aeon (AE). Either single player, friends, or total strangers, æternity will enable trust-less financial applications, where no user puts his trust into the other, but into the fair logic of the Blockchain. Theses financial applications do not necessarily need to be decentralised. They can exist on a “centralised server” and through the æternity Blockchain become trust-less financial tools.
+
+* Some nodes will run as exchanges to invest in stocks, futures, bonds and precious metal, or be can be used for gambles in a trust-less and efficient way. 
+
+* Some nodes can specialise in maintaining the Blockchain, and preserve it from bloating, by recycling old accounts. There will be a fee for maintaining an account open. When an account runs out of Aeons, theses nodes will be able to delete it and get the reward.
+
+* Some nodes will just run trading software. Buying and selling any offered assets.
 
 # Proof-Of-Stake Mining (Oracle):
 
