@@ -4,7 +4,7 @@
 
 Æternity is unique in many ways, but the key features are:
 
-- Hybrid PoW;
+- Hybrid PoW/PoS;
 - Oracle Machine;
 - State Channels, or "Off-chain transactions" will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions;
 - Governance;
