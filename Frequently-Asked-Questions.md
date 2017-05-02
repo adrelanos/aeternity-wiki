@@ -160,7 +160,9 @@ We will provide a rock-solid technology to build on, but that wouldn’t be enou
 # What’s the difference between an account and the æternity wallet? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-A wallet is a piece of software that is used to interact with æternity. It allows you to make accounts and channels. It will allow users to make channel contracts, to bet, to play games, to buy/sell assets, provides identity, communicate with other users, etc.
+A wallet is a piece of software that is used to interact with æternity. It allows you to make accounts and channels. It will allow users to make channel contracts, to bet, to play games, to buy/sell assets, provides identity, communicate with other users, etc. 
+
+The account on æternity will be accessed by the wallet.
 
 # Will there be different types of nodes in æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
