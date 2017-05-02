@@ -6,7 +6,7 @@
 
 - Hybrid PoW/PoS;
 - Oracle Machine;
-- State Channels, or "Off-chain transactions" will allow for both increased transaction time as well as improving anonymity when sending and receiving transactions;
+- State Channels, or "Off-chain transactions" will allow for both faster transaction time as well as improving anonymity when sending and receiving transactions;
 - Governance;
 - Address naming system;
 
