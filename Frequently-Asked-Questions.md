@@ -24,10 +24,11 @@ Table of Contents
    * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
    * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
 
-# How is æternity different from Ethereum? #
+# How is æternity different from Ethereum and Bitcoin? #
 
-On Ethereum contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts.
-On æternity each contract only exists for a moment. It is settled independently of all the other contracts.
+On Bitcoin Smart-contracts do not exist as of yet.
+On Ethereum Smart-contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts.
+On æternity each contract only exists for a moment. It is settled independently of all the other contracts via state channels.
 
 # Why is æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
