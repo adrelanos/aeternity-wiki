@@ -5,8 +5,8 @@ Anyone who wants to store or transfer value, with unparalleled speed, reliabilit
 
 * Investors:
 
-    Investors can invest directly in Æternity by participating in the [second phase]("https://blog.aeternity.com/security-
-    transparency-simplicity-1411fad10974") of the contribution campaign or by simply purchasing AE tokens once they are 
+    Investors can invest directly in Æternity by participating in the [second phase](<https://blog.aeternity.com/security-
+    transparency-simplicity-1411fad10974>) of the contribution campaign or by simply purchasing AE tokens once they are 
     listed on an exchange. To do this, users must first be registered on an exchange where Aeon is trading. Next, the 
     user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user 
     can choose to store the AE tokens on the exchange (not recommended) or transfer to a wallet.
