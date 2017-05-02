@@ -112,14 +112,14 @@ Interested to see some action? Access our Twitch account to look at our live cod
 # What can the AE token be used for? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-AE are the access tokens to the æternity blockchain and act as a unit of account for the resources spent on æternity. AE are the energy (or “crypto-fuel”) used to power any application implemented on the platform. Every action (and even inaction) on the æternity platform costs something, even if only fractions of cents.
+AEON or AE are the access tokens to the æternity blockchain and act as a unit of account for the resources spent on æternity. AE are the energy (or “crypto-fuel”) used to power any application implemented on the platform. Every action (and even inaction) on the æternity platform costs something, even if only fractions of cents.
 
 AE are the fuel for the new types of trustless apps that will be be enabled. For more information regarding applications, consult the [æternity whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf), visit the [website](http://www.aeternity.com/) or continue reading this FAQ.
 
 # What are some of the more interesting applications that can be created on æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-æternity enables a high transaction throughput. Broadly speaking, any type of application that requires high transactional speed will run smoothly on æternity. Here are some of those:
+æternity enables a high transaction throughput. Broadly speaking, and contrary to traditional blockchains limitations, any type of application that requires high transactional speed will run smoothly on æternity. Here are some of those:
 
 * Nano and micro payments.
 * Smart-contracts using oracles to initiate millions of parallel transactions.
@@ -148,7 +148,6 @@ We are building a state-of-the-art virtual machine for secure and efficient bloc
 æternity’s smart contracts can be massive, gigabytes to terabytes in volume, not a problem — as long as the part that gets executed is relatively small.
 
 # Why do we need Ethereum? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 The primary reason for using Ethereum-created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale — Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
 
