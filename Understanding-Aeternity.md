@@ -19,12 +19,13 @@ True scalability and trust-less Turing complete state channels are setting æter
 
 In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and links to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as complete record of all transactions on the network from the genesis block to the most recently completed block.
 
- 
 # What is special about æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
-æternity is built for scalable smart contracts that can interface with real world data through oracles. While other smart contract platforms can have oracle machines implemented on top of them, æternity is unique in that it contains oracles as a smart contract "primitive." Having mechanisms that allow for real-world truth to enter into the chain state, in a reliable way, offers the possibility of smart contract creation with substantial real-world use cases. 
- 
+æternity is built for scalable smart contracts that can interface with real world data through oracles. 
+Other smart contract platforms are experimenting with 3rd party oracle machines added on top of the consensus. 
+The Oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
+
 # What is an Oracle?
 
 An oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of prediction markets and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information accessible to the public.
@@ -40,6 +41,8 @@ No contract state is stored on-chain, so all channels are independent from each 
 # How does æternity work?
 ![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
 (Highlevel, also describe the proof system, state channels):
+
+
 
 # What are AE Tokens and how are they used and consumed?
 
