@@ -1,6 +1,8 @@
 # What is Æternity?
 
-Æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. Æternity will use secure smart contracts that interface with real-world data through decentralized oracles. Æternity differs from Ethereum by using trustless Turing-complete state channels to achieve scalability.
+Æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. Æternity will use secure smart contracts that interface with real-world data through decentralized oracles. Æternity differs from Ethereum by using trust-less Turing-complete state channels to achieve scalability.
+
+![æternity plaform-vision](http://imgur.com/a/XfTlU)
 
 Æternity is unique in many ways, but the key features are:
 
