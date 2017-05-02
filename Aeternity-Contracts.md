@@ -11,6 +11,9 @@ the execution of code branches in different contracts on the existence of the sa
 
 
 # How & when are contracts executed?
+
+Contract execution is metered in a way similar to Ethereum’s “gas”, but æternity uses two different resources for its metering, one for time and one for space. Both of these resources are paid for using aeon (AE) by the party that requests the execution. This could be seen as undesirable, because it is probably another party that is causing the need for the blockchain to resolve the dispute in the first place. However, as long as all money in the channel is not used for betting, this can be effectively nullified in the contract code, since it has the ability to redistribute funds from one party to the other. It is in fact generally good practice to avoid using all funds in a channel to transact, because it disincentives the losing party to cooperate when closing the channel
+
 # Writing a contract:
 Documentation to syntax and sample common code.
 
