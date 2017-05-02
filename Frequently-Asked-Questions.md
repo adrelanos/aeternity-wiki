@@ -4,13 +4,13 @@ Table of Contents
 =================
 
    * [Table of Contents](#table-of-contents)
-   * [How is æternity different from Ethereum?](#how-is-aeternity-different-from-ethereum)
+   * [How is æternity different from Ethereum and Bitcoin?](#how-is-aeternity-different-from-ethereum)
    * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
    * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
-   * [What is Maximum Supply of AE?](#what-is-maximum-supply-of-ae)
+   * [What is the Maximum Supply of AE?](#what-is-maximum-supply-of-ae)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
    * [How does aeternity compare to ...?](#how-does-aeternity-compare-to-)
    * [æternity, a new blockchain?](#æternity-a-new-blockchain)
