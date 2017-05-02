@@ -1,15 +1,23 @@
 # Types of users, and where they might start
 * Users: 
 
-Anyone who wants to store or transfer value, with unparalleled speed, reliability and privacy will be able to use æternity to do so. Everything Bitcoin and Ethereum can do, just got upgraded.
+Anyone who wants to store or transfer value, with unparalleled speed, reliability and privacy will be able to use æternity to do so. Everything Bitcoin and Ethereum can do, just got upgraded. Below is a summary of the various user types and how they might start with Æternity.
 
 * Investors:
 
-Many decentralised applications will be written on top of æternity. Investors will be able to participate in challenging and cutting-edge projects on the most cutting-edge blockchain.
+    *Investors can invest directly in Æternity by participating in the [second phase](https://blog.aeternity.com/security-
+     transparency-simplicity-1411fad10974) of the contribution campaign or by simply purchasing AE tokens once they are 
+     listed on an exchange. To do this, users must first be registered on an exchange where Aeon is trading. Next, the 
+     user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user 
+     can choose to store the AE tokens on the exchange (not recommended) or transfer to a wallet.
+
+    *In addition, many decentralised applications will be written on top of Æternity. Investors will be able to 
+     participate in challenging and cutting-edge projects on the most cutting-edge blockchain. 
 
 * Speculators:
 
-The value of Aeon will be recognised by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon.
+     The value of Aeon will be recognised by all forward thinking people. Although we don't endorse it, many people will 
+     want to speculate on the potential and price of Aeon.
  
 * Contract writers & Developers:
 
