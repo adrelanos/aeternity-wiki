@@ -41,7 +41,7 @@ Erlang is the perfect choice to write a blockchain from scratch allowing to achi
 <td class="align-middle">
 <strong class="d-block">BLOCKCHAIN NETWORKS</strong>
 
-<small>æternity blockchain technology is free to use and easy to incorporate. ​
+<small>The æternity blockchain technology is free to use and easy to incorporate. ​
 MIT-licensed modules will allow easy implementation in blockchain consortiums and will enable free and open access for developers to be able to build on the æternity platform. Cross-chain atomic swaps do the rest.</small>
 </td>
 </tr>
