@@ -20,4 +20,4 @@ Aeternity has started the claiming process. To claim your Ledger Nano S:
 Aeternity is in the process of processing orders and expect to be shipping by the end of May. 
 
 # I still have a question who can I talk to:
-Please feel free to visit our [[Contacts-and-Groups]] section and feel free to reach out to the team.
+Please feel free to visit our [[Contacts and Groups|Contacts-and-Groups]] section and feel free to reach out to the team.
