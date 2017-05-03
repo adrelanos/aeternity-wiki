@@ -18,6 +18,8 @@ Once the oracle has submitted an answer, other users are free to dispute the ans
 
 Therefore, what is in effect achieved is a decentralised oracle system. The truth value of oracle answers, if in dispute, will be ultimately determined by the decentralised consensus system of the AE network.
 
+![aeternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
+
 For more information, refer to the [Aeternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 ## Consensus
 ## Futarchy
