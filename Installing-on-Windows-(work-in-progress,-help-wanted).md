@@ -19,7 +19,7 @@ These are the very basic commands so that you know how to navigate folders from 
 
 https://www.google.com/search?q=install+git
 
-In that way you'll be able to get source code directly from repository.
+In that way you'll be able to get the source code directly from repository.
 
 ## 1. Download and install Erlang
 
@@ -36,7 +36,7 @@ It many clicks away, I've reported a usability bug, it's by design: http://imgur
 
 ## 3. Install rebar
 
-Here someone provides great instructions: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
+A very detailed set of instructions can be found on this link: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
 
 In case the link goes offline:
 
@@ -55,7 +55,7 @@ In case the link goes offline:
 
 **4.3)** `rebar compile`
 
-It is likely it will throw an error:
+It is likely that it will throw an error:
 
 ```
 Compiling c:/code/testnet/deps/jiffy/c_src/decoder.c
