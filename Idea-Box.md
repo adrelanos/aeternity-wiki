@@ -17,3 +17,6 @@ Ethereum has Augur and Gnosis trying to build prediction markets on top of it, w
 ### Dominant Assurance Contracts
 
 ### Micro- & Nano Payments
+
+æternity will be the preferred Blockchain for the Micro and Nano payments. No other Blockchain now can match the speed that's provided by æternity's state channels.
+The state channels enable a huge amount of throughput of transaction between partners, while keeping all unnecessary info off-chain, which will result in more privacy, and less Blockchain bloating.
