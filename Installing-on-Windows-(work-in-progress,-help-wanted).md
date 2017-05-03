@@ -83,3 +83,5 @@ That's where it goes bad: https://github.com/davisp/jiffy/issues/144
 > Any idea where assert.h lives on Windows?
 
 > It should be part of the std library
+
+> I suggest having a separate section for Linux, or shall I put a Linux section in each paragraph?
