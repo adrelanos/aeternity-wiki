@@ -14,6 +14,8 @@ Ethereum has Augur and Gnosis trying to build prediction markets on top of it, w
 
 ### Gaming
 
+State channels can be used through special nodes to play games using æon (AE). Either single player games, between friends, or even total strangers. æternity will enable trust-less gaming applications, where no player puts his trust into the other's infrastructure or central servers, but into the state channels of the æternity Blockchain.
+
 ### Dominant Assurance Contracts
 
 ### Micro- & Nano Payments
