@@ -1,4 +1,4 @@
-# Community
+## Community is live on these links
 
 ### https://www.facebook.com/aeternityproject/
 
