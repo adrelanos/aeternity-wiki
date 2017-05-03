@@ -21,7 +21,8 @@ Therefore, what is in effect achieved is a decentralised oracle system. The trut
 ![aeternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
 
 For more information, refer to the [Aeternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
-## Consensus
+## Governance & Consensus
+![æternity governance](http://i67.tinypic.com/axehab.png)
 ## Futarchy
 here follow a collection of in-depth analysis about Futarchy ordered by publication date:
 * [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
