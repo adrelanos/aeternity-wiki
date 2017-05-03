@@ -26,9 +26,13 @@ In short, a blockchain is a secure ledger distributed among participants compute
 Other smart contract platforms are experimenting with 3rd party oracle machines added on top of the consensus. 
 The Oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
 
+![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
+
 # What is an Oracle?
 
 An oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of prediction markets and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information accessible to the public.
+
+[More details](https://github.com/aeternity/testnet/wiki/Research-and-Theory#decentralized-oracles)
 
 # What are State Channels?
 
@@ -36,10 +40,14 @@ The State Channel design enables off chain verification of data and smart contra
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
 No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralized solutions available today.
- For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
+
+--Taken from [here](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
+ 
+For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 
 # How does æternity work?
-![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
+* [Governance & æternity](https://github.com/aeternity/testnet/wiki/Research-and-Theory#governance--consensus)
+
 (Highlevel, also describe the proof system, state channels):
 
 
