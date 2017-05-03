@@ -1,4 +1,4 @@
-The P1 contribution phase officially ended, and if you were one of the first 1000 people to contribute more than 12ETH you may have qualified for a free Ledger Nano S!
+The P1 contribution phase officially ended, and if you were one of the first 1000 people to contribute at least 12ETH you may have qualified for a free Ledger Nano S!
 
 Below you will find information on how to check if you qualified and start the claim process to received your Ledger.
 
