@@ -14,8 +14,25 @@ In order to better structure the content in the wiki, sub pages would be very us
 Prediction markets (Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralised and transparent manner for the first time.
 
 Ethereum has Augur and Gnosis trying to build prediction markets on top of it, with each its different system and currency.
+æternity differentiates itself, by integrating the Oracle into the blockchain consensus. 
 
-æternity differentiates itself, by having the Oracle's layer integrated into the blockchain, using the Aeons as betting to be able to bring real world information to the blockchain, and use it in the execution of smart contracts.
+Any user may create an Oracle by posing a question or statement, staking coins and providing a binary or a scaled answering option. 
+AE coins can be used to acquire stakes of those specific outcomes. 
+The more sure a user is about the outcome, the more stakes he may acquire and hence the more likely (he thinks) it's, that the outcome will be correct. Applying the wisdom of the crowd to all participating users of the prediction market, it is possible to 
+
+a) statistically predict the probability of a future event occuring  
+
+b) verify historic data from legacy systems or other blockchains
+
+c)  verify API data from legacy systems or other blockchains
+
+Meaning any data outside the blockchain can be translated into a deterministic value that can be used in æternity smart contracts, making real-world data easy accessible and actionable.  
+
+##### Prediction Market - High Level Concept
+![aeternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
+
+##### Oracle & Prediction Market - High Level Concept
+![aeternity oracle & prediction market](http://i63.tinypic.com/30c291s.png)
 
 ### Gaming
 
