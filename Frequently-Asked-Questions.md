@@ -68,6 +68,8 @@ The blockchain is not completely stateless. It keeps a record of each account ba
 # What is the Circulating Supply of AE? #
 AE currently in circulation: TODO
 
+Total AE distributed during Phase 1: 139,089,935.082
+
 AE in circulation after contribution phase 2: TODO
 
 # What is the Maximum Supply of AE? #
