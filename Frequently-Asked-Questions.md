@@ -114,7 +114,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 
 AEON or AE are the access tokens to the æternity blockchain and act as a unit of account for the resources spent on æternity. AE are the energy (or “crypto-fuel”) used to power any application implemented on the platform. Every action (and even inaction) on the æternity platform costs something, even if only fractions of cents.
 
-AE are the fuel for the new types of trustless apps that will be be enabled. For more information regarding applications, consult the [æternity whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf), visit the [website](http://www.aeternity.com/) or continue reading this FAQ.
+AE are the fuel for the new types of trustless apps that will be enabled. For more information regarding applications, consult the [æternity whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf), visit the [website](http://www.aeternity.com/) or continue reading this FAQ.
 
 # What are some of the more interesting applications that can be created on æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
