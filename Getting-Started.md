@@ -4,7 +4,7 @@ Anyone who wants to store or transfer value, with unparalleled speed, reliabilit
 
 * Contributors:
 
-    Contributors can support directly in Æternity by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens directly on an exchange once Aeon is listed in them. To do this, users must first be registered on an exchange where Aeon is trading. Next, the user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose to store the AE tokens on the exchange (not recommended) or transfer to a wallet.
+    Contributors can directly support Æternity by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens directly on an exchange once Aeon is listed in them. To do this, users must first be registered on an exchange where Aeon is trading. Next, the user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose to store the AE tokens on the exchange (not recommended) or transfer to a wallet.
 
     In addition, many decentralised applications will be written on top of Æternity. Contributors will be able to participate in challenging and cutting-edge projects on the most cutting-edge blockchain by contributing to their initial coin offerings and/or purchasing their tokens on an exchange. 
 
