@@ -16,5 +16,6 @@ This will be rapidly expanded.
 * [[Research-and-Theory]]
 * [[Contacts-and-Groups]]
 * [[Bounty]]
+* [[Idea Box]]
 * [[Community]]
 
