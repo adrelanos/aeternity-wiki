@@ -1,16 +1,16 @@
 # What is mining?
 
-Volunteers can run the æternity mining software on computers, servers or mobile devices to order and validate transactions. Miners are compensated with the issuance of aeon tokens, the native cryptocurrency asset of the Aeternity network. Aeon can be used as payment for any resources one consumes on the æternity platform, as well as the basis for financial applications implemented on the platform.
+Volunteers can run the æternity mining software on computers, servers or mobile devices to order and validate transactions. Miners are compensated with the issuance of aeon tokens, the native cryptocurrency asset of the æternity network. Aeon can be used as payment for any resources one consumes on the æternity platform, as well as the basis for financial applications implemented on the platform.
 
 Unlike Bitcoin, Ethereum and most other cryptocurrencies, æternity uses a hybrid Proof-of-Work ("PoW") and Proof-of-Stake ("PoS") consensus mechanism. The PoW algorithm used is called the Cuckoo Cycle.
 
 # How can you earn Aeons (AE) by securing the network and setting up a node
 
-The Consensus on the aeternity blockchain is achieved via a hybrid Proof-of-Work (PoW) and Proof-of-Stake (PoS) algorithm. The Proof-of-work will be done by miners via the "Cuckoo Cycle" algorithm. Proof-of-Stake is implemented via on-chain prediction markets, which project the information available to the network to one single number between 0 and 1. This number is used to signal to the miners which version of the blockchain to mine on.
+The Consensus on the æternity blockchain is achieved via a hybrid Proof-of-Work (PoW) and Proof-of-Stake (PoS) algorithm. The Proof-of-work will be done by miners via the "Cuckoo Cycle" algorithm. Proof-of-Stake is implemented via on-chain prediction markets, which project the information available to the network to one single number between 0 and 1. This number is used to signal to the miners which version of the blockchain to mine on.
 
 # Mining & Node types:
 
-The aeternity Blockchain will feature multiple types of nodes that each fulfill a certain task on the network. Use cases are diverse, and the best ones are yet to be imagined.
+The æternity blockchain will feature multiple types of nodes that each fulfill a certain task on the network. Use cases are diverse, and the best ones are yet to be imagined.
 
 * Some nodes will be providing liquidity to the State channels lightning network. These nodes will maintain multiple connection channels with other nodes. Creating a channel with them will enable any node to establish state channel contracts with many others. This will involve a fee paid to the node.
 
@@ -35,7 +35,7 @@ While hardware requirements for creating a PoS miner will not be particularly hi
 
 The "Cuckoo Cycle" PoW is more power-efficient and indirectly useful, as it encourages the development of better random access memory (DRAM) chips. The best part is that even low power devices such as smartphones can efficiently mine new tokens, achieving an unparalleled decentralisation, which is crucial to the success of any blockchain.
 
-As such, Aeternity mining is designed to be more egalitarian and inclusive compared to cryptocurrencies where mining is dominated by large mining entities which use application-specific integrated circuit ("ASIC") chips designed specifically to take advantage of a particular POW algorithm.
+As such, æternity mining is designed to be more egalitarian and inclusive compared to cryptocurrencies where mining is dominated by large mining entities which use application-specific integrated circuit ("ASIC") chips designed specifically to take advantage of a particular PoW algorithm.
 
 As noted by John Tromp in his paper, "Cuckoo Cycle: a memory bound graph-theoretic proof-of-work":
 >”[Cuckoo Cycle is] an instantly verifiable memory bound PoW that is unique in being dominated by latency rather than computation. In that sense, mining Cuckoo Cycle is a form of ASIC mining where DRAM chips serve the application of randomly reading and writing billions of bits. When even phones charging overnight can mine without orders of magnitude loss in efficiency, not with a mindset of profitability but of playing the lottery, the mining hardware landscape will see vast expansion, benefiting adoption as well as decentralisation.”
