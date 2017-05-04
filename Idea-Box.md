@@ -16,7 +16,8 @@ In order to better structure the content in the wiki, sub pages would be very us
 
 [What's and Oracle?](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity#what-is-an-oracle)  
 
-* ?
+* Digital Insurance Marketplace - 'Bond of Trust' flattened into simple product based on on prediction market odds, tradable on digital marketplace to provide instant insurance by the hour.
+
 * ?
 ***
 ## Gaming
