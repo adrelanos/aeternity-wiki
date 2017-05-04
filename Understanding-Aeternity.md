@@ -30,7 +30,7 @@ The Oracle is part of the consensus in æternity and can deliver deterministic v
 
 # What is an Oracle?
 
-Oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of prediction markets and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information accessible to the public.
+Oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of [Prediction Markets](https://github.com/aeternity/testnet/wiki/Research-and-Theory#prediction-markets) and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information accessible to the public.
 
 [More details](https://github.com/aeternity/testnet/wiki/Research-and-Theory#decentralized-oracles)
 
