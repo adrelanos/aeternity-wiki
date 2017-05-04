@@ -6,15 +6,15 @@ On æternity, smart contracts exist only inside off chain state channels. Just i
 
 ### Aeon: 
 
-The use of the blockchain is not free, but requires that the user spends a token called aeon. Aeon are used as payment for any resources one consumes on the platform, as well as the basis for financial applications implemented on the platform.
+The use of the blockchain is not free but requires that the user spends a token called AEON. Aeon is used as payment for any resources one consumes on the platform, as well as the basis for financial applications implemented on the platform.
 
 ### Accounts:
 
-Each account has an address and a balance of aeon and also a nonce which increases with every transaction and the height of its last update. Each account has also to pay a small fee for the amount of time it is open. The costs of creating and keeping accounts prevents spam and disincentives state-bloat. The reward for deleting accounts incentives the reclaiming of space.
+Each account has an address and a balance of AEON and also a nonce which increases with every transaction and the height of its last update. Each account has also to pay a small fee for the amount of time it is open. The costs of creating and keeping accounts prevent spam and disincentives state-bloat. The reward for deleting accounts incentives the reclaiming of space.
 
 ### Name system: 
 
-Many blockchain systems suffer from unreadable addresses for their users. In the vein of Aaron Swartz’ work and Namecoin, Æternity features a name system that is both decentralized and secure, while still supporting human-friendly names. The blockchain’s state includes a mapping from unique human-friendly strings to fixed-size byte arrays. These names can be used to point to things such as account addresses on Æternity, or hashes e.g. of Merkle trees.
+Many blockchain systems suffer from unreadable addresses for their users. In the vein of Aaron Swartz’ work and Namecoin, Æternity features a naming system that is both decentralized and secure, while still supporting human-friendly names. The blockchain’s state includes a mapping from unique human-friendly strings to fixed-size byte arrays. These names can be used to point to things such as account addresses on Æternity, or hashes e.g. of Merkle trees.
 
 ### Block contents: 
 
@@ -42,7 +42,7 @@ The hash of the previous block is required to maintain an ordering of the blockc
 
 ### State channels:
 
-On æternity, the only state update that can be settled on the blockchain is a transfer of aeon, and the only aeon that can be transferred are the ones that the transacting parties already deposited into the channel. This makes all channels
+On æternity, the only state update that can be settled on the blockchain is a transfer of AEON, and the only AEON that can be transferred are the ones that the transacting parties already deposited into the channel. This makes all channels
 independent from each other, which has the immediate benefit that any transactions related to channels can be processed
 in parallel, greatly improving transaction throughput.
 
@@ -50,17 +50,17 @@ The blockchain is only used to settle the final outcome or to resolve conflicts 
 
 ### Smart contracts:
 
-Despite that the only state that can be settled on-chain is a transfer of aeon, Æternity still features a Turing-complete virtual machine that can run “smart contracts”. Contracts on Æternity are strictly agreements that distribute funds according to some rules, which stands in stark contrast to the entity-like contracts of e.g. Ethereum. Two of the more notable practical differences is that by default, only the involved parties know about a given contract, and only parties that have an open state channel can create a valid contract. If the parties agree to a contract, they sign it and keep copies for future reference. It is only submitted to the blockchain if its outcome is disputed, in which case the code is only ever stored as part of the submitted transaction, never in any other state. If this happens, the blockchain distributes the tokens according to the contract and closes the channel.
+Despite that the only state that can be settled on-chain is a transfer of AEON, Æternity still features a Turing-complete virtual machine that can run “smart contracts”. Contracts on Æternity are strictly agreements that distribute funds according to some rules, which stands in stark contrast to the entity-like contracts of e.g. Ethereum. Two of the more notable practical differences is that by default, only the involved parties know about a given contract, and only parties that have an open state channel can create a valid contract. If the parties agree to a contract, they sign it and keep copies for future reference. It is only submitted to the blockchain if its outcome is disputed, in which case the code is only ever stored as part of the submitted transaction, never in any other state. If this happens, the blockchain distributes the tokens according to the contract and closes the channel.
 
 # Contracts interaction
 
-Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a the simple hashlocking operation. [(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
-the execution of code branches in different contracts on the existence of the same secret value. As a simple example usage, hashlocks make it possible for users that don’t share a state channel between them, to trustlessly send each other aeon, as long as there is a path of channels between them.
+Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a simple hash locking operation. [(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
+the execution of code branches in different contracts on the existence of the same secret value. As a simple example usage, hashlocks make it possible for users that don’t share a state channel between them, to trustlessly send each other AEON, as long as there is a path of channels between them.
 
 
 # How & when are contracts executed?
 
-Contract execution is metered in a way similar to Ethereum’s “gas”, but æternity uses two different resources for its metering, one for time and one for space. Both of these resources are paid for using aeon (AE) by the party that requests the execution. This could be seen as undesirable, because it is probably another party that is causing the need for the blockchain to resolve the dispute in the first place. However, as long as all money in the channel is not used for betting, this can be effectively nullified in the contract code, since it has the ability to redistribute funds from one party to the other. It is in fact generally good practice to avoid using all funds in a channel to transact, because it disincentives the losing party to cooperate when closing the channel
+Contract execution is metered in a way similar to Ethereum’s “gas”, but æternity uses two different resources for its metering, one for time and one for space. Both of these resources are paid for using aeon (AE) by the party that requests the execution. This could be seen as undesirable because it is probably another party that is causing the need for the blockchain to resolve the dispute in the first place. However, as long as all money in the channel is not used for betting, this can be effectively nullified in the contract code, since it has the ability to redistribute funds from one party to the other. It is in fact generally good practice to avoid using all funds in a channel to transact because it disincentives the losing party to cooperate when closing the channel
 
 # Writing a contract:
 Documentation to syntax and sample common code.
