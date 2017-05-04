@@ -83,3 +83,8 @@ Like any platform, the potential applications are limited only by the imaginatio
 The first round available to purchase æternity was during æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH. 
 
 The second round will begin 29th May 2017. You can participate as well as follow any updates here: https://wallet.aeternity.com/
+
+
+
+---
+For more info, feel free to check out the [Wikipedia](https://en.wikipedia.org/wiki/AEternity) page on æternity.
