@@ -6,6 +6,7 @@ Table of Contents
    * [Table of Contents](#table-of-contents)
    * [How is æternity different from Ethereum and Bitcoin?](#how-is-aeternity-different-from-ethereum)
    * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
+   * [How is æternity written?](#How-is-æternity-written)
    * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
@@ -38,6 +39,12 @@ Since contracts on æternity are independent, they can be processed in parallel.
 On Ethereum it is possible to move computation, but it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
 
 On æternity computation by default happens off-chain.
+
+# How is æternity written? #
+
+æternity core blockchain code is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
+
+Erlang was chosen because it is the perfect choice to write a Blockchain from scratch allowing to achieve superior code execution stability and performance.
 
 # How does æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
