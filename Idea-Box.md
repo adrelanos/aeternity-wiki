@@ -9,6 +9,9 @@ In order to better structure the content in the wiki, sub pages would be very us
 [Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)
 
 # Use Case Ideas for æternity
+## Supply Chain Management
+High level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets and Oracles.
+![SCM automation (high level)](http://i67.tinypic.com/1112pw4.png)
 ## Prediction Markets
 > Prediction Markets (created with Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
 
