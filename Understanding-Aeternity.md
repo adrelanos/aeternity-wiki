@@ -17,7 +17,7 @@ True scalability and trust-less Turing complete state channels are setting æter
 # What is the purpose of æternity?
 
 
-To presents a highly scalable blockchain architecture with a consensus mechanism which is also used to check the oracle. Thus the oracle will gets efficient, layering one consensus mechanism on top of another will be avoided. State channels integrated to increase the privacy and scalability. Tokens in channels can be transferred using purely functional smart contracts that can access oracle answers .By not storing contract code or state on-chain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
+æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism which is also used to check the oracle. Thus the oracle will get efficient and layering one consensus mechanism on top of another will be avoided. State channels are integrated to increase the privacy and scalability. Tokens in channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing contract code or state on-chain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
 
 
 # What is blockchain?
@@ -41,7 +41,7 @@ Oracle is a mechanism to teach the blockchain true facts about our world. This i
 
 # What are State Channels?
 
-The State Channel design enables off chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
+The State Channel design enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
 No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralized solutions available today.
