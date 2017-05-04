@@ -26,7 +26,12 @@ In order to better structure the content in the wiki, sub pages would be very us
 
 ***  
 ## Dominant Assurance Contracts
-> Dominant Assurance Contracts
+> Dominant Assurance Contract is a mechanism originally designed to provide public goods and funding public projects.
+It's similar to a smart contract. Funds are collected and locked in Dominance Assurance Contract. Part of the funds are locked for development and other parts for ROI for investors.
+Once a milestone is cleared and approved the contract will release funds allocated to that specific milestone.
+If the milestone is not reached, investors get their investments and interests back. 
+
+* Kickstarter 2.0 (with a Money Back guarantee & milestone dependent release of funds)
   
 ***
 ## Micro- & Nano Payments
