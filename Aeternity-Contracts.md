@@ -1,6 +1,6 @@
 # How does contracts work
 
-On æternity, smart contracts exist only inside off chain state channels. Just in case of disagreement between the parties the smart contract code gets enforced by the æternity blockchain. The blockchain here acts as a real world court who will only look int contracts on which the contracting parties disagree. The rest of the contracts are executed off-chain, ensuring fast and private execution.
+On æternity, smart contracts exist only inside off-chain state channels. Just in case of disagreement between the parties, the smart contract code gets enforced by the æternity blockchain. The blockchain here acts as a real world court who will only look into contracts on which the contracting parties disagree. The rest of the contracts are executed off-chain, ensuring fast and private execution.
 
 # Contract components and participants
 
@@ -10,11 +10,11 @@ The use of the blockchain is not free but requires user spends a token called AE
 
 ### Accounts:
 
-Each account have an address, balance of AEON, nonce which increase every transaction and the height of the last update. Each account have to pay a small fee also for amount of a time that open. The costs of creating and keeping accounts prevent spam and disincentives state-bloat. Reward for delete an accounts incentives the reclaiming of space.
+Each account have an address, balance of AEON, nonce which increase every transaction and the height of the last update. Each account have to pay a small fee also for amount of a time that open. The costs of creating and keeping accounts prevent spam and disincentives state-bloat. Reward for delete an accounts incentivizes the reclaiming of space.
 
 ### Name system: 
 
-Many blockchain systems suffer from unreadable addresses for their users. In the vein of Aaron Swartz’ work and Namecoin, Æternity features a naming system that is both decentralized and secure, while still supporting human-friendly names. The blockchain’s state includes a mapping from unique human-friendly strings to fixed-size byte arrays. These names can be used to point to things such as account addresses on Æternity, or hashes e.g. of Merkle trees.
+Many blockchain systems suffer from unreadable addresses for their users. In the vein of Aaron Swartz’ work and [Namecoin](https://namecoin.org), æternity features a naming system that is both decentralized and secure, while still supporting human-friendly names. The blockchain’s state includes a mapping from unique human-friendly strings to fixed-size byte arrays. These names can be used to point to things such as account addresses on æternity, or hashes e.g. of Merkle trees.
 
 ### Block contents: 
 
@@ -50,7 +50,7 @@ The blockchain is only used to settle the final outcome or to resolve conflicts 
 
 ### Smart contracts:
 
-Despite that the only state that can be settled on-chain is a transfer of AEON, Æternity still features a Turing-complete virtual machine that can run “smart contracts”. Contracts on Æternity are strictly agreements that distribute funds according to some rules, which stands in stark contrast to the entity-like contracts of e.g. Ethereum. Two of the more notable practical differences is that by default, only the involved parties know about a given contract, and only parties that have an open state channel can create a valid contract. If the parties agree to a contract, they sign it and keep copies for future reference. It is only submitted to the blockchain if its outcome is disputed, in which case the code is only ever stored as part of the submitted transaction, never in any other state. If this happens, the blockchain distributes the tokens according to the contract and closes the channel.
+Despite that the only state that can be settled on-chain is a transfer of AEON, æternity still features a Turing-complete virtual machine that can run “smart contracts”. Contracts on æternity are strictly agreements that distribute funds according to some rules, which stands in stark contrast to the entity-like contracts of e.g. Ethereum. Two of the more notable practical differences is that by default, only the involved parties know about a given contract, and only parties that have an open state channel can create a valid contract. If the parties agree to a contract, they sign it and keep copies for future reference. It is only submitted to the blockchain if its outcome is disputed, in which case the code is only ever stored as part of the submitted transaction, never in any other state. If this happens, the blockchain distributes the tokens according to the contract and closes the channel.
 
 # Contracts interaction
 
@@ -60,7 +60,7 @@ the execution of code branches in different contracts on the existence of the sa
 
 # How & when are contracts executed?
 
-Contract execution is metered in a way similar to Ethereum’s “gas”, but æternity uses two different resources for its metering, one for time and one for space. Both of these resources are paid for using aeon (AE) by the party that requests the execution. This could be seen as undesirable because it is probably another party that is causing the need for the blockchain to resolve the dispute in the first place. However, as long as all money in the channel is not used for betting, this can be effectively nullified in the contract code, since it has the ability to redistribute funds from one party to the other. It is in fact generally good practice to avoid using all funds in a channel to transact because it disincentives the losing party to cooperate when closing the channel
+Contract execution is metered in a way similar to Ethereum’s “gas”, but æternity uses two different resources for its metering, one for time and one for space. Both of these resources are paid for using aeon (AE) by the party that requests the execution. This could be seen as undesirable because it is probably another party that is causing the need for the blockchain to resolve the dispute in the first place. However, as long as all money in the channel is not used for betting, this can be effectively nullified in the contract code, since it has the ability to redistribute funds from one party to the other. It is in fact generally good practice to avoid using all funds in a channel to transact because it disincentivizes the losing party to cooperate when closing the channel.
 
 # Writing a contract:
 Documentation to syntax and sample common code.
