@@ -17,12 +17,12 @@ True scalability and trust-less Turing complete state channels are setting æter
 
 # What is blockchain?
 
-In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and links to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and links to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
-æternity is built for scalable smart contracts that can interface with real world data through oracles. 
+æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
 Other smart contract platforms are experimenting with 3rd party oracle machines added on top of the consensus. 
 The Oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
 
@@ -39,7 +39,7 @@ Oracle is a mechanism to teach the blockchain true facts about our world. This i
 The State Channel design enables off chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralized solutions available today.
+No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralized solutions available today.
 
 --Taken from [here](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
  
@@ -48,7 +48,7 @@ For more information refer to [State Channel](http://www.jeffcoleman.ca/state-ch
 # How does æternity work?
 * [Governance & æternity](https://github.com/aeternity/testnet/wiki/Research-and-Theory#governance--consensus)
 
-(Highlevel, also describe the proof system, state channels):
+(High-level, also describe the proof system, state channels):
 
 
 
@@ -65,12 +65,12 @@ pays for every call to the API, possibly every HTTP-request.
 Paying to access an API solves DDoS problems, and it makes
 it easier to build high-quality APIs that are always available.
 
-Stable value assets : Smart contracts and oracles can be used in combination to program synthetic assets that stay
+Stable value assets: Smart contracts and oracles can be used in combination to program synthetic assets that stay
 nearly the same price as a real world asset.
 
 Event contracts: Event contracts pay when an event
 happens and don’t pay when an event does not happen, as
-per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistle blowing and supporting prediction markets.
+per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistleblowing and supporting prediction markets.
 
 Micropayments: æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
 
