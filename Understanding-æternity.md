@@ -1,3 +1,7 @@
+### **Why has this page been created?**
+The content is copied from here [HERE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) and now the revision history is gone. Please revert.
+***
+
 # What is æternity?
 
 æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
