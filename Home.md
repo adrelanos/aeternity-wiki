@@ -10,6 +10,7 @@ This will be rapidly expanded.
 * [[Aeternity Contracts]]
 * [[Aeternity Team]]
 * [[Aeternity Technology]]
+* [[State Channels]]
 * [Aeternity Blog](https://blog.aeternity.com/)
 * [Aeternity Wallet](https://wallet.aeternity.com/)
 * [[Mining]]
