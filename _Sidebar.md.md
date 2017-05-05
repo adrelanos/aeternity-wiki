@@ -1,23 +1,26 @@
-[Guidelines & To do list][todo]
+[**Guidelines & To do list**][todo]
 
-[Understanding æternity][understandAE]
+[**Understanding æternity**][understandAE]
 * [Frequently Asked Questions][faq]
 * [Research & Theory][research] 
 * [Technology of æternity][tech]
 * [æternity in the Blockch space][blockchainAndAE]
 * [æternity Team][team]
-* [Getting Started][start]
+* [Getting Started][started]
 
-[Documentation][doc] 
+[**Documentation**][doc] 
+* [Whitepaper (English)][WP_engl]
+* [Whitepaper (Korean)][WP_kr] 
 * [Contracts][contracts]
+* [Mining][mining]
+* [Troubleshooting][troubleshooting]
 
-
-[Community & Support][contact]
+[**Community & Support**][contact]
 * [Idea Box][ideabox]
 * [Claiming Your Ledger][ledgerclaim]
 * [Bounty Programs][bounty]
 * [How to sign Message with prKey][privatekeymessage]
-* 
+* [Windows Installation][wininstall]
 
 
 [todo]: https://github.com/aeternity/testnet/wiki/Wiki-Guidelines-&-To-Do's
@@ -35,3 +38,8 @@
 [contact]: https://github.com/aeternity/testnet/wiki/Contacts-and-Groups
 [privatekeymessage]: https://github.com/aeternity/testnet/wiki/How-to-sign-a-message-with-a-private-key%3F
 [ideabox]: https://github.com/aeternity/testnet/wiki/Idea-Box
+[wininstall]: https://github.com/aeternity/testnet/wiki/Installing-on-Windows-(work-in-progress,-help-wanted)
+[mining]: https://github.com/aeternity/testnet/wiki/Mining
+[troubleshooting]: https://github.com/aeternity/testnet/wiki/Troubleshooting
+[WP_engl]: https://github.com/aeternity/testnet/wiki/Whitepaper_English
+[WP_kr]: https://github.com/aeternity/testnet/wiki/Whitepaper_korean-(%ED%95%9C%EA%B5%AD%EC%96%B4)
