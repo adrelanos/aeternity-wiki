@@ -1,7 +1,7 @@
 ![aeternity logo](http://www.coinagenda.com/assets/img/sponsor/aeternity.jpg)
 
 Welcome to the Wiki of Aeternity.
-A wikipedia page can be found also in [here](https://en.wikipedia.org/wiki/AEternity).
+A wikipedia page can be found also [here](https://en.wikipedia.org/wiki/AEternity).
 
 > BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT! Also, please read the Wiki Guidelines & To Do's before contributing.
 
