@@ -15,7 +15,13 @@ To check if you qualified for a Ledger Nano S:
 Aeternity has started the claiming process. To claim your Ledger Nano S:
 * Visit: https://wallet.aeternity.com/.
 * Find the section - "ÆTERNITY LEDGER NANO S" - at the center of the page and click the "Claim your aeternity Ledger now" pink button.
-* Continue down the page and complete the instruction by verifying your wallet similar to when you made your contribution.
+
+http://imgur.com/WhfLzF2
+
+* Continue down the page and complete the instruction by verifying your wallet similar to when you made your contribution. 
+
+
+
 * After submitting your email you should receive a confirmation. The AE team will be in touch with you in the near future.
 
 # When will the Ledger Nano S be shipped out?
