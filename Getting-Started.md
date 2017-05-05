@@ -27,5 +27,5 @@ Anyone who wants to store or transfer value, with unparalleled speed, reliabilit
 * Nodes 
 
 # Grid of application/platform availability
-eg.)Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
+e.g., Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
 # Links to each software with installation guides, common CLI interaction etc for newbies.
