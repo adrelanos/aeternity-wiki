@@ -3,11 +3,12 @@
 Welcome to the Wiki of Aeternity.
 A wikipedia page can be found also in [here](https://en.wikipedia.org/wiki/AEternity).
 
-> BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT!
+> BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT! Also, please read the Wiki Guidelines & To Do's before contributing.
 
 This will be rapidly expanded.
 
-* [[Understanding Aeternity]]
+* [[00 Wiki Guidelines & To Do's]]
+* [[Understanding æternity]]
 * [[Getting Started]]
 * [[Aeternity Contracts]]
 * [[Aeternity Team]]
