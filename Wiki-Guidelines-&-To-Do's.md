@@ -21,4 +21,4 @@ b) once finished paste it under 'Closed' with the end date
     * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted
 
 * CLOSED
-    * Create Index to better find information [Jkat 17-05-05]
+    * Create [Index](https://github.com/aeternity/testnet/wiki/_Sidebar.md) to better find information [Jkat 17-05-05]
