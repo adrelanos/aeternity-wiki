@@ -2,3 +2,7 @@ State channels are a new development in blockchain technology. They come from th
 
 The fact that State Channels are mostly off chain allows for both improved scalability, because most of the computation and storage of intermediate states is done off-chain, and improved privacy, since only the intervening parties know about the details of the transaction.
 
+## An example
+
+Alice and Bob would like to transact on æternity. They both sign a transaction that specifies how much AE they both wish to commit to the transaction. The blockchain opens a channel and both can create new channel states. Channel states can either be a new distribution of funds between them, or a contract that determines a new distribution. Each of these channel states is signed by both parties and the sequence of state changes has a definite order. If a dispute arises, the latest signed state can be sent to the blockchain which will use it to distribute the funds accordingly and close the channel.  In general, there are two ways to close a channel: either the parties agree on a state and no longer wish to keep transacting, or a dispute arises and the channel is closed by the blockchain, after the funds are redistributed according to the latest valid channel state
+
