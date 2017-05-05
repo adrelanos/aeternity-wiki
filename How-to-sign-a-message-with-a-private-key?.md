@@ -80,3 +80,13 @@ Now let's create super simple webpage:
 
 
 
+# Alternative: myetherwallet
+
+Myetherwallet is a trustless open-source application that allows you to interact with the ethereum network without running a full client. You can create and manage wallets without uploading your private key.
+
+To sign a transaction perform the following steps:
+* go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/)
+* click "View wallet info" tab
+* chose how you would like to access your wallet and decrypt it locally
+* scroll to the section "Sign or verify message" on the page bottom
+* enter your message and optionally enter a date before clicking the "Sign message" button
