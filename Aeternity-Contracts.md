@@ -1,4 +1,4 @@
-# How does contracts work
+# How do contracts work
 
 On æternity, smart contracts exist only inside off-chain state channels. Just in case of disagreement between the parties, the smart contract code gets enforced by the æternity blockchain. The blockchain here acts as a real world court who will only look into contracts on which the contracting parties disagree. The rest of the contracts are executed off-chain, ensuring fast and private execution.
 
@@ -6,11 +6,11 @@ On æternity, smart contracts exist only inside off-chain state channels. Just i
 
 ### Aeon: 
 
-The use of the blockchain is not free but requires user spends a token called AEON. Aeon is used as payment for any resources one consumes on the platform, as well as the basis for financial applications implemented on the platform.
+The use of the blockchain is not free but requires the user to spend tokens called AEON. Aeon is used as payment for any resources one consumes on the platform, as well as the basis for financial applications implemented on the platform.
 
 ### Accounts:
 
-Each account have an address, balance of AEON, nonce which increase every transaction and the height of the last update. Each account have to pay a small fee also for amount of a time that open. The costs of creating and keeping accounts prevent spam and disincentives state-bloat. Reward for delete an accounts incentivizes the reclaiming of space.
+Each account has an address, balance of AEON, nonce which increases with every transaction and the height of the last update. Each account also has to pay a small fee for the amount of a time that it is open. The costs of creating and keeping accounts prevent spam and disincentivizes state-bloat. Reward for deleting accounts incentivizes the reclaiming of space.
 
 ### Name system: 
 
