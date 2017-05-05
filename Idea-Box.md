@@ -1,16 +1,16 @@
 # Wiki Wishes
 ## Google Calendar Plug In
 
-It would be great to have a google calendar plug in, to have a comprehensive overview of meet ups and events.
-There is a [MediaWiki plug in](https://www.mediawikiwidgets.org/Google_Calendar) available, but don't know if its working.
+It would be great to have a google calendar plug in, to have a comprehensive overview of meetups and events.
+There is a [MediaWiki plug in](https://www.mediawikiwidgets.org/Google_Calendar) available, but don't know if it's working.
 
 ## Subpages
-In order to better structure the content in the wiki, sub pages would be very useful.
+In order to better structure the content in the wiki, subpages would be very useful.
 [Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)
 
 # Use Case Ideas for æternity
 ## Supply Chain Management
-High level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets and Oracles.
+High-level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets, and Oracles.
 ![SCM automation (high level)](http://i67.tinypic.com/1112pw4.png)
 ## Prediction Markets
 > Prediction Markets (created with Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
@@ -19,7 +19,7 @@ High level concept of Supply Chain Management (SCM) automation with Smart Contra
 
 [What's and Oracle?](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity#what-is-an-oracle)  
 
-* Digital Insurance Marketplace - 'Bond of Trust' flattened into simple product based on on prediction market odds, tradable on digital marketplace to provide instant insurance by the hour.
+* Digital Insurance Marketplace - 'Bond of Trust' flattened into a simple product based on prediction market odds, tradable on the digital marketplace to provide instant insurance by the hour.
 
 * ?
 ***
