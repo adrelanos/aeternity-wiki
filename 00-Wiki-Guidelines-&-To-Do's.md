@@ -17,7 +17,8 @@ b) once finished paste it under 'Closed' with the end date
     * Scan for duplicate content
 
 * OPEN
-    * Create Index to better find information 
+    * Add/reorder appropriate pages to the sidebar
     * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted
 
 * CLOSED
+    * Create Index to better find information [Jkat 17-05-05]
