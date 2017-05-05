@@ -19,6 +19,8 @@ b) once finished paste it under 'Closed' with the end date
 * OPEN
     * Add/reorder appropriate pages to the sidebar
     * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted
+    * Add [Google Calendar plugin](https://github.com/aeternity/testnet/wiki/Idea-Box#google-calendar-plug-in)
+    * Add [Subpages](https://github.com/aeternity/testnet/wiki/Idea-Box#subpages) to Wiki
 
 * CLOSED
     * Create [Index](https://github.com/aeternity/testnet/wiki/_Sidebar.md) to better find information [Jkat 17-05-05]
