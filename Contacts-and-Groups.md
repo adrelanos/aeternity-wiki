@@ -10,6 +10,7 @@
 [QQ](http://www.aeternity.com/#),
 [Medium](https://blog.aeternity.com/), 
 [Bitcointalk](https://bitcointalk.org/index.php?topic=1733140.0)
+[LinkedIn] (https://www.linkedin.com/company/aeternity)
 
 ## Development & Support
 [Github](https://github.com/aeternity), 
