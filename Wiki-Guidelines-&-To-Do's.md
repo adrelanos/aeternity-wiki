@@ -18,5 +18,6 @@ b) once finished paste it under 'Closed' with the end date
 
 * OPEN
     * Create Index to better find information 
+    * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted
 
 * CLOSED
