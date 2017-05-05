@@ -7,6 +7,8 @@ Before **adding** content:
 Markdown & Syntax:
 * you can jump right in and edit if you see a mistake or something that looks weird (these are valid contributions to the wiki bounty)
 
+**When editing anything, please always comment your changes in the edit message.**
+
 # Wiki To Dos
 If you grab a To Do, please do the following **a)** write your username and the starting date behind it YY-MM-DD
 > todo: Create Index for Wiki [DanMercurius 17-05-05]
