@@ -19,4 +19,5 @@ This will be rapidly expanded.
 * [[Bounty]]
 * [[Idea Box]]
 * [[Community]]
+* [[Whitepaper_korean(한국어)]]
 
