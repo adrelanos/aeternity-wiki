@@ -16,7 +16,7 @@ Aeternity has started the claiming process. To claim your Ledger Nano S:
 * Visit: https://wallet.aeternity.com/.
 * Find the section - "ÆTERNITY LEDGER NANO S" - at the center of the page and click the "Claim your aeternity Ledger now" pink button.
 
-http://imgur.com/WhfLzF2
+![Claim](http://imgur.com/WhfLzF2)
 
 * Continue down the page and complete the instruction by verifying your wallet similar to when you made your contribution. 
 
