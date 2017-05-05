@@ -7,7 +7,7 @@ A wikipedia page can be found also in [here](https://en.wikipedia.org/wiki/AEter
 
 This will be rapidly expanded.
 
-* [[00 Wiki Guidelines & To Do's]]
+* [[Wiki Guidelines & To Do's]]
 * [[Understanding æternity]]
 * [[Getting Started]]
 * [[Aeternity Contracts]]
