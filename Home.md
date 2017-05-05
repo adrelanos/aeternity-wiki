@@ -5,9 +5,10 @@ A wikipedia page can be found also [here](https://en.wikipedia.org/wiki/AEternit
 
 > BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT! Also, please read the Wiki Guidelines & To Do's before contributing.
 
+* [[Wiki Guidelines & To Do's]]
+
 This will be rapidly expanded.
 
-* [[Wiki Guidelines & To Do's]]
 * [[Understanding æternity]]
 * [[Getting Started]]
 * [[Aeternity Contracts]]
