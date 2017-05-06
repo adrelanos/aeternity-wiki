@@ -17,6 +17,7 @@
 * [Telegram](https://telegram.me/aeternity) 
 * [Slack](https://slack.aeternity.com/) 
 * [IRC](http://www.aeternity.com/#)
+* [Newsletter](http://www.aeternity.com/#newsletter)
 
 ## Community - Meetup
 [Aeternity Meetup list](https://docs.google.com/spreadsheets/d/196EV6OVOmlxxy8-0j5bBiGltqQRSyvmrdFQiQxNwYWc/edit)
