@@ -52,7 +52,7 @@ No contracting state is stored on-chain, so all channels are independent of each
 
 --Taken from [here](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
  
-For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
+For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/). Also see [[State Channels]].
 
 # How does æternity work?
 * [Governance & æternity](https://github.com/aeternity/testnet/wiki/Research-and-Theory#governance--consensus)
