@@ -9,7 +9,7 @@ Therefore, oracles, or oracle machines, by definition <sup>1</sup>, can compute 
 ## How do Aeternity oracles function?
 Much like Turing's original oracle machine, an Aeternity oracle produces an ouput result, however, only to a given question. So, by itself an individual Aeternity oracle is not universal, but numerous oracles can be created, so that a multitude of questions can be answered. The oracle's output result is provided by the person, who has launched the oracle This person who has committed, by means of the Aeternity token, to provide an answer during a certain time frame, specified at the launch of the oracle. 
 
-Because at this point in time, there are no hardware oracles, Aeternity oracles aim to provide a trustworthy YES or NO answer to every possible type of question, whose YES or NO answer can be substnatiated with real-world data. So again, the human brain will be part of performing a check to question's answer. Every single oracle resides on Aeternity's blockchain.
+Because at this point in time, there are no hardware oracles, Aeternity oracles aim to provide a trustworthy YES or NO answer to every possible type of question, whose YES or NO answer can be substnatiated with real-world data. So again, the human brain will be part of performing a check to question's answer. That is natural because, the human brain is an instantion of the oracle machine. Every single oracle resides on Aeternity's blockchain.
 
 ## Users and the oracle
 //TODO - two types - l & u
