@@ -23,6 +23,7 @@ Table of Contents
    * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
    * [What’s the difference between an account and the æternity wallet?](#whats-the-difference-between-an-account-and-the-æternity-wallet)
    * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
+   * [How can I type the Æ/æ characters?](#how-can-i-type-the-Æ/æ-characters?)
    * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
 
 # How is æternity different from Ethereum and Bitcoin? #
@@ -187,6 +188,12 @@ Yes!
 * Some nodes will run trustless exchanges for any asset. They will also collect transaction fees. We envision nodes that let people use state channels to play games like Go, Monopoly, slot machines, or poker. Either single player, or with your friends, or with strangers. æternity enables trustless financial applications. They are not necessarily decentralized. Anyone can start a “centralized server” and use our software to create trustless financial tools.
 * There can be ‘servers/nodes’ which you can use to invest in stocks, derivatives or metals. You can gamble at sports in a fully trustless and efficient way. Other nodes can specialize in recycling old accounts. There is a fee for having an account open. If the account runs out of money, anyone will be able to delete it and get a small reward.
 * Some nodes will just run trading software. They will buy and sell assets offered by market makers in order to make a profit. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
+
+# How can I type the Æ/æ characters?
+* On Windows devices it works by holding the Alt key while typing in 0198 (for Æ) and 0230 (for æ) on the number pad.
+* On MacOS the key combination is Option + ' (apostrophe key) for æ and Option + Shift + ' for Æ.
+* On iOS and Android devices the characters can be selected by holding the "A" until a small menu appears that shows the characters.
+
 
 # What can I expect to happen from æternity in the near future? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
