@@ -125,6 +125,7 @@ Particularly interested in Human computer interaction, design, education and beh
 ## Louis Chang
 CREATIVE ADVISOR
 
+<a target="_blank" href="https://uk.linkedin.com/in/louisc">LinkedIn</a>
 
 "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016), is the Founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
 <table></table>
@@ -161,7 +162,7 @@ Founding partner of FinTech Blockchain Group, Vincent is an expert on digital cu
 ## Vincent Zhou
 China Advisor
 
-You have some special skills? You want to dive more deep into crypto and blockchain technology? You can code, design, market or connect? Please Join Us!
+Do you have some special skills? Do you want to dive deep into crypto and blockchain technology? Can you code, design, market or connect? Please join us!
 <table></table>
 
 ***
