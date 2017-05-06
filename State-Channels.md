@@ -18,17 +18,35 @@ play an important role in the emergence of the decentralized economy. They creat
 
 ### Insured Crowdfunding
 
+We can implement insured crowdfunding using dominant assurance contracts. 
+These are smart contracts that are used to raise money for a public good, like a new bridge, a school or a market.
+Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a
+dominant strategy to participate. If the good is not funded, all participants get their aeon back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an oracle, we can ensure that the provider of the good or service only gets paid if the good or service is actually provided.
+
 ### Cross-Chain atomic swaps
+Cross chain atomic swaps allow for trustless exchange of aeon for other cryptcurrencies (for example, bitcoins). These can be implemented using a hashlock, that locks the transactions on both blockchains under the same value.
 
 ###  Stable value assets and portfolio replication
+We can use smart contracts to program synthetic assets that stay nearly the same price as a real world asset. For example,
+we could make an asset that stays the same price as gold. Synthetic derivatives are created in equal and opposite pairs.
+For one user to have an asset that moves with gold, a different user will have to have an asset that move inversely to gold.
+For example, Alice could make a contract with Bob so that Alice owns 1 gram of gold. Out of the money in the contract,
+one gram of gold worth of aeon will go to Alice, and the leftover money goes to Bob. The contract has an expiration
+date when the price of gold will be measured, and the funds distributed to Alice and Bob accordingly.
 
 ### Event contracts
 
-### Insurances
+Event contracts pay when an event happens and don’t pay when an event does not happen, as per the oracle’s telling. Apart from being interesting in themselves, these can be used by several different applications:
+
+* __Insurances:__ 
+We can use event contracts to implement insurances. For example, expensive music event tickets can become worthless if the weather goes bad. However, if the concert-goer receives money if the oracle decides that it rained on the day of the event, the investment can be protected so that one can afford to find an emotionally adequate alternative. Slightly more seriously, farmers are often interested in the total number of inches of rain in a season. We can insure them against their crops wilting from
+dryness.
+* __Whistleblowing:__ Event contracts can also be used to incentivize revealing sensitive information. For example,
+we could bet on the event “Information indicating that Company A has used illegal pesticides was released on or before January 24th, 2017”. Any person with access to such information would be incentivized to first bet that the event
+will happen and then release it.
 
 ### Prediction Markets
+A prediction market works by letting users bet on whether a future event will happen. From the price of the bets we can predict the future likelihood [3], [8], [16]. They are the most accurate way to measure the future at a given price. Once the event has happened, the market is settled using the oracle.
+We can for example use prediction markets to predict which updates to the software will be beneficial, and which will be harmful. We can also use them to estimate how much candidates in an election will actually be able to accomplish, so lies and baseless promises can be detected more easily
 
-### Whistleblowing
-
-
---- taken from the whitepaper
+--- taken from the [[Whitepaper_English]].
