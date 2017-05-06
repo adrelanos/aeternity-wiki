@@ -6,6 +6,7 @@ Before **adding** content:
 
 Markdown & Syntax:
 * you can jump right in and edit if you see a mistake or something that looks weird (these are valid contributions to the wiki bounty)
+* make sure you use relative links wherever possible! eg. if you want to refer to the "Understanding æternity" page, you can use `[[Understanding æternity|Understanding-Aeternity]]`
 
 **When editing anything, please always comment your changes in the edit message.**
 
@@ -24,5 +25,5 @@ b) once finished paste it under 'Closed' with the end date
     * Add [Subpages](https://github.com/aeternity/testnet/wiki/Idea-Box#subpages) to Wiki
 
 * CLOSED
-    * Create [Index](https://github.com/aeternity/testnet/wiki/_Sidebar.md) to better find information [Jkat 17-05-05]
+    * Create [[Index|_Sidebar.md]] to better find information [Jkat 17-05-05]
     * Add/reorder appropriate pages to the sidebar [DanMercurius 17-05-05]
