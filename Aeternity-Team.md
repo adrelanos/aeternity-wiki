@@ -152,6 +152,7 @@ Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle",
 ADVISOR ON POW "CUCKOO CYCLE"
 
 <a target="_blank" href="https://tromp.github.io/">Github</a>
+
 <a target="_blank" href="https://www.linkedin.com/in/john-tromp-b1601b8/">LinkedIn</a>
 
 Founding partner of FinTech Blockchain Group, Vincent is an expert on digital currency trading and an active investor in blockchain industry. As an early adopter of blockchain technology and a KOL in China’s crypto community, Vincent is advising the aeternity team on China strategy.
