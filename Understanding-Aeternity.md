@@ -22,14 +22,14 @@ True scalability and trust-less Turing complete state channels are setting Æter
 
 # What is blockchain?
 
-In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the Æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about Æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
 Æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
 Other smart contract platforms are experimenting with 3rd party oracle machines added on top of the consensus. 
-The Oracle is part of the consensus in Æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
+The oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
 
 ![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
 
@@ -44,7 +44,7 @@ Oracle is a mechanism to teach the blockchain true facts about our world. This i
 The State Channel design enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so Æternity is built for scalable smart contract systems and can scale as well as known centralized solutions available today.
+No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so æternity is built for scalable smart contract systems and can scale as well as known centralized solutions available today.
 
 --Taken from [here](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
  
@@ -59,9 +59,9 @@ For more information refer to [State Channel](http://www.jeffcoleman.ca/state-ch
 
 # What are AE Tokens and how are they used and consumed?
 
-The Æternity tokens will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
+The æternity token will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
 
-All Æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
+All æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
 
 # How can Æternity be used?
 
@@ -77,15 +77,15 @@ Event contracts: Event contracts pay when an event
 happens and don’t pay when an event does not happen, as
 per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistleblowing and supporting prediction markets.
 
-Micropayments: æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
+Micropayments: Æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
 
 P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wifi hotspots. Think of it like an Uber-for-wifi. Anyone could offer wifi to anyone else via their mobile phone for a price. 
 
 Like any platform, the potential applications are limited only by the imagination of the user base. 
 
-# Purchasing and acquiring æternity: 
+# Purchasing and acquiring Æternity: 
 
-The first round available to purchase Æternity was during Æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH and the first 1000 contributors above 12 ETH will receive 1 'limited edition' Æternity branded Ledger. 
+The first round available to purchase AE tokens was during æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH and the first 1000 contributors above 12 ETH will receive 1 'limited edition' Æternity branded Ledger. 
 
 The second round will begin 29th May 2017. You can participate as well as follow any updates here: https://wallet.aeternity.com/
 
