@@ -6,7 +6,7 @@ Before **adding** content:
 
 Markdown & Syntax:
 * you can jump right in and edit if you see a mistake or something that looks weird (these are valid contributions to the wiki bounty)
-* make sure you use relative links wherever possible! eg. if you want to refer to the "Understanding æternity" page, you can use `[[Understanding æternity|Understanding-Aeternity]]`
+* make sure you use relative links wherever possible! eg. if you want to refer to the "[[Understanding æternity|Understanding-Aeternity]]" page, you can use `[[Understanding æternity|Understanding-Aeternity]]`
 
 **When editing anything, please always comment your changes in the edit message.**
 
