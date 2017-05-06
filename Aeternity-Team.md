@@ -126,6 +126,7 @@ Particularly interested in Human computer interaction, design, education and beh
 CREATIVE ADVISOR
 
 <a target="_blank" href="https://twitter.com/louissschang">Twitter</a>
+
 <a target="_blank" href="https://uk.linkedin.com/in/louisc">LinkedIn</a>
 
 "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016), is the Founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
