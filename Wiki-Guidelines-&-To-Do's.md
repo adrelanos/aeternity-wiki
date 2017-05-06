@@ -20,6 +20,8 @@ b) once finished paste it under 'Closed' with the end date
     * Scan for duplicate content
 
 * OPEN
+    * change absolute links to relative links
+    * Migrate Wiki to new repository **github.com/aeternity/website/wiki**
     * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted
     * Add [Google Calendar plugin](https://github.com/aeternity/testnet/wiki/Idea-Box#google-calendar-plug-in)
     * Add [Subpages](https://github.com/aeternity/testnet/wiki/Idea-Box#subpages) to Wiki
