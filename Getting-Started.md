@@ -18,7 +18,7 @@ Anyone who wants to store or transfer value, with unparalleled speed, reliabilit
 
 * Miners:
 
-    Miners (Proof-of-Work) will be able to be rewarded for providing the adequate security to the æternity blockchain. The specificity of Cuckoo Cycle algorithm will enable anyone to become a miner, thus achieving great decentralization. Oracles Mining (Proof-of-Stake) will be rewarded to provide real world data to the æternity Blockchain.
+    Miners (Proof-of-Work) will be able to be rewarded for providing the adequate security to the æternity blockchain. The specificity of Cuckoo Cycle algorithm will enable anyone to become a miner, thus achieving great decentralization. Oracle mining (Proof-of-Stake) will be rewarded to provide real world data to the æternity Blockchain.
 
 
 # Applications and Components: 
