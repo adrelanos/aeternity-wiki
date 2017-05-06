@@ -9,6 +9,41 @@ In order to better structure the content in the wiki, subpages would be very use
 [Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)
 
 # Use Case Ideas for æternity
+
+## Health & æternity 
+
+### DocOræcle
+A platform for everyone to get meaningful medical advice, no matter the infrastructure or insurance policy. A platform for questions too sensible or personal to ask a doctor in person. 
+Answering questions and participating in the prediction markets created by the medical Oracles should only be accessible to doctors with digitally signed degree. 
+[Furthermore Oracles may be fed information regarding symptoms diagnosis & can be combined with AI image recognition to offer diagnosis prediction.]
+
+#### Use Case Flow
+1. Raise question
+    * in a forum like interface, using æternity identity. Account info only revealed to professional who answers 
+2. Get answer
+    * An answer is provided in a state channel
+3. Ask follow up questions
+    * follow up questions may be asked in private state channels
+4. test answers  in oracle
+    * any answer provided by the medical professional may be forwarded to an Oracle. The prediction market that emerges is open to professionals to reach a comprehensive diagnosis, comparable with visiting 20 doctors
+
+#### Target audiences
+* persons struggling with sensible, personal medical problems or questions
+  * person suffering from unknown medical condition 
+  * person in need of nutrition a advice
+  * person in need of homeopathic advice
+  * person suffering from psychological stress
+
+#### Requirements
+* User interface
+    * Question board and Oracle marketplace
+* æternity identity
+* working state channels
+* Pool of medicinal professionals
+    * only they are allowed to answer questions and participate in oracle
+
+***
+
 ## Supply Chain Management
 High-level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets, and Oracles.
 ![SCM automation (high level)](http://i67.tinypic.com/1112pw4.png)
