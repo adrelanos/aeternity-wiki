@@ -22,10 +22,11 @@ b) once finished paste it under 'Closed' with the end date
 * OPEN
     * change absolute links to relative links
     * Migrate Wiki to new repository **github.com/aeternity/website/wiki**
-    * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted
+    
     * Add [Google Calendar plugin](https://github.com/aeternity/testnet/wiki/Idea-Box#google-calendar-plug-in)
     * Add [Subpages](https://github.com/aeternity/testnet/wiki/Idea-Box#subpages) to Wiki
 
 * CLOSED
     * Create [[Index|_Sidebar.md]] to better find information [Jkat 17-05-05]
     * Add/reorder appropriate pages to the sidebar [DanMercurius 17-05-05]
+    * Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]
