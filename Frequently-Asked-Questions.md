@@ -108,8 +108,8 @@ Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/A
 
 * Ethereum is a Turing-complete stateful smart contract system. It allows for examples apps like: subcurrencies, domain name servers, and blackjack card game gambling.
 * Cosmos is a way to move coins from one blockchain to another.
-* Qtum is a proposal for a software suite for making dapps on blockchains like æternity or Ethereum.
-* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity oracle. æternity's oracle is market based instead of voting based. Æternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
+* Qtum is a proposal for a software suite for making Dapps on blockchains like æternity or Ethereum.
+* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity oracle. Æternity's oracle is market based instead of voting based. Æternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
 * Æternity is a Turing-complete stateless smart contract system with a built in oracle. It allows for the creation of trustless Dapps. For example: insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
 
 # Æternity, a new blockchain? #
@@ -148,7 +148,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 # What makes Æternity smart contracts special? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-Manifold factors contribute to æternity’s uniqueness! One major advantage of æternity smart contracts is the fact that they are created off-chain. This allows to — once created — to interact with other participating parties blazingly fast and has important privacy implications. The users’ interactions stay off-chain and are kept secure. Only in cases of disagreement, a transaction will be submitted on-chain. The æternity blockchain will function as a crypto-court.
+Manifold factors contribute to æternity’s uniqueness! One major advantage of æternity smart contracts is the fact that they are created off-chain. This allows to — once created — to interact with other participating parties blazingly fast and has important privacy implications. The users’ interactions stay off-chain and are kept secure. Only in cases of disagreement will a transaction be submitted on-chain. The æternity blockchain will function as a crypto-court.
 
 Furthermore, there is no limit to the volume of smart contracts that can be processed per second, since æternity smart contracts don’t share state, they can be processed in parallel.
 
@@ -182,7 +182,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 
 Yes!
 
-* Some nodes will be providing liquidity to the lightning network. They will have lots of channels with lots of people, so if you make a channel with them, you will be able to establish state channel contracts with many users. Using a channel contract through such a node will involve a fee.
+* Some nodes will be providing liquidity to the Lightning Network. They will have lots of channels with lots of people, so if you make a channel with them, you will be able to establish state channel contracts with many users. Using a channel contract through such a node will involve a fee.
 * Some nodes will run trustless exchanges for any asset. They will also collect transaction fees. We envision nodes that let people use state channels to play games like Go, Monopoly, slot machines, or poker. Either single player, or with your friends, or with strangers. Æternity enables trustless financial applications. They are not necessarily decentralized. Anyone can start a “centralized server” and use our software to create trustless financial tools.
 * There can be ‘servers/nodes’ which you can use to invest in stocks, derivatives or metals. You can gamble at sports in a fully trustless and efficient way. Other nodes can specialize in recycling old accounts. There is a fee for having an account open. If the account runs out of money, anyone will be able to delete it and get a small reward.
 * Some nodes will just run trading software. They will buy and sell assets offered by market makers in order to make a profit. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
