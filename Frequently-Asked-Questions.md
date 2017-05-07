@@ -28,11 +28,11 @@ Table of Contents
 
 # How is æternity different from Ethereum and Bitcoin? #
 
-On Bitcoin Smart-contracts do not exist as of yet. All transactions are executed On-chain.
+With Bitcoin Smart-contracts do not exist as of yet. All transactions are executed On-chain.
 
-On Ethereum Smart-contracts exist On-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for Smart-Contracts, with no coherent design, no coherent API for web apps, no naming system or Oracles. All these are being built on top of the Block-chain.
+With Ethereum smart-contracts exist On-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for Smart-Contracts, with no coherent design, no coherent API for web apps, no naming system or Oracles. All these are being built on top of the Block-chain.
 
-On æternity contracts only exists for a moment. They are settled independently of all the other contracts via state channels. This solution makes the blockchain use-cases and throughput more scalable for mainstream adoption and adequate to private use cases.
+With æternity contracts only exists for a moment. They are settled independently of all the other contracts via state channels. This solution makes the blockchain use-cases and throughput more scalable for mainstream adoption and adequate to private use cases.
 
 # Why is æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
@@ -58,10 +58,10 @@ Any smart contract that requires trust is not so smart.
 
 # Is smart contract verification on the roadmap? #
 
-The language for æternity is very simple. Smart contracts do not depend on each other's state, so it is easy to prove the correctness of a smart contract.
+The language for æternity is very simple. Smart contracts do not depend on each others state, so it is easy to prove the correctness of a smart contract.
 We wont need any special verification software to be sure of the correctness of æternity contracts.
 
-Channels can be connected to each other using hashlocking. This is how cross chain atomic swaps work. This is how the lightning network works. This is how we can build prediction markets with more than 2 users.
+Channels can be connected to each other using hashlocking. This is how cross-chain atomic swaps and the lightning network function. This is how we can build prediction markets with more than 2 users.
 
 # How does on-chain conflict resolution work? (crypto-court) #
 
@@ -88,11 +88,9 @@ Following Phase 2, 82 % of the AE that has been created will be the hands of inv
 
 # What is the Maximum Supply of AE? #
 
-It is very much possible for the mining reward amount to be modifiable by the users through a prediction market, as the governance of aeternity is decentralized, and can be adjusted based on the real-world needs.
-
 Answer by vdramaliev on [reddit](https://www.reddit.com/r/Aeternity/comments/64z73r/will_there_have_the_cap_amount_of_aeon/).
 
-It is very much possible for the mining reward amount to be modifiable by the users through a prediction market.
+It is possible for the mining reward amount to be modifiable by the users through a prediction market, as the governance of aeternity is decentralized, and can be adjusted based on the real-world needs.
 
 # Can malicious rich people make an oracle lie? #
 
