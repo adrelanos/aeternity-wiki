@@ -1,6 +1,6 @@
 It is not confirmed whether we want to go that route: https://github.com/aeternity/testnet/issues/5
 
-I thought that if the code is written in Erlang, it should be possible to run on any platform.
+I thought that if the code is written in Erlang, it should be possible to run on any platform. See instructions for [Ubuntu](https://github.com/aeternity/testnet/blob/master/docs/compile_ubuntu.md) and [Mac](https://github.com/aeternity/testnet/blob/master/docs/compile_mac.md).
 
 In my work as web developer I make web apps look sleek and load fast, I hate managing dependencies and solving build issues. But I gave it a shot anyway, it cannot be that hard?
 
@@ -83,5 +83,3 @@ That's where it goes bad: https://github.com/davisp/jiffy/issues/144
 > Any idea where assert.h lives on Windows?
 
 > It should be part of the std library
-
-> I suggest having a separate section for Linux, or shall I put a Linux section in each paragraph?
