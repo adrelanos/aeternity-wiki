@@ -139,7 +139,7 @@ The blockchain’s state includes a mapping from unique human-friendly strings t
 <td class="align-middle">
 <strong class="d-block">ACCOUNTS & IDENTITY</strong>
 
-<small>æternity's accounts are permission-less, but still allow customization via schema.org's semantic web scheme.
+<small>Æternity's accounts are permission-less, but still allow customization via schema.org's semantic web scheme.
 Create and own your identity on the æternity network - then use it everywhere on the web!</small>
 </td>
 </tr>
