@@ -12,7 +12,7 @@ The output of the hashing function is the hash. There are two major facts about 
 
 **Important:** the expression "two-way hashing function" is an oxymoron.
 
-##Encryption
+## Encryption
 Encryption makes it possible to obfuscate any piece of data and produce an output that maps only to its input. Therefore, in encryption, the relationship between input and output is one-to-one. Unlike hashing, everyone with the decryption key would be able to verify the input data by actually decrypting and seeing it.  //todo
 
 Another major difference between hashing and encryption is that hashing does not require as much processing power as decryption. Therefore, when only checking the data is necessary, hashing is preferred. 
