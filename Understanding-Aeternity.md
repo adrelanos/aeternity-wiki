@@ -2,7 +2,7 @@
 
 Æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
 Real-world data can interface, through decentralized Oracles, with smart contracts.
-True scalability and trust-less Turing complete state channels are setting Æternity apart from Ethereum.
+True scalability and trust-less Turing complete state channels are setting æternity apart from Ethereum.
 
 ![æternity platform-vision](http://i67.tinypic.com/2ewm694.png)
 
@@ -59,9 +59,9 @@ For more information refer to [State Channel](http://www.jeffcoleman.ca/state-ch
 
 # What are AE Tokens and how are they used and consumed?
 
-The æternity token will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
+The æternity(AE) token will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
 
-All æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
+All æternity(AE) tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
 
 # How can Æternity be used?
 
