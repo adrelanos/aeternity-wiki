@@ -1,16 +1,20 @@
-|                      |    1.   |    2.    |    3.     |
-|----------------------|:---------:|:---------:|:---------:|
-| Criteria             | Bitcoin | Ethereum | Aeternity |
-| Open-source          |   Yes   |    Yes   |    Yes    |
-| Token (currency)     | bitcoin (BTC) | ether (ETH)         |  Aeon (AE)         |
-| Block time           |TODO         |          |           |
-| Block size           | TODO        |          |           |
-| Consensus protocol   |TODO         |          |           |
-| Protocol function    | TODO        |          |           |
-| Network              |TODO         |          |           |
-| Programming language | TODO        |          |           |
-| Storage              |  Transactions  | Transactions + code | Transactions + code + oracles    |
-| Data structure       |  TODO       |          |           |
-|                      |  TODO       |          |           |
+This is a short comparison outlining the major differences between Bitcoin, Ethereum and Aeternity. 
+A more detailed analysis is to follow. 
+
+|        Criteria      | 1. Bitcoin       |   2. Ethereum        | 3. Aeternity    |  comment                         |
+|----------------------|:----------------:|:--------------------:|:---------------:|:--------------------------------:|
+| Open-source          |   Yes            | Yes                  | Yes       |                                   |
+| Token (currency)     | bitcoin (BTC)    | ether (ETH)          | Aeon (AE) |                                   |
+| Block time           | 10 minutes       | 14.5 seconds         |           |                                   |
+| Block size           | 1MB              | no direct limit      |           |                                   |
+| Consensus protocol   | PoW              | PoW -> PoS           |           |                                   |
+| Protocol function    | SHA256           | Ethash               |           |                                   |
+| Network              | Bitcoin network protocol|  ÐΞVp2p       |           |                                   |
+| Programming language | Script           | Solidity             | Chalang   | Bitcoin core is developed in C++. Script is                                                                             the programming language used for the                                                                              instructions included in each block |
+| Storage              | Transactions     | Transactions + code  | Transactions + code + oracles    |
+| Data structure       | Binary hash tree | Modified radix tree  |                                  |                       
 
 //TODO
+
+***
+Source: Bitcoin and Ethereum GitHub Wiki pages
