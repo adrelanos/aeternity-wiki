@@ -26,7 +26,7 @@ Table of Contents
    * [How can I type the Æ/æ characters?](#how-can-i-type-the-Æ/æ-characters?)
    * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
 
-# How is æternity different from Ethereum and Bitcoin? #
+# How is Æternity different from Ethereum and Bitcoin? #
 
 With Bitcoin Smart-contracts do not exist as of yet. All transactions are executed On-chain.
 
@@ -34,20 +34,20 @@ With Ethereum smart-contracts exist On-chain for multiple blocks. They hold stat
 
 With æternity contracts only exists for a moment. They are settled independently of all the other contracts via state channels. This solution makes the blockchain use-cases and throughput more scalable for mainstream adoption and adequate to private use cases.
 
-# Why is æternity faster than Ethereum? #
+# Why is Æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
 
 On Ethereum it is possible to move computation, but it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
 
 On æternity computation by default happens off-chain.
 
-# How is æternity written? #
+# How is Æternity written? #
 
 Æternity core blockchain code is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
 
 Erlang was chosen because it is the perfect choice to write a Blockchain from scratch allowing to achieve superior code execution stability and performance.
 
-# How does æternity protect from the next DAO happening? #
+# How does Æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
 
 The DAO was a problem where some people trusted other people to spend their money for them.
@@ -102,7 +102,7 @@ The people who caused the attack lose all the money they attacked with. The defe
 
 Even a whale can't afford to do this attack many times, and we quickly recover after each attack with an honest oracle.
 
-# How does aeternity compare to ...? #
+# How does Æternity compare to ...? #
 
 Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/Aeternity/comments/63tabp/aeternity_vs_qtum_vs_cosmos/) and [here](https://www.reddit.com/r/Aeternity/comments/63mhg7/how_does_aeternity_contrast_with_truebit/).
 
@@ -145,7 +145,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 * Prediction markets that can help us better prepare for the future.
 * Everything else that we (and You) haven’t thought of yet.
 
-# What makes æternity smart contracts special? #
+# What makes Æternity smart contracts special? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 Manifold factors contribute to æternity’s uniqueness! One major advantage of æternity smart contracts is the fact that they are created off-chain. This allows to — once created — to interact with other participating parties blazingly fast and has important privacy implications. The users’ interactions stay off-chain and are kept secure. Only in cases of disagreement, a transaction will be submitted on-chain. The æternity blockchain will function as a crypto-court.
@@ -154,7 +154,7 @@ Furthermore, there is no limit to the volume of smart contracts that can be proc
 
 In comparison to ‘legacy’ Ethereum, we switched from being goto-based to being function-based. Thus, it is a lot simpler to reason about and write more secure smart contract code.
 
-# What are some of the features of æternity virtual machine? #
+# What are some of the features of Æternity virtual machine? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 We are building a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code, so that the users only publish the portion of code that actually gets executed.
@@ -163,21 +163,21 @@ We are building a state-of-the-art virtual machine for secure and efficient bloc
 
 # Why do we need Ethereum? #
 
-The primary reason for using Ethereum-created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale — Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
+The primary reason for using Ethereum-created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale — Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). Æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
 
-# What is the legal status of æternity? #
+# What is the legal status of Æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 We will provide a rock-solid technology to build on, but that wouldn’t be enough if it wasn’t based on a legally safe foundation. Æternity is incorporated in Liechtenstein and is in regular contact with regulators to keep track of the project’s legal status. The team includes a legal adviser and makes use of additional legal consultancy on an ad-hoc basis.
 
-# What’s the difference between an account and the æternity wallet? #
+# What’s the difference between an account and the Æternity wallet? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 A wallet is a piece of software that is used to interact with æternity. It allows you to make accounts and channels. It will allow users to make channel contracts, to bet, to play games, to buy/sell assets, provides identity, communicate with other users, etc. 
 
-The account on æternity will be accessed by the wallet.
+The account on Æternity will be accessed by the wallet.
 
-# Will there be different types of nodes in æternity? #
+# Will there be different types of nodes in Æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 Yes!
@@ -193,7 +193,7 @@ Yes!
 * On iOS and Android devices the characters can be selected by holding the "A" until a small menu appears that shows the characters.
 
 
-# What can I expect to happen from æternity in the near future? #
+# What can I expect to happen from Æternity in the near future? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
 The first testnet is now ready! We will be adding more features all the time. Start interacting with æternity by visiting [GitHub](http://github.com/aeternity/testnet).
