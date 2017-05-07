@@ -6,7 +6,7 @@ The blockchain space is growing at an exponential rate each day and there are ma
 
 First mover advantage in cryptocurrency giving it a huge head start but also a first mover disadvantage - it's old technology, no smart contracts, small blocks with slow 10 minute block times. 
 
-aeternity is brand new technology on a lightning network with smart contracts, oracles & state channels.
+Æternity is brand new technology on a Lightning Network with smart contracts, oracles & state channels.
 
 # Ethereum: 
 
