@@ -1,24 +1,17 @@
 ### Abstract
- Since the introduction of Ethereum in 2014 there
-has  been  great  interest  in  decentralized  trustless  applications
-(smart contracts). Consequently, many have tried to implement
-applications  with  real  world  data  on  top  of  a  blockchain.  We
-believe that storing the application’s state and code on-chain is
-wrong  for  several  reasons.
+ Since the introduction of Ethereum in 2014 there has  been  great  interest  in  decentralised  trust less  applications
+(smart contracts). Consequently, many have tried to implement applications  with  real  world  data  on  top  of  a  Blockchain.  We believe that storing the application’s state and code on-chain is wrong  for  several  reasons. This bloat's the chain size, exposes smart-contracts to unnecessary vulnerabilities, and reduces privacy, thus preventing the access of Blockchains for private uses cases.
 
-We present a highly scalable blockchain architecture with a
-consensus  mechanism  which  is  also  used  to  check  the  oracle.
-This makes the oracle very efficient, because it avoids layering
-one  consensus  mechanism  on  top  of  another.  State  channels
-are  integrated  to  increase  privacy  and  scalability.  Tokens  in
-channels  can  be  transferred  using  purely  functional  smart
-contracts that can access oracle answers. By not storing contract
-code  or  state  on-chain,  we  are  able  to  make  smart  contracts
-easier to analyze and faster to process, with no substantial loss in de facto functionality.
+This is why aeternity is being developped as the only Blockchain that can by its core design sustain mainstream world use cases. 
 
-Applications like markets for synthetic assets and prediction
-markets can be efficiently implemented at global scale. Several
-parts have proof-of-concept implementations in Erlang. Development tools and application essentials such as a wallet, naming and  identity  system  will  also  be  provided.  
+
+* It Can handle large throughput (more than Visa) thanks to its integrated state channels.
+
+* The state channels processing off-chain make smart contracts easier to analyse, faster to process, and more private, while not sustaining any substantial loss in functionality.
+
+* Its internal consensus mechanism can check the oracle and provide the Blockchain with real world data, negating the need to implement inefficient oracle mechanisms on top of it (such as Augur or Gnosis on top of Ethereum). 
+
+Applications like markets for synthetic assets and prediction markets can be efficiently implemented at global scale. Several parts have proof-of-concept implementations written in Erlang. Development tools and application essentials such as a wallet, naming and  identity  system  will  soon be  provided.  
 
 ***
 
