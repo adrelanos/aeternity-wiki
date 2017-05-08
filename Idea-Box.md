@@ -1,12 +1,20 @@
 # Wiki Wishes
-## Google Calendar Plug In
+## ~Google Calendar Plug In~
 
-It would be great to have a google calendar plug in, to have a comprehensive overview of meetups and events.
-There is a [MediaWiki plug in](https://www.mediawikiwidgets.org/Google_Calendar) available, but don't know if it's working.
+~It would be great to have a google calendar plug in, to have a comprehensive overview of meetups and events.
+There is a [MediaWiki plug in](https://www.mediawikiwidgets.org/Google_Calendar) available, but don't know if it's working.~
 
-## Subpages
-In order to better structure the content in the wiki, subpages would be very useful.
-[Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)
+Github wiki is not Mediawiki. Unlikely any plugins are supported here?
+
+## ~Subpages~
+~In order to better structure the content in the wiki, subpages would be very useful.
+[Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)~
+
+Same as above - Mediawiki plugins not supporter on Github.
+
+## Migrating Zack's notes into wiki format
+
+Over the months of development Zack has accumulated a lot of notes - https://github.com/aeternity/testnet/tree/master/docs - even though the folder name says `docs` it is more suited for `wiki` - a lot of use cases and great examples.
 
 # Use Case Ideas for æternity
 
