@@ -22,7 +22,8 @@ b) once finished paste it under 'Closed' with the end date
 * OPEN
     * change absolute links to relative links
     * Migrate Wiki to new repository **github.com/aeternity/website/wiki**
-    
+      * Specifications: we want a dedicated repo for the wiki under github.com/aeternity/website/wiki; in order to upload content to the repo to reference it in the wiki and at a later point on the website www.aeternity.com. The revision history needs to be completely migrated as well.
+      
     * Add [Google Calendar plugin](https://github.com/aeternity/testnet/wiki/Idea-Box#google-calendar-plug-in)
     * Add [Subpages](https://github.com/aeternity/testnet/wiki/Idea-Box#subpages) to Wiki
 
