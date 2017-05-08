@@ -136,7 +136,7 @@ CREATIVE ADVISOR
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/julio.png" alt="Julio Alexandro">
 
-Julio Alexandro
+##Julio Alexandro
 HUMANITARIAN ADVISOR
 
 <a target="_blank" href="https://twitter.com/julioalexo?lang=de">Twitter</a>
