@@ -30,9 +30,9 @@ Table of Contents
 
 With Bitcoin Smart-contracts do not exist as of yet. All transactions are executed On-chain.
 
-With Ethereum smart-contracts exist On-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for Smart-Contracts, with no coherent design, no coherent API for web apps, no naming system or Oracles. All these are being built on top of the Block-chain.
+With Ethereum smart-contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for Smart-Contracts, with no coherent design, no coherent API for web apps, no naming system or Oracles. All these are being built on top of the Block-chain.
 
-With æternity contracts only exists for a moment. They are settled independently of all the other contracts via state channels. This solution makes the blockchain use-cases and throughput more scalable for mainstream adoption and adequate to private use cases.
+With æternity contracts only exists for a moment. They are settled independently from all the other contracts via state channels. This solution makes the blockchain use-cases and throughput more scalable for mainstream adoption and adequate to private use cases.
 
 # Why is Æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
@@ -59,9 +59,9 @@ Any smart contract that requires trust is not so smart.
 # Is smart contract verification on the roadmap? #
 
 The language for æternity is very simple. Smart contracts do not depend on each others state, so it is easy to prove the correctness of a smart contract.
-We wont need any special verification software to be sure of the correctness of æternity contracts.
+We wont need any special verification software to be sure of the correctness of æternity contracts.   
 
-Channels can be connected to each other using hashlocking. This is how cross-chain atomic swaps and the lightning network function. This is how we can build prediction markets with more than 2 users.
+Channels can be connected to each other using hashlocking. This is how cross-chain atomic swaps and the Lightning Network function. This is how we can build prediction markets with more than 2 users.
 
 # How does on-chain conflict resolution work? (crypto-court) #
 
