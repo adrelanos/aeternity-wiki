@@ -17,6 +17,7 @@
     please read the Wiki Guidelines & To Do's before contributing.
 
 ## Learn More
+The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messages/C59BALQCE/details/) feel free to join us!
 _This will be rapidly expanded._
 
 * [[Wiki Guidelines & To Do's]]
