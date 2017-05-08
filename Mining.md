@@ -4,7 +4,7 @@ Volunteers can run the æternity mining software on computers, servers or mobile
 
 Unlike Bitcoin, Ethereum and most other cryptocurrencies, æternity uses a hybrid Proof-of-Work ("PoW") and Proof-of-Stake ("PoS") consensus mechanism. The PoW algorithm used is called the Cuckoo Cycle.
 
-# How can you earn Aeons (AE) by securing the network and setting up a node
+# How can you earn Aeons (AE) by securing the network and setting up a node?
 
 The Consensus on the æternity blockchain is achieved via a hybrid Proof-of-Work (PoW) and Proof-of-Stake (PoS) algorithm. The Proof-of-work will be done by miners via the "Cuckoo Cycle" algorithm. Proof-of-Stake is implemented via on-chain prediction markets, which project the information available to the network to one single number between 0 and 1. This number is used to signal to the miners which version of the blockchain to mine on.
 
@@ -14,13 +14,13 @@ The æternity blockchain will feature multiple types of nodes that each fulfill 
 
 * Some nodes will be providing liquidity to the State channels lightning network. These nodes will maintain multiple connection channels with other nodes. Creating a channel with them will enable any node to establish state channel contracts with many others. This will involve a fee paid to the node.
 
-* Some nodes will be run as trust-less exchanges multiple assets. These nodes collect transaction fees from their users. State channels can be used through these nodes to play games using Aeon (AE). Either single player, friends, or total strangers, æternity will enable trust-less financial applications, where no user puts his trust into the other, but into the fair logic of the Blockchain. Theses financial applications do not necessarily need to be decentralized. They can exist on a “centralized server” and through the æternity Blockchain become trust-less financial tools.
+* Some nodes will be run as trustless exchanges multiple assets. These nodes collect transaction fees from their users. State channels can be used through these nodes to play games using Aeon (AE). Either single player, friends, or total strangers, æternity will enable trustless financial applications, where no user puts his trust into the other, but into the fair logic of the blockchain. These financial applications do not necessarily need to be decentralized. They can exist on a “centralized server” and through the æternity blockchain become trust-less financial tools.
 
-* Some nodes will run as exchanges to invest in stocks, futures, bonds and precious metal, or be can be used for gambles in a trust-less and efficient way. 
+* Some nodes will run as exchanges to invest in stocks, futures, bonds and precious metal, or be can be used for gambles in a trustless and efficient way. 
 
-* Some nodes can specialize in maintaining the Blockchain, and preserve it from bloating, by recycling old accounts. There will be a fee for maintaining an account open. When an account runs out of Aeons, theses nodes will be able to delete it and get the reward.
+* Some nodes can specialize in maintaining the blockchain, and preserve it from bloating, by recycling old accounts. There will be a fee for maintaining an account open. When an account runs out of Aeons, these nodes will be able to delete it and get the reward.
 
-* Some nodes will just run the trading software. Buying and selling any offered assets.
+* Some nodes will just run the trading software, merely buying and selling any offered assets.
 
 # Proof-Of-Stake Mining (Oracle):
 
@@ -31,7 +31,7 @@ When doing so, they also need to specify the time-frame during which the questio
 
 While hardware requirements for creating a PoS miner will not be particularly high, it is important to have a **Fixed IP address**, as is the case with all other PoS crypto-currencies.
 
-# Proof-Of-Work Mining, and which kind of hardware is best for Proof-of-Work mining?
+# Proof-Of-Work Mining - which kind of hardware is best?
 
 The "Cuckoo Cycle" PoW is more power-efficient and indirectly useful, as it encourages the development of better random access memory (DRAM) chips. The best part is that even low-power devices such as smartphones can efficiently mine new tokens, achieving an unparalleled decentralization, which is crucial to the success of any blockchain.
 
