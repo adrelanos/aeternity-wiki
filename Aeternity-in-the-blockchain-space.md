@@ -10,7 +10,7 @@ First mover advantage in cryptocurrency giving it a huge head start but also a f
 
 # Ethereum: 
 
-Ethereum also has a first mover advantage in the smart contract space and a huge amount of learnings were generated in the first years aeternity is taking these learnings and resolving these issues.
+Ethereum also has a first mover advantage in the smart contract space and a huge amount of learning's were generated in the first years. Æternity is taking these learnings and resolving these issues.
 
 > On Ethereum Smart-contracts exist On-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for Smart-Contracts, with no coherent design, no coherent API for web apps, no naming system or Oracles. All these are being built on top of the Block-chain.
 
@@ -20,24 +20,24 @@ Ethereum also has a first mover advantage in the smart contract space and a huge
 
 # Augur: 
 
-Prediction market based on using the Ethereum decentralized network to create an accurate forecasting tool.. 
+Prediction market based on using the Ethereum decentralized network to create an accurate forecasting tool 
 
 (Technology used, user base, comparisons) 
 
 
 # Gnosis:
 
-Futarchy / governance - how this compare. 
+Futarchy / governance - how this compares. 
 
 dApp on the Ethereum blockchain vs aeternity
 
 Realitykeys external oracle provider intergration
 
-(Comparisons on both to aeternity i.e. it will use its down blockchain)
+(Comparisons on both to aeternity, i.e. it will use its down blockchain)
 
 # Cosmos:
 
-Communication lines between different blockchains, could be used as a trustless exchange 
+Communication lines between different blockchains, could be used as a trust-less exchange 
 
 
 
