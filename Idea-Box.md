@@ -12,6 +12,10 @@ Github wiki is not Mediawiki. Unlikely any plugins are supported here?
 
 Same as above - Mediawiki plugins not supporter on Github.
 
+## Using Mediawiki format?
+
+Even though plugins are unlikely to be supported, the Mediawiki format is supported, see proposals on Bitcoin: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+
 ## Migrating Zack's notes into wiki format
 
 Over the months of development Zack has accumulated a lot of notes - https://github.com/aeternity/testnet/tree/master/docs - even though the folder name says `docs` it is more suited for `wiki` - a lot of use cases and great examples.
