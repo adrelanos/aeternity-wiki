@@ -14,7 +14,7 @@ Anyone who wants to store or transfer value, with unparalleled speed, reliabilit
  
 * Contract writers & Developers:
 
-    Thanks to its unique features (State channels, Decentralised oracles, On-chain Governance, ENS) on top of everything other blockchains have to offer, æternity will be a logical choice for all developers and Smart-Contracts writers. It will be the Backbone of the Internet-of-Things.
+    Thanks to its unique features (State channels, Decentralized oracles, On-chain Governance, ENS) on top of everything other blockchains have to offer, æternity will be a logical choice for all developers and Smart-Contracts writers. It will be the Backbone of the Internet-of-Things.
 
 * Miners:
 
