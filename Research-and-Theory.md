@@ -37,11 +37,11 @@ It is important to note that in order for a market participant to win consistent
 Take for example an event that has a 90% probability. If on a market the current price signals a probability of 95% instead of 90%, it can still be very profitable in the long run for a trader to bet against such events, even if that trader believes that the event will likely happen given the 90% probability.
 This is very counter-intuitive, but it is easily explained by doing the math.
 
-If Alice makes 100 different bets against events that have a 90% probability, she will be right 10 times and wrong 90 times. But because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will still make a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000AE bet, Alice will make a profit of  5000AE (10x950-90x50=5000).
+If Alice makes 100 different bets against events that have a 90% probability, she will be right 10 times and wrong 90 times. However, because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will still make a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000AE bet, Alice will make a profit of  5000AE (10x950-90x50=5000).
 
 **b) They reveal information using the price mechanism.**
  
-Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try to be as accurate as possible and the prices will reflect that. In prediction markets prices can be understood as showing the probabilities of the outcome that is being traded.
+Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try to be as accurate as possible and the prices will reflect that. In prediction market's prices can be understood as showing the probabilities of the outcome that is being traded.
 
 An example here could be a miner who wants to plan his hardware purchases in advance and needs to know the probability of the total hash rate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, the miner can set up a prediction market that will give him very accurate probabilities.
 
@@ -53,9 +53,9 @@ Ethereum has Augur and Gnosis trying to build prediction markets on top of it, w
 
 Any user may create an Oracle by posing a question or statement, staking coins and providing a binary or a scaled answering option. 
 AE coins can be used to acquire stakes of those specific outcomes. 
-The more sure a user is about the outcome, the more stakes he may acquire and hence the more likely (he thinks) it's, that the outcome will be correct. Applying the wisdom of the crowd to all participating users of the prediction market, it is possible to 
+The more sure a user is about the outcome, the more stakes he may acquire and hence more likely (he thinks) the outcome will be correct. Applying the wisdom of the crowd to all participating users of the prediction market, it is possible to 
 
-a) statistically predict the probability of a future event occuring  
+a) statistically predict the probability of a future event occurring  
 
 b) verify historic data from legacy systems or other blockchains
 
