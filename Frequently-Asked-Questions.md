@@ -28,11 +28,11 @@ Table of Contents
 
 # How is Æternity different from Ethereum and Bitcoin? #
 
-With Bitcoin Smart-contracts do not exist as of yet. All transactions are executed On-chain.
+With Bitcoin smart-contracts do not exist as of yet. All transactions are executed on-chain.
 
-With Ethereum smart-contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for Smart-Contracts, with no coherent design, no coherent API for web apps, no naming system or Oracles. All these are being built on top of the Block-chain.
+With Ethereum smart-contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for smart-contracts with no coherent design, no coherent API for web apps and no naming system or Oracles. All these are being built on top of the blockchain.
 
-With æternity contracts only exists for a moment. They are settled independently from all the other contracts via state channels. This solution makes the blockchain use-cases and throughput more scalable for mainstream adoption and adequate to private use cases.
+With æternity contracts only exists for a moment. They are settled independently from all the other contracts via state channels. This solution makes the blockchain use cases and throughput more scalable for mainstream adoption and adequate to private use cases.
 
 # Why is Æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
@@ -45,7 +45,7 @@ On æternity computation by default happens off-chain.
 
 Æternity core blockchain code is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
 
-Erlang was chosen because it is the perfect choice to write a Blockchain from scratch allowing to achieve superior code execution stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch allowing to achieve superior code execution stability and performance.
 
 # How does Æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
@@ -82,7 +82,7 @@ AE in circulation after contribution phase 2: TODO
 
 # How is the AE dispersed? #
 
-Following Phase 2, 82 % of the AE that has been created will be the hands of investors. 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses in order to encourage the use of AE and the aeternity network.
+Following Phase 2, 82 % of the AE that has been created will be in the hands of investors. 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses in order to encourage the use of AE and the aeternity network.
 
 90% of the AE that has been reserved for the founding team (a total of 17% of the available AE) will be time-locked so as to discourage team members from taking the AE tokens and leaving the project. 
 
@@ -115,7 +115,7 @@ Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/A
 # Æternity, a new blockchain? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-Yes, æternity is a next-level, brand new blockchain technology in the making, with many features that tackle current issues of blockchain systems in an elegant way.
+Yes, æternity is a next level, brand new blockchain technology in the making, with many features that tackle current issues of blockchain systems in an elegant way.
 
 One can learn more about æternity’s blockchain technology by [looking at the whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf). Going through it is the best way to understand æternity’s technology design.
 
@@ -126,19 +126,19 @@ Interested to see some action? Access our Twitch account to look at our live cod
 # What can the AE token be used for? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-AEON or AE are the access tokens to the æternity blockchain and act as a unit of account for the resources spent on æternity. AE are the energy (or “crypto-fuel”) used to power any application implemented on the platform. Every action (and even inaction) on the æternity platform costs something, even if only fractions of cents.
+AEON or AE are the access tokens to the æternity blockchain and act as a unit of account for the resources spent on æternity. AE are the energy (or “crypto-fuel”) used to power any application implemented on the platform. Every action (and even inaction) on the æternity platform costs something, even if only a fraction of a cent.
 
 AE are the fuel for the new types of trustless apps that will be enabled. For more information regarding applications, consult the [æternity whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf), visit the [website](http://www.aeternity.com/) or continue reading this FAQ.
 
 # What are some of the more interesting applications that can be created on æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-Æternity enables a high transaction throughput. Broadly speaking, and contrary to traditional blockchains limitations, any type of application that requires high transactional speed will run smoothly on æternity. Here are some of those:
+Æternity enables a high transaction throughput. Broadly speaking, and contrary to traditional blockchain limitations, any type of application that requires high transactional speed will run smoothly on æternity. Here are some of those:
 
 * Nano and micro payments.
 * Smart-contracts using oracles to initiate millions of parallel transactions.
 * Side-chained blockchain networks that can communicate efficiently and securely.
-* Multiplayer video games where the rules are enforced by the blockchain. Poker, chess, Go, first person shooter games.
+* Multiplayer video games where the rules are enforced by the blockchain. Poker, chess, Go, and first person shooter games.
 * Investment opportunities for ventures that are specializing in predicting the price of food.
 * Contracts for powering crowdsales to finance public goods and create a sustainable economy.
 * Lie detectors to know when leaders or experts are hiding the truth.
@@ -159,16 +159,16 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 
 We are building a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code, so that the users only publish the portion of code that actually gets executed.
 
-Æternity’s smart contracts can be massive, gigabytes to terabytes in volume, not a problem — as long as the part that gets executed is relatively small.
+Æternity smart contracts can be massive and can be gigabytes to terabytes in volume. This however is not a problem  as long as the part that gets executed is relatively small.
 
 # Why do we need Ethereum? #
 
-The primary reason for using Ethereum-created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale — Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). Æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
+The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale . Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). Æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
 
 # What is the legal status of Æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-We will provide a rock-solid technology to build on, but that wouldn’t be enough if it wasn’t based on a legally safe foundation. Æternity is incorporated in Liechtenstein and is in regular contact with regulators to keep track of the project’s legal status. The team includes a legal adviser and makes use of additional legal consultancy on an ad-hoc basis.
+We will provide a rock solid technology to build on, but that wouldn’t be enough if it wasn’t based on a legally safe foundation. Æternity is incorporated in Liechtenstein and is in regular contact with regulators to keep track of the project’s legal status. The team includes a legal adviser and makes use of additional legal consultancy on an ad-hoc basis.
 
 # What’s the difference between an account and the Æternity wallet? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
@@ -183,7 +183,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 Yes!
 
 * Some nodes will be providing liquidity to the Lightning Network. They will have lots of channels with lots of people, so if you make a channel with them, you will be able to establish state channel contracts with many users. Using a channel contract through such a node will involve a fee.
-* Some nodes will run trustless exchanges for any asset. They will also collect transaction fees. We envision nodes that let people use state channels to play games like Go, Monopoly, slot machines, or poker. Either single player, or with your friends, or with strangers. Æternity enables trustless financial applications. They are not necessarily decentralized. Anyone can start a “centralized server” and use our software to create trustless financial tools.
+* Some nodes will run trustless exchanges for any asset. They will also collect transaction fees. We envision nodes that let people use state channels to play games like Go, Monopoly, slot machines, or poker. Either single player,  with your friends, or with strangers. Æternity enables trustless financial applications. They are not necessarily decentralized. Anyone can start a “centralized server” and use our software to create trustless financial tools.
 * There can be ‘servers/nodes’ which you can use to invest in stocks, derivatives or metals. You can gamble at sports in a fully trustless and efficient way. Other nodes can specialize in recycling old accounts. There is a fee for having an account open. If the account runs out of money, anyone will be able to delete it and get a small reward.
 * Some nodes will just run trading software. They will buy and sell assets offered by market makers in order to make a profit. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
 
