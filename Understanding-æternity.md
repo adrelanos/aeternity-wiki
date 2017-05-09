@@ -26,7 +26,7 @@ True scalability and trust-less Turing complete state channels are setting Æter
 
 # What is blockchain?
 
-In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is crypto-graphically hashed. In order to prevent tampering of the recorded data in the chain, each block is time stamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
@@ -81,9 +81,9 @@ Event contracts: Event contracts pay when an event
 happens and don’t pay when an event does not happen, as
 per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistleblowing and supporting prediction markets.
 
-Micropayments: æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
+Micropayments: æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micro-payments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micro-payments at scale.  
 
-P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wifi hotspots. Think of it like an Uber-for-wifi. Anyone could offer wifi to anyone else via their mobile phone for a price. 
+P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wifi hotspots. Think of it like an Uber-for-Wi-fi. Anyone could offer Wi-fi to anyone else via their mobile phone for a price. 
 
 Like any platform, the potential applications are limited only by the imagination of the user base. 
 
