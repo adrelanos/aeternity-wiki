@@ -2,7 +2,7 @@
 
 Æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
 Real-world data can interface, through decentralized Oracles, with smart contracts.
-True scalability and trust-less Turing complete state channels are setting æternity apart from Ethereum.
+True scalability and trustless Turing complete state channels are setting æternity apart from Ethereum.
 
 ![æternity platform-vision](http://i67.tinypic.com/2ewm694.png)
 
@@ -17,25 +17,25 @@ True scalability and trust-less Turing complete state channels are setting æter
 # What is the purpose of Æternity?
 
 
-Æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism which is also used to check the oracle. Thus the oracle will be efficient and cost effective by avoiding layering one consensus mechanism on top of another. State channels are integrated to increase privacy and scalability. Tokens in channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing contract code or state on-chain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
+Æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism that is also used to check the oracle. Thus, the oracle will be efficient and cost effective by avoiding layering one consensus mechanism on top of another. State channels are integrated to increase privacy and scalability. Tokens in channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing contract code or state on-chain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
 
 
 # What is blockchain?
 
-In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, a blockchain is a secure ledger distributed among participant's computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about Æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
 Æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
 Other smart contract platforms are experimenting with 3rd party oracle machines added on top of the consensus. 
-The oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
+The oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus, offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
 
 ![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
 
 # What is an Oracle?
 
-Oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowdsources real-time answers to specific questions using principles of [Prediction Markets](https://github.com/aeternity/testnet/wiki/Research-and-Theory#prediction-markets) and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information accessible to the public.
+Oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowd-sources real-time answers to specific questions using principles of [Prediction Markets](https://github.com/aeternity/testnet/wiki/Research-and-Theory#prediction-markets) and can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation and any other information accessible to the public.
 
 [More details](https://github.com/aeternity/testnet/wiki/Research-and-Theory#decentralized-oracles)
 
@@ -74,10 +74,10 @@ Stable value assets: Smart contracts and oracles can be used in combination to p
 nearly the same price as a real world asset.
 
 Event contracts: Event contracts pay when an event
-happens and don’t pay when an event does not happen, as
-per the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistleblowing and supporting prediction markets.
+happens and don’t pay when an event does not happen, according to
+the oracle’s telling. Event contracts can be used as the basis for many other types of useful applications such as encouraging whistleblowing and supporting prediction markets.
 
-Micropayments: Æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
+Micro-payments: Æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micropayments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micropayments at scale.  
 
 P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wifi hotspots. Think of it like an Uber-for-wifi. Anyone could offer wifi to anyone else via their mobile phone for a price. 
 
