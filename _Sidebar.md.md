@@ -19,7 +19,7 @@
 * [Idea Box][ideabox]
 * [Claiming Your Ledger][ledgerclaim]
 * [Bounty Programs][bounty]
-* [How to sign Message with prKey][privatekeymessage]
+* [How to sign message with private key][privatekeymessage]
 * [Windows Installation][wininstall]
 
 
