@@ -4,17 +4,17 @@
 
 # Concepts
 ## State Channels
-The State Channel design enables off chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is Æternity's strong suit.
+The state channel design enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the Æternity system can scale as well as known centralized solutions available today.
+No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralized solutions available today.
  For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 ## Decentralized Oracles
 An oracle is a mechanism that tells the blockchain facts about the world we live in e.g. the close price of Apple shares on a particular date. Aeternity's oracle system uses the same consensus system as the Aeternity blockchain itself i.e. it does not require a separate consensus layer on top of the AE mainnet. 
 
-To launch an oracle, an aeon holder has to commit to answering a yes or no question (e.g. whether the price of an Apple share is above $200) and specify additional conditions such as the timeframe in which the Aeon holder can answer that question. The aeon holder then has to deposit/commit a certain amount of aeon, which is proportional to the timeframe during which the oracle is operational. When the oracle supplies an answer that is accepted as the truth by users, the deposit will be returned to the creator of the oracle. Otherwise, the deposit will be destroyed.
+To launch an oracle, an aeon holder has to commit to answering a yes or no question (e.g. whether the price of an Apple share is above $200) and specify additional conditions such as the time frame in which the Aeon holder can answer that question. The aeon holder then has to deposit/commit a certain amount of aeon, which is proportional to the time frame during which the oracle is operational. When the oracle supplies an answer that is accepted as the truth by users, the deposit will be returned to the creator of the oracle. Otherwise, the deposit will be destroyed.
 
-Once the oracle has submitted an answer, other users are free to dispute the answer by submitting a counter-claim by depositing the same amount of aeon as the oracle creator. If there are no counter-claims by the end of the timeframe, the answer supplied by the oracle is deemed to be the truth. If there are counter-claims, the consensus system for the AE mainnet will be used to decide on which is the correct answer.
+Once the oracle has submitted an answer, other users are free to dispute the answer by submitting a counter-claim by depositing the same amount of aeon as the oracle creator. If there are no counter-claims by the end of the time frame, the answer supplied by the oracle is deemed to be the truth. If there are counter-claims, the consensus system for the AE mainnet will be used to decide on which is the correct answer.
 
 Therefore, what is in effect achieved is a decentralised oracle system. The truth value of oracle answers, if in dispute, will be ultimately determined by the decentralised consensus system of the AE network.
 
@@ -41,7 +41,7 @@ If Alice makes 100 different bets against events that have a 90% probability, sh
 
 **b) They reveal information using the price mechanism.**
  
-Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try to be as accurate as possible and the prices will reflect that. In prediction market's prices can be understood as showing the probabilities of the outcome that is being traded.
+Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try to be as accurate as possible and the prices will reflect that. In prediction markets prices can be understood as showing the probabilities of the outcome that is being traded.
 
 An example here could be a miner who wants to plan his hardware purchases in advance and needs to know the probability of the total hash rate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, the miner can set up a prediction market that will give him very accurate probabilities.
 
@@ -49,9 +49,9 @@ An example here could be a miner who wants to plan his hardware purchases in adv
 Prediction markets (Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralised and transparent manner for the first time.
 
 Ethereum has Augur and Gnosis trying to build prediction markets on top of it, with each its different system and currency.
-æternity differentiates itself, by integrating the Oracle into the blockchain consensus. 
+æternity differentiates itself, by integrating the oracle into the blockchain consensus. 
 
-Any user may create an Oracle by posing a question or statement, staking coins and providing a binary or a scaled answering option. 
+Any user may create an oracle by posing a question or statement, staking coins and providing a binary or a scaled answering option. 
 AE coins can be used to acquire stakes of those specific outcomes. 
 The more sure a user is about the outcome, the more stakes he may acquire and hence more likely (he thinks) the outcome will be correct. Applying the wisdom of the crowd to all participating users of the prediction market, it is possible to 
 
