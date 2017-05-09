@@ -1,6 +1,6 @@
 The P1 contribution phase officially ended, and if you were one of the first 1000 people to contribute at least 12ETH you may have qualified for a free Ledger Nano S!
 
-Below you will find information on how to check if you qualified and start the claim process to received your Ledger.
+Below you will find information on how to check if you qualified and start the claim process to receive your Ledger.
 
 # Did I qualify for an Aeternity Ledger Nano S?
 To check if you qualified for a Ledger Nano S:
@@ -10,7 +10,7 @@ To check if you qualified for a Ledger Nano S:
 * If you qualified for a Ledger you will be informed accordingly.
 
 # How do I claim my Aeternity Ledger Nano S?
-> This process is still in development, but it was decided to deploy the functionality for ETH contributions, since it's already working correctly. All other functionalities will be added once they are tested properly.
+> This process is still in development, but it was decided to deploy the functionality for ETH contributions since it's already working correctly. All other functionalities will be added once they are tested properly.
 
 Aeternity has started the claiming process. To claim your Ledger Nano S:
 * Visit: https://wallet.aeternity.com/.
