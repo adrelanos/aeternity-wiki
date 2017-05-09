@@ -3,7 +3,7 @@
 </div>
 <h2>Introduction</h2>
 
-The innovation in æternity is the creation of a highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes the oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and are the de facto layer for the execution of Smart-contracts. This increases both the privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss to functionality.
+The innovation in æternity is the creation of a highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes the oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and are the de facto layer for the execution of smart contracts. This increases both the privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss to functionality.
 Applications like markets for synthetic assets and prediction markets can be efficiently implemented at global scale. 
 
 <div class="weiss">
@@ -80,8 +80,8 @@ The initial amount of AE for the genesis block will be determined by a verifiabl
 <td class="align-middle">
 <strong class="d-block">SMART CONTRACTS</strong>
 
-<small>State channels enable highly scalable, trustless transactions of value and purely functional, easily verifiable turing-complete smart contracts.
-State channels effortlessly support an immense throughput of transactions. The execution of the Smart-Contracts as well as the settlement happens off-chain.
+<small>State channels enable highly scalable, trustless transactions of value and purely functional, easily verifiable Turing-complete smart contracts.
+State channels effortlessly support an immense throughput of transactions. The execution of the smart contracts as well as the settlement happens off-chain.
 In other words: They are one-to-one sidechains, where the blockchain acts as a public crypto court only used for disagreement resolution.</small>
 </td>
 </tr>
@@ -100,7 +100,7 @@ In other words: They are one-to-one sidechains, where the blockchain acts as a p
 <td class="align-middle">
 <strong class="d-block">ORACLES</strong>
 
-<small>A crucial feature for most contracts, whether encoded as text or as code, is the ability to refer to values from the environment and access to real world data.
+<small>A crucial feature for most contracts, whether encoded as text or as code, is the ability to refer to values from the environment and access to real-world data.
 The æternity Oracle Machine provides real-world data to the blockchain in an integrated way.
 Each user can ask questions about the environment. Everybody can answer. The consensus mechanism comes into play in case of disagreement.</small>
 </td>
