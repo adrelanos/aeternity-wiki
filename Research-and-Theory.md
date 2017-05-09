@@ -82,6 +82,7 @@ Here follows a collection of in-depth analysis about Futarchy ordered by publica
 * [Response to Merkle’s DAO Paper - by Dan Finlay](https://medium.com/@danfinlay/response-to-merkles-dao-paper-61d76d2dd333)
 * [BFF: A Recursive Merkle DAO - by Dan Finlay](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
 * [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
+* [An Introduction to Cryptoeconomics and Futarchy experiments on Gnosis - by Matt Liston](https://medium.com/@consensus/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis-df85220f840a)
 # Research
 Eg.) Turing, State Channels, Blockchain etc.
 # Working Theories
