@@ -2,15 +2,15 @@
 The content is copied from here [HERE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) and now the revision history is gone. Please revert.
 ***
 
-# What is Æternity?
+# What is æternity?
 
-Æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
+æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
 Real-world data can interface, through decentralized Oracles, with smart contracts.
 True scalability and trust-less Turing complete state channels are setting Æternity apart from Ethereum.
 
 ![æternity platform-vision](http://i67.tinypic.com/2ewm694.png)
 
-Æternity is unique in many ways, but the key features are:
+æternity is unique in many ways, but the key features are:
 
 - Hybrid PoW/PoS;
 - Oracle Machine;
@@ -18,22 +18,22 @@ True scalability and trust-less Turing complete state channels are setting Æter
 - Governance;
 - Address naming system;
 
-# What is the purpose of Æternity?
+# What is the purpose of æternity?
 
 
-Æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism which is also used to check the oracle. Thus the oracle will be efficient and cost effective by avoiding layering one consensus mechanism on top of another. State channels are integrated to increase privacy and scalability. Tokens in channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing contract code or state on-chain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
+æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism which is also used to check the oracle. Thus the oracle will be efficient and cost effective by avoiding layering one consensus mechanism on top of another. State channels are integrated to increase privacy and scalability. Tokens in channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing contract code or state on-chain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
 
 
 # What is blockchain?
 
-In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the Æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, a blockchain is a secure ledger distributed among participants computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is timestamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
-# What is special about Æternity and how does it compare to other blockchains?
+# What is special about æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
-Æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
+æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
 Other smart contract platforms are experimenting with 3rd party oracle machines added on top of the consensus. 
-The Oracle is part of the consensus in Æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
+The Oracle is part of the consensus in æternity and can deliver deterministic values (from legacy systems or other blockchains) for smart contract interaction. Thus offering real-world data to be instantly implemented in æternity smart contracts, in return enabling countless business use cases.
 
 ![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
 
@@ -54,7 +54,7 @@ No contracting state is stored on-chain, so all channels are independent of each
  
 For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/). Also see [[State Channels]].
 
-# How does Æternity work?
+# How does æternity work?
 * [Governance & æternity](https://github.com/aeternity/testnet/wiki/Research-and-Theory#governance--consensus)
 
 (High-level, also describe the proof system, state channels):
@@ -63,11 +63,11 @@ For more information refer to [State Channel](http://www.jeffcoleman.ca/state-ch
 
 # What are AE Tokens and how are they used and consumed?
 
-The Æternity tokens will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
+The æternity tokens will be used to pay for resources consumed through the platform, as well as "gas" used to power applications built on top of it.
 
-All Æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
+All æternity tokens will be distributed via the genesis block through an ERC20 Ethereum Smart contract, and at a later stage by mining.
 
-# How can Æternity be used?
+# How can æternity be used?
 
 Toll API: Payment channels allow for a new kind of API, where one
 pays for every call to the API, possibly every HTTP-request.
@@ -89,11 +89,11 @@ Like any platform, the potential applications are limited only by the imaginatio
 
 # Purchasing and acquiring æternity: 
 
-The first round available to purchase Æternity was during Æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH and the first 1000 contributors above 12 ETH will receive 1 'limited edition' Æternity branded Ledger. 
+The first round available to purchase æternity was during æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH and the first 1000 contributors above 12 ETH will receive 1 'limited edition' æternity branded Ledger. 
 
 The second round will begin 29th May 2017. You can participate as well as follow any updates here: https://wallet.aeternity.com/
 
 
 
 ---
-For more info, feel free to check out the [Wikipedia](https://en.wikipedia.org/wiki/AEternity) page on Æternity.
+For more info, feel free to check out the [Wikipedia](https://en.wikipedia.org/wiki/AEternity) page on æternity.
