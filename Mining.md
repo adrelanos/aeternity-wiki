@@ -33,9 +33,9 @@ While hardware requirements for creating a PoS miner will not be particularly hi
 
 # Proof-Of-Work Mining - which kind of hardware is best?
 
-The "Cuckoo Cycle" PoW is more power efficient and indirectly useful, as it encourages the development of better random access memory (DRAM) chips. The best part is that even low-power devices such as smartphones can efficiently mine new tokens, achieving an unparalleled decentralization, which is crucial to the success of any blockchain.
+The "Cuckoo Cycle" PoW is more power efficient and indirectly useful, as it encourages the development of better random access memory (DRAM) chips. Even low-power devices such as smartphones, tablets and laptops can efficiently mine new tokens. This will achieve an unparalleled decentralisation and geographical distribution of the mining power, which will be crucial to the success of any Blockchain.
 
-As such, æternity mining is designed to be more egalitarian and inclusive compared to crypto-currencies where mining is dominated by large mining entities which use application-specific integrated circuit ("ASIC") chips designed specifically to take advantage of a particular PoW algorithm.
+As such, æternity mining is designed to be more egalitarian and inclusive compared to crypto-currencies where mining is dominated by large mining entities which use application-specific integrated circuit ("ASIC") chips designed specifically to take advantage of a particular PoW algorithm. This wider distribution of the mining incentives will then contribute to even wider use and adoption of æternity.
 
 As noted by John Tromp in his paper, "Cuckoo Cycle: a memory bound graph-theoretic proof-of-work":
 >”[Cuckoo Cycle is] an instantly verifiable memory bound PoW that is unique in being dominated by latency rather than computation. In that sense, mining Cuckoo Cycle is a form of ASIC mining where DRAM chips serve the application of randomly reading and writing billions of bits. When even phones charging overnight can mine without orders of magnitude loss in efficiency, not with a mindset of profitability but of playing the lottery, the mining hardware landscape will see vast expansion, benefiting adoption as well as decentralization.”
