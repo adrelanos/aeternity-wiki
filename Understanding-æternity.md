@@ -6,7 +6,7 @@ The content is copied from here [HERE](https://github.com/aeternity/testnet/wiki
 
 æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
 Real-world data can interface, through decentralized Oracles, with smart contracts.
-True scalability and trust-less Turing complete state channels are setting Æternity apart from Ethereum.
+True scalability and trust-less Turing complete state channels are setting æternity apart from Ethereum.
 
 ![æternity platform-vision](http://i67.tinypic.com/2ewm694.png)
 
@@ -48,7 +48,7 @@ Oracle is a mechanism to teach the blockchain true facts about our world. This i
 The State Channel design enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so Æternity is built for scalable smart contract systems and can scale as well as known centralized solutions available today.
+No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so æternity is built for scalable smart contract systems and can scale as well as known centralized solutions available today.
 
 --Taken from [here](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
  
@@ -83,7 +83,7 @@ per the oracle’s telling. Event contracts can be used as the basis for many ot
 
 Micropayments: æternity's state channels will allow for off-chain, peer-to-peer payments that will open up many revenue generation possibilities for content creators and publishers. While micro-payments are currently possible on other blockchains, tx/min and block size limitations prevent many current blockchains from being able to handle micro-payments at scale.  
 
-P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wifi hotspots. Think of it like an Uber-for-Wi-fi. Anyone could offer Wi-fi to anyone else via their mobile phone for a price. 
+P2P Bandwidth Sales: State channel supported payments could allow for compensation-based sharing of wi-fi hotspots. Think of it like an Uber-for-Wi-fi. Anyone could offer Wi-fi to anyone else via their mobile phone for a price. 
 
 Like any platform, the potential applications are limited only by the imagination of the user base. 
 
