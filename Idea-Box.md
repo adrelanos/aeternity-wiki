@@ -88,9 +88,11 @@ If the milestone is not reached, investors get their investments and interests b
 ## Micro- & Nano Payments
 > æternity will be the preferred Blockchain for the Micro and Nano payments. No other Blockchain now can match the speed that's provided by æternity's [state channels.](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
 
-Once such example of this use case is the rollout of hundreds of charging stations for electric cars using  Ethereum in Germany. Innogy, a subsidiary of Germany’s energy giant RWE has added blockchain capabilities to their E2E Product using asset-backed Crypto-EURO for payments in charging stations for electric vehicles.
+Once such example of this use case is the rollout of hundreds of charging stations for electric cars using  Ethereum in Germany. Innogy, a subsidiary of Germany’s energy giant RWE has added blockchain capabilities to their E2E Product using asset-backed Crypto-EURO for payments in charging stations for electric vehicles. 
 
 > Because the idea here is for, eventually, the car itself to pay the charging station. How? The exact details would probably be closely guarded, but at a high level you can blockchainize the car, give it a smart contract, connect it to wi-fi, and write some code which orders it to pay if:then, while:else etc.
+
+The only problem with other Blockchains solutions like Ethereum, is that storing all these micro-payments and contracts information on-chain will lead very soon to a bloating of the size of the chain, and render it virtually unusable. Here comes the æternity innovation, with [State channels](https://github.com/aeternity/testnet/wiki/State-Channels).
 
 Source: [Cryptocoinnews](https://www.cryptocoinsnews.com/hundreds-charging-stations-electric-cars-blockchenized-ethereum-germany/)
 
