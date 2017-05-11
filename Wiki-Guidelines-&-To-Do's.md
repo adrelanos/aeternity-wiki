@@ -5,6 +5,7 @@ Before **adding** content:
 * read wiki content, regarding your topic especially thoroughly, before adding any new content (duplicated content will not be counted as wiki bounty)
 
 Markdown & Syntax:
+* æternity is spelled æternity **not** Æternity, even if it's the beginning of a sentence.
 * you can jump right in and edit if you see a mistake or something that looks weird (these are valid contributions to the wiki bounty)
 * make sure you use relative links wherever possible! eg. if you want to refer to the "[[Understanding æternity|Understanding-Aeternity]]" page, you can use `[[Understanding æternity|Understanding-Aeternity]]`
 
