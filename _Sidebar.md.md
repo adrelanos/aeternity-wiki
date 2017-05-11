@@ -29,7 +29,7 @@
 [tech]: https://github.com/aeternity/testnet/wiki/Aeternity-Technology
 [research]: https://github.com/aeternity/testnet/wiki/Research-and-Theory
 [doc]: https://github.com/aeternity/testnet/wiki/Aeternity-Documentation
-[blockchainAndAE]: https://github.com/aeternity/testnet/wiki/Aeternity-in-the-blockchain-space  
+[blockchainAndAE]: https://github.com/aeternity/testnet/wiki/%C3%A6ternity-in-the-blockchain-space
 [contracts]: https://github.com/aeternity/testnet/wiki/Aeternity-Contracts
 [team]: https://github.com/aeternity/testnet/wiki/Aeternity-Team
 [bounty]: https://github.com/aeternity/testnet/wiki/Bounty
