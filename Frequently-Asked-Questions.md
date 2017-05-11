@@ -7,7 +7,7 @@ Table of Contents
    * [How is æternity different from Ethereum and Bitcoin?](#how-is-aeternity-different-from-ethereum)
    * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
    * [How is æternity written?](#How-is-æternity-written)
-   * [Which PoW Algorithm æternity uses?](#Which PoW Algorithm æternity uses)
+   * [Which PoW Algorithm æternity uses?](#Which PoW Algorithm æternity uses?)
    * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
