@@ -78,7 +78,7 @@ Now let's create super simple webpage:
 - create standalone demo
 
 
-#Alternative: myetherwallet
+# Alternative: myetherwallet
 
 Myetherwallet is a trustless open-source application that allows you to interact with the ethereum network without running a full client. You can create and manage wallets without uploading your private key.
 
