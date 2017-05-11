@@ -6,7 +6,7 @@ The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messag
 * Ask in the [Slack Wiki Channel](https://aeternity.slack.com/messages/C59BALQCE/details/) if the content is somewhat meaningful 
 
 ## After **adding** content:
-* add the page to the [Navigation Sidebar](https://github.com/aeternity/testnet/wiki/_Sidebar.md/)
+* add the page to the [Navigation Sidebar](https://github.com/aeternity/testnet/wiki/_Sidebar.md/) ------>
 * if you like you can promote the content on your social media channels
 
 ## Markdown & Syntax:
