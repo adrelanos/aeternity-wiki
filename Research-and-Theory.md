@@ -7,14 +7,14 @@
 The state channel design enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralized solutions available today.
+No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralised solutions available today.
  For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
-## Decentralized Oracles
-An oracle is a mechanism that tells the blockchain facts about the world we live in e.g. the close price of Apple shares on a particular date. Aeternity's oracle system uses the same consensus system as the Aeternity blockchain itself i.e. it does not require a separate consensus layer on top of the AE mainnet. 
+## Decentralised Oracles
+An oracle is a mechanism that tells the blockchain facts about the world we live in e.g. the close price of Apple shares on a particular date. æternity's oracle system uses the same consensus system as the æternity blockchain itself i.e. it does not require a separate consensus layer on top of the æternity mainnet. 
 
 To launch an oracle, an aeon holder has to commit to answering a yes or no question (e.g. whether the price of an Apple share is above $200) and specify additional conditions such as the time frame in which the Aeon holder can answer that question. The aeon holder then has to deposit/commit a certain amount of aeon, which is proportional to the time frame during which the oracle is operational. When the oracle supplies an answer that is accepted as the truth by users, the deposit will be returned to the creator of the oracle. Otherwise, the deposit will be destroyed.
 
-Once the oracle has submitted an answer, other users are free to dispute the answer by submitting a counter-claim by depositing the same amount of aeon as the oracle creator. If there are no counter-claims by the end of the time frame, the answer supplied by the oracle is deemed to be the truth. If there are counter-claims, the consensus system for the AE mainnet will be used to decide on which is the correct answer.
+Once the oracle has submitted an answer, other users are free to dispute the answer by submitting a counter-claim by depositing the same amount of aeon as the oracle creator. If there are no counter-claims by the end of the time frame, the answer supplied by the oracle is deemed to be the truth. If there are counter-claims, the consensus system for the æternity main-net will be used to decide on which is the correct answer.
 
 Therefore, what is in effect achieved is a decentralised oracle system. The truth value of oracle answers, if in dispute, will be ultimately determined by the decentralised consensus system of the AE network.
 
@@ -37,7 +37,7 @@ It is important to note that in order for a market participant to win consistent
 Take for example an event that has a 90% probability. If on a market the current price signals a probability of 95% instead of 90%, it can still be very profitable in the long run for a trader to bet against such events, even if that trader believes that the event will likely happen given the 90% probability.
 This is very counter-intuitive, but it is easily explained by doing the math.
 
-If Alice makes 100 different bets against events that have a 90% probability, she will be right 10 times and wrong 90 times. However, because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will still make a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000AE bet, Alice will make a profit of  5000AE (10x950-90x50=5000).
+If Alice makes 100 different bets against events that have a 90% probability, she will be right 10 times and wrong 90 times. However, because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will still make a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000 AE bet, Alice will make a profit of  5000 AE (10x950-90x50=5000).
 
 **b) They reveal information using the price mechanism.**
  
@@ -63,7 +63,7 @@ c)  verify API data from legacy systems or other blockchains
 
 Meaning any data outside the blockchain can be translated into a deterministic value that can be used in æternity smart contracts, making real-world data easily accessible and actionable. 
 
-And what is even better in æternity is that this source of information would come from inside the Blockchain, and not from an outside entity built on top of it. This makes the source of information more reliable, more decentralized and not relying on  a 3rd Party company or entity (Like Augur and Gnosis).  
+And what is even better in æternity is that this source of information would come from inside the Blockchain, and not from an outside entity built on top of it. This makes the source of information more reliable, more decentralised and not relying on  a 3rd Party company or entity (Like Augur and Gnosis).  
 
 ##### Prediction Market - High Level Concept
 ![aeternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
