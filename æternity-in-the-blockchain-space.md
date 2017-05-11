@@ -2,6 +2,8 @@ The blockchain space is growing at an exponential rate each day and there are ma
 
 ![Comparison Table](http://i67.tinypic.com/e0g4z4.png)
 
+[Another Comparison table](https://github.com/aeternity/testnet/wiki/Blockchain-comparison)
+
 # Bitcoin: 
 
 First mover advantage in cryptocurrency giving it a huge head start but also a first mover disadvantage - it's old technology, no smart contracts, small blocks with slow 10 minute block times. 
