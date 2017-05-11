@@ -6,8 +6,8 @@ Table of Contents
    * [Table of Contents](#table-of-contents)
    * [How is æternity different from Ethereum and Bitcoin?](#how-is-aeternity-different-from-ethereum)
    * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
-   * [How is æternity written?](#How-is-æternity-written)
-   * [Which PoW Algorithm æternity uses?](#Which PoW Algorithm æternity uses?)
+   * [How is æternity written?](#how-is-æternity-written)
+   * [Which PoW Algorithm æternity uses?](#which-PoW-Algorithm-æternity-uses?)
    * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
@@ -48,7 +48,7 @@ On æternity computation by default happens off-chain.
 
 Erlang was chosen because it is the perfect choice to write a blockchain from scratch allowing to achieve superior code execution stability and performance.
 
-# Which PoW Algorithm æternity uses?
+# Which PoW Algorithm æternity uses? #
 
 æternity uses the "Cuckoo Cycle" Proof-of-Work hash algorithm which is power efficient than most other algorithms. Theoretically even low-power devices such as smartphones and tablets can efficiently used to mine on "Cuckoo Cycle".
 
