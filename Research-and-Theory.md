@@ -18,7 +18,7 @@ Once the oracle has submitted an answer, other users are free to dispute the ans
 
 Therefore, what is in effect achieved is a decentralised oracle system. The truth value of oracle answers, if in dispute, will be ultimately determined by the decentralised consensus system of the AE network.
 
-![aeternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
+![æternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
 
 For more information, refer to the [Aeternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
@@ -41,11 +41,11 @@ If Alice makes 100 different bets against events that have a 90% probability, sh
 
 **b) They reveal information using the price mechanism.**
  
-Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try to be as accurate as possible and the prices will reflect that. In prediction markets prices can be understood as showing the probabilities of the outcome that is being traded.
+Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try and be economically incentivized to be as accurate as possible and the prices will reflect that. In prediction markets prices can be understood as showing the probabilities of the outcome that is being traded.
 
-An example here could be a miner who wants to plan his hardware purchases in advance and needs to know the probability of the total hash rate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, the miner can set up a prediction market that will give him very accurate probabilities.
+An example here could be a miner who wants to plan his hardware purchases in advance and needs to know the probability of the total hash rate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, the miner can set up a prediction market that will give him very accurate probabilities. The people betting on those opportunities would not be random people on the internet (As we see in normal forums), but "experts", who will provide very likely guesses, as they will lose their money if they are wrong, and will only gain money if they are right.
 
-### 2. How do prediction markets work on Æternity
+### 2. How do prediction markets work on æternity
 Prediction markets (Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralised and transparent manner for the first time.
 
 Ethereum has Augur and Gnosis trying to build prediction markets on top of it, with each its different system and currency.
@@ -61,7 +61,9 @@ b) verify historic data from legacy systems or other blockchains
 
 c)  verify API data from legacy systems or other blockchains
 
-Meaning any data outside the blockchain can be translated into a deterministic value that can be used in æternity smart contracts, making real-world data easy accessible and actionable.  
+Meaning any data outside the blockchain can be translated into a deterministic value that can be used in æternity smart contracts, making real-world data easily accessible and actionable. 
+
+And what is even better in æternity is that this source of information would come from inside the Blockchain, and not from an outside entity built on top of it. This makes the source of information more reliable, more decentralized and not relying on  a 3rd Party company or entity (Like Augur and Gnosis).  
 
 ##### Prediction Market - High Level Concept
 ![aeternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
