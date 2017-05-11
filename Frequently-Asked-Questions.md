@@ -8,6 +8,7 @@ Table of Contents
    * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
    * [How is æternity written?](#how-is-æternity-written)
    * [Which PoW Algorithm æternity uses?](#which-PoW-Algorithm-æternity-uses?)
+   * [How does PoS work in æternity?](#how-does-PoS-work-in-æternity?)
    * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
@@ -53,6 +54,13 @@ Erlang was chosen because it is the perfect choice to write a blockchain from sc
 æternity uses the "Cuckoo Cycle" Proof-of-Work hash algorithm which is power efficient than most other algorithms. Theoretically even low-power devices such as smartphones and tablets can efficiently used to mine on "Cuckoo Cycle".
 
 For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
+
+# How does PoS work in æternity? #
+
+Any Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. That user is also required to deposit AEON in proportion to the length of the time-frame, which will be returned if the user supplies an answer that gets accepted as truth, otherwise it is burned. Other users have a set amount of time to submit counter-claims by depositing the same amount of Aeon. Then the consensus mechanism for blocks will be used to answer the oracle and rewarding the user saying the truth while penalising the one lying.
+
+For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
+
 
 # How does æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
