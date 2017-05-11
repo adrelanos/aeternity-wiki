@@ -1,4 +1,4 @@
-# Æternity: Blockchain Technology
+# æternity: Blockchain Technology
 
 <a href="http://www.aeternity.com/"><img width="160px" src="http://www.aeternity.com/user/themes/aeon/img/aeternity_logo.png" align="left" hspace="10" vspace="10"></a>
 
