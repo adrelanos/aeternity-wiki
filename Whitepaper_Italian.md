@@ -11,8 +11,6 @@ v0.1
 
 Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un grande interesse nelle applicazioni decentralizzate trustless (contratti smart). In seguito, molti hanno tentato di implementare applicazioni con dati derivanti dal mondo reale innestati su di una blockchain. Noi crediamo che allocare lo stato ed il codice di una applicazione sulla blockchain sia sbagliato per varie ragioni. Presentiamo l'architettura altamente scalabile di una blockchain dotata di un meccanismo di consenso che è anche usato per controllare l'oracolo. Questo rende l'oracolo molto efficiente, perché evita lo stratificarsi di ciascun meccanismo di consenso sopra ad un altro. I canali a Stati sono integrati pper incrementare la privacy e la scalabilità. I token nei canali possono essere trasferiti utilizzando smart contract perfettamente funzionali che possono accedere alle domande dell'oracolo. Non allocando codice di contratto sulla catena, siamo in grado di creare contratti smart più semplici da analizzare e più veloci da processare, con nessuna sostanziale perdita sulla funzionalità reale. Applicazioni come i mercati per gli asset sintetici e i mercati predittivi possono essere efficientemente implementate su scala globale. Diverse parti hanno una implementazione prototipale in Erlang. Gli strumenti di sviluppo e le applicazioni essenziali come il portafoglio, un sistema di identificazione e di attribuzione del nome saranno anche predisposti.
 
-############# PROSEGUIRE TRADUZIONE #################
-
 CONTENUTI
 I Introduzione 1
 I-Un lavoro predecente . . . . . . . . . . . . . 2
@@ -69,3 +67,5 @@ INTRODUZIONE Lo scopo di questo paper è di dare un quadro d'insieme dekka archi
 A. Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [1].  A ciò è seguito un certo numero di promettenti passi in avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati ad una architettura blockchain [2]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [3], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [4]; Casey Detrio ha mostrato come creare dei mercati su blockchain [5]; Namecoin come una prova di esistenza di qualsiasi dato digitale [7]. Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a ciascuno. 
 
 Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [richiede citazione]. Æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
+
+############# PROSEGUIRE TRADUZIONE #################
