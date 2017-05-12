@@ -26,7 +26,7 @@ b) once finished paste it under 'Closed' with the end date
 * Scan for duplicate content
 
 ### OPEN
-* change absolute links to relative links
+* change absolute links to relative links [cytadela8 17-05-12]
 * Migrate Wiki to new repository **github.com/aeternity/wiki**
   * Specifications: we want a dedicated repo for the wiki under github.com/aeternity/website/wiki; in order to upload content to the repo to reference it in the wiki and at a later point on the website www.aeternity.com. The revision history needs to be completely migrated as well. [acetronaut 17-05-08]
       
