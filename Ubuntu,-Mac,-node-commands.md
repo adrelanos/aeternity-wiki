@@ -61,7 +61,7 @@ If it returns something less than 1, that means you don't have an account yet.
 
 # 
 
-Source: [www.github.com/aeternity/testnet](https://github.com/aeternity/testnet)
+Source: [/aeternity/testnet](https://github.com/aeternity/testnet)
 
 
 
