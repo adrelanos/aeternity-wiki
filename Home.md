@@ -42,6 +42,7 @@ _This will be rapidly expanded._
 * [[Community]]
 * [[Whitepaper_English ]]
 * [[Whitepaper_Korean (한국어)]]
+* [[Whitepaper-Indonesia]]
 
 
 ## External Resources
