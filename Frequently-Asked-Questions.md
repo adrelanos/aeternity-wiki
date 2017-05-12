@@ -34,7 +34,7 @@ With Bitcoin, smart contracts don't exist as of yet. All transactions are execut
 
 With Ethereum, smart contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for smart-contracts with no coherent design, no coherent API for web apps and no naming system or oracles. All these are being built on top of the blockchain.
 
-With æternity, contracts only exislts for a moment. They settled independently from all the other contracts via state channels. This solution makes the blockchain use a cases and throughput more scalable for mainstream adoption and adequate to private use cases.
+With æternity, contracts only exist for a moment. They settled independently from all the other contracts via state channels. This solution makes the blockchain use a cases and throughput more scalable for mainstream adoption and adequate to private use cases.
 
 # Why is æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
