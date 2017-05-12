@@ -14,51 +14,51 @@ Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un gr
 ############# PROSEGUIRE TRADUZIONE #################
 
 CONTENUTI
-I Introduction 1
-I-A Previous Work . . . . . . . . . . . . . 2
-II Æternity blockchain 2
-II-A Tokens, accounts and blocks . . . . . 2
-II-A.1 Access token, Aeon . . . . 2
-II-A.2 Accounts . . . . . . . . . . 2
-II-A.3 Name system . . . . . . . 3
-II-A.4 Block contents . . . . . . . 3
-II-B State channels . . . . . . . . . . . . . 3
-II-B.1 Smart contracts . . . . . . 3
-II-B.2 Example . . . . . . . . . . 4
-II-C Consensus mechanism . . . . . . . . . 5
-II-C.1 Oracles . . . . . . . . . . . 5
+I Introduzione 1
+I-Un lavoro predecente . . . . . . . . . . . . . 2
+II La blockchain Æternity 2
+II-A Token, account e blocchi . . . . . 2
+II-A.1 Token di accesso, Aeon . . . . 2
+II-A.2 Account . . . . . . . . . . 2
+II-A.3 Sistema dei nomi . . . . . . . 3
+II-A.4 Contenuti dei blocchi . . . . . . . 3
+II-B State channel . . . . . . . . . . . . . 3
+II-B.1 Smart contract . . . . . . 3
+II-B.2 Esempi . . . . . . . . . . 4
+II-C Meccanismo di Consenso . . . . . . . . . 5
+II-C.1 Oracoli . . . . . . . . . . . 5
 II-D Governance . . . . . . . . . . . . . . 5
-II-E Scalability . . . . . . . . . . . . . . . 6
-II-E.1 Sharding trees . . . . . . . 6
-II-E.2 Light clients . . . . . . . . 6
-II-E.3 State channels and parallelism. . . . . . . . . . . . 6
-II-E.4 Transactions per second at a given memory requirement 6
-III Applications 6
-III-A Blockchain essentials . . . . . . . . . 6
-III-A.1 Identities . . . . . . . . . . 6
-III-A.2 Wallet . . . . . . . . . . . 6
-III-A.3 Proof of existence . . . . . 6
-III-B State channel applications . . . . . . . 7
-III-B.1 Toll API . . . . . . . . . . 7
-III-B.2 Insured crowdfunding . . . 7
-III-B.3 Cross-chain atomic swaps . 7
-III-B.4 Stable value assets and portfolio replication . . . . 7
-III-B.5 Event contracts . . . . . . 7
-III-B.6 Prediction markets . . . . . 7
-III-B.7 Market with batch trading at a single price . . . . . . 7
-IV Implementation 8
-IV-A Virtual machine and contract language 8
-IV-B Adoption via web-integration . . . . . 8
-IV-C Open source modules . . . . . . . . . 8
-IV-D Usability and UX design . . . . . . . 8
-V Discussion 8
-V-A Limitations and tradeoffs . . . . . . . 9
-V-A.1 On-chain state . . . . . . . 9
-V-A.2 Free option problem . . . . 9
-V-A.3 Liquidity loss and state channel topologies . . . . . 9
-V-B Future work . . . . . . . . . . . . . . 9
-V-B.1 Functional contract language 9
-V-B.2 Multi-party channels . . . . 9
+II-E Scalabilità . . . . . . . . . . . . . . . 6
+II-E.1 Sharding  trees. . . . . . . 6
+II-E.2 Client leggero. . . . . . . . 6
+II-E.3 State channel e parallelismo. . . . . . . . . . . . 6
+II-E.4 Transazioni per secondo ad una certa richiesta di memoria 6
+III Applicazioni 6
+III-A Elementi essenziali della blockchain . . . . . . . . . 6
+III-A.1 Identità . . . . . . . . . . 6
+III-A.2 Portafoglio . . . . . . . . . . . 6
+III-A.3 Prova di Esistenza . . . . . 6
+III-B Aplicazioni su canali a Stati . . . . . . . 7
+III-B.1 Strumento API . . . . . . . . . . 7
+III-B.2 Raccolta fondi assicurata . . . 7
+III-B.3 Swap atomico tra blockchain . 7
+III-B.4 Asset a valore stabile e replicazione del portafoglio . . . . 7
+III-B.5 Contratti dell'evento . . . . . 7
+III-B.6 Mercati predittivi . . . . . 7
+III-B.7 Market con un lotto in vendita ad un prezzo singolo . . . . . . 7
+IV Implementazione 8
+IV-A Macchine e linguaggio del contratto 8
+IV-B Adozione tramite integrazione web . . . . . 8
+IV-C Moduli open source  . . . . . . . . . 8
+IV-D condizioni d'uso e design dell'UX . . . . . . . 8
+V Discussioni 8
+V-A Limitazioni e tradeoff . . . . . . . 9
+V-A.1 Stati sulla blockchain . . . . . . . 9
+V-A.2 Problema dell'opzione gratuita . . . . 9
+V-A.3 Perdita di liquidità e tipologie di macchine a stati . . . . . 9
+V-B Lavori Futuri . . . . . . . . . . . . . . 9
+V-B.1 Linguaggio funzionale del contratto . .9
+V-B.2 Canali multi-parti . . . . 9
 
 INTRODUZIONE Lo scopo di questo paper è di dare un quadro d'insieme dekka architettura della blockchain Æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica; tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
 * Primo, introdurremo e analizzeremo la struttura teorica fondamentale che da forma alla nostra architettura.
