@@ -1,6 +1,6 @@
 ## Commands
 
-First you must install and compile eaternity. Instructions for Ubuntu and Mac are [here.](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-ubuntu)   
+First you must install and compile eaternity. Instructions for [Ubuntu](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-ubuntu) and for [Mac](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-mac)  
 
 ### Start the blockchain
 Start your node with the following script:
