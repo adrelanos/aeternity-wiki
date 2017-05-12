@@ -6,7 +6,7 @@
 
 v0.1
 
-Zackary Hess zack@aeternity.com
+재커리 헤스 zack@aeternity.com
 
 야니 슬라브 말라 호스 yani@aeternity.com
 
