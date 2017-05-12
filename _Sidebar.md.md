@@ -11,6 +11,8 @@
 [**Documentation**][doc] 
 * [Whitepaper (English)][WP_engl]
 * [Whitepaper (Korean)][WP_kr] 
+* [Whitepaper (Indonesia)](https://github.com/aeternity/testnet/wiki/Whitepaper_Indonesia)
+* [WP Indo][WP_kr]
 * [Contracts][contracts]
 * [Mining][mining]
 * [Troubleshooting][troubleshooting]
