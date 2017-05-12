@@ -52,7 +52,7 @@ sh install.sh
 Now you can run your node. with ```sh start.sh```
 
 
-##For Mac
+## For Mac
 
 First install brew, a package manager for OSX.
 
