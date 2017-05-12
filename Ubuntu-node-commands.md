@@ -1,6 +1,6 @@
 ## Commands
 
-First you must install and compile eaternity. Instructions for [Ubuntu](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-ubuntu) and for [Mac](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-mac)  
+First you must download and install æternity. Instructions for [Ubuntu](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-ubuntu) and for [Mac](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-mac)  
 
 ### Start the blockchain
 Start your node with the following script:
@@ -24,6 +24,8 @@ To stop mining:
 To check if you are currently mining:
 
 `mine:is_on().`
+
+If it answers **Go**; then its mining
 
 ### Spend
 
@@ -80,7 +82,7 @@ To unlock your node so that you can start signing transactions again, run this:
 
 To manually sign a transaction:
 
-`keys:sigh(Transactions, AccountRoot).`
+`keys:sign(Transactions, AccountRoot).`
 
 To manually sign raw binary data:
 
@@ -96,13 +98,13 @@ You can generate a new private key this way:( !! Warning !!  This deletes your o
 
 To load a private key into an existing node:
 
-`keys:load(Pubkey, Privkey, password").`
+`keys:load(Pubkey, Privkey, "password").`
 
-You can set or change the password for encryption like this:
+To change the address password:
 
 `keys:change_password("old_password", "new_password").`
 
-_The default password on a new node is ''''', the empty string._
+
 
 
 
@@ -120,7 +122,7 @@ _The default password on a new node is ''''', the empty string._
 
 # 
 
-Source:[/aeternity/testnet](https://github.com/aeternity/testnet/blob/master/README.md)
+Source: zack-bitcoin, keypair and stefek99 [/aeternity/testnet](https://github.com/aeternity/testnet/blob/master/README.md) and [/testnet/docs](https://github.com/aeternity/testnet/blob/master/docs/keys.md)
 
 
 
