@@ -40,7 +40,7 @@ _This will be rapidly expanded._
 * [[Bounty]]
 * [[Idea Box]]
 * [[Community]]
-* [[Whitepaper_English ]]
+* [[Whitepaper_English]]
 * [[Whitepaper_Korean (한국어)]]
 * [[Whitepaper-Indonesia]]
 
