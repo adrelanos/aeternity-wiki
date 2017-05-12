@@ -1,6 +1,6 @@
 State channels are a new development in blockchain technology. They come from the realization that for most purposes only, the actors involved in a smart contract are required to know about it. Two (or more) actors lock a state in the blockchain and then perform (signed) transactions between themselves, off-chain. The final state is then logged on the blockchain. If this end result is for some reason disputed, the series of signed off-chain transactions can be uploaded to the blockchain for verification and/or dispute resolution. 
 
-The fact that State Channels are mostly off chain allows for both improved scalability, because most of the computation and storage of intermediate states is done off-chain, and improved privacy since only the intervening parties know about the details of the transaction.
+The fact that State Channels are mostly off-chain allows for both improved scalability, because most of the computation and storage of intermediate states is done off-chain, and improved privacy since only the intervening parties know about the details of the transaction.
 
 # An example:
 
