@@ -30,11 +30,11 @@ Table of Contents
 
 # How is æternity different from Ethereum and Bitcoin? #
 
-With Bitcoin smart contracts do not exist as of yet. All transactions are executed on-chain.
+With Bitcoin smart contracts don't exist as of yet. All transactions are executed on-chain.
 
 With Ethereum smart contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for smart-contracts with no coherent design, no coherent API for web apps and no naming system or oracles. All these are being built on top of the blockchain.
 
-With æternity contracts only exists for a moment. They are settled independently from all the other contracts via state channels. This solution makes the blockchain use cases and throughput more scalable for mainstream adoption and adequate to private use cases.
+With æternity contracts only exists for a moment. They settled independently from all the other contracts via state channels. This solution makes the blockchain use a cases and throughput more scalable for mainstream adoption and adequate to private use cases.
 
 # Why is æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
@@ -45,19 +45,19 @@ On æternity computation by default happens off-chain.
 
 # How is æternity written? #
 
-æternity core blockchain code is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
+The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
 
-Erlang was chosen because it is the perfect choice to write a blockchain from scratch allowing to achieve superior code execution stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch that allowing to achieve superior code execution stability and performance.
 
-# Which PoW Algorithm æternity uses? #
+# Which are PoW Algorithm æternity used for? #
 
-æternity uses the "Cuckoo Cycle" Proof-of-Work hash algorithm which is power efficient than most other algorithms. Theoretically even low-power devices such as smartphones and tablets can efficiently used to mine on "Cuckoo Cycle".
+æternity using "Cuckoo Cycle" Proof-of-Work hash algorithm that power efficient than most other algorithms. Theoretically is even low-power devices such as smartphone and tablet can efficiently used to mine on "Cuckoo Cycle".
 
 For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
 
 # How does PoS work in æternity? #
 
-Any Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. That user is also required to deposit AEON in proportion to the length of the time-frame, which will be returned if the user supplies an answer that gets accepted as truth, otherwise it is burned. Other users have a set amount of time to submit counter-claims by depositing the same amount of Aeon. Then the consensus mechanism for blocks will be used to answer the oracle and rewarding the user saying the truth while penalising the one lying.
+Each Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The user is required to deposit AEON  also in the proportion to the length of the time-frame, which will be returned if the user giving answer whose gets accepted as truth, otherwise it will be burned. Other users have a set amount of time to submit counter-claims by depositing the same amount of Aeon. Then the consensus mechanism for blocks will be used to answer the oracle and rewarding the user saying the truth while penalising one of lying.
 
 For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
 
@@ -66,7 +66,7 @@ For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
 Since contracts are independent, it is much easier to prove and verify what each contract does.
 
 The DAO was a problem where some people trusted other people to spend their money for them.
-If you give your money to someone, and trust them to spend it for you wisely, there is nothing that I can do to stop them from robbing you.
+If you give your money to someone, and trusting them to spend it for you wisely, there is nothing that I can do to stop them from robbing you.
 
 æternity supports many trustless contracts. There is no reason you should ever use trust with æternity, or any other blockchain system.
 Any smart contract that requires trust is not so smart.
