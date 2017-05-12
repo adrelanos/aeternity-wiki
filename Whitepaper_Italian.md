@@ -62,7 +62,10 @@ V-B.2 Multi-party channels . . . . 9
 
 INTRODUZIONE Lo scopo di questo paper è di dare un quadro d'insieme dekka architettura della blockchain Æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica; tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
 * Primo, introdurremo e analizzeremo la struttura teorica fondamentale che da forma alla nostra architettura.
-* Secondo, analizzeremo le applicazioni essenziali incluse (1), altri possibili casi di utilizzo e daremo nspunto di come sia possibile per uno sviluppatore utilizzare la piattaforma.
-* Terzo, presenteremo l'attuale implementazione del POC (proof-of-concept), scritta in Erlang.
-* Concluderemo con una discussione che includa possibili futuri sviluppi e comparazioni co altre tecnologie.
+* Secondo, analizzeremo le applicazioni essenziali integrate (1), altri possibili casi di utilizzo e daremo degli spunti di come sia possibile per uno sviluppatore utilizzare la piattaforma.
+* Terzo, presenteremo l'attuale implementazione del POC (proof-of-concept), scritto in Erlang.
+* Concluderemo con una discussione che includa possibili futuri sviluppi e comparazioni con altre tecnologie.
 
+A. Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [1].  A ciò è seguito un certo numero di promettenti passi in avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati ad una architettura blockchain [2]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [3], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [4]; Casey Detrio ha mostrato come creare dei mercati su blockchain [5]; Namecoin come una prova di esistenza di qualsiasi dato digitale [7]. Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a ciascuno. 
+
+Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [richiede citazione]. Æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
