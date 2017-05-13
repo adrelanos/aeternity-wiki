@@ -24,7 +24,7 @@ Therefore, what is in effect achieved is a decentralised oracle system. The trut
 
 ![æternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
 
-For more information, refer to the [Aeternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+For more information, refer to the [æternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 ## Prediction Markets
 ### 1. What are prediction markets?
@@ -70,10 +70,10 @@ Meaning any data outside the blockchain can be translated into a deterministic v
 And what is even better in æternity is that this source of information would come from inside the Blockchain, and not from an outside entity built on top of it. This makes the source of information more reliable, more decentralised and not relying on  a 3rd Party company or entity (Like Augur and Gnosis).  
 
 ##### Prediction Market - High Level Concept
-![aeternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
+![æternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
 
 ##### Oracle & Prediction Market - High Level Concept
-![aeternity oracle & prediction market](http://i63.tinypic.com/30c291s.png)
+![æternity oracle & prediction market](http://i63.tinypic.com/30c291s.png)
 
 ## Governance & Consensus
 ![æternity governance](http://i67.tinypic.com/axehab.png)
