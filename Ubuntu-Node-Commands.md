@@ -92,7 +92,7 @@ To manually sign raw binary data:
 
 The node keeps an encrypted copy of your private key. The decrypted copy is only stored in RAM.                        
 
-You can generate a new private key this way:( !! Warning !!  This deletes your old private key!!)
+You can generate a new private key this way: ( !! Warning !!  This deletes your old private key!!)
 
 `keys:new("password").`
 
@@ -118,7 +118,7 @@ To change the address password:
 
 ## 
 
- **//TODO Add more node commands etc.  Help would be appreciated!! .**
+ **//TODO  Add more commands. Proof read and correct any syntax errors.   Help would be appreciated !! .**
 
 # 
 
