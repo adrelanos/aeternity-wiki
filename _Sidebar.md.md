@@ -12,6 +12,7 @@
 * [Whitepaper (English)][WP_engl]
 * [Whitepaper (Korean)][WP_kr] 
 * [Whitepaper (Indonesia)](Whitepaper_Indonesia)
+* [Whitepaper (Russian)](Whitepaper_rus
 * [Contracts][contracts]
 * [Mining][mining]
 * [Ubuntu Node Commands](Ubuntu-node-commands)
