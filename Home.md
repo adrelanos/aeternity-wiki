@@ -1,3 +1,5 @@
+# Wiki migration starting today (13th of May) at 9pm EDT - that's 14th of May at 2am GMT+1
+Please stop editing the wiki 5 minutes before and until Andy confirms the migration here in the Slack Channel
 # æternity: Blockchain Technology
 
 <a href="http://www.aeternity.com/"><img width="160px" src="http://www.aeternity.com/user/themes/aeon/img/aeternity_logo.png" align="left" hspace="10" vspace="10"></a>
