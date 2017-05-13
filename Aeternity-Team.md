@@ -7,7 +7,7 @@ Having exchanged ideas and pursued blockchain endeavors with many of the greates
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/yanislav.jpg" alt="Yanislav Malahov">
 
 ## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
-Founder
+#### Founder
 
 Zack writes blockchains and is a true visionary. His first "basic coin" was the attempt to write the most compact blockchain.
 Years later, after having worked for Augur and built a few other blockchains from scratch, he is now leading æternity's technical implementation.
@@ -17,7 +17,7 @@ Years later, after having worked for Augur and built a few other blockchains fro
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/zack.png" alt="Zack Hess" />
 
 ## Zack Hess
-Technical Lead
+#### Technical Lead
 
 <a target="_blank" href="https://twitter.com/zack_bitcoin">Twitter</a>
 
@@ -43,7 +43,7 @@ As a multi-national Business Development Executive with experience working in Ge
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/nikola.png" alt="Nikola Stojanow">
 
 ## Nikola Stojanow
-BUSINESS DEVELOPMENT
+#### Business Development
 
 
 <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile">Linkedin</a>
@@ -57,8 +57,7 @@ Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, Cryp
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/vlad.png" alt="Vladislav Dramaliev">
 
 ## Vladislav Dramaliev
-MARKETING & COMMUNITY
-
+#### Marketing & Community
 
 <a target="_blank" href="https://medium.com/@BitHope.org">Medium</a>
 
@@ -74,8 +73,7 @@ He is working on decentralized autonomous non profits (Runner-up at Consensus 20
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/lior.png" alt="Lior Zysman">
 
 ## Lior Zysman
-LAW AND REGULATION
-
+#### Law and regulation
 
 <a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963">Linkedin</a>
 
@@ -88,8 +86,7 @@ Blended with his fast growing knowledge and interest in blockchain technologies 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/dan.png" alt="Dan Verowski">
 
 ## Dan Verowski
-PROJECT MANAGEMENT
-
+#### Project Manager
 
 <a target="_blank" href="https://medium.com/@DanMercurius">Medium</a>
 
@@ -103,7 +100,7 @@ Computer science and blockchain enthusiast, looking for ways to combine the two.
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/jack.png" alt="Jack Pettersson">
 
 ## Jack Pettersson
-SCIENTIFIC ADVISOR
+##### Scientific Advisor
 
 <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/">Linkedin</a>
 
@@ -116,7 +113,7 @@ Particularly interested in Human computer interaction, design, education and beh
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/louis.png" alt="Louis Chang">
 
 ## Louis Chang
-CREATIVE ADVISOR
+#### Creative Advisor
 
 <a target="_blank" href="https://twitter.com/louissschang">Twitter</a>
 
@@ -130,7 +127,7 @@ CREATIVE ADVISOR
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/julio.png" alt="Julio Alexandro">
 
 ## Julio Alexandro
-HUMANITARIAN ADVISOR
+#### Humanitarian Advisor
 
 <a target="_blank" href="https://twitter.com/julioalexo?lang=de">Twitter</a>
 
@@ -143,7 +140,7 @@ Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle",
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/john.png" alt="John Tromp">
 
 ## John Tromp
-ADVISOR ON POW "CUCKOO CYCLE"
+#### Advisor on POW "Cuckoo Cycle"
 
 <a target="_blank" href="https://tromp.github.io/">Github</a>
 
@@ -156,7 +153,7 @@ Founding partner of FinTech Blockchain Group, Vincent is an expert on digital cu
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/vincent.png" alt="Vincent Zhou">
 
 ## Vincent Zhou
-China Advisor
+#### China Advisor
 
 Do you have some special skills? Do you want to dive deep into crypto and blockchain technology? Can you code, design, market or connect? Please join us!
 <table></table>
@@ -166,5 +163,5 @@ Do you have some special skills? Do you want to dive deep into crypto and blockc
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/you.png" alt="You?">
 
 ## You?
-Open Position
+#### Open Position
 info@aeternity.com
