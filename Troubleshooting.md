@@ -37,12 +37,12 @@ For Ubuntu, install following dependencies:
 sudo apt-get install erlang libncurses5-dev libssl-dev unixodbc-dev g++ git erlang-base-hipe
 ```
 
-Next, download Aeternity Testnet. Optionally you can run next steps with a non-root user, for better security.
+Next, download æternity Testnet. Optionally you can run next steps with a non-root user, for better security.
 
 ```
 git clone https://github.com/aeternity/testnet.git
 ```
-Now you can go into the directory, and compile the aeternity testnet.
+Now you can go into the directory, and compile the æternity testnet.
 
 ```
 cd testnet/
@@ -65,7 +65,7 @@ brew install erlang
 brew install rebar
 ```
 
-now use rebar to get and compile Aeternity:
+now use rebar to get and compile æternity:
 
 ```
 rebar get
