@@ -28,10 +28,7 @@ Being intrigued by the magic of blockchain technology since early 2014, Marion i
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/marion.png" alt="Marion Vogel" />
 
 ## Marion Vogel
-<a target="_blank" href="https://www.linkedin.com/in/marionvogel/">Linkedin</a>
-
-<a target="_blank" href="https://twitter.com/marionmiaume">Twitter</a>
-
+<a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 As a multi-national Business Development Executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola is the go-to person for Strategy and Business Development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to the unlimited possibilities of blockchain technologies.
 <table></table>
@@ -42,9 +39,7 @@ As a multi-national Business Development Executive with experience working in Ge
 
 ## Nikola Stojanow
 #### Business Development
-
-
-<a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile">Linkedin</a>
+<a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 
 Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, CryptoCrowd.org, and Bitcoin/Blockchain meetup in Sofia, Bulgaria. Co-Founder of the Bulgarian Bitcoin Association and the first website for bitcoin exchange in the country. Fascinated by technology, Bitcoin, blockchains and the future. Member of MENSA.
