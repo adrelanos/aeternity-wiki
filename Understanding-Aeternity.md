@@ -36,9 +36,9 @@ Thus, the oracle system offers real-world data to be instantly implemented in æ
 
 # What is an Oracle?
 
-Oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowd-sources real-time answers to specific questions using principles of [Prediction Markets](https://github.com/aeternity/testnet/wiki/Research-and-Theory#prediction-markets). It can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation, competition results, and any other information accessible to the public.
+Oracle is a mechanism to teach the blockchain true facts about our world. This is a virtual machine that crowd-sources real-time answers to specific questions using principles of [Prediction Markets](Research-and-Theory#prediction-markets). It can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation, competition results, and any other information accessible to the public.
 
-[More details](https://github.com/aeternity/testnet/wiki/Research-and-Theory#decentralized-oracles)
+[More details](Research-and-Theory#decentralized-oracles)
 
 # What are State Channels?
 
@@ -47,12 +47,12 @@ State channels allow for increased privacy in that only the parties participatin
 When a channel is settled on-chain, the only information being put onto the blockchain is the transactional value that was exchanged.
 No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so æternity's scalable smart contract systems improves upon the centralized scaling solutions that are available today.
 
---Taken from [here](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)
+--Taken from [here](Research-and-Theory#state-channels)
  
 For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/). Also see [[State Channels]].
 
 # How does æternity work?
-* [Governance & æternity](https://github.com/aeternity/testnet/wiki/Research-and-Theory#governance--consensus)
+* [Governance & æternity](Research-and-Theory#governance--consensus)
 
 (High-level, also describe the proof system, state channels):
 
@@ -89,8 +89,6 @@ Like any platform, the potential applications are limited only by the imaginatio
 The first round available to purchase AE tokens was during æternity's public 'Friends, Family and Real Innovators' round which took place on 3rd April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT. This round was open to the public, meaning anyone could participate. At this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in the first 24 hours received an extra 10% for a total of 1100 AE tokens for 1 ETH and the first 1000 contributors above 12 ETH will receive 1 'limited edition' æternity branded Ledger. 
 
 The second round will begin 29th May 2017. You can participate as well as follow any updates here: https://wallet.aeternity.com/
-
-
 
 ---
 For more info, feel free to check out the [Wikipedia](https://en.wikipedia.org/wiki/AEternity) page on æternity.
