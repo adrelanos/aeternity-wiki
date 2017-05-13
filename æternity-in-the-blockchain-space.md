@@ -1,4 +1,4 @@
-The blockchain space is growing at an exponential rate each day and there are many players in the space, so how does aeternity compare?
+The blockchain space is growing at an exponential rate each day and there are many players in the space, so how does æternity compare?
 
 ![Comparison Table](http://i67.tinypic.com/e0g4z4.png)
 
@@ -31,11 +31,11 @@ Prediction market based on using the Ethereum decentralized network to create an
 
 Futarchy / governance - how this compares. 
 
-dApp on the Ethereum blockchain vs aeternity
+dApp on the Ethereum blockchain vs æternity
 
 Realitykeys external oracle provider intergration
 
-(Comparisons on both to aeternity, i.e. it will use its down blockchain)
+(Comparisons on both to æternity, i.e. it will use its down blockchain)
 
 # Cosmos:
 
