@@ -47,7 +47,7 @@ From here we can use `browserify` to make it available in the browser:
 
 `browserify index.js --standalone library > bitcoin.js`
 
-Now let's create super simple webpage:
+Now let's create a super simple webpage:
 ```
 <!DOCTYPE html>
 <html>
@@ -80,7 +80,7 @@ Now let's create super simple webpage:
 
 # Alternative: myetherwallet
 
-Myetherwallet is a trustless open-source application that allows you to interact with the ethereum network without running a full client. You can create and manage wallets without uploading your private key.
+Myetherwallet is a trustless open-source application that allows you to interact with the Ethereum network without running a full client. You can create and manage wallets without uploading your private key.
 
 To sign a message perform the following steps:
 
