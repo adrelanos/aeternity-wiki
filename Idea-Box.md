@@ -62,18 +62,18 @@ High-level concept of Supply Chain Management (SCM) automation with Smart Contra
 ## Prediction Markets
 > Prediction Markets (created with Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
 
-[What's a Prediction Market?](https://github.com/aeternity/testnet/wiki/Research-and-Theory#prediction-markets)
+[What's a Prediction Market?](Research-and-Theory#prediction-markets)
 
-[What's and Oracle?](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity#what-is-an-oracle)  
+[What's and Oracle?](Understanding-Aeternity#what-is-an-oracle)  
 
 * Digital Insurance Marketplace - 'Bond of Trust' flattened into a simple product based on prediction market odds, tradable on the digital marketplace to provide instant insurance by the hour.
 
 * ?
 ***
 ## Gaming
-> [State channels](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels) can be used through special nodes to play games using æon (AE). Either single player games, between friends, or even total strangers. æternity will enable trust-less gaming applications, where no player puts his trust into the other's infrastructure or central servers, but into the state channels of the æternity Blockchain.
+> [State channels](Research-and-Theory#state-channels) can be used through special nodes to play games using æon (AE). Either single player games, between friends, or even total strangers. æternity will enable trust-less gaming applications, where no player puts his trust into the other's infrastructure or central servers, but into the state channels of the æternity Blockchain.
 
-[State Channel Info](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)  
+[State Channel Info](Research-and-Theory#state-channels)  
 
 ***  
 ## Dominant Assurance Contracts
@@ -88,16 +88,16 @@ This will enable a leap of transparency and trustless investment opportunities i
   
 ***
 ## Micro- & Nano Payments
-> æternity will be the preferred Blockchain for the Micro and Nano payments. No other Blockchain now can match the speed that's provided by æternity's [State channels](https://github.com/aeternity/testnet/wiki/State-Channels).
+> æternity will be the preferred Blockchain for the Micro and Nano payments. No other Blockchain now can match the speed that's provided by æternity's [State channels](State-Channels).
 
 Once such example of this use case is the rollout of hundreds of charging stations for electric cars using  Ethereum in Germany. Innogy, a subsidiary of Germany’s energy giant RWE has added blockchain capabilities to their E2E Product using asset-backed Crypto-EURO for payments in charging stations for electric vehicles. 
 
 > Because the idea here is for, eventually, the car itself to pay the charging station. How? The exact details would probably be closely guarded, but at a high level you can blockchainize the car, give it a smart contract, connect it to wi-fi, and write some code which orders it to pay if:then, while:else etc.
 
-The only problem with other Blockchains solutions like Ethereum, is that storing all these micro-payments and contracts information on-chain will lead very soon to a bloating of the size of the chain, and render it virtually unusable. Here comes the æternity innovation, with [State channels](https://github.com/aeternity/testnet/wiki/State-Channels).
+The only problem with other Blockchains solutions like Ethereum, is that storing all these micro-payments and contracts information on-chain will lead very soon to a bloating of the size of the chain, and render it virtually unusable. Here comes the æternity innovation, with [State channels](State-Channels).
 
 Source: [Cryptocoinnews](https://www.cryptocoinsnews.com/hundreds-charging-stations-electric-cars-blockchenized-ethereum-germany/)
 
-[State Channel Info](https://github.com/aeternity/testnet/wiki/Research-and-Theory#state-channels)  
+[State Channel Info](Research-and-Theory#state-channels)  
 
 ***
