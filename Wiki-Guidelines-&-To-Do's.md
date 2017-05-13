@@ -31,7 +31,7 @@ b) once finished paste it under 'Closed' with the end date.
       
 * Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
 * Add [Subpages](Idea-Box#subpages) to Wiki
-* Add icons for social to replace text links (Aeternity-Team)
+* Add icons for social to replace text links (Aeternity-Team) [cytadela8 17-05-13]
 
 ### CLOSED
 * Create [[Index|_Sidebar.md]] to better find information [Jkat 17-05-05]
