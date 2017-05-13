@@ -33,8 +33,8 @@ _This will be rapidly expanded._
 * [[Aeternity Team]]
 * [[Aeternity Technology]]
 * [[State Channels]]
-* [Aeternity Blog](https://blog.aeternity.com/)
-* [Aeternity Wallet](https://wallet.aeternity.com/)
+* [æternity Blog](https://blog.aeternity.com/)
+* [æternity Wallet](https://wallet.aeternity.com/)
 * [[Mining]]
 * [[Frequently Asked Questions]]
 * [[Research and Theory]]
@@ -48,4 +48,4 @@ _This will be rapidly expanded._
 
 
 ## External Resources
-[Aeternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
+[æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
