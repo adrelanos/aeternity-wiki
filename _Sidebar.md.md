@@ -14,6 +14,7 @@
 * [Whitepaper (Indonesia)](Whitepaper_Indonesia)
 * [Contracts][contracts]
 * [Mining][mining]
+* [Ubuntu Node Commands](https://github.com/aeternity/testnet/wiki/Ubuntu-node-commands)
 * [Troubleshooting][troubleshooting]
 
 [**Community & Support**][contact]
