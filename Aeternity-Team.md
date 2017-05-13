@@ -6,15 +6,8 @@ Having exchanged ideas and pursued blockchain endeavors with many of the greates
 
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/yanislav.jpg" alt="Yanislav Malahov">
 
-## Yanislav Malahov
+## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 Founder
-
-<a target="_blank" href="https://medium.com/@yanislav">Medium</a>
-
-<a target="_blank" href="https://twitter.com/@noyyy">Twitter</a>
-
-<a target="_blank" href="https://github.com/keypair">Github</a>
-
 
 Zack writes blockchains and is a true visionary. His first "basic coin" was the attempt to write the most compact blockchain.
 Years later, after having worked for Augur and built a few other blockchains from scratch, he is now leading æternity's technical implementation.
