@@ -1,6 +1,6 @@
 ## Commands
 
-First you must download and install æternity. Instructions for [Ubuntu](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-ubuntu) and for [Mac](https://github.com/aeternity/testnet/wiki/Troubleshooting#for-mac)  
+First you must download and install æternity. Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac)  
 
 ### Start the blockchain
 Start your node with the following script:
@@ -103,14 +103,6 @@ To load a private key into an existing node:
 To change the address password:
 
 `keys:change_password("old_password", "new_password").`
-
-
-
-
-
-
-
-
 
 
 ## 
