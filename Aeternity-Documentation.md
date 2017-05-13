@@ -1,15 +1,15 @@
 # Documentation
 contributed by Hashi
 
-## Understanding Aeternity:
-* What is Aeternity:
+## Understanding æternity:
+* What is æternity:
 * What is blockchain (Highlevel):
-* What is special about Aeternity and how does it compare to other blockchains: (Focus on Oracles, practicality, flexibility, the AE court, state channels)
+* What is special about æternity and how does it compare to other blockchains: (Focus on Oracles, practicality, flexibility, the AE court, state channels)
 * What is an Oracle:
-* How does Aeternity work (Highlevel, also describe the proof system, state channels):
+* How does æternity work (Highlevel, also describe the proof system, state channels):
 * What are AE Tokens and how are they used consumed:
-* How can Aeternity be used: Examples / Use Cases (Get creative mind juices flowing)
-* Purchasing, aquiring Aeternity: Info on crowdsales, exchanges etc.
+* How can æternity be used: Examples / Use Cases (Get creative mind juices flowing)
+* Purchasing, aquiring æternity: Info on crowdsales, exchanges etc.
 
 ## Getting Started & Beginners Guide:
 * Where to start: 
@@ -23,7 +23,7 @@ contributed by Hashi
 * Grid of application/platform availability eg.)Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
 * Links to each software with installation guides, common CLI interaction etc for newbies.
 
-## Aeternity Contracts
+## æternity Contracts
 * How contracts work.
 * Contract components and participants:
 * How & when are contracts executed?
