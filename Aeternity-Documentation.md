@@ -38,7 +38,7 @@ contributed by Hashi
 * How can you earn AE by securing the network and setting up a node:
 
 ## FAQ
-* [Link to FAQ](https://github.com/aeternity/testnet/wiki/Frequently-Asked-Questions)
+* [Link to FAQ](Frequently-Asked-Questions)
 * User Contributed questions + Answers: Ongoing
 
 ## Research and Theory:
@@ -65,5 +65,3 @@ contributed by Hashi
 [Telegram](https://telegram.me/aeternity), 
 [Slack](https://slack.aeternity.com/), 
 [IRC](http://www.aeternity.com/#)
-
-
