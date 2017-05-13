@@ -28,6 +28,7 @@ Being intrigued by the magic of blockchain technology since early 2014, Marion i
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/marion.png" alt="Marion Vogel" />
 
 ## Marion Vogel
+<a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
 <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 As a multi-national Business Development Executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola is the go-to person for Strategy and Business Development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to the unlimited possibilities of blockchain technologies.
