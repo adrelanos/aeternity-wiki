@@ -31,7 +31,7 @@
 [faq]: Frequently-Asked-Questions
 [tech]: Aeternity-Technology
 [research]: Research-and-Theory
-[doc]: Aeternity-Documentation
+[doc]: æternity-Documentation
 [blockchainAndAE]: %C3%A6ternity-in-the-blockchain-space
 [contracts]: Aeternity-Contracts
 [team]: Aeternity-Team
