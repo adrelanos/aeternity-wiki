@@ -2,7 +2,7 @@ The blockchain space is growing at an exponential rate each day and there are ma
 
 ![Comparison Table](http://i67.tinypic.com/e0g4z4.png)
 
-[Another Comparison table](https://github.com/aeternity/testnet/wiki/Blockchain-comparison)
+[Another Comparison table](Blockchain-comparison)
 
 # Bitcoin: 
 
