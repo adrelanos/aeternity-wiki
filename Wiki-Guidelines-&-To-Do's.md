@@ -6,7 +6,7 @@ The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messag
 * Ask in the [Slack Wiki Channel](https://aeternity.slack.com/messages/C59BALQCE/details/) if the content is somewhat meaningful 
 
 ## After **adding** content:
-* add the page to the [Navigation Sidebar](https://github.com/aeternity/testnet/wiki/_Sidebar.md/) ------>
+* add the page to the [Navigation Sidebar](_Sidebar.md/) ------>
 * if you like you can promote the content on your social media channels
 
 ## Markdown & Syntax:
@@ -30,11 +30,11 @@ b) once finished paste it under 'Closed' with the end date.
 * Migrate Wiki to new repository **github.com/aeternity/wiki**
   * Specifications: we want a dedicated repo for the wiki under github.com/aeternity/website/wiki; in order to upload content to the repo to reference it in the wiki and at a later point on the website www.aeternity.com. The revision history needs to be completely migrated as well. [acetronaut 17-05-08]
       
-* Add [Google Calendar plugin](https://github.com/aeternity/testnet/wiki/Idea-Box#google-calendar-plug-in)
-* Add [Subpages](https://github.com/aeternity/testnet/wiki/Idea-Box#subpages) to Wiki
-* Add icons for social to replace text links (https://github.com/aeternity/testnet/wiki/Aeternity-Team)
+* Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
+* Add [Subpages](Idea-Box#subpages) to Wiki
+* Add icons for social to replace text links (Aeternity-Team)
 
 ### CLOSED
 * Create [[Index|_Sidebar.md]] to better find information [Jkat 17-05-05]
 * Add/reorder appropriate pages to the sidebar [DanMercurius 17-05-05]
-* Revert [THIS PAGE](https://github.com/aeternity/testnet/wiki/Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]
+* Revert [THIS PAGE](Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]
