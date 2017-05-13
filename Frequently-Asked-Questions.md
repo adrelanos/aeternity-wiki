@@ -53,13 +53,13 @@ Erlang was chosen because it is the perfect choice to write a blockchain from sc
 
 æternity using "Cuckoo Cycle" Proof-of-Work hash algorithm that power efficient than most other algorithms. Theoretically is even low-power devices such as smartphone and tablet can efficiently used to mine on "Cuckoo Cycle".
 
-For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
+For more info : [Mining](Mining)
 
 # How does PoS work in æternity? #
 
 Each Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The user is required to deposit AEON  also in the proportion to the length of the time-frame, which will be returned if the user giving answer whose gets accepted as truth, otherwise it will be burned. Other users have a set amount of time to submit counter-claims by depositing the same amount of Aeon. Then the consensus mechanism for blocks will be used to answer the oracle and rewarding the user saying the truth while penalising one of lying.
 
-For more info : [Mining](https://github.com/aeternity/testnet/wiki/Mining)
+For more info : [Mining](Mining)
 
 
 # How does æternity protect from the next DAO happening? #
