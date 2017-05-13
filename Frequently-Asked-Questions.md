@@ -215,6 +215,6 @@ The first testnet is now ready! We will be adding more features all the time. St
 
 Your feedback will be highly appreciated! Join our [public chat on Gitter](https://gitter.im/aeternity/Lobby).
 
-You can also get in touch with us through our [Facebook page](https://www.facebook.com/aeternityproject), [Twitter profile](https://twitter.com/aetrnty), [LinkedIn](https://www.linkedin.com/company/aeternity) account, [Bitcointalk post](https://bitcointalk.org/index.php?topic=1733140.0) and our [subreddit](https://www.reddit.com/r/Aeternity).
+You can also get in touch with us through our [Facebook page](https://www.facebook.com/aeternityproject), [Twitter profile](https://twitter.com/aetrnty), [LinkedIn](https://www.linkedin.com/company/aeternity) account, [Telegram](https://telegram.me/aeternity), [Bitcointalk post](https://bitcointalk.org/index.php?topic=1733140.0) and our [subreddit](https://www.reddit.com/r/Aeternity).
 
 A detailed roadmap is also in the making. You can get an update on this by [subscribing to our newsletter](http://www.aeternity.com/#newsletter).
