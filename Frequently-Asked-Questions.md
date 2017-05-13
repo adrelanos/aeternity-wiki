@@ -14,7 +14,7 @@ Table of Contents
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
    * [What is the Maximum Supply of AE?](#what-is-maximum-supply-of-ae)
-   * [How is the AE dispersed?](#How is the AE dispersed)
+   * [How is the AE dispersed?](#How is the AE dispersed?)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
    * [How does æternity compare to ...?](#how-does-aeternity-compare-to-)
    * [æternity, a new blockchain?](#æternity-a-new-blockchain)
