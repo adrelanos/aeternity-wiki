@@ -1,7 +1,7 @@
-This is a short comparison outlining the major differences between Bitcoin, Ethereum and Aeternity. 
+This is a short comparison outlining the major differences between Bitcoin, Ethereum and æternity. 
 A more detailed analysis is to follow. 
 
-|        Criteria      | 1. Bitcoin       |   2. Ethereum        | 3. Aeternity    |  comment                         |
+|        Criteria      | 1. Bitcoin       |   2. Ethereum        | 3. æternity    |  comment                         |
 |----------------------|:----------------:|:--------------------:|:---------------:|:--------------------------------:|
 | Open-source          |   Yes            | Yes                  | Yes       |                                   |
 | Token (currency)     | bitcoin (BTC)    | ether (ETH)          | Aeon (AE) | A multitude of tokens can exist on the Ethereum blockchain.                                  |
