@@ -18,10 +18,8 @@ Years later, after having worked for Augur and built a few other blockchains fro
 
 ## Zack Hess
 #### Technical Lead
-
-<a target="_blank" href="https://twitter.com/zack_bitcoin">Twitter</a>
-
-<a target="_blank" href="https://github.com/zack-bitcoin"></a>
+<a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
+</a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" />
 
 Being intrigued by the magic of blockchain technology since early 2014, Marion is especially interested in connecting the dots between technology and the growing community. Research on the socioeconomic impact, spreading the word and taking care of handling æternity's operations efficiently is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
 <table></table>
