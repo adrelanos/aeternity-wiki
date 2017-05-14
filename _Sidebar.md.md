@@ -13,6 +13,8 @@
 * [Whitepaper (Korean)][WP_kr] 
 * [Whitepaper (Indonesia)](Whitepaper_Indonesia)
 * [Whitepaper (Russian)](Whitepaper_Russian)
+* [Whitepaper (Espaniol)](Whitepaper_Espaniol)
+* [Whitepaper (Chinese)](Whitepaper_Chinese)
 * [Contracts][contracts]
 * [Mining][mining]
 * [Ubuntu Node Commands](Ubuntu-node-commands)
