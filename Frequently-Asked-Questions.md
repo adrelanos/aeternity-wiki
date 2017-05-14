@@ -48,7 +48,7 @@ On æternity computation by default happens off-chain.
 
 The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
 
-Erlang was chosen because it is the perfect choice to write a blockchain from scratch that allowing to achieve superior code execution stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch, allowing to achieve superior code execution, stability and performance.
 
 # Which are PoW Algorithm æternity used for? #
 
