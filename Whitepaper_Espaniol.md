@@ -34,3 +34,7 @@ implementaciones de prueba de concepto codificada en Erlang.
 Herramientas de desarrollo y aplicaciones esenciales como
 cartera, sistema de nombres y sistema de identidad también
 serán distribuidos.
+
+***
+
+Descargue el documento completo donde: [Cadena de Bloques Æternity](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
