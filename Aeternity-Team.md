@@ -52,10 +52,8 @@ Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, Cryp
 
 ## Vladislav Dramaliev
 #### Marketing & Community
-
-<a target="_blank" href="https://medium.com/@BitHope.org">Medium</a>
-
-<a target="_blank" href="https://www.linkedin.com/in/dramaliev/">Linkedin</a>
+<a target="_blank" href="https://medium.com/@BitHope.org"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a>
+<a target="_blank" href="https://www.linkedin.com/in/dramaliev/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 
 Lior is a corporate lawyer advising startups and investors in the blockchain space.
