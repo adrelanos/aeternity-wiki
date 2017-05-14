@@ -45,7 +45,7 @@ _This will be rapidly expanded._
 * [[Whitepaper_English]]
 * [[Whitepaper_Korean (한국어)]]
 * [[Whitepaper_Indonesia]]
-* [[Whitepaper_rus]]
+* [[Whitepaper_Russian]]
 
 
 ## External Resources
