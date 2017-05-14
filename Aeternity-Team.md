@@ -66,8 +66,7 @@ He is working on decentralized autonomous non profits (Runner-up at Consensus 20
 
 ## Lior Zysman
 #### Law and regulation
-
-<a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963">Linkedin</a>
+<a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 Born and raised in Berlin he started working as a Scrum Master in 2011, later becoming a Business Analyst, interfacing splendidly between thankful developers and content clients.
 Blended with his fast growing knowledge and interest in blockchain technologies and the Fintech industry in general, he supports the project management pillar of team æternity
@@ -79,10 +78,8 @@ Blended with his fast growing knowledge and interest in blockchain technologies 
 
 ## Dan Verowski
 #### Project Manager
-
-<a target="_blank" href="https://medium.com/@DanMercurius">Medium</a>
-
-<a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/">Linkedin</a>
+<a target="_blank" href="https://medium.com/@DanMercurius"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a>
+<a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 Computer science and blockchain enthusiast, looking for ways to combine the two. Advocate of functional programming and expressive type systems. Previously worked for Synereo to develop the language and VM of their blockchain, and spent his master's thesis arguing for the use of dependent types in smart contract development
 <table></table>
@@ -93,8 +90,7 @@ Computer science and blockchain enthusiast, looking for ways to combine the two.
 
 ## Jack Pettersson
 ##### Scientific Advisor
-
-<a target="_blank" href="https://www.linkedin.com/in/jackpettersson/">Linkedin</a>
+<a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 Louis Chang is Co-founder and Creative Director of Proof of Work, The first creative design and communication agency working specifically with Blockchain companies.
 Particularly interested in Human computer interaction, design, education and behavioural patterns. Louis has a 12 year creative pedigree working for agencies such as Ogilvy, Saatchi and Saatchi, Blast Radius and JWT
@@ -106,10 +102,8 @@ Particularly interested in Human computer interaction, design, education and beh
 
 ## Louis Chang
 #### Creative Advisor
-
-<a target="_blank" href="https://twitter.com/louissschang">Twitter</a>
-
-<a target="_blank" href="https://uk.linkedin.com/in/louisc">LinkedIn</a>
+<a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
+<a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016), is the Founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
 <table></table>
@@ -120,8 +114,7 @@ Particularly interested in Human computer interaction, design, education and beh
 
 ## Julio Alexandro
 #### Humanitarian Advisor
-
-<a target="_blank" href="https://twitter.com/julioalexo?lang=de">Twitter</a>
+<a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
 
 Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational biology, and what not.
 Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle", which æternity blockchain will be using. John is advising the æternity team on the integration of the "Cuckoo Cycle" mining algorithm.
@@ -135,8 +128,7 @@ Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle",
 #### Advisor on POW "Cuckoo Cycle"
 
 <a target="_blank" href="https://tromp.github.io/">Github</a>
-
-<a target="_blank" href="https://www.linkedin.com/in/john-tromp-b1601b8/">LinkedIn</a>
+<a target="_blank" href="www.linkedin.com/in/john-tromp-b1601b8/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 Founding partner of FinTech Blockchain Group, Vincent is an expert on digital currency trading and an active investor in blockchain industry. As an early adopter of blockchain technology and a KOL in China’s crypto community, Vincent is advising the aeternity team on China strategy.
 <table></table>
