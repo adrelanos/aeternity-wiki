@@ -67,6 +67,8 @@ He is working on decentralized autonomous non profits (Runner-up at Consensus 20
 
 ## Lior Zysman
 #### Law and regulation
+<a target="_blank" href="https://medium.com/@zysman"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" />
+<a target="_blank" href="https://twitter.com/zysman"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
 <a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 Born and raised in Berlin he started working as a Scrum Master in 2011, later becoming a Business Analyst, interfacing splendidly between thankful developers and content clients.
