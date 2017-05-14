@@ -50,7 +50,7 @@ The blockchain code of æternity core is written in Erlang, which makes it easy 
 
 Erlang was chosen because it is the perfect choice to write a blockchain from scratch, allowing to achieve superior code execution, stability and performance.
 
-# Which are PoW Algorithm æternity used for? #
+# Which PoW Algorithm is used for mining in æternity? #
 
 æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more  power efficient than most other algorithms currently available. Theoretically,  devices with low power such as smartphones and tablets can be used to mine on "Cuckoo Cycle" efficiently.
 
