@@ -40,6 +40,7 @@ As a multi-national Business Development Executive with experience working in Ge
 
 ## Nikola Stojanow
 #### Business Development
+<a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
 <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
 
 
