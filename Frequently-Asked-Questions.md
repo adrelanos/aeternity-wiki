@@ -52,7 +52,7 @@ Erlang was chosen because it is the perfect choice to write a blockchain from sc
 
 # Which are PoW Algorithm æternity used for? #
 
-æternity using "Cuckoo Cycle" Proof-of-Work hash algorithm that power efficient than most other algorithms. Theoretically is even low-power devices such as smartphone and tablet can efficiently used to mine on "Cuckoo Cycle".
+æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more  power efficient than most other algorithms currently available. Theoretically,  devices with low power such as smartphones and tablets can be used to mine on "Cuckoo Cycle" efficiently.
 
 For more info : [Mining](Mining)
 
