@@ -17,7 +17,7 @@
 
     æternity is spelled æternity not Æternity, even if it's the beginning of a sentence.
 
-    Please fo not change referenced content as it breaks the links
+    Please do not change referenced content as it breaks the links
 
 
 ## Learn More
