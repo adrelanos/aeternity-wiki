@@ -17,6 +17,8 @@
 
     æternity is spelled æternity not Æternity, even if it's the beginning of a sentence.
 
+    Please fo not change referenced content as it breaks the links
+
 
 ## Learn More
 The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messages/C59BALQCE/details/) feel free to join us!
