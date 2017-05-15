@@ -16,7 +16,7 @@ Years later, after having worked for Augur and built a few other blockchains fro
 ***
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/zack.png" alt="Zack Hess" />
 
-## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" />
+## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 #### Technical Lead
 
 Being intrigued by the magic of blockchain technology since early 2014, Marion is especially interested in connecting the dots between technology and the growing community. Research on the socioeconomic impact, spreading the word and taking care of handling æternity's operations efficiently is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
@@ -25,7 +25,7 @@ Being intrigued by the magic of blockchain technology since early 2014, Marion i
 ***
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/marion.png" alt="Marion Vogel" />
 
-## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
+## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 
 As a multi-national Business Development Executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola is the go-to person for Strategy and Business Development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to the unlimited possibilities of blockchain technologies.
 <table></table>
@@ -34,7 +34,7 @@ As a multi-national Business Development Executive with experience working in Ge
 
 <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/nikola.png" alt="Nikola Stojanow">
 
-## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /> </a>
+## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 #### Business Development
 
 Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, CryptoCrowd.org, and Bitcoin/Blockchain meetup in Sofia, Bulgaria. Co-Founder of the Bulgarian Bitcoin Association and the first website for bitcoin exchange in the country. Fascinated by technology, Bitcoin, blockchains and the future. Member of MENSA.
@@ -44,7 +44,7 @@ Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, Cryp
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/vlad.png" alt="Vladislav Dramaliev">
 
-## Vladislav Dramaliev <a target="_blank" href="https://medium.com/@BitHope.org"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dramaliev/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
+## Vladislav Dramaliev <a target="_blank" href="https://medium.com/@BitHope.org"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dramaliev/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 #### Marketing & Community
 
 Lior is a corporate lawyer advising startups and investors in the blockchain space.
@@ -55,7 +55,7 @@ He is working on decentralized autonomous non profits (Runner-up at Consensus 20
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/lior.png" alt="Lior Zysman">
 
-## Lior Zysman <a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
+## Lior Zysman <a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 #### Law and regulation
 
 Born and raised in Berlin he started working as a Scrum Master in 2011, later becoming a Business Analyst, interfacing splendidly between thankful developers and content clients.
@@ -66,7 +66,7 @@ Blended with his fast growing knowledge and interest in blockchain technologies 
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/dan.png" alt="Dan Verowski">
 
-## Dan Verowski <a target="_blank" href="https://medium.com/@DanMercurius"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
+## Dan Verowski <a target="_blank" href="https://medium.com/@DanMercurius"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 #### Project Manager
 
 Computer science and blockchain enthusiast, looking for ways to combine the two. Advocate of functional programming and expressive type systems. Previously worked for Synereo to develop the language and VM of their blockchain, and spent his master's thesis arguing for the use of dependent types in smart contract development
@@ -76,7 +76,7 @@ Computer science and blockchain enthusiast, looking for ways to combine the two.
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/jack.png" alt="Jack Pettersson">
 
-## Jack Pettersson <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
+## Jack Pettersson <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 ##### Scientific Advisor
 
 Louis Chang is Co-founder and Creative Director of Proof of Work, The first creative design and communication agency working specifically with Blockchain companies.
@@ -87,7 +87,7 @@ Particularly interested in Human computer interaction, design, education and beh
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/louis.png" alt="Louis Chang">
 
-## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" />
+## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Linkedin_social_media_logo-128.png" height="24" /></a>
 #### Creative Advisor
 
 "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016), is the Founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
@@ -97,7 +97,7 @@ Particularly interested in Human computer interaction, design, education and beh
 
  <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/julio.png" alt="Julio Alexandro">
 
-## Julio Alexandro <a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" />
+## Julio Alexandro <a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a>
 #### Humanitarian Advisor
 
 Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational biology, and what not.
