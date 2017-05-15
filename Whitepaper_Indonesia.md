@@ -1,5 +1,5 @@
 ### Abstrak
- Sejak mengenal Ethereum didalam tahun 2014 yang telah menarik perhatian besar didalam aplikasi tanpa jaminan terdesentralisasi (smart contracts).  Akibatnya, banyak yang telah mencoba mengimplementasikan aplikasi dengan data di dunia nyata diatas blockchain. Kami percaya bahwa menyimpan kondisi aplikasi dan kode di chain adalah sebuah kesalahan untuk beberapa alasan.
+ Sejak pengenalan Ethereum pada tahun 2014, telah menarik perhatian besar pada aplikasi tanpa jaminan terdesentralisasi (smart contracts). Akibatnya, banyak yang telah mencoba mengimplementasikan aplikasi dengan data dari dunia nyata di atas Blockchain (rantai block/buku besar). Kami percaya bahwa menyimpan kondisi aplikasi beserta kode di dalam "chain" adalah sebuah kesalahan untuk beberapa alasan. Akar masalah ini adalah ukuran rantai, memperlihatkan kontrak cerdas terhadap kerentanan yang tidak perlu, dan mengurangi privasi, sehingga mencegah akses Blockchain untuk kasus penggunaan pribadi (Bancs, perusahaan swasta, dan lain-lain).
 
 
 Inilah sebabnya mengapa æternity dikembangkan sebagai satu-satunya Blockchain yang pada dasarnya dapat mempertahankan penggunaan dunia mainstream secara berkelanjutan dalam kasusnya.
@@ -7,9 +7,9 @@ Inilah sebabnya mengapa æternity dikembangkan sebagai satu-satunya Blockchain y
 
 * Dapat menangani throughput besar (lebih dari Visa) berkat state channel yang terintegrasi.
 
-* State channel memproses off-chain membuat smart contract lebih mudah untuk dianalisis, lebih cepat memproses, dan lebih privasi, tanpa mempertahankan kerugian substansial dalam fungsionalitas.
+* State channel memproses off-chain membuat smart contract lebih mudah untuk dianalisis, lebih cepat memproses, dan lebih pribadi, tanpa mempertahankan kerugian substansial dalam fungsionalitas.
 
-* Mekanisme konsensus internal dapat memeriksa oracle dan memberi Blockchain data real world, mengurangi kebutuhan imlplementasi mekanisme oracle yang tidak efisien di atasnya (seperti Augur atau Gnosis di atas Ethereum).
+* Mekanisme konsensus internal dapat memeriksa oracle dan nenyediakan data dari dunia nyata pada Blockchain, mengurangi kebutuhan imlplementasi mekanisme oracle yang tidak efisien (seperti Augur atau Gnosis di atas Ethereum).
 
 Aplikasi seperti pasar untuk aset buatan dan prediksi pasar dapat diterapkan secara efisien pada skala global. Beberapa bagian memiliki implementasi proof-of-concept yang ditulis di Erlang. Tools untuk pengembangan dan aplikasi penting seperti dompet, penamaan dan sistem identitas akan segera disediakan.
 
