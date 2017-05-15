@@ -27,15 +27,16 @@ b) once finished paste it under 'Closed' with the end date.
 
 ### OPEN
 * Research: æternity DAO - possible?
-* Migrate Wiki to new repository **github.com/aeternity/wiki**
-  * Specifications: we want a dedicated repo for the wiki under github.com/aeternity/website/wiki; in order to upload content to the repo to reference it in the wiki and at a later point on the website www.aeternity.com. The revision history needs to be completely migrated as well. [acetronaut 17-05-08]
       
 * Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
 * Add [Subpages](Idea-Box#subpages) to Wiki
-* Add icons for social to replace text links (Aeternity-Team) [cytadela8 17-05-13]
 
 ### CLOSED
 * Create [[Index|_Sidebar.md]] to better find information [Jkat 17-05-05]
 * Add/reorder appropriate pages to the sidebar [DanMercurius 17-05-05]
 * Revert [THIS PAGE](Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]
 * change absolute links to relative links [cytadela8 17-05-12]
+* Add icons for social to replace text links (Aeternity-Team) [cytadela8 17-05-13]
+* Migrate Wiki to new repository **github.com/aeternity/wiki**
+  * Specifications: we want a dedicated repo for the wiki under github.com/aeternity/website/wiki; in order to upload content to the repo to reference it in the wiki and at a later point on the website www.aeternity.com. The revision history needs to be completely migrated as well. [dan 17-05-08]
+
