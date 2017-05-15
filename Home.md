@@ -44,6 +44,7 @@ _This will be rapidly expanded._
 * [[Whitepaper_Russian]]
 * [[Whitepaper_Espaniol]]
 * [[Whitepaper_Chinese]]
+* [[Whitepaper_French]]
 
 
 ## External Resources
