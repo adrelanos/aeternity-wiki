@@ -5,7 +5,7 @@
 This is why aeternity is being developed as the only Blockchain that can by its core design sustain throughput of mainstream world use cases, while providing real-world interfaces within its Blockchain. 
 
 
-* It can handle large throughput (more than Visa and legacy systems) thanks to its integrated state channels.
+* It can handle large transactions throughput (more than Visa and legacy systems) thanks to its integrated state channels.
 
 * The state channels processing off-chain make smart contracts easier to analyze, faster to process, and more private, while not sustaining any substantial loss in functionality.
 
