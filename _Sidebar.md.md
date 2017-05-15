@@ -4,7 +4,7 @@
 * [Frequently Asked Questions][faq]
 * [Research & Theory][research] 
 * [Technology of æternity][tech]
-* [æternity in the Blockch space][blockchainAndAE]
+* [æternity in the Blockchain space][blockchainAndAE]
 * [æternity Team][team]
 * [Getting Started][started]
 
@@ -24,7 +24,7 @@
 * [Idea Box][ideabox]
 * [Claiming Your Ledger][ledgerclaim]
 * [Bounty Programs][bounty]
-* [How to sign message with private key][privatekeymessage]
+* [How to sign a message with private key][privatekeymessage]
 * [Windows Installation][wininstall]
 
 
