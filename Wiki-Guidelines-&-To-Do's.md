@@ -27,7 +27,6 @@ b) once finished paste it under 'Closed' with the end date.
 
 ### OPEN
 * Research: æternity DAO - possible?
-      
 * Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
 * Add [Subpages](Idea-Box#subpages) to Wiki
 
