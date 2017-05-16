@@ -29,20 +29,20 @@ For the more adventurous, build it from source.
 
 ## 2. Add the folder to the path
 
-**On Windows 10:** Right click on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine it is `c:\Program Files\erl8.3\bin`
+**On Windows 10:** Click right on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine it is `c:\Program Files\erl8.3\bin`
 
 It many clicks away, I've reported a usability bug, it's by design: http://imgur.com/a/qbeTc
 
 
 ## 3. Install rebar
 
-A very detailed set of instructions can be found on this link: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
+For more detail of instructions can be found on this link: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
 
 In case the link goes offline:
 
 **3.1)** `git clone https://github.com/rebar/rebar`
 
-**3.2)** go into that directory and run `bootstrap.bat`
+**3.2)** go to directory and run `bootstrap.bat`
 
 **3.3)** same business as previously, add the directory to the path so that you can execute `rebar`
 
@@ -70,7 +70,7 @@ ERROR: compile failed while processing c:/code/testnet/deps/jiffy: rebar_abort
 
 As you can see it was a popular request and they delivered, good for Microsoft!
 
-**5b)** If you have Visual Studio already installed - most probably you have default version _(without C++ compiler)_
+**5b)** If you have a Visual Studio has installed - most probably you have a default version _(without C++ compiler)_
 
 Go to Control Panel - Programs - Visual Studio - modify... It will launch the installer and it will allow you to select `C++` 
 
@@ -82,4 +82,4 @@ That's where it goes bad: https://github.com/davisp/jiffy/issues/144
 
 > Any idea where assert.h lives on Windows?
 
-> It should be part of the std library
+> It should be a part of the std library
