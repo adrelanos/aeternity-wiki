@@ -22,7 +22,7 @@
 //TODO
 ## What/who determines cryptocurrencies prices:
 
-The prices of digital assets like Bitcoin, Ethereum and other cryptocurrencies are greatly influenced demand and supply. When the demand increases, the price will tend to rise or vice versa. But unlike other markets, cryptocurrency markets has a higher level of volatility as the prices fluctuates frequently.
+The prices of digital assets like Bitcoin, Ethereum and other cryptocurrencies are greatly influenced demand and supply. When the demand increases, the price will tend to rise or vice versa. But unlike other markets, cryptocurrency markets have a higher level of volatility as the prices fluctuates frequently.
 
 While demand and supply may seem as the only factors that determines the prices of cryptocurrencies, there are other factors which attributes to the price as well. Speculation is one of those factors. It is fueled by recent press releases, development updates and reputational issues. More often than not, positive news and press releases tend to bring about rise in prices and vice versa. 
 
