@@ -20,7 +20,16 @@
 *This section will be dedicated to some observation from 2010 until now, as well as point of comparisons between BTC, altcoins, gold and stocks.* 
 
 //TODO
-## What/who determines cryptocoin prices
+## What/who determines cryptocurrencies prices:
+
+The prices of digital assets like Bitcoin, Ethereum and other cryptocurrencies are greatly influenced demand and supply. When the demand increases, the price will tend to rise or vice versa. But unlike other markets, cryptocurrency markets has a higher level of volatility as the prices fluctuates frequently.
+
+While demand and supply may seem as the only factors that determines the prices of cryptocurrencies, there are other factors which attributes to the price as well. Speculation is one of those factors. It is fueled by recent press releases, development updates and reputational issues. More often than not, positive news and press releases tend to bring about rise in prices and vice versa. 
+
+Other factors includes the introduction of digital assets in  larger exchange markets with high trading volume, acceptance of digital currencies by more merchants.
+
+*PS: Digital assets are otherwise known as cryptocurrencies.*
+
 ## BTC/Gold, any-crypto-coin/stocks
 ## The BTC ETF
 ## Altcoins' price growth
