@@ -4,7 +4,7 @@
 Real-world data can interface with smart contracts through decentralized oracles.
 True scalability and trustless Turing-complete state channels setti æternity apart from Ethereum.
 
-![æternity platform-vision](http://i67.tinypic.com/2ewm694.png)
+![æternity platform-vision](http://i67.tinypic.com/1zehzj4.jpg)
 
 æternity is unique in many ways, but the key features are:
 
