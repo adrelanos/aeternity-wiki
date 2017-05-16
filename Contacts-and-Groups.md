@@ -14,7 +14,7 @@
 ## Development & Support
 * [Github](https://github.com/aeternity) 
 * [Telegram](https://telegram.me/aeternity) 
-* [Slack](https://slack.aeternity.com/) 
+* [Slack](https://pacific-beach-20900.herokuapp.com/) 
 * [IRC](http://www.aeternity.com/#)
 * [Newsletter](http://www.aeternity.com/#newsletter)
 
