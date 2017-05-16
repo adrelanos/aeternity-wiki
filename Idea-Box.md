@@ -42,7 +42,7 @@ Answering questions and participating in the prediction markets created by the m
 #### Target audiences
 * persons struggling with sensible, personal medical problems or questions
   * person suffering from unknown medical condition 
-  * person in need of nutrition a advice
+  * person in need of nutrition advice
   * person in need of homeopathic advice
   * person suffering from psychological stress
 
