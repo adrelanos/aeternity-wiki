@@ -40,7 +40,7 @@ Spends AE tokens and/or shares to a different account.
 
 #    account_delete
 
-This deletes an account on the blockchain and sends all of it's AE tokens to a different account. **(Warning, this deletes all of your shares!)** Make sure to use account_spend to move all your shares somewhere else before deleting your account.
+This deletes an account on the blockchain and sends all of it's AE tokens to a different account. **(Warning, this deletes all of your shares!)** Make sure to use _account_spend_ to move all your shares somewhere else before deleting your account.
 
 #    account_recycle
 
@@ -64,11 +64,11 @@ If your partner disappears, or refuses to close the channel, this is how you can
 
 #   channel_slash
 
-If a channel participant does a channel_solo_close at the wrong state, this is how you stop them. Anyone is allowed to publish this tx, it doesn't have to be one of the two channel participants. The blockchain records who closed a channel most recently in a tree. Channel IDs can't be reused for a long time, so the record will be good. The channel can be slashed many times, but each time it is slashed the evidence needs to be for a higher nonce.
+If a channel participant does a _channel_solo_close_ at the wrong state, this is how you stop them. Anyone is allowed to publish this tx, it doesn't have to be one of the two channel participants. The blockchain records who closed a channel most recently in a tree. Channel IDs can't be reused for a long time, so the record will be good. The channel can be slashed many times, but each time it is slashed the evidence needs to be for a higher nonce.
 
 #   channel_timeout
 
-If you did a channel_solo_close, and then waited the delay number of blocks after the final channel_slash, now you can do this transaction to close the channel.
+If you did a _channel_solo_close_, and then waited the delay number of blocks after the final _channel_slash_, now you can do this transaction to close the channel.
 
 #   channel_recycle
 
@@ -88,7 +88,7 @@ If there are a lot of open orders for one type of share in an oracle for a long 
 
 #   oracle_unmatched
 
-If you had money in orders in the oracle order book when the oracle_close transaction happened, this is how you get the money out.
+If you had money in orders in the oracle order book when the _oracle_close_ transaction happened, this is how you get the money out.
 
 #   oracle_shares
 
