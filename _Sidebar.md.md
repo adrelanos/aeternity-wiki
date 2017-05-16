@@ -18,6 +18,7 @@
 * [Contracts][contracts]
 * [Mining][mining]
 * [Ubuntu Node Commands](Ubuntu-node-commands)
+* [Transaction Types](Transaction-Types)
 * [Troubleshooting][troubleshooting]
 
 [**Community & Support**][contact]
