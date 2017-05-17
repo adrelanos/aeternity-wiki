@@ -57,8 +57,13 @@ Answering questions and participating in the prediction markets created by the m
 ***
 
 ## Supply Chain Management
+
+The supply chain management can be trusted to a smart-contract that is constantly interfacing with the Oracle on æternity.
+The demand for any product can be fed to the smart-contract through the Oracle. That will trigger the contract to send procurement orders to suppliers, and raw materials providers, taking into consideration the normal delays of each item in the procurement process. In the mean time, the smart-contract's information being fed through the Oracle can be regulated to increase or decrease the quantity of the orders in-real time, thus eliminating waste of material/overstocking of storage facilities. 
+
 High-level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets, and Oracles.
 ![SCM automation (high level)](http://i67.tinypic.com/1112pw4.png)
+
 ## Prediction Markets
 > Prediction Markets (created with Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
 
