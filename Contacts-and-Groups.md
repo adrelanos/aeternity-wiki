@@ -1,4 +1,4 @@
-# How best to get in touch
+# Get in touch:
 
 ## Social 
 * [Facebook](https://www.facebook.com/aeternityproject/)
@@ -18,5 +18,5 @@
 * [IRC](http://www.aeternity.com/#)
 * [Newsletter](http://www.aeternity.com/#newsletter)
 
-## Community - Meetup
+## æternity Community Meetups
 [æternity Meetup list](https://docs.google.com/spreadsheets/d/196EV6OVOmlxxy8-0j5bBiGltqQRSyvmrdFQiQxNwYWc/edit)
