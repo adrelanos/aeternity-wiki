@@ -2,7 +2,7 @@
 
 æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
 Real-world data can interface with smart contracts through decentralized oracles.
-True scalability and trustless Turing-complete state channels setti æternity apart from Ethereum.
+True scalability and trustless Turing-complete state channels setts æternity apart from Ethereum.
 
 ![æternity platform-vision](http://i67.tinypic.com/1zehzj4.jpg)
 
@@ -17,7 +17,7 @@ True scalability and trustless Turing-complete state channels setti æternity ap
 # What is the purpose of æternity?
 
 
-æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create blockchain that is as efficient and cost effective as possible. Through use of the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another. Through state channel integration, privacy and scalability will be improved. Tokens in these state channels can be transferred using purely functional smart contracts that have access to network-wide oracle answers. By not storing the contract code or state on the blockchain, we are able to make smart contracts easier to analyze and faster to process, with no substantial loss in de facto functionality.
+æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create blockchain that is as efficient and cost effective as possible. Through use of the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another. Through state channel integration, privacy and scalability will be improved. Tokens in these state channels can be transferred using purely functional smart contracts that have access to network-wide oracle answers. By not storing the contract code or state on the blockchain, we are able to make smart contracts easier to analyse and faster to process, with no substantial loss in de facto functionality.
 
 
 # What is blockchain?
