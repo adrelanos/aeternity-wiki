@@ -13,7 +13,7 @@
 * [Whitepaper (Korean)][WP_kr] 
 * [Whitepaper (Indonesia)](Whitepaper_Indonesia)
 * [Whitepaper (Russian)](Whitepaper_Russian)
-* [Whitepaper (Espaniol)](Whitepaper_Espaniol)
+* [Whitepaper (Espaniol)](Whitepaper_Español)
 * [Whitepaper (Chinese)](Whitepaper_Chinese)
 * [Contracts][contracts]
 * [Mining][mining]
