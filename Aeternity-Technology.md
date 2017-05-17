@@ -1,4 +1,4 @@
-<h1>Technology</h1>
+
 </div>
 </div>
 <h2>Introduction</h2>

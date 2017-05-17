@@ -4,19 +4,19 @@ Table of Contents
 =================
 
    * [Table of Contents](#table-of-contents)
-   * [How is æternity different from Ethereum and Bitcoin?](#how-is-aeternity-different-from-ethereum)
-   * [Why is æternity faster than Ethereum?](#why-is-aeternity-faster-than-ethereum)
+   * [How is æternity different from Ethereum and Bitcoin?](#how-is-æternity-different-from-ethereum-and-bitcoin)
+   * [Why is æternity faster than Ethereum?](#why-is-æternity-faster-than-ethereum)
    * [How is æternity written?](#how-is-æternity-written)
-   * [Which PoW Algorithm æternity uses?](#which-PoW-Algorithm-æternity-uses?)
-   * [How does PoS work in æternity?](#how-does-PoS-work-in-æternity?)
-   * [How does æternity protect from the next DAO happening?](#how-does-aeternity-protect-from-the-next-dao-happening)
+   * [Which PoW Algorithm is used for mining in æternity?](#which-pow-algorithm-is-used-for-mining-in-æternity)
+   * [How does PoS work in æternity?](#how-does-pos-work-in-æternity)
+   * [How does æternity protect from the next DAO happening?](#how-does-æternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
-   * [What is the Maximum Supply of AE?](#what-is-maximum-supply-of-ae)
-   * [How is the AE dispersed](#how-is-the-ae-dispersed)
+   * [What is the Maximum Supply of AE?](#what-is-the-maximum-supply-of-ae)
+   * [How is the AE dispersed?](#how-is-the-ae-dispersed)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
-   * [How does æternity compare to ...?](#how-does-aeternity-compare-to-)
+   * [How does æternity compare to ...?](#how-does-æternity-compare-to-)
    * [æternity, a new blockchain?](#æternity-a-new-blockchain)
    * [What can the AE token be used for?](#what-can-the-ae-token-be-used-for)
    * [What are some of the more interesting applications that can be created on æternity?](#what-are-some-of-the-more-interesting-applications-that-can-be-created-on-æternity)
@@ -26,7 +26,7 @@ Table of Contents
    * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
    * [What’s the difference between an account and the æternity wallet?](#whats-the-difference-between-an-account-and-the-æternity-wallet)
    * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
-   * [How can I type the Æ/æ characters?](#how-can-i-type-the-Æ/æ-characters?)
+   * [How can I type the æ character?](#how-can-i-type-the-æ-character)
    * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
 
 # How is æternity different from Ethereum and Bitcoin? #
@@ -48,11 +48,11 @@ On æternity computation by default happens off-chain.
 
 The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
 
-Erlang was chosen because it is the perfect choice to write a blockchain from scratch that allowing to achieve superior code execution stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch, allowing to achieve superior code execution, stability and performance.
 
-# Which are PoW Algorithm æternity used for? #
+# Which PoW Algorithm is used for mining in æternity? #
 
-æternity using "Cuckoo Cycle" Proof-of-Work hash algorithm that power efficient than most other algorithms. Theoretically is even low-power devices such as smartphone and tablet can efficiently used to mine on "Cuckoo Cycle".
+æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more  power efficient than most other algorithms currently available. Theoretically,  devices with low power such as smartphones and tablets can be used to mine on "Cuckoo Cycle" efficiently.
 
 For more info : [Mining](Mining)
 
@@ -66,10 +66,10 @@ For more info : [Mining](Mining)
 # How does æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
 
-The DAO was a problem where some people trusted other people to spend their money for them.
-If you give your money to someone, and trusting them to spend it for you wisely, there is nothing that I can do to stop them from robbing you.
+The DAO had a problem where some people trusted other people to spend their money for them. For instance, If you give your money to someone, and trusting them to spend it for you wisely, there is nothing that can be done to stop them from robbing you.
 
 æternity supports many trustless contracts. There is no reason you should ever use trust with æternity, or any other blockchain system.
+
 Any smart contract that requires trust is not so smart.
 
 # Is smart contract verification on the roadmap? #
@@ -203,10 +203,10 @@ Yes!
 * There can be ‘servers/nodes’ which you can use to invest in stocks, derivatives or metals. You can gamble at sports in a fully trustless and efficient way. Other nodes can specialize in recycling old accounts. There is a fee for having an account open. If the account runs out of money, anyone will be able to delete it and get a small reward.
 * Some nodes will just run trading software. They will buy and sell assets offered by market makers in order to make a profit. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
 
-# How can I type the Æ/æ characters?
-* On Windows devices it works by holding the Alt key while typing in 0198 (for Æ) and 0230 (for æ) on the number pad.
-* On MacOS the key combination is Option + ' (apostrophe key) for æ and Option + Shift + ' for Æ.
-* On iOS and Android devices the characters can be selected by holding the "A" until a small menu appears that shows the characters.
+# How can I type the æ character? #
+* On Windows devices it works by holding the Alt key while typing in 0230 (for æ) on the number pad.
+* On MacOS the key combination is Option + ' (apostrophe key) for æ.
+* On iOS and Android devices the characters can be selected by holding the "A" until a small menu appears that shows the character.
 
 
 # What can I expect to happen from æternity in the near future? #

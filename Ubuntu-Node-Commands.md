@@ -1,6 +1,6 @@
 ## Commands
 
-First you must download and install æternity. Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac)  
+First, you must download and install æternity. The Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac)  
 ## 
 ### Start the blockchain
 Start your node with the following script:
@@ -73,7 +73,7 @@ easy:off().
 ## 
 ### Securing your node
 
-To secure your node so no one can sign transactions, you can either turn off the node, or you can run this command:
+To secure your node so no one can sign the transactions, you can either turn of the node, or you can run this command:
 ```
 keys:lock().
 ```
@@ -84,7 +84,7 @@ keys:status().
 ## 
 ### Signing
 
-To unlock your node so that you can start signing transactions again, run this:
+To unlock your node so that you can start signing transactions again, run this command:
 ```
 keys:unlock("password").
 ```
