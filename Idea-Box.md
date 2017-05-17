@@ -50,9 +50,9 @@ Answering questions and participating in the prediction markets created by the m
 * User interface
     * Question board and Oracle marketplace
 * æternity identity
-* working state channels
+* Working state channels
 * Pool of medicinal professionals
-    * only they are allowed to answer questions and participate in oracle
+    * Only they are allowed to answer questions and participate in oracle
 
 ***
 
@@ -62,10 +62,11 @@ The supply chain management can be trusted to a smart-contract that is constantl
 The demand for any product can be fed to the smart-contract through the Oracle. That will trigger the contract to send procurement orders to suppliers, and raw materials providers, taking into consideration the normal delays of each item in the procurement process. In the mean time, the smart-contract's information being fed through the Oracle can be regulated to increase or decrease the quantity of the orders in-real time, thus eliminating waste of material/overstocking of storage facilities. 
 
 High-level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets, and Oracles.
+
 ![SCM automation (high level)](http://i67.tinypic.com/1112pw4.png)
 
 ## Prediction Markets
-> Prediction Markets (created with Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
+> Prediction Markets (created with Oracles) are one of the most anticipated use cases for Blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
 
 [What's a Prediction Market?](Research-and-Theory#prediction-markets)
 
@@ -95,9 +96,9 @@ This will enable a leap of transparency and trustless investment opportunities i
 ## Micro- & Nano Payments
 > æternity will be the preferred Blockchain for the Micro and Nano payments. No other Blockchain now can match the speed that's provided by æternity's [State channels](State-Channels).
 
-Once such example of this use case is the rollout of hundreds of charging stations for electric cars using  Ethereum in Germany. Innogy, a subsidiary of Germany’s energy giant RWE has added blockchain capabilities to their E2E Product using asset-backed Crypto-EURO for payments in charging stations for electric vehicles. 
+Once such example of this use case is the roll-out of hundreds of charging stations for electric cars using  Ethereum in Germany. Innogy, a subsidiary of Germany’s energy giant RWE has added Blockchain capabilities to their E2E Product using asset-backed Crypto-EURO for payments in charging stations for electric vehicles. 
 
-> Because the idea here is for, eventually, the car itself to pay the charging station. How? The exact details would probably be closely guarded, but at a high level you can blockchainize the car, give it a smart contract, connect it to wi-fi, and write some code which orders it to pay if:then, while:else etc.
+> Because the idea here is for, eventually, the car itself to pay the charging station. How? The exact details would probably be closely guarded, but at a high level you can Blockchainize the car, give it a smart contract, connect it to wi-fi, and write some code which orders it to pay if:then, while:else etc.
 
 The only problem with other Blockchains solutions like Ethereum, is that storing all these micro-payments and contracts information on-chain will lead very soon to a bloating of the size of the chain, and render it virtually unusable. Here comes the æternity innovation, with [State channels](State-Channels).
 
