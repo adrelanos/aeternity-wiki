@@ -73,7 +73,7 @@ easy:off().
 ## 
 ### Securing your node
 
-To secure your node so no one can sign the transactions, you can either turn off a node, or you can run this command:
+To secure your node so no one can sign the transactions, you can either turn of the node, or you can run this command:
 ```
 keys:lock().
 ```
@@ -99,7 +99,7 @@ keys:raw_sign(<<"binary date">>).
 ## 
 ### Passwords and Keys
 
-The node keeps an encrypted copy of your private key. The decrypted copy is only stored in a RAM.                        
+The node keeps an encrypted copy of your private key. The decrypted copy is only stored in RAM.                        
 
 You can generate a new private key this way: ( !! Warning !!  This deletes your old private key!!)
 ```
@@ -137,9 +137,9 @@ When you want to close the channel and get your money out:
 easy:close_channel().
 ```
 
-After closing channel you need to sync with the network for see if your channel is closed.
+After closing channel you need to sync with the network to see if your channel is closed.
 
-If your channel partner disappears, or breaks, you still can get your money without his help.  Start with a solo-close transaction, then wait over 100 blocks, then do a channel timeout transaction.
+If your channel partner disappears, or breaks, you can still get your money without his help.  Start with a solo-close transaction, then wait over 100 blocks, then do a channel timeout transaction.
 ```
  easy:solo_close_channel().
 ```
