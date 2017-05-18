@@ -2,7 +2,7 @@
 
 æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
 Real-world data can interface with smart contracts through decentralized oracles.
-True scalability and trustless Turing-complete state channels setts æternity apart from Ethereum.
+True scalability and trustless Turing-complete state channels sets æternity apart from Ethereum.
 
 ![æternity platform-vision](http://i67.tinypic.com/1zehzj4.jpg)
 
