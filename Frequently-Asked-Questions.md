@@ -66,9 +66,9 @@ For more info : [Mining](Mining)
 # How does æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
 
-The DAO had a problem where some people trusted other people to spend their money for them. For instance, If you give your money to someone, and trusting them to spend it for you wisely, there is nothing that can be done to stop them from robbing you.
+The DAO had a problem where some people trusted other people to spend their money for them. For instance, if you give your money to someone, and trusting them to spend it for you wisely, there is nothing you can do to stop them from robbing you.
 
-æternity supports many trustless contracts. There is no reason you should ever use trust with æternity, or any other blockchain system.
+æternity supports many trustless contracts. There is no reason you should ever trust anybody with æternity, or any other blockchain system.
 
 Any smart contract that requires trust is not so smart.
 
