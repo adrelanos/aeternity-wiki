@@ -89,13 +89,13 @@ So every time we make a channel payment or update the channel state, we also hav
 
 The blockchain is not completely stateless. It keeps a record of each account balance, and the results of every oracle, and some other things. What is important for scalability is that channels cannot edit any shared memory. It is deterministic to let processes read data in parallel, but it is not deterministic to let processes edit data in parallel. Since channels can't edit shared memory, we can process all the channel transactions in parallel.
 
-# What is the Circulating Supply of AE? #
+# What is the Circulating Supply of æ? #
 
-Total AE distributed during Contribution Phase 1: 139,089,935.082
+Total æ distributed during Contribution Phase 1: 139,089,935.082
 
-Total AE to be distributed during Contribution Phase 2: 21,000,000
+Total æ to be distributed during Contribution Phase 2: 21,000,000 CHF (Swiss Francs)
 
-Total AE in circulation after contribution phase 2: 160,089,935.082
+Total æ in circulation after contribution phase 2: 
 
 # What is the Maximum Supply of AE? #
 
