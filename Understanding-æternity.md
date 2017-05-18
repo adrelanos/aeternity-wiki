@@ -5,6 +5,14 @@ Real-world data can interface with smart contracts through decentralized oracles
 True scalability and trustless Turing-complete state channels sets æternity apart from Ethereum.
 
 ![æternity platform-vision](https://github.com/aeternity/wiki/blob/master/AE101_BlockchainOrganism.png)
+    
+    Disclaimer: This is the first visualization of the æternity vision. A very simplified concept to communicate the basic 
+    idea to people outside crypto space.
+    To be more specific (from Zack): The oracles are below state channels. Using ethereum as an example for smart contracts 
+    is no good, because our smart contracts can't do ethereum's most important application (on-chain programmability)
+    We should really call this row "financial derivatives" instead of "smart contracts", and have the example be "options".
+
+
 
 æternity is unique in many ways, but the key features are:
 
