@@ -1,7 +1,4 @@
 ## Crowdfunding 2.æ
-
-
-## Education Marketplace
 #### Potential partner: Alice.si 
 * ethereum based solutions for charitable projects 
     
@@ -9,6 +6,9 @@
 
 
 ![Use Case Concept sketch](https://github.com/aeternity/wiki/blob/master/AE-Crowdfund.png)
+
+
+## Education Marketplace
 
 ### Vision:
 
@@ -20,3 +20,5 @@ Students can become teachers once they have received digital certification, with
 Offer individually tailored education experience. Everyone should only learn about things that spark interest inside themselves.
 
 ![Telegram from 19th May 2017](https://github.com/aeternity/wiki/blob/master/Screen%20Shot%202017-05-19%20at%207.58.30%20PM.png)
+
+
