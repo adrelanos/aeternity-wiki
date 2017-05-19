@@ -1,6 +1,6 @@
 ## Commands
 
-First, you must download and install æternity. The Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac)  
+First, you must download and install æternity. Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac)  
 ## 
 ### Start the blockchain
 Start your node with the following script:
@@ -160,7 +160,7 @@ If your channel partner disappears, or breaks, you can still get your money with
 
 ## 
 
- **//TODO  Add more commands. Proof read and correct any syntax errors.   Help would be appreciated !! .**
+ **//TODO  Add more commands.**
 
 # 
 
