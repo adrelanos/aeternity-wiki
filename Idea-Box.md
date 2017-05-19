@@ -10,7 +10,7 @@ Github wiki is not Mediawiki. Unlikely any plugins are supported here?
 ~In order to better structure the content in the wiki, subpages would be very useful.
 [Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)~
 
-Same as above - Mediawiki plugins not supporter on Github.
+Same as above - Mediawiki plugins not supported on Github.
 
 ## Using Mediawiki format?
 
