@@ -72,14 +72,19 @@ High-level concept of Supply Chain Management (SCM) automation with Smart Contra
 
 [What's and Oracle?](Understanding-Aeternity#what-is-an-oracle)  
 
+### Use Case Ideas 
 * Digital Insurance Marketplace - 'Bond of Trust' flattened into a simple product based on prediction market odds, tradable on the digital marketplace to provide instant insurance by the hour.
+* [Humanistic Use Cases ](https://github.com/aeternity/wiki/wiki/Humanistic-Use-Cases)
 
-* ?
 ***
 ## Gaming
 > [State channels](Research-and-Theory#state-channels) can be used through special nodes to play games using æon (AE). Either single player games, between friends, or even total strangers. æternity will enable trust-less gaming applications, where no player puts his trust into the other's infrastructure or central servers, but into the state channels of the æternity Blockchain.
 
 [State Channel Info](Research-and-Theory#state-channels)  
+
+### Use Case Ideas 
+* [Humanistic Use Cases ](https://github.com/aeternity/wiki/wiki/Humanistic-Use-Cases)
+
 
 ***  
 ## Dominant Assurance Contracts
@@ -90,6 +95,8 @@ If the milestone is not reached, investors get their investments with interests 
 
 This will enable a leap of transparency and trustless investment opportunities in ICOs and startups , where the investors funds are safe from mismanagement or fraud by the project's founders.
 
+### Use Case Ideas 
+* [Humanistic Use Cases ](https://github.com/aeternity/wiki/wiki/Humanistic-Use-Cases)
 * Kickstarter 2.0 (with a Money Back guarantee & milestone dependent release of funds)
   
 ***
