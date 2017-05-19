@@ -22,8 +22,8 @@ Applications like markets for synthetic assets and prediction markets can be eff
 <td class="align-middle">
 <strong class="d-block">INDUSTRIAL GRADE CODE BASE</strong>
 
-<small>The core æternity blockchain code has been written in Erlang, which make it easy to write distributed, fault-tolerance, soft real-time and highly available non-stoppable applications.
-Erlang is the perfect choice to write a blockchain from scratch allow to achieve superior operational stability and performance.</small>
+<small>The æternity blockchain core code has been written in Erlang, which make it easy to write distributed, fault-tolerance, soft real-time and highly available non-stoppable applications.
+Erlang is perfect choice to write a blockchain from scratch that allow to achieve superior operational stability and performance.</small>
 </td>
 </tr>
 </tbody>
@@ -41,8 +41,8 @@ Erlang is the perfect choice to write a blockchain from scratch allow to achieve
 <td class="align-middle">
 <strong class="d-block">BLOCKCHAIN NETWORKS</strong>
 
-<small>The æternity blockchain technology is free to use and easy to incorporate. 
-MIT-licensed modules will allow easy implementation in blockchain consortiums and will enable free and open access for developers to be able to build on the æternity platform. Cross-chain atomic swaps do the rest.</small>
+<small>The æternity blockchain technology is free to use and easy incorporate. 
+MIT-licensed modules will allow easily implementation in blockchain consortiums, enable free and open access for developers to be able to build on the æternity platform. Cross-chain atomic swaps do the rest.</small>
 </td>
 </tr>
 </tbody>
@@ -61,7 +61,7 @@ MIT-licensed modules will allow easy implementation in blockchain consortiums an
 <strong class="d-block">AE TOKEN</strong>
 
 <small>Aeons (AE) are the access tokens to the æternity network and act as a unit of account for the resources (Space and computation time) spent on æternity.
-Furthermore, æons are the energy for any application implemented on the platform.
+Furthermore, aeons are the energy for any application implemented on the platform.
 The initial amount of AE for the genesis block will be determined by a verifiable smart contract on Ethereum.</small>
 </td>
 </tr>
@@ -120,7 +120,7 @@ Each user can ask questions about the environment. Everybody can answer. The con
 <td class="align-middle">
 <strong class="d-block">NAMES (DNS)</strong>
 
-<small>In the vein of Aaron Swartz’ work and Namecoin, æternity features an easy to use name system that is both decentralized and secure, while still supporting human-friendly, memorable names.
+<small>In a vein of Aaron Swartz’ work and Namecoin, æternity features an easy to use name system that is both decentralised and secure, while still supporting human-friendly, memorable names.
 The blockchain’s state includes a mapping from unique human-friendly strings to fixed-size byte arrays, which are individually customizable.</small>
 </td>
 </tr>
