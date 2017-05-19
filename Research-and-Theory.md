@@ -9,11 +9,11 @@
 
 # Concepts
 ## State Channels
-The state channel design enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large numbers of users and handling high volumes of products and information in parallel is æternity's strong suit.
+The state channel design in æternity enables off-chain verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This, in return permits a high transactional throughput and parallel processing of smart contracts. Hence, the programmability of complex relationships for large number of users and handling high volume of products and information in parallel is æternity's strong suit.
 Only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
 No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralised solutions available today.
- For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
+ For more information, refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 ## Decentralised Oracles
 An oracle is a mechanism that tells the blockchain facts about the world we live in e.g. the close price of Apple shares on a particular date. æternity's oracle system uses the same consensus system as the æternity blockchain itself i.e. it does not require a separate consensus layer on top of the æternity mainnet. 
 
