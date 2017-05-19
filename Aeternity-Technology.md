@@ -3,7 +3,7 @@
 </div>
 <h2>Introduction</h2>
 
-The innovation in æternity is the creation of a highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes the oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and are the de facto layer for the execution of smart contracts. This increases both the privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss to functionality.
+The innovation in the æternity is a creation of highly scalable blockchain architecture with built-in a Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which also used to check the oracle. The hybrid system makes an oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and de facto layer for execution of smart contracts. It will increases both the privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss to functionality.
 Applications like markets for synthetic assets and prediction markets can be efficiently implemented at global scale. 
 
 <div class="weiss">
@@ -22,8 +22,8 @@ Applications like markets for synthetic assets and prediction markets can be eff
 <td class="align-middle">
 <strong class="d-block">INDUSTRIAL GRADE CODE BASE</strong>
 
-<small>The core æternity blockchain code is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stoppable applications.
-Erlang is the perfect choice to write a blockchain from scratch allowing to achieve superior operational stability and performance.</small>
+<small>The core æternity blockchain code has been written in Erlang, which make it easy to write distributed, fault-tolerance, soft real-time and highly available non-stoppable applications.
+Erlang is the perfect choice to write a blockchain from scratch allow to achieve superior operational stability and performance.</small>
 </td>
 </tr>
 </tbody>
