@@ -5,6 +5,11 @@ The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messag
 * read the wiki content, regarding your topic especially thoroughly, before adding any new content (duplicated content will not be counted as wiki bounty)
 * Ask in the [Slack Wiki Channel](https://aeternity.slack.com/messages/C59BALQCE/details/) if the content is somewhat meaningful 
 
+## Adding images
+* Please open an [issue /ticket](https://github.com/aeternity/wiki/issues)
+* Upload Your image, including a short reason & link to the page you want to use it
+* Image will be reviewed and approved in a timely manner (24h)
+
 ## After **adding** content:
 * add the page to the [Navigation Sidebar](_Sidebar.md/) ------>
 * if you like you can promote the content on your social media channels
