@@ -6,7 +6,7 @@
 
 
 ![Use Case Concept sketch](https://github.com/aeternity/wiki/blob/master/AE-Crowdfund.png)
-
+![aeternity_and_Alice_integration](https://github.com/aeternity/wiki/blob/master/AE-ALICE_integration.png)
 
 ## Education Marketplace
 
