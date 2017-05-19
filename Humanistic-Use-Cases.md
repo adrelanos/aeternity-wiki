@@ -1,6 +1,6 @@
 ## Crowdfunding 2.æ
 #### Potential partner: Alice.si 
-* ethereum based solutions for charitable projects 
+* Ethereum based crowdfunding solutions for charitable projects 
     
     Decentralized oracles / prediction markets could help decide where funds are best applied for the greater good and have the most powerful tool for making welfare recirculate and shape a better world, in which every trade there is an slice for that global greater good fund, acting as a society balancing tool...
 
