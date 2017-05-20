@@ -40,16 +40,22 @@ _This will be rapidly expanded._
 * [[Bounty]]
 * [[Idea Box]]
 * [[Community]]
-* [[Whitepaper_English]]
-* [[Whitepaper_Korean (한국어)]]
-* [[Whitepaper_Indonesia]]
-* [[Whitepaper_Russian]]
+* [Whitepaper English][Whitepaper_English]
+* [Whitepaper Korean (한국어)][Whitepaper_Korean (한국어)]
+* [Whitepaper Indonesia][Whitepaper_Indonesia]
+* [Whitepaper Russian][Whitepaper_Russian]
 * [Whitepaper Espanol][Whitepaper_Español]
-* [[Whitepaper_Chinese]]
-* [[Whitepaper_French]]
+* [Whitepaper Chinese][Whitepaper_Chinese]
+* [Whitepaper French][Whitepaper_French]
 
 
 ## External Resources
 [æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
 
+[Whitepaper_English]: Whitepaper_English
+[Whitepaper_Korean (한국어)]: Whitepaper_Korean-(한국어)
+[Whitepaper_Indonesia]: Whitepaper_Indonesia
+[Whitepaper_French]: Whitepaper_French
+[Whitepaper_Chinese]: Whitepaper_Chinese
+[Whitepaper_Russian]: Whitepaper_Russian
 [Whitepaper_Español]: Whitepaper_Español
