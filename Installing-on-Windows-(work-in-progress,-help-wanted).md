@@ -1,19 +1,19 @@
 It is not confirmed whether we want to go that route: https://github.com/aeternity/testnet/issues/5
 
-I thought that if the code have written in Erlang, it should be possible to run on any platform. See instructions for [Ubuntu](https://github.com/aeternity/testnet/blob/master/docs/compile_ubuntu.md) and [Mac](https://github.com/aeternity/testnet/blob/master/docs/compile_mac.md).
+I thought that if the code is written in Erlang, it should be possible to run on any platform. See instructions for [Ubuntu](https://github.com/aeternity/testnet/blob/master/docs/compile_ubuntu.md) and [Mac](https://github.com/aeternity/testnet/blob/master/docs/compile_mac.md).
 
 In my work as web developer I make web apps look sleek and load fast, I hate managing dependencies and solving build issues. But I gave it a shot anyway, it cannot be that hard?
 
 ----
 
-These instructions assume a basic familiarity with command line. The fastest way to press a hotkey `WIN + r` and then type `cmd`... You can navigate the folders using some basic commands, such as :
+These instructions assume a basic familiarity with command line. The fastest way to launch it is `WIN + r` and then type `cmd`... You can navigate the folders using some basic commands, such as :
 
 * `cd c:/` _(go to a drive)_ 
 * `cd ..` _(to go level up)_ 
 * `cd FOLDER_NAME` _(go deeper)_ 
 * `dir` _(list contents)_
 
-These are the very basic commands so that you know how to navigate folders from command line. I suggest create a folder `c:/code` to keep all your code there. The command `md code` creates\ the folder.
+These are the very basic commands so that you know how to navigate folders from command line. I suggest creating a folder `c:/code` to keep all your code there. The command `md code` creates the folder.
 
 ## 0. Download and install Git
 
@@ -29,20 +29,20 @@ For the more adventurous, build it from source.
 
 ## 2. Add the folder to the path
 
-**On Windows 10:** Click right on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine it is `c:\Program Files\erl8.3\bin`
+**On Windows 10:** Right click on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine it is `c:\Program Files\erl8.3\bin`
 
 It many clicks away, I've reported a usability bug, it's by design: http://imgur.com/a/qbeTc
 
 
 ## 3. Install rebar
 
-For more detail of instructions can be found on this link: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
+A very detailed set of instructions can be found on this link: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
 
 In case the link goes offline:
 
 **3.1)** `git clone https://github.com/rebar/rebar`
 
-**3.2)** go to directory and run `bootstrap.bat`
+**3.2)** go into that directory and run `bootstrap.bat`
 
 **3.3)** same business as previously, add the directory to the path so that you can execute `rebar`
 
@@ -70,7 +70,7 @@ ERROR: compile failed while processing c:/code/testnet/deps/jiffy: rebar_abort
 
 As you can see it was a popular request and they delivered, good for Microsoft!
 
-**5b)** If you have a Visual Studio has installed - most probably you have a default version _(without C++ compiler)_
+**5b)** If you have Visual Studio already installed - most probably you have a default version _(without C++ compiler)_
 
 Go to Control Panel - Programs - Visual Studio - modify... It will launch the installer and it will allow you to select `C++` 
 
@@ -82,4 +82,4 @@ That's where it goes bad: https://github.com/davisp/jiffy/issues/144
 
 > Any idea where assert.h lives on Windows?
 
-> It should be a part of the std library
+> It should be part of the std library
