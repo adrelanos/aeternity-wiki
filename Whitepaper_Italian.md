@@ -11,8 +11,8 @@ v0.1
 
 Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un grande interesse nelle applicazioni decentralizzate trustless (contratti smart). In seguito, molti hanno tentato di implementare applicazioni con dati derivanti dal mondo reale innestati su di una blockchain. Noi crediamo che allocare lo stato ed il codice di una applicazione sulla blockchain sia sbagliato per varie ragioni. Presentiamo l'architettura altamente scalabile di una blockchain dotata di un meccanismo di consenso che è anche usato per controllare l'oracolo. Questo rende l'oracolo molto efficiente, perché evita lo stratificarsi di ciascun meccanismo di consenso sopra ad un altro. I canali a Stati sono integrati pper incrementare la privacy e la scalabilità. I token nei canali possono essere trasferiti utilizzando smart contract perfettamente funzionali che possono accedere alle domande dell'oracolo. Non allocando codice di contratto sulla catena, siamo in grado di creare contratti smart più semplici da analizzare e più veloci da processare, con nessuna sostanziale perdita sulla funzionalità reale. Applicazioni come i mercati per gli asset sintetici e i mercati predittivi possono essere efficientemente implementate su scala globale. Diverse parti hanno una implementazione prototipale in Erlang. Gli strumenti di sviluppo e le applicazioni essenziali come il portafoglio, un sistema di identificazione e di attribuzione del nome saranno anche predisposti.
 
-CONTENUTI
-I [Introduzione](#Introduzione) . . . . . . . . . . . . . . . . . 1  
+# CONTENUTI
+I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
 I-Un lavoro predecente . . . . . . . . . . . . . 2  
 II La blockchain Æternity  . . . . . . . . . . . 2  
 II-A Token, account e blocchi  . . . . . . . . . 2  
