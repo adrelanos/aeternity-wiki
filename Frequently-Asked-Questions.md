@@ -101,11 +101,11 @@ Total æ in circulation after contribution phase 2:
 
 Answer by vdramaliev on [reddit](https://www.reddit.com/r/Aeternity/comments/64z73r/will_there_have_the_cap_amount_of_aeon/).
 
-It is possible for the mining reward amount to be modifiable by the users through a prediction market, as the governance of aeternity is decentralized, and can be adjusted based on the real-world needs.
+It is possible for the mining reward amount to be modifiable by the users through a prediction market, as the governance of æternity is decentralized, and can be adjusted based on the real-world needs.
 
 # How is the AE dispersed? #
 
-Following Phase 2, 82 % of the AE that has been created will be in the hands of investors. 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses in order to encourage the use of AE and the aeternity network.
+Following Phase 2, 82 % of the AE that has been created will be in the hands of investors. 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses in order to encourage the use of AE and the æternity network.
 
 90% of the AE that has been reserved for the founding team (a total of 17% of the available AE) will be time-locked so as to discourage team members from taking the AE tokens and leaving the project. 
 
