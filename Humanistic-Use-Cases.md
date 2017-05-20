@@ -4,8 +4,10 @@
     
     Decentralized oracles / prediction markets could help decide where funds are best applied for the greater good and have the most powerful tool for making welfare recirculate and shape a better world, in which every trade there is an slice for that global greater good fund, acting as a society balancing tool...
 
-
+#### Use Case Concept
 ![Use Case Concept sketch](https://github.com/aeternity/wiki/blob/master/AE-Crowdfund.png)
+
+#### Alice & æternity integration
 ![aeternity_and_Alice_integration](https://github.com/aeternity/wiki/blob/master/AE-ALICE_integration.png)
 
 ## Education Marketplace
