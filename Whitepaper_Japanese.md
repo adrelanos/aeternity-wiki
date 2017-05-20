@@ -90,17 +90,17 @@ III-B.5 [イベントコントラクト](#イベントコントラクト)
 
 III-B.6 [予測市場](#予測市場)
 
-III-B.7 [Market con un lotto in vendita ad un prezzo singolo](#market-con-un-lotto-in-vendita-ad-un-prezzo-singolo) . . . . . . 7  
-IV [Implementazione](#implementazione) . . . . . . . . . . . . . . . 8  
-IV-A [Macchine e linguaggio del contratto](#macchine-e-linguaggio-del-contratto) . . . . 8  
-IV-B [Adozione tramite integrazione web](#adozione-tramite-integrazione-web) . . . . . 8  
-IV-C [Moduli open source](#moduli-open-source)  . . . . . . . . . . . . 8  
-IV-D [Condizioni d'uso e design dell'UX](#condizioni-duso-e-design-dellux) . . . . . 8  
-V [Discussioni](#discussioni)  . . . . . . . . . . . . . . . . . 8  
-V-A [Limitazioni e tradeoff](#limitazioni-e-tradeoff) . . . . . . . . . . . 9  
-V-A.1 [Stati sulla blockchain](#stati-sulla-blockchain) . . . . . . . . . . 9  
-V-A.2 [Problema dell'opzione gratuita](#problema-dellopzione-gratuita) . . . . . . 9  
-V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquidità-e-tipologie-di-macchine-a-stati) . . . . . 9  
-V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
-V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
-V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9  
+III-B.7 [単一の価格で行われるバッチ取引によるマーケット](#単一の価格で行われるバッチ取引によるマーケット) . . . . . . 7  
+IV [実装](#実装) . . . . . . . . . . . . . . . 8  
+IV-A [VMとコントラクト言語](#VMとコントラクト言語) . . . . 8  
+IV-B [ウェブ統合による採用](#ウェブ統合による採用) . . . . . 8  
+IV-C [オープンソースモジュール](#オープンソースモジュール)  . . . . . . . . . . . . 8  
+IV-D [ユーザビリティとUXデザイン](#ユーザビリティとUXデザイン) . . . . . 8  
+V [ディスカッション](#ディスカッション)  . . . . . . . . . . . . . . . . . 8  
+V-A [制限とトレードオフ](#制限とトレードオフ) . . . . . . . . . . . 9  
+V-A.1 [オンチェーンステート](#オンチェーンステート) . . . . . . . . . . 9  
+V-A.2 [無料化の問題](#無料化の問題) . . . . . . 9  
+V-A.3 [流動性の低下とステートチャネルトポロジー](#流動性の低下とステートチャネルトポロジー) . . . . . 9  
+V-B [今後の活動](#今後の活動)  . . . . . . . . . . . . . . . 9  
+V-B.1 [機能的なコントラクト言語](#機能的なコントラクト言語)  . . . 9  
+V-B.2 [マルチパーティチャネル](#マルチパーティチャネル) . . . . . . . . . . . . 9  
