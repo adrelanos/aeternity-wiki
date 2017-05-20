@@ -15,8 +15,8 @@ Having exchanged ideas and pursued blockchain endeavors with many of the greates
 ## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 #### Technical Lead
 
-Zack write a blockchain and true visionary. The first of his "basic coin" was the attempt to write a most compact blockchain.
-Years later, after having worked for Augur and built a few other blockchains from scratch, he is leading æternity's technical implementation now.
+Blockchain writer and true visionary. The first of his "basic coins" was the attempt to write a compact blockchain.
+After having worked for Augur and built a few other blockchains from scratch in the meanwhile, he is now leading æternity's technical implementation.
 <table></table>
 
 ***
@@ -24,7 +24,7 @@ Years later, after having worked for Augur and built a few other blockchains fro
 
 ## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 
-Being intrigued by magic of blockchain technology since early 2014, Marion have especially interested in connecting the dots between technology and growing community. Research on the socioeconomic impact, spreading the word and take a care of handling æternity's operations efficiently is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
+Intrigued by magic of blockchain technology since early 2014, Marion has a special interest in connecting the dots between technology and growing community. Research on the socioeconomic impact, spreading the word and efficient handling of æternity's operations is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
 <table></table>
 
 ***
@@ -65,8 +65,8 @@ He is working on decentralised autonomous non profits (Runner-up at Consensus 20
 ## Dan Verowski <a target="_blank" href="https://medium.com/@DanMercurius"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Project Manager
 
-Born and raised in Berlin he started working as a Scrum Master since 2011, later becoming a Business Analyst, interfacing splendidly between thankful developers and content clients.
-Blended with his fast growing knowledge and interest in blockchain technologies and the Fintech industry in general, he supports the project management pillar of team æternity.
+Born and raised in Berlin he started working as a Scrum Master since 2011, later becoming a business analyst, proving a splendid interface between thankful developers and content clients.
+Blending his fast growing knowledge and interest in blockchain technologies and with general fintech industry expertise, he supports the project management pillar of team æternity.
 
 <table></table>
 
@@ -77,7 +77,7 @@ Blended with his fast growing knowledge and interest in blockchain technologies 
 ## Jack Pettersson <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 ##### Scientific Advisor
 
-Computer science and blockchain enthusiast, looking ways to combine both. Advocate of functional programming and expressive type systems. Previously worked for Synereo to develop the language and VM of their blockchain, and spent his master's thesis arguing for the use of dependent types in smart contract development.
+Computer science and blockchain enthusiast - a healthy synergy! Advocate of functional programming and expressive type systems. Previously worked for Synereo to develop the language and VM of their blockchain, and spent his master's thesis arguing for the use of dependent types in smart contract development.
 <table></table>
 
 ***
@@ -87,8 +87,8 @@ Computer science and blockchain enthusiast, looking ways to combine both. Advoca
 ## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Creative Advisor
 
-Louis Chang is a Co-founder and Creative Director of Proof of Work, The first of creative design and communication agency working specifically with Blockchain companies.
-Particularly interested in Human computer interaction, design, education and behavioural patterns. Louis has been a creative pedigree working for agencies such as Ogilvy, Saatchi and Saatchi, Blast Radius and JWT in 12 years.
+Louis Chang is a co-founder and Creative Director of Proof of Work, The first of creative design and communication agency working specifically with blockchain companies.
+Particularly interested in human-computer interaction, design, education and behavioural patterns. Louis has a creative pedigree working for agencies such as Ogilvy, Saatchi and Saatchi, Blast Radius and JWT in 12 years.
 <table></table>
 
 ***
@@ -98,7 +98,7 @@ Particularly interested in Human computer interaction, design, education and beh
 ## Julio Alexandro <a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a>
 #### Humanitarian Advisor
 
-"Leonardo da Vinci of Fintech" (CoinTelegraph, 2016), is the Founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
+The "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016) - a founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
 <table></table>
 
 ***
@@ -108,7 +108,7 @@ Particularly interested in Human computer interaction, design, education and beh
 ## John Tromp <a target="_blank" href="https://tromp.github.io/"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a> <a target="_blank" href="www.linkedin.com/in/john-tromp-b1601b8/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Advisor on POW "Cuckoo Cycle"
 
-Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational biology, and what not.
+Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational biology, and what-not.
 Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle", which æternity blockchain will be using. John is advising the æternity team on the integration of the "Cuckoo Cycle" mining algorithm.
 <table></table>
 
