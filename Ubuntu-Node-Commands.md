@@ -8,8 +8,22 @@ sh start.sh
 ##
 
 ## Commands
-
-### Sync with a network
+List:
+   * [Sync with the network](#sync-with-the-network)
+   * [Mining](#mining)
+   * [Spend](#spend)
+   * [Last transactions](#last-transactions)
+   * [Account ID](#account-id)
+   * [Public key](#public-key)
+   * [Address](#address)
+   * [Shared Secret](#shared-secret)
+   * [Balance](#balance)
+   * [Stop/Off](#stopoff)
+   * [Lock and Unlock](#lock-and-unlock)
+   * [Signing](#signing)
+   * [Passwords and Keys](#passwords-and-keys)
+   * [Channels](#channels)
+### Sync with the network
 To sync with a network and download blockchain:
 ```
 easy:sync().
@@ -81,7 +95,7 @@ To stop a running node:
 easy:off().
 ```
 ## 
-### Lock and Unlock
+### Lock and unlock
 To secure your node so no one can sign the transactions, you can either turn off the node, or you can run this command:
 ```
 keys:lock().
@@ -117,7 +131,6 @@ To load a private key into an existing node:
 ```
 keys:load(Pubkey, Privkey, "password").
 ```
-## Password
 To change an account password:
 ```
 keys:change_password("old_password", "new_password").
