@@ -14,7 +14,7 @@ Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un gr
 ## CONTENUTI
 I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
 I [Un lavoro precedente](#un-lavoro-precedente) . . . . . . . . . . . . . 2  
-II [La blockchain Æternity](#la-blockchain-Æternity)  . . . . . . . . . . . 2  
+II [Cos'è la blockchain Æternity](#cose-la-blockchain-Æternity)  . . . . . . . . . . . 2  
 II-A [Token, account e blocchi](#token-account-e-blocchi)  . . . . . . . . . 2  
 II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2  
 II-A.2 [Account](#account) . . . . . . . . . . . . . . . . . 2  
@@ -41,18 +41,18 @@ III-B.1 [Strumento API](#strumento-api)  . . . . . . . . . . . . . 7
 III-B.2 [Raccolta fondi assicurata](#raccolta-fondi-assicurata)  . . . . . . . 7  
 III-B.3 [Swap atomico tra blockchain](#swap-atomico-tra-blockchain)  . . . . . . 7  
 III-B.4 [Asset a valore stabile e replicazione del portafoglio](#asset-a-valore-stabile-e-replicazione-del-portafoglio) . . . . 7  
-III-B.5 [Contratti dell'evento](#contratti-dell-evento)  . . . . . . . . . 7  
+III-B.5 [Contratti dell'evento](#contratti-dellevento)  . . . . . . . . . 7  
 III-B.6 [Mercati predittivi](#mercati-predittivi) . . . . . . . . . . . 7  
 III-B.7 [Market con un lotto in vendita ad un prezzo singolo](#market-con-un-lotto-in-vendita-ad-un-prezzo-singolo) . . . . . . 7  
 IV [Implementazione](#implementazione) . . . . . . . . . . . . . . . 8  
 IV-A [Macchine e linguaggio del contratto](#macchine-e-linguaggio-del-contratto) . . . . 8  
 IV-B [Adozione tramite integrazione web](#adozione-tramite-integrazione-web) . . . . . 8  
 IV-C [Moduli open source](#moduli-open-source)  . . . . . . . . . . . . 8  
-IV-D [Condizioni d'uso e design dell'UX](#condizioni-d-uso-e-design-dell-ux) . . . . . 8  
+IV-D [Condizioni d'uso e design dell'UX](#condizioni-duso-e-design-dellux) . . . . . 8  
 V [Discussioni](#discussioni)  . . . . . . . . . . . . . . . . . 8  
 V-A [Limitazioni e tradeoff](#limitazioni-e-tradeoff) . . . . . . . . . . . 9  
 V-A.1 [Stati sulla blockchain](#stati-sulla-blockchain) . . . . . . . . . . 9  
-V-A.2 [Problema dell'opzione gratuita](#problema-dell-opzione-gratuita) . . . . . . 9  
+V-A.2 [Problema dell'opzione gratuita](#problema-dellopzione-gratuita) . . . . . . 9  
 V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquidità-e-tipologie-di-macchine-a-stati) . . . . . 9  
 V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
 V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
@@ -74,7 +74,7 @@ Per ora però hanno fallito nel mettersi insieme in un sistema unificato che man
 I
 #### Un lavoro precedente
 II
-#### La blockchain Æternity
+#### Cos'é la blockchain Æternity
 II-A
 #### Token, account e blocchi
 II-A.1
