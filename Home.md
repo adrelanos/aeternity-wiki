@@ -47,6 +47,8 @@ _This will be rapidly expanded._
 * [Whitepaper Espanol][Whitepaper_Español]
 * [Whitepaper Chinese][Whitepaper_Chinese]
 * [Whitepaper French][Whitepaper_French]
+* [Whitepaper Japanese][Whitepaper_Japanese]
+
 
 
 ## External Resources
@@ -59,3 +61,4 @@ _This will be rapidly expanded._
 [Whitepaper_Chinese]: Whitepaper_Chinese
 [Whitepaper_Russian]: Whitepaper_Russian
 [Whitepaper_Español]: Whitepaper_Español
+[Whitepaper_Japanese]: Whitepaper_Japanese
