@@ -15,7 +15,7 @@ When a channel is settled on-chain, the only way it changes the blockchain state
 No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralised solutions available today.
  For more information, refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
 ## Decentralised Oracles
-An oracle is a mechanism that tell the blockchain about facts on the world we live in e.g. the close price of Apple shares on a particular date. æternity's oracle system uses the same consensus system as the æternity blockchain itself i.e. it does not require a separate consensus layer on top of the æternity mainnet. 
+An oracle is a mechanism that tells the blockchain about facts on the world we live in e.g. the close price of Apple shares on a particular date. æternity's oracle system uses the same consensus system as the æternity blockchain itself i.e. it does not require a separate consensus layer on top of the æternity mainnet. 
 
 To launch an oracle, an aeon holder has to commit to answer a yes or no question (e.g. whether the price of an Apple share is above $200) and specify additional of conditions such as the time frame in which the Aeon holder can answer that question. The aeon holder then has to deposit/commit a certain amount of aeon, which is proportional to the time frame during which the oracle is operational. When the oracle supplies an answer that is accepted as the truth by users, the deposit will be returned to the creator of the oracle. Otherwise, the deposit will be destroyed.
 
@@ -42,13 +42,13 @@ It is important to note that in order for a market participant to win consistent
 Take an example for event that has a 90% probability. If on a market the current price signals a probability of 95% instead of 90%, it can be still very profitable in the long run for a trader to bet against such events, even if that trader believes that the event will likely happen given the 90% probability.
 This is very counter-intuitive, but it is easily explained by doing the math.
 
-If Alice makes 100 different bets against events that have a 90% probability, she will right 10 times and wrong 90 times. However, because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will make still a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000 AE bet, Alice will make a profit of 5000 AE (10x950-90x50=5000).
+If Alice makes 100 different bets against events that have a 90% probability, she will be right 10 times and wrong 90 times. However, because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will make still a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000 AE bet, Alice will make a profit of 5000 AE (10x950-90x50=5000).
 
 **b) They reveal information using the price mechanism.**
  
 Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try and be incentivized economically to be as accurate as possible and the prices will reflect that. In a prediction markets prices can be understood as showing the probability of the outcome that is being traded.
 
-An example: here could be a miner who wants to plan his hardware purchases in advance and need to know the probability of total hashrate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, A miner can set up the prediction market that will give him very accurate probabilities. The people betting on those opportunities would not be random people on the internet (As we see in normal forums), but "experts", who will provide very likely guesses, as they will lose their money if they are wrong, and will only gain money if they are right.
+An example: here could be a miner who wants to plan his hardware purchases in advance and need to know the probability of total hashrate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, a miner can set up the prediction market that will give him very accurate probabilities. The people betting on those opportunities would not be random people on the internet (As we see in normal forums), but "experts", who will provide very likely guesses, as they will lose their money if they are wrong, and will only gain money if they are right.
 
 ### 2. How do prediction markets work on æternity
 Prediction markets (Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralised and transparent manner for the first time.
