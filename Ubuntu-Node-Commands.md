@@ -9,8 +9,8 @@ sh start.sh
 ```
 ## 
 
-### Sync with the network
-To sync with the network and download the blockchain:
+### Sync with a network
+To sync with a network and download blockchain:
 ```
 easy:sync().
 ```
@@ -66,7 +66,7 @@ keys:shared_secret(Pubkey).
 easy:balance().
 ```
 ## 
-### To stop a node run
+### To stop a node running
 ```
 easy:off().
 ```
@@ -110,7 +110,7 @@ To load a private key into an existing node:
 keys:load(Pubkey, Privkey, "password").
 ```
 
-To change the address password:
+To change an address password:
 ```
 keys:change_password("old_password", "new_password").
 ```
