@@ -11,7 +11,7 @@
 [**Documentation**][doc] 
 * [Whitepaper (English)][WP_engl]
 * [Whitepaper (Korean)][WP_kr] 
-* [Whitepaper (Indonesia)](Whitepaper_Indonesia)
+* [Whitepaper (Indonesia)](Whitepaper_Indonesia.md)
 * [Whitepaper (Russian)](Whitepaper_Russian)
 * [Whitepaper (Espaniol)](Whitepaper_Español)
 * [Whitepaper (Chinese)](Whitepaper_Chinese)
