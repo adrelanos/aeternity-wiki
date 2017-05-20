@@ -1,16 +1,16 @@
 # Types of users, and where they might start
 
-Anyone who wants to store or transfer value, with unparalleled speed, reliability and privacy will be able to use an æternity to do so. Everything Bitcoin and Ethereum can do, just got upgraded. Below is a summary of the various user types and how they might start with æternity.
+Anyone who wants to store or transfer value, with unparalleled speed, reliability and privacy will be able to use an æternity for doing it. Everything Bitcoin and Ethereum can do, just got upgraded. Below is a summary of the various user types and how they might start with æternity.
 
 * Contributors:
 
-    Contributors can be directly support æternity by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens directly on an exchange once Aeon have been listed in them. To do this, the first users must be registered on an exchange where Aeon has been traded. Next, the user must have a funds that available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose storing the AE tokens on the exchange (not recommended) or transfer to wallet.
+    Contributors can support æternity directly by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens on exchange directly once Aeon have been listed in them. To do it, the first time users must be registered on exchange where Aeon has been traded. Next, the user must have a funds that available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose storing the AE tokens on the exchange (not recommended) or transfer to wallet.
 
-    In addition, many decentralized applications will be written on top of æternity. Contributors will be able to participate in challenging and cutting edge projects on the most cutting edge blockchain by contributing to their initial coin offerings and/or purchasing their tokens on an exchange. 
+    In addition, many decentralized applications will be written on top of æternity. Contributors will be able to participate in challenge and cutting edge projects on a most cutting edge blockchain by contributing to their initial coin offerings and/or purchasing their tokens on an exchange. 
 
 * Speculators:
 
-    The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity are required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make short-term profits based on anticipated developments in the fundamentals or the emergence of certain profitable trading patterns.
+    The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity are required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make a short-term profit based on anticipate developments in the fundamentals or the emergence of certain profitable trading patterns.
  
 * Contract writers & Developers:
 
