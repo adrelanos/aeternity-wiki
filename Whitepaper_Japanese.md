@@ -55,23 +55,41 @@ II-C [コンセンサスメカニズム](#コンセンサスメカニズム)
 II-C.1 [オラクル](#オラクル)
 
 II-D [ガバナンス](#ガバナンス)
+
 II-E [スケーラビリティ](#スケーラビリティ)  
+
 II-E.1 [Sharding-trees](#sharding-trees)
+
 II-E.2 [軽量クライアント](#軽量クライアント)
+
 II-E.3 [ステートチャネルと比較](#ステートチャネルと比較)
+
 II-E.4 [Transactions/secとメモリ要件](#Transactions/secとメモリ要件) 
+
 III [アプリケーション](#アプリケーション)
+
 III-A [ブロックチェーンに必要なこと](#ブロックチェーンに必要なこと)
+
 III-A.1 [アイデンティティ](#アイデンティティ)
+
 III-A.2 [ウォレット](#ウォレット)
+
 III-A.3 [PoE(Proof of existence)](#PoE(Proof of existence))
+
 III-B [ステートチャネルアプリケーション](#ステートチャネルアプリケーション)
+
 III-B.1 [APIを叩く](#APIを叩く)
+
 III-B.2 [保険付きクラウドファンディング](#保険付きクラウドファンディング)
-III-B.3 [クロスチェーンとアトミックスワップ](#クロスチェーンとアトミックスワップ) 
+
+III-B.3 [クロスチェーンとアトミックスワップ](#クロスチェーンとアトミックスワップ)
+ 
 III-B.4 [安定した価値の資産と、ポートフォリオの複製](#安定した価値の資産と、ポートフォリオの複製)
+
 III-B.5 [イベントコントラクト](#イベントコントラクト) 
+
 III-B.6 [予測市場](#予測市場)
+
 III-B.7 [Market con un lotto in vendita ad un prezzo singolo](#market-con-un-lotto-in-vendita-ad-un-prezzo-singolo) . . . . . . 7  
 IV [Implementazione](#implementazione) . . . . . . . . . . . . . . . 8  
 IV-A [Macchine e linguaggio del contratto](#macchine-e-linguaggio-del-contratto) . . . . 8  
