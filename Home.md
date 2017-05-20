@@ -44,10 +44,12 @@ _This will be rapidly expanded._
 * [[Whitepaper_Korean (한국어)]]
 * [[Whitepaper_Indonesia]]
 * [[Whitepaper_Russian]]
-* [[Whitepaper_Español]]
+* [Whitepaper Espanol][Whitepaper_Español]
 * [[Whitepaper_Chinese]]
 * [[Whitepaper_French]]
 
 
 ## External Resources
 [æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
+
+[Whitepaper_Español]: Whitepaper_Español
