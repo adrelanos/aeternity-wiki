@@ -33,7 +33,7 @@ Futarchy / governance - how this compares.
 
 dApp on the Ethereum blockchain vs æternity
 
-Realitykeys external oracle provider intergration
+Realitykeys external oracle provider integration
 
 (Comparisons on both to æternity, i.e. it will use its down blockchain)
 
