@@ -74,7 +74,7 @@ III-A.1 [アイデンティティ](#アイデンティティ)
 
 III-A.2 [ウォレット](#ウォレット)
 
-III-A.3 [PoE【Proof of existence】](#PoE【Proof of existence】)
+III-A.3 [PoE](#PoE)
 
 III-B [ステートチャネルアプリケーション](#ステートチャネルアプリケーション)
 
