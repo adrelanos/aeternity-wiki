@@ -22,7 +22,7 @@ Applications like markets for synthetic assets and prediction markets can be eff
 <td class="align-middle">
 <strong class="d-block">INDUSTRIAL GRADE CODE BASE</strong>
 
-<small>The æternity blockchain core code has been written in Erlang, which make it easy to write distributed, fault-tolerance, soft real-time and highly available non-stoppable applications.
+<small>The æternity blockchain core code has been written in Erlang, which makes it easy to write distributed, fault-tolerance, soft real-time and highly available non-stoppable applications.
 Erlang is perfect choice to write a blockchain from scratch that allow to achieve superior operational stability and performance.</small>
 </td>
 </tr>
