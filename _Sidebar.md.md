@@ -17,6 +17,7 @@
 * [Whitepaper (Chinese)](Whitepaper_Chinese)
 * [Whitepaper (Italian)](Whitepaper_Italian)
 * [Whitepaper (Japanese)](Whitepaper_Japanese)
+* [Whitepaper (French)](Whitepaper_French)
 * [Contracts][contracts]
 * [Mining][mining]
 * [Ubuntu Node Commands](Ubuntu-node-commands)
