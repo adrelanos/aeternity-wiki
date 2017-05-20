@@ -58,7 +58,8 @@ V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9
 V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
 V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9  
 
-I #### Introduzione
+I
+#### Introduzione
 Lo scopo di questo paper è di dare un quadro d'insieme della architettura della blockchain Æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica; tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
 * Primo, introdurremo e analizzeremo la struttura teorica fondamentale che da forma alla nostra architettura.
 * Secondo, analizzeremo le applicazioni essenziali integrate (1), altri possibili casi di utilizzo e daremo degli spunti di come sia possibile per uno sviluppatore utilizzare la piattaforma.
