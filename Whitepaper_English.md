@@ -2,7 +2,7 @@
  Since the introduction of Ethereum in 2014, there has  been  great  interest  in  decentralized  trust-less  applications
 (smart contracts). Consequently, many have tried to implement applications  with  real  world  data  on  top  of  a  Blockchain.  We believe that storing the application’s state and code on-chain is wrong  for  several  reasons. This bloat the chain size, exposes smart-contracts to unnecessary vulnerabilities, and reduces privacy, thus preventing the access of Blockchains for private uses cases (Bancs, private companies, ...).
 
-This is why aeternity is being developed as the only Blockchain that can by its core design sustain throughput of mainstream world use cases, while providing real-world interfaces within its Blockchain. 
+This is why æternity is being developed as the only Blockchain that can by its core design sustain throughput of mainstream world use cases, while providing real-world interfaces within its Blockchain. 
 
 
 * It can handle larger transactions throughput (more than Visa and legacy systems) thanks to its integrated state channels.
