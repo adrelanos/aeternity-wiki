@@ -87,7 +87,7 @@ Computer science and blockchain enthusiast - a healthy synergy! Advocate of func
 ## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Creative Advisor
 
-Louis Chang is a co-founder and Creative Director of Proof of Work, The first of creative design and communication agency working specifically with blockchain companies.
+Louis Chang is a co-founder and Creative Director of Proof of Work, the first of creative design and communication agency working specifically with blockchain companies.
 Particularly interested in human-computer interaction, design, education and behavioural patterns. Louis has a creative pedigree working for agencies such as Ogilvy, Saatchi and Saatchi, Blast Radius and JWT in 12 years.
 <table></table>
 
