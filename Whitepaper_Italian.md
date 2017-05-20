@@ -58,7 +58,6 @@ V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9
 V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
 V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9  
 
-I
 #### Introduzione
 Lo scopo di questo paper è di dare un quadro d'insieme della architettura della blockchain Æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica; tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
 * Primo, introdurremo e analizzeremo la struttura teorica fondamentale che da forma alla nostra architettura.
@@ -72,48 +71,91 @@ Per ora però hanno fallito nel mettersi insieme in un sistema unificato che man
 
 ############# PROSEGUIRE TRADUZIONE #################
 
-#### I Introduzione
-#### I Un lavoro precedente
-#### II La blockchain Æternity
-#### II-A Token, account e blocchi
-#### II-A.1 Token di accesso, Aeon
-#### II-A.2 Account
-#### II-A.3 Sistema dei nomi
-#### II-A.4 Contenuti dei blocchi
-#### II-B State channel
-#### II-B.1 Smart contract
-#### II-B.2 Esempi
-#### II-C Meccanismo di Consenso
-#### II-C.1 Oracoli
-#### II-D Governance
-#### II-E Scalabilità
-#### II-E.1 Sharding trees
-#### II-E.2 Client leggero
-#### II-E.3 State channel e parallelismo
-#### II-E.4 Transazioni per secondo ad una certa richiesta di memoria
-#### III Applicazioni
-#### III-A Elementi essenziali della blockchain
-#### III-A.1 Identità
-#### III-A.2 Portafoglio
-#### III-A.3 Prova di esistenza
-#### III-B Applicazioni su canali a stati
-#### III-B.1 Strumento API
-#### III-B.2 Raccolta fondi assicurata
-#### III-B.3 Swap atomico tra blockchain
-#### III-B.4 Asset a valore stabile e replicazione del portafoglio
-#### III-B.5 Contratti dell'evento
-#### III-B.6 Mercati predittivi
-#### III-B.7 Market con un lotto in vendita ad un prezzo singolo
-#### IV Implementazione
-#### IV-A Macchine e linguaggio del contratto
-#### IV-B Adozione tramite integrazione web
-#### IV-C Moduli open source
-#### IV-D Condizioni d'uso e design dell'UX
-#### V Discussioni
-#### V-A Limitazioni e tradeoff](#limitazioni-e-tradeoff
-#### V-A.1 Stati sulla blockchain](#stati-sulla-blockchain
-#### V-A.2 Problema dell'opzione gratuita](#problema-dell-opzione-gratuita
-#### V-A.3 Perdita di liquidità e tipologie di macchine a stati
-#### V-B Lavori Futuri
-#### V-B.1 Linguaggio funzionale del contratto
-#### V-B.2 Canali multi-parti 
+I
+#### Un lavoro precedente
+II
+#### La blockchain Æternity
+II-A
+#### Token, account e blocchi
+II-A.1
+#### Token di accesso, Aeon
+II-A.2
+#### Account
+II-A.3
+#### Sistema dei nomi
+II-A.4
+#### Contenuti dei blocchi
+II-B
+#### State channel
+II-B.1
+#### Smart contract
+II-B.2
+#### Esempi
+II-C
+#### Meccanismo di Consenso
+II-C.1
+#### Oracoli
+II-D
+#### Governance
+II-E
+#### Scalabilità
+II-E.1
+#### Sharding trees
+II-E.2
+#### Client leggero
+II-E.3
+#### State channel e parallelismo
+II-E.4
+#### Transazioni per secondo ad una certa richiesta di memoria
+III
+#### Applicazioni
+III-A
+#### Elementi essenziali della blockchain
+III-A.1
+#### Identità
+III-A.2
+#### Portafoglio
+III-A.3
+#### Prova di esistenza
+III-B
+#### Applicazioni su canali a stati
+III-B.1
+#### Strumento API
+III-B.2
+#### Raccolta fondi assicurata
+III-B.3
+#### Swap atomico tra blockchain
+III-B.4
+#### Asset a valore stabile e replicazione del portafoglio
+III-B.5
+#### Contratti dell'evento
+III-B.6
+#### Mercati predittivi
+III-B.7
+#### Market con un lotto in vendita ad un prezzo singolo
+IV
+#### Implementazione
+IV-A
+#### Macchine e linguaggio del contratto
+IV-B
+#### Adozione tramite integrazione web
+IV-C
+#### Moduli open source
+IV-D
+#### Condizioni d'uso e design dell'UX
+V
+#### Discussioni
+V-A
+#### Limitazioni e tradeoff](#limitazioni-e-tradeoff
+V-A.1
+#### Stati sulla blockchain](#stati-sulla-blockchain
+V-A.2
+#### Problema dell'opzione gratuita](#problema-dell-opzione-gratuita
+V-A.3
+#### Perdita di liquidità e tipologie di macchine a stati
+V-B
+#### Lavori Futuri
+V-B.1
+#### Linguaggio funzionale del contratto
+V-B.2
+#### Canali multi-parti
