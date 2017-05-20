@@ -1,13 +1,13 @@
 # What is æternity?
 
-æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. 
+æternity is a new type of blockchain that innovating and expanding upon existing platforms such as Bitcoin, Ethereum, and Augur.
 Real-world data can interface with smart contracts through decentralized oracles.
 True scalability and trustless Turing-complete state channels sets æternity apart from Ethereum.
 
 ![æternity platform-vision](https://github.com/aeternity/wiki/blob/master/AE101_BlockchainOrganism.png)
     
-    Disclaimer: This is the first visualization of the æternity vision. A very simplified concept to communicate the basic 
-    idea to people outside crypto space.
+    Disclaimer: This is the first visualization of the æternity vision. A very simple concept to communicate the basic idea
+    to people outside crypto space.
     To be more specific (from Zack): The oracles are below state channels. Using ethereum as an example for smart contracts 
     is no good, because our smart contracts can't do ethereum's most important application (on-chain programmability)
     We should really call this row "financial derivatives" instead of "smart contracts", and have the example be "options".
@@ -28,9 +28,9 @@ True scalability and trustless Turing-complete state channels sets æternity apa
 æternity seeks to present a highly scalable blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create blockchain that is as efficient and cost effective as possible. Through use of the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another. Through state channel integration, privacy and scalability will be improved. Tokens in these state channels can be transferred using purely functional smart contracts that have access to network-wide oracle answers. By not storing the contract code or state on the blockchain, we are able to make smart contracts easier to analyse and faster to process, with no substantial loss in de facto functionality.
 
 
-# What is blockchain?
+# What is a blockchain?
 
-In short, a blockchain is a secure ledger distributed among participant's computers and in this case, governed only by the æternity software. More generally, a blockchain is essentially a distributed database that contains a constantly growing chronological list of unchangeable transaction records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, blockchain is a secured ledger distributed among participants computer and in this case, governed only by the æternity software. More generally, essentially blockchain is a database distributed that contains a constantly growing chronological list of unchangeable transaction records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node, or computer connected to the blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about æternity and how does it compare to other blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
@@ -50,7 +50,7 @@ Oracle is a mechanism to teach the blockchain true facts about our world. This i
 
 # What are State Channels?
 
-The State Channel design enables off-chain, or off-network, verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This mechanism permits a high transactional throughput and parallel processing of smart contracts by allowing for their independence from the network. Hence, æternity's strengths lie in the programmability of complex relationships for large numbers of users and in the parallel handling of high volumes of products and information.
+The design of State Channel enables off-chain, or off-network, verification of data and smart contracts. If the verification in the channel fails, the blockchain is asked to resolve. This mechanism permits a high transactional throughput and parallel processing of smart contracts by allowing for their independence from the network. Hence, æternity's strengths lie in the programmability of complex relationships for large numbers of users and in the parallel handling of high volumes of products and information.
 State channels allow for increased privacy in that only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only information being put onto the blockchain is the transactional value that was exchanged.
 No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so æternity's scalable smart contract systems improves upon the centralized scaling solutions that are available today.
