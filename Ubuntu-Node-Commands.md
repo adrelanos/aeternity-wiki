@@ -1,13 +1,13 @@
-## Commands
+## Download, install and Start the blockchain
+First, you must download and install æternity. Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac).
 
-First, you must download and install æternity. Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac)  
-## 
-### Start the blockchain
-Start your node with the following script:
+Then, before you can start executing commands you have to start the node. To start it execute the `start.sh` script using the following command from inside the node folder:
 ```
 sh start.sh
 ```
-## 
+##
+
+## Commands
 
 ### Sync with a network
 To sync with a network and download blockchain:
@@ -28,52 +28,61 @@ To check if you are currently mining:
 ```
 mine:is_on().
 ```
-If it answers **Go**; then its mining
+If it answers **Go**, it's mining.
 ## 
 ### Spend
 ```
 easy:spend(To, Amount).
 ```
-_"To"_ is the recipient's account ID.
+Where:
+- `To` is the recipient's account ID.
+- `Amount` is the amount to be transferred.
+
 ## 
 ### Last transactions
 ```
 tx_pool:data().
 ```
 ## 
-### Find out your account ID, public key, and address with these 3 commands
+### Account ID
 To find out account ID:
 ```
 keys:id().
 ```
+##
+### Public key
 To find out your public key run:
 ```
 keys:pubkey().
 ```
+##
+### Address
 To find out your address:
 ```
 keys:address().
 ```
 If it returns something less than 1, that means you don't have an account yet.
 ## 
-### To calculate a shared_secret with a partner, you need a copy of their public key
+### Shared Secret
+To calculate a shared_secret with a partner, you need a copy of their public key. Then you can use following command to get the Shared Secret:
 ```
 keys:shared_secret(Pubkey).
 ```
 ## 
-### Check your balance
+### Balance
+To check your balance:
 ```
 easy:balance().
 ```
 ## 
-### To stop a node running
+### Stop/Off
+To stop a running node:
 ```
 easy:off().
 ```
 ## 
-### Securing your node
-
-To secure your node so no one can sign the transactions, you can either turn of the node, or you can run this command:
+### Lock and Unlock
+To secure your node so no one can sign the transactions, you can either turn off the node, or you can run this command:
 ```
 keys:lock().
 ```
@@ -81,14 +90,13 @@ To check if your node is locked:
 ```
 keys:status().
 ```
-## 
-### Signing
-
 To unlock your node so that you can start signing transactions again, run this command:
 ```
 keys:unlock("password").
 ```
-To manually sign a transaction:
+## 
+### Signing
+First you have to have your keys unlocked. See [here](#Lock and Unlock) Then, to manually sign a transaction:
 ```
 keys:sign(Transactions, AccountRoot).
 ```
@@ -109,43 +117,46 @@ To load a private key into an existing node:
 ```
 keys:load(Pubkey, Privkey, "password").
 ```
-
-To change an address password:
+## Password
+To change an account password:
 ```
 keys:change_password("old_password", "new_password").
 ```
 ## 
-### Using Channels
+### Channels
 Making a channel with the server:
 ```
 easy:new_channel(Balance, ReceivingLimit).
 ```
- _Balance_ is how much of your money you put into the channel. _ReceivingLimit_ is how much money the server puts into the channel.
-  This is the maximum amount of money that can be sent to you until the channel runs out of space. _ReceivingLimit_ needs to be bigger than _Balance_ or the server will not let you make the channel. Fee is the transaction fee, so that this transaction will be included into a block soon.
+Where:
+- `Balance` is how much of your money you put into the channel.
+- `ReceivingLimit` is how much money the server puts into the channel.
 
-Checking your balance in the channel:
+Note: `ReceivingLimit` This is the maximum amount of money that can be sent to you until the channel runs out of space. `ReceivingLimit` needs to be bigger then `Balance` or the server will not let you make the channel.
+???Fee is the transaction fee, so that this transaction will be included into a block soon.??? (missing argument?)
+
+To check your balance in the channel:
 ```
 easy:channel_balance().
 ```
-Gambling with the server:
+To gamble with the server:
 ```
 easy:dice(Amount).
 ```
-
-When you want to close the channel and get your money out:
+To close the channel and get your money out:
 ```
 easy:close_channel().
 ```
 
 After closing channel you need to sync with the network to see if your channel is closed.
 
-If your channel partner disappears, or breaks, you can still get your money without his help.  Start with a solo-close transaction, then wait over 100 blocks, then do a channel timeout transaction.
+If your channel partner disappears, or breaks, you can still get your money without his help. Start with a solo-close transaction, then wait over 100 blocks, then do a channel timeout transaction.
 ```
- easy:solo_close_channel().
+easy:solo_close_channel().
 ```
 ### 
 ```
- easy:channel_timeout().
+easy:channel_timeout().
 ```
     
 
