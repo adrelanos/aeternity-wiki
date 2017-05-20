@@ -146,11 +146,11 @@ IV-D
 V
 #### Discussioni
 V-A
-#### Limitazioni e tradeoff](#limitazioni-e-tradeoff
+#### Limitazioni e tradeoff
 V-A.1
-#### Stati sulla blockchain](#stati-sulla-blockchain
+#### Stati sulla blockchain
 V-A.2
-#### Problema dell'opzione gratuita](#problema-dell-opzione-gratuita
+#### Problema dell'opzione gratuita
 V-A.3
 #### Perdita di liquidità e tipologie di macchine a stati
 V-B
