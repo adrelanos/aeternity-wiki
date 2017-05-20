@@ -14,7 +14,7 @@
 
 ### Vision:
 
-something like an open marketplace for people to trade private or group lessons with social profiles of prosumers/users (student and teachers), incentivized by earning tokens for studying and gameification features. 
+Something like an open marketplace for people to trade private or group lessons with social profiles of prosumers/users (student and teachers), incentivized by earning tokens for studying and gameification features. 
 Students can become teachers once they have received digital certification, with æternity oracles you could let more than one teacher rate a test, exam, work or class, ...
 
 ### Goal:
