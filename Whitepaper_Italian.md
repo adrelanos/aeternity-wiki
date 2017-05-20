@@ -13,7 +13,7 @@ Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un gr
 
 ## CONTENUTI
 I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
-I [Un lavoro precedente](#un-lavoro-precedente) . . . . . . . . . . . . . 2  
+I-A [Un lavoro precedente](#un-lavoro-precedente) . . . . . . . . . . . . . 2  
 II [Cos'è la blockchain Æternity](#cose-la-blockchain-Æternity)  . . . . . . . . . . . 2  
 II-A [Token, account e blocchi](#token-account-e-blocchi)  . . . . . . . . . 2  
 II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2  
@@ -65,14 +65,14 @@ Lo scopo di questo paper è di dare un quadro d'insieme della architettura della
 * Terzo, presenteremo l'attuale implementazione del POC (proof-of-concept), scritto in Erlang.
 * Concluderemo con una discussione che includa possibili futuri sviluppi e comparazioni con altre tecnologie.
 
-A. Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [1].  A ciò è seguito un certo numero di promettenti passi in avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati ad una architettura blockchain [2]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [3], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [4]; Casey Detrio ha mostrato come creare dei mercati su blockchain [5]; Namecoin come una prova di esistenza di qualsiasi dato digitale [7]. Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a ciascuno. 
+I-A
+#### Un lavoro precedente
+Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [1].  A ciò è seguito un certo numero di promettenti passi in avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati ad una architettura blockchain [2]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [3], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [4]; Casey Detrio ha mostrato come creare dei mercati su blockchain [5]; Namecoin come una prova di esistenza di qualsiasi dato digitale [7]. Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a ciascuno. 
 
 Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [richiede citazione]. Æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
 
 ############# PROSEGUIRE TRADUZIONE #################
 
-I
-#### Un lavoro precedente
 II
 #### Cos'é la blockchain Æternity
 II-A
