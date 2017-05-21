@@ -37,4 +37,6 @@ sh install.sh
 Now you can run your node. with ```sh start.sh```
 
 ***
+reads this: [Troubleshooting](Troubleshooting)
+***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
