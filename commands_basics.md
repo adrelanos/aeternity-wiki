@@ -1,3 +1,7 @@
+
+# Why was this page created?  Ubuntu Node Commands already exist. This page is a duplicate
+
+
 ### Basic commands to use the blockchain
 ***
 
