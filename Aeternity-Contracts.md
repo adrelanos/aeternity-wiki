@@ -1,16 +1,16 @@
 # How do contracts work
 
-On the æternity network, smart contracts just exist in off-chain state channels. In case of disagreement between the parties in the channel, the smart contract code gets enforced by the æternity blockchain. In essence, the underlying blockchain acts to enforce and mitigate any disagreements between contracting parties in a transaction. The rest of the contracts are executed off-chain, ensuring fast and private execution.
+On the æternity network, smart contracts only exist in off-chain state channels. In case of disagreement between the parties in the channel, the smart contract code gets enforced by the æternity blockchain. In essence, the underlying blockchain acts to enforce and mitigate any disagreements between contracting parties in a transaction. The rest of the contracts are executed off-chain, ensuring fast and private execution.
 
 # Contract components and participants
 
 ### Aeon: 
 
-The usable of the blockchain is not free but requires the user to spends tokens called AEON. Aeon has been used as payment for any resources one consumes on the platform, as well as the basis for financial applications implemented on the platform.
+The use of the blockchain is not free but requires the user to spend tokens called AEON. Aeon is used as payment for any resources one consumes on the platform, as well as the basis for financial applications implemented on the platform.
 
 ### Accounts:
 
-Each account have an address, Aeon balance, nonce that increases with every transaction and the height of the last update. Each account also accrues a small fee relative to the amount of a time that it is open. The costs of creating and keeping accounts open prevents spam and disincentivizes state-bloat. Reward for deleting accounts incentivizes the reclaiming of space.
+Each account has an address, Aeon balance,  and nonce that increases with every transaction and the height of the last update. Each account also accrues a small fee relative to the amount of a time that it is open. The costs of creating and keeping accounts open prevents spam and disincentivizes state-bloat. Reward for deleting accounts incentivizes the reclaiming of space.
 
 ### Name system: 
 
@@ -45,7 +45,7 @@ The hash of the previous block is required to maintain an ordering of the blockc
 On æternity, the only state update that can be settled on the blockchain is a transfer of Aeon, and the only Aeon that can be transferred are the ones that the transacting parties already deposited into the channel. This makes all channels
 independent from each other, and results in the immediate benefit that any channel-related transactions can be processed in parallel. This greatly improves transaction throughput.
 
-The blockchain just used for settle the final outcome or to resolve conflicts that arise, roughly analogous to the judicial system. However, because the blockchain’s behavior will be predictable, there is no gain in disputing the intended result of a state channel; malicious actors are incentivized to behave correctly and only settle the final state on the blockchain. All taken together, this increases transaction speed and volume by several orders of magnitude, while contributing to increased privacy.
+The blockchain is only used to settle the final outcome or to resolve conflicts that arise, roughly analogous to the judicial system. However, because the blockchain’s behavior will be predictable, there is no gain in disputing the intended result of a state channel; malicious actors are incentivized to behave correctly and only settle the final state on the blockchain. All taken together, this increases transaction speed and volume by several orders of magnitude, while contributing to increased privacy.
 
 ### Smart contracts:
 
