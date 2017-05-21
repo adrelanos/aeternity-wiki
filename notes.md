@@ -7,6 +7,6 @@
 
 
 ***
-read also this: [api_examples](api_examples),[keys](keys)
+read also this: [api_examples](api_examples), [keys](keys)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
