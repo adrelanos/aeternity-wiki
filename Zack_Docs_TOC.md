@@ -35,7 +35,7 @@
 - [off_chain_censored_orders](off_chain_censored_orders)  
 - [off_line_limit_order_channel](off_line_limit_order_channel)  
 - [options](options)  
-- [oracles](oracle)  
+- [oracles](oracles)  
 - [oracle_answers_for_smith_crown](oracle_answers_for_smith_crown)  
 - [oracle_manipulation](oracle_manipulation)  
 - [oracle_motivations](oracle_motivations)  
