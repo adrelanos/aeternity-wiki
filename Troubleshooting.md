@@ -78,3 +78,6 @@ Now you can run your node with ```sh start.sh```
 # What if my question isn't answered here? # 
 
 Visit our [Slack](https://pacific-beach-20900.herokuapp.com/) or [Gitter](https://gitter.im/aeternity/Lobby) channels.
+
+***
+take a look also here: [Zack-Docs](Zack_Docs_TOC)
