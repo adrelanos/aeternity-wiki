@@ -1,5 +1,5 @@
-**New Account**
-**
+### New Account
+***
 
 When you launch a full node, at first you don't have any aeons.
 
@@ -46,6 +46,6 @@ easy:create_account(Address, AmountOfMoney, Fee, NewID).
 ```
 
 ***
-read also this: [api_examples](api_examples),[keys](keys.md)
+read also this: [api_examples](api_examples),[keys](keys)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
