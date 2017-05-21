@@ -12,6 +12,7 @@
 - [keys](keys)  
 - [new_account](new_account) 
 - [channels](commands_channels)
+- [using_channels](using_channels)
 - [oracle](commands_oracle)
 - [other](commands_other)
 *** 
@@ -53,7 +54,6 @@
 - [transaction_types](transaction_types)  
 - [trees](trees)  
 - [trustless_markets](trustless_markets)  
-- [using_channels](using_channels)  
 - [voluntaryism](voluntaryism)  
 - [warning](warning)
 
