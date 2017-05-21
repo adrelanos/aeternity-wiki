@@ -23,4 +23,6 @@ oracle_shares transaction.
 AE tokens can be split apart into equal amounts of positive and negative
 forms of the same types of shares.
 
-[Zack-Docs](Zack-Docs)
+***
+
+[Zack-Docs overview](Zack-Docs)
