@@ -71,10 +71,14 @@ Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un
 
 Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [richiede citazione]. Æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
 
-############# PROSEGUIRE TRADUZIONE #################
-
 II
 #### Cos'é la blockchain Æternity
+Crediamo che le carenze nelle “piattaforme di smart contract” in termini di scalabilità, sicurezza nel codice ed accesso economico ai dati del mondo reale si possano ricondurre a tre problemi di fondo.
+Primo, il predominio dello “stateful design” rende gli smart contract scritti per queste piattaforme difficili da analizzare1, e la “statefulness” (assenza di stato) combinata con l’ordinamento sequenziale delle transazioni rende più complessa la scalabilità [cit. necessaria]. Secondo, l’alto costo di trasportare i dati dal mondo reale all’interno del sistema in modo decentralizzato, “trustless” ed affidabile complica o rende del tutto impossibile la realizzazione di molte promettenti applicazioni [cit. necessaria]. Terzo, le piattaforme vengono limitate nella loro capacità di adattarsi a nuovi sviluppi economici o tecnologici.
+Riteniamo che ciascuno di questi tre problemi abbia dei percorsi risolutivi del tutto chiari che dovrebbero essere esplorati. Primo, recenti ricerche nella tecnologia dei canali a stati suggeriscono che per molti utilizzi, mantenere lo stato su blockchain non sia necessario [cit. necessaria]. Molto spesso è del tutto possibile immagazzinare tutte le informazioni in canali a stati, ed utilizzare la blockchain soltanto per risolvere qualsiasi risultato economico conseguente allo scambio di informazioni, e come metodo per ripristinare una situazione precedente in caso di disputa. Ciò suggerisce un approccio alternativo alla architettura della blockchain nella quale gli “smart contract” “Touring complete” esistano esclusivamente sui canali a stati, non su blockchain. Questo incrementa la scalabilità dal momento che tutte le transazioni diventano indipendenti e possono quindi essere processate in parallelo. In aggiunta, questo significa che i contratti non scrivono mai su uno stato condiviso, semplificando di gran lunga le necessità di auto-controllo ed auto-verifica. 
+
+############# PROSEGUIRE TRADUZIONE #################
+
 II-A
 #### Token, account e blocchi
 II-A.1
