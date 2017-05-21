@@ -80,6 +80,4 @@ have worked for you, you should be able to slash him.
 
 
 ***
-read also this:
-***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
