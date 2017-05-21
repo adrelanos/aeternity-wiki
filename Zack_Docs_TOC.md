@@ -3,8 +3,16 @@
 [Zack-Docs](#)
 - [accounts_channels](accounts_channels)
 - [anarchy](anarchy)  
-- [api_examples](api_examples)  
-- [channels](channels)  
+- [api_examples](api_examples)
+
+- [commands:](commands)
+—[blockchain_basics](commands_basics)
+—[mining](commands_mining)
+—[accounts](commands_accounts)
+—[channels](commands_channels)
+—[oracle](commands_oracle)
+—[other](commands_other)
+  
 - [channels_untrusted_slasher](channels_untrusted_slasher)  
 - [community_roadmap](community_roadmap)  
 - [compile_mac](compile_mac)  
