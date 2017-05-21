@@ -4,15 +4,17 @@
 - [accounts_channels](accounts_channels)
 - [anarchy](anarchy)  
 - [api_examples](api_examples)
-
+***
 - [commands:](commands)
 —[blockchain_basics](commands_basics)
 —[mining](commands_mining)
 —[accounts](commands_accounts)
+—[keys](keys)  
+—[new_account](new_account) 
 —[channels](commands_channels)
 —[oracle](commands_oracle)
 —[other](commands_other)
-  
+*** 
 - [channels_untrusted_slasher](channels_untrusted_slasher)  
 - [community_roadmap](community_roadmap)  
 - [compile_mac](compile_mac)  
@@ -28,9 +30,7 @@
 - [hard_fork](hard_fork)  
 - [hiring](hiring)  
 - [how_to_use_channels](how_to_use_channels)  
-- [insured_crowdfund](insured_crowdfund)  
-- [keys](keys)  
-- [new_account](new_account)  
+- [insured_crowdfund](insured_crowdfund)   
 - [notes](notes)  
 - [off_chain_censored_orders](off_chain_censored_orders)  
 - [off_line_limit_order_channel](off_line_limit_order_channel)  
