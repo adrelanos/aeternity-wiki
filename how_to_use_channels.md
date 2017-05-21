@@ -41,6 +41,6 @@ Don't put money into the long term channel until the channel state is already si
 Remember: all the money in the channel can be trapped for as long as the longest delayed bet in the channel state with the highest nonce.
 
 ***
-read also this: [Aeternity-Team](Aeternity-Team)
+read also this: [channels](channels), [channels untrusted slasher](channels_untrusted_slasher)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
