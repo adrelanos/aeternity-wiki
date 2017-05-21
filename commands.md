@@ -1,5 +1,4 @@
-````
-Terminal interface commands
+### Terminal interface commands
 =============
 
 
@@ -22,7 +21,7 @@ Different types of commands:
 [oracle](commands_oracle)
 
 [other](commands_other)
-````
+
 
 ***
 read also this: [api_examples](api_examples)
