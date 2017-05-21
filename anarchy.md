@@ -34,3 +34,5 @@ software benefits them. I don't need a company or venture to employ me.
 Prediction markets allow us to come to consensus about how money should
 be spent without relying on a manager or company to make the decision.
 A decentralized world harnesses the wisdom of the crowd to make decisions.
+***
+[Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
