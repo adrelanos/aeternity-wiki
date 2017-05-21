@@ -3,7 +3,9 @@
 
 ## æternity関連サイトまとめ(日本語)
 
-[æternity関連サイトまとめ(日本語)](https://github.com/aeternity/wiki/wiki/%C3%86ternity%E9%96%A2%E9%80%A3%E3%82%B5%E3%82%A4%E3%83%88%E3%81%BE%E3%81%A8%E3%82%81(%E6%97%A5%E6%9C%AC%E8%AA%9E)) = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
+[æternity関連サイトまとめ(日本語)](https://github.com/aeternity/wiki/wiki/%C3%86ternity%E9%96%A2%E9%80%A3%E3%82%B5%E3%82%A4%E3%83%88%E3%81%BE%E3%81%A8%E3%82%81(%E6%97%A5%E6%9C%AC%E8%AA%9E))
+
+ = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
 <a target="_blank" href="https://twitter.com/aetrnty"> <img src="https://s24.postimg.org/4xcf9j8xh/Follow-_Twitter.jpg?2"></a>
 </p>
 æternityは、Bitcoin、Ethereum、Augurなどの既存のプラットフォームを変革し、拡張する新しいタイプのブロックチェーンです。 æternityは分散型オラクルとスマートコントラクトを使い、実世界のデータを利用するためのインターフェースをサポートします。 コントラクトの負荷を軽減しネットワークの負荷を下げることによって、æternityのスケーラビリティとトラストレスなチューリング完全なステートチャネルはEthereumとは全く別なものです。 
