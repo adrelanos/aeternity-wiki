@@ -1,3 +1,4 @@
+````
 Basic commands to use the blockchain
 ===========
 
@@ -28,3 +29,9 @@ keys:sign(Tx).
 ```
 keys:raw_sign(Tx).
 ```
+````
+
+***
+read this: [commands](commands)
+***
+[Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
