@@ -1,5 +1,5 @@
 > **Note to æternity core team**: 
-> I am starting this article with the ambition to present readers (more on the non-technical side) with some history, some forecast and some crypto spice in between it all. Writing this article **is** part of the bountyhunt, but I am not sure if I will be able to finish it. If I do, I will remove this message. If not, eventually the message will be removed once the article is finished, either by other contributors or myself. I hope the structure here will put lots of context for the new kids on the blockchain "block" (ha-ha). Also, I by no means **will ever claim** this article is exhaustive enough of the topic/s discussed. 
+> I am starting this article with the ambition to present readers (more on the non-technical side) with some history, some forecast and some crypto spice in between it all. Writing this article **is** part of the bountyhunt, but I am not sure if I will be able to finish it. If I do, I will remove this message. If not, eventually the message will be removed once the article is finished, either by other contributors or myself. I hope the structure here will put lots of context for the new kids on the blockchain "block". Also, I by no means **will ever claim** this article is exhaustive enough of the topic/s discussed. 
 ***
 # A History Of Money
 //TODO
