@@ -43,6 +43,6 @@ easy:account(ID).
 ```
 
 ***
-read this: [commands](commands),[api_examples](api_examples), [accounts_channels](accounts_channels)
+read this: [commands](commands), [api_examples](api_examples), [accounts_channels](accounts_channels)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
