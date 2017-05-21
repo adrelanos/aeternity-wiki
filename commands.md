@@ -1,6 +1,5 @@
 ### Terminal interface commands
-=============
-
+***
 
 #### Start the blockchain
 Start your node with following script:
@@ -8,7 +7,7 @@ Start your node with following script:
 sh start.sh
 ```
 
-Different types of commands:
+**Different types of commands:**
 
 [blockchain_basics](commands_basics)
 
