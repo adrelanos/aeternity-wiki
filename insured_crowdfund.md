@@ -1,4 +1,5 @@
 **Insured Crowdfund**
+***
 
 It was originally called a [_"dominant assurance contract"_](dominant_assurance_contract).
 This is a contract made for raising money for public goods.
