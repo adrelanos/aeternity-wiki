@@ -47,6 +47,6 @@
 - [voluntaryism](voluntaryism)  
 - [warning](warning)
 
-- [TOC-Docs](#)
+- [TOC-Docs](Zack Docs TOC)
 
 *you find this docs also on Github/Aeternity/AEON
