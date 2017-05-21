@@ -32,6 +32,9 @@
 * [How to sign a message with private key][privatekeymessage]
 * [Windows Installation][wininstall]
 
+[**Zacks Docs**][Zack-Docs]
+* [x] [Zack-Docs](Zack-Docs)
+
 
 [todo]: Wiki-Guidelines-&-To-Do's
 [understandAE]: Understanding-Aeternity
