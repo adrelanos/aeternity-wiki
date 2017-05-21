@@ -5,7 +5,7 @@
 - [anarchy](anarchy)  
 - [api_examples](api_examples)
 ***
-- **[commands:](commands)**
+- **[commands overview:](commands)**
 - [blockchain_basics](commands_basics)
 - [mining](commands_mining)
 - [accounts](commands_accounts)
