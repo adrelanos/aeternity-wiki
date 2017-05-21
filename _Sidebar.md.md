@@ -32,7 +32,7 @@
 * [How to sign a message with private key][privatekeymessage]
 * [ ] [Windows Installation][wininstall]
 
-[**Zacks Docs**][Zack_Docs_TOC]
+[**Zacks Docs**](Zack_Docs_TOC)
 * [x] [Zack-Docs](Zack_Docs_TOC)
 
 
