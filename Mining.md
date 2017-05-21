@@ -1,24 +1,24 @@
 # What is mining?
 
-Volunteers can run the æternity mining software on computers, servers or mobile devices to order and validate transactions. Miners are compensated with the issuance of AEON tokens, the native cryptocurrency asset of æternity network. Aeon can be used as payment for any resources one consumes on æternity platform, as well as the basis for financial applications implemented on the platform.
+Volunteers can run the æternity mining software on computers, servers or mobile devices to order and validate transactions. Miners are compensated with the issuance of AEON tokens, the native cryptocurrency asset of the æternity network. Aeon can be used as payment for any resources one consumes on the æternity platform, as well as the basis for financial applications implemented on the platform.
 
-Unlike Bitcoin, Ethereum and most other cryptocurrencies, æternity use a hybrid Proof-of-Work ("PoW") and Proof-of-Stake ("PoS") consensus mechanism. The PoW algorithm used is called the Cuckoo Cycle.
+Unlike Bitcoin, Ethereum and most other cryptocurrencies, æternity uses a hybrid Proof-of-Work ("PoW") and Proof-of-Stake ("PoS") consensus mechanism. The PoW algorithm used is called the Cuckoo Cycle.
 
-# How do you can earn Aeons (AE) by securing the network and setting up a node?
+# How can you earn Aeons (AE) by securing the network and setting up a node?
 
 The consensus on the æternity blockchain is achieved through hybrid Proof-of-Work (PoW) and Proof-of-Stake (PoS) algorithm. The Proof-of-work will be done by miners via the "Cuckoo Cycle" algorithm. Proof-of-Stake is implemented via on-chain prediction markets, which project the information available to the network to one single number between 0 and 1. This number is used to signal to the miners which version of the blockchain to mine on.
 
 # Mining & Node types:
 
-The æternity blockchain will show a multiple feature types of nodes that each fulfill certain task on the network. Use cases are diverse, and the best ones are still to be imagined.
+The æternity blockchain will feature multiple types of nodes that each fulfill a certain task on the network. Use cases are diverse, and the best ones are still to be imagined.
 
 * Some nodes will be providing liquidity to the State channels Lightning Network. These nodes will maintain multiple connection channels with other nodes. Creating a channel with them will enable any node to establish state channel contracts with many others. This will involve a fee paid to the node.
 
-* Some nodes will be running as trust-less exchanges with multiple assets. These nodes collect transaction fees from their users. State channels can be used through these nodes to play games using Aeon (AE). Whether single player, with friends or total strangers, æternity will enable trust-less financial applications where no user puts his trust into the other, but into the fair logic of the blockchain. These financial applications do not necessarily need to be decentralized. They can exist on a “centralized server” and through the æternity blockchain become trust-less financial tools.
+* Some nodes will run as trust-less exchanges with multiple assets. These nodes collect transaction fees from their users. State channels can be used through these nodes to play games using Aeon (AE). Whether single player, with friends or total strangers, æternity will enable trust-less financial applications where no user puts his trust into the other, but into the fair logic of the blockchain. These financial applications do not necessarily need to be decentralized. They can exist on a “centralized server” and through the æternity blockchain become trust-less financial tools.
 
-* Some nodes will be running as exchanges to invest in stocks, futures, bonds and precious metal, or can be used for gamble in a trust-less and efficient way. 
+* Some nodes will be running as exchanges to invest in stocks, futures, bonds and precious metal, or can be used for gambles in a trust-less and efficient way. 
 
-* Some nodes can specialize in maintaining the blockchain, and preserve it from bloat, by recycling old accounts. There will be a fee for maintaining an account opened. When the account runs out of Aeons, these nodes will be able to deleted and get a reward.
+* Some nodes can specialize in maintaining the blockchain, and preserve it from bloat, by recycling old accounts. There will be a fee for maintaining an open account. When an account runs out of Aeons, these nodes will be able to deleted it and get a reward.
 
 * Some nodes will just run the trading software, merely buying and selling any offered assets.
 
@@ -35,7 +35,7 @@ While hardware requirements for creating a PoS miner will not be particularly hi
 
 The "Cuckoo Cycle" PoW is more power efficient and indirectly useful, as it encourages the development of better random access memory (DRAM) chips. Even low-power devices such as smartphones, tablets and laptops can efficiently mine new tokens. This will achieve an unparalleled decentralisation and geographical distribution of the mining power, which will be crucial to the success of any Blockchain.
 
-As such, æternity mining has designed to be more egalitarian and inclusive compared to crypto-currencies where mining is dominated by large mining entities which use application-specific integrated circuit ("ASIC") chips designed specifically to take advantage of a particular PoW algorithm. This wider distribution of the mining incentives will then contribute to even wider use and adoption of æternity.
+As such, æternity mining is designed to be more egalitarian and inclusive compared to crypto-currencies where mining is dominated by large mining entities which use application-specific integrated circuit ("ASIC") chips designed specifically to take advantage of a particular PoW algorithm. This wider distribution of the mining incentives will then contribute to even wider use and adoption of æternity.
 
 As noted by John Tromp in his paper, "Cuckoo Cycle: a memory bound graph-theoretic proof-of-work":
 >”[Cuckoo Cycle is] an instantly verifiable memory bound PoW that unique in being dominated by latency rather than computation. In that sense, mining Cuckoo Cycle is a form of ASIC mining where DRAM chips serve the application of randomly reading and writing billions of bits. When even phones charging overnight can mine without orders of magnitude loss in efficiency, not with a mindset of profitability but of playing the lottery, the mining hardware landscape will see vast expansion, benefiting adoption as well as decentralization.”
