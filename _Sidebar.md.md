@@ -9,9 +9,9 @@
 * [日本語](Whitepaper_Japanese)
 * [français](Whitepaper_French)
 * [deutsch](Whitepaper_Deutsch)
-
+***
 [**Guidelines & To do list**][todo]
-
+***
 [**Understanding æternity**][understandAE]
 * [Frequently Asked Questions][faq]
 * [Research & Theory][research] 
@@ -24,14 +24,14 @@
 * [Ubuntu Node Commands](Ubuntu-node-commands)
 * [Transaction Types](Transaction-Types)
 * [Troubleshooting][troubleshooting]
-
+***
 [**Community & Support**][contact]
 * [ ] [Idea Box][ideabox]
 * [x] [Claiming Your Ledger][ledgerclaim]
 * [x] [Bounty Programs][bounty]
 * [How to sign a message with private key][privatekeymessage]
 * [ ] [Windows Installation][wininstall]
-
+***
 [**Zacks Docs**](Zack_Docs_TOC)
 * [x] [Zack-Docs](Zack_Docs_TOC)
 
