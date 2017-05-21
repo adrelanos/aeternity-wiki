@@ -66,6 +66,6 @@ Remember: all the money in the channel can be trapped for as long as the longest
 
 
 ***
-read also this: [channels](channels), [channels untrusted slasher](channels_untrusted_slasher)
+read also this: [channels](channels), [channels untrusted slasher](channels_untrusted_slasher), [commands](commands)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
