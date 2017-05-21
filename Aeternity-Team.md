@@ -24,7 +24,7 @@ After having worked for Augur and built a few other blockchains from scratch in 
 
 ## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 
-Intrigued by magic of blockchain technology since early 2014, Marion has a special interest in connecting the dots between technology and growing community. Research on the socioeconomic impact, spreading the word and efficient handling of æternity's operations is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
+Intrigued by the magic of blockchain technology since early 2014, Marion is especially interested in connecting the dots between technology and the growing community. Research on the socioeconomic impact, spreading the word and taking care of handling æternity's operations efficiently is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
 <table></table>
 
 ***
@@ -34,7 +34,7 @@ Intrigued by magic of blockchain technology since early 2014, Marion has a speci
 ## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Business Development
 
-As a Business Development Executive Multinational with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola is a person who goes into Strategy and Business Development. He has developed and consulted numerous international projects for almost a decade and recently has been introduced to unlimited possibilities of blockchain technologies.
+As a multi-national Business Development Executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola the go to person for Strategy and Business Development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to unlimited possibilities of blockchain technologies.
 <table></table>
 
 ***
@@ -44,7 +44,7 @@ As a Business Development Executive Multinational with experience working in Ger
 ## Vladislav Dramaliev <a target="_blank" href="https://medium.com/@BitHope.org"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dramaliev/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Marketing & Community
 
-Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, CryptoCrowd.org, and Bitcoin/Blockchain meetup in Sofia, Bulgaria. Co-Founder of Bulgarian Bitcoin Association and the first of bitcoin exchange website in the country. Fascinated by technology, Bitcoin, blockchains and the future. Member of MENSA.
+Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, CryptoCrowd.org, and Bitcoin/Blockchain meetup in Sofia, Bulgaria. Co-Founder of the Bulgarian Bitcoin Association and the first website for bitcoin exchange in the country. Fascinated by technology, Bitcoin, blockchains and the future. Member of MENSA.
 <table></table>
 
 ***
@@ -54,7 +54,7 @@ Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, Cryp
 ## Lior Zysman <a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Law and regulation
 
-Lior is a corporate lawyer who advising startups and investors in the blockchain space.
+Lior is a corporate lawyer advising startups and investors in the blockchain space.
 He is working on decentralised autonomous non profits (Runner-up at Consensus 2016 Hackathon), and cofounder of the "DAO Tel Aviv" meetup group. Lior holds a Bachelor of Law and a B.A. in Business Administration, from Tel Aviv university.
 <table></table>
 
@@ -65,7 +65,7 @@ He is working on decentralised autonomous non profits (Runner-up at Consensus 20
 ## Dan Verowski <a target="_blank" href="https://medium.com/@DanMercurius"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Project Manager
 
-Born and raised in Berlin he started working as a Scrum Master since 2011, later becoming a business analyst, proving a splendid interface between thankful developers and content clients.
+Born and raised in Berlin he started working as a Scrum Master in 2011, later becoming a business analyst, proving a splendid interface between thankful developers and content clients.
 Blending his fast growing knowledge and interest in blockchain technologies and with general fintech industry expertise, he supports the project management pillar of team æternity.
 
 <table></table>
@@ -77,7 +77,7 @@ Blending his fast growing knowledge and interest in blockchain technologies and 
 ## Jack Pettersson <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 ##### Scientific Advisor
 
-Computer science and blockchain enthusiast - a healthy synergy! Advocate of functional programming and expressive type systems. Previously worked for Synereo to develop the language and VM of their blockchain, and spent his master's thesis arguing for the use of dependent types in smart contract development.
+Computer science and blockchain enthusiast -looking for ways to combine the two.  Advocate of functional programming and expressive type systems. Previously worked for Synereo to develop the language and VM of their blockchain, and spent his master's thesis arguing for the use of dependent types in smart contract development.
 <table></table>
 
 ***
@@ -87,8 +87,8 @@ Computer science and blockchain enthusiast - a healthy synergy! Advocate of func
 ## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Creative Advisor
 
-Louis Chang is a co-founder and Creative Director of Proof of Work, the first of creative design and communication agency working specifically with blockchain companies.
-Particularly interested in human-computer interaction, design, education and behavioural patterns. Louis has a creative pedigree working for agencies such as Ogilvy, Saatchi and Saatchi, Blast Radius and JWT in 12 years.
+Louis Chang is  co-founder and Creative Director of Proof of Work, the first creative design and communication agency working specifically with blockchain companies.
+Particularly interested in human-computer interaction, design, education and behavioural patterns. Louis has a 12 year creative pedigree working for agencies such as Ogilvy, Saatchi and Saatchi, Blast Radius and JWT.
 <table></table>
 
 ***
