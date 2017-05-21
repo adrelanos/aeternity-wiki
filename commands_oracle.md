@@ -43,7 +43,14 @@ oracle_unmatched(OracleID, OrderID).
 
 
 ***
-read this: [commands](commands),[api_examples](api_examples),
-           [oracle](oracle), [oracle_answers_for_smith_crown](oracle_answers_for_smith_crown)
+read this: - [commands](commands)
+- [api_examples](api_examples)
+- [oracle](oracle)
+- [oracle_answers_for_smith_crown](oracle_answers_for_smith_crown)
+- [oracle_manipulation](oracle_manipulation)
+- [oracle_motivations](oracle_motivations)
+- [oracle_simple](oracle_simple)
+- [questions](questions)
+
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
