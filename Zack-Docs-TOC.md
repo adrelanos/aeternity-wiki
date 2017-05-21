@@ -1,4 +1,4 @@
-**Zacks - Aeternity Blockchain Documentation**
+**Zacks - Aeternity Blockchain Documentation TOC**
 
 [Zack-Docs](#)
 - [accounts_channels](accounts_channels)
