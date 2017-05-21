@@ -49,4 +49,6 @@ by the channel.
 - channel_timeout
 
 ***
+read also this: [channels](channels), [how_to_use_channels](how_to_use_channels)
+***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
