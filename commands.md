@@ -11,6 +11,8 @@ sh start.sh
 
 - [blockchain_basics](commands_basics)
 
+- [keys](keys)
+
 - [mining](commands_mining)
 
 - [accounts](commands_accounts)
@@ -21,12 +23,8 @@ sh start.sh
 
 - [other](commands_other)
 
-- [keys](keys)
-
-
 
 ***
 read also this: [api_examples](api_examples)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
-
