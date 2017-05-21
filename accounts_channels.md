@@ -25,4 +25,4 @@ forms of the same types of shares.
 
 ***
 
-[Zack-Docs overview](Zack-Docs)
+[Zacks - Aeternity Blockchain Documentation TOC](Zack-Docs)
