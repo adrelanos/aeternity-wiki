@@ -1,3 +1,14 @@
+[**Whitepaper**][doc] 
+* [English][WP_engl]
+* [한국어][WP_kr] 
+* [bahasa Indonesia](Whitepaper_Indonesia)
+* [русский](Whitepaper_Russian)
+* [Español](Whitepaper_Español)
+* [中文](Whitepaper_Chinese)
+* [italiano](Whitepaper_Italian)
+* [日本語](Whitepaper_Japanese)
+* [français](Whitepaper_French)
+
 [**Guidelines & To do list**][todo]
 
 [**Understanding æternity**][understandAE]
@@ -7,17 +18,6 @@
 * [æternity in the Blockchain space][blockchainAndAE]
 * [æternity Team][team]
 * [Getting Started][started]
-
-[**Documentation**][doc] 
-* [Whitepaper (English)][WP_engl]
-* [Whitepaper (Korean)][WP_kr] 
-* [Whitepaper (Indonesia)](Whitepaper_Indonesia)
-* [Whitepaper (Russian)](Whitepaper_Russian)
-* [Whitepaper (Espaniol)](Whitepaper_Español)
-* [Whitepaper (Chinese)](Whitepaper_Chinese)
-* [Whitepaper (Italian)](Whitepaper_Italian)
-* [Whitepaper (Japanese)](Whitepaper_Japanese)
-* [Whitepaper (French)](Whitepaper_French)
 * [Contracts][contracts]
 * [Mining][mining]
 * [Ubuntu Node Commands](Ubuntu-node-commands)
