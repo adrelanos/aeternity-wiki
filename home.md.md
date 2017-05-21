@@ -1,9 +1,9 @@
-<a href="http://www.aeternity.com/"><img width="160px" src="![aeternity_logo](wiki/img/aeternity_logo.png)" align="left" hspace="10" vspace="10"></a>
+<a href="http://www.aeternity.com/"><img width="160px" src="http://www.aeternity.com/user/themes/aeon/img/aeternity_logo.png" align="left" hspace="10" vspace="10"></a>
 
-<p align = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="![Follow-_Twitter](wiki/img/Follow-_Twitter.jpg)"></a>
+<p align = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
 <a target="_blank" href="https://twitter.com/aetrnty"> <img src="https://s24.postimg.org/4xcf9j8xh/Follow-_Twitter.jpg?2"></a>
 </p>
-æternity is a new type of blockchain that innovates and expands upon existing platform such as Bitcoin, Ethereum and Augur. æternity supports the interfacing of real-world data with smart contracts through decentralized Oracles. By eliminating the burden of contract executions that weigh down the network, æternity's scalability and trustless Turing complete state channels set it apart from Ethereum.
+æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum and Augur. æternity supports the interfacing of real-world data with smart contracts through decentralized Oracles. By eliminating the burden of contract executions that weigh down the network, æternity's scalability and trustless Turing complete state channels set it apart from Ethereum.
 
 [comment]: <> (Using a table to clear the floated image! doesn't seem to be a nice markdown way!)
 <table border=0>
@@ -12,7 +12,7 @@
 ## Editing the Wiki
 
 
-    BEFORE ADD A CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT!
+    BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT!
     please read the Wiki Guidelines & To Do's before contributing.
 
     æternity is spelled æternity not Æternity, even if it's the beginning of a sentence.
@@ -40,14 +40,14 @@ _This will be rapidly expanded._
 * [[Bounty]]
 * [[Idea Box]]
 * [[Community]]
-* [Whitepaper English][Whitepaper_English]
-* [Whitepaper Korean (한국어)][Whitepaper_Korean (한국어)]
-* [Whitepaper Indonesia][Whitepaper_Indonesia]
-* [Whitepaper Russian][Whitepaper_Russian]
-* [Whitepaper Espanol][Whitepaper_Español]
-* [Whitepaper Chinese][Whitepaper_Chinese]
-* [Whitepaper French][Whitepaper_French]
-* [Whitepaper Japanese][Whitepaper_Japanese]
+* [Whitepaper_English][Whitepaper_English]
+* [Whitepaper_Korean (한국어)][Whitepaper_Korean (한국어)]
+* [Whitepaper_Indonesia][Whitepaper_Indonesia]
+* [Whitepaper_Russian][Whitepaper_Russian]
+* [Whitepaper_Espanol][Whitepaper_Español]
+* [Whitepaper_Chinese][Whitepaper_Chinese]
+* [Whitepaper_French][Whitepaper_French]
+* [Whitepaper_Japanese][Whitepaper_Japanese]
 
 
 
