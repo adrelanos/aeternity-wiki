@@ -46,6 +46,6 @@ easy:create_account(Address, AmountOfMoney, Fee, NewID).
 ```
 
 ***
-read also this: [api_examples](api_examples),[keys](keys)
+read also this: [api_examples](api_examples), [keys](keys), [commands_account](commands_accounts)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
