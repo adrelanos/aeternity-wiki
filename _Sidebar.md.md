@@ -8,6 +8,7 @@
 * [italiano](Whitepaper_Italian)
 * [日本語](Whitepaper_Japanese)
 * [français](Whitepaper_French)
+* [deutsch](Whitepaper_Deutsch)
 
 [**Guidelines & To do list**][todo]
 
