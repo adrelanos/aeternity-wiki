@@ -59,6 +59,6 @@ keys:change_password("old_password", "new_password").
 The default password on a new node is "", the empty string.
 
 ***
-read also this: [api_examples](api_examples)
+read also this: [commands](commands), [api_examples](api_examples)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
