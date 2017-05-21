@@ -11,17 +11,17 @@ sh start.sh
 
 Different types of commands:
 
-[blockchain_basics](commands_basics.md)
+[blockchain_basics](commands_basics)
 
-[mining](commands_mining.md)
+[mining](commands_mining)
 
-[accounts](commands_accounts.md)
+[accounts](commands_accounts)
 
-[channels](commands_channels.md)
+[channels](commands_channels)
 
-[oracle](commands_oracle.md)
+[oracle](commands_oracle)
 
-[other](commands_other.md)
+[other](commands_other)
 ````
 
 ***
