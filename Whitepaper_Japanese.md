@@ -1,4 +1,4 @@
-この文章はhttps://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf を翻訳したものです。
+この文章はhttps://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf を翻訳したものです。2017/5/21現在翻訳中です。
 ### Æternity blockchain
 トラストレスで、分散化された、 そして純真で機能的なオラクルマシーン
 
@@ -129,4 +129,5 @@ V-B.2 [マルチパーティチャネル](#マルチパーティチャネル)
 三つ目にErlangで書かれたProof of Conceptの実装を提示します。私たちは将来の方向性と他の技術の可能性に関する議論で話を締めくくります。
 
 # 以前
+Bitcoinから始まったブロックチェーンは、新しいインターネット上での価値交換の方法を示しています。[1] またそれに続いて多くの有望な進歩が続きました。Ethereumはブロックチェーンアーキテクチャ上で安全に動くチューリング完全なスマートコントラクトを書く方法を示しました。Truthcoinは
 
