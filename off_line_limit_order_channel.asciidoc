@@ -77,8 +77,7 @@ We want our trade to get included in the earliest batch possible.
 So if you can prove that the validator made an earlier batch that would 
 have worked for you, you should be able to slash him.
 
-
 ***
-read also this: 
+read also this:[off_line_limit_order_channel](off_line_limit_order_channel)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
