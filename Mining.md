@@ -39,3 +39,6 @@ As such, æternity mining is designed to be more egalitarian and inclusive compa
 
 As noted by John Tromp in his paper, "Cuckoo Cycle: a memory bound graph-theoretic proof-of-work":
 >”[Cuckoo Cycle is] an instantly verifiable memory bound PoW that unique in being dominated by latency rather than computation. In that sense, mining Cuckoo Cycle is a form of ASIC mining where DRAM chips serve the application of randomly reading and writing billions of bits. When even phones charging overnight can mine without orders of magnitude loss in efficiency, not with a mindset of profitability but of playing the lottery, the mining hardware landscape will see vast expansion, benefiting adoption as well as decentralization.”
+
+***
+related: [Commands Mining](commands_mining)
