@@ -13,6 +13,6 @@ download: http://www.erlang.org/download.html
 install instructions: http://www.erlang.org/doc/installation_guide/INSTALL.html
 
 ***
-read also this: [compile_mac](compile_mac) and [compile_ubuntu](compile_ubuntu) and [windows](Installing on Windows (work in progress, help wanted)
+read also this: [compile_mac](compile_mac) and [compile_ubuntu](compile_ubuntu) and [Windows Installation][wininstall]
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
