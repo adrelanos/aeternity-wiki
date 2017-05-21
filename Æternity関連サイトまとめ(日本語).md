@@ -5,8 +5,6 @@
 
 - [Whitepaper（英語）](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
-- [Whitepaper（日本語、未完）](https://github.com/aeternity/wiki/wiki/Whitepaper_Japanese)
-
 - [Github](https://github.com/aeternity)
 
 - [ライブ コーディング セッション（動画）](https://www.twitch.tv/zackaeternity)
@@ -24,6 +22,8 @@
 - [公式Slack](https://slack.aeternity.com/)
 
 
-# ファンによる概要解説ブログ
+# ファンによるサイト
 - [新たなブロックチェーンプラットフォームaeternityとは？](http://cryptocurrencymagazine.com/what-is-aeternity-blockchain-platform)
+
+- [Whitepaper（日本語、未完）](https://github.com/aeternity/wiki/wiki/Whitepaper_Japanese)
 
