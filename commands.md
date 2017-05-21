@@ -21,6 +21,10 @@ sh start.sh
 
 - [other](commands_other)
 
+- [keys](keys)
+
+- [account](account)
+
 
 ***
 read also this: [api_examples](api_examples)
