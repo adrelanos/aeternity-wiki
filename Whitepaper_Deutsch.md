@@ -13,5 +13,5 @@ Es ist der interne Konsensmechanismus, der das Orakel überprüfen und die Block
 Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden. Mehrere Teile haben in Erlang vorgegebene Vorführungen. Entwicklungswerkzeuge und Anwendungsgrundlagen wie ein Brieftaschen-, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
 
 ***
-Download the entire white paper v0.1 (PDF) here:
+Download des White Paper v0.1 (PDF-english) hier:
 [Æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
