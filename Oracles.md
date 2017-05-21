@@ -39,6 +39,7 @@ It is yet to be determined if oracle machines are part of the Type Theory<sup>2<
 ***
 <sup>1</sup> "Systems Of Logic Based On Ordinals", A. M. Turing, 1936, Seeley G. Mudd Manuscript Library,
 Princeton, NJ, accessed on 05.05.2017, [Link](http://www.dcc.fc.up.pt/~acm/turing-phd.pdf)
+***
 <sup>2</sup> "Foundations of computation theory", p.4, Akeo Adachi, 1990, Ohmsha, accessed on 21.05.2017, [Link](https://books.google.bg/books?id=pzf46nN7L_kC&pg=PR2&lpg=PR2&dq=Akeo+Adachi,+Foundations+of+computation+theory,+Ohmsha,+1990.&source=bl&ots=yTYxgQ6n2R&sig=q-eKdtwsxyt4Gdi9ZnqKImjPiLA&hl=bg&sa=X&ved=0ahUKEwj3iJT_rNnTAhUDlCwKHUZeC40Q6AEINDAC#v=onepage&q=Akeo%20Adachi%2C%20Foundations%20of%20computation%20theory%2C%20Ohmsha%2C%201990.&f=false)
 
 
