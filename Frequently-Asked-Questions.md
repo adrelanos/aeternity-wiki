@@ -12,7 +12,7 @@ Table of Contents
    * [How does æternity protect from the next DAO happening?](#how-does-æternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
-   * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
+   * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-æ)
    * [What is the Maximum Supply of AE?](#what-is-the-maximum-supply-of-ae)
    * [How is the AE dispersed?](#how-is-the-ae-dispersed)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
