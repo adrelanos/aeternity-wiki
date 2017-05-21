@@ -1,19 +1,19 @@
-There are many ways to sign a message with private key.
+There are many ways of signing a message with a private key.
 
-Quite rightfully there are not many websites allowing you to do so - that would be a suicide to trust anyone with your private key.
+Quite rightfully there are not many websites that allow you to do so - it would be suicide to trust anyone with your private key.
 
 However, with some precautions you can build a website yourself.
 
-# Browser method - only website you fully **trust** and **control**
+# Browser method - only with a website you fully **trust** and **control**
 
 Why don't you build it yourself? For that reason we will use:
 
 - https://github.com/bitcoinjs/bitcoinjs-lib
 - https://github.com/bitcoinjs/bitcoinjs-message
 
-You'll need to have a `node` and `browserify` installed. Start with installing `node` and then using the command `npm install browserify -g`
+You will need to have `node` and `browserify` installed. Start with installing `node` and then execute the command `npm install browserify -g`
 
-We will create a file with libraries required, let's call it `dependencies.js`
+We will create a file with the required libraries , let's call it `dependencies.js`
 
 ```
 module.exports = {
@@ -31,7 +31,7 @@ We also need to install these libraries locally:
 
 ---
 
-**WARNING:** Installing from npm can be dangerous too, see a links below:
+**WARNING:** Installing from npm can be also be dangerous, see links below:
 
 - https://security.stackexchange.com/questions/118547/unpublished-modules-on-npm-could-an-attacker-take-advantage-of-their-former-not/118579
 - https://github.com/joaojeronimo/rimrafall
@@ -39,7 +39,7 @@ We also need to install these libraries locally:
 - ...even if it open-source and has well-established reputation you never know
 - _(not being paranoid, just being aware of security implications)_
 
->  As you mentioned you cannot republish a file of particular version. By setting an exact version in your dependencies, your application will downloading this version only. If an attacker was to gain control of the package they just could push malicious code to users of a later package.
+>  As I mentioned you cannot republish a file of  a particular version. By setting an exact version in your dependencies, your application will only download this version. If an attacker was to gain control of the package they could only push malicious code to users of a later package.
 
 ---
 
@@ -87,6 +87,6 @@ To sign a message perform the following steps:
 - go to https://www.myetherwallet.com/
 - click "View wallet info" tab
 - choose how you would like to access your wallet and decrypt it locally
-- scroll to the section "Sign or verify message" on the bottom page
+- scroll to the section "Sign or verify message" on the bottom of the page
 - enter your message and optionally enter a date before clicking the "Sign message" button
 
