@@ -17,10 +17,6 @@ block:read_int(5).
 block:read_int(easy:height()).
 ```
 ***
-read also this:
-- [commands](commands)
-- [api_examples](api_examples)
-
-
+read also this: [commands](commands), [api_examples](api_examples)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
