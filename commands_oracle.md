@@ -43,7 +43,8 @@ oracle_unmatched(OracleID, OrderID).
 
 
 ***
-read this: - [commands](commands)
+read also this: 
+- [commands](commands)
 - [api_examples](api_examples)
 - [oracle](oracle)
 - [oracle_answers_for_smith_crown](oracle_answers_for_smith_crown)
