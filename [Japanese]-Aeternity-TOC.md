@@ -54,7 +54,7 @@ SlackでのWikiチャンネルは[ここ](https://pacific-beach-20900.herokuapp.
 
 
 
-## External Resources
+## 外部サイト
 [æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
 
 [Whitepaper_English]: Whitepaper_English
