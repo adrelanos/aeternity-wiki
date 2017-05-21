@@ -5,7 +5,7 @@
 **Translate Aeternity Wiki with Google Translator**
 * [Wiki Home Deutsch](https://translate.google.com/translate?sl=en&tl=de&u=https://github.com/aeternity/wiki/wiki/)
 
-Werde Teil der Aeternity Community und Hefe mit die Wiki Seiten in korrektes Deutsch zu übersetzen.
+Werde Teil der Aeternity Community und helfe mit die Wiki Seiten in korrektes Deutsch zu übersetzen.
 Damit der erste Anfang leichte ist, haben wir hier einen Link zum Translator. Mit Hilfe dessen kannst Du dazu beitragen die
 Aeternity Wiki Seiten zu übersetzen.
 
