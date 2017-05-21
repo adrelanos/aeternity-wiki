@@ -1,5 +1,5 @@
 # 公式リンク
-- [Æternity公式サイト](https://www.aeternity.com/ja)
+- [æternity公式サイト](https://www.aeternity.com/ja)
 
 - [ICO参加ページ（英語）](https://wallet.aeternity.com/)
 
@@ -23,7 +23,7 @@
 
 
 # ファンによるサイト
-- [新たなブロックチェーンプラットフォームaeternityとは？](http://cryptocurrencymagazine.com/what-is-aeternity-blockchain-platform)
+- [新たなブロックチェーンプラットフォームæternityとは？](http://cryptocurrencymagazine.com/what-is-aeternity-blockchain-platform)
 
 - [Whitepaper（日本語、未完）](https://github.com/aeternity/wiki/wiki/Whitepaper_Japanese)
 
