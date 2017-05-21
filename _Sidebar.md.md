@@ -32,8 +32,8 @@
 * [How to sign a message with private key][privatekeymessage]
 * [Windows Installation][wininstall]
 
-[**Zacks Docs**][Zack-Docs]
-* [x] [Zack-Docs](Zack-Docs)
+[**Zacks Docs**][Zack_Docs_TOC]
+* [x] [Zack-Docs](Zack_Docs_TOC)
 
 
 [todo]: Wiki-Guidelines-&-To-Do's
