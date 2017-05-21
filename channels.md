@@ -55,4 +55,6 @@ The data that gets recorded on-chain for each channel is: How much money
 is in the channel. The 2 accounts ids that control the channel.
 
 ***
+read also this: [channels untrusted slasher](channels_untrusted_slasher), [how_to_use_channels](how_to_use_channels)
+***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
