@@ -17,6 +17,6 @@ mine:is_on().
 
 
 ***
-read this: [commands](commands),[api_examples](api_examples)
+read this: [commands](commands), [api_examples](api_examples)
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
