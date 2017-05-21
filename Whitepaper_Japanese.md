@@ -1,3 +1,4 @@
+この文章はhttps://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf を翻訳したものです。
 ### Æternity blockchain
 トラストレスで、分散化された、 そして純真で機能的なオラクルマシーン
 
