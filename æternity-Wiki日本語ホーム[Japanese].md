@@ -1,4 +1,4 @@
-**Whitepaper日本語版**
+**Whitepaper日本語版（未完）**
 * [Whitepaper (Japanese)](Whitepaper_Japanese)
 
 **æternity関連サイトまとめ(日本語)**
