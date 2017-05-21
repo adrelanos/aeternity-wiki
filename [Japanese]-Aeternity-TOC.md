@@ -24,7 +24,7 @@
     æternityのスペルはæternityです。Æternityではないです。
     
 
-## Learn More
+## もっと詳しく
 SlackでのWikiチャンネルは[ここ](https://pacific-beach-20900.herokuapp.com/)です。どうぞお気軽にご参加ください！
 
 * [[Wiki Guidelines & To Do's]]
