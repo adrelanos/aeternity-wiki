@@ -26,11 +26,11 @@
 * [Troubleshooting][troubleshooting]
 
 [**Community & Support**][contact]
-* [Idea Box][ideabox]
-* [Claiming Your Ledger][ledgerclaim]
-* [Bounty Programs][bounty]
+* [ ] [Idea Box][ideabox]
+* [x] [Claiming Your Ledger][ledgerclaim]
+* [x] [Bounty Programs][bounty]
 * [How to sign a message with private key][privatekeymessage]
-* [Windows Installation][wininstall]
+* [ ] [Windows Installation][wininstall]
 
 [**Zacks Docs**][Zack_Docs_TOC]
 * [x] [Zack-Docs](Zack_Docs_TOC)
