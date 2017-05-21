@@ -1,6 +1,8 @@
 ### Abstract
- Since the introduction of Ethereum in 2014, there has  been  great  interest  in  decentralized  trust-less  applications
-(smart contracts). Consequently, many have tried to implement applications  with  real  world  data  on  top  of  a  Blockchain.  We believe that storing the application’s state and code on-chain is wrong  for  several  reasons. This bloat the chain size, exposes smart-contracts to unnecessary vulnerabilities, and reduces privacy, thus preventing the access of Blockchains for private uses cases (Bancs, private companies, ...).
+ Seit der Einführung von Ethereum im Jahr 2014 herrscht großes Interesse an dezentralisierten, vertrauenslosen Anwendungen, sogenannten "Smart Contracts".
+Infolgedessen wurden viele Versuche  unternommen, Anwendungen mit realen Daten auf einer Blockchain zu implementieren.
+Wir glauben, dass die Speicherung des Zustands und des Codes einer Anwendung auf der Blockchain aus mehreren Gründen falsch ist.
+Dies bläht die Größe der Blockchain auf, setzt Smart Contracts unnötigen Schwachstellen aus und reduziert die Privatsphäre und verhindert so den Zugang von Blockchains für private Anwendungsfälle (Banken, private Unternehmen, ...).
 
 This is why æternity is being developed as the only Blockchain that can by its core design sustain throughput of mainstream world use cases, while providing real-world interfaces within its Blockchain. 
 
