@@ -24,5 +24,4 @@ AE tokens can be split apart into equal amounts of positive and negative
 forms of the same types of shares.
 
 ***
-
-[Zacks - Aeternity Blockchain Documentation TOC](Zack-Docs)
+[Zack’s - TOC Aeternity Blockchain Documentation](Zack-Docs)
