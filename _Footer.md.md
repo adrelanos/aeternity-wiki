@@ -1,0 +1,10 @@
+[ [English](https://github.com/aeternity/wiki/wiki/home.md)
+| [한국어](https://github.com/aeternity/wiki/wiki/[Korean]-Aeternity-TOC)
+| [Italiano](https://github.com/aeternity/wiki/wiki/[Italian]-Aeternity-TOC)
+| [Español](https://github.com/aeternity/wiki/wiki/[Spanish]-Aeternity-TOC)
+| [Français](https://github.com/aeternity/wiki/wiki/[French]-Aeternity-TOC)
+| [日本語](https://github.com/aeternity/wiki/wiki/[Japanese]-Aeternity-TOC)
+| [中文](https://github.com/aeternity/wiki/wiki/[Chinese]-Aeternity-TOC)
+| [Indonesia](https://github.com/aeternity/wiki/wiki/[Indonesia]-Aeternity-TOC)
+| [Russian](https://github.com/aeternity/wiki/wiki/[Russian]-Aeternity-TOC)
+| [Deutsch](https://github.com/aeternity/wiki/wiki/[German]-Aeternity-TOC)]
