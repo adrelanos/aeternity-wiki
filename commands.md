@@ -16,6 +16,7 @@ sh start.sh
 - [mining](commands_mining)
 
 - [accounts](commands_accounts)
+- [new account](new_account)
 
 - [channels](commands_channels)
 
