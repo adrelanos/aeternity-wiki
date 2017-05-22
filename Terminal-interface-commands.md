@@ -22,20 +22,6 @@ Translations: [German Terminal interface commands]([GERMAN]Terminal-interface-co
 
 Note: If this document does not exist on you language please use the footer bar to translate into your desired language. thx.
 
-Issue? [check now for an issue about the cli](https://github.com/aeternity/testnet/issues?q=cli) 
-
-
-
-
-
-
-[⇒](source) Testnet Commands
-
-
-+ This document well be edited this moment (22.May.2017) by @zwilla and is a port of the All Commands Documentation
-
-Please Stop deleting it. 
-
-Thx
-
-Zwilla
+Issue? [check now for an issue about the cli](https://github.com/aeternity/testnet/issues?q=cli)
+***
+source: [api_examples.md](../../../testnet/blob/master/docs/api_examples.md)
