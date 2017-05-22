@@ -28,7 +28,7 @@ _This will be rapidly expanded._
 * [[Understanding æternity]]
 * [[Getting Started]]
 * [æternity Contracts](æternity-Contracts)
-* [æternity Team](æternity Team)
+* [æternity Team](æternity-Team)
 * [[Aeternity Technology]]
 * [[State Channels]]
 * [æternity Blog](https://blog.aeternity.com/)
