@@ -1,4 +1,4 @@
-[ [English](https://github.com/aeternity/wiki/wiki/home.md)
+[ [English](https://github.com/aeternity/wiki/wiki/home)
 | [한국어](https://github.com/aeternity/wiki/wiki/[Korean]-Aeternity-TOC)
 | [Italiano](https://github.com/aeternity/wiki/wiki/[Italian]-Aeternity-TOC)
 | [Español](https://github.com/aeternity/wiki/wiki/[Spanish]-Aeternity-TOC)
