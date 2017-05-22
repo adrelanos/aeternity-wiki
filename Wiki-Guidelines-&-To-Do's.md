@@ -1,3 +1,13 @@
+## Editing the Wiki
+
+
+    BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT!
+    please read the Wiki Guidelines & To Do's before contributing.
+
+    æternity is spelled æternity not Æternity, even if it's the beginning of a sentence.
+
+    Please do not change referenced content as it breaks the links
+
 # Wiki Guidelines
 The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messages/C59BALQCE/details/) feel free to join us!
 
