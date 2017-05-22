@@ -1,5 +1,15 @@
 **API-EXAMPLES**
 
+Here you will learn how to handle the æternity software with the [API Commands](API-Commands)
+
++ This document well be edited this moment (22.May.2017) by @zwilla and is a port of the All Commands Documentation
+
+Please Stop deleting it. 
+
+Thx
+
+Zwilla
+
 example of how to add a node to the list of nodes you share blocks with.
 This is an example of accessing the local api on the same machine.
 
@@ -69,11 +79,3 @@ get(["header", 0], callback);
 
 
 
-
-+ This document well be edited this moment (22.May.2017) by @zwilla and is a port of the All Commands Documentation
-
-Please Stop deleting it. 
-
-Thx
-
-Zwilla
