@@ -3,7 +3,7 @@
 
 **Here you will:**
 
-- [find all api commands which exist at this moment](#api-commands)
+- [find all api commands which exist at this moment](#all-api-commands)
 - [learn what are they for.](#Actions-with-api-commands)
 - [what you have to setup first](#Setup-first-for-using-api-commands)
 
