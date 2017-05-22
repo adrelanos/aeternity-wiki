@@ -21,7 +21,7 @@
 * [Getting Started][started]
 * [Contracts][contracts]
 * [Mining][mining]
-* [Terminal interface commands](Terminal_interface_commands)
+* [Terminal interface commands](Terminal-interface-commands)
 * [Transaction Types](Transaction-Types)
 * [Troubleshooting][troubleshooting]
 ***
