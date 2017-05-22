@@ -18,7 +18,7 @@ Applications like markets for synthetic assets and prediction markets can be eff
 ***
 
 
-Download the entire white paper v0.1 (PDF) here:
+Download des Whitepaper's v0.1 (PDF) in english hier:
 [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 Authoren:  
@@ -27,3 +27,5 @@ Yanislav Malahov - yani@aeternity.com
 Jack Pettersson - jack@aeternity.com
 
 Veröffentlicht:  6. Februar 2017
+
+(bitte habe Verständnis dass dies Seiten aktuell unter Bearbeitung sind, gerne aber kannst du uns in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meine ich die „ æternity Community„)
