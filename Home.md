@@ -39,22 +39,6 @@ The stateless nature of æternity’s smart contracts makes it ideal for buildin
 The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/) feel free to join us!
 _This will be rapidly expanded._
 
-* [[Wiki Guidelines & To Do's]]
-* [[Understanding æternity]]
-* [[Getting Started]]
-* [æternity Contracts](æternity-Contracts)
-* [æternity Team](æternity-Team)
-* [æternity Technology](æternity-Technology)
-* [[State Channels]]
-* [æternity Blog](https://blog.aeternity.com/)
-* [æternity Wallet](https://wallet.aeternity.com/)
-* [[Mining]]
-* [[Frequently Asked Questions]]
-* [[Research and Theory]]
-* [[Contacts and Groups]]
-* [[Bounty]]
-* [[Idea Box]]
-* [[Community]]
 * [[Wikipedia page]]
 
 ## External Resources
