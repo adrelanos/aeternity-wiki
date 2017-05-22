@@ -6,5 +6,5 @@
 | [日本語](https://github.com/aeternity/wiki/wiki/%C3%A6ternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0%5BJapanese%5D)
 | [中文](https://github.com/aeternity/wiki/wiki/[Chinese]-Aeternity-TOC)
 | [Indonesia](https://github.com/aeternity/wiki/wiki/[Indonesia]-Aeternity-TOC)
-| [Russian](https://github.com/aeternity/wiki/wiki/[Russian]-Aeternity-TOC)
+| [русский](https://github.com/aeternity/wiki/wiki/[Russian]-Aeternity-TOC)
 | [Deutsch](https://github.com/aeternity/wiki/wiki/[German]-Aeternity-TOC)]
