@@ -7,8 +7,8 @@ Perhaps the testnet was reset? Try deleting folder _/deps/pink_hash_ in your _te
 
 # System Requirements #
 
-* Erlang (version >= 18)
-* [Ubuntu]() (version >=16) 
+* [Erlang](https://www.erlang.org/downloads) (version >= 18)
+* [Ubuntu](#for-ubuntu) (version >=16) 
 * [Mac OS](#for-mac)
 * (Windows coming soon)
 
