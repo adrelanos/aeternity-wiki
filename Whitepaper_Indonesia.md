@@ -17,7 +17,7 @@ Aplikasi seperti pasar untuk aset buatan dan prediksi pasar dapat diterapkan sec
 
 
 Download keseluruhan whitepaper v0.1 (PDF) disini:
-[Æternity whitepaper](https://drive.google.com/open?id=0B-B_AhuJ3i10dkVwcGxpTHhhNEE)
+[æternity whitepaper](https://drive.google.com/open?id=0B-B_AhuJ3i10dkVwcGxpTHhhNEE)
 
 Penulis :
 Zackary Hess - zack@aeternity.com  
