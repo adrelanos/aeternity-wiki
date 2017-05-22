@@ -141,7 +141,7 @@ Cross chain atomic swaps allow for trust-less exchange of "æons" for bitcoins, 
 ***
 ## Handling on page translations
 
-**I you translate a page into your language do it by this way:**
+**If you translate a page into your language do it by this way:**
 
 **page title example:** 
 - [German]-Titel-of-the-origin-page
