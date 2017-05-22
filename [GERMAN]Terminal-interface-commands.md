@@ -1,3 +1,6 @@
+<link rel="alternate" href="https://github.com/aeternity/wiki/wiki/Terminal-interface-commands" hreflang="x-default" />
+<link rel=„alternate" href="https://github.com/aeternity/wiki/wiki/%5BGERMAN%5DTerminal-interface-commands" hreflang="de-de" />
+
 ### Terminal interface commands
 
 
