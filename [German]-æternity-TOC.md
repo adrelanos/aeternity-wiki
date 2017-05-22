@@ -32,4 +32,7 @@ _Ein neues übersetztes Dokument anlegen, so geht’s_
 * Speichern anklicken
 * Live Dokument nochmals überprüfen. Fertig
 
-Herzlichen Dank für deine Mitarbeit beim æternity Wiki 
+Herzlichen Dank für deine Mitarbeit beim æternity Wiki
+
+***
+(bitte habe Verständnis dass dies Seiten aktuell unter Bearbeitung sind, gerne aber kannst du uns in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meine ich die „ æternity Community„)
