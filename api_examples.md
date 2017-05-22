@@ -26,7 +26,7 @@ first make sure that rpc.js is loaded, then you can do this:
 ```
 local_get(["add_peer", [127,0,0,1], 3010]);
 ```
-[The internal API is defined here](../../../aeternity/testnet/src/networking/internal_handler.erl)
+[The internal API is defined here](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl)
 
 
 Now an example of accessing an api of a different node.
@@ -61,7 +61,7 @@ function callback(x) {
 get(["header", 0], callback);
 ```
 
-[The external API is defined here](../../../aeternity/testnet/src/networking/handler.erl)
+[The external API is defined here](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
 
 ***
 [Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
