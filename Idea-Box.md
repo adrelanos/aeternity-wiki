@@ -141,12 +141,12 @@ Cross chain atomic swaps allow for trust-less exchange of "æons" for bitcoins, 
 ***
 ## Handling on page translations
 
-**If you translate a page into your language do it by this way:**
+**If you translate a page into your language do it this way:**
 
 **page title example:** 
-- [German]-Titel-of-the-origin-page
-- [Spanish]-Titel-of-the-origin-page
-- [Italian]-Titel-of-the-origin-page
+- [German]-Titel-der-original-Seite
+- [Spanish]-Título-de-la-página-de-origen
+- [Italian]-Titolo-della-pagina-di-origine
 
 and so on.
 *** 
