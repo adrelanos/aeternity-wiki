@@ -1,4 +1,4 @@
-# La blockchain Æternity
+# La blockchain æternity
 ## La piattaforma di oracoli decentralizzata, perfettamente funzionale e trustless(**)
 _(**trustless: che non richiede la fiducia in enti terzi che validino l'operato della piattaforma stessa)_
 
@@ -14,7 +14,7 @@ Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un gr
 ## CONTENUTI
 I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
 I-A [Un lavoro precedente](#un-lavoro-precedente) . . . . . . . . . . . . . 2  
-II [Cos'è la blockchain Æternity](#cose-la-blockchain-Æternity)  . . . . . . . . . . . 2  
+II [Cos'è la blockchain æternity](#cose-la-blockchain-æternity)  . . . . . . . . . . . 2  
 II-A [Token, account e blocchi](#token-account-e-blocchi)  . . . . . . . . . 2  
 II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2  
 II-A.2 [Account](#account) . . . . . . . . . . . . . . . . . 2  
@@ -56,10 +56,10 @@ V-A.2 [Problema dell'opzione gratuita](#problema-dellopzione-gratuita) . . . . .
 V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquidità-e-tipologie-di-macchine-a-stati) . . . . . 9  
 V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
 V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
-V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9  
+V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9
 
 #### Introduzione
-Lo scopo di questo paper è di dare un quadro d'insieme della architettura della blockchain Æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica; tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
+Lo scopo di questo paper è di dare un quadro d'insieme della architettura della blockchain æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica; tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
 * Primo, introdurremo e analizzeremo la struttura teorica fondamentale che da forma alla nostra architettura.
 * Secondo, analizzeremo le applicazioni essenziali integrate (1), altri possibili casi di utilizzo e daremo degli spunti di come sia possibile per uno sviluppatore utilizzare la piattaforma.
 * Terzo, presenteremo l'attuale implementazione del POC (proof-of-concept), scritto in Erlang.
@@ -67,15 +67,15 @@ Lo scopo di questo paper è di dare un quadro d'insieme della architettura della
 
 I-A
 #### Un lavoro precedente
-Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [1].  A ciò è seguito un certo numero di promettenti passi in avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati ad una architettura blockchain [2]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [3], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [4]; Casey Detrio ha mostrato come creare dei mercati su blockchain [5]; Namecoin come una prova di esistenza di qualsiasi dato digitale [7]. Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a ciascuno. 
+Le Blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [1].  A ciò è seguito un certo numero di promettenti passi in avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati ad una architettura blockchain [2]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [3], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [4]; Casey Detrio ha mostrato come creare dei mercati su blockchain [5]; Namecoin come una prova di esistenza di qualsiasi dato digitale [7]. Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a ciascuno.
 
-Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [richiede citazione]. Æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
+Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [richiede citazione]. æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
 
 II
-#### Cos'é la blockchain Æternity
+#### Cos'é la blockchain æternity
 Crediamo che le carenze nelle “piattaforme di smart contract” in termini di scalabilità, sicurezza nel codice ed accesso economico ai dati del mondo reale si possano ricondurre a tre problemi di fondo.
 Primo, il predominio dello “stateful design” rende gli smart contract scritti per queste piattaforme difficili da analizzare 1
-> *La difficoltà di analizzare contratti “stateful” è stata chiaramente dimostrata dal bug di chiamata ricorsiva che ha buttato giù “The DAO”. Questo è successo nonostante il codice fosse stato verificato da diversi creatori di Ethereum così come dalla più ampia comunità [cit. necessaria].*  
+> *La difficoltà di analizzare contratti “stateful” è stata chiaramente dimostrata dal bug di chiamata ricorsiva che ha buttato giù “The DAO”. Questo è successo nonostante il codice fosse stato verificato da diversi creatori di Ethereum così come dalla più ampia comunità [cit. necessaria].*
 
 , e la “statefulness” (assenza di stato) combinata con l’ordinamento sequenziale delle transazioni rende più complessa la scalabilità [cit. necessaria]. Secondo, l’alto costo di trasportare i dati dal mondo reale all’interno del sistema in modo decentralizzato, “trustless” ed affidabile complica o rende del tutto impossibile la realizzazione di molte promettenti applicazioni [cit. necessaria]. Terzo, le piattaforme vengono limitate nella loro capacità di adattarsi a nuovi sviluppi economici o tecnologici.
 Riteniamo che ciascuno di questi tre problemi abbia dei percorsi risolutivi del tutto chiari che dovrebbero essere esplorati. Primo, recenti ricerche nella tecnologia dei canali a stati suggeriscono che per molti utilizzi, mantenere lo stato su blockchain non sia necessario [cit. necessaria]. Molto spesso è del tutto possibile immagazzinare tutte le informazioni in canali a stati, ed utilizzare la blockchain soltanto per risolvere qualsiasi risultato economico conseguente allo scambio di informazioni, e come metodo per ripristinare una situazione precedente in caso di disputa. Ciò suggerisce un approccio alternativo alla architettura della blockchain nella quale gli “smart contract” “Touring complete” esistano esclusivamente sui canali a stati, non su blockchain. Questo incrementa la scalabilità dal momento che tutte le transazioni diventano indipendenti e possono quindi essere processate in parallelo. In aggiunta, questo significa che i contratti non scrivono mai su uno stato condiviso, semplificando di gran lunga le necessità di controllo ed verifica.  
