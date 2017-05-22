@@ -27,7 +27,7 @@ first make sure that rpc.js is loaded, then you can do this:
 local_get(["add_peer", [127,0,0,1], 3010]);
 ```
 
-[The internal API is defined here](../../../aeternity/testnet/src/networking/handler.erl)
+[The internal API is defined here](../../../aeternity/testnet/src/networking/internal_handler.erl)
 
 
 Now an example of accessing an api of a different node.
