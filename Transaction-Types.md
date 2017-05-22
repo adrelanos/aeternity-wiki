@@ -2,33 +2,47 @@
 
 **4 Transactions for Accounts:**
 
-> * account_new
-> * account_spend
-> * account_delete
->*  account_recycle
+ * [account_new](#account_new) 
+ 
+* [account_spend](#account_spend)
+ 
+* [account_delete](#account_delete)
+ 
+* [account_recycle](#account_recycle)
 
 **7 Transactions for Channels:**
 
-> * channel_new
-> * channel_grow
-> * channel_team_close
-> * channel_solo_close
-> * channel_slash
-> * channel_timeout
-> *  channel_recycle
+ * [channel_new](#channel_new)
+ 
+* [channel_grow](#channel_grow)
+ 
+* [channel_team_close](#channel_team_close)
+
+ * [channel_solo_close](#channel_solo_close)
+ 
+* [channel_slash](#channel_slash)
+
+ * [channel_timeout](#channel_timeout)
+
+ *  [channel_recycle](#channel_recycle)
 
 **5 Transactions for the Oracle:**
 
-> * oracle_new
-> * oracle_bet
-> * oracle_close
-> * oracle_unmatched
-> * oracle_shares
+ * [oracle_new](#oracle_new)
+ 
+* [oracle_bet](#oracle_bet)
+ 
+* [oracle_close](#oracle_close)
+
+ * [oracle_unmatched](#oracle_unmatched)
+ 
+* [oracle_shares](#oracle_shares)
 
 **2 Bonus Transactions:**
 
-> * existence
-> * burn
+ * [existence](#existence)
+ 
+* [burn](#burn)
 
 #    account_new
 
