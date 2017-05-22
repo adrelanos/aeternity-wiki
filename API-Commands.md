@@ -8,7 +8,7 @@
 
 
 ***
-related: [Ubuntu Node Commands](Ubuntu-Node-Commands), 
+related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api Examples](Api-Examples),[Api-Commands](Api-Examples)
 *** 
 
 + This document well be edited this moment (22.May.2017) by @zwilla and is a part of the All Commands Documentation
