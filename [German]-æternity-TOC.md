@@ -7,7 +7,7 @@
 - [Terminal Commands]([GERMAN]Terminal-interface-commands)
 - [Api Beispiele]([GERMAN]API-Examples)
 - [Api Befehle]([GERMAN]API-Commands)
-- [æternity Testnet installieren]([German]install-æternity-Testnet)
+- [æternity Testnet installieren]([German] install-æternity-Testnet)
 
 (falls im Moment ein Link ins leere führt, liegt es daran, dass die Seite gerade in Bearbeitung ist. Danke für dein Verständnis)
 ***
