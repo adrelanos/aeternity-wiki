@@ -64,4 +64,4 @@ get(["header", 0], callback);
 [The external API is defined here](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
 
 ***
-[Terminal interface commands](Terminal-interface-commands)
+related: [Terminal interface commands](Terminal-interface-commands)
