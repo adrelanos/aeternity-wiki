@@ -35,21 +35,6 @@ The stateless nature of æternity’s smart contracts makes it ideal for buildin
 
 <i>Extracted from deepdotweb.com article by Tamer Sameeh from Feb 28, 2017. 
 
-[comment]: <> (Using a table to clear the floated image! doesn't seem to be a nice markdown way!)
-<table border=0>
-</table>
-
-## Editing the Wiki
-
-
-    BEFORE ADDING CONTENT TO THE WIKI, PLEASE READ UP THOROUGHLY ON EXISTING CONTENT TO AVOID DUPLICATED CONTENT!
-    please read the Wiki Guidelines & To Do's before contributing.
-
-    æternity is spelled æternity not Æternity, even if it's the beginning of a sentence.
-
-    Please do not change referenced content as it breaks the links
-
-
 ## Learn More
 The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/) feel free to join us!
 _This will be rapidly expanded._
