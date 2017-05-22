@@ -10,31 +10,32 @@
 * [français](Whitepaper_French)
 * [deutsch](Whitepaper_Deutsch)
 ***
-[**Guidelines & To do list**][todo]
+[**Wiki Editing Guidelines & To do list**][todo]
 ***
 [**Understanding æternity**][understandAE]
+* [Zack-Docs](Zack_Docs_TOC)
 * [Frequently Asked Questions][faq]
+* [Getting Started][started]
 * [Research & Theory][research] 
 * [Technology of æternity][tech]
 * [æternity in the Blockchain space][blockchainAndAE]
-* [æternity Team][team]
-* [Getting Started][started]
-* [Contracts][contracts]
+* [æternity Contracts][contracts]
+* [[State Channels]]
 * [Mining][mining]
 * [Terminal interface commands](Terminal-interface-commands)
 * [Transaction Types](Transaction-Types)
-* [Troubleshooting][troubleshooting]
 ***
 [**Community & Support**][contact]
-* [ ] [Idea Box][ideabox]
-* [x] [Claiming Your Ledger][ledgerclaim]
-* [x] [Bounty Programs][bounty]
+* [æternity Team][team]
+* [æternity Contribution Wallet](https://wallet.aeternity.com)
+* [Claiming Your Ledger][ledgerclaim]
+* [Bounty Programs][bounty]
 * [How to sign a message with private key][privatekeymessage]
-* [ ] [Windows Installation][wininstall]
+* [Windows Installation][wininstall]
+* [Troubleshooting][troubleshooting]
+* [æternity Blog](https://blog.aeternity.com)
+* [Idea Box][ideabox]
 ***
-[**Zacks Docs**](Zack_Docs_TOC)
-* [x] [Zack-Docs](Zack_Docs_TOC)
-
 
 [todo]: Wiki-Guidelines-&-To-Do's
 [understandAE]: Understanding-æternity
