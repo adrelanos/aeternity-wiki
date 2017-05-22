@@ -1,4 +1,4 @@
-**Abstrakt**
+**Zusammenfassung**
 
 Seit der Einführung von Ethereum im Jahr 2014 herrscht großes Interesse an dezentralisierten, vertrauenslosen Anwendungen (sogenannten Smart Contracts).
 Infolgedessen wurden viele Versuche unternommen, Anwendungen mit realen Daten auf einer Blockchain zu implementieren.
