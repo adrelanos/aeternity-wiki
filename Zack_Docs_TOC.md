@@ -1,9 +1,7 @@
 **Zacks - Aeternity Blockchain Documentation TOC**
 
 [Zack-Docs](#)
-- [accounts_channels](accounts_channels)
-- [anarchy](anarchy)  
-- [api_examples](api_examples)
+
 ***
 - **[commands overview:](commands)**
 - [blockchain_basics](commands_basics)
@@ -15,6 +13,7 @@
 - [using_channels](using_channels)
 - [oracle](commands_oracle)
 - [other](commands_other)
+- [api_examples](api_examples)
 
 - [Oracles](oracles)  
 - [Oracle answers for smith crown](oracle_answers_for_smith_crown)  
@@ -23,5 +22,3 @@
 - [Oracle_simple](oracle_simple)  
 - [Questions](questions)
 
-
-*you find this docs also on Github/Aeternity/AEON
