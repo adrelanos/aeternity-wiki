@@ -13,4 +13,4 @@
 - [using_channels](using_channels)
 - [oracle](commands_oracle)
 - [other](commands_other)
-- [api examples](api_examples)
+- [api examples](api-examples)
