@@ -16,7 +16,7 @@ The [api-examples page](Api-Examples) will only access to the commands inside th
  - this modules you finde under the sources folder [Networking](../../../aeternity/testnet/blob/master/src/networking/)
 
 ***
-Translations: [German Terminal interface commands]([GERMAN]Terminal interface commands)
+Translations: [German Terminal interface commands]([GERMAN]Terminal-interface-commands)
 
 Note: If this document does not exist on you language please use the footer bar to translate into your desired language. thx.
 
