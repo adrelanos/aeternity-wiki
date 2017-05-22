@@ -59,7 +59,7 @@ Answering questions and participating in the prediction markets created by the m
 ## Supply Chain Management
 
 The supply chain management can be trusted to a smart-contract that is constantly interfacing with the Oracle on æternity.
-The demand for any product can be fed to the smart-contract through the Oracle. That will trigger the contract to send procurement orders to suppliers, and raw materials providers, taking into consideration the normal delays of each item in the procurement process. In the mean time, the smart-contract's information being fed through the Oracle can be regulated to increase or decrease the quantity of the orders in-real time, thus eliminating waste of material/overstocking of storage facilities. 
+The demand for any product can be fed to the smart-contract through the Oracle. That will trigger the contract to send procurement orders to suppliers, and raw materials providers, taking into consideration the normal delays of each item in the procurement process. In the meantime, the smart-contract's information being fed through the Oracle can be regulated to increase or decrease the quantity of the orders in-real time, thus eliminating waste of material/overstocking of storage facilities. 
 
 High-level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets, and Oracles.
 
@@ -94,7 +94,7 @@ Crowdfunding can be made trust-less and more transparent by using dominant assur
 
 The release of funds can be set on several milestones. Once a milestone is cleared and approved, the contract will release the funds allocated to that specific milestone. Several methods can be used to verify the completion including specific Oracles. If the Oracle concludes that the milestone is not reached, investors get their investments with interests back.
 
-Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a dominant strategy to participate. If the good is produced, all participants get their "æons" back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an oracle, we can ensure that the provider of the good or service only gets paid if he provide the goods as promised.
+Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a dominant strategy to participate. If the good is produced, all participants get their "æons" back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an oracle, we can ensure that the provider of the good or service only gets paid if he provides the goods as promised.
 
 This will enable a leap of transparency and trust-less investment opportunities in ICOs and startups , where the investors funds are safe from mismanagement or fraud by the project's founders.
 
