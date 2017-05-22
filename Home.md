@@ -14,7 +14,7 @@ A [white paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitep
 There are three main problems that underlie the lack of sufficient scalability, coding safety and relatively inexpensive access to real-world data of the presently available smart contract platforms:<p>
 
 <ol>
-<li>The presently prevalent stateful design renders smart contracts, coded for smart contract platforms, rather hard to analyze. Moreover, combining statfefulness with sequential ordering of transactions reduces scalability.
+<li>The presently prevalent stateful design renders smart contracts, coded for smart contract platforms, rather hard to analyze. Moreover, combining statefefulness with sequential ordering of transactions reduces scalability.
 <li>Introducing real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous applications.
 <li>Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.</ol><p>
 
