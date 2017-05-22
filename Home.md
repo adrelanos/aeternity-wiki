@@ -29,7 +29,7 @@ _This will be rapidly expanded._
 * [[Getting Started]]
 * [æternity Contracts](æternity-Contracts)
 * [æternity Team](æternity-Team)
-* [[Aeternity Technology]]
+* [æternity Technology](æternity Technology)
 * [[State Channels]]
 * [æternity Blog](https://blog.aeternity.com/)
 * [æternity Wallet](https://wallet.aeternity.com/)
