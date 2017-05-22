@@ -11,13 +11,7 @@
 ***
 related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api Examples](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
 
-Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api) 
+Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
+
+source: [api_examples.md](../../../testnet/blob/master/docs/api_examples.md), [internal CLI commands](../../../testnet/blob/master/src/networking/internal_handler.erl), [external api](../../../testnet/blob/master/src/networking/handler.erl)
 *** 
-
-+ This document well be edited this moment (22.May.2017) by @zwilla and is a part of the All Commands Documentation
-
-Please Stop deleting it. 
-
-Thx
-
-Zwilla
