@@ -3,8 +3,13 @@
 
 **What does we mean with Terminal interface commands?**
 
-Let me explain: If you have installed the æternity software (link here) then you got access to the
+Let me explain: If you have installed the æternity software (get started here) then you got access to the
 commandline tools. For those commands and what you can do with them is this page for.
+
+## What you must know before!
+
+This commands are _internal commands_ this internal commands of æternity are handled by an internal module called
+(internal_handler.erl) this module you finde under the sources folder „Networking“
 
 
 
