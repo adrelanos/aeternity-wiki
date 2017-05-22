@@ -3,7 +3,10 @@
   Bitte noch übersetzen.
 
 ## Dokumente in deutscher Sprache
-- [Terminal Commands]([GERMAN]Terminal-Commands)
+- [Terminal Commands]([GERMAN]Terminal-Interface-Commands)
+- [Api Beispiele]([GERMAN]API-Examples)
+- [Api Befehle]([GERMAN]API-Commands)
+***
 
 **Translate æternity Wiki mit dem Google Translator**
 * [Wiki Home Deutsch](https://translate.google.com/translate?sl=en&tl=de&u=https://github.com/aeternity/wiki/wiki/)
@@ -21,7 +24,7 @@ _Und so funktioniert es:_
 _Ein neues übersetztes Dokument anlegen, so geht’s_
 * stelle der Datei das hier voran: [German],
 * gefolgt vom eigentlichen Dateinamen
-* als Dateiendung nehme _.md_
+* als Dateiendung nehme **nicht** _.md_ sondern keine bitte.
 * Text einfügen und
 * über den Reiter _Preview_ kannst du ansehen wie dein Dokument live aussieht.
 * Speichern anklicken
