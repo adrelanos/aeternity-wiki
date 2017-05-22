@@ -13,7 +13,6 @@
 [**Wiki Editing Guidelines & To do list**][todo]
 ***
 [**Understanding æternity**][understandAE]
-* [Zack-Docs](Zack_Docs_TOC)
 * [Frequently Asked Questions][faq]
 * [Getting Started][started]
 * [Research & Theory][research] 
@@ -24,6 +23,7 @@
 * [Mining][mining]
 * [Terminal interface commands](Terminal-interface-commands)
 * [Transaction Types](Transaction-Types)
+* [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
 ***
 [**Community & Support**][contact]
 * [æternity Team][team]
