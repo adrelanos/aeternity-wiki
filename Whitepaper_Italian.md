@@ -14,7 +14,7 @@ Abstract — Dal momento dell'introduzione di Ethereum nel 2014 c'è stato un gr
 ## CONTENUTI
 I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
 I-A [Un lavoro precedente](#un-lavoro-precedente) . . . . . . . . . . . . . 2  
-II [Cos'è la blockchain æternity](#cose-la-blockchain-æternity)  . . . . . . . . . . . 2  
+II [Cos'è la blockchain æternity](#Cosé-la-blockchain-æternity)  . . . . . . . . . . . 2  
 II-A [Token, account e blocchi](#token-account-e-blocchi)  . . . . . . . . . 2  
 II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2  
 II-A.2 [Account](#account) . . . . . . . . . . . . . . . . . 2  
