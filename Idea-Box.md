@@ -124,6 +124,12 @@ Most websites and servers APIs existing today are publicly available for anyone 
 
 API responses that require a payment are fundamental for the creation of as of yet impossible types of businesses and can play an important role in the emergence of the decentralized economy, the Internet-of-things and the internet-of-value. This also create strong incentives for information/technology owners to make otherwise private data publicly available, while getting paid for this information.
 
+## Cross-chain atomic swaps
+
+Cross chain atomic swaps allow for trust-less exchange of "æons" for bitcoins, or any other crypto-currencies. These can easily be implemented using a hashlock that locks the transactions on both blockchains under the same value. This will make the cross-chain exchange of currencies decentralized, without having to deal with the single point of failure of the current exchanges.
+
+
+
 
 
 ***
