@@ -8,78 +8,163 @@
 - [Russian (translation)](Whitepaper_Russian)
 
 # Concepts
+
 ## State Channels
-The state channel design in æternity enables off-chain verification of data and smart contracts. If the verification in the channel failes, the blockchain is asked to resolve. This, in return permits high transactional throughput and parallel processing of smart contracts. Therefore, the programmability of complex relationships for large numbers of users and handling high volume of products and information in parallel is æternity's strong suit.
-Only the parties who participated in a smart contract know about the contents of that smart contract.
-When a channel is settled on-chain, the only way it changes the blockchain state is by changing account balances.
-No contract state is stored on-chain, so all channels are independent from each other. Transaction speed is limited only by bandwidth, so the æternity system can scale as well as known centralised solutions available today.
- For more information, refer to [State Channel](http://www.jeffcoleman.ca/state-channels/)
+
+The state channel design in æternity enables off-chain verification of
+data and smart contracts. If the verification in the channel failes, the
+blockchain is asked to resolve. This, in return permits high
+transactional throughput and parallel processing of smart contracts.
+
+Therefore, the programmability of complex relationships for large
+numbers of users and handling high volume of products and information in
+parallel is æternity's strong suit. Only the parties who participated in
+a smart contract know about the contents of that smart contract. 
+
+When a channel is settled on-chain, the only way it changes the blockchain
+state is by changing account balances. No contract state is stored
+on-chain, so all channels are independent from each other. Transaction
+speed is limited only by bandwidth, so the æternity system can scale as
+well as known centralised solutions available today. For more
+information, refer to
+[State Channel](http://www.jeffcoleman.ca/state-channels/)
+
 ## Decentralised Oracles
-An oracle is a mechanism that tells the blockchain facts about the world we live in e.g. the closing price of Apple shares on a particular date. æternity's oracle system uses the same consensus system as the æternity blockchain itself i.e. it does not require a separate consensus layer on top of the æternity mainnet. 
 
-To launch an oracle, an aeon holder has to commit to answering a yes or no question (e.g. whether the price of an Apple share is above $200) and specify additional conditions such as the time frame in which the Aeon holder can answer that question. The aeon holder then has to deposit/commit a certain amount of aeon, which is proportional to the time frame during which the oracle is operational. When the oracle supplies an answer that is accepted as the truth by users, the deposit will be returned to the creator of the oracle. Otherwise, the deposit will be destroyed.
+An oracle is a mechanism that tells the blockchain facts about the world
+we live in e.g. the closing price of Apple shares on a particular date.
+æternity's oracle system uses the same consensus system as the æternity
+blockchain itself i.e. it does not require a separate consensus layer on
+top of the æternity mainnet.
 
-Once the oracle has submitted an answer, other users are free to dispute the answer by submitting a counter-claim by depositing the same amount of aeon as the oracle creator. If there are no counter-claims by the end of the time frame, the answer supplied by the oracle is deemed to be truth. If there are counter-claims, the consensus system for the æternity main-net will be used to decide on which is the correct answer.
+To launch an oracle, an aeon holder has to commit to answering a yes or
+no question (e.g. whether the price of an Apple share is above $200) and
+specify additional conditions such as the time frame in which the Aeon
+holder can answer that question. The aeon holder then has to
+deposit/commit a certain amount of aeon, which is proportional to the
+time frame during which the oracle is operational. When the oracle
+supplies an answer that is accepted as the truth by users, the deposit
+will be returned to the creator of the oracle. Otherwise, the deposit
+will be destroyed.
 
-Therefore, what is in effect achieved is a decentralised oracle system. The truth value of oracle answers, if in dispute, will be ultimately determined by the decentralised consensus system of the AE network.
+Once the oracle has submitted an answer, other users are free to dispute
+the answer by submitting a counter-claim by depositing the same amount
+of aeon as the oracle creator. If there are no counter-claims by the end
+of the time frame, the answer supplied by the oracle is deemed to be
+truth. If there are counter-claims, the consensus system for the
+æternity main-net will be used to decide on which is the correct answer.
+
+Therefore, what is in effect achieved is a decentralised oracle system.
+The truth value of oracle answers, if in dispute, will be ultimately
+determined by the decentralised consensus system of the AE network.
 
 ![æternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
 
-For more information, refer to the [æternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+For more information, refer to the
+[æternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 ## Prediction Markets
-### 1. What are prediction markets?
-Prediction markets are exchange-traded markets where participants can trade around the probability of events, like the outcome of a presidential election, the likelihood of a natural disaster, the likely winner of a music competition and so on.
 
+### 1. What are prediction markets?
+
+Prediction markets are exchange-traded markets where participants can
+trade around the probability of events, like the outcome of a
+presidential election, the likelihood of a natural disaster, the likely
+winner of a music competition and so on.
 
 
 ### Prediction markets serve two important functions:
 
-**a) They allow participants to profit from making accurate predictions.**
+**a) They allow participants to profit from making accurate
+predictions.**
 
-Participants in a prediction market buy and sell shares based on what they think the likelihood of an outcome will be. 
-It is important to note that in order for a market participant to win consistently, he/she must not only predict the outcome correctly, but must also correctly assess the probability of that outcome.
-Take for example an event that has a 90% probability. If on a market the current price signals a probability of 95% instead of 90%, it can still be very profitable in the long run for a trader to bet against such events, even if that trader believes that the event will likely happen given the 90% probability.
-This is very counter-intuitive, but it is easily explained by doing the math.
+Participants in a prediction market buy and sell shares based on what
+they think the likelihood of an outcome will be. It is important to note
+that in order for a market participant to win consistently, he/she must
+not only predict the outcome correctly, but must also correctly assess
+the probability of that outcome. Take for example an event that has a
+90% probability. If on a market the current price signals a probability
+of 95% instead of 90%, it can still be very profitable in the long run
+for a trader to bet against such events, even if that trader believes
+that the event will likely happen given the 90% probability. This is
+very counter-intuitive, but it is easily explained by doing the math.
 
-If Alice makes 100 different bets against events that have a 90% probability, she will be right 10 times and wrong 90 times. However, because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice will still make a nice profit assuming all bets were made for the same amount of money. In this case, if every bet was a 1000 AE bet, Alice will make a profit of 5000 AE (10x950-90x50=5000).
+If Alice makes 100 different bets against events that have a 90%
+probability, she will be right 10 times and wrong 90 times. However,
+because the odds given for each event were 19 to 1 (0.95/0.05=19), Alice
+will still make a nice profit assuming all bets were made for the same
+amount of money. In this case, if every bet was a 1000 AE bet, Alice
+will make a profit of 5000 AE (10x950-90x50=5000).
 
 **b) They reveal information using the price mechanism.**
- 
-Given that the participants in a prediction market are rewarded for being correct and punished for being wrong, they will try and be economically incentivized to be as accurate as possible and the prices will reflect that. In  prediction markets prices can be understood as showing the probabilities of the outcome that is being traded.
 
-An example here could be a miner who wants to plan his hardware purchases in advance and needs to know the probability of the total hashrate getting past a certain level in the following six months. In this case, instead of guessing or relying on his intuition, the miner can set up the prediction market that will give him very accurate probabilities. The people betting on those opportunities would not be random people on the internet (As we see in normal forums), but "experts", who will provide very likely guesses, as they will lose their money if they are wrong, and will only gain money if they are right.
+Given that the participants in a prediction market are rewarded for
+being correct and punished for being wrong, they will try and be
+economically incentivized to be as accurate as possible and the prices
+will reflect that. In prediction markets prices can be understood as
+showing the probabilities of the outcome that is being traded.
+
+An example here could be a miner who wants to plan his hardware
+purchases in advance and needs to know the probability of the total
+hashrate getting past a certain level in the following six months. In
+this case, instead of guessing or relying on his intuition, the miner
+can set up the prediction market that will give him very accurate
+probabilities. The people betting on those opportunities would not be
+random people on the internet (As we see in normal forums), but
+"experts", who will provide very likely guesses, as they will lose their
+money if they are wrong, and will only gain money if they are right.
 
 ### 2. How do prediction markets work on æternity
-Prediction markets (Oracles) are one of the most anticipated use cases for blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralised and transparent manner for the first time.
 
-Ethereum has Augur and Gnosis trying to build prediction markets on top of it, with each its different system and currency.
-æternity differentiates itself, by integrating the oracle into blockchain consensus. 
+Prediction markets (Oracles) are one of the most anticipated use cases
+for blockchains. They can make possible the harnessing of the wisdom of
+the crowds in a decentralised and transparent manner for the first time.
 
-Any user may create an oracle by posing a question or statement, staking coins and providing a binary or a scaled answering option. 
-AE coins can be used to acquire stakes of those specific outcomes. 
-The more sure a user is about the outcome, the more stakes he may acquire and hence more likely (he thinks) the outcome will be correct. Applying the wisdom of the crowd to all participating users of the prediction market, it is possible to: 
+Ethereum has Augur and Gnosis trying to build prediction markets on top
+of it, with each its different system and currency. æternity
+differentiates itself, by integrating the oracle into blockchain
+consensus.
 
-a) statistically predict the probability of a future event occurring  
+Any user may create an oracle by posing a question or statement, staking
+coins and providing a binary or a scaled answering option. AE coins can
+be used to acquire stakes of those specific outcomes. The more sure a
+user is about the outcome, the more stakes he may acquire and hence more
+likely (he thinks) the outcome will be correct. Applying the wisdom of
+the crowd to all participating users of the prediction market, it is
+possible to:
+
+a) statistically predict the probability of a future event occurring
 
 b) verify historic data from legacy systems or other blockchains
 
 c) verify API data from legacy systems or other blockchains
 
-Meaning any data outside the blockchain can be translated into a deterministic value that can be used in æternity smart contracts, making real-world data easily accessible and actionable. 
+Meaning any data outside the blockchain can be translated into a
+deterministic value that can be used in æternity smart contracts, making
+real-world data easily accessible and actionable.
 
-And what is even better in æternity is that this source of information would come from inside the Blockchain, and not from an outside entity built on top of it. This makes the source of information more reliable, more decentralised and not relying on  a 3rd Party company or entity (Like Augur and Gnosis).  
+And what is even better in æternity is that this source of information
+would come from inside the Blockchain, and not from an outside entity
+built on top of it. This makes the source of information more reliable,
+more decentralised and not relying on a 3rd Party company or entity
+(Like Augur and Gnosis).
 
 ##### Prediction Market - High Level Concept
+
 ![æternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
 
 ##### Oracle & Prediction Market - High Level Concept
+
 ![æternity oracle & prediction market](http://i63.tinypic.com/30c291s.png)
 
 ## Governance & Consensus
+
 ![æternity governance](http://i67.tinypic.com/axehab.png)
+
 ## Futarchy
-Here follows a collections of in-depth analysis about Futarchy ordered by publication date:
+
+Here follows a collections of in-depth analysis about Futarchy ordered
+by publication date:
 * [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
 * [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
 * [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
@@ -90,13 +175,21 @@ Here follows a collections of in-depth analysis about Futarchy ordered by public
 * [BFF: A Recursive Merkle DAO - by Dan Finlay](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
 * [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 * [An Introduction to Cryptoeconomics and Futarchy experiments on Gnosis - by Matt Liston](https://medium.com/@consensus/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis-df85220f840a)
+
 # Research
+
 Eg.) Turing, State Channels, Blockchain etc.
+
 # Working Theories
 
 # Open problems
+
 ## Optimal properties of consensus algorithms
+
 ## Censorship resistance
+
 ## Maximally accurate time stamping
+
 ## Scalable validation
+
 ## Optimal data availability solutions
