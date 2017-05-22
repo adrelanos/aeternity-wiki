@@ -28,7 +28,7 @@ The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messag
 * æternity is spelled æternity **not** Æternity, even if it's the beginning of a sentence.
 * even in page titles æternity **not** aeternity should be used.
 * you can jump right in and edit if you see a mistake or something that looks weird (these are valid contributions to the wiki bounty)
-* make sure you use relative links wherever possible! eg. if you want to refer to the "[[Understanding æternity|Understanding-Aeternity]]" page, you can use `[[Understanding æternity|Understanding-æternity]]`
+* make sure you use relative links wherever possible! eg. if you want to refer to the "[[Understanding æternity|Understanding-æternity]]" page, you can use `[[Understanding æternity|Understanding-æternity]]`
 
 **When editing anything, please always comment your changes in the edit message.**
 
