@@ -113,4 +113,12 @@ Source: [Cryptocoinnews](https://www.cryptocoinsnews.com/hundreds-charging-stati
 
 [State Channel Info](Research-and-Theory#state-channels)  
 
+## Toll API
+
+Most websites and servers APIs existing today are publicly available for anyone to call, or secured by a username-password–scheme or unique access tokens. The æternity payment channels allow for a new kind of API, where the requesting user would have to pay (Micro transaction) for every call to the API, possibly every HTTP-request. Paying to access an API solves the DDoS problem, by providing a counter incentive to sending large amounts of requests that are destined to overload the servers. It also makes it easier to build high-quality APIs that are always available, albeit for a small fee.
+
+API responses that require a payment are fundamental for the creation of as of yet impossible types of businesses and can play an important role in the emergence of the decentralized economy, the Internet-of-things and the internet-of-value. This also create strong incentives for information/technology owners to make otherwise private data publicly available, while getting paid for this information.
+
+
+
 ***
