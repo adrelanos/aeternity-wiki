@@ -8,8 +8,12 @@ commandline tools. For those commands and what you can do with them is this page
 
 ## What you must know before!
 
-This commands are _internal commands_ this internal commands of æternity are handled by an internal module called
-(internal_handler.erl) this module you finde under the sources folder „Networking“ inside this [file](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) 
+This commands are _internal commands_ this internal commands of æternity are handled by **many** internal modules.
+
+The [api-examples page](Api-Examples) will only access to the commands inside this two files:
+ - [internal_handler.erl](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) and 
+ - [handler.erl](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
+ - this modules you finde under the sources folder [Networking](../../../aeternity/testnet/blob/master/src/networking/)
 
 
 
