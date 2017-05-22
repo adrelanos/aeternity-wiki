@@ -21,6 +21,7 @@
 
 - [公式Slack](https://slack.aeternity.com/)
 
+- [Ethereumとæternityの比較表](http://fusanpro.com/aeternity/aeternity.html)
 
 # ファンによるサイト
 - [新たなブロックチェーンプラットフォームæternityとは？](http://cryptocurrencymagazine.com/what-is-aeternity-blockchain-platform)
