@@ -26,17 +26,17 @@ Recent studies of the state channel technology have proven that, in many instanc
 
 æternity is a blockchain protocol that is designed to solve all the aforementioned problems that are challenging smart contract platforms. æternity provides a highly efficient system for transferring value. Practically speaking, æternity represents a global oracle machine that can be utilized to provide decision making services on an enormous scale.<p>
 
-The stateless nature of æternity’s smart contracts makes it ideal for building a myriad of applications including:<ol>
-<li>Identities: Each account will be associated with a [unique ID number](https://en.wikipedia.org/wiki/Universally_unique_identifier). Users will be allowed to register distinctive names and link them to a data structure’s [Merkle](https://en.wikipedia.org/wiki/Merkle_tree) root.
-<li>Wallet: the [wallet](https://en.wikipedia.org/wiki/Wallet_(software)) manages the cryptocurrency, Aeon, [private keys](https://en.wikipedia.org/wiki/Public-key_cryptography), sends and signs transactions. It can also be used to create channel transactions and use apps within the channel network.
-<li>Toll API: Payment channels open the door to a novel type of APIs where a user can pay for every API request. [[Toll API]]s mitigate [DDoS](https://en.wikipedia.org/wiki/Distributed_denial-of-service_attacks_on_root_nameservers) problems and simplify the creation of high quality APIs.
-<li>Insured Crowdfunding: [[Insured crowdfunding]] can be implemented via means of [dominant assurance contracts](https://en.wikipedia.org/wiki/Assurance_contract#Dominant_assurance_contracts), which are smart contracts that are created to raise money for a good cause.
-<li>Others: other possible applications include [[cross-chain atomic swaps]], [[event contracts]] (e.g. insurance, whistleblowing) and prediction markets. </ol><p>
+The stateless nature of æternity’s smart contracts makes it ideal for building a myriad of applications including:<p>
+1. Identities: Each account will be associated with a [unique ID number](https://en.wikipedia.org/wiki/Universally_unique_identifier). Users will be allowed to register distinctive names and link them to a data structure’s [Merkle](https://en.wikipedia.org/wiki/Merkle_tree) root.
+2. Wallet: the [wallet](https://en.wikipedia.org/wiki/Wallet_(software)) manages the cryptocurrency, Aeon, [private keys](https://en.wikipedia.org/wiki/Public-key_cryptography), sends and signs transactions. It can also be used to create channel transactions and use apps within the channel network.
+3. Toll API: Payment channels open the door to a novel type of APIs where a user can pay for every API request. [[Toll API]]s mitigate [DDoS](https://en.wikipedia.org/wiki/Distributed_denial-of-service_attacks_on_root_nameservers) problems and simplify the creation of high quality APIs.
+4. Insured Crowdfunding: [[Insured crowdfunding]] can be implemented via means of [dominant assurance contracts](https://en.wikipedia.org/wiki/Assurance_contract#Dominant_assurance_contracts), which are smart contracts that are created to raise money for a good cause.
+5. Others: other possible applications include [[cross-chain atomic swaps]], [[event contracts]] (e.g. insurance, whistleblowing) and [[prediction markets]].<p>
 
 <i>Extracted from deepdotweb.com article by Tamer Sameeh from Feb 28, 2017. 
 
 ## Learn More
-The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/) feel free to join us!
+The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/), feel free to join us!
 _This will be rapidly expanded._
 
 * [[Wikipedia page]]
