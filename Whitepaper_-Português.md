@@ -19,7 +19,9 @@ Download do white paper completo v0.1 (PDF) aqui: [æternity whitepaper](https:/
 **Autores:**
 
 Zackary Hess - zack@aeternity.com
+
 Yanislav Malahov - yani@aeternity.com
+
 Jack Pettersson - jack@aeternity.com
 
 
