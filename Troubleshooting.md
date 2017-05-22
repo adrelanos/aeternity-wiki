@@ -2,7 +2,8 @@
 
 Perhaps the testnet was reset? Try deleting folder _/deps/pink_hash_ in your _testnet_ folder.
 
-([source](https://github.com/aeternity/testnet/issues/41))
+- SOLVED ([source](https://github.com/aeternity/testnet/issues/41))
+- If it happened?! [Update your æternity app](#Update)
 
 # System Requirements #
 
@@ -93,6 +94,8 @@ rebar compile
 
 Now you can run your node with ```sh start.sh```
 
+### Update
+
 If you want to **update the sources** and update the dependencies run this commands:
 ````
 ./rebar clean
@@ -100,6 +103,7 @@ If you want to **update the sources** and update the dependencies run this comma
 ./rebar compile
 sh start.sh
 ````
+
 
 # What if my question isn't answered here? # 
 
