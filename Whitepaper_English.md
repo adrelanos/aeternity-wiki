@@ -17,7 +17,7 @@ Applications like markets for synthetic assets and prediction markets can be eff
 
 
 Download the entire white paper v0.1 (PDF) here:
-[Æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+[æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 **Authors:**
   
