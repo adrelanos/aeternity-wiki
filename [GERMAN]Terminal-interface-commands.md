@@ -1,19 +1,29 @@
 ### Terminal interface commands
 
 
-**What does we mean with Terminal interface commands?**
+**Was meinen wir mit Terminal interface commands?**
 
-Let me explain: If you have installed the æternity software (get started here) then you got access to the
-commandline tools. For those commands and what you can do with them is this page for.
+Erklärung: Nach dem du die æternity software (get started here link) installiert hast,
+hast du automatisch Zugang zu den „Command line Tools“. Im folgenden auch **CLI** genannt.
 
-## What you must know before!
+Wofür die Befehle sind und wozu diese gut sind erfährst du hier.
 
-This commands are _internal commands_ this internal commands of æternity are handled by **many** internal modules.
+## Bevor du beginnst beachte bitte folgendes!
 
-The [api-examples page](Api-Examples) will only access to the commands inside this two files:
- - [internal_handler.erl](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) and 
+Diese Befehle sind solche mit denen du alles möglich innerhalb der æternity software tun kannst.
+Die Commandos die du hiermit los lassen kannst werden von vielen internen Modulen gesteuert.
+
+Im Vergleich zu den [API Befehlen]([German]API-Commands) welche nur auf zwei interne Module zugreifen können,
+ist mit den **CLI** wirklich alles möglich.
+
+Einzige Voraussetzung ist, dass diese CLI Befehle nur an der Maschine ausgeführt werden können auf der du die
+æternity software installiert hast.
+
+Die [Api Beispiele]([GERMAN]Api-Examples) welche von extern gesteuert werden können greifen nur aus diese zwei Module zu:
+
+ - [internal_handler.erl](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) und 
  - [handler.erl](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
- - this modules you finde under the sources folder [Networking](../../../aeternity/testnet/blob/master/src/networking/)
+ - diese Module findest di hier [Networking](../../../aeternity/testnet/blob/master/src/networking/)
 
 ***
 Übersetzungen: [english Terminal interface commands](Terminal-interface-commands)
