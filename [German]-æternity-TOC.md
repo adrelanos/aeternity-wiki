@@ -3,6 +3,7 @@
   Bitte noch übersetzen.
 
 ## Dokumente in deutscher Sprache
+- [Whitepaper Deutsch](Whitepaper_Deutsch)
 - [Terminal Commands]([GERMAN]Terminal-Interface-Commands)
 - [Api Beispiele]([GERMAN]API-Examples)
 - [Api Befehle]([GERMAN]API-Commands)
