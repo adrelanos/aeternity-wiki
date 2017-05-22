@@ -1,1 +1,0 @@
-* [Whitepaper (Chinese)](Whitepaper_Chinese)
