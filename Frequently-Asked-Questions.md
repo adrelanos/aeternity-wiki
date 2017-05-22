@@ -99,14 +99,13 @@ Total æ in circulation after contribution phase 2:
 
 # What is the Maximum Supply of AE? #
 
-Answer by vdramaliev on [reddit](https://www.reddit.com/r/Aeternity/comments/64z73r/will_there_have_the_cap_amount_of_aeon/).
+The maximum supply of AE tokens will be determined after the phase two of æternity backing campaign ends. 
 
-It is possible for the mining reward amount to be modifiable by the users through a prediction market, as the governance of æternity is decentralized, and can be adjusted based on the real-world needs.
 
 # How is the AE dispersed? #
 
 
-Following the phase two of æternity contribution campaign, 82 % of the total AE that has been created will be distributed to all investors. While 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses. This will encourage the use of AE tokens and the æternity network.
+Following the phase two of æternity backing campaign, 82 % of the total AE that has been created will be distributed to all investors. While 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses. This will encourage the use of AE tokens and the æternity network.
 
 90% of the AE that has been reserved for the founding team (a total of 17% of the available AE) will be locked away for a period of time so as to discourage team members from taking the AE tokens and leaving the project. 
 
