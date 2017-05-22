@@ -1,5 +1,5 @@
 <link rel="alternate" href="https://github.com/aeternity/wiki/wiki/Terminal-interface-commands" hreflang="x-default" />
-<link rel=„alternate" href="https://github.com/aeternity/wiki/wiki/%5BGERMAN%5DTerminal-interface-commands" hreflang="de-de" />
+<link rel=„alternate" href="https://github.com/aeternity/wiki/wiki/%5BGerman%5DTerminal-interface-commands" hreflang="de-de" />
 
 ### Terminal interface commands
 
@@ -22,7 +22,7 @@ ist mit den **CLI** wirklich alles möglich.
 Einzige Voraussetzung ist, dass diese CLI Befehle nur an der Maschine ausgeführt werden können auf der du die
 æternity software installiert hast.
 
-Die [Api Beispiele]([GERMAN]Api-Examples), welche von extern gesteuert werden können greifen nur aus diese zwei Module zu:
+Die [Api Beispiele]([German]Api-Examples), welche von extern gesteuert werden können greifen nur aus diese zwei Module zu:
 
  - [internal_handler.erl](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) und 
  - [handler.erl](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
