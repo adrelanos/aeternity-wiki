@@ -10,6 +10,8 @@
 
 ***
 related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api Examples](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
+
+Check if there are an [issue for the api](https://github.com/aeternity/testnet/issues?q=api) 
 *** 
 
 + This document well be edited this moment (22.May.2017) by @zwilla and is a part of the All Commands Documentation
