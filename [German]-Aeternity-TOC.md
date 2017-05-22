@@ -1,13 +1,13 @@
 **Whitepaper**
-* [Aeternity Whitepaper Deutsch](https://github.com/aeternity/wiki/wiki/%5BGerman%5D-White-Paper)
+* [æternity Whitepaper Deutsch](https://github.com/aeternity/wiki/wiki/%5BGerman%5D-White-Paper)
   Bitte noch übersetzen.
 
-**Translate Aeternity Wiki mit dem Google Translator**
+**Translate æternity Wiki mit dem Google Translator**
 * [Wiki Home Deutsch](https://translate.google.com/translate?sl=en&tl=de&u=https://github.com/aeternity/wiki/wiki/)
 
-Werde Teil der Aeternity Community und helfe mit die Wiki Seiten in korrektes Deutsch zu übersetzen.
+Werde Teil der æternity Community und helfe mit die Wiki Seiten in korrektes Deutsch zu übersetzen.
 Damit der erste Anfang leichte ist, haben wir hier einen Link zum Translator. Mit Hilfe dessen kannst Du dazu beitragen die
-Aeternity Wiki Seiten zu übersetzen.
+æternity Wiki Seiten zu übersetzen.
 
 _Und so funktioniert es:_
 
@@ -24,4 +24,4 @@ _Ein neues übersetztes Dokument anlegen, so geht’s_
 * Speichern anklicken
 * Live Dokument nochmals überprüfen. Fertig
 
-Herzlichen Dank für deine Mitarbeit beim Aeternity Wiki 
+Herzlichen Dank für deine Mitarbeit beim æternity Wiki 
