@@ -72,4 +72,4 @@ A reasonable future direction would be to experiment with high-level languages t
 Documentation on submitting code to chain or running code of chain. Retrieving, triggering and updating state.
 
 ***
-related: [Terminal-interface-commands](Terminal-interface-commands)
+related: [Terminal-interface-commands](Terminal-interface-commands#contracts)
