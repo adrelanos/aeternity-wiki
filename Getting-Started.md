@@ -29,4 +29,4 @@ Miners (Proof-of-Work) will enable them to be rewarded for providing adequate se
 # Grid of application/platform availability
 e.g., Windows, MacOS, Linux, Other Unix (Rasp PI, Droid)
 # Links to each software with installation guides, common CLI interaction etc for newbies.
-* [Get the æternity app](building-from-source)
+* [Get the æternity app](Troubleshooting#building-from-source)
