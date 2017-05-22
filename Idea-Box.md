@@ -87,13 +87,18 @@ High-level concept of Supply Chain Management (SCM) automation with Smart Contra
 
 
 ***  
-## Dominant Assurance Contracts
-> Dominant Assurance Contract is a mechanism originally designed to provide public goods and funding public projects.
-It's a variant of smart-contracts where funds are collected and locked in the Dominance Assurance Contract. Part of the funds are locked for development and other parts for ROI for investors.
-Once a milestone is cleared and approved, several methods can be used to verify the completion including specific oracles, the contract will release the funds allocated to that specific milestone.
-If the milestone is not reached, investors get their investments with interests back.
 
-This will enable a leap of transparency and trustless investment opportunities in ICOs and startups , where the investors funds are safe from mismanagement or fraud by the project's founders.
+##  Insured (and Trust-less) crowdfunding
+
+Crowdfunding can be made trust-less and more transparent by using dominant assurance contracts. These are smart-contracts that are used to raise money for a public good, or any other commercial project. Part of the funds can be locked for development and other parts are locked to provide an ROI for investors.
+
+The release of funds can be set on several milestones. Once a milestone is cleared and approved, the contract will release the funds allocated to that specific milestone. Several methods can be used to verify the completion including specific Oracles. If the Oracle concludes that the milestone is not reached, investors get their investments with interests back.
+
+Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a dominant strategy to participate. If the good is produced, all participants get their "æons" back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an oracle, we can ensure that the provider of the good or service only gets paid if he provide the goods as promised.
+
+This will enable a leap of transparency and trust-less investment opportunities in ICOs and startups , where the investors funds are safe from mismanagement or fraud by the project's founders.
+
+This can also be implemented on any other exchange of services between multiple parties, thus decentralizing the freelancing and business-to-business sectors.
 
 ### Use Case Ideas 
 * [Humanistic Use Cases ](https://github.com/aeternity/wiki/wiki/Humanistic-Use-Cases)
