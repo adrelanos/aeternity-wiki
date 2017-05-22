@@ -6,6 +6,8 @@
 - [Terminal Commands]([GERMAN]Terminal-Interface-Commands)
 - [Api Beispiele]([GERMAN]API-Examples)
 - [Api Befehle]([GERMAN]API-Commands)
+
+(falls im Moment ein Link ins leere führt, liegt es daran, dass die Seite gerade in Bearbeitung ist. Danke für dein Verständnis)
 ***
 
 **Translate æternity Wiki mit dem Google Translator**
