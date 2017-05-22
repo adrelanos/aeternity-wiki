@@ -12,10 +12,14 @@ Desde a introdução do Ethereum em 2014, tem havido grande interesse em aplica�
 
 Aplicações como mercados para ativos sintéticos e mercados de previsão podem ser implementadas eficientemente em escala global. Várias peças têm implementações de prova de conceito escritas em Erlang. As ferramentas de desenvolvimento e os fundamentos da aplicação, como uma carteira, nomeação e sistema de identidade, serão em breve fornecidos.
 
+***
+
 Download do white paper completo v0.1 (PDF) here: [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 Autores:
 
 Zackary Hess - zack@aeternity.com
+
 Yanislav Malahov - yani@aeternity.com
+
 Jack Pettersson - jack@aeternity.com
