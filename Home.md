@@ -27,7 +27,7 @@ _This will be rapidly expanded._
 * [[Wiki Guidelines & To Do's]]
 * [[Understanding æternity]]
 * [[Getting Started]]
-* [[Aeternity Contracts]]
+* [æternity Contracts](æternity-Contracts)
 * [[Aeternity Team]]
 * [[Aeternity Technology]]
 * [[State Channels]]
