@@ -77,5 +77,6 @@ get(["header", 0], callback);
 ***
 related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
 
-Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api) 
+Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
 
+source: [api_examples.md](../../../testnet/blob/master/docs/api_examples.md)
