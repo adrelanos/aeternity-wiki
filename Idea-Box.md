@@ -138,8 +138,18 @@ Cross chain atomic swaps allow for trust-less exchange of "æons" for bitcoins, 
 
 æternity's smart-contracts can be used to program synthetic assets that stay nearly the same price as a real world asset. For example, we could make an asset that follows the price as gold. These synthetic derivatives will be created created in equal and opposite pairs. For one user to have an asset that moves up with gold, a different user will have to have an asset that move inversely to gold. This would basically enable the "Blockchainization" of all the real-world assets (or financial derivatives) , and their exchange in a decentralized stock-market. For example, Alice could make a contract with Bob so that Alice owns 1 gram of gold. Out of the money in the contract, one gram of gold worth of "æon" will go to Alice, and the leftover money goes to Bob. The contract has an expiration date at which point the price of gold will be re-measured, and the funds distributed to Alice and Bob accordingly.
 
+***
+## Handling on page translations
 
+**I you translate a page into your language do it by this way:**
 
+**page title example:** 
+- [German]-Titel-of-the-origin-page
+- [Spanish]-Titel-of-the-origin-page
+- [Italian]-Titel-of-the-origin-page
+
+and so on.
+*** 
 
 
 
