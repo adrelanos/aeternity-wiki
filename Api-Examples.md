@@ -75,7 +75,6 @@ get(["header", 0], callback);
 [The external API is defined here](../../../src/networking/handler.erl)
 
 ***
-[Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
-
+related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
 
 
