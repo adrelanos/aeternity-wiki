@@ -10,7 +10,37 @@
 <p align = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
 <a target="_blank" href="https://twitter.com/aetrnty"> <img src="https://s24.postimg.org/4xcf9j8xh/Follow-_Twitter.jpg?2"></a>
 </p>
-æternityは、Bitcoin、Ethereum、Augurなどの既存のプラットフォームを変革し、拡張する新しいタイプのブロックチェーンです。 æternityは分散型オラクルとスマートコントラクトを使い、実世界のデータを利用するためのインターフェースをサポートします。 コントラクトの負荷を軽減しネットワークの負荷を下げることによって、æternityのスケーラビリティとトラストレスなチューリング完全なステートチャネルはEthereumとは全く別なものです。 
+<b>æternity ブロックチェーン – 機能的なオラクルマシーン<p>
+
+æternityは[[Ethereum]]ネットワークをベースに作られた非常にスケーラブルなブロックチェーンプロトコルです。æternityは[[コンセンサスメカニズム]]を多重使用しないので、[[オラクル]]をチェックするのに利用できるユニークなコンセンサスメカニズムを利用することができます。 [[ステートチャネル]]はスケーラビリティとプライバシーを最大化するために実装されてます。チャネルの[[トークン]]は、オラクルの結果にアクセスできる機能的な[[スマートコントラクト]]を使用し、送受信することができます。æternityはスマートコントラクトの高速化や簡易化を実現します。なぜならスマートコントラクトの機能になんら悪影響もなく、ブロックチェーン、すなわちオンチェーン上にコントラクトコードやその状態を記録する必要もないからです。 <p>
+
+[[ホワイトペーパー]]はæternityのアーキテクチャとポテンシャルとユースケースについて紹介するために公開されました。 æternityは[[予測市場]]と[[総合的な資産]]に関することを世界規模で動かすことができます。 <p>
+
+<b>どのようにしてæternityブロックチェーンはスマートコントラクトプラットフォームを提供できますか？<p>
+
+現在利用可能なスマートコントラクトプラットフォームは、十分なスケーラビリティー、安全なコーディング、比較的安価な実世界のデータへのアクセスの欠如という3つの主な問題点があります。<p>
+
+<ol>
+<li>現在普及しているステートフルな設計は、スマートコントラクトや、スマートコントラクトプラットフォームのためにコードされたものを分析するのはむしろ難しくなってます。さらに、statfefulnessはトランザクションの順番付けによりスケーラビリティが低下します。
+<li>実世界のデータを分散型かつ信頼性の高い方法でトラストレスなスマートコントラクトプラットフォームに導入することは、ハードルが高くそのため多くの有益なアプリケーションの実現を阻害していた。
+<li>ほとんどのスマートコントラクトプラットフォームは新しい技術や経済的なものに対処するために、アップデートする手段や能力が限られています。</ol><p>
+
+Recent studies of the state channel technology have proven that, in many instances, storing state on-chain is unnecessary. In most cases, all data can be stored in state channels, and the blockchain would be only used to settle the economic results of exchange of information and/or to act as a fallout whenever a dispute occurs. This represents an alternative blockchain architecture approach, which is marked by [[Turing-complete]] smart contracts that exist in state channels but not on the blockchain. This would boost scalability as all transactions are independent and can be processed in parallel. Furthermore, this approach means that smart contracts will not write to [[shared state]], which will greatly simplify contracts’ testing and verification.<p>
+
+[[Augur]] is a decentralized prediction market that attempted to integrate real-world data with the blockchain in a decentralized manner via a process that implements a consensus mechanism on smart contracts, rather than implementing the consensus mechanism provided by the underlying blockchain. This will result in inefficiencies, yet it won’t boost security. So, it is logically better to generalize the consensus mechanism of the blockchain so that it can provide information on the next [[internal state]] as well as on the external world’s state. So, we can assume that the blockchain’s consensus mechanism dictates the outcome of executing what [[complexity theory]] describes as an “[[oracle machine]]”. An oracle machine is a theoretical machine that is far more powerful than a [[Turing machine]] due to the fact that it can bear answers to questions whose answers cannot be computed such as “Who won the Super Bowl in 2016?”<p>
+
+<b>Overview and Applications of æternity:<p>
+
+æternity is a blockchain protocol that is designed to solve all the aforementioned problems that are challenging smart contract platforms. æternity provides a highly efficient system for transferring value. Practically speaking, æternity represents a global oracle machine that can be utilized to provide decision making services on an enormous scale.<p>
+
+The stateless nature of æternity’s smart contracts makes it ideal for building a myriad of applications including:<ol>
+<li>Identities: Each account will be associated with a [[unique ID number]]. Users will be allowed to register distinctive names and link them to a data structure’s [[Merkle]] root.
+<li>Wallet: the [[wallet]] manages the cryptocurrency, Aeon, [[private keys]], sends and signs transactions. It can also be used to create channel transactions and use apps within the [[channel network]].
+<li>Toll API: Payment channels open the door to a novel type of APIs where a user can pay for every API request. [[Toll API]]s mitigate [[DDoS]] problems and simplify the creation of high quality APIs.
+<li>Insured Crowdfunding: [[Insured crowdfunding]] can be implemented via means of [[dominant assurance contracts]], which are smart contracts that are created to raise money for a good cause.
+<li>Others: other possible applications include [[cross-chain atomic swaps]], [[event contracts]] (e.g. insurance, whistleblowing) and prediction markets. </ol><p>
+
+<i>Extracted from deepdotweb.com article by Tamer Sameeh from Feb 28, 2017. 
 
 [comment]: <> (Using a table to clear the floated image! doesn't seem to be a nice markdown way!)
 <table border=0>
