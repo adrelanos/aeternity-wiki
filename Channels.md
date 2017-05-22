@@ -57,4 +57,4 @@ is in the channel. The 2 accounts ids that control the channel.
 ***
 read also this: [channels untrusted slasher](channels_untrusted_slasher), [how_to_use_channels](how_to_use_channels)
 ***
-[Zack’s - TOC Aeternity Blockchain Documentation](Zack_Docs_TOC)
+[Source: Zack docs](../../../zack-bitcoin/testnet/blob/master/docs/channels.md)
