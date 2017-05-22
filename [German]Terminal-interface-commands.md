@@ -1,7 +1,7 @@
 <link rel="alternate" href="https://github.com/aeternity/wiki/wiki/Terminal-interface-commands" hreflang="x-default" />
 <link rel=„alternate" href="https://github.com/aeternity/wiki/wiki/%5BGerman%5DTerminal-interface-commands" hreflang="de-de" />
 
-### Terminal interface commands
+### Terminal interface commands - Deutsch
 
 
 **Was meinen wir mit Terminal interface commands?**
@@ -38,11 +38,10 @@ Hinweis: Wenn diese Dokument nicht in deiner gewünschten Sprache hier existiert
 
 ***
 lese mehr: [Dokumente in deutsch]([German]-æternity-TOC)
+***
+Probleme? [prüfe ob offene Probleme existieren](https://github.com/aeternity/testnet/issues?q=cli) 
 
 
-
-
-[⇒](source) Testnet Commands
 
 
 + This document well be edited this moment (22.May.2017) by @zwilla and is a port of the All Commands Documentation
