@@ -33,7 +33,8 @@ die Befehle auch dein Konto und wenn du kein Backup hast um dein Konto zurück z
 
 Hinweis: Wenn diese Dokument nicht in deiner gewünschten Sprache hier existiert kannst du alternativ die Fussleiste benutzen, von dort kannst du dir jede Seite in deine Sprache übersetzen lassen. (Google Translator)
 
-
+***
+lese mehr: [Dokumente in deutsch]([German]-æternity-TOC)
 
 
 
