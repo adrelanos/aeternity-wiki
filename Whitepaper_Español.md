@@ -37,4 +37,4 @@ serán distribuidos.
 
 ***
 
-Descargue el documento completo donde: [Cadena de Bloques Æternity](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
+Descargue el documento completo donde: [Cadena de Bloques æternity](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
