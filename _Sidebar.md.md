@@ -21,7 +21,7 @@
 * [Getting Started][started]
 * [Contracts][contracts]
 * [Mining][mining]
-* [Ubuntu Node Commands](Ubuntu-node-commands)
+* [Terminal interface commands](Terminal_interface_commands)
 * [Transaction Types](Transaction-Types)
 * [Troubleshooting][troubleshooting]
 ***
