@@ -55,7 +55,7 @@ _This will be rapidly expanded._
 * [[Bounty]]
 * [[Idea Box]]
 * [[Community]]
-* [[Wikepedia page]]
+* [[Wikipedia page]]
 
 ## External Resources
 [æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
