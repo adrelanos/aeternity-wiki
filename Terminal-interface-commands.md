@@ -23,6 +23,7 @@ List:
    * [Signing](#signing)
    * [Passwords and Keys](#passwords-and-keys)
    * [Channels](#channels)
+   * [Contracts](#contracts)
 ### Sync with the network
 To sync with a network and download blockchain:
 ```
@@ -174,11 +175,8 @@ easy:channel_timeout().
     
 
 
-
-
-
-
-
+### Contracts
+* coming soon
 ## 
 
 
@@ -189,6 +187,5 @@ easy:channel_timeout().
 # 
 
 Source: zack-bitcoin, keypair and stefek99 [/aeternity/testnet](https://github.com/aeternity/testnet/blob/master/README.md) and [/testnet/docs](https://github.com/aeternity/testnet/blob/master/docs/keys.md)
-
 
 
