@@ -37,14 +37,14 @@
 
 
 [todo]: Wiki-Guidelines-&-To-Do's
-[understandAE]: Understanding-Aeternity
+[understandAE]: Understanding-æternity
 [faq]: Frequently-Asked-Questions
-[tech]: Aeternity-Technology
+[tech]: æternity-Technology
 [research]: Research-and-Theory
 [doc]: æternity-Documentation
 [blockchainAndAE]: %C3%A6ternity-in-the-blockchain-space
-[contracts]: Aeternity-Contracts
-[team]: Aeternity-Team
+[contracts]: æternity-Contracts
+[team]: æternity-Team
 [bounty]: Bounty
 [ledgerclaim]: Claiming-Your-Ledger
 [started]: Getting-Started
