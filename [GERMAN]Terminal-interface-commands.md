@@ -13,23 +13,25 @@ Wofür die Befehle sind und wozu diese gut sind erfährst du hier.
 Diese Befehle sind solche mit denen du alles möglich innerhalb der æternity software tun kannst.
 Die Commandos die du hiermit los lassen kannst werden von vielen internen Modulen gesteuert.
 
-Im Vergleich zu den [API Befehlen]([German]API-Commands) welche nur auf zwei interne Module zugreifen können,
+Im Vergleich zu den [API Befehlen]([German]API-Commands) welche **nur* auf zwei interne Module zugreifen können,
 ist mit den **CLI** wirklich alles möglich.
 
 Einzige Voraussetzung ist, dass diese CLI Befehle nur an der Maschine ausgeführt werden können auf der du die
 æternity software installiert hast.
 
-Die [Api Beispiele]([GERMAN]Api-Examples) welche von extern gesteuert werden können greifen nur aus diese zwei Module zu:
+Die [Api Beispiele]([GERMAN]Api-Examples), welche von extern gesteuert werden können greifen nur aus diese zwei Module zu:
 
  - [internal_handler.erl](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) und 
  - [handler.erl](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
- - diese Module findest di hier [Networking](../../../aeternity/testnet/blob/master/src/networking/)
+ - diese Module findest du hier [Networking](../../../aeternity/testnet/blob/master/src/networking/)
 
 ***
+**WARNUNG! Die Befehle machen genau das was du von Ihnen erwarten kannst! Als Beispiel: Lösche mein Konto, dann löschen
+die Befehle auch dein Konto und wenn du kein Backup hast um dein Konto zurück zu holen, dann sind auch deine Werte verloren.**
+
 Übersetzungen: [english Terminal interface commands](Terminal-interface-commands)
 
-Hinweis: Wenn diese Dokument nicht in deiner gewünschten Sprache hier existiert kannst du alternativ die Fussleiste benutzen
-von dort kannst du dir jede Seite in deine Sprache übersetzen lassen.
+Hinweis: Wenn diese Dokument nicht in deiner gewünschten Sprache hier existiert kannst du alternativ die Fussleiste benutzen, von dort kannst du dir jede Seite in deine Sprache übersetzen lassen. (Google Translator)
 
 
 
