@@ -9,7 +9,7 @@ commandline tools. For those commands and what you can do with them is this page
 ## What you must know before!
 
 This commands are _internal commands_ this internal commands of æternity are handled by an internal module called
-(internal_handler.erl) this module you finde under the sources folder „Networking“
+(internal_handler.erl) this module you finde under the sources folder „Networking“ inside this [file](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) 
 
 
 
