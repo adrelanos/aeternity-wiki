@@ -1,6 +1,7 @@
 **Abstrakt**
 
-Seit der Einführung von Ethereum im Jahr 2014 herrscht großes Interesse an dezentralisierten vertrauenswürdigen Anwendungen (smart contracts). Infolgedessen haben viele versucht, Anwendungen mit realen Weltdaten auf einer Blockchain zu implementieren. Wir glauben, dass die Speicherung der Anwendung der Staat und Code On-Kette ist aus mehreren Gründen falsch. Dies macht die Kettengrösse auf, macht die uneingeschränkten Schwachstellen auf intelligente Verträge und reduziert die Privatsphäre und verhindert so den Zugang von Blockchains für private Verwendungsfälle (Bancs, private Unternehmen, ...).
+Seit der Einführung von Ethereum im Jahr 2014 herrscht großes Interesse an dezentralisierten, vertrauenslosen Anwendungen (sogenannten Smart Contracts).
+Infolgedessen haben viele versucht, Anwendungen mit realen Weltdaten auf einer Blockchain zu implementieren. Wir glauben, dass die Speicherung der Anwendung der Staat und Code On-Kette ist aus mehreren Gründen falsch. Dies macht die Kettengrösse auf, macht die uneingeschränkten Schwachstellen auf intelligente Verträge und reduziert die Privatsphäre und verhindert so den Zugang von Blockchains für private Verwendungsfälle (Bancs, private Unternehmen, ...).
 
 Aus diesem Grund wird die æternity als die einzige Blockkette entwickelt, die durch ihr Kerndesign den Durchsatz von Mainstream-Weltnutzungsfällen aufrechterhalten kann, während sie reale Schnittstellen innerhalb ihrer Blockchain bereitstellen.
 
