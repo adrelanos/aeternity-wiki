@@ -4,7 +4,7 @@
 
 ## Dokumente in deutscher Sprache
 - [Whitepaper Deutsch](Whitepaper_Deutsch)
-- [Terminal Commands]([GERMAN]Terminal-Interface-Commands)
+- [Terminal Commands]([GERMAN]Terminal-interface-commands)
 - [Api Beispiele]([GERMAN]API-Examples)
 - [Api Befehle]([GERMAN]API-Commands)
 
