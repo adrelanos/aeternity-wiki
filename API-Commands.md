@@ -13,5 +13,5 @@ related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api Examples](Api-Exampl
 
 Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
 
-source: [api_examples.md](../../../testnet/blob/master/docs/api_examples.md), [internal CLI commands](../../../testnet/blob/master/src/networking/internal_handler.erl), [external api](../../../testnet/blob/master/src/networking/handler.erl)
+source: [api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md), [internal CLI commands](../../../../aeternitytestnet/blob/master/src/networking/internal_handler.erl), [external api](../../../../aeternitytestnet/blob/master/src/networking/handler.erl)
 *** 
