@@ -2,13 +2,6 @@
 
 Here you will learn how to handle the æternity software with the [API Commands](API-Commands)
 
-+ This document well be edited this moment (22.May.2017) by @zwilla and is a port of the All Commands Documentation
-
-Please Stop deleting it. 
-
-Thx
-
-Zwilla
 
 example of how to add a node to the list of nodes you share blocks with.
 This is an example of accessing the local api on the same machine.
@@ -37,8 +30,7 @@ first make sure that rpc.js is loaded, then you can do this:
 local_get(["add_peer", [127,0,0,1], 3010]);
 ```
 
-[The internal API is defined here](../../../aeternity/testnet/src/networking/internal_handler.erl)
-
+[The internal API is defined here](../../../testnet/blob/master/src/networking/internal_handler.erl)
 
 Now an example of accessing an api of a different node.
 This is how you request the header of the genesis block.
@@ -72,7 +64,7 @@ function callback(x) {
 get(["header", 0], callback);
 ```
 
-[The external API is defined here](../../../src/networking/handler.erl)
+[The external API is defined here](../../../testnet/blob/master/src/networking/handler.erl)
 
 ***
 related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
