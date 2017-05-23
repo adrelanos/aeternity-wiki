@@ -1,4 +1,4 @@
-# We are human
+# We are humæn
 
 Crypto believers and true experts in each of their fields, who have taken on the challenge to build æternity.
 
@@ -34,7 +34,7 @@ Intrigued by the magic of blockchain technology since early 2014, Marion is espe
 ## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Business Development
 
-As a multi-national Business Development Executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola the go to person for Strategy and Business Development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to unlimited possibilities of blockchain technologies.
+As a multi-national business development executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola is the go to person for strategy and business development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to the unlimited possibilities of blockchain technologies.
 <table></table>
 
 ***
@@ -55,7 +55,7 @@ Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, Cryp
 #### Law and regulation
 
 Lior is a corporate lawyer advising startups and investors in the blockchain space.
-He is working on decentralised autonomous non profits (Runner-up at Consensus 2016 Hackathon), and cofounder of the "DAO Tel Aviv" meetup group. Lior holds a Bachelor of Law and a B.A. in Business Administration, from Tel Aviv university.
+He is working on decentralised autonomous non profits (Runner-up at Consensus 2016 Hackathon), and cofounder of the "DAO Tel Aviv" meetup group. Lior holds a Bachelor's of Law and a B.A. in business administration from Tel Aviv University.
 <table></table>
 
 ***
@@ -109,7 +109,7 @@ The "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016) - a founder and CEO of 
 #### Advisor on POW "Cuckoo Cycle"
 
 Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational biology, and what-not.
-Recently he has been designing a new Proof-of-Work system called "Cuckoo Cycle", which æternity blockchain will be using. John is advising the æternity team on the integration of the "Cuckoo Cycle" mining algorithm.
+Recently he designed a new Proof-of-Work method called the "Cuckoo Cycle," which will be used to verify the æternity blockchain. John is advising the æternity team on the integration of the "Cuckoo Cycle" mining algorithm.
 <table></table>
 
 ***
