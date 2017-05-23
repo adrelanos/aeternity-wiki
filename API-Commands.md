@@ -16,19 +16,30 @@ inside this file:
 
 ### All æternity api functions
 
-| Function         | Variables         | Action                        |
-|:-----------------|:------------------|:------------------------------|
-| "height"         | none              | shows the latest block height |
-| "top"            |                   |                               |
-| "sign"           | TX                |                               |
-| "tx_maker"       | F                 |                               |
-| "create_account" | (NewAddr, Amount) | create new account            |
-|                  |                   |                               |
-|                  |                   |                               |
-|                  |                   |                               |
-|                  |                   |                               |
-|                  |                   |                               |
-|                  |                   |                               |
+| Function                  | Variables                                        | ok  | Action                        |
+|:--------------------------|:-------------------------------------------------|:----|:------------------------------|
+| "height"                  | none                                             | [x] | shows the latest block height |
+| "top"                     |                                                  | [x] |                               |
+| "sign"                    | TX                                               | [x] |                               |
+| "tx_maker"                | F                                                | [ ] |                               |
+| "create_account"          | (NewAddr, Amount)                                | [x] | create new account            |
+| "spend"                   | (ID, Amount))                                    |     | send tokens                   |
+| "delete_account"          | (ID)                                             |     | delete account with id        |
+| "repo_account"            | (ID)                                             |     | repo account                  |
+| "new_channel_tx"          | (CID, Acc2, Bal1, Bal2, Entropy, Delay)          |     | new channel tx                |
+| "new_channel_with_server" | (Bal1, Bal2, Delay)                              |     | new channel with server       |
+| "find_id"                 | (Name, Tree)                                     |     | find id                       |
+| "pull_channel_state"      | (IP, Port)                                       |     | pull channel state            |
+| "decrypt_msgs"            | more soon                                        |     |                               |
+| "learn_secret"            | (Secret, Code)                                   |     |                               |
+| "add_secret"              | (Code, Secret)                                   |     |                               |
+| "bet_unlock"              | (IP, Port)                                       |     |                               |
+| "teach_secrets"           | (ID, [{secret, Secret, Code}|Secrets], IP, Port) |     | teach_secrets                 |
+| "channel_spend"           | (IP, Port, Amount)                               |     |                               |
+| "lightning_spend"         | (IP, Port, Recipient, Pubkey, Amount, Fee)       |     |                               |
+| "channel_balance"         | none                                             |     |                               |
+| "dice"                    | (Amount)                                         |     |                               |
+|                           |                                                  |     |                               |
 
 
 ***
