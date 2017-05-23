@@ -86,16 +86,21 @@ inside this file:
 
 ### Actions with api commands
 
+Read this perfect page for more and detailed informations about the 
+[Transaction-Types](Transaction-Types)
 
 ***
 
 ### Setup first for using api commands
 
+Read this page, it describes an easy to use and setup for æternity Testnet
+[Testnet setup start and use](Testnet-setup-start-and-use)
+
 ***
 
 related: [Ubuntu Node Commands](Ubuntu-Node-Commands),
 [Api Examples](Api-Examples),
-[Terminal Interface Commands](Terminal-interface-commands)
+[Terminal Interface Commands](Terminal-interface-commands), [Transaction-Types](Transaction-Types)
 
 Issue?
 [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
