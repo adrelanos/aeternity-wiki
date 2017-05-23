@@ -1,6 +1,6 @@
 ## API Commands internal and external
-***
 
+***
 
 **Hier wirst du:**
 
@@ -18,8 +18,8 @@ Quelle für die Api Befehle findest du hier:
 
 | Function                    | Variablen                                  | ok  | Aktion                        |
 |:----------------------------|:-------------------------------------------|:----|:------------------------------|
-| "height"                    | none                                       | [x] | shows the latest block height |
-| "top"                       |                                            | [x] |                               |
+| "height"                    | keine notwendig                            | [x] | shows the latest block height |
+| "top"                       | keine notwendig                            | [x] |                               |
 | "sign"                      | TX                                         | [x] |                               |
 | "tx_maker"                  | F                                          | [ ] |                               |
 | "create_account"            | (NewAddr, Amount)                          | [x] | create new account            |
@@ -37,7 +37,7 @@ Quelle für die Api Befehle findest du hier:
 | "teach_secrets"             | (ID, (Secrets, IP, Port)                   | [ ] | teach_secrets                 |
 | "channel_spend"             | (IP, Port, Amount)                         | [ ] |                               |
 | "lightning_spend"           | (IP, Port, Recipient, Pubkey, Amount, Fee) | [ ] |                               |
-| "channel_balance"           | none                                       | [ ] |                               |
+| "channel_balance"           | keine notwendig                            | [ ] |                               |
 | "dice"                      | (Amount)                                   | [ ] |                               |
 | "close_channel_with_server" | (ID, IP, Port)                             | [ ] |                               |
 | "solo_close_channel"        | (ID, IP, Port)                             | [ ] |                               |
@@ -56,30 +56,30 @@ Quelle für die Api Befehle findest du hier:
 | "oracle_shares"             | (Fee, OID)                                 | [ ] |                               |
 | "oracle_unmatched"          | (Fee, OracleID, OrderID)                   | [ ] |                               |
 | "account"                   | (ID)                                       | [ ] |                               |
-| "account"                   |                                            | [ ] |                               |
-| "mempool"                   | none                                       | [ ] |                               |
-| "off"                       |                                            | [ ] |                               |
+| "account"                   | keine notwendig                            | [ ] |                               |
+| "mempool"                   | keine notwendig                            | [ ] |                               |
+| "off"                       | keine notwendig                            | [ ] |                               |
 | "mine_block"                |                                            | [ ] |                               |
 | "channel_close"             | (IP, Port, Fee)                            | [ ] |                               |
 | "add_peer"                  | (IP, Port)                                 | [ ] |                               |
 | "sync"                      | (IP, Port)                                 | [ ] |                               |
-| "pubkey"                    | none                                       | [x] |                               |
-| "address"                   | none                                       | [ ] |                               |
+| "pubkey"                    | keine notwendig                            | [x] |                               |
+| "address"                   | keine notwendig                            | [ ] |                               |
 | "address"                   | (Pub)                                      | [ ] |                               |
-| "id"                        | none                                       | [ ] |                               |
+| "id"                        | keine notwendig                            | [ ] |                               |
 | "new_pubkey"                | (Password) ["abc"]                         | [ ] |                               |
-| "channel_keys"              |                                            | [ ] |                               |
-| "test"                      | none                                       | [x] |                               |
-| "keys_status"               | none                                       | [ ] |                               |
+| "channel_keys"              | keine notwendig                            | [ ] |                               |
+| "test"                      | keine notwendig                            | [x] |                               |
+| "keys_status"               | keine notwendig                            | [ ] |                               |
 | "keys_unlock"               | (Password)                                 | [ ] |                               |
 | keys_id_update              | (ID)                                       | [ ] |                               |
 | "keys_new"                  | (Password)                                 | [ ] |                               |
-| test_it_out                 | none                                       | [ ] |                               |
+| test_it_out                 | keine notwendig                            | [ ] |                               |
 |                             |                                            | [ ] |                               |
 |                             |                                            | [ ] |                               |
 
 
-[x] = tested and ok / [ ] = untested or not working at moment
+[x] = getestet und ok / [ ] = nicht getested oder ohne Funktion 
 
 ***
 
