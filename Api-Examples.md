@@ -30,7 +30,7 @@ first make sure that rpc.js is loaded, then you can do this:
 local_get(["add_peer", [127,0,0,1], 3010]);
 ```
 
-[The internal API is defined here](../aeternity/testnet/blob/master/src/networking/internal_handler.erl)
+[The internal API is defined here](../../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl)
 
 Now an example of accessing an api of a different node.
 This is how you request the header of the genesis block.
@@ -64,11 +64,11 @@ function callback(x) {
 get(["header", 0], callback);
 ```
 
-[The external API is defined here](../aeternity/testnet/blob/master/src/networking/handler.erl)
+[The external API is defined here](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
 
 ***
 related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
 
 Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
 
-source: [api_examples.md](../../../testnet/blob/master/docs/api_examples.md)
+source: [api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md)
