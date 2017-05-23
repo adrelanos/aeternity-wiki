@@ -9,6 +9,7 @@
 * [日本語](Whitepaper_Japanese)
 * [français](Whitepaper_French)
 * [deutsch](Whitepaper_Deutsch)
+* [Türkçe](Whitepaper_Turkish)
 ***
 [**Wiki Editing Guidelines & To do list**][todo]
 ***
