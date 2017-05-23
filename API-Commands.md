@@ -1,5 +1,4 @@
-## API Commands to CURL
-
+## API Commands internal and external
 ***
 
 **Here you will:**
