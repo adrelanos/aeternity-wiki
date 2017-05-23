@@ -64,11 +64,18 @@ If you grab a To Do, please do the following:
 * [ ] Research: æternity DAO - possible?
 * [ ] Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
 * [ ] Add [Subpages](Idea-Box#subpages) to Wiki
+* [ ] Revert [THIS PAGE](Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]  
+**there has been a misunderstanding:** 
+
+[This page](https://github.com/aeternity/testnet/wiki/Understanding-%C3%A6ternity)
+    _contains revisions that are missing in the copied page, that got migrated into the new Repo by accident._
+    _Since the migration already happened, we need to somehow import the revision from the above page to here:_
+
+    _[Understanding æternity (in the new wiki repo)](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity)_
 
 ### CLOSED
 * [x] Create [[Index|_Sidebar.md]] to better find information [Jkat 17-05-05]
 * [x] Add/reorder appropriate pages to the sidebar [DanMercurius 17-05-05]
-* [x] Revert [THIS PAGE](Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]
 * [x] change absolute links to relative links [cytadela8 17-05-12]
 * [x] Add icons for social to replace text links (Aeternity-Team) [cytadela8 17-05-13]
 * [x] Migrate Wiki to new repository **github.com/aeternity/wiki**
