@@ -4,9 +4,9 @@
 
 **Hier wirst du:**
 
-- [alle Api Befehle und Funktionen finden](#all-æternity-api-functions)
-- [erfahren wofür diese sind.](#actions-with-api-commands)
-- [was du tun musst bevor du beginnst](#setup-first-for-using-api-commands)
+- [alle Api Befehle und Funktionen finden](#alle-æternity-api-functionen)
+- [erfahren wofür diese sind.](#aktionen-der-api-befehle)
+- [was du tun musst bevor du beginnst](#setup-vor-benutzung-der-api-befehle)
 - [(en)Erklärungen zu den Befehlen](Ubuntu-Node-Commands#commands)
 
 Quelle für die Api Befehle findest du hier:
@@ -14,9 +14,9 @@ Quelle für die Api Befehle findest du hier:
 
 ***
 
-### All æternity api functions
+### Alle æternity api functionen
 
-| Function                    | Variables                                  | ok  | Action                        |
+| Function                    | Variablen                                  | ok  | Aktion                        |
 |:----------------------------|:-------------------------------------------|:----|:------------------------------|
 | "height"                    | none                                       | [x] | shows the latest block height |
 | "top"                       |                                            | [x] |                               |
@@ -83,18 +83,18 @@ Quelle für die Api Befehle findest du hier:
 
 ***
 
-### Actions with api commands
+### Aktionen der Api Befehle
 
 
 ***
 
-### Setup first for using api commands
+### Setup vor Benutzung der Api Befehle
 
 ***
 
 erfahre mehr: [(en)Ubuntu Node Commands](Ubuntu-Node-Commands),
-[Api Examples]([German]Api-Examples),
-[Terminal Interface Commands]([German]Terminal-interface-commands)
+[Api Beispiel]([German]Api-Examples),
+[Terminal Interface Befehle]([German]Terminal-interface-commands)
 
 Problem?
 [Siehe hier nach ob Api Probleme vorliegen](https://github.com/aeternity/testnet/issues?q=api)
