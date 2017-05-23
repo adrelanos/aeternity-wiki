@@ -1,32 +1,57 @@
 ## API Commands to CURL
+
 ***
 
 **Here you will:**
 
 - [find all api commands which exist at this moment](#all-æternity-api-commands)
-- [learn what are they for.](#Actions-with-api-commands)
+- [learn what are they for.](#Actions-with-api-functions)
 - [what you have to setup first](#Setup-first-for-using-api-commands)
 
 The source file for the curl api commands for using with curl, you find
-inside this file: [easy.erl](../../../../aeternity/testnet/blob/master/src/networking/easy.erl)
-***
-
-### All æternity api commands
-
-
-
+inside this file:
+[easy.erl](../../../../aeternity/testnet/blob/master/src/easy.erl)
 
 ***
+
+### All æternity api functions
+
+| Function         | Variables         | Action                        |
+|:-----------------|:------------------|:------------------------------|
+| "height"         | none              | shows the latest block height |
+| "top"            |                   |                               |
+| "sign"           | TX                |                               |
+| "tx_maker"       | F                 |                               |
+| "create_account" | (NewAddr, Amount) | create new account            |
+|                  |                   |                               |
+|                  |                   |                               |
+|                  |                   |                               |
+|                  |                   |                               |
+|                  |                   |                               |
+|                  |                   |                               |
+
+
+***
+
 ### Actions with api commands
 
 
 ***
+
 ### Setup first for using api commands
 
 ***
-related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api Examples](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
 
-Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
+related: [Ubuntu Node Commands](Ubuntu-Node-Commands),
+[Api Examples](Api-Examples),
+[Terminal Interface Commands](Terminal-interface-commands)
 
-source: [api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md), [internal CLI commands](../../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl), [external api](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
+Issue?
+[check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
+
+source:
+[api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md),
+[internal CLI commands](../../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl),
+[external api](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
+
 ***
