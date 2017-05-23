@@ -176,16 +176,25 @@ by publication date:
 * [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 * [An Introduction to Cryptoeconomics and Futarchy experiments on Gnosis - by Matt Liston](https://medium.com/@consensus/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis-df85220f840a)
 
-# Research
+## Research
 
 Publications dealing with aeternity-specific technical concerns:
 
 Turing-completeness - what does it mean, and what does it enable?
+
 * [Stateful Turing-Complete Policies - by Vitalki Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
 
-State Channels - further reading.
+State Channels - further reading and examples.
 
-Blockchains - spinal column of digital currency past and present.
+* [Ethereum Lightning Network and Beyond - by Arcturnus - a discussion of state channel significance and implementation on Bitcoin and Ethereum](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/)
+
+* [Raiden - forthcoming Ethereum state channel implementation](http://raiden.network/)
+
+* [Abstracted State Channels Example by Ledger Labs](https://github.com/AnnaIsAWang/LedgerLabsCoops2016/tree/master/AbstractedStateChannel)
+
+* [Avocado - Example of an "judge" or oracle-based state channel implementation](https://github.com/jtremback/avocado)
+
+Blockchains - spinal column of cryptocurrency past, present and future.
 
 * [Bitcoin: A Peer-to-Peer Electronic Cash System - by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 
