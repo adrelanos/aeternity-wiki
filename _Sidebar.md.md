@@ -28,6 +28,7 @@
 * [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
 ***
 [**Community & Support**][contact]
+* [æternity Home Page](http://www.aeternity.com/)
 * [æternity Team][team]
 * [æternity Contribution Wallet](https://wallet.aeternity.com)
 * [Claiming Your Ledger][ledgerclaim]
