@@ -36,7 +36,7 @@ just paste the function inside the quotes. `curl -i -d ["height"]' http://localh
 
 ***
 The source file for the api commands for using with curl, you find
-inside this file: [easy.erl](../../../../aeternity/testnet/blob/master/src/networking/easy.erl)
+inside this file: [easy.erl](../../../../aeternity/testnet/blob/master/src/easy.erl)
 
 ***
 
