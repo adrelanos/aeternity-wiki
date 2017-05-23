@@ -1,31 +1,31 @@
-**API-EXAMPLES**
+**API-Beispiele**
 
-Here you will learn how to handle the æternity software with the [API Commands](API-Commands)
+Hier entdeckstu wie man mit der æternity software und den [API Befehlen]([German]API-Commands) umgeht.
 
-For accessing the commands we need a program called ‚curl‘
+Um die Befehle und Funktionen in das Ziel System zu bekommen benötigt man das Programm ‚curl‘
 
-- ‚-i (extension) = Include protocol headers in the output (H/F)‚
-- ‚-d (extension) = HTTP POST data (H)‚
+- ‚-i (Parameter) = Include protocol headers in the output (H/F)‚
+- ‚-d (Parameter) = HTTP POST data (H)‚
 
-Take a look to the first example. **"add_peer"** and inside the source command:
+Sehe die folgendes Beispiel an. **"add_peer"** and inside the source command:
 `add_peer(IP, Port) ->`
 
-Here we found two variables: IP and Port
-- IP: variable looks like this: `-define(IP, {46,101,103,165}).` = special formatted so we have to bring it into this brackets [ and ]
-- Port: `-define(Port, 8080).` = integer type
+Hier als Beispiel haben wir zwei Variablen: IP und Port
+- IP: Die Variable wurde so deklariert: `-define(IP, {46,101,103,165}).`, daraus folgt das diese in jene Klammern gesetzt werden muss [ und ]
+- Port: ist wie folgt definiert worden `-define(Port, 8080).`, als Integer Typ.
 
-Mean: Different variables types need a special formated sting to shoot the
-commnd to the server.
+Bedeuted, dass unterschiedlich definierte Variablen auch entsprechend formatiert werden müssen um an den Server
+weiter gereicht werden zu können.
 
-- integer type = [3010] or [,3010]
-- string type  = ["3010"]
-- binary type  = [<<>>]
-- buffer       = [<<"[\"dice\", 100]">>}]
-- this bracket { into this [
-- and this one } into this ]
-- more later
+- Integer Typ = [3010] or [,3010]
+- Text Typ  = ["3010"]
+- binärer Typ  = [<<>>]
+- Puffer       = [<<"[\"dice\", 100]">>}]
+- diese Klammer { wird zu dieser [
+- und diese Klammer } zu dieser hier ]
+- später mehr hierzu
 
-**Curl String formatting:**
+**Curl String Formatierung:**
 
 >["function-name", variable formatted, and so on] http://server-ip:port
 
