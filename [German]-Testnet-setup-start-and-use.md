@@ -68,29 +68,16 @@ Wähle  | BEFEHL
   zeigt laufende Sessions an| screen -w
   stopt alla Sessions | sh initd-aeternity.sh stop
 
-Warning! Community Inhalte! * 17th May 2017 @zwilla
 ***
-Translations: [German Testnet setup start and use]([German]-Testnet-setup-start-and-use)
+Hinweis! Dieser Artikel ist reine Community Arbeit! * erstellt am 17. Mai 2017 @zwilla
 ***
-Stay tuned this page will be updated recently. Feel free to add questions to this page!
+Übersetzung: [(en)Testnet setup start and use](Testnet-setup-start-and-use)
+***
+Diese Seite ist in Überarbeitung. Wenn du Fragen hast kannst du diese gerne hier anfügen!
 ***
 
-### Questions about the æternity Testnet
-add your’s here
+### Fragen zum æternity Testnet
+
 1. Hmmm..
 2. hmmm …
 3. ???
-
-***
-Note! This is a pure community content! * updated 17th May 2017 @zwilla
-***
-Page of origin: [Testnet setup start and use](Testnet-setup-start-and-use)
-***
-Stay tuned! This page will be updated recently. Feel free to add questions to this page!
-***
-
-  Donate to .. and support Zwilla:
-  * btc: -[1DaGkc1Uv4GeCSpjkrMVzCA35ENmrd526V]
-  * eth: -[0x284DbB6139e2e08cd3D3BE6f51306c19cAB04e3c]
-  * ltc: -[LNvu63U68G72KXHWP5yqSuSYpoa7ef58c7]
-  * æon: -[0x] (æternity Tokens)
