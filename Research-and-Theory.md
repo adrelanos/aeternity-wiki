@@ -186,13 +186,13 @@ Turing-completeness - what does it mean, and what does it enable?
 
 State Channels - further reading and examples.
 
-* [Ethereum Lightning Network and Beyond - by Arcturnus - a discussion of state channel significance and implementation on Bitcoin and Ethereum](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/)
+* [Ethereum Lightning Network and Beyond - by Arcturnus](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/) - a discussion of state channel significance and implementation on Bitcoin and Ethereum.
 
-* [Raiden - forthcoming Ethereum state channel implementation](http://raiden.network/)
+* [Raiden](http://raiden.network/) - forthcoming Ethereum state channel implementation.
 
-* [Abstracted State Channels Example by Ledger Labs](https://github.com/AnnaIsAWang/LedgerLabsCoops2016/tree/master/AbstractedStateChannel)
+* [Abstracted State Channels](https://github.com/AnnaIsAWang/LedgerLabsCoops2016/tree/master/AbstractedStateChannel) Example by Ledger Labs
 
-* [Avocado - Example of an "judge" or oracle-based state channel implementation](https://github.com/jtremback/avocado)
+* [Avocado](https://github.com/jtremback/avocado) - Example of an "judge" or oracle-based state channel implementation
 
 Blockchains - spinal column of cryptocurrency past, present and future.
 
