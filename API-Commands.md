@@ -1,10 +1,11 @@
 ## API Commands internal and external
 ***
 
+
 **Here you will:**
 
-- [find all api commands which exist at this moment](#all-æternity-api-commands)
-- [learn what are they for.](#Actions-with-api-functions)
+- [find all api commands which exist at this moment](#All-æternity-api-functions)
+- [learn what are they for.](#Actions-with-api-commands)
 - [what you have to setup first](#Setup-first-for-using-api-commands)
 
 The source file for the curl api commands for using with curl, you find
@@ -104,4 +105,3 @@ source:
 [external api](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
 
 ***
-
