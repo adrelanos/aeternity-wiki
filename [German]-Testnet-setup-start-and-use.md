@@ -11,13 +11,13 @@ Aus dieser Arbeit heraus ist diese neue Script geworden [initd-aeternity.sh](../
 
 So gehts? | BEFEHL
 ------------ | -------------
-Starting Testnet | `sh setup_test.sh`
-Stop Testnet | `sh initd-aeternity.sh stop`
-Access screen session 3010| `screen -r aeternity-3010`
-Access screen session 3020| `screen -r aeternity-3020`
-Access screen session 3030| `screen -r aeternity-3030`
+Testnet starten| `sh setup_test.sh`
+Stoppt das Testnet | `sh initd-aeternity.sh stop`
+Zugriff auf die Screen Session 3010| `screen -r aeternity-3010`
+Zugriff auf die Screen Session 3020| `screen -r aeternity-3020`
+Zugriff auf die Screen Session 3030| `screen -r aeternity-3030`
 
-* Tabelle 2
+(Tabelle 1)
 ***
 
 # Wie sind die Abläufe?
@@ -36,7 +36,7 @@ wird drei neue Ordner anlegen „testnet-folder“ oberhalb des Ordners von dem 
  * Dann wir die Testnet App compiled und das Testnet von überflüssigem gereinigt.
  * Für jeden Server der erforderlich ist (3) wird ein eigener NODE gestartet!
 
- Du kannst jeden aeternity Node über seine Screen Session aufrufen (sieh Tabelle 2).
+ Du kannst jeden aeternity Node über seine Screen Session aufrufen (sieh Tabelle 1).
  * Node 3010 starts as mining node
  * Node 3020 and 3030 as full node
 
@@ -57,6 +57,8 @@ Wähle  | BEFEHL
  (5) run tests!        | startet die lightning Tests
  (6) exit!             | beendet dieses Script/Menu
 
+(Tabelle 2)
+***
  __**Screen session how to:**__
 
   Aktion  | How to
