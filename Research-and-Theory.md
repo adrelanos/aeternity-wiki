@@ -178,13 +178,17 @@ by publication date:
 
 ## Research
 
-Publications dealing with aeternity-specific technical concerns:
+Publications dealing with æternity-specific technical concerns:
 
 Turing-completeness - what does it mean, and what does it enable?
 
 * [Stateful Turing-Complete Policies - by Vitalki Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
 
+* [Godfather of Ethereum - by Yanislav Georgiev Malahov](https://medium.com/@yanislav/king-of-bitcoin-godfather-of-ethereum-a9af9ecf56d5)
+
 State Channels - further reading and examples.
+
+* [From Smart Contracts to Courts with not so Smart Judges - by Christian Reitwiessner ](https://blog.ethereum.org/2016/02/17/smart-contracts-courts-not-smart-judges/)
 
 * [Ethereum Lightning Network and Beyond - by Arcturnus](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/) - a discussion of state channel significance and implementation on Bitcoin and Ethereum.
 
