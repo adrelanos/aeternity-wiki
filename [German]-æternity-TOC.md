@@ -9,13 +9,14 @@
 - [Api Beispiele]([GERMAN]API-Examples)
 - [Api Befehle]([GERMAN]API-Commands)
 - [æternity Testnet installieren]([German]-install-æternity-Testnet)
+- [Testnet Setup, start und Handling]([German]-Testnet-setup-start-and-use)
 
 (falls im Moment ein Link ins leere führt, liegt es daran, dass die
 Seite gerade in Bearbeitung ist. Danke für dein Verständnis)
 
 ***
 
-**Translate æternity Wiki mit dem Google Translator**
+**Übersetze æternity Wiki mit dem Google Translator**
 * [Wiki Home Deutsch](https://translate.google.com/translate?sl=en&tl=de&u=https://github.com/aeternity/wiki/wiki/)
 
 Werde Teil der æternity Community und helfe mit die Wiki Seiten in
