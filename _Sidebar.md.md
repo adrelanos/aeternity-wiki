@@ -21,6 +21,7 @@
 * [æternity in the Blockchain space][blockchainAndAE]
 * [æternity Contracts][contracts]
 * [[State Channels]]
+* [[Oracles]]
 * [Mining][mining]
 * [Terminal interface commands](Terminal-interface-commands)
 * [Transaction Types](Transaction-Types)
