@@ -16,9 +16,7 @@ ca functioneaza fara a inregistra un cod de contract in blockchain
 A fost publicata si o lucrare explicativa (White Paper) care explica
 arhitectura din spatele æternity, impreuna cu potentialele sale
 utilizari. æternity poate fi folosit global in piete de predictie si
-piete de active sintetice. **Whitepaper**
-* [Whitepaper (Korean)][WP_kr]
-
+piete de active sintetice. 
 
 **Translate æternity Wiki with Google Translator**
 * [Home Romanian](https://translate.google.com/translate?sl=en&tl=ro&u=https://github.com/aeternity/wiki/wiki/)
