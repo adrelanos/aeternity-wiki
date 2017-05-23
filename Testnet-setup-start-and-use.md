@@ -82,9 +82,3 @@ Translations: [German Testnet setup start and use]([German]-Testnet-setup-start-
 ***
 Stay tuned this page will be updated recently. Feel free to add questions to this page!
 ***
-
-  Donate to .. and support Zwilla:
-  * btc: -[1DaGkc1Uv4GeCSpjkrMVzCA35ENmrd526V]
-  * eth: -[0x284DbB6139e2e08cd3D3BE6f51306c19cAB04e3c]
-  * ltc: -[LNvu63U68G72KXHWP5yqSuSYpoa7ef58c7]
-  * æon: -[0x] (æternity Tokens)
