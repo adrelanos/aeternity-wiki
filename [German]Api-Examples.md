@@ -7,7 +7,7 @@ Um die Befehle und Funktionen in das Ziel System zu bekommen benötigt man das P
 - ‚-i (Parameter) = Include protocol headers in the output (H/F)‚
 - ‚-d (Parameter) = HTTP POST data (H)‚
 
-Sehe die folgendes Beispiel an. **"add_peer"** and inside the source command:
+Sehe die folgendes Beispiel an. **"add_peer"** im Quellcode sieht das so aus:
 `add_peer(IP, Port) ->`
 
 Hier als Beispiel haben wir zwei Variablen: IP und Port
@@ -27,12 +27,14 @@ weiter gereicht werden zu können.
 
 **Curl String Formatierung:**
 
->["function-name", variable formatted, and so on] http://server-ip:port
+Folgendermaßen sind die Strings auf gebaut:
+
+>["Functions-Name", formatierte Variable, und immer so weiter] http://server-ip:port
 
 
-**Call a function:**
+**Eine Funktion oder einen Befehl aufrufen:**
 
-just paste the function inside the quotes. `curl -i -d ["height"]' http://localhost:3011`
+Einfach die gewünschte Funktion auswählen [link]([German]Api-Commands). `curl -i -d ["height"]' http://localhost:3011`
 
 ***
 The source file for the curl api commands for using with curl, you find
@@ -111,8 +113,8 @@ get(["header", 0], callback);
 [The external API is defined here](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
 
 ***
-related: [Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands](Api-Examples), [Terminal Interface Commands](Terminal-interface-commands)
+mehr erfahren: [(en)Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands]([German]Api-Commands), [Terminal Interface Commands]([German]Terminal-interface-commands)
 
-Issue? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
+Probleme? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
 
-source: [api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md)
+Quelle: [(en)api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md)
