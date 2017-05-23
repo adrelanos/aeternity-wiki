@@ -15,6 +15,23 @@ The dedicated Wiki channel on Slack is [HERE](https://aeternity.slack.com/messag
 * read the wiki content, regarding your topic especially thoroughly, before adding any new content (duplicated content will not be counted as wiki bounty)
 * Ask in the [Slack Wiki Channel](https://aeternity.slack.com/messages/C59BALQCE/details/) if the content is somewhat meaningful 
 
+## Page translations
+
+**If you translate a page into your language please use the following taxonomy:**
+
+**page title example:** 
+- [German]-Titel-der-original-Seite
+- [Spanish]-Título-de-la-página-de-origen
+- [Italian]-Titolo-della-pagina-di-origine
+
+and so forth.
+
+## Handling of page titles
+
+- **Do not change** the name of the page titles until 30th of May 2017.
+This sometimes breaks the commit history (if 'unsupported' characters are contained in the title) by creating a new page.
+Some contributors have lost their edits because of this; @zwilla and @DanMercurius accidentally did so, and both are really sorry for that!
+
 ## Adding images
 * Please open an [issue / ticket](https://github.com/aeternity/wiki/issues)
 * Upload Your image, including a short reason & link to the page you want to use it
