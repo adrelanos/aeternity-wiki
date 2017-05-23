@@ -1,4 +1,4 @@
-# How do contracts work
+# How do contracts work?
 
 On the æternity network, smart contracts only exist in off-chain state channels. In case of disagreement between the parties in the channel, the smart contract code gets enforced by the æternity blockchain. In essence, the underlying blockchain acts to enforce and mitigate any disagreements between contracting parties in a transaction. The rest of the contracts are executed off-chain, ensuring fast and private execution.
 
@@ -51,18 +51,18 @@ The blockchain is only used to settle the final outcome or to resolve conflicts 
 
 Despite how on-chain state settlement is limited to the transfer of Aeon, æternity still features a Turing-complete virtual machine that can run “smart contracts”. Contracts on æternity are strictly agreements that distribute funds according to some rules. This stands in stark contrast to the entity-like contracts of e.g. Ethereum. Two of the more notable practical differences are that, by default, only the involved parties know about a given contract and only parties that have an open state channel can create a valid contract. If the parties agree to a contract, they sign it and keep copies for future reference. It is only submitted to the blockchain if its outcome is disputed, in which case the code is only ever stored as part of the submitted transaction, never in any other state. If this happens, the blockchain distributes the tokens according to the contract and closes the channel.
 
-# Contracts interaction
+# Contract interaction
 
 Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a simple hash locking operation. [(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
 the execution of code branches in different contracts on the existence of the same secret value. A simple usage example is how hashlocks make it possible for users to trustlessly send each other Aeon as long as there is a path of channels between them: even when they don’t share the same state channel.
 
 
-# How & when are contracts executed?
+# How and when are contracts executed?
 
 Contract execution is metered in a way similar to Ethereum’s “gas”, but æternity uses two different resources for its metering, one for time and one for space. Both of these resources are paid for using Aeon (AE) by the party that requests the execution. This could be seen as undesirable because it is probably another party that is causing the need for the blockchain to resolve the dispute in the first place. However, as long as all money in the channel is not used for betting, this can be effectively nullified in the contract code, since it has the ability to redistribute funds from one party to the other. It is in fact generally good practice to avoid using all funds in a channel to transact because it disincentivizes the losing party to cooperate when closing the channel.
 
 # Writing a contract:
-Documentation to syntax and sample common code.
+Documentation of syntax and samples of common code.
 
 [(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) 
 
