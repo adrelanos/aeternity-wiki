@@ -7,6 +7,7 @@
 - [find all api commands which exist at this moment](#all-æternity-api-functions)
 - [learn what are they for.](#actions-with-api-commands)
 - [what you have to setup first](#setup-first-for-using-api-commands)
+- [some commands explained](Ubuntu-Node-Commands#comands))
 
 The source file for the curl api commands for using with curl, you find
 inside this file:
