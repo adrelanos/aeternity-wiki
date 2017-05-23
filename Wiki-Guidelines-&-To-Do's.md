@@ -67,7 +67,7 @@ If you grab a To Do, please do the following:
 * [ ] Revert [THIS PAGE](Understanding-Aeternity) back to the revision before content was deleted [davidiach 17-05-06]  
 **there has been a misunderstanding:** 
 
-[This page](https://github.com/aeternity/testnet/wiki/Understanding-%C3%A6ternity)
+[This page](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity)
     _contains revisions that are missing in the copied page, that got migrated into the new Repo by accident._
     _Since the migration already happened, we need to somehow import the revision from the above page to here:_
 
