@@ -2,9 +2,46 @@
 
 Here you will learn how to handle the æternity software with the [API Commands](API-Commands)
 
+For accessing the commands we need a program called ‚curl‘
 
-example of how to add a node to the list of nodes you share blocks with.
-This is an example of accessing the local api on the same machine.
+- ‚-i (extension) = Include protocol headers in the output (H/F)‚
+- ‚-d (extension) = HTTP POST data (H)‚
+
+Take a look to the first example. **"add_peer"** and inside the source command:
+`add_peer(IP, Port) ->`
+
+Here we found two variables: IP and Port
+- IP: variable looks like this: `-define(IP, {46,101,103,165}).` = special formatted so we have to bring it into this brackets [ and ]
+- Port: `-define(Port, 8080).` = integer type
+
+Mean: Different variables types need a special formated sting to shoot the
+commnd to the server.
+
+- integer type = [3010] or [,3010]
+- string type  = ["3010"]
+- binary type  = [<<>>]
+- buffer       = [<<"[\"dice\", 100]">>}]
+- this bracket { into this [
+- and this one } into this ]
+- more later
+
+**Curl String formatting:**
+
+>["function-name", variable formatted, and so on] http://server-ip:port
+
+
+**Call a function:**
+
+just paste the function inside the quotes. `curl -i -d ["height"]' http://localhost:3011`
+
+***
+The source file for the api commands for using with curl, you find
+inside this file: [easy.erl](../../../../aeternity/testnet/blob/master/src/networking/easy.erl)
+
+***
+
+1. Example of how to add a node to the list of nodes you share blocks
+with. This is an example of accessing the local api on the same machine.
 
 ```
 curl -i -d '["add_peer", [127,0,0,1], 3010]' http://localhost:8041
@@ -22,17 +59,22 @@ Access-Control-Allow-Origin: *
 
 "ok"
 ```
+***
 
-example of executing this api request from javascript
+2. Example: Executing this api request from **javascript**
 first make sure that rpc.js is loaded, then you can do this:
 
 ```
 local_get(["add_peer", [127,0,0,1], 3010]);
 ```
+***
 
 [The internal API is defined here](../../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl)
 
-Now an example of accessing an api of a different node.
+***
+
+1. Example: Now an example of accessing an api of a different node.
+
 This is how you request the header of the genesis block.
 Notice that the ip for external api is one lower than the ip for the api
 that is only on the same node.
@@ -53,8 +95,9 @@ Access-Control-Allow-Origin: *
 
 ["ok","AAAAAAAAAAAAAAAA1oYN5PPka/zJxej5AAAAAAAP8AAB"]
 ```
+***
 
-Here is an example of accessing the genesis block from javascript
+4. Example: Here is an example of accessing the genesis block from javascript
 
 ```
 function callback(x) {
