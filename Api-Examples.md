@@ -73,7 +73,8 @@ local_get(["add_peer", [127,0,0,1], 3010]);
 
 ***
 
-1. Example: Now an example of accessing an api of a different node.
+
+3. Example: Now an example of accessing an api of a different node.
 
 This is how you request the header of the genesis block.
 Notice that the ip for external api is one lower than the ip for the api
