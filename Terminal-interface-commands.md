@@ -20,7 +20,7 @@ The [api-examples page](Api-Examples) will only access to the commands inside th
 ***
 Translations: [German Terminal interface commands]([GERMAN]Terminal-interface-commands)
 
-Note: If this document does not exist on you language please use the footer bar to translate into your desired language. thx.
+Note: If this document does not exist for your language yet, please use the footer bar to translate into your desired language. thx.
 
 Issue? [check now for an issue about the cli](https://github.com/aeternity/testnet/issues?q=cli)
 ***
