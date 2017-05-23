@@ -178,7 +178,22 @@ by publication date:
 
 # Research
 
-Eg.) Turing, State Channels, Blockchain etc.
+Publications dealing with aeternity-specific technical concerns:
+
+Turing-completeness - what does it mean, and what does it enable?
+*[Stateful Turing-Complete Policies - by Vitalki Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
+
+State Channels - further reading.
+
+Blockchains - spinal column of digital currency past and present.
+
+[Bitcoin: A Peer-to-Peer Electronic Cash System - by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
+
+Nontraditional DRAM architectures - background on innovations in Tromp's Cuckoo Cycle.
+
+*[Rethinking DRAM Design and Organization for Energy-Constrained Multi-Cores - by Udipi et al.](https://www.cs.utah.edu/~rajeev/pubs/isca10.pdf)
+
+*[The Dynamic Granularity Memory System - Yoon et. al](http://mbsullivan.info/attachments/papers/yoon2012dgms.pdf)
 
 # Working Theories
 
