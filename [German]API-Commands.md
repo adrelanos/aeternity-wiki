@@ -88,10 +88,15 @@ wurde. Vielen herzlichen Dank!
 
 ### Aktionen der Api Befehle
 
+Diese Seite enthält wertvolle Informationen  hierzu
+[(en) Transaction-Types](Transaction-Types)
 
 ***
 
 ### Setup vor Benutzung der Api Befehle
+
+Hier erhälst du alles was du zum Installieren eines æternity Testnet Servers/Node benötigst.
+[Testnet setup start und Handling]([German]-Testnet-setup-start-and-use)
 
 ***
 
