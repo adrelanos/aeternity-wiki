@@ -4,17 +4,17 @@
 
 **Hier wirst du:**
 
-- [alle Api Befehle und Funktionen finden](#alle-æternity-api-functionen)
+- [alle Api Befehle und Funktionen finden](#alle-æternity-api-funktionen)
 - [erfahren wofür diese sind.](#aktionen-der-api-befehle)
 - [was du tun musst bevor du beginnst](#setup-vor-benutzung-der-api-befehle)
-- [(en)Erklärungen zu den Befehlen](Ubuntu-Node-Commands#commands)
+- [weitere (en)Erklärungen zu den Befehlen](Ubuntu-Node-Commands#commands)
 
 Quelle für die Api Befehle findest du hier:
 [easy.erl](../../../../aeternity/testnet/blob/master/src/easy.erl)
 
 ***
 
-### Alle æternity api functionen
+### Alle æternity Api Funktionen
 
 | Funktionen                  | Variablen                                  | ok  | Aktion                             |
 |:----------------------------|:-------------------------------------------|:----|:-----------------------------------|
