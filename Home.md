@@ -36,13 +36,10 @@ The stateless nature of æternity’s smart contracts makes it ideal for buildin
 <i>Extracted from deepdotweb.com article by Tamer Sameeh from Feb 28, 2017. 
 
 ## Learn More
+[æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
+
 The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/), feel free to join us!
 _This will be rapidly expanded._
-
-* [[Wikipedia page]]
-
-## External Resources
-[æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
 
 [Whitepaper_English]: Whitepaper_English
 [Whitepaper_Korean (한국어)]: Whitepaper_Korean-(한국어)
