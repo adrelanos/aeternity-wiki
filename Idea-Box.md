@@ -121,7 +121,7 @@ Source: [Cryptocoinnews](https://www.cryptocoinsnews.com/hundreds-charging-stati
 ## Decentralized Education Marketplace on æternity
 
 We can utilize æternity's powerful features to disrupt education with blockchain by creating an open marketplace where students and teachers alike, can trade private or group lessons. It should include social profiles of both teachers and students, gamification etc. Also, by Using æternity oracle, students can allow more than one teacher to rate a test, exam or work in general.
-
+[Taken from here](https://github.com/aeternity/wiki/wiki/Humanistic-Use-Cases#education-marketplace)
  
 
 ## Toll API
