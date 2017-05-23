@@ -1,13 +1,13 @@
 **API-Beispiele**
 
-Hier entdeckstu wie man mit der æternity software und den [API Befehlen]([German]API-Commands) umgeht.
+Hier entdecks du wie man mit der æternity software und den [API Befehlen]([German]API-Commands) umgeht.
 
 Um die Befehle und Funktionen in das Ziel System zu bekommen benötigt man das Programm ‚curl‘
 
 - ‚-i (Parameter) = Include protocol headers in the output (H/F)‚
 - ‚-d (Parameter) = HTTP POST data (H)‚
 
-Sehe die folgendes Beispiel an. **"add_peer"** im Quellcode sieht das so aus:
+Sehe dir folgendes Beispiel an. **"add_peer"** im Quellcode sieht das so aus:
 `add_peer(IP, Port) ->`
 
 Hier als Beispiel haben wir zwei Variablen: IP und Port
@@ -37,19 +37,18 @@ Folgendermaßen sind die Strings auf gebaut:
 Einfach die gewünschte Funktion auswählen [link]([German]Api-Commands). `curl -i -d ["height"]' http://localhost:3011`
 
 ***
-The source file for the curl api commands for using with curl, you find
-inside this file: [easy.erl](../../../../aeternity/testnet/blob/master/src/networking/easy.erl)
+Zugriff auf den Quellcode der Befehle und Funktionen erhälst du hier: [(en)easy.erl](../../../../aeternity/testnet/blob/master/src/networking/easy.erl)
 
 ***
 
-1. Example of how to add a node to the list of nodes you share blocks
-with. This is an example of accessing the local api on the same machine.
+1. Beispiel zum Hinzufügen eines æternity-Servers mit dem du deine Blöcke teilen / syncronisieren möchtest.
+In diesem Beispiel sind beide æternity-Server auf der gleichen Maschine.
 
 ```
 curl -i -d '["add_peer", [127,0,0,1], 3010]' http://localhost:8041
 ```
 
-#example response
+#Beispiel einer æternity-Server Antwort
 
 ```
 HTTP/1.1 200 OK
@@ -63,30 +62,35 @@ Access-Control-Allow-Origin: *
 ```
 ***
 
-2. Example: Executing this api request from **javascript**
-first make sure that rpc.js is loaded, then you can do this:
+2. Beispiel: Api Zugriff von einem Javascript aus.
+Versichere dich, dass die Datei 'rpc.js' geladen ist:
 
 ```
 local_get(["add_peer", [127,0,0,1], 3010]);
 ```
 ***
 
-[The internal API is defined here](../../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl)
+[(en)Interner API Quellcode](../../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl)
 
 ***
 
 
-3. Example: Now an example of accessing an api of a different node.
+3. Beispiel: Abfrage des Headers eines anderen æternity-Node/Server's
 
-This is how you request the header of the genesis block.
-Notice that the ip for external api is one lower than the ip for the api
-that is only on the same node.
+Hiermit wird der "Genesis Block" abgefragt:
 
 ```
 curl -i -d '["header", 0]' http://localhost:8040
 ```
 
-example response
+Beachte bitte das die PortNummern (hier 8040) und (8041) sich anders verhalten.
+- 8040 ist für externe Zugriffe gedacht und
+- 8041 ist nur für interne Zugriffe geschaffen
+- Startest du deinen Server mit dem Port 3310 dann ist immer um eines höher der Port für den internen Zugriff.
+Es ist aber auch möglich direkt in den Quellcode einzugreifen und den Abstand manuel fest zu legen.
+
+
+Beispiel einer æternity-Server Antwort
 
 ```
 HTTP/1.1 200 OK
@@ -100,7 +104,7 @@ Access-Control-Allow-Origin: *
 ```
 ***
 
-4. Example: Here is an example of accessing the genesis block from javascript
+4. Beispiel: Abfrage des "Genesis Block's" von einem Javascript aus.
 
 ```
 function callback(x) {
@@ -110,11 +114,19 @@ function callback(x) {
 get(["header", 0], callback);
 ```
 
-[The external API is defined here](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
+Der æternity-Server übermittelt diesen dann auch.
 
+[Externe Api's sind hier definiert](../../../../aeternity/testnet/blob/master/src/networking/handler.erl)
+
+Hinweis: Ein æternity-Node ist das gleiche wie ein æternity-Server
 ***
 mehr erfahren: [(en)Ubuntu Node Commands](Ubuntu-Node-Commands), [Api-Commands]([German]Api-Commands), [Terminal Interface Commands]([German]Terminal-interface-commands)
 
-Probleme? [check now for an issue about the api](https://github.com/aeternity/testnet/issues?q=api)
+Probleme? [prüfe ob es ungelöste API Fälle gibt](https://github.com/aeternity/testnet/issues?q=api)
 
 Quelle: [(en)api_examples.md](../../../../aeternity/testnet/blob/master/docs/api_examples.md)
+
+- Übersetzung: [Api Befehle(original)](Api-Commands)
+***
+
+Fragen? Kein Problem! Hier gibt es einen [Slack-Channel](https://aeternity.slack.com/)
