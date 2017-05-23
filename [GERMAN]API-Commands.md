@@ -2,15 +2,14 @@
 ***
 
 
-**Here you will:**
+**Hier wirst du:**
 
-- [find all api commands which exist at this moment](#all-æternity-api-functions)
-- [learn what are they for.](#actions-with-api-commands)
-- [what you have to setup first](#setup-first-for-using-api-commands)
-- [some commands explained](Ubuntu-Node-Commands#commands)
+- [alle Api Befehle und Funktionen finden](#all-æternity-api-functions)
+- [erfahren wofür diese sind.](#actions-with-api-commands)
+- [was du tun musst bevor du beginnst](#setup-first-for-using-api-commands)
+- [(en)Erklärungen zu den Befehlen](Ubuntu-Node-Commands#commands)
 
-The source file for the curl api commands for using with curl, you find
-inside this file:
+Quelle für die Api Befehle findest du hier:
 [easy.erl](../../../../aeternity/testnet/blob/master/src/easy.erl)
 
 ***
