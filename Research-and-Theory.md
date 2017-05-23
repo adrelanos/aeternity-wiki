@@ -176,19 +176,18 @@ by publication date:
 * [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 * [An Introduction to Cryptoeconomics and Futarchy experiments on Gnosis - by Matt Liston](https://medium.com/@consensus/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis-df85220f840a)
 
-## Research
+# Research
 
 Publications dealing with aeternity-specific technical concerns:
 
 Turing-completeness - what does it mean, and what does it enable?
-
 *[Stateful Turing-Complete Policies - by Vitalki Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
 
 State Channels - further reading.
 
 Blockchains - spinal column of digital currency past and present.
 
-*[Bitcoin: A Peer-to-Peer Electronic Cash System - by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
+[Bitcoin: A Peer-to-Peer Electronic Cash System - by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 
 Nontraditional DRAM architectures - background on innovations in Tromp's Cuckoo Cycle.
 
