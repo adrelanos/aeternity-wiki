@@ -19,12 +19,22 @@
 - [Community](Community)
 - [Wikipedia page](Wikipedia-page)
 
-### How to
-- [How to sign a message with private key][privatekeymessage]
-- [Claiming Your Ledger][ledgerclaim]
+### Research
+- [Idea Box][ideabox]
+- [Research & Theory][research]
+- [Blockchain comparison](Blockchain-comparison)
+- [Hashing ≠ Encryption](hashing--encryption)
+- [Cryptoeconomics](Cryptoeconomics)
+- [Humanistic Use Cases](hHumanistic-Use-Cases)
+
+### æternity Technologies
+- [Technology of æternity][tech]
+- [æternity in the Blockchain space][blockchainAndAE]
+- [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
+- [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
+- [æternity in the blockchain space](æternity-in-the-blockchain-space)
 
 ### Infrastructure
-
 - [Testnet setup start and use](testnet-setup-start-and-use)
 - [Ubuntu Node Commands](Ubuntu-Node-Commands)
 - [Terminal interface commands](Terminal-interface-commands)
@@ -40,20 +50,9 @@
 - [Windows Installation][wininstall]
 - [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
 
-### æternity Technologies
-- [Technology of æternity][tech]
-- [æternity in the Blockchain space][blockchainAndAE]
-- [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
-- [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
-- [æternity in the blockchain space](æternity-in-the-blockchain-space)
-
-### Research
-- [Idea Box][ideabox]
-- [Research & Theory][research]
-- [Blockchain comparison](Blockchain-comparison)
-- [Hashing ≠ Encryption](hashing--encryption)
-- [Cryptoeconomics](Cryptoeconomics)
-- [Humanistic Use Cases](hHumanistic-Use-Cases)
+### How to
+- [How to sign a message with private key][privatekeymessage]
+- [Claiming Your Ledger][ledgerclaim]
 
 ### Translations Whitepapers
 - [中文](Whitepaper_Chinese)
