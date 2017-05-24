@@ -165,17 +165,17 @@ more decentralised and not relying on a 3rd Party company or entity
 
 Here follows a collections of in-depth analysis about Futarchy ordered
 by publication date:
-* [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html) see also papers from [2013](http://mason.gmu.edu/~rhanson/futarchy2013.pdf), [2007](http://hanson.gmu.edu/futarchy2007.pdf), [2003](http://hanson.gmu.edu/futarchy2003.pdf), [2000 (original)](http://hanson.gmu.edu/futarchy2000.pdf)
-* [Futarchy vs. Predictocracy - by Robin Hanson - 01/02/2008](http://www.overcomingbias.com/2008/02/futarchy-vs-pre.html)
-* [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
-* [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
-* [Markets for the Future - by Matt Liston](https://medium.com/@ConsenSys/markets-for-the-future-c73fa73fe35d)
-* [Empirical Cryptoeconomics - by Vitalik Buterin](https://www.reddit.com/r/ethereum/comments/453sid/empirical_cryptoeconomics/)
-* [DAOs, Democracy and Governance - by Ralph C. Merkle](http://merkle.com/papers/DAOdemocracyDraft.pdf)
-* [Response to Merkle’s DAO Paper - by Dan Finlay](https://medium.com/@danfinlay/response-to-merkles-dao-paper-61d76d2dd333)
-* [BFF: A Recursive Merkle DAO - by Dan Finlay](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
-* [Merkle’s Futarchy - By Robin Hanson](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
-* [An Introduction to Cryptoeconomics and Futarchy experiments on Gnosis - by Matt Liston](https://medium.com/@consensus/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis-df85220f840a)
+* [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson - July 2000](http://mason.gmu.edu/~rhanson/futarchy.html) see also papers from [2013](http://mason.gmu.edu/~rhanson/futarchy2013.pdf), [2007](http://hanson.gmu.edu/futarchy2007.pdf), [2003](http://hanson.gmu.edu/futarchy2003.pdf), [2000 (original)](http://hanson.gmu.edu/futarchy2000.pdf)
+* [Futarchy vs. Predictocracy - by Robin Hanson - February 1st, 2008](http://www.overcomingbias.com/2008/02/futarchy-vs-pre.html)
+* [An Introduction to Futarchy - by Vitalik Buterin - August 21st, 2014](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
+* [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan - January 2015](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
+* [Markets for the Future - by Matt Liston - May 4th, 2016](https://medium.com/@ConsenSys/markets-for-the-future-c73fa73fe35d)
+* [Empirical Cryptoeconomics - by Vitalik Buterin - February 10th, 2016](https://www.reddit.com/r/ethereum/comments/453sid/empirical_cryptoeconomics/)
+* [An Introduction to Cryptoeconomics and Futarchy experiments on Gnosis - by Matt Liston - Apr 28th, 2016](https://medium.com/@consensus/an-introduction-to-cryptoeconomics-and-futarchy-experiments-on-gnosis-df85220f840a)
+* [DAOs, Democracy and Governance - by Ralph C. Merkle - May 31st, 2016 ](http://merkle.com/papers/DAOdemocracyDraft.pdf)
+* [Response to Merkle’s DAO Paper - by Dan Finlay - Jun 16th, 2016](https://medium.com/@danfinlay/response-to-merkles-dao-paper-61d76d2dd333)
+* [BFF: A Recursive Merkle DAO - by Dan Finlay - Jul 29, 2016](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
+* [Merkle’s Futarchy - By Robin Hanson - July 6th, 2016](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 
 ## Research
 
