@@ -174,8 +174,8 @@ by publication date:
 * [Markets for the Future - by Matt Liston - May 4th, 2016](https://medium.com/@ConsenSys/markets-for-the-future-c73fa73fe35d)
 * [DAOs, Democracy and Governance - by Ralph C. Merkle - May 31st, 2016 ](http://merkle.com/papers/DAOdemocracyDraft.pdf)
 * [Response to Merkle’s DAO Paper - by Dan Finlay - Jun 16th, 2016](https://medium.com/@danfinlay/response-to-merkles-dao-paper-61d76d2dd333)
-* [BFF: A Recursive Merkle DAO - by Dan Finlay - Jul 29, 2016](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
 * [Merkle’s Futarchy - By Robin Hanson - July 6th, 2016](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
+* [BFF: A Recursive Merkle DAO - by Dan Finlay - July 29th, 2016](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
 
 ## Research
 
