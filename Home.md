@@ -37,15 +37,15 @@ The stateless nature of æternity’s smart contracts makes it ideal for buildin
 
 <b>æternity Launch
 
-A Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for three days, beginning on April 3rd, 2017. In that time, contributors were able to purchase 1,100 AE for very ETH spent in the first 24 hours, and 1,000 AE per ETH thereafter. The first thousand who contributed 12 ETH or more were also entitled to a limited edition æternity branded Ledger Nano S hardware wallet. In this time period, 2466 contributers generated 139,099,689.485 AE through total contributions of 121,265.614 ETH and 323.5482 BTC. At current fiat to cryptocurrency conversion rates (as of 5/23/17), the USD value translates to $733,736.14 in BTC and $21,955,139.41 in ETH, totaling $22,688,875.55.
+The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for three days, beginning on April 3rd, 2017. In that time, contributors were able to purchase 1,100 AE for very ETH spent in the first 24 hours, and 1,000 AE per ETH thereafter. The first thousand who contributed 12 ETH or more were also entitled to a limited edition æternity branded Ledger Nano S hardware wallet. In this time period, 2466 contributers generated 139,099,689.485 AE through total contributions of 121,265.614 ETH and 323.5482 BTC. At current fiat to cryptocurrency conversion rates (as of 5/23/17), the USD value translates to $733,736.14 in BTC and $21,955,139.41 in ETH, totaling $22,688,875.55.
 
-Phase 2, the "Early Adopter" round, which begins on May 29th, and will be open for three full weeks, will allow contributors to purchase 800 AE per ETH over the first 24 hours, 750 over the remainder of the first week, 700 AE per ETH over the second week, and 650 ETH over the third week. Total contributions will be capped at twenty one million Swiss Franks (CHF).
-
-82% of the initial æternity AE tokens will be distributed to the contributors, 17% will be allocated to Aeternity Anstalt, the foundation and the founding team, and 1% will be allocated to people who hold BTC or ETH, accessible when the æternity blockchain launches. The AE tokens for the team will be time-locked.
+Phase 2, the "Early Adopter" round, which begins on May 29th, will be open for three full weeks - or until contributions reach the cap of twenty one million Swiss Franks (CHF). This round will allow contributors to purchase 800 AE for each ETH contributed over the first 24 hours, 750 over the remainder of the first week, 700 AE per ETH over the second week, and 650 ETH over the third week. As in the first round, BTC will also be accepted.
 
 Contributors will be able to use their AE after Phase 2 is complete (most probably in the form of an ERC20 token on the Ethereum network).
 
-All will be recorded on the ETH blockchain by a standard multisig-escrow-contract.
+The contributor portion will comprise eighty-two percent of the initial æternity AE tokens. Seventeen percent of funds will be allocated to Aeternity Anstalt, the foundation and the founding team, and one percent will be allocated to those who hold BTC or ETH, accessible when the æternity blockchain launches. 
+
+All will be recorded on the ETH blockchain by a standard multisig-escrow-contract. The AE tokens for the team will be time-locked.
 
 https://blog.aeternity.com/security-transparency-simplicity-1411fad10974
 
