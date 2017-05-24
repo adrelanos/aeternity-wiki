@@ -29,3 +29,6 @@ Veröffentlicht:  6. Februar 2017
 (bitte habe Verständnis dass dies Seiten aktuell unter Bearbeitung sind, gerne aber kannst du uns in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meine ich die „ æternity Community„)
 ***
 lese mehr: [Dokumente in deutsch]([German]-æternity-TOC)
+***
+**Dies ist aktuell noch keine Vollständige Übersetzung, nutze bitte die Fußleiste unten um den Inhalt in deiner Sprache**
+**anzusehen. Danke für dein Verständnis.**
