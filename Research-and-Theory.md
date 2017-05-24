@@ -165,7 +165,8 @@ more decentralised and not relying on a 3rd Party company or entity
 
 Here follows a collections of in-depth analysis about Futarchy ordered
 by publication date:
-* [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html)
+* [Futarchy: Vote Values, But Bet Beliefs - by Robin Hanson](http://mason.gmu.edu/~rhanson/futarchy.html) see also papers from [2013](http://mason.gmu.edu/~rhanson/futarchy2013.pdf), [2007](http://hanson.gmu.edu/futarchy2007.pdf), [2003](http://hanson.gmu.edu/futarchy2003.pdf), [2000 (original)](http://hanson.gmu.edu/futarchy2000.pdf)
+* [Futarchy vs. Predictocracy - by Robin Hanson - 01/02/2008](http://www.overcomingbias.com/2008/02/futarchy-vs-pre.html)
 * [An Introduction to Futarchy - by Vitalik Buterin](https://blog.ethereum.org/2014/08/21/introduction-futarchy/)
 * [Futarchy: Two-Step Democracy with Voting + Prediction Markets - by Melanie Swan](https://books.google.it/books?id=RHJmBgAAQBAJ&pg=PA51&lpg=PA51&redir_esc=y#v=onepage&q&f=false)
 * [Markets for the Future - by Matt Liston](https://medium.com/@ConsenSys/markets-for-the-future-c73fa73fe35d)
