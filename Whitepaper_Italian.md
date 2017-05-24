@@ -127,6 +127,8 @@ La blockchain è usata unicamente per risolvere l'esito finale o eventuali confl
 
 II-B.1
 #### Smart contract
+Nonostante l'unico stato che possa essere risolto on-chain sia un trasferimento di aeon, Æternity comunque dispone di una macchina virtuale Turing-complete che può gestire "smart contract". I contratti su Æternity sono tassativamente accordi che distribuiscono fondi in ottemperanza a certe regole, il che si pone in totale contrasto con i contratti di natura simil-giuridica come quelli di, per esempio, Ethereum. Due delle differenze pratiche più rimarchevoli sono che per default solo le parti coinvolte sono a conoscenza di un dato contratto e che solo le parti che hanno un canale di stato aperto possono creare un contratto valido. Se le parti si accordano con un contratto, lo firmano e ne conservano copia per usi futuri. Viene inviato alla blockchain solo se il suo esito è discusso, nel qual caso il codice sarà conservato esclusivamente come parte della transazione inviata, mai in alcun altro stato. Se ciò dovesse capitare, la blockchain distribuisce i token in base al contratto e chiude il canale. 
+
 II-B.2
 #### Esempi
 II-C
