@@ -62,14 +62,13 @@ Any aeon holder can launch an oracle by committing to answering a yes/no questio
 
 For more info : [Mining](Mining), [Oracles](Oracles)
 
-# How does æternity protect from the next DAO happening? #
-Since contracts are independent, it is much easier to prove and verify what each contract does.
+# How is æternity protected from another DAO attack? #
 
-The DAO had a problem where some people trusted other people to spend their money for them. For instance, if you give your money to someone, and trusting them to spend it for you wisely, there is nothing you can do to stop them from robbing you.
+Since contracts are independent from each other, it is much easier to prove and verify what each contract does.
 
-æternity supports many trustless contracts. There is no reason you should ever trust anybody with æternity, or any other blockchain system.
+In the DAO, some people trusted other people to spend their money for them. However, if you give your money to someone and trust them to spend it, there is nothing you can do to stop them from robbing you.
 
-Any smart contract that requires trust is not so smart.
+æternity supports trustless contracts. With æternity, there is no reason you should ever trust anybody or any other blockchain system. After all, any smart contract that requires trust is not so smart.
 
 # Is smart contract verification on the roadmap? #
 
