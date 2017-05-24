@@ -11,6 +11,14 @@
 - [æternity Team][team]
 - [Whitepaper][WP_engl]
 
+### Community & Support
+- [æternity Home Page](http://www.aeternity.com/)
+- [Contacts and Groups](Contacts-and-Groups)
+- [æternity Blog](https://blog.aeternity.com)
+- [Bounty Programs][bounty]
+- [Community](Community)
+- [Wikipedia page](Wikipedia-page)
+
 ### How to
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
@@ -61,14 +69,6 @@
 - [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
  
-### Community & Support
-- [æternity Home Page](http://www.aeternity.com/)
-- [Contacts and Groups](Contacts-and-Groups)
-- [æternity Blog](https://blog.aeternity.com)
-- [Bounty Programs][bounty]
-- [Community](Community)
-- [Wikipedia page](Wikipedia-page)
-
 ### MISC
 - [Glossary](Glossary)
 
