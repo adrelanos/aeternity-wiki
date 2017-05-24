@@ -1,11 +1,6 @@
-Wiki Wishes
-===========
+[Use Case Ideas for æternity](#use-case-ideas-for-æternity)
+===========================================================
 
-* [~Google Calendar Plug In~](#google-calendar-plug-in)
-* [~Subpages~](#subpages)
-* [Using Mediawiki format?](#using-mediawiki-format)
-* [Migrating Zack's notes into wiki format](#migrating-zacks-notes-into-wiki-format)
-* [Use Case Ideas for æternity](#use-case-ideas-for-æternity)
 * [Health & æternity](#health--æternity)
 * [DocOræcle](#docoræcle)
 * [Use Case Flow](#use-case-flow)
@@ -23,33 +18,18 @@ Wiki Wishes
 * [Toll API](#toll-api)
 * [Cross-chain atomic swaps](#cross-chain-atomic-swaps)
 * [Stable value assets and portfolio replication](#stable-value-assets-and-portfolio-replication)
+
+[Wiki Wishes](#the-wiki-wishes)
+===============================
+
+* [~Google Calendar Plug In~](#google-calendar-plug-in)
+* [~Subpages~](#subpages)
+* [Using Mediawiki format?](#using-mediawiki-format)
+* [Migrating Zack's notes into wiki format](#migrating-zacks-notes-into-wiki-format)
 * [Handling of page translations](#handling-of-page-translations)
 * [Handling of page titles](#handling-of-page-titles)
-* [](#)
-* [](#)
 
 ***
-
-## ~Google Calendar Plug In~
-
-~It would be great to have a google calendar plug in, to have a comprehensive overview of meetups and events.
-There is a [MediaWiki plug in](https://www.mediawikiwidgets.org/Google_Calendar) available, but don't know if it's working.~
-
-Github wiki is not Mediawiki. Unlikely any plugins are supported here?
-
-## ~Subpages~
-~In order to better structure the content in the wiki, subpages would be very useful.
-[Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)~
-
-Same as above - Mediawiki plugins not supported on Github.
-
-## Using Mediawiki format?
-
-Even though plugins are unlikely to be supported, the Mediawiki format is supported, see proposals on Bitcoin: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
-
-## Migrating Zack's notes into wiki format
-
-Over the months of development Zack has accumulated a lot of notes - https://github.com/aeternity/testnet/tree/master/docs - even though the folder name says `docs` it is more suited for `wiki` - a lot of use cases and great examples.
 
 # Use Case Ideas for æternity
 
@@ -169,6 +149,29 @@ Cross chain atomic swaps allow for trust-less exchange of "æons" for bitcoins, 
 
 æternity's smart-contracts can be used to program synthetic assets that stay nearly the same price as a real world asset. For example, we could make an asset that follows the price as gold. These synthetic derivatives will be created created in equal and opposite pairs. For one user to have an asset that moves up with gold, a different user will have to have an asset that move inversely to gold. This would basically enable the "Blockchainization" of all the real-world assets (or financial derivatives) , and their exchange in a decentralized stock-market. For example, Alice could make a contract with Bob so that Alice owns 1 gram of gold. Out of the money in the contract, one gram of gold worth of "æon" will go to Alice, and the leftover money goes to Bob. The contract has an expiration date at which point the price of gold will be re-measured, and the funds distributed to Alice and Bob accordingly.
 
+***
+
+# The Wiki Wishes
+## ~Google Calendar Plug In~
+
+~It would be great to have a google calendar plug in, to have a comprehensive overview of meetups and events.
+There is a [MediaWiki plug in](https://www.mediawikiwidgets.org/Google_Calendar) available, but don't know if it's working.~
+
+Github wiki is not Mediawiki. Unlikely any plugins are supported here?
+
+## ~Subpages~
+~In order to better structure the content in the wiki, subpages would be very useful.
+[Plug In](https://github.com/wikimedia/mediawiki-extensions-EditSubpages)~
+
+Same as above - Mediawiki plugins not supported on Github.
+
+## Using Mediawiki format?
+
+Even though plugins are unlikely to be supported, the Mediawiki format is supported, see proposals on Bitcoin: https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+
+## Migrating Zack's notes into wiki format
+
+Over the months of development Zack has accumulated a lot of notes - https://github.com/aeternity/testnet/tree/master/docs - even though the folder name says `docs` it is more suited for `wiki` - a lot of use cases and great examples.
 ***
 ## Handling of page translations
 
