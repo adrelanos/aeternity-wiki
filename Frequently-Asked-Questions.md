@@ -72,10 +72,7 @@ Since contracts in aeternity are independent from each other, it is much easier 
 
 # Is smart contract verification on the roadmap? #
 
-The language for æternity is very simple. Smart contracts do not depend on each others state, so it is easy to prove the correctness of a smart contract.
-We wont need any special verification software to be sure of the correctness of æternity contracts.   
-
-Channels can be connected to each other using hashlocking. This is how cross-chain atomic swaps and the Lightning Network function. This is how we can build prediction markets with more than 2 users.
+The programming language for contracts will be written in a high-level functional language. This eliminates many types of possible errors and aids formal verification. Additionally, since contracts do not depend on each others' state, it is easier be correct.
 
 # How does on-chain conflict resolution work? (crypto-court) #
 
