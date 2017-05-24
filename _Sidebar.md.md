@@ -46,11 +46,11 @@
 - [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
 - [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
 - [æternity in the blockchain space](æternity-in-the-blockchain-space)
-- [Blockchain comparison](Blockchain-comparison)
 
 ### Research
-- [Research & Theory][research]
 - [Idea Box][ideabox]
+- [Research & Theory][research]
+- [Blockchain comparison](Blockchain-comparison)
 - [Hashing ≠ Encryption](hashing--encryption)
 - [Cryptoeconomics](Cryptoeconomics)
 - [Humanistic Use Cases](hHumanistic-Use-Cases)
@@ -68,7 +68,7 @@
 - [Whitepaper_ Português](whitepaper--português)
 - [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
- 
+
 ### MISC
 - [Glossary](Glossary)
 
