@@ -39,7 +39,8 @@
 * [æternity Blog](https://blog.aeternity.com)
 * [Idea Box][ideabox]
 ***
-
+* [full text search](https://github.com/search?utf8=✓&q=user%3Aaeternity&type=Wikis)
+***
 [todo]: Wiki-Guidelines-&-To-Do's
 [understandAE]: Understanding-æternity
 [faq]: Frequently-Asked-Questions
