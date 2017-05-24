@@ -17,6 +17,7 @@ Inhaltsübersicht
 * [Forum Bitcointalk zu æternity](#forum-bitcointalk-zu-æternity)
 * [White Papers zu æternity (PDF)](#white-papers-zu-æternity-pdf)
 * [Quellenangaben](#quellenangaben)
+* [Disclaimer](#disclaimer)
 
 ***
 
@@ -230,13 +231,19 @@ Gerne kannst du hier weiter lesen:
 
 #### White Papers zu æternity (PDF)
 
-[æternity -- Das White Paper Version 53](https://the-internet-of-money.de/wp-content/uploads/2017/04/aeternity-trustless-decentralized-Version-53-The-Internet-of-Money.pdf)
-
+* [æternity -- Das White Paper Version 53](https://the-internet-of-money.de/wp-content/uploads/2017/04/aeternity-trustless-decentralized-Version-53-The-Internet-of-Money.pdf)
+* [Whitepaper](Whitepaper_English)
 ***
 
 #### Quellenangaben:
 
-[Ouelle 1 Blog]
+* [Ouelle 1 Blog]
 (https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
-[Ouelle 2 Blog]
+* [Ouelle 2 Blog]
 (https://the-internet-of-money.de/news/aeternity-faq-neue-blockchain-technologie-aeternity/)
+***
+### Disclaimer:
+
+***Warnhinweis: Ich kann nicht garantieren, dass ich alles vollständig verstanden habe, was ich da aus dem englischen übersetzten versucht habe!***
+
+***Daher freue ich mich auf Änderungswünsche und Anregungen in den Kommentaren!***
