@@ -8,3 +8,4 @@
 | [한국어](https://github.com/aeternity/wiki/wiki/[Korean]-æternity-TOC)
 | [日本語](https://github.com/aeternity/wiki/wiki/%C3%A6ternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0%5BJapanese%5D)
 | [中文](https://github.com/aeternity/wiki/wiki/[Chinese]-æternity-TOC)
+| [Turkish](https://github.com/aeternity/wiki/wiki/[Turkish]-æternity-TOC)
