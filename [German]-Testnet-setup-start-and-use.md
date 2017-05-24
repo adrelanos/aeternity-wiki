@@ -8,7 +8,7 @@ Inhaltsübersicht / Testnet Setup, start und Benutzung
 * [Screen session how to!](#screen-session-how-to)
 * [Mining im æternity Testnet (Details)](#mining-im-æternity-testnet-details)
 * [Fragen zum æternity Testnet](#fragen-zum-æternity-testnet)
-* [Übersetzungen](#übersetzung)
+* [Übersetzungen](#uebersetzung)
 
 ***
 
@@ -138,10 +138,12 @@ Hinweis! Dieser Artikel ist reine Community Arbeit! * erstellt am 17. Mai 2017 @
 
 ***
 
-## Übersetzung
+## Uebersetzung
 
 * [(en)Testnet setup start and use](Testnet-setup-start-and-use)
 
 ***
 Diese Seite ist in Überarbeitung. Wenn du Fragen hast kannst du diese gerne hier anfügen!
 ***
+
+[⇪](#inhaltsübersicht--testnet-setup-start-und-benutzung)
