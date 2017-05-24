@@ -120,7 +120,11 @@ L'hash del blocco precedente è richiesto per mantenere un ordinamento della blo
 essere incluso nell'albero di prova del blocco. Lo scopo dei tre alberi restanti sarà chiarito nelle seguenti sezioni.  
 
 II-B
-#### State channel
+#### Canali a stati
+Uno degli sviluppi recenti più interessanti riguardo la blockchain è quello dei canali di stato. Questi operano sul principio base che in molti casi solo le persone coinvolte in una transazione devono averne conoscenza. In sintesi, le parti che effettuano una transazione instaurano qualche stato sulla blockchain, ad esempio un contratto Ethereum o un contratto Bitcoin multi-firma. Quindi inviano semplicemente aggiornamenti firmati allo stato condiviso. Il punto chiave è che entrambi potrebbero usarli per aggiornare lo stato sulla blockchain ma, nella maggior parte dei casi, non lo fanno. Ciò permette di condurre transazioni tanto rapidamente quanto le parti possono trasmettere e processare i dati invece che dover aspettare che la transazione sia stata validata (e potenzialmente finalizzata) dal meccanismo di consenso della blockchain.  
+Su Æternity l'unico aggiornamento dello stato che può essere stabilito sulla blockchain è un trasferimento di aeon, e gli unici aeon che possono essere trasmessi sono quelli che le parti hanno già depositato nel canale. Ciò rende ogni canale indipendente dagli altri, il che ha l'immediato beneficio che qualsiasi transazione in relazione ai canali può essere processata in parallelo migliorando considerevolmente il volume di trasmissione di transazioni.  
+La blockchain è usata unicamente per risolvere l'esito finale o eventuali conflitti che potrebbero palesarsi, grossomodo analogamente al sistema giudiziario. Poiché il comportamento della blockchain sarà prevedibile, non c'è comunque alcun vantaggio nel disputarsi il risultato previsto del canale di stato: agenti malevoli sono incentivati a comportarsi correttamente e a stabilire lo stato finale sulla blockchain. Preso tutto insieme, ciò aumenta la velocità e il volume di transazione, nonché la privacy, di varie unità di grandezza.  
+
 II-B.1
 #### Smart contract
 II-B.2
