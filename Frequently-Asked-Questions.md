@@ -44,11 +44,11 @@ On Ethereum it is possible to move computation, but it is much more complicated 
 
 On æternity computation by default happens off-chain.
 
-# How is æternity written? #
+# In what language is æternity written? #
 
 The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
 
-Erlang was chosen because it is the perfect choice to write a blockchain from scratch, allowing to achieve superior code execution, stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch, enabling superior code execution, stability and performance.
 
 # Which PoW Algorithm is used for mining in æternity? #
 
