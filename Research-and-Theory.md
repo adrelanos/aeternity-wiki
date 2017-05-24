@@ -176,6 +176,7 @@ by publication date:
 * [Response to Merkle’s DAO Paper - by Dan Finlay - Jun 16th, 2016](https://medium.com/@danfinlay/response-to-merkles-dao-paper-61d76d2dd333)
 * [Merkle’s Futarchy - By Robin Hanson - July 6th, 2016](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)
 * [BFF: A Recursive Merkle DAO - by Dan Finlay - July 29th, 2016](https://medium.com/@danfinlay/bff-a-recursive-merkle-dao-121327d48493)
+* A mathematics approach to Futarchy: [Prediction market mechanics - By Victor Shnayder & Mike Ruberry](http://www.eecs.harvard.edu/cs286r/courses/fall10/lecture/5-slides.pdf)
 
 ## Research
 
