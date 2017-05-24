@@ -47,6 +47,6 @@ Herzlichen Dank für deine Mitarbeit beim æternity Wiki
 
 ***
 
-(bitte habe Verständnis dass dies Seiten aktuell unter Bearbeitung sind,
+(bitte habe Verständnis dass diese Seiten aktuell unter Bearbeitung sind,
 gerne aber kannst du uns in unserer Arbeit unterstützen. Wenn wir von
 „WIR und UNS“ reden meine ich die „ æternity Community„)
