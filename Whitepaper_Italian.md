@@ -87,10 +87,18 @@ Il resto di questa sezione introduce la Æternity blockchain in maggior dettagli
 
 II-A
 #### Token, account e blocchi
+Nonostante sia "stateless" dal punto di vista del contratto dello sviluppatore, la Æternity blockchain mantiene traccia di vari componenti di stato predefiniti. Ora spiegheremo queste e il contenuto di ciascun blocco. Per semplicità, questa sezione presuppone che ogni nodo tenga traccia dell'intera blockchain. Possibili ottimizzazioni sono descritte nella sezione II-E.  
+
 II-A.1
 #### Token di accesso, Aeon
+L'uso della blockchain non è gratuito e presuppone che l'utente spenda un token chiamato aeon. Gli aeon sono usati come pagamento per qualsiasi risorsa consumata sulla piattaforma, così come base per le applicazioni finanziarie implementate sulla piattaforma.  
+La distribuzione degli aeon nel blocco di genesi sarà determinato da uno smart contract ospitato su Ethereum. Ulteriori aeon saranno creati tramite mining.  
+Ogni compenso del sistema è pagato con aeon, ogni smart contract è stabilito in aeon.  
+ 
 II-A.2
 #### Account
+Ogni account ha un indirizzo e un bilancio di aeon e anche un livello di difficoltà che aumenta ad ogni transazione e all'altezza del suo ultimo aggiornamento. Ogni account deve anche pagare un piccolo compenso in base al tempo intercorso dalla sua apertura. I costi per creare e mantenere account prevengono lo spam e disincentivano l'aumento a dismisura degli stati. Il compenso per l'eliminazione di un account incentiva la rivendicazione di spazio.  
+
 II-A.3
 #### Sistema dei nomi
 II-A.4
