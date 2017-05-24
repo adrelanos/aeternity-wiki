@@ -109,7 +109,7 @@ The "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016) - a founder and CEO of 
 #### Advisor on POW "Cuckoo Cycle"
 
 Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational biology, and what-not.
-Recently he designed a new Proof-of-Work method called the "Cuckoo Cycle," which will be used to verify the æternity blockchain. John is advising the æternity team on the integration of the "Cuckoo Cycle" mining algorithm.
+Recently he designed a new Proof-of-Work method called the "Cuckoo Cycle," which will be used to verify the æternity blockchain. John is advising the æternity team on the integration of the ["Cuckoo Cycle" mining algorithm](https://eprint.iacr.org/2014/059.pdf).
 <table></table>
 
 ***
