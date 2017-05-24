@@ -21,13 +21,15 @@ These three points characterize money. The intresting thing is that you can have
   
 ## Terminology
 ## Hashing 
+
+For now, please refer to this section fo the Wiki: [Hashing ≠ Encryption](https://github.com/aeternity/wiki/wiki/Hashing-%E2%89%A0-Encryption)
 ## Digital signatures
 ## Mining
 ## Blockchain tech
 
 # Price Derivation
 
-*This section will be dedicated to some observation from 2010 until now, as well as point of comparisons between BTC, altcoins, gold and stocks.* 
+*This section will be dedicated to some observations from 2010 until now, as well as point of comparisons between BTC, altcoins, gold and stocks.* 
 
 //TODO
 ## What/who determines cryptocurrencies prices:
@@ -37,6 +39,14 @@ The prices of digital assets like Bitcoin, Ethereum and other cryptocurrencies a
 While demand and supply may seem as the only factors that determines the prices of cryptocurrencies, there are other factors which attributes to the price as well. Speculation is one of those factors. It is fueled by recent press releases, development updates and reputational issues. More often than not, positive news and press releases tend to bring about rise in prices and vice versa. 
 
 Other factors includes the introduction of digital assets in  larger exchange markets with high trading volume, acceptance of digital currencies by more merchants.
+
+Traditional assets like metals (gold, silver, etc) or stocks attribute their prices to their intrinsic value. For example, the historic price of gold has always been going up, because investors know this is a finite resource. Hence, gold has high value. Of course, there are many otehr factors that affect gold price, but hopefully you get the idea.
+
+On the other hand, especially a while back, many journalists, users and instituional investors argued that cryptocurrency, bitcoin in particular, does not have any intrinsic value. That way of thinking was quite logical in the traditional way asset value is defined, for example relation to a particular economy (the EU or USA). 
+
+In the case of bitcoin, scarcity plays a huge role defining intrinsic value. There will be a limited amount of bitcoins produces, so the price is set to always be growing in the future. So far, bitcoin resembles a lot gold, in terms of the finite amounts that will ever be available.
+
+However, the big difference comes from the community. In a way, the intrinsic value of cryptocurrency is derived to a great deal from the people themselves. This is due to the fact that as bitcoin grew in popularity, investors actually realized its **intrinsic value comes predominantly from the fact that BTC is a hedge against pretty much everything**, especiall fiat currency. 
 
 *PS: Digital assets are otherwise known as cryptocurrencies.*
 
