@@ -1,14 +1,14 @@
 Table of content / Testnet setup start and use
 ==============================================
 
-* [Testnet setup start and use](#)
-* [How To handle the initd-aeternity script?](#)
-* [How it works!](#)
-* [initd-aeternity script menu](#)
-* [Screen session how to!](#)
-* [Mining on æternity testnet (details)](#)
-* [Questions about the æternity Testnet](#)
-* [Translations](#)
+* [Testnet setup start and use](#testnet-setup-start-and-use)
+* [How To handle the initd-aeternity script?](#how-to-handle-the-initd-aeternity-script)
+* [How it works!](#how-it-works)
+* [initd-aeternity script menu](#initd-aeternity-script-menu)
+* [Screen session how to!](#screen-session-how-to)
+* [Mining on æternity testnet (details)](#mining-on-æternity-testnet-details)
+* [Questions about the æternity Testnet](#questions-about-the-æternity-testnet)
+* [Translations](#translations)
 
 ***
 
@@ -145,3 +145,4 @@ Stay tuned this page will be updated recently. Feel free to add
 questions to this page!
 
 ***
+
