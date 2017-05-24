@@ -64,11 +64,11 @@ For more info : [Mining](Mining), [Oracles](Oracles)
 
 # How is æternity protected from another DAO attack? #
 
-Since contracts are independent from each other, it is much easier to prove and verify what each contract does.
+In the DAO, some people trusted other people to spend their money for them. However, if you give your money to someone and trust them to spend it, there is nothing you can do to stop them from robbing you. 
 
-In the DAO, some people trusted other people to spend their money for them. However, if you give your money to someone and trust them to spend it, there is nothing you can do to stop them from robbing you.
+æternity, in contrast, supports trustless smart contracts. With æternity, there is no reason to trust anybody or any other blockchain system. After all, any smart contract that requires trust is not so smart.
 
-æternity supports trustless contracts. With æternity, there is no reason you should ever trust anybody or any other blockchain system. After all, any smart contract that requires trust is not so smart.
+Since contracts in aeternity are independent from each other, it is much easier to prove and verify what each contract does.
 
 # Is smart contract verification on the roadmap? #
 
