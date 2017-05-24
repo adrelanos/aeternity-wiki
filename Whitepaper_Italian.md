@@ -97,12 +97,28 @@ Ogni compenso del sistema è pagato con aeon, ogni smart contract è stabilito i
  
 II-A.2
 #### Account
-Ogni account ha un indirizzo e un bilancio di aeon e anche un livello di difficoltà che aumenta ad ogni transazione e all'altezza del suo ultimo aggiornamento. Ogni account deve anche pagare un piccolo compenso in base al tempo intercorso dalla sua apertura. I costi per creare e mantenere account prevengono lo spam e disincentivano l'aumento a dismisura degli stati. Il compenso per l'eliminazione di un account incentiva la rivendicazione di spazio.  
+Ogni account ha un indirizzo e un bilancio di aeon e anche un livello di difficoltà che aumenta ad ogni transazione ed all'altezza del suo ultimo aggiornamento. Ogni account deve anche pagare un piccolo compenso in base al tempo intercorso dalla sua apertura. I costi per creare e mantenere account prevengono lo spam e disincentivano l'aumento a dismisura degli stati. Il compenso per l'eliminazione di un account incentiva la rivendicazione di spazio.  
 
 II-A.3
 #### Sistema dei nomi
+Molti sistemi di blockchain soffrono per gli indirizzi illeggibili dei loro utenti. In modo analogo al lavoro di Aaron Swartz e di Namecoin, Æternity presenta un sistema nominale che è tanto decentralizzato quanto sicuro, pur supportando nomi user-friendly [9]. Lo stato della blockchain include una mappatura da stringhe unicamente user-friendly ad array di dimensioni fisse di byte. Questi nomi possono essere usati per puntare a cose come indirizzi di account su Æternity o
+ad hash come, per esempio, nell'albero di Merkle.
+
 II-A.4
 #### Contenuti dei blocchi
+Ogni blocco contiene i seguenti componenti:
+- L'hash del blocco precedente.
+- Un albero di Merkle delle transazioni.
+- Un albero di Merkle degli account.
+- Un albero di Merkle dei nomi.
+- Un albero di Merkle dei canali aperti.
+- Un albero di Merkle degli oracoli che non hanno risposto alle loro rispettive domande.
+- Un albero di Merkle delle risposte degli oracoli.
+- Un albero di Merkle delle prove Merkle.
+- L'entropia corrente nel generatore di numeri casuali.
+L'hash del blocco precedente è richiesto per mantenere un ordinamento della blockchain. L'albero delle transazioni contiene tutte le transazioni che sono incluse nel blocco corrente. Ad eccezione dell'albero del voto di consenso tutti gli alberi sono interamente sotto consenso: se un albero è cambiato fra un blocco e il successivo, tale cambiamento deve essere dovuto a una transazione nell'albero delle transazioni del nuovo blocco, e una prova Merkle dell'aggiornamento deve
+essere incluso nell'albero di prova del blocco. Lo scopo dei tre alberi restanti sarà chiarito nelle seguenti sezioni.  
+
 II-B
 #### State channel
 II-B.1
