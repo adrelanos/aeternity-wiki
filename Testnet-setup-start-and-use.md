@@ -21,7 +21,7 @@ original 'setup_test.sh' script from Zack
 This work results to create this new script
 [initd-aeternity.sh](../../../../Zwilla/aeternity-testnet/blob/master/initd-aeternity.sh)
 
-
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ## How To handle the initd-aeternity script?
 
 | How to?                    | COMMAND                      |
@@ -33,6 +33,8 @@ This work results to create this new script
 | Access screen session 3030 | `screen -r aeternity-3030`   |
 
 (table 1)
+
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ***
 
 ## How it works!
@@ -61,6 +63,7 @@ To make some tests run this script:
 You find this file here:
 https://github.com/Zwilla/aeternity-testnet/blob/master/docs/testnet.md
 
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ## initd-aeternity script menu
 After running the test_setup script you can choose now:
 
@@ -88,6 +91,7 @@ After running the test_setup script you can choose now:
 
 Warning! Community content! * 17th May 2017 @zwilla
 
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ***
 
 ## Mining on æternity testnet (details)
@@ -115,6 +119,8 @@ Some æternity CLI commands which are usefull now:
 [ x ] = tested and working / [  ] = not tested or not working at moment.
 
 (table 4)
+
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ***
 
 * more about commands you find here:
@@ -130,6 +136,7 @@ add your’s here
 2. hmmm …
 3. ???
 
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ***
 
 Note! This is a pure community content! * updated 17th May 2017 @zwilla
@@ -139,10 +146,12 @@ Note! This is a pure community content! * updated 17th May 2017 @zwilla
 ## Translations:
 [German Testnet setup start and use]([German]-Testnet-setup-start-and-use)
 
+[⇪](#table-of-content--testnet-setup-start-and-use)
 ***
 
 Stay tuned this page will be updated recently. Feel free to add
 questions to this page!
 
 ***
+[⇪](#table-of-content--testnet-setup-start-and-use)
 
