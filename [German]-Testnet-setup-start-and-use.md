@@ -1,14 +1,14 @@
 Inhaltsübersicht / Testnet Setup, start und Benutzung
 =====================================================
 
-* [aeternity Testnet: Setup, start und Benutzung](#testnet-setup-start-and-use)
-* [Handhabung des initd-aeternity Scripts](#how-to-handle-the-initd-aeternity-script)
-* [Wie sind die Abläufe?](#how-it-works)
+* [aeternity Testnet: Setup, start und Benutzung](#aeternity-testnet-setup-start-und-benutzung)
+* [Handhabung des initd-aeternity Scripts](#handhabung-des-initd-aeternity-scripts)
+* [Wie sind die Abläufe?](#wie-sind-die-abläufe)
 * [initd-aeternity Script Menu](#initd-aeternity-script-menu)
 * [Screen session how to!](#screen-session-how-to)
-* [Mining im æternity Testnet (Details)](#mining-on-æternity-testnet-details)
-* [Fragen zum æternity Testnet](#questions-about-the-æternity-testnet)
-* [Übersetzungen](#translations)
+* [Mining im æternity Testnet (Details)](#mining-im-æternity-testnet-details)
+* [Fragen zum æternity Testnet](#fragen-zum-æternity-testnet)
+* [Übersetzungen](#übersetzung)
 
 ***
 
