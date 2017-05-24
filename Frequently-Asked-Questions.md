@@ -58,10 +58,9 @@ For more info : [Mining](Mining)
 
 # How does PoS work in æternity? #
 
-Each Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The user is required to deposit AEON  also in the proportion to the length of the time-frame, which will be returned if the user giving answer whose gets accepted as truth, otherwise it will be burned. Other users have a set amount of time to submit counter-claims by depositing the same amount of Aeon. Then the consensus mechanism for blocks will be used to answer the oracle and rewarding the user saying the truth while penalising one of lying.
+Any aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The creator is required to deposit aeon in proportion to the length of the time frame. Other users can submit counterclaims by depositing the same amount of aeon. If there are counterclaims, the consensus mechanism will be used to decide the oracle. If the creator's answer is accepted, the aeon will be returned to the creator; Otherwise, it will be burned. And so, the creator will be rewarded if telling the truth and penalized if lying.
 
-For more info : [Mining](Mining)
-
+For more info : [Mining](Mining), [Oracles](Oracles)
 
 # How does æternity protect from the next DAO happening? #
 Since contracts are independent, it is much easier to prove and verify what each contract does.
