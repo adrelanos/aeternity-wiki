@@ -15,7 +15,7 @@ Applicazioni come i mercati per gli asset sintetici e i mercati predittivi posso
 ***
 ## CONTENUTI
 I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
-I-A [Un lavoro precedente](#un-lavoro-precedente) . . . . . . . . . . . . . 2  
+I-A [Lavori precedenti](#lavori-precedenti) . . . . . . . . . . . . . 2  
 II [Cos'è la blockchain æternity](#cosé-la-blockchain-æternity)  . . . . . . . . . . . 2  
 II-A [Token, account e blocchi](#token-account-e-blocchi)  . . . . . . . . . 2  
 II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2  
