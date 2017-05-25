@@ -15,12 +15,12 @@
 ### [Español - Resumen](Whitepaper_Español)
 ### [français - Historique](Whitepaper_French)
 ### [bahasa Indonesia - Abstrak](Whitepaper_Indonesia)
-### [italiano Documento completo](Whitepaper_Italian)
+### [italiano - Documento completo](Whitepaper_Italian)
 ### [日本語 - 概要](Whitepaper_Japanese)
 ### [한국어 - 초록][WP_kr]
-### [Português resumo](whitepaper—português)
-### [русский резюме](Whitepaper_Russian)
-### [Türkçe özet](Whitepaper_Turkish)
+### [Português - resumo](whitepaper—português)
+### [русский - резюме](Whitepaper_Russian)
+### [Türkçe - özet](Whitepaper_Turkish)
 
 ***
 **DISCLAIMER**
