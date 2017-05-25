@@ -19,10 +19,11 @@ relatywnie niedrogi dostęp do danych rzeczywistych i zarządzania łańcuchem:
 <ol>
 <li>
 Obecnie powszechne pełno-stanowe projekty renderują smart-kontrakty zakodowane na platformach smart-kontraktów jak Ethereum
-jako trudne do analizy. Ponadto poprzez powiązanie bez pełno-stanowości z sekwencyjnym porządkowaniem transakcji znacznie
+jako trudne do analizy. Ponadto poprzez powiązanie bezpełno-stanowości z sekwencyjnym porządkowaniem transakcji znacznie
 redukuje skalowalność łańcucha bloków.
-<li>The difficulty to introduce real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
-<li>Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.</ol><p>
+<li> Trudność aby wprowadzić dane rzeczywiste do platform smart-kontraktowych w niezaufany, zdecentralizowany oraz solidny sposób w znacznym stopniu przeszkadza w realizacji dużej liczby korzystnych aplikacji smart-kontraktów.
+<li>Większość platform smart-kontraktowych ma ograniczone możliwości usprawniania się, aby radzić sobie w nowo powstałej ekonomii i wiedzy technologicznej.
+</ol><p>
 
 
 
