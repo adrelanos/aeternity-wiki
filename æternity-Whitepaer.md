@@ -13,3 +13,10 @@
 ## [русский](Whitepaper_Russian)
 ## [Türkçe](Whitepaper_Turkish)
 ## [æternity Whitepaper orig.PDF](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
+
+***
+**DISCLAIMER**
+
+
+[WP_engl]: Whitepaper_English
+[WP_kr]: Whitepaper_korean-(%ED%95%9C%EA%B5%AD%EC%96%B4)
