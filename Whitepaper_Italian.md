@@ -131,8 +131,17 @@ Nonostante l'unico stato che possa essere risolto on-chain sia un trasferimento 
 
 II-B.2
 #### Esempi
+Portiamo tutte queste idee con i piedi per terra. In pratica, se Alice e Bob vogliono effettuare una transazione usando un canale di stato su æternity, devono avvalersi della seguente procedura:  
+1) Alice e Bob firmano una transazione che specifica quanto denaro ciascuno di essi deposita nel canale, e la pubblicano nella blockchain.  
+2) Una volta che la blockchain apre il canale, entrambi possono creare nuovi stati del canale, inviarseli a vicenda e firmarli. Gli stati del canale possono essere sia una nuova distribuzione dei fondi nel canale che un contratto che determini una nuova distribuzione. Ognuno di tali stati del canale ha un livello di difficoltà crescente ed è firmato da entrambe le parti così che se dovesse manifestarsi una disputa, l'ultimo stato valido possa essere inviato alla blockchain per essere imposto.  
+3) Il canale può essere chiuso in due modi differenti:  
+    a) Se Alice e Bob decidono che la transazione è cessata e si accordano sul loro bilancio finale, firmano entrambi una transazione che lo dichiari e la inviano alla blockchain. Questa chiuderà il canale e vi distribuirà di conseguenza il denaro.  
+    b) Se Alice per qualsiasi ragione si rifiuta di firmare una transazione di chiusura, Bob può inviare l'ultimo stato firmato da entrambi e richiedere la chiusura del canale utilizzando tale stato. Ciò da il via a un conto alla rovescia. Se Alice crede che Bob sia disonesto può pubblicare prima della scadenza uno stato con un livello di difficoltà più alto che entrambi hanno siglato. Se lo fa, il canale è chiuso immediatamente. Altrimenti chiude al termine del conto alla rovescia.  
+
 II-C
 #### Meccanismo di Consenso
+
+
 II-C.1
 #### Oracoli
 II-D
