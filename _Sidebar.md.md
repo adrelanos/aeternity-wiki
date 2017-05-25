@@ -5,7 +5,6 @@
 ### Basics
 - [HOME](https://github.com/aeternity/wiki/wiki)
 - [Understanding æternity][understandAE]
-- [æternity-Documentation][doc]
 - [Getting Started][started]
 - [Frequently Asked Questions][faq]
 - [æternity Team][team]
@@ -91,8 +90,11 @@
 - [[Spanish] æternity TOC]([Spanish]-æternity-TOC)
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
-(63 - pages)
+### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
+- [æternity-Documentation][doc]
+(65 - pages)
 ***
+[Drafts]: Draft-Documents
 [todo]: Wiki-Guidelines-&-To-Do's
 [understandAE]: Understanding-æternity
 [faq]: Frequently-Asked-Questions
