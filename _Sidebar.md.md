@@ -64,7 +64,7 @@
 - [Italiano](Whitepaper_Italian)
 - [日本語](Whitepaper_Japanese)
 - [한국어][WP_kr]
-- [Português](whitepaper--português)
+- [Português](Whitepaper_-Português
 - [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
 - [æternity Whitepaper orig.PDF](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
