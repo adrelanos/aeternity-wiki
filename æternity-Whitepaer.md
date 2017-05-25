@@ -11,16 +11,16 @@
 .
 ## æternity Whitepaper unofficial translations
 ### [中文](Whitepaper_Chinese)
-### [Whitepaper deutsch Abstrakt](Whitepaper_Deutsch) // [unofficial draft]([German]-æternity-Whitepaper-Draft)
-### [Español](Whitepaper_Español)
-### [français](Whitepaper_French)
-### [bahasa Indonesia](Whitepaper_Indonesia)
-### [italiano](Whitepaper_Italian)
-### [日本語](Whitepaper_Japanese)
-### [한국어][WP_kr]
-### [Whitepaper_ Português](whitepaper—português)
-### [русский](Whitepaper_Russian)
-### [Türkçe](Whitepaper_Turkish)
+### [Deutsch - Zusammenfassung](Whitepaper_Deutsch) // [unofficial draft]([German]-æternity-Whitepaper-Draft)
+### [Español - Resumen](Whitepaper_Español)
+### [français - Historique](Whitepaper_French)
+### [bahasa Indonesia - Abstrak](Whitepaper_Indonesia)
+### [italiano Documento completo](Whitepaper_Italian)
+### [日本語 - 概要](Whitepaper_Japanese)
+### [한국어 - 초록][WP_kr]
+### [Português resumo](whitepaper—português)
+### [русский резюме](Whitepaper_Russian)
+### [Türkçe özet](Whitepaper_Turkish)
 
 ***
 **DISCLAIMER**
