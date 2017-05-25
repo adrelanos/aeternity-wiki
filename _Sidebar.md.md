@@ -90,6 +90,7 @@
 - [[Spanish] æternity TOC]([Spanish]-æternity-TOC)
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
+(63 - pages)
 ***
 [todo]: Wiki-Guidelines-&-To-Do's
 [understandAE]: Understanding-æternity
