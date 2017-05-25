@@ -9,7 +9,7 @@
 - [Getting Started][started]
 - [Frequently Asked Questions][faq]
 - [æternity Team][team]
-- [Whitepaper](#translated-content)
+- [Whitepaper](æternity-Whitepaer)
 
 ### Community & Support
 - [æternity Home Page](http://www.aeternity.com/)
