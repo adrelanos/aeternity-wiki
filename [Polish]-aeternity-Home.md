@@ -25,6 +25,8 @@ redukuje skalowalność łańcucha bloków.
 <li>Większość platform smart-kontraktowych ma ograniczone możliwości usprawniania się, aby radzić sobie w nowo powstałej ekonomii i wiedzy technologicznej.
 </ol><p>
 
+Recent studies of the state channel technology have proven that, in many instances, storing state on-chain is unnecessary. In most cases, all data can be stored in state channels, and the Blockchain would be only used to settle the economic results of exchange of information and/or to act as a fallout whenever a dispute occurs. This represents an alternative Blockchain architecture approach, which is marked by Turing-complete smart contracts that exist in state channels but not on the Blockchain. This would boost scalability as all transactions are independent and can be processed in parallel. Furthermore, this approach means that smart contracts will not write to shared state, which will greatly simplify contracts’ safety and the process of testing and verification.
+
 Wiki w pełni przetłumaczone na język polski przy pomocy Google Translate można znaleźć na stronie:
 * [Home Polski](https://translate.google.com/translate?sl=en&tl=pl&u=https://github.com/aeternity/wiki/wiki/)
 
