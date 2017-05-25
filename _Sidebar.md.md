@@ -92,6 +92,7 @@
 
 ### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
 - [æternity-Documentation][doc]
+- [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
 
 (65 - pages)
