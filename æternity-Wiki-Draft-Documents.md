@@ -20,6 +20,7 @@ on them again at an other time. If you delete a page:
 
 - 25th May 2017
   - [~abc you and me~](æternity-wiki-draft-documents)    /  [history](æternity-wiki-draft-documents/_history)
+  - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)    /  [history]([German]-æternity-Whitepaper-Draft/_history)
 
 
 ***
