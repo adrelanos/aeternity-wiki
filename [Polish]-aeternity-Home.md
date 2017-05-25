@@ -25,8 +25,8 @@ redukuje skalowalność łańcucha bloków.
 <li>Większość platform smart-kontraktowych ma ograniczone możliwości usprawniania się, aby radzić sobie w nowo powstałej ekonomii i wiedzy technologicznej.
 </ol><p>
 
-
-
+Wiki w pełni przetłumaczone na język polski przy pomocy Google Translate można znaleźć na stronie:
+* [Home Polski](https://translate.google.com/translate?sl=en&tl=pl&u=https://github.com/aeternity/wiki/wiki/)
 
 
 
