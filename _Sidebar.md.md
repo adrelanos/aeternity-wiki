@@ -54,7 +54,7 @@
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
 
-### Translations Whitepapers
+### æternity Whitepaper
 - [中文](Whitepaper_Chinese)
 - [Whitepaper deutsch](Whitepaper_Deutsch)
 - [Whitepaper English][WP_engl]
@@ -67,6 +67,7 @@
 - [Whitepaper_ Português](whitepaper--português)
 - [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
+- [æternity Whitepaper orig.PDF](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
 
 ### MISC
 - [Glossary](Glossary)
