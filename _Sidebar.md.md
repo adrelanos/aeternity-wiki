@@ -93,9 +93,10 @@
 ### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
 - [æternity-Documentation][doc]
 
+
 (65 - pages)
 ***
-[Drafts]: Draft-Documents
+[drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
 [understandAE]: Understanding-æternity
 [faq]: Frequently-Asked-Questions
