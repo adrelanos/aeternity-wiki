@@ -6,3 +6,26 @@
 <b>æternity Blockchain – Funkcjonalna Maszyna Wyrocznia<p>
 
 æternity to protokół [blockchain](https://en.wikipedia.org/wiki/Blockchain) zbudowany od  zera w języku [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) z uwzględnieniem prędkości, sprawności i skalowalności. Oferuje unikalny, hybrydowy [mechanizm konsensusu](https://www.ibm.com/developerworks/cloud/library/cl-blockchain-basics-intro-bluemix-trs/) [proof of work (PoW)](https://en.wikipedia.org/wiki/Proof-of-work_system) oraz [proof of stake (PoS)](https://en.wikipedia.org/wiki/Proof-of-stake) który może być zastosowany do sprawdzania [[wyroczni]], co maksymalizuje ich wydajność, ponieważ zapobiega nawarstwianiu się mechanizmów konsensusu na górze każdego z nich. [[Kanały stanów]] maksymalizują skalowalność i prywatność poprzez usunięcie potrzeby do zachowania kodu smart-kontraktu w łańcuchu. Transfer [tokenów](http://cruiserselite.co.in/downloads/btech/materials/second%20sem/4/e-com/UNIT-3.pdf) przez kanały odbywa się przez funkcjonalne [smart-kontrakty](https://en.wikipedia.org/wiki/Smart_contract) które mają dostęp do rzeczywistych danych przez Wyrocznię. æternity renderuje smart-kontrakty szybciej, pozwala na ich łatwiejsze wykonanie i większą tolerancję na błędy, bez degradacji ich wydajności czy funkcjonalności.<p>
+
+[Specyfikacja](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) æternity została opublikowana aby zaprezentować tę architekturę i jej potencjalną użyteczność. æternity jest budowane do zastosowania w skali globalnej na[rynkach prognostycznych](https://pl.wikipedia.org/wiki/Rynek_prognostyczny), [syntetycznych rynkach aktywów](https://syntheticassets.wordpress.com/) oraz [w wielu innych przykładach użycia](https://github.com/aeternity/wiki/wiki/Idea-Box#use-case-ideas-for-%C3%A6ternity).<p>
+
+<b>Jak łańcuch bloków æternity może służyć jako platforma smart-kontraktowa?<p>
+
+Wyróżniamy trzy główne problemy, które leżą u podstaw obecnie dostępnych platform smart-kontraktowych.
+Są to głównie brak wystarczającej skalowalności (przepustowość globalnego użycia), bezpieczeństwo kodu oraz 
+relatywnie niedrogi dostęp do danych rzeczywistych i zarządzania łańcuchem:
+<p>
+
+<ol>
+<li>
+Obecnie powszechne pełno-stanowe projekty renderują smart-kontrakty zakodowane na platformach smart-kontraktów jak Ethereum
+jako trudne do analizy. Ponadto poprzez powiązanie bez pełno-stanowości z sekwencyjnym porządkowaniem transakcji znacznie
+redukuje skalowalność łańcucha bloków.
+<li>The difficulty to introduce real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
+<li>Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.</ol><p>
+
+
+
+
+
+
