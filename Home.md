@@ -24,14 +24,19 @@ Decentralized prediction markets like [Augur](https://en.wikipedia.org/wiki/Augu
 
 <b>Overview and Applications of æternity:<p>
 
-æternity is a Blockchain protocol that is designed to solve all the aforementioned problems that are challenging smart contract platforms. æternity provides a highly efficient system for transferring value. Practically speaking, æternity represents a global oracle machine that can be utilized to provide decision making services on an enormous scale.<p>
+æternity is a Blockchain protocol that is designed to solve all the aforementioned problems that are challenging smart contract platforms. æternity provides a highly efficient system for transferring value. Practically speaking, æternity represents a global oracle machine that can be utilized to provide decision making services in conjunction with smart-contracts on an enormous scale.<p>
 
-The stateless nature of æternity’s smart contracts makes it ideal for building a myriad of applications including:<p>
-1. Identities: Each account will be associated with a [unique ID number](https://en.wikipedia.org/wiki/Universally_unique_identifier). Users will be allowed to register distinctive names and link them to a data structure’s [Merkle](https://en.wikipedia.org/wiki/Merkle_tree) root.
-2. Wallet: the [wallet](https://en.wikipedia.org/wiki/Wallet_(software)) manages the cryptocurrency, Aeon, [private keys](https://en.wikipedia.org/wiki/Public-key_cryptography), sends and signs transactions. It can also be used to create channel transactions and use apps within the channel network.
-3. Toll API: Payment channels open the door to a novel type of APIs where a user can pay for every API request. [Toll APIs](https://en.wikipedia.org/wiki/AEternity#Toll_API) mitigate [DDoS](https://en.wikipedia.org/wiki/Distributed_denial-of-service_attacks_on_root_nameservers) problems and simplify the creation of high quality APIs.
-4. Insured Crowdfunding: [Insured crowdfunding](https://en.m.wikipedia.org/wiki/Equity_crowdfunding#Crowdfunding_insurance) can be implemented via means of [dominant assurance contracts](https://en.wikipedia.org/wiki/Assurance_contract#Dominant_assurance_contracts), which are smart contracts that are created to raise money for a good cause.
-5. Others: other possible applications include [cross-chain atomic swaps](https://en.bitcoin.it/wiki/Atomic_cross-chain_trading), event contracts (e.g. insurance, whistleblowing) and [prediction markets](https://en.m.wikipedia.org/wiki/Prediction_market).<p>
+The stateless nature of æternity’s smart-contracts makes it ideal for building a myriad of applications "æpps" that provide scalability and privacy through state channels, while keeping the security of Blockchain and the access to real-world data through Oracles. 
+These "æpps" will benefit also from several on-chain features, including:<p>
+* Identities: Each account will be associated with a [unique ID number](https://en.wikipedia.org/wiki/Universally_unique_identifier). Users will be allowed to register distinctive names and link them to a data structure’s [Merkle](https://en.wikipedia.org/wiki/Merkle_tree) root.
+* Wallet: the [wallet](https://en.wikipedia.org/wiki/Wallet_(software)) manages the crypto-currency, æon, [private keys](https://en.wikipedia.org/wiki/Public-key_cryptography), sends and signs transactions. It can also be used to create channel transactions and use apps within the channel network.
+
+Some of these "æpps" applications include :<p>
+
+* Toll API: Payment channels open the door to a novel type of APIs where a user can pay for every API request. [Toll APIs](https://en.wikipedia.org/wiki/AEternity#Toll_API) mitigate [DDoS](https://en.wikipedia.org/wiki/Distributed_denial-of-service_attacks_on_root_nameservers) problems and simplify the creation of high quality APIs.
+* Insured Crowdfunding: [Insured crowdfunding](https://en.m.wikipedia.org/wiki/Equity_crowdfunding#Crowdfunding_insurance) can be implemented via means of [dominant assurance contracts](https://en.wikipedia.org/wiki/Assurance_contract#Dominant_assurance_contracts), which are smart contracts that are created to raise money for a good cause.
+* Decentralized Education Marketplace on æternity : æternity's powerful features can be used to disrupt education with Blockchain by creating an open marketplace where students and teachers alike, can trade private or group lessons. It should include social profiles of both teachers and students, gamification etc. Also, by Using æternity oracle, students can allow more than one teacher to rate a test, exam or work in general.
+* Others: [Other possible applications](https://github.com/aeternity/wiki/wiki/Idea-Box#decentralized-education-marketplace-on-%C3%A6ternity) include cross-chain atomic swaps, event contracts (e.g. insurance, whistleblowing) and prediction markets. 
 
 <i>Extracted from deepdotweb.com article by Tamer Sameeh from Feb 28, 2017. 
 
@@ -43,9 +48,9 @@ The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for
 
 Contributors will be able to use their AE after Phase 2 is complete (most probably in the form of an [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network).
 
-The contributor portion will comprise eighty-two percent of the initial æternity AE tokens. Seventeen percent of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and one percent will be allocated to those who hold BTC or ETH, accessible when the æternity blockchain launches. 
+The contributor portion will comprise eighty-two percent of the initial æternity AE tokens. Seventeen percent of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and one percent will be allocated holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
-All will be recorded on the ETH blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE tokens for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
+All will be recorded on the Ethereum Blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE tokens for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
 
 https://blog.aeternity.com/security-transparency-simplicity-1411fad10974
 
