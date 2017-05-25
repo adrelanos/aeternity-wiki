@@ -22,7 +22,7 @@ II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2
 II-A.2 [Account](#account) . . . . . . . . . . . . . . . . . 2  
 II-A.3 [Sistema dei nomi](#sistema-dei-nomi)  . . . . . . . . . . . . 3  
 II-A.4 [Contenuti dei blocchi](#contenuti-dei-blocchi) . . . . . . . . . . 3  
-II-B [State channel](#state-channel) . . . . . . . . . . . . . . . 3  
+II-B [Canali a stati](#canali-a-stati) . . . . . . . . . . . . . . . 3  
 II-B.1 [Smart contract](#smart-contract)  . . . . . . . . . . . . . 3  
 II-B.2 [Esempi](#esempi)  . . . . . . . . . . . . . . . . . 4  
 II-C [Meccanismo di Consenso](#meccanismo-di-consenso)  . . . . . . . . . . 5  
