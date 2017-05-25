@@ -157,6 +157,11 @@ Quando sarà ora di rispondere alla domanda, l'utente che ha lanciato l'oracolo 
 
 II-D
 #### Governance
+La governance dei sistemi basati sulle blockchain è stata un grande problema nel passato. Ogni volta che un sistema necessita di un aggiornamento è richiesto un "hard-fork" (una biforcazione netta della blockchain) che normalmente porta a grandi discussioni fra tutti coloro che detengono il valore (la moneta digitale). Anche questioni semplici, come la correzione di un set arbitrario di variabili nel codice sorgente vista nel dibattito sulla dimensione dei blocchi in Bitcoin, sembrano essere molto complesse in un sistema in cui gli incentivi degli utenti non sono allineati con coloro che prendono le decisioni e dove non c'è un chiaro percorso di aggiornamento. Abbiamo anche assistito a decisioni di governance più difficili che hanno richiesto un intervento rapido dagli sviluppatori del sistema, come la correzione di un singolo bug del contratto smart in "The DAO".  
+Il problema principale di questi sistemi è facilmente identificabile: il processo decisionale per l'aggiornamento o il cambiamento di un protocollo non è ben definito e manca di trasparenza. Il sistema di governance di æternity è parte del meccanismo di consenso. Usa mercati predittivi per funzionare nel modo più efficace e trasparente possibile.  
+Il meccanismo di consenso è inoltre definito da un numero di variabili che determinano come funziona il sistema e che sono aggiornate a poco a poco da ciascun nuovo blocco. Dal costo per effettuare transazioni o per interrogare un oracolo fino alle modifiche dei valori di parametri fondamentali come il tempo di generazione di un blocco.  
+Gli utenti possono imparare come migliorare efficacemente il protocollo attivando dei mercati predittivi sulle variabili che lo definiscono. Possiamo aiutare la comunità a raggiungere un consenso su quale versione del codice utilizzare attivando dei mercati predittivi su potenziali "hard-fork" della blockchain. Ciascun utente sceglie per conto suo quale metrica preferisce ottimizzare, ma massimizzare il valore di ciò che possiede è la strategia predefinita più semplice.  
+
 II-E
 #### Scalabilità
 II-E.1
