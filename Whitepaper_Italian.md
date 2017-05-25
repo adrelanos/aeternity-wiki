@@ -167,6 +167,7 @@ II-E
 II-E.1
 #### Frammentazione ad alberi
 L'architettura presentata fino a questo punto è altamente scalabile. È possibile far funzionare la blockchain anche quando ciascun utente tiene traccia esclusivamente dello stato della blockchain di suo interesse ignorando i dati altrui. I nuovi utenti hanno bisogno di almeno una copia dello stato della blockchain per essere certi del sotto-stato di loro interesse, ma possiamo frammentare tali dati attraverso parecchi nodi casuali così che il carico di ciascun nodo sia arbitrariamente piccolo. Viene utilizzato lo schema ad alberi di Merkle per dimostrare che un sotto-stato sia parte di uno stato [11]. È facile immaginare uno scenario in cui certi nodi si specializzino nel mantenere traccia delle ramificazioni e nell'essere pagati per inserimenti e consultazioni.  
+
 II-E.2
 #### Client leggero
 I client leggeri non scaricano interamente i blocchi. In primo luogo l'utente da al proprio client un hash tratto dallo storico della biforcazione che preferisce, una tecnica nota anche come soggettività debole [12]. Quindi il client sa di dover scaricare biforcazioni che includono un blocco di tale hash e scarica solo le intestazioni dei blocchi, decisamente più piccole dei blocchi interi: sono pochissime le transazioni processate. Per semplicità non abbiamo fatto menzione delle intestazioni dei blocchi quando ne abbiamo discusso la struttura nella sezione [II-A.4](#contenuti-dei-blocchi), ma i loro contenuti sono i seguenti:  
@@ -174,7 +175,10 @@ I client leggeri non scaricano interamente i blocchi. In primo luogo l'utente da
     - L'hash radice di tutti gli alberi dello stato.  
 
 II-E.3
-#### State channel e parallelismo
+#### Canali a stati e parallelismo
+I canali a stati processano una immensa mole di dati e molte delle transazioni che avvengono al loro interno non sono mai eseguite o addirittura registrate nella blockchain. Inoltre i canali non registrano su nessuno stato condiviso con la blockchain, così tutte le transazioni che invece vengono effettivamente registrate sulla blockchain possono essere processate in parallelo. Dato che gran parte dell'hardware venduto oggi ai consumatori possiede almeno quattro processori, l'effetto immediato è che la capacità di trasmissione delle transazioni è grossomodo quadruplicata.  
+Inoltre il fatto che non ci sia alcuna interazione concorrenziale complessa suggerisce che la frammentazione di questa architettura della blockchain dovrebbe essere relativamente semplice. Poiché la frammentazione di una blockchain è una tecnologia ancora piuttosto sperimentale, abbiamo deciso deliberatamente di non perseguire alcuna specifica tecnica di frammentazione nella progettazione iniziale di æternity. Tuttavia, se ci dovessero essere dei cambiamenti futuri, æternity dovrebbe essere una delle blockchain più facili da frammentare.  
+
 II-E.4
 #### Transazioni per secondo ad una certa richiesta di memoria
 III
