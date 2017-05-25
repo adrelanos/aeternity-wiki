@@ -2,37 +2,37 @@
 
 ## What are Oracles?
 
-In computer science oracles are considered to be special machines, that can provide answers to non-computable problems. In terms of that definition, all modern computers are **not** oracles. This fact is true, because all problems that computers solve basically come down to performing some sort of computation, based on certain finite input parameters. 
+In computer science oracles are considered to be special machines, that can provide answers to non-computable (non-mathematical) problems. In terms of that definition, all modern computers are **not** oracles. This fact is true, because all problems that computers solve basically come down to performing some sort of computation, based on certain finite input parameters provided by the user. 
 
-Therefore, oracles, or oracle machines, by definition <sup>1</sup>, can compute the incomputable. In plain words, oracles can provide answers to the questions that are not mathematical problems. According to that terminology and the main point of reference to Alan Turing's Theory of Computation, the internal workings of an oracle are unknown. The oracle, however, will always provide one and the same output as a response to one and the same input. 
+Therefore, oracles, or oracle machines, by definition <sup>1</sup>, can compute the incomputable problems. In plain words, oracles can provide answers to the questions that are not mathematical problems. According to that terminology and the main point of reference to Alan Turing's Theory of Computation, the internal workings of an oracle are unknown. The oracle, however, will always provide one and the same output as a response to one and the same input. 
 
 # æternity Oracles
 
 ## How do æternity oracles function?
-Much like Turing's original oracle machine, an æternity oracle produces an output result, however, only to a given question. So, by itself an individual æternity oracle is not universal, but numerous oracles can be created, so that a multitude of questions can be answered. The oracle's output result is provided by the person, who has launched the oracle. This person has committed, by means of the æternity token, to provide an answer during a certain timeframe, specified at the launch of the oracle. 
+Much like Turing's original oracle machine, an æternity oracle produces an output result, however, only to a given question. So, by itself an individual æternity oracle is not universal, but in order to answer a multitude of questions, an unlimited number of oracles must be created. The oracle's output result is then provided by the person, who has launched it. This person which would have committed, by means of the æternity token "æon" (which provides here the financial incentive), to provide an answer during a certain time-frame which is specified at the launch of the oracle. 
 
-Because there are no hardware oracles, æternity oracles aim to provide a trustworthy YES or NO answer to every possible type of question, whose YES or NO answer can be substantiated with real-world data. So again, the human brain will be a part of the process performing a check on the question's answer. That is natural because the human brain is an instantiation of the oracle machine. Every single oracle resides on æternity's blockchain.
+Because there are no hardware oracles, æternity oracles aims to provide a trustworthy YES or NO answer to every possible type of question, whose YES or NO answer can be substantiated with real-world data. So again, the human brain will be a part of the process performing a check on the question's answer. That is natural because the human brain is an instantiation of the oracle machine. It is only incentivized by "æons" to provide that correct answer. Accordingly, every single oracle resides on æternity's Blockchain.
 
 ## Users and the oracle
-In the context of the æternity oracle, there will be two types of users:
-+ object creators: people who instantiate an oracle. They are the ones who commit to a certain result, by depositing aeon, during a specified timeframe.
-+ object readers: all others who can refer to the oracle or submit counter-claims by depositing aeon.
+In the context of the æternity Oracle, there will be two types of users:
++ object creators: people who instantiate an oracle. They are the ones who commit to a certain result, by depositing "æon", during a specified time-frame.
++ object readers: all others who can refer to that oracle or submit counter-claims by depositing "æon" as a guarantor of their counter-claim.
 
 ## Consensus and oracles 
 
-As you (may) have already noticed, "Oracles" is an item under "Consensus" in the æternity white paper. Since oracles can provide an input to the blockchain, this input must be validated before every node applies the consensus mechanism function. Ultimately, the current oracle's answer gets included in the blockchain forever. 
+As you (may) have already noticed, "Oracles" is an item under "Consensus" in the æternity white paper. Since oracles can provide an input to the Blockchain, this input must be validated before every node applies the consensus mechanism function. Ultimately, the current oracle's answer gets included in the Blockchain forever. 
 
-Validating the oracle output possess a number of obstacles. Essentially, the consensus mechanism must validate its outcome  separately from the inputs it is validating - transactions, balances, etc. This fact means that on one hand you have the mechanism validating new blocks, and on the other the same process goes on for the oracle answer. Although technically possible by means of running two consensus mechanisms consequtively, this process can be expensive and time-consuming. Therefore, the object creators commit to an oracle answer using aeons. Ultimately, the oracle's output is determined by its creators and readers and the the same output is included in the blockchain.
+Validating the oracle output on the Blockchain has a number of obstacles. Essentially, the consensus mechanism must validate its outcome  separately from the inputs it is validating - transactions, balances, etc. This fact means that on one hand you have the mechanism validating new blocks, and on the other the same process goes on for the oracle answers. Although technically possible by means of running two consensus mechanisms consecutively, this process can be expensive and time-consuming. Therefore, the object creators commit to an oracle answer using "æons". Ultimately, the oracle's output is determined by its creators and readers (or counter-claimers) and the the same output is included in the Blockchain.
 
 ## What good does the oracle bring
 
-It is exciting to think that blockchain oracles, by themselves, have their own use cases. On top of that, every oracle's answer or output is recorded forever in the blockchain and cannot be altered. Not only that, but a malicious object creator can be easily brought down by the public, with the oracle providing a steady vehicle for doing that.
+It is exciting to think that Blockchain oracles, by themselves, have their own use cases. On top of that, every oracle's answer or output is recorded forever in the Blockchain and cannot be altered. This would be revolutionary in the history of mankind. The recollection of past events (History) would not be written by the winners/survivors of historical events, but rather by the people living those events in real-time. Not only that, but a malicious subject/object creator can be easily brought down by the public, with the oracle providing a steady vehicle for doing that.
 
 Here is what an oracle is very good at:
 
-+ by using the aeon, crerators and readers must think twice before they commit to a realistic output
-+ oracles can be instantiated for every (non-computable) question
-+ an oracle's output is public, visible to everyone, residing on the blockchain, thus contributing to an impratial knowledge-based decentralized society.
++ by using "æons", creators and readers are financially incentivized to commit to true and realistic outputs.
++ oracles can be instantiated for every (non-computable) question.
++ an oracle's output is publicly visible to everyone, residing on the Blockchain, thus contributing to an impartial un-censor-able knowledge-based decentralized society.
 
 It is yet to be determined if oracle machines are part of the Type Theory<sup>2</sup>. In essence, this fact means that it is questionable to what extent we can question oracles about themselves. 
 
