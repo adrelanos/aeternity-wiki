@@ -17,7 +17,8 @@
 
 ## Dokumente in deutscher Sprache
 
-- [Whitepaper Deutsch](Whitepaper_Deutsch)
+- [Whitepaper Abstrakt Deutsch](Whitepaper_Deutsch)
+  - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 - [Terminal Commands]([GERMAN]Terminal-interface-commands)
 - [Api Beispiele]([GERMAN]API-Examples)
 - [Api Befehle]([GERMAN]API-Commands)
