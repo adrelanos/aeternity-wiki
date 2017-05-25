@@ -18,7 +18,7 @@
 ### [italiano - Documento completo](Whitepaper_Italian)
 ### [日本語 - 概要](Whitepaper_Japanese)
 ### [한국어 - 초록][WP_kr]
-### [Português - resumo](whitepaper—português)
+### [Português - resumo](Whitepaper_-Português)
 ### [русский - резюме](Whitepaper_Russian)
 ### [Türkçe - özet](Whitepaper_Turkish)
 
