@@ -165,9 +165,14 @@ Gli utenti possono imparare come migliorare efficacemente il protocollo attivand
 II-E
 #### Scalabilità
 II-E.1
-#### Sharding trees
+#### Frammentazione ad alberi
+L'architettura presentata fino a questo punto è altamente scalabile. È possibile far funzionare la blockchain anche quando ciascun utente tiene traccia esclusivamente dello stato della blockchain di suo interesse ignorando i dati altrui. I nuovi utenti hanno bisogno di almeno una copia dello stato della blockchain per essere certi del sotto-stato di loro interesse, ma possiamo frammentare tali dati attraverso parecchi nodi casuali così che il carico di ciascun nodo sia arbitrariamente piccolo. Viene utilizzato lo schema ad alberi di Merkle per dimostrare che un sotto-stato sia parte di uno stato [11]. È facile immaginare uno scenario in cui certi nodi si specializzino nel mantenere traccia delle ramificazioni e nell'essere pagati per inserimenti e consultazioni.  
 II-E.2
 #### Client leggero
+I client leggeri non scaricano interamente i blocchi. In primo luogo l'utente da al proprio client un hash tratto dallo storico della biforcazione che preferisce, una tecnica nota anche come soggettività debole [12]. Quindi il client sa di dover scaricare biforcazioni che includono un blocco di tale hash e scarica solo le intestazioni dei blocchi, decisamente più piccole dei blocchi interi: sono pochissime le transazioni processate. Per semplicità non abbiamo fatto menzione delle intestazioni dei blocchi quando ne abbiamo discusso la struttura nella sezione [II-A.4](#contenuti-dei-blocchi), ma i loro contenuti sono i seguenti:  
+    - L'hash del blocco precedente.  
+    - L'hash radice di tutti gli alberi dello stato.  
+
 II-E.3
 #### State channel e parallelismo
 II-E.4
