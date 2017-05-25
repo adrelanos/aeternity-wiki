@@ -10,8 +10,8 @@ funktionierende Orakelmaschine
 * Yanislav Malahov[Yani@aeternity.com](mailto:yani@aeternity.com)
 * Jack Pettersson[Jack@aeternity.com](mailto:jack@aeternity.com)
 
-* WICHTIGER HINWEIS: Dies ist eine Community Übersetzung und erhebt keinen Anspruch auf Richtigkeit
-* Das original Dokument findest du hier: [original æternity Whitepaper Version 0.01 vom 06.02.2017]()
+* **WICHTIGER HINWEIS: Dies ist eine Community Übersetzung und erhebt keinen Anspruch auf Richtigkeit**
+* **Das original Dokument findest du hier: [original æternity Whitepaper Version 0.01 vom 06.02.2017](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)**
 
 Zusammenfassung
 ===============
