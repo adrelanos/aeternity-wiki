@@ -2,7 +2,7 @@
 ## Seite 1
 
 aeternity blockchainDie vertrauenswürdige, dezentralisierte und rein
-funktionierende Orakelmaschine
+funktionale Orakelmaschine
 
 6. Februar 2017 V0.1
 ***
@@ -15,69 +15,58 @@ funktionierende Orakelmaschine
 
 Zusammenfassung
 ===============
-\- Seit der Einführung von Ethereum im Jahr 2014 dort hat großes Interesse
-an dezentralisierten vertrauenswürdigen Anwendungen (Intelligente
-Verträge / Smart Contracts). Infolgedessen haben viele versucht zu
-implementierenAnwendungen mit realen Weltdaten über eine Blockkette.
-WirGlaube, dass die Speicherung der Anwendung der Staat und
-Code-on-Kette istAus mehreren Gründen falsch.Wir präsentieren eine hoch
-skalierbare Blockchain - Architektur mit einemKonsens-Mechanismus, der
-auch verwendet wird, um das Orakel zu überprüfen.Das macht das Orakel
-sehr effizient, weil es die Schichtung vermeidetEin Konsensmechanismus
-auf der anderen Seite. ZustandskanäleSind integriert, um die
-Privatsphäre und Skalierbarkeit zu erhöhen. Token inKanäle können mit
-rein funktionalem Smart übertragen werdenVerträge, die auf oracle
-Antworten zugreifen können. Durch die Nichtlagerung des VertragesCode
-oder Zustand on-chain, können wir intelligente Verträge machenEinfacher
-zu analysieren und schneller zu verarbeiten, ohne erheblichen VerlustIn
-faktischer Funktionalität.Anwendungen wie Märkte für synthetische
-Vermögenswerte und VorhersageMärkte können auf globaler Ebene effizient
-umgesetzt werden. MehrereTeile haben in Erlang
-Proof-of-Concept-Implementierungen. EntwicklungOpment Werkzeuge und
-Anwendung Essentials wie eine Brieftasche, BenennungUnd Identitätssystem
-wird auch zur Verfügung gestellt.C
+
+
+\- Seit der Einführung von Ethereum im Jahre 2014 hat sich ein großes Interesse
+an dezentralisierten vertrauenswürdigen Anwendungen (intelligenten Verträgen, sogenannten
+Smart Contracts) entwickelt. Infolgedessen haben sich viele an der Realisierung von Anwendungen mit real world data auf einer Blockchain versucht. Wir glauben die Speicherung des Standes der Anwendung sowie des Code-on-Chain ist aus mehreren Gründen schlichtweg falsch.
+Wir präsentieren Ihnen eine hochskalierbare Blockchain-Struktur mit einem Consensus-Mechanismus, welcher ebenfalls zur Überprüfung des Orakels verwendet wird. Dies resultiert in einer hohen Effizienz des Orakels, da die Schichtungen mehrerer Consensus-Mechanismen so verhindert werden. Zusätzlich sind Zustandskanäle integriert, um die
+Privatsphäre und Skalierbarkeit zu erhöhen. Tokens in Kanälen können mit
+rein funktionalen Smart Contracts übertragen werden, welche auf Antworten des Orakels zugreifen können. Bei Nichtlagerung des Vertragscodes oder Zustands on-chain, ist es uns möglich Smart Contracts leichter zu analysieren und schneller zu verarbeiten, ohne erheblichen Verlust der faktischen Funktionalität. 
+Anwendungen wie Märkte für synthetische Vermögenswerte sowie Prognosemärkte können auf globaler Ebene effizient umgestzt werden. Mehrere Glieder/Bestandteile besitzen Proof-of-Concept-Implementierungen in Erlang. Werkzeuge zur Entwicklung und wesentliche Anwendungen wie Wallet, Naming sowie das Identitätssystem werden ebenfalls gestellt.
+C
 INHALT[ich](#seite-1)[Einführung](#seite-1)1[IA](#seite-2)[Vorherige Arbeit .](#seite-2)
 . . . . . . . . . . .
-.2[II](#seite-2)[aeternity blockchain](#seite-2)2[II-A](#seite-2)[Token, Konten und Blöcke](#seite-2)
+.2[II](#seite-2)[aeternity blockchain](#seite-2)2[II-A](#seite-2)[Zugangstoken, Konten und Blöcke](#seite-2)
 . . . . .2[II-A.1](#seite-2)[Zugangstoken, Aeon](#seite-2) . . .
 .2[II-A.2](#seite-2)[Konten.](#seite-2) . . . . . . . .
-.2[II-A.3](#seite-3)[Name System](#seite-3) . . . . . .
-.3[II-A.4](#seite-3)[Inhalt blockieren](#seite-3) . . . . .
+.2[II-A.3](#seite-3)[Namenssystem](#seite-3) . . . . . .
+.3[II-A.4](#seite-3)[Inhalte blockieren](#seite-3) . . . . .
 .3[II-B](#seite-3)[Zustandskanäle](#seite-3) . . . . . . . . . . .
-.3[II-B.1](#seite-3)[Intelligente Verträge](#seite-3) . . . . .
+.3[II-B.1](#seite-3)[Smart Contracts](#seite-3) . . . . .
 .3[II-B.2](#seite-4)[Beispiel](#seite-4) . . . . . . . .
-.4[II-C](#seite-5)[Konsensmechanismus](#seite-5) . . . . . . .
+.4[II-C](#seite-5)[Consensus-Mechanismus](#seite-5) . . . . . . .
 .5[II-C.1](#seite-5)[Orakel](#seite-5) . . . . . . . . .
 .5[II-D](#seite-5)[Regierungsführung](#seite-5) . . . . . . . . . . . .
 .5[II-E](#seite-6)[Skalierbarkeit](#seite-6) . . . . . . . . . . . . .
-.6[II-E.1](#seite-6)[Scheiße Bäume](#seite-6) . . . . .
-.6[II-E.2](#seite-6)[Leichte Klienten](#seite-6) . . . . . . .
-.6[II-E.3](#seite-6)[Zustandskanäle und paral-](#seite-6)[Lelismus](#seite-6)
+.6[II-E.1](#seite-6)[Sharding trees](#seite-6) . . . . .
+.6[II-E.2](#seite-6)[Light clients](#seite-6) . . . . . . .
+.6[II-E.3](#seite-6)[Zustandskanäle und Parallelismen](#seite-6)
 . . . . . . . . . .
-.6[II-E.4](#seite-6)[Transaktionen pro Sekunde bei](#seite-6)[Eine gegebene Speicheranforderung](#seite-6)
+.6[II-E.4](#seite-6)[Transaktionen pro Sekunde bei](#seite-6)[gegebenener Speicheranforderung](#seite-6)
 6[III](#seite-6)[Anwendungen](#seite-6)6[III-A](#seite-6)[Blockchain Essentials](#seite-6)
 . . . . . . . . .6[III-A.1](#seite-6)[Identitäten](#seite-6) . . . . . .
-. . .6[III-A.2](#seite-6)[Geldbörse](#seite-6) . . . . . . . . .
-.6[III-A.3](#seite-6)[Nachweis der Existenz](#seite-6) . . .
-.6[III-B](#seite-7)[Zustandskanalanwendungen](#seite-7) . . . . . .
+. . .6[III-A.2](#seite-6)[Wallet](#seite-6) . . . . . . . . .
+.6[III-A.3](#seite-6)[Existenznachweis](#seite-6) . . .
+.6[III-B](#seite-7)[Anwendungen der Zustandskanäle](#seite-7) . . . . . .
 .7[III-B.1](#seite-7)[Maut API](#seite-7) . . . . . . . . .
 .7[III-B.2](#seite-7)[Versicherter Crowdfunding](#seite-7) . .
 .7[III-B.3](#seite-7)[Kreuzketten-Atom-Swaps](#seite-7)
 .7[III-B.4](#seite-7)[Stabile Vermögenswerte und](#seite-7)[Portfolio-Replikation](#seite-7)
 . . . .7[III-B.5](#seite-7)[Eventverträge](#seite-7) . . . .
 .7[III-B.6](#seite-7)[Vorhersagemärkte](#seite-7) . . .
-.7[III-B.7](#seite-7)[Markt mit Chargenhandel](#seite-7)[Zu einem einzigen preis](#seite-7)
+.7[III-B.7](#seite-7)[Markt mit Batch-Handel](#seite-7)[Zu einem einzigen Preis](#seite-7)
 . . . .
-.7[IV](#seite-8)[Implementierung](#seite-8)8[IV-A](#seite-8)[Virtuelle Maschine und Vertragssprache](#seite-8)8[IV-B](#seite-8)[Adoption über Web-Integration](#seite-8)
+.7[IV](#seite-8)[Implementierung](#seite-8)8[IV-A](#seite-8)[Virtuelle Maschine und Vertragssprache](#seite-8)8[IV-B](#seite-8)[Annahmeüber Web-Integration](#seite-8)
 . . . . .8[IV-C](#seite-8)[Open Source Module.](#seite-8) . . . . . . .
-.8[IV-D](#seite-8)[Usability und UX Design](#seite-8) . . . . . .
+.8[IV-D](#seite-8)[Nutzbarkeit und UX Design](#seite-8) . . . . . .
 .8[V.](#seite-8)[Diskussion](#seite-8)8[VA](#seite-9)[Einschränkungen und Kompromisse](#seite-9)
 . . . . . . .9[VA.1](#seite-9)[On-Chain-Zustand](#seite-9) . . . . . .
-.9[VA.2](#seite-9)[Kostenloses Optionsproblem](#seite-9) . .
-.9[VA.3](#seite-9)[Liquiditätsverlust und -zustand](#seite-9)[Kanaltopologien](#seite-9)
+.9[VA.2](#seite-9)[Freies Optionsproblem](#seite-9) . .
+.9[VA.3](#seite-9)[Liquiditätsverlust und Zustand der Kanaltopologien](#seite-9)
 . . . . .9[VB](#seite-9)[Zukünftige Arbeit .](#seite-9) . . . . . . . .
 . . . . .9[VB.1](#seite-9)[Funktionale Vertragssprache](#seite-9)
-9[VB.2](#seite-9)[Mehrparteienkanäle](#seite-9) . . .9I. E INFÜHRUNGDie
+9[VB.2](#seite-9)[Mehrparteienkanäle](#seite-9) . . .9I. EINFÜHRUNG Die
 Absicht dieser Arbeit ist es, einen Überblick zu gebenDie
 aeternity-Blockchain-Architektur und mögliche ApplikationenTionen In
 Zukunft werden detailliertere Beiträge veröffentlicht,Speziell für die
@@ -917,3 +906,7 @@ https://github.com/aeternity/chalang.<br>
 </tr>
 </tbody>
 </table>
+
+
+## Glossar
+### Sharing Tree = Scheiße Bäume, auf keine Fall
