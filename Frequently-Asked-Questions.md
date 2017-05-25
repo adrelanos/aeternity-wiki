@@ -74,15 +74,11 @@ Since contracts in aeternity are independent from each other, it is much easier 
 
 The programming language for contracts will be written in a high-level functional language. This eliminates many types of possible errors and aids formal verification. Additionally, since contracts do not depend on each others' state, it is easier be correct.
 
-# How does on-chain conflict resolution work? (crypto-court) #
+# How does on-chain conflict resolution work? (Crypto-court) #
 
-Answer by agorism1337 from [reddit](https://www.reddit.com/r/Aeternity/comments/64x1u7/how_does_onchain_conflict_resolution_work/).
+It is possible that conflicting final channel states are submitted to the blockchain. In this case, the blockchain will examine which has a higher nonce. Only the higher nonced version of the state is accepted. Every time there's a channel payment or update the channel state, the nonce is increased. 
 
-It is possible that you each submit conflicting final channel states to the blockchain. The blockchain processes both options, and examines which has a higher nonce. The higher nonced version of the state is accepted, and the other is rejected.
-
-So every time we make a channel payment or update the channel state, we also have to update the nonce in the channel state. That way the blockchain will prefer the most recent channel state we made.
-
-The blockchain is not completely stateless. It keeps a record of each account balance, and the results of every oracle, and some other things. What is important for scalability is that channels cannot edit any shared memory. It is deterministic to let processes read data in parallel, but it is not deterministic to let processes edit data in parallel. Since channels can't edit shared memory, we can process all the channel transactions in parallel.
+The blockchain is not completely stateless. It keeps a record of each account balance and the results of every oracle, among other things. What is important for scalability is that channels cannot edit any shared memory. It is deterministic to let processes read data in parallel, but it is not deterministic to let processes edit data in parallel. Since channels can't edit shared memory, we can process all the channel transactions in parallel.
 
 # What is the Circulating Supply of æ? #
 
