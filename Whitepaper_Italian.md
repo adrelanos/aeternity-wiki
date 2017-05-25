@@ -29,9 +29,9 @@ II-C [Meccanismo di Consenso](#meccanismo-di-consenso)  . . . . . . . . . . 5
 II-C.1 [Oracoli](#oracoli) . . . . . . . . . . . . . . . . . 5  
 II-D [Governance](#governance)  . . . . . . . . . . . . . . . . 5  
 II-E [Scalabilità](#scalabilità) . . . . . . . . . . . . . . . . 6  
-II-E.1 [Sharding trees](#sharding-trees) . . . . . . . . . . . . . 6  
+II-E.1 [Frammentazione ad alberi](#frammentazione-ad-alberi) . . . . . . . . . . . . . 6  
 II-E.2 [Client leggero](#client-leggero)  . . . . . . . . . . . . . 6  
-II-E.3 [State channel e parallelismo](#state-channel-e-parallelismo). . . . . . . 6  
+II-E.3 [Canali a stati e parallelismo](#canali-a-stati-e-parallelismo). . . . . . . 6  
 II-E.4 [Transazioni per secondo ad una certa richiesta di memoria](#transazioni-per-secondo-ad-una-certa-richiesta-di-memoria) 6  
 III [Applicazioni](#applicazioni) . . . . . . . . . . . . . . . . 6  
 III-A [Elementi essenziali della blockchain](#elementi-essenziali-della-blockchain) . . . 6  
