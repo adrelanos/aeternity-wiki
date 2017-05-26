@@ -13,11 +13,13 @@ It is a slot machine where you gamble money at 50/50 odds.
 It is a little spread around now.
 We need a way to organize dapps so it is easy to upgrade a basic aeternity node to support whatever dapp you want.
 
-This is the language for writing smart contracts: 
+This is the language for writing smart contracts:
 [/BumblebeeBat/chalang](../../../../BumblebeeBat/chalang)
 
 
 ***
 related: [æternity DApp Development](æternity-DApp-Development)
 ***
-Sources:
+sources:
+* [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)
+* [SL docs](../../../../aeternity/testnet/tree/master/docs/)
