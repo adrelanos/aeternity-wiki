@@ -53,8 +53,6 @@ All will be recorded on the Ethereum Blockchain by a standard [multisig escrow c
 https://blog.aeternity.com/security-transparency-simplicity-1411fad10974
 
 ## Learn More
-[æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity).
-
 The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/), feel free to join us!
 _This will be rapidly expanded._
 
