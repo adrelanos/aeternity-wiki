@@ -26,7 +26,7 @@ Open request
 
 1. Ich arbeite gerade an diesem Dokument:
    * [German æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
-   * Frage: Wer kann mit helfen das Dokument in klares deutsch zu übersetzten, wielen dank für deine Unterstützung!
+   * Frage: Wer kann mit helfen das Dokument in klares deutsch zu übersetzten, vielen dank für deine Unterstützung!
    * ~Wenn was erledigt ist bitte so deklarieren, wie diese Zeile hier. Danke!~
 ***
 
