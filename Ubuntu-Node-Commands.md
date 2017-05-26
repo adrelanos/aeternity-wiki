@@ -28,21 +28,27 @@ To sync with a network and download blockchain:
 ```
 sync:start().
 ```
+***
 ## 
 ### Mining
 To start mining with all CPU cores:
 ```
 mine:start().
 ```
+***
+### 
 To stop mining:
 ```
 mine:stop().
 ```
+***
+### 
 To check if you are currently mining:
 ```
 mine:is_on().
 ```
 If it answers **Go**, it's mining.
+***
 ## 
 ### Spend
 ```
@@ -51,24 +57,28 @@ easy:spend(To, Amount).
 Where:
 - `To` is the recipient's account ID.
 - `Amount` is the amount to be transferred.
+***
 
 ## 
 ### Last transactions
 ```
 tx_pool:data().
 ```
+***
 ## 
 ### Account ID
 To find out account ID:
 ```
 keys:id().
 ```
+***
 ##
 ### Public key
 To find out your public key run:
 ```
 keys:pubkey().
 ```
+***
 ##
 ### Address
 To find out your address:
@@ -76,48 +86,60 @@ To find out your address:
 keys:address().
 ```
 If it returns something less than 1, that means you don't have an account yet.
+***
 ## 
 ### Shared Secret
 To calculate a shared_secret with a partner, you need a copy of their public key. Then you can use following command to get the Shared Secret:
 ```
 keys:shared_secret(Pubkey).
 ```
+***
 ## 
 ### Balance
 To check your balance:
 ```
 easy:balance().
 ```
+***
 ## 
 ### Stop/Off
 To stop a running node:
 ```
 easy:off().
 ```
+***
 ## 
 ### Lock and unlock
 To secure your node so no one can sign the transactions, you can either turn off the node, or you can run this command:
 ```
 keys:lock().
 ```
+***
+### 
 To check if your node is locked:
 ```
 keys:status().
 ```
+***
+### 
 To unlock your node so that you can start signing transactions again, run this command:
 ```
 keys:unlock("password").
 ```
+***
 ## 
 ### Signing
 First you have to have your keys unlocked. See [here](#Lock and Unlock) Then, to manually sign a transaction:
 ```
 keys:sign(Transactions, AccountRoot).
 ```
+***
+### 
 To manually sign raw binary data:
 ```
 keys:raw_sign(<<"binary date">>).
 ```
+***
 ## 
 ### Passwords and Keys
 
@@ -127,39 +149,53 @@ You can generate a new private key this way: ( !! Warning !!  This deletes your 
 ```
 keys:new("password").
 ```
+***
+### 
 To load a private key into an existing node:
 ```
 keys:load(Pubkey, Privkey, "password").
 ```
+***
+### 
 To change an account password:
 ```
 keys:change_password("old_password", "new_password").
 ```
+***
 ## 
 ### Channels
 Making a channel with the server:
 ```
 easy:new_channel(Balance, ReceivingLimit).
 ```
+***
+### 
 Where:
 - `Balance` is how much of your money you put into the channel.
 - `ReceivingLimit` is how much money the server puts into the channel.
 
 Note: `ReceivingLimit` This is the maximum amount of money that can be sent to you until the channel runs out of space. `ReceivingLimit` needs to be bigger then `Balance` or the server will not let you make the channel.
 ???Fee is the transaction fee, so that this transaction will be included into a block soon.??? (missing argument?)
+***
+### 
 
 To check your balance in the channel:
 ```
 easy:channel_balance().
 ```
+***
+### 
 To gamble with the server:
 ```
 easy:dice(Amount).
 ```
+***
+### 
 To close the channel and get your money out:
 ```
 easy:close_channel().
 ```
+***
 
 After closing channel you need to sync with the network to see if your channel is closed.
 
@@ -167,10 +203,12 @@ If your channel partner disappears, or breaks, you can still get your money with
 ```
 easy:solo_close_channel().
 ```
+***
 ### 
 ```
 easy:channel_timeout().
 ```
+***
     
 
 
@@ -180,6 +218,48 @@ easy:channel_timeout().
 
 
 ## 
+###  Oracle
+New difficulty oracle. This kind of oracle is only for measuring the expected difficulty in the future. ``Start`` is when trading starts. ``Difficulty`` is your approximation of the future value of the difficulty This oracle has 3 possible outputs: Either the difficulty you estimated is too high, it is too low, or it is good enough. If it is good enough, then we can launch a normal oracle.
+```
+easy:new_difficulty_oracle(Start, Difficulty).
+```
+***
+### 
+New question oracle. This oracle asks a true/false question about the future. Eventually, the answer to this question will get recorded on the oracle, and will be accessible to the smart contracts. It must reference a difficulty oracle that closed recently at the correct price.
+```
+easy:new_question_oracle(Start, Question, RecentDifficultyOracle).
+```
+***
+### 
+New governance oracle. This oracle updates the variables that define the blockchain protocol. It must reference a difficulty oracle that closed recently at the correct price.
+```
+easy:new_governance_oracle(Start, GovName, GovAmount, RecentDifficultyOracle).
+```
+***
+### 
+Bet in an oracle type is one of the atoms in this list: [true, false, bad] You can either bet that the answer to the question is true or false, or you can bet that it is a bed question.
+```
+easy:oracle_bet(OracleID, Type, Amount).
+```
+***
+###
+Close an oracle. If the oracle has had the same output state for a long enough period of time, them this is how anyone can close the channel and end the betting period.
+```
+oracle_close(OracleID).
+```
+***
+### 
+Oracle shares collect. Collect shares purchased in an oracle.
+```
+oracle_shares(OracleID).
+```
+***
+### 
+Oracle unmatched. If you had unmatched  trades sitting in the order book when the oracle closed. This is how you get your money back.
+```
+oracle_unmatched(OracleID, OrderID).
+```
+###  
 
  **//TODO  Add more commands.**
 
