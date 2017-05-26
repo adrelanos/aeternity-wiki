@@ -181,31 +181,29 @@ Inoltre il fatto che non ci sia alcuna interazione concorrenziale complessa sugg
 
 II-E.4
 #### Transazioni per secondo ad una certa richiesta di memoria
-Le variabili che definiscono il protocollo sono tutte aggiornate costantemente dal consenso. Possiamo calcolare il tasso iniziale di default delle transazioni per secondo dai loro valori di default iniziali.  
+Le variabili che definiscono il protocollo sono tutte aggiornate costantemente dal consenso. Possiamo calcolare il tasso iniziale di default delle transazioni per secondo dai loro valori di default iniziali.   
 
-|----------------------|
-1 | Note that this is a draft and will likely |
-2 | change. |
-3 |  |
-4 |  We define the following variables for the following calculations: |
-5 |  |
-6 |  B = block\_size in bytes |
-7 |  F = blocks\_till\_finality |
-8 |  R = time\_till\_finality in seconds |
-9 |  T = transaction size in bytes |
-10 |  |
-11 |  transactions per second = B * F / (T * R) |
-12 |  |
-13 |  B = 1000000 bytes = 1 megabyte per block |
-14 |  F = 24*60*2 blocks per day |
-15 |  R / F = 30 seconds per block |
-16 |  R = 24*3600 seconds per day |
-17 | T = 1000 bytes per transaction |
-18 |  |
-19 |  1000000 * 24*60*2 / 1000 / 24*3600 |
-20 |  = 1000000 / 1000 / 30 |
-21 |  = ca. 32 transactions per second (fast enough to sign up every human within 8 years) |
-|----------------------|
+1 | Nota che questa è una bozza e probabilmente
+2 | varierà
+3 | 
+4 | Definiamo le seguenti variabili per il calcolo che segue:
+5 |
+6 |  B = dimensione del blocco in bytes
+7 |  F = blocchi al termine
+8 |  R = tempo al termine in secondi
+9 |  T = dimensione della transazione in bytes
+10 | 
+11 |  transazioni per secondo = B * F / (T * R) 
+12 |  
+13 |  B = 1000000 bytes = 1 megabyte per blocco 
+14 |  F = 24*60*2 blocchi al giorno
+15 |  R / F = 30 secondi per blocco
+16 |  R = 24*3600 secondi al giorno
+17 |  T = 1000 bytes per transazione 
+18 |  
+19 |  1000000 * 24*60*2 / 1000 / 24*3600 
+20 |  = 1000000 / 1000 / 30 
+21 |  = ca. 32 transazioni per secondo (sufficientemente veloce per registrare ogni essere umano entro gli 8 anni)  
 
 Per operare un nodo dobbiamo conservare una copia di tutti i blocchi fino al suo stato conclusivo e dobbiamo essere in grado di registrare cento volte più informazioni nel caso in cui dovesse avvenire un attacco. Stimando che il termine sia due giorni, ci saranno 5760 blocchi fino al termine. Quindi i requisiti di memoria sono di 5760 * 1 megabyte * 100 = 576000 megabyte = 576 gigabyte. In assenza di un attacco servirebbero solo 5.76 gigabyte per conservare i blocchi.  
 
