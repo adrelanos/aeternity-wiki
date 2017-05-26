@@ -59,6 +59,9 @@ V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquid
 V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
 V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
 V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9
+[GLOSSARIO](#glossario)
+[RINGRAZIAMENTI](#ringraziamenti)
+[RIFERIMENTI](#riferimenti)
 
 #### Introduzione
 Lo scopo di questo paper è di dare un quadro d'insieme dell'architettura della æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica: tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
@@ -376,10 +379,41 @@ Ma poiché il mantenimento di un ulteriore canale aperto impatta negativamente l
 
 V-B
 #### Lavori Futuri
-
+Ci sono varie possibilità per migliorare l'architettura attuale.  
 
 V-B.1
 #### Linguaggio funzionale del contratto
+Una strada ragionevole per il futuro potrebbe essere la sperimentazione con linguaggi di alto livello che rispettino più strettamente il paradigma funzionale. Il mantenere traccia di uno stack implicito generalmente predispone ad errori e presumibilmente non è adatto ad un linguaggio di alto livello pensato per lo sviluppo. Ciò dovrebbe essere piuttosto semplice dal momento che i programmi sono già puramente funzionali e semplificherebbe enormemente sia lo sviluppo che la verifica formale dei contratti. Se ciò fosse fatto, avrebbe anche senso rivedere la VM per abbinarla strettamente al nuovo linguaggio per rendere la compilazione meno propensa a errori e meno dipendente dalla fiducia nei confronti degli sviluppatori. Idealmente la traduzione dal linguaggio di superficie al codice della VM dovrebbe essere una trascrizione diretta di una ricerca rivista tra pari, anche se probabilmente bisognerebbe fare delle concessioni pragmatiche.  
 
 V-B.2
 #### Canali multi-parti
+Al momento tutti i canali su æternity sono limitati a due parti. Nonostante si potrebbero ottenere di fatto canali multi-parti attraverso hashlocking, ciò potrebbe risultare costoso. Per questo motivo stiamo progettando di studiare la possibilità di aggiungere il supporto a canali di _n-_parti con un meccanismo di accordo di tipo _m-_di_-n_.  
+
+**GLOSSARIO**  
+
+**Blockchain** Un database distribuito, non manomissibile con accesso libero e pay-per-use ("metered"). Il database è costituito da una lista crescente di blocchi collegati tramite hash, e può utilizzare una qualsiasi regola per collegarli.  
+
+**Aeon** Un aeon rappresenta una unità di accreditamento ed un diritto di accesso alla blockchain æternity. E' trasferibile.  
+
+**Transazione** Un messaggio da uno utente della blockchain. Questo è il modo in cui gli utenti possono utilizzare la loro moneta per accedere alla blockchain.  
+
+**Canali a stati** Una relazione tra due utenti registrata sulla blockchain. Essa abilita gli utenti ad inviare aeon avanti ed indietro, ed a creare smart contract che non necessitino di fiducia reciproca tra gli utenti stessi in quanto i contratti vengono rinforzati e determinati dalla blockchain.  
+
+**Hash** Un hash prende come informazione in ingresso ("input") un dato di tipo binario di qualsiasi dimensione. Restituisce una informazione in uscita ("output") di dimensione stabilita. Lo stesso input determina il medesimo output. Ma dato un output, non si può risalire all'input che l'ha generato.  
+
+**Hashlocking** Questo è il modo in cui colleghiamo coppie di canali per creare uno smart contract the coinvolgano più di due persone. Un segreto viene referenziato dal suo proprio hash. Quando il segreto è rivelato, può aggiornare molteplici canali contemporaneamente.  
+
+**Governance** Un processo ben definito per la modalità di revisione di ogni futuro protocollo(i) della blockchain. 
+
+**Oracoli** Un meccanismo che racconta alla blockchain i fatti accaduti nel mondo reale in cui viviamo. Attraverso gli oracoli gli utenti possono predire l'esito degli eventi, esternamente al sistema della blockchain.  
+
+**Detentori di valore** Un utente che possieda aeon, o un derivato finanziario nel sistema.  
+
+**Validatore** Un validatore è un utente che partecipa al meccanismo di consenso. Nel caso di æternity, ogni detentore di valore può partecipare a tale processo.  
+
+**RINGRAZIAMENTI**  
+
+Grazie a Vlad, Matt, Paul, Dirk, Martin, Alistair, Devon e Ben per la revisione. Grazie a queste e molte altre persone per il confronto approfondito.  
+
+**RIFERIMENTI**  
+
