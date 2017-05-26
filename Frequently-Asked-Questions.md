@@ -112,16 +112,9 @@ The people who caused the attack lose all the money they attacked with. The defe
 * Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity system. æternity's oracle system is market based instead of voting based. It is connected to the blockchain consensus mechanism in a way that makes it more secure.
 * æternity is a Turing complete *stateless* smart contract system with a built-in oracle. It allows the creation of trustless Dapps such as insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, and card game gambling.
 
-# æternity, a new blockchain? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
+# æternity is a new blockchain? #
 
-Yes, æternity is a next level, brand new blockchain technology in the making, with many features that tackle current issues of blockchain systems in an elegant way.
-
-One can learn more about æternity’s blockchain technology by [looking at the whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf). Going through it is the best way to understand æternity’s technology design.
-
-Interested to see some action? Access our Twitch account to look at our live coding sessions. We also have a [public Gitter chat](https://gitter.im/aeternity/Lobby). More channels coming soon!
-
-æternity’s first testnet is now online. You can use it in order to check out some of its features. You can create an account and start mining AE right away. Start interacting with æternity by visiting [GitHub](http://github.com/aeternity/testnet).
+Yes, æternity is a next-level, brand new blockchain, with many features that solve current issues in blockchain technology in an elegant way. Reading [the whitepaper](Whitepaper_English) is the best way to understand æternity’s design. æternity’s first testnet is already online, ready for testing and mining.
 
 # What can the AE token be used for? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
