@@ -2,7 +2,7 @@
 
 æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur.
 Real-world data can interface with smart contracts on æternity through the use of decentralized oracles.
-True scalability (possibility to handle mainstream adoption thorough-puts) and Trustless Turing-complete state channels sets æternity apart from Ethereum.
+True scalability (possibility to handle mainstream adoption thorough-puts) and Trustless Turing-complete state channels set æternity apart from Ethereum.
 
 ![æternity platform-vision](https://github.com/aeternity/wiki/blob/master/AE101_BlockchainOrganism.png)
     
@@ -25,12 +25,12 @@ True scalability (possibility to handle mainstream adoption thorough-puts) and T
 # What is the purpose of æternity?
 
 
-æternity seeks to develop a highly scalable Blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create a Blockchain that is as efficient and cost effective as possible. Through use of the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another (Augur and Gnosis on top of Ethereum). Through state channel integration, privacy and scalability will be improved. Tokens in these state channels can be transferred using purely functional smart-contracts that have access to network-wide oracle answers. And while not storing the contract code or state on the Blockchain, we are able to make smart-contracts easier to analyse and faster to process, with no substantial loss in de facto functionality, while also keeping them safer and minimizing the risk of Blockchain bloating.
+æternity seeks to develop a highly scalable Blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create a Blockchain that is as efficient and cost-effective as possible. Through use of the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another (Augur and Gnosis on top of Ethereum). Through state channel integration, privacy and scalability will be improved. Tokens in these state channels can be transferred using purely functional smart-contracts that have access to network-wide oracle answers. And while not storing the contract code or state on the Blockchain, we are able to make smart-contracts easier to analyse and faster to process, with no substantial loss in de facto functionality, while also keeping them safer and minimizing the risk of Blockchain bloating.
 
 
 # What is a Blockchain?
 
-In short, a Blockchain is a secured ledger distributed among participant's computers and in this case, governed only by the æternity software. More generally, a Blockchain is essentially a distributed database that contains a constantly growing chronological list of unalterable transaction records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node, or computer connected to the Blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way Blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
+In short, a Blockchain is a secured ledger distributed among participant's computers and in this case, governed only by the æternity software. More generally, a Blockchain is essentially a distributed database that contains a constantly growing chronological list of unalterable transaction records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node, or computer connected to the Blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, Blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about æternity and how does it compare to other Blockchains?
 (Focus on Oracles, practicality, flexibility, the AE court, state channels)
@@ -38,7 +38,7 @@ In short, a Blockchain is a secured ledger distributed among participant's compu
 æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
 Other smart contract platforms experiment with 3rd party oracle machines added on top of the consensus; this is inefficient and unnecessary. 
 In contrast, the æternity's oracle is fully integrated into the consensus mechanism and delivers deterministic values (from legacy systems, real-world data or other Blockchains) with which smart contracts may interact.
-Thus, the oracle system offers Blockchain outsider data to be instantly implemented in æternity smart contracts and, in so doing, enables countless business use cases.
+Thus, the oracle system offers Blockchain outside data to be instantly implemented in æternity smart contracts and, in so doing, enables countless business use cases.
 
 ![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
 
@@ -53,14 +53,14 @@ Oracle is a mechanism to provide the Blockchain true facts about our world or an
 The State Channel design enables off-chain, or off-network, verification of transactions, data and smart-contracts. If the verification in the channel fails, the Blockchain is asked to resolve and acts as a judge between parties. This mechanism permits a very high transnational throughput and parallel processing of smart-contracts by allowing their independence from the network. Hence, æternity's strengths lie in the programmability of complex relationships for large numbers of users and in the parallel handling of high volumes of products and information.
 State channels allow for increased privacy in that only the parties participating in a smart contract know about the contents of that smart contract.
 When a channel is settled on-chain, the only information being put onto the Blockchain is the transnational value that was exchanged.
-No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so æternity's scalable smart contract systems improves upon the centralized scaling solutions that are available today.
+No contracting state is stored on-chain, so all channels are independent of each other. Transaction speed is limited only by bandwidth, so æternity's scalable smart contract systems improve upon the centralized scaling solutions that are available today.
 
  
 For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/). Also see [[State Channels]].
 
 # How does æternity work?
 
-In public Blockchains currently (Bitcoin, Ethereum, ...) whenever a system upgrade needs to be done, a hard fork is required. This leads to heated discussions among all value holders. Even simple changes, like correcting an arbitrary set variables in the source code, painfully obvious in the block size debate in Bitcoin, or the “ DAO” issue in Ethereum, seem to be very hard to agree on in a system where not all the users’ incentives are aligned with those of decision makers. This can cause deep Schisms in the community, which would sometime endanger the value and reliability of any Blockchain.
+In public Blockchains currently (Bitcoin, Ethereum, ...) whenever a system upgrade needs to be done, a hard fork is required. This leads to heated discussions among all value holders. Even simple changes, like correcting arbitrary set variables in the source code, painfully obvious in the block size debate in Bitcoin, or the “ DAO” issue in Ethereum, seem to be very hard to agree on in a system where not all the users’ incentives are aligned with those of decision makers. This can cause deep Schisms in the community, which would sometimes endanger the value and reliability of any Blockchain.
 
 The problem here is that  the decision-making process for a protocol upgrade or change is not well defined, lacks transparency and more importantly, it still uses legacy mediums, like forums, discussion websites or even requires sometimes physical meetups to try to reach a consensus. It is neither decentralized and nor done on the Blockchain. æternity aims to improve this process and thus gain an important competitive advantage.
 
