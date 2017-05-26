@@ -10,7 +10,7 @@ Table of Contents
    * [Which PoW Algorithm is used for mining in æternity?](#which-pow-algorithm-is-used-for-mining-in-æternity)
    * [How does PoS work in æternity?](#how-does-pos-work-in-æternity)
    * [How æternity protected from another DAO attack?](#how-is-æternity-protected-from-another-dao-attack)
-   * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
+   * [Can smart contracts be formally verified?](#can-smart-contracts-be-formally-verified)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-æ)
    * [What is the Maximum Supply of AE?](#what-is-the-maximum-supply-of-ae)
@@ -70,9 +70,9 @@ In the DAO, some people trusted other people to spend their money for them. Howe
 
 Since contracts in aeternity are independent of each other, it is much easier to prove and verify what each contract does.
 
-# Is smart contract verification on the roadmap? #
+# Can smart contracts be formally verified? #
 
-The programming language for contracts will be written in a high-level functional language. This eliminates many types of possible errors and aids formal verification. Additionally, since contracts do not depend on each others' state, it is easier be correct.
+Smart contracts are function-based. This eliminates many types of possible errors, aids reasoning, and enables formal verification. Additionally, since contracts do not depend on each others' state, it is easier be correct.
 
 # How does on-chain conflict resolution work? (Crypto-court) #
 
