@@ -9,7 +9,7 @@
 
 æternity's [white paper](Whitepaper_English) was published to introduce this architecture and its potential use cases. æternity is built to be used on a global scale in [prediction markets](https://en.wikipedia.org/wiki/Prediction_market), [synthetic assets’ markets](https://syntheticassets.wordpress.com/) and [a variety of other use cases](https://github.com/aeternity/wiki/wiki/Idea-Box#use-case-ideas-for-%C3%A6ternity).<p>
 
-<b>How Can æternity Blockchain Serve Smart Contract Platforms?<p>
+<b>How can æternity Blockchain serve Smart Contract platforms?<p>
 
 There are three main problems that underlie the presently available smart contract platforms. These include; the lack of sufficient scalability (global use throughput), coding safety and relatively inexpensive access to real-world data and chain governance:<p>
 
