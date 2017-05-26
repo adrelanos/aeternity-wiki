@@ -5,7 +5,7 @@ Infolgedessen wurden viele Versuche unternommen, Anwendungen mit realen Daten au
 Wir glauben, dass die Speicherung des Zustands und des Codes einer Anwendung auf der Blockchain aus mehreren Gründen falsch ist.
 Dies bläht die Größe der Blockchain auf, setzt Smart Contracts unnötigen Schwachstellen aus und reduziert die Privatsphäre und verhindert so den Zugang von Blockchains für private Anwendungsfälle (Banken, private Unternehmen, ...).
 
-Aus diesem Grund wird die æternity als die einzige Blockkette entwickelt, die durch ihr Kerndesign den Durchsatz von Mainstream-Weltnutzungsfällen aufrechterhalten kann, während sie reale Schnittstellen innerhalb ihrer Blockchain bereitstellen.
+Aus diesem Grund wird æternity entwickelt, als die einzige Blockchain, die durch ihr Kerndesign den Durchsatz von Mainstream Anwendungsfällen aufrechterhalten kann, während sie Schnittstellen zur realen Welt innerhalb ihrer Blockchain bereitstellt.
 
 Es kann dank der integrierten Zustandskanäle einen größeren Transaktionsdurchsatz (mehr als Visa und Legacy-Systeme) verarbeiten.
 
