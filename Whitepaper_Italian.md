@@ -229,43 +229,73 @@ Un certo tipo di transazione permette la pubblicazione di hash di qualsiasi dato
 
 III-B
 #### Applicazioni su canali a stati
+Gli smart contract nei canali a stati sono perfetti per micro-servizi sul web che richiedono un'alta capacità di trasmissione.  
+
 III-B.1
 #### Strumento API
+La maggior parte delle API sono disponibili per chiunque voglia fare una chiamata pubblica, sono alternativamente accessibili tramite uno schema utente-password o tramite un token di accesso univoco. I canali per i pagamenti permettono una nuova tipologia di API in cui si paga per ogni richiesta all'API, eventualmente persino per ogni richiesta HTTP. Pagare per accedere ad una API risolve i problemi degli attacchi DDoS e rende più facile costruire API sempre disponibili di alta qualità. Le risposte API che richiedono un pagamento sono fondamentali per la creazione di tipologie di business ancora impossibili e possono ricoprire un ruolo importante nell'emergere di una economia decentralizzata. Creano incentivi affinché i possessori di informazioni rendano disponibili pubblicamente dati di norma privati.  
+
 III-B.2
 #### Raccolta fondi assicurata
+
+
 III-B.3
 #### Swap atomico tra blockchain
+
+
 III-B.4
 #### Asset a valore stabile e replicazione del portafoglio
+
+
 III-B.5
 #### Contratti dell'evento
+
+
 III-B.6
 #### Mercati predittivi
+
+
 III-B.7
 #### Market con un lotto in vendita ad un prezzo singolo
+
+
 IV
 #### Implementazione
+
+
 IV-A
 #### Macchine e linguaggio del contratto
+
+
 IV-B
 #### Adozione tramite integrazione web
+
 IV-C
 #### Moduli open source
+
 IV-D
 #### Condizioni d'uso e design dell'UX
+
 V
 #### Discussioni
+
 V-A
 #### Limitazioni e tradeoff
+
 V-A.1
 #### Stati sulla blockchain
+
 V-A.2
 #### Problema dell'opzione gratuita
+
 V-A.3
 #### Perdita di liquidità e tipologie di macchine a stati
+
 V-B
 #### Lavori Futuri
+
 V-B.1
 #### Linguaggio funzionale del contratto
+
 V-B.2
 #### Canali multi-parti
