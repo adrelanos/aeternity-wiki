@@ -169,10 +169,10 @@ There can be "servers/nodes" to invest in stocks, derivatives, or metals. You ca
 Some nodes will just run trading software. They will buy and sell assets offered by market makers. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
 
 # How can I type the æ character? #
-* On Windows devices it works by holding the Alt key while typing in 0230 (for æ) on the number pad.
-* On MacOS the key combination is Option + ' (apostrophe key) for æ.
-* On iOS and Android devices the characters can be selected by holding the "A" until a small menu appears that shows the character.
 
+* Windows: Hold Alt and type 0230 on the number pad.
+* macOS: Option and ' (apostrophe).
+* iOS and Android: Hold "a" until a small menu appears.
 
 # What can I expect to happen from æternity in the near future? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
