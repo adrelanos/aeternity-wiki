@@ -35,12 +35,11 @@ as a network of cascading hashes or hash trees.
 
 Merkle trees are used to verify data being stored and transmitted in and
 between different computers on a network and do so very efficiently.
-There main use is to unsure data blocks received from other peers in a
+Their main use is to ensure data blocks received from other peers in a
 peer-to-peer network are received undamaged and unaltered, and even to
 check that the other peers do not lie and send fake blocks. To do this
 Merkle trees use a cryptographic hash function. In order for you, the
-reader, to understand Merkle trees, a basic understanding of a
-cryptographic hash functions is needed.
+reader, to understand Merkle trees, a basic understanding of cryptographic hash functions is needed.
 
 A cryptographic hash function is a mathematical algorithm that maps data
 of arbitrary size to a bit string of a fixed size (a hash function)
@@ -50,9 +49,9 @@ data to its original data state prior to being hashed. Hashes provide
 efficient data storage and reduce the level of data needed to prove
 something exists.
 
-There are many different cryptographic protocal suites that use hashes
+There are many different cryptographic protocol suites that use hashes
 to verify data. One example is Asymmetric-key cryptography: also
-referred to as public key cryptography, and digital signatures. They use
+referred to as public key cryptography and digital signatures. They use
 cryptographic hash functions to verify data. However, explaining how
 they work and their uses is well outside the scope of the paper. What we
 will do instead is go through a very simplified example of how data can
@@ -71,7 +70,7 @@ be verified with a cryptographic hash function.
 The hash of the above sentence is:
 `60c1be71e2915ea72a33c059cf7710787f6748e10091173dfc17363444a2d3ce`
 
-    After Bob has created  the hash,  he sends  the original data over the
+    After Bob has created the hash,  he sends the original data over the
     network to Alice. 
     However, Bob does not send the hash along with the data,  he sends them 
     separately. We will assume for the sake of this example that Alice rec-
@@ -80,7 +79,7 @@ The hash of the above sentence is:
     Now, Alice has both the data Bob sent her and the hash of the data. 
     
     What Alice will do next is us the same cryptographic hash function that 
-    Bob used,  and create a  hash  of the data that she received:  referred 
+    Bob used,  and create a  hash of the data that she received:  referred 
     to as a checksum. Lets say that Alice received the below sentence from
     Bob.
 
@@ -89,8 +88,8 @@ The hash of the above sentence is:
 The hash of the above sentence is:
 `45c93bfadb67691456e61e011ba4652125c16303304ecb2ab31d6f033ef09180`
 
-    I am sure you have notices 2 things. First is that the 2 hashes values are
-    completely different.The second is the hashes are larger  than  the actual
+    I am sure you have noticed 2 things. First is that the 2 hashes values are
+    completely different.The second is the hashes are larger than  the actual
     size of the data that was  hashed.  Would this  not  mean  that hashes are
     inefficient?  Why is this?  Well, to answer  the  first question.  If  you
     look carefully you will notice that the exclamation point is missing  from 
@@ -130,7 +129,7 @@ hash 0=hash( hash 0-0 + hash 0-1 ) where + denotes concatenation.
 
 
 In most cases, merkle trees have a branching factor of 2, meaning that
-each node has up to 2 children. They can however use many more child
+each node has up to 2 children. They can, however, use many more child
 nodes under each node.
 
 Every Merkle tree has a master hash known as a Merkle root. This Merkle
@@ -145,7 +144,7 @@ from another source until data can be found that can be verified.
 In the top of a hash tree there is a top hash (or root hash or master
 hash). Before downloading a file on a peer-to-peer network, in most
 cases the top hash is acquired from a trusted source, for instance a
-friend or a web site that is known to have good recommendations of files
+friend or a website that is known to have good recommendations of files
 to download. When the top hash is available, the hash tree can be
 received from any non-trusted source, like any peer in the peer-to-peer
 network. Then, the received hash tree is checked against the trusted top
@@ -158,7 +157,7 @@ can be downloaded at a time and the integrity of each branch can be
 checked immediately, even though the whole tree is not available yet.
 For example, in the picture, the integrity of data block 2 can be
 verified immediately if the tree already contains hash 0-0 and hash 1 by
-hashing the data block and interatively combining the result with hash
+hashing the data block and interactively combining the result with hash
 0-0 and then hash 1 and finally comparing the result with the top hash.
 Similarly, the integrity of data block 3 can be verified if the tree
 already has hash 1-1 and hash 0. This can be an advantage since it is
@@ -198,7 +197,7 @@ information. They separate the validation of the data from the data
 itself even if it comes from a untrusted source. This is a concern in a
 peer-to-peer network. Merkle trees also significantly reduce the network
 I/O packet size to perform consistency and data verification as well as
-data synchronization there by making network I/O cheaper.
+data synchronization thereby making network I/O cheaper.
 
 ***
 ***
@@ -207,7 +206,7 @@ data synchronization there by making network I/O cheaper.
 ## æternity Merkle trees
 
 The æternity blockchain uses Merkle trees to verify data. At the time
-this paper was composed there was 8 Merkle trees in the æternity
+this paper was composed there were 8 Merkle trees in the æternity
 blockchain. The following is a brief description:
 
 ### æternity oracles:
