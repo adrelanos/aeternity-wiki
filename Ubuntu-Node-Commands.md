@@ -1,7 +1,7 @@
 ## Download, install and Start the blockchain
 First, you must download and install æternity. Instructions for [Ubuntu](Troubleshooting#for-ubuntu) and for [Mac](Troubleshooting#for-mac).
 
-Then, before you can start executing commands you have to start the node. To start it execute the `start.sh` script using the following command from inside the node folder:
+Before you can start executing commands, you have to start the node. In order to start the node you must execute the following command.
 ```
 sh start.sh
 ```
@@ -11,7 +11,7 @@ List:
    * [Sync with the network](#sync-with-the-network)
    * [Mining](#mining)
    * [Spend](#spend)
-   * [Last transactions](#last-transactions)
+   * [Lookup a Block or Transaction](#Lookup-a-Block-or-Transaction)
    * [Account ID](#account-id)
    * [Public key](#public-key)
    * [Address](#address)
@@ -22,14 +22,15 @@ List:
    * [Signing](#signing)
    * [Passwords and Keys](#passwords-and-keys)
    * [Channels](#channels)
-   * [Contracts](#contracts)
+   * [Oracles](#Oracles)
+## 
 ### Sync with the network
 To sync with a network and download blockchain:
 ```
 sync:start().
 ```
 ***
-## 
+### 
 ### Mining
 To start mining with all CPU cores:
 ```
@@ -49,7 +50,7 @@ mine:is_on().
 ```
 If it answers **Go**, it's mining.
 ***
-## 
+### 
 ### Spend
 ```
 easy:spend(To, Amount).
@@ -58,28 +59,46 @@ Where:
 - `To` is the recipient's account ID.
 - `Amount` is the amount to be transferred.
 ***
-
-## 
-### Last transactions
+### Lookup a Block or Transaction 
+### 
+Current Transaction(s) in the memory pool. Will be included in the next block.
+```
+easy:mempool().
+```
+***
+###
+To look up a block by its number. This command is looking up block number 4.
+```
+block:read_int(4)
+```
+***
+###
+To look up the top blocks
+```
+block:read_int(easy:height()).
+```
+***
+###    
+Last transactions
 ```
 tx_pool:data().
 ```
 ***
-## 
+### 
 ### Account ID
 To find out account ID:
 ```
 keys:id().
 ```
 ***
-##
+###
 ### Public key
 To find out your public key run:
 ```
 keys:pubkey().
 ```
 ***
-##
+###
 ### Address
 To find out your address:
 ```
@@ -87,29 +106,29 @@ keys:address().
 ```
 If it returns something less than 1, that means you don't have an account yet.
 ***
-## 
+### 
 ### Shared Secret
 To calculate a shared_secret with a partner, you need a copy of their public key. Then you can use following command to get the Shared Secret:
 ```
 keys:shared_secret(Pubkey).
 ```
 ***
-## 
+### 
 ### Balance
 To check your balance:
 ```
 easy:balance().
 ```
 ***
-## 
+### 
 ### Stop/Off
 To stop a running node:
 ```
 easy:off().
 ```
 ***
-## 
-### Lock and unlock
+### 
+### Lock and Unlock
 To secure your node so no one can sign the transactions, you can either turn off the node, or you can run this command:
 ```
 keys:lock().
@@ -127,7 +146,7 @@ To unlock your node so that you can start signing transactions again, run this c
 keys:unlock("password").
 ```
 ***
-## 
+### 
 ### Signing
 First you have to have your keys unlocked. See [here](#Lock and Unlock) Then, to manually sign a transaction:
 ```
@@ -140,7 +159,7 @@ To manually sign raw binary data:
 keys:raw_sign(<<"binary date">>).
 ```
 ***
-## 
+### 
 ### Passwords and Keys
 
 The node keeps an encrypted copy of your private key. The decrypted copy is only stored in RAM.                        
@@ -150,7 +169,7 @@ You can generate a new private key this way: ( !! Warning !!  This deletes your 
 keys:new("password").
 ```
 ***
-### 
+###
 To load a private key into an existing node:
 ```
 keys:load(Pubkey, Privkey, "password").
@@ -162,23 +181,37 @@ To change an account password:
 keys:change_password("old_password", "new_password").
 ```
 ***
-## 
-### Channels
-Making a channel with the server:
-```
-easy:new_channel(Balance, ReceivingLimit).
-```
-***
 ### 
+### Channels
+Join the aeternity channel network. Your balance divided by the receiving limit needs to be bigger than 1/2. ``Delay`` is how long at most you would have to wait to get your money out.
+```
+easy:new_channel_with_server(Balance, ReceivingLimit, Delay).
+```
 Where:
 - `Balance` is how much of your money you put into the channel.
 - `ReceivingLimit` is how much money the server puts into the channel.
 
 Note: `ReceivingLimit` This is the maximum amount of money that can be sent to you until the channel runs out of space. `ReceivingLimit` needs to be bigger then `Balance` or the server will not let you make the channel.
-???Fee is the transaction fee, so that this transaction will be included into a block soon.??? (missing argument?)
+***
+###
+To spend money through the lightning network. ``Pubkey`` is the recipients pubkey. It is not recorded on the blockchain, it is recorded along with every signature made by them.
+```
+easy:lightning_spend(To, Pubkey, Amount).
+```
 ***
 ### 
-
+Learn a secret so that you can receive a channel payment. The ``Code`` is the contract that was agreed to, the ``Secret`` is evidence to unlock the contact.
+```
+easy:add_secret(Code, Secret).
+```
+***
+###
+Sync channel state: Ask the server if your channel has been updated, and sync. If you received a channel payment for example, your channel state will have been updated. If your partner received a channel payment from you, then your channel state will be updated to reflect the new balances. This is how you sync with that new state.
+```
+easy:pull_channel_state().
+```
+***
+###   
 To check your balance in the channel:
 ```
 easy:channel_balance().
@@ -194,9 +227,9 @@ easy:dice(Amount).
 To close the channel and get your money out:
 ```
 easy:close_channel().
-```
+``` 
 ***
-
+### 
 After closing channel you need to sync with the network to see if your channel is closed.
 
 If your channel partner disappears, or breaks, you can still get your money without his help. Start with a solo-close transaction, then wait over 100 blocks, then do a channel timeout transaction.
@@ -209,17 +242,15 @@ easy:solo_close_channel().
 easy:channel_timeout().
 ```
 ***
-    
-
-
-### Contracts
-* coming soon
-## 
-
-
-## 
-###  Oracle
-New difficulty oracle. This kind of oracle is only for measuring the expected difficulty in the future. ``Start`` is when trading starts. ``Difficulty`` is your approximation of the future value of the difficulty This oracle has 3 possible outputs: Either the difficulty you estimated is too high, it is too low, or it is good enough. If it is good enough, then we can launch a normal oracle.
+### 
+Donate money to the server.
+```
+easy:channel_spend(Amount).
+```
+***
+### 
+###  Oracles
+New difficulty oracle. This kind of oracle is only for measuring the expected difficulty in the future. ``Start`` is when trading starts. ``Difficulty`` is your approximation of the future value of the difficulty. This oracle has 3 possible outputs: Either the difficulty you estimated is too high, it is too low, or it is good enough. If it is good enough, then we can launch a normal oracle.
 ```
 easy:new_difficulty_oracle(Start, Difficulty).
 ```
