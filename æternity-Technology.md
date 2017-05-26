@@ -81,7 +81,7 @@ The initial amount of AE for the genesis block will be determined by a verifiabl
 <strong class="d-block">SMART CONTRACTS</strong>
 
 <small>State channels enable highly scalable, trustless transactions of value and purely functional, easily verifiable Turing-complete smart contracts.
-State channels effortlessly support an immense throughput of transactions. The execution of the smart contracts as well as the settlement happens off-chain.
+State channels effortlessly support an immense throughput of transactions. The execution of the smart contracts, as well as the settlement, happens off-chain.
 In other words: They are one-to-one sidechains, where the blockchain acts as a public crypto court only used for disagreement resolution.</small>
 </td>
 </tr>
@@ -139,7 +139,7 @@ The blockchain’s state includes a mapping from unique human-friendly strings t
 <td class="align-middle">
 <strong class="d-block">ACCOUNTS & IDENTITY</strong>
 
-<small>æternity's accounts are permission-less, but still allow customization via schema.org's semantic web scheme.
+<small>æternity's accounts are permission-less, but still, allow customization via schema.org's semantic web scheme.
 Create and own your identity on the æternity network, then use it everywhere on the web!</small>
 </td>
 </tr>
