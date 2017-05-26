@@ -12,6 +12,8 @@
 
 * https://telegram.me/aeternity
 
+* https://telegram.me/aetrader
+
 * http://www.aeternity.com/# (IRC NOT THERE - LINK ON WEBSITE NOT WORKING)
 
 * http://slack.aeternity.com/
