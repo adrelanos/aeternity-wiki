@@ -14,31 +14,31 @@ Presentiamo un'architettura altamente scalabile di una blockchain dotata di un m
 Applicazioni come i mercati per gli asset sintetici e i mercati predittivi possono essere efficientemente implementate su scala globale. Diverse parti hanno una implementazione prototipale in Erlang. Saranno anche predisposti gli strumenti di sviluppo e le applicazioni essenziali come il portafoglio e un sistema di identificazione e di attribuzione del nome.
 ***
 ## CONTENUTI
-I [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
-I-A [Lavori precedenti](#lavori-precedenti) . . . . . . . . . . . . . 2  
-II [Cos'è la blockchain æternity](#cosé-la-blockchain-æternity)  . . . . . . . . . . . 2  
-II-A [Token, account e blocchi](#token-account-e-blocchi)  . . . . . . . . . 2  
-II-A.1 [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . . . 2  
-II-A.2 [Account](#account) . . . . . . . . . . . . . . . . . 2  
-II-A.3 [Sistema dei nomi](#sistema-dei-nomi)  . . . . . . . . . . . . 3  
-II-A.4 [Contenuti dei blocchi](#contenuti-dei-blocchi) . . . . . . . . . . 3  
-II-B [Canali a stati](#canali-a-stati) . . . . . . . . . . . . . . . 3  
-II-B.1 [Smart contract](#smart-contract)  . . . . . . . . . . . . . 3  
-II-B.2 [Esempio](#esempio)  . . . . . . . . . . . . . . . . . 4  
-II-C [Meccanismo di Consenso](#meccanismo-di-consenso)  . . . . . . . . . . 5  
-II-C.1 [Oracoli](#oracoli) . . . . . . . . . . . . . . . . . 5  
-II-D [Governance](#governance)  . . . . . . . . . . . . . . . . 5  
-II-E [Scalabilità](#scalabilità) . . . . . . . . . . . . . . . . 6  
-II-E.1 [Frammentazione ad alberi](#frammentazione-ad-alberi) . . . . . . . . . . . . . 6  
-II-E.2 [Client leggero](#client-leggero)  . . . . . . . . . . . . . 6  
-II-E.3 [Canali a stati e parallelismo](#canali-a-stati-e-parallelismo). . . . . . . 6  
-II-E.4 [Transazioni per secondo ad una certa richiesta di memoria](#transazioni-per-secondo-ad-una-certa-richiesta-di-memoria) 6  
-III [Applicazioni](#applicazioni) . . . . . . . . . . . . . . . . 6  
-III-A [Elementi essenziali della blockchain](#elementi-essenziali-della-blockchain) . . . 6  
+I       [Introduzione](#introduzione) . . . . . . . . . . . . . . . . . 1  
+I-A     [Lavori precedenti](#lavori-precedenti) . . . . . . . . . . . . 2  
+II      [Cos'è la blockchain æternity](#cosé-la-blockchain-æternity)  . 2  
+II-A    [Token, account e blocchi](#token-account-e-blocchi)  . . . . . 2  
+II-A.1  [Token di accesso, Aeon](#token-di-accesso-aeon)  . . . . . . . 2  
+II-A.2  [Account](#account) . . . . . . . . . . . . . . . . . 2  
+II-A.3  [Sistema dei nomi](#sistema-dei-nomi)  . . . . . . . . . . . . 3  
+II-A.4  [Contenuti dei blocchi](#contenuti-dei-blocchi) . . . . . . . . . . 3  
+II-B    [Canali a stati](#canali-a-stati) . . . . . . . . . . . . . . . 3  
+II-B.1  [Smart contract](#smart-contract)  . . . . . . . . . . . . . 3  
+II-B.2  [Esempio](#esempio)  . . . . . . . . . . . . . . . . . 4  
+II-C    [Meccanismo di Consenso](#meccanismo-di-consenso)  . . . . . . . . . . 5  
+II-C.1  [Oracoli](#oracoli) . . . . . . . . . . . . . . . . . 5  
+II-D    [Governance](#governance)  . . . . . . . . . . . . . . . . 5  
+II-E    [Scalabilità](#scalabilità) . . . . . . . . . . . . . . . . 6  
+II-E.1  [Frammentazione ad alberi](#frammentazione-ad-alberi) . . . . . . . . . . . . . 6  
+II-E.2  [Client leggero](#client-leggero)  . . . . . . . . . . . . . 6  
+II-E.3  [Canali a stati e parallelismo](#canali-a-stati-e-parallelismo). . . . . . . 6  
+II-E.4  [Transazioni per secondo ad una certa richiesta di memoria](#transazioni-per-secondo-ad-una-certa-richiesta-di-memoria) 6  
+III     [Applicazioni](#applicazioni) . . . . . . . . . . . . . . . . 6  
+III-A   [Elementi essenziali della blockchain](#elementi-essenziali-della-blockchain) . . . 6  
 III-A.1 [Identità](#identità) . . . . . . . . . . . . . . . . 6  
 III-A.2 [Portafoglio](#portafoglio)  . . . . . . . . . . . . . . 6  
 III-A.3 [Prova di esistenza](#prova-di-esistenza) . . . . . . . . . . . 6  
-III-B [Applicazioni su canali a stati](#applicazioni-su-canali-a-stati) . . . . . . 7  
+III-B   [Applicazioni su canali a stati](#applicazioni-su-canali-a-stati) . . . . . . 7  
 III-B.1 [Strumento API](#strumento-api)  . . . . . . . . . . . . . 7  
 III-B.2 [Raccolta fondi assicurata](#raccolta-fondi-assicurata)  . . . . . . . 7  
 III-B.3 [Swap atomico tra blockchain](#swap-atomico-tra-blockchain)  . . . . . . 7  
@@ -46,19 +46,19 @@ III-B.4 [Asset a valore stabile e replicazione del portafoglio](#asset-a-valore-
 III-B.5 [Contratti ad eventi](#Contratti-ad-eventi)  . . . . . . . . . 7  
 III-B.6 [Mercati predittivi](#mercati-predittivi) . . . . . . . . . . . 7  
 III-B.7 [Market con un lotto in vendita ad un prezzo singolo](#market-con-un-lotto-in-vendita-ad-un-prezzo-singolo) . . . . . . 7  
-IV [Implementazione](#implementazione) . . . . . . . . . . . . . . . 8  
-IV-A [Macchine e linguaggio del contratto](#macchine-e-linguaggio-del-contratto) . . . . 8  
-IV-B [Adozione tramite integrazione web](#adozione-tramite-integrazione-web) . . . . . 8  
-IV-C [Moduli open source](#moduli-open-source)  . . . . . . . . . . . . 8  
-IV-D [Condizioni d'uso e design dell'UX](#condizioni-duso-e-design-dellux) . . . . . 8  
-V [Discussioni](#discussioni)  . . . . . . . . . . . . . . . . . 8  
-V-A [Limitazioni e compromessi](#limitazioni-e-compromessi) . . . . . . . . . . . 9  
-V-A.1 [Stati sulla blockchain](#stati-sulla-blockchain) . . . . . . . . . . 9  
-V-A.2 [Problema dell'opzione gratuita](#problema-dellopzione-gratuita) . . . . . . 9  
-V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquidità-e-tipologie-di-macchine-a-stati) . . . . . 9  
-V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
-V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
-V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9  
+IV      [Implementazione](#implementazione) . . . . . . . . . . . . . . . 8  
+IV-A    [Macchine e linguaggio del contratto](#macchine-e-linguaggio-del-contratto) . . . . 8  
+IV-B    [Adozione tramite integrazione web](#adozione-tramite-integrazione-web) . . . . . 8  
+IV-C    [Moduli open source](#moduli-open-source)  . . . . . . . . . . . . 8  
+IV-D    [Condizioni d'uso e design dell'UX](#condizioni-duso-e-design-dellux) . . . . . 8  
+V       [Discussioni](#discussioni)  . . . . . . . . . . . . . . . . . 8  
+V-A     [Limitazioni e compromessi](#limitazioni-e-compromessi) . . . . . . . . . . . 9  
+V-A.1   [Stati sulla blockchain](#stati-sulla-blockchain) . . . . . . . . . . 9  
+V-A.2   [Problema dell'opzione gratuita](#problema-dellopzione-gratuita) . . . . . . 9  
+V-A.3   [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquidità-e-tipologie-di-macchine-a-stati) . . . . . 9  
+V-B     [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
+V-B.1   [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
+V-B.2   [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9  
 [GLOSSARIO](#glossario)  
 [RINGRAZIAMENTI](#ringraziamenti)  
 [RIFERIMENTI](#riferimenti)  
