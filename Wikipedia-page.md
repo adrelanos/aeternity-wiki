@@ -210,3 +210,42 @@ This article represents the author's point of view, does not represent Baidu pos
 Author: Seven Culture and Education
 
 From: https: //po.baidu.com/feed/share? IsBdboxShare
+AETERNITY Encyclopedia Description
+
+Aeternity Encyclopedia (Wiki) is online, do you want to help improve it? We've got some AE coins for you.
+
+
+
+Encyclopedia information
+
+We have studied the extracurrency and the encyclopedia of Taoyuan for a long time. This knowledge base is undoubtedly the main and basic information resource of the chain-related projects. Now aeternity also has one that you can help to improve it.
+
+How to get involved
+
+If you want to participate in the editor, you need to register a GitHub account.
+
+Then you can visit the aeternity Encyclopedia page (https://github.com/aeternity/testnet/wiki), click "Edit" or "New Page", edit and click "Save".
+
+We want to use Bitcoin as a prototype of aeternity encyclopedia. We would like to develop it into a comprehensive network of information related to aeternity and block chains.
+
+Note: the manuscript must be original (not copy). The ownership of the content you submit will belong to the aeternity project and follow aeternity's free, free, open source license
+
+(Https://github.com/aeternity/testnet/blob/experimental/LICENSE.md)
+
+Non-original content is also acceptable, provided that it is free, open source license (https://opensource.org/licenses/category), such editing content is compliance, the conditions to indicate the source attribution.
+
+Let's make the Encyclopedia extremely vigorous!
+
+Contribution to Encyclopedia Contributors
+
+We offer a bonus of $ 1,000 to the aeternity contributor, and everyone is rewarded, and the reward is distributed as follows:
+
+In the second phase of aeternity, we will refer to editorial history:
+
+50% of the bonuses will be distributed to all participants in proportion.
+
+The remaining 50% will be assigned to the top ten contributors of the best quality of the document, selected by our staff.
+
+Because document evaluation is a very subjective thing, so do not make a lot of bonuses for the bonus editor. Remember that your manuscript may not get the kind of appreciation you expect.
+
+Encyclopedia Awarded by Simply VC Co LTD (https://www.simply-vc-co.ltd/), which is a subsidiary of Simply Holding Co LTD (http://simply-holding.co/).
