@@ -1,5 +1,3 @@
-GLOSSARY
-
 # Blockchain 
 A distributed, tamper-proof database with metered
 access. The database is defined by a growing list of
