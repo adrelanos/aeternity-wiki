@@ -98,7 +98,7 @@
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
 
-(67 - pages)
+(68 - pages)
 ***
 [drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
