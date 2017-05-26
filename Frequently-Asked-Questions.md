@@ -106,13 +106,11 @@ The people who caused the attack lose all the money they attacked with. The defe
 
 # How does æternity compare to ...? #
 
-Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/Aeternity/comments/63tabp/aeternity_vs_qtum_vs_cosmos/) and [here](https://www.reddit.com/r/Aeternity/comments/63mhg7/how_does_aeternity_contrast_with_truebit/).
-
-* Ethereum is a Turing-complete stateful smart contract system. It allows for examples apps like subcurrencies, domain name servers, and blackjack card game gambling.
+* Ethereum is a Turing complete *stateful* smart contract system. It allows applications like subcurrencies, domain name servers, and card game gambling.
 * Cosmos is a way to move coins from one blockchain to another.
-* Qtum is a proposal for a software suite for making Dapps on blockchains like æternity or Ethereum.
-* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity oracle. æternity's oracle is market based instead of voting based. æternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
-* æternity is a Turing-complete stateless smart contract system with a built-in oracle. It allows for the creation of trustless Dapps. For example insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
+* Qtum is a proposal for a software suite for making applications on blockchains like æternity or Ethereum.
+* Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity system. æternity's oracle system is market based instead of voting based. It is connected to the blockchain consensus mechanism in a way that makes it more secure.
+* æternity is a Turing complete *stateless* smart contract system with a built-in oracle. It allows the creation of trustless Dapps such as insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, and card game gambling.
 
 # æternity, a new blockchain? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
