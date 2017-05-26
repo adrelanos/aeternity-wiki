@@ -159,14 +159,14 @@ The primary reason for using Ethereum created tokens for the token sale is that 
 A wallet is a piece of software that is used to interact with æternity. It's what makes and accesses accounts and channels. With it, users make channel contracts, bet, play games, buy/sell assets, provides identity, communicate with other users, etc.
 
 # Will there be different types of nodes in æternity? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-Yes!
+Yes. Some nodes will be providing liquidity to the Lightning Network. They will have lots of channels with lots of people. If you make a channel, you will be able to establish state channel contracts with many users. Using a channel contract through such a node will involve a fee.
 
-* Some nodes will be providing liquidity to the Lightning Network. They will have lots of channels with lots of people, so if you make a channel with them, you will be able to establish state channel contracts with many users. Using a channel contract through such a node will involve a fee.
-* Some nodes will run trustless exchanges for any asset. They will also collect transaction fees. We envision nodes that let people use state channels to play games like Go, Monopoly, slot machines, or poker. Either single player,  with your friends, or with strangers. æternity enables trustless financial applications. They are not necessarily decentralized. Anyone can start a “centralized server” and use our software to create trustless financial tools.
-* There can be ‘servers/nodes’ which you can use to invest in stocks, derivatives or metals. You can gamble at sports in a fully trustless and efficient way. Other nodes can specialize in recycling old accounts. There is a fee for having an account open. If the account runs out of money, anyone will be able to delete it and get a small reward.
-* Some nodes will just run trading software. They will buy and sell assets offered by market makers in order to make a profit. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
+Some nodes will run trustless exchanges for any asset, as well as collect transaction fees. We envision nodes that let people use state channels to play games like Go, Monopoly, slot machines, or poker – single player,  with your friends, or with strangers. æternity enables trustless financial applications, but not necessarily decentralized applications. Anyone can start a “centralized server” and use our software to create trustless financial tools.
+
+There can be "servers/nodes" to invest in stocks, derivatives, or metals. You can gamble at sports in a fully trustless and efficient way. Other nodes can specialize in recycling old accounts: There is a fee for having an account open. If the account runs out of money, anyone will be able to delete it for a small reward.
+
+Some nodes will just run trading software. They will buy and sell assets offered by market makers. Some nodes will specialize in participation in prediction markets, running the consensus mechanism. This will be profitable because transaction fees are the initial liquidity in these markets.
 
 # How can I type the æ character? #
 * On Windows devices it works by holding the Alt key while typing in 0230 (for æ) on the number pad.
