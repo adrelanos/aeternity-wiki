@@ -13,7 +13,9 @@ Aus diesem Grund wird æternity entwickelt, als die einzige Blockchain, die durc
 
 * Sein interner Konsensmechanismus kann das Orakel überprüfen und die Blockchain mit realen Daten versorgen, wobei darauf verzichtet wird ineffiziente Orakelmechanismen darauf aufbauend zu implementieren (wie Augur oder Gnosis auf Basis von Ethereum).
 
-Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden. Mehrere Teile haben in Erlang vorgegebene Vorführungen. Entwicklungswerkzeuge und Anwendungsgrundlagen wie ein Brieftaschen-, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
+Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden.
+Für mehrere Teile gibt es bereits Implementierungen in Erlang, die die Machbarkeit zeigen (Proof-of-Concept).
+Entwicklungswerkzeuge und grundlegende Anwendungen wie ein Brieftaschen, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
 
 ***
 Download des Whitepaper's v0.1 (PDF) in english hier:
