@@ -246,7 +246,7 @@ Gli swap atomici tra blockchain permettono lo scambio trustless fra aeon e bitco
 
 III-B.4
 #### Asset a valore stabile e replicazione del portafoglio
-
+Possiamo usare gli smart contract per programmare asset sintetici che mantengano quasi lo stesso prezzo di un asset del mondo reale. Potremmo creare ad esempio un asset che mantenga lo stesso prezzo dell'oro. I derivati sintetici sono creati a coppie, uguali e opposte. Affinché un utente possieda un asset che muti con l'oro, un altro utente deve possedere un asset che muti inversamente rispetto all'oro. Ad esempio Alice potrebbe creare un contratto con Bob che le permette di possedere 1 grammo d'oro. Del denaro del contratto, l'equivalente in aeon del valore di un grammo d'oro va ad Alice e il corrispondente valore in soldi a Bob. Il contratto ha una data di scadenza fissata al momento in cui il prezzo dell'oro verrà calcolato e i fondi verranno distribuiti di conseguenza ad Alice e Bob.  
 
 III-B.5
 #### Contratti dell'evento
