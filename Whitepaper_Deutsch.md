@@ -18,17 +18,17 @@ Für mehrere Teile gibt es bereits Implementierungen in Erlang, die die Machbark
 Entwicklungswerkzeuge und grundlegende Anwendungen wie ein Brieftaschen, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
 
 ***
-Download des Whitepaper's v0.1 (PDF) in english hier:
+Das Whitepaper v0.1 (PDF) im englischen Original kann hier heruntergeladen werden:
 [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
 
-Authoren:  
+Autoren:  
 Zackary Hess - zack@aeternity.com  
 Yanislav Malahov - yani@aeternity.com  
 Jack Pettersson - jack@aeternity.com
 
 Veröffentlicht:  6. Februar 2017
 
-(bitte haben Sie Verständnis dass diese Seite aktuell unter Bearbeitung ist, Sie können uns gerne in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meinen wir die „ æternity Community„)
+(bitte haben Sie Verständnis, dass diese Seite aktuell unter Bearbeitung ist, Sie können uns gerne in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meinen wir die „ æternity Community„)
 ***
 lese mehr: [Dokumente in deutsch]([German]-æternity-TOC)
 ***
