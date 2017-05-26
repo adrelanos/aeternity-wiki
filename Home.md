@@ -61,6 +61,7 @@ _This will be rapidly expanded._
 [Whitepaper_English]: Whitepaper_English
 [Whitepaper_Korean ]: Whitepaper_Korean
 [Whitepaper_Indonesia]: Whitepaper_Indonesia
+[Whitepaper_French]: Whitepaper_French
 [Whitepaper_Chinese]: Whitepaper_Chinese
 [Whitepaper_Russian]: Whitepaper_Russian
 [Whitepaper_Español]: Whitepaper_Español
