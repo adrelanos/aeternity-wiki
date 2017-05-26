@@ -47,9 +47,9 @@ The script '
 - aeternity-testnet3020
 - aeternity-testnet3030
 
-**(WARNING! DO NOT RUN SCRIPST FROM ..3010/20/30 folders)**
+**(WARNING! DO NOT RUN SCRIPTS FROM ..3010/20/30 folders)**
 
-* Than it will compile and clean the testnet.app and
+* Then it will compile and clean the testnet.app and
 * starts a screen session for every NODE!
 
 You can access every screens session.
@@ -98,7 +98,7 @@ Warning! Community content! * 17th May 2017 @zwilla
 
 1. open your terminal client
 2. enter the screen session for node 3010: 'screen -r aeternity-3010'
-3. now you logged in to your node 3010 you got this: '>1 '
+3. now you logged into your node 3010 you got this: '>1 '
 4. enter this command: '*keys:new("YOUR_PSSWRD").*' (default password
    is: "abc")
 5. unlock your node for mining on æternity testnet:
