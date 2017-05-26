@@ -2,7 +2,7 @@ It is not confirmed whether we want to go that route: https://github.com/aeterni
 
 I thought that if the code is written in Erlang, it should be possible to run on any platform. See instructions for [Ubuntu](https://github.com/aeternity/testnet/blob/master/docs/compile_ubuntu.md) and [Mac](https://github.com/aeternity/testnet/blob/master/docs/compile_mac.md).
 
-In my work as web developer I make web apps look sleek and load fast, I hate managing dependencies and solving build issues. But I gave it a shot anyway, it cannot be that hard?
+In my work as web developer, I make web apps look sleek and load fast, I hate managing dependencies and solving build issues. But I gave it a shot anyway, it cannot be that hard?
 
 ----
 
@@ -13,13 +13,13 @@ These instructions assume a basic familiarity with command line. The fastest way
 * `cd FOLDER_NAME` _(go deeper)_ 
 * `dir` _(list contents)_
 
-These are the very basic commands so that you know how to navigate folders from command line. I suggest creating a folder `c:/code` to keep all your code there. The command `md code` creates the folder.
+These are the very basic commands so that you know how to navigate folders from the command line. I suggest creating a folder `c:/code` to keep all your code there. The command `md code` creates the folder.
 
 ## 0. Download and install Git
 
 https://www.google.com/search?q=install+git
 
-In that way you'll be able to get the source code directly from repository.
+In that way, you'll be able to get the source code directly from the repository.
 
 ## 1. Download and install Erlang
 
@@ -29,7 +29,7 @@ For the more adventurous, build it from source.
 
 ## 2. Add the folder to the path
 
-**On Windows 10:** Right click on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine it is `c:\Program Files\erl8.3\bin`
+**On Windows 10:** Right click on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine, it is `c:\Program Files\erl8.3\bin`
 
 It many clicks away, I've reported a usability bug, it's by design: http://imgur.com/a/qbeTc
 
