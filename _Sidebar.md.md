@@ -86,6 +86,7 @@
 - [æternity Wiki日本語ホーム[Japanese]](æternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0[Japanese])
 - [æternity関連サイトまとめ(日本語)](æternity%E9%96%A2%E9%80%A3%E3%82%B5%E3%82%A4%E3%83%88%E3%81%BE%E3%81%A8%E3%82%81(%E6%97%A5%E6%9C%AC%E8%AA%9E))
 - [[Korean] æternity TOC]([Korean]-æternity-TOC)
+- [[Polish] æternity Home]([Polish]-aeternity-Home)
 - [[Romanian] Home]([Romanian]-Home)
 - [[Russian] æternity TOC]([Russian]-æternity-TOC)
 - [[Spanish] æternity TOC]([Spanish]-æternity-TOC)
@@ -96,7 +97,7 @@
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
 
-(66 - pages)
+(67 - pages)
 ***
 [drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
