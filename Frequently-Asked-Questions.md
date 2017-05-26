@@ -104,7 +104,7 @@ If people try to make the oracle lie, the blockchain ends up forking into two. O
 
 The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with. Even a whale can't afford to do this attack many times, and we quickly recover after each attack with an honest oracle.
 
-# How does æternity compare to ...? #
+# How does æternity compare with..? #
 
 * Ethereum is a Turing complete *stateful* smart contract system. It allows applications like subcurrencies, domain name servers, and card game gambling.
 * Cosmos is a way to move coins from one blockchain to another.
