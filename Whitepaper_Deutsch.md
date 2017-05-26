@@ -26,7 +26,7 @@ Jack Pettersson - jack@aeternity.com
 
 Veröffentlicht:  6. Februar 2017
 
-(bitte habe Verständnis dass dies Seiten aktuell unter Bearbeitung sind, gerne aber kannst du uns in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meine ich die „ æternity Community„)
+(bitte haben Sie Verständnis dass diese Seite aktuell unter Bearbeitung ist, Sie können uns gerne in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meinen wir die „ æternity Community„)
 ***
 lese mehr: [Dokumente in deutsch]([German]-æternity-TOC)
 ***
