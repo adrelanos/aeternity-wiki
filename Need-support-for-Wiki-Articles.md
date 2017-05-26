@@ -1,4 +1,5 @@
-Need support for Wiki-Articles
+We need your support for Wiki-Articles
+![æternity-need-wiki-support](http://aeternity.de/images-by-zwilla/aeternity-need-wiki-support.jpg)
 TOC
 ==================================
 
@@ -11,6 +12,7 @@ Open request
 * [Understanding æternity](#understanding-æternity)
     * [æternity Merkle trees](#æternity-merkle-trees)
 ***
+æternity Wiki Bounty Campaign: (https://blog.aeternity.com/%C3%A6ternity-wiki-bounty-campaign-6419b7c7c3bd)
 ***
 
 ## Translation support:
