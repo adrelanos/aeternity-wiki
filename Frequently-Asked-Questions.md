@@ -21,7 +21,7 @@ Table of Contents
    * [What are æternity tokens be used for?](#what-are-æternity-tokens-be-used-for)
    * [What are some interesting applications?](#what-are-some-interesting-applications)
    * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
-   * [What are some of the features of æternity virtual machine?](#what-are-some-of-the-features-of-æternity-virtual-machine)
+   * [What are the features of the æternity virtual machine?](#what-the-features-of-the-æternity-virtual-machine)
    * [Why do we need Ethereum?](#why-do-we-need-ethereum)
    * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
    * [What’s the difference between an account and the æternity wallet?](#whats-the-difference-between-an-account-and-the-æternity-wallet)
@@ -142,12 +142,9 @@ Furthermore, there is no limit to the volume of smart contracts that can be proc
 
 In comparison to Ethereum, we're function-based instead of goto-based. Thus, it is a lot simpler to reason about and write secure smart contract code.
 
-# What are some of the features of æternity virtual machine? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
+# What are the features of the æternity virtual machine? #
 
-We are building a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code, so that the users only publish the portion of code that actually gets executed.
-
-æternity smart contracts can be massive and can be gigabytes to terabytes in volume. This, however, is not a problem  as long as the part that gets executed is relatively small.
+It is a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code so that the users only publish the portion of code that actually gets executed: æternity smart contracts can be terabytes in volume without a problem if part that gets executed is relatively small.
 
 # Why do we need Ethereum? #
 
