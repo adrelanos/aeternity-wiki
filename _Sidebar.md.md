@@ -55,8 +55,8 @@
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
 
-### [DApp Development](DApp-Development) 
-- [DApp Introducion](DApp-Introducion)
+### [DApp Development](æternity-DApp-Development)
+- [DApp Introducion](æternity-DApp-Introducion)
    - [Scripting language](Zacks-Scripting-language)
    - [æternity development tutorial](æternity-development-tutorial)
 
