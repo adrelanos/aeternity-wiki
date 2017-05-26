@@ -259,7 +259,7 @@ III-B.6
 Un mercato predittivo funziona permettendo agli utenti di scommettere sull'eventuale occorrenza di un evento futuro. Dalle cifre puntate possiamo prevedere la probabilità del futuro [3], [8], [16]. Rappresentano il metodo più accurato per misurare il futuro ad un dato prezzo [cit. necessaria]. Una volta avvenuto l'evento, l'esito del mercato viene stabilito attraverso l'oracolo.  
 Come notato nella sezione II-D, possiamo ad esempio utilizzare mercati predittivi per prevedere quali aggiornamenti del software saranno positivi e quali nocivi. Possiamo anche utilizzarli per stimare quanto i candidati di una elezione siano effettivamente in grado di mettere in pratica ciò che dichiarano, così da poter individuare più facilmente menzogne e promesse senza fondamento.   
 
-[fig_5.jpg]  
+![fig_5](https://cloud.githubusercontent.com/assets/18164515/26499741/f6818440-4233-11e7-892f-1937b1ca5f56.JPG)
 
 Fig. 5. Mercato predittivo multidimensionale.  
 
