@@ -242,7 +242,7 @@ I contratti di assicurazione dominanti differiscono dai contratti di assicurazio
 
 III-B.3
 #### Swap atomico tra blockchain
-
+Gli swap atomici tra blockchain permettono lo scambio trustless fra aeon e bitcoin [14], [15]. Possono essere implementati tramite un blocco di hash ("hashlock") che blocchi le transazioni su entrambe le blockchain per il medesimo valore.  
 
 III-B.4
 #### Asset a valore stabile e replicazione del portafoglio
