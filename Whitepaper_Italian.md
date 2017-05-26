@@ -237,7 +237,8 @@ La maggior parte delle API sono disponibili per chiunque voglia fare una chiamat
 
 III-B.2
 #### Raccolta fondi assicurata
-
+Possiamo implementare un crowdfunding assicurato utilizzando contratti di assicurazione "dominanti" [necessita citazione]. Questi sono smart contract utilizzati per raccogliere fondi per un'opera di utilità pubblica come un nuovo ponte, una scuola o un mercato.  
+I contratti di assicurazione dominanti differiscono dai contratti di assicurazione tradizionali come Kickstarter nel rendere la partecipazione la strategia dominante. Se il prodotto non è finanziato ogni partecipante rientra in possesso dei propri aeon più un certo interesse, in modo da essere assicurati contro la riduzione della loro liquidità senza aver ottenuto il prodotto. Possiamo assicurare per mezzo di un oracolo che il fornitore del prodotto o del servizio sia pagato solo nel caso in cui prodotto o servizio siano effettivamente erogati.  
 
 III-B.3
 #### Swap atomico tra blockchain
