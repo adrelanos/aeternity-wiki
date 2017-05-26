@@ -271,13 +271,15 @@ Un attacco per rubare aeon a un mercato ha due strategie possibili. Potrebbe sfr
     - Se il mercato è diviso nello spazio, allora l'attaccante fa dell'arbitraggio. Egli, facendo scambi simultanei in entrambi i mercati, annulla il rischio e fa del profitto.  
     - Se il mercato è diviso nel tempo, allora l'attaccante cerca di anticipare il mercato. Egli, leggendo le transazioni in ingresso nel mercato, crea ordini di acquisto e di vendita immediatamente prima e dopo.  
 
-[fig_5.jpg]  
+[fig_6.jpg]  
 
 Fig. 6. La linea nera è la curva di domanda, quella rossa di offerta. Le vendite in rosso sono della stessa dimensione degli acquisti in nero. La linea verticale è il prezzo selezionato dal creatore del mercato. Chiunque fosse intenzionato a comprare a un prezzo più alto ha scambiato a quel prezzo, chiunque fosse intenzionato a vendere a un prezzo più basso ha scambiato a quel prezzo.  
   
 Per riunione i mercati nello spazio, tutti dovrebbero utilizzare lo stesso creatore del mercato.  
 Per riunirli nel tempo dobbiamo fare scambi per lotti, ciascun lotto ad un singolo prezzo. Il creatore del mercato deve proporre a ciascuna persona il prezzo da lui stabilito e se qualcuno dovesse scoprire proposte contraddittorie da parte del creatore, allora tutti i suoi clienti dovrebbero essere in grado di prosciugare ogni suo canale. Se il creatore dovesse proporre un prezzo ragionevole, allora dovrebbe ottenere lo stesso volume di acquirenti e venditori, come mostrato in fig. 6. Altrimenti finirebbe in una situazione simile a quella di fig. 7, prendendosi dunque un grave rischio.  
-  
+
+[fig_7.jpg]  
+
 Fig. 7. Il nero è molto più esteso del rosso. Il creatore del mercato sta vendendo molte più quote di quante ne stia comprando, prendendosi di conseguenza un grave rischio.  
   
 IV
