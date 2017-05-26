@@ -46,7 +46,7 @@ The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for
 
 Contributors will be able to use their AE after Phase 2 is complete (most probably in the form of an [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network).
 
-The contributor portion will comprise eighty-two percent of the initial æternity AE tokens. Seventeen percent of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and one percent will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
+The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and the remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
 All will be recorded on the Ethereum Blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE tokens for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
 
