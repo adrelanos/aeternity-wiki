@@ -219,27 +219,37 @@ They are stored by ID. This data is available to the virtual machine.
 The result is stored in 1 byte. Either it is 0 for false, 1 for true, 2
 if the question was bad, or 4 if the question hasn't been answered yet.
 
+related æ-wiki pages: [Oracles](Oracles)
+***
 ### æternity orders:
 
 Every oracle has an order book. The order book is a linked list of
 orders. Each order has an amount, and the ID of the owner.
 
+related æ-wiki pages:
+***
 ### æternity channels:
 
 This stores channels by an integer channel ID.
 
+related æ-wiki pages: [Channels](https://github.com/aeternity/wiki/wiki/Channels), [State-Channels](State-Channels)
+***
 ### æternity accounts
 
 This tree stores accounts by integer ID. Each account has 2 Merkle roots
 written in them. One is for a shares tree, the other is for an oracle
 bets tree.
 
+related æ-wiki pages:   [Accounts]()
+***
 ### æternity oracle bets:
 
 Each account has a tree of oracle bets. Oracle bets are not
 transferable. Once an oracle is settled, the bets in it can be converted
 in to shares.
 
+related æ-wiki pages:  [Oracles](Oracles)
+***
 ### æternity oracle shares:
 
 Each account has a tree of shares. The shares are stored by share ID.
@@ -247,16 +257,29 @@ The ID of a share determines it's difficulty. You can own either
 negative, positive, or zero amount of each type of share. Shares are
 also transferable.
 
+related æ-wiki pages: [Oracles](Oracles),
+***
 ### æternity proof of burn
 
 Proof of burn tree stores by address. It stores the number of AE tokens
 that this address has burned. This data is available to the virtual
 machine.
 
+related æ-wiki pages:   [Proof of burn]()
+***
 ### æternity proof of existence
 
 This tree stores by hash. If returns a 1 if the thing exists, a 0
-otherwise. This data is available to the virtual machine. #
+otherwise. This data is available to the virtual machine.
+
+related æ-wiki pages:   [Proof of Existence]()
+***
+###  æternity contracts
+
+Add some words here:
+
+related æ-wiki pages: [æternity-Contracts](æternity-Contracts)
+***
 
 ## Sources:
 
@@ -268,5 +291,4 @@ otherwise. This data is available to the virtual machine. #
 | 4  | Chumble, Alex. Moore, Karleigh. _Merkle Tree_                                                                                                 | **Protocol**;                                                        | [brillian.org](https://brilliant.org/wiki/merkle-tree/ )                                        |
 | 5  | zack-bitcoin, sjamayee.                                                                                                                       | **_æternity Merkle trees_**                                          | [aeternity/testnet](https://github.com/aeternity/testnet/blob/master/docs/trees.md  )           |
 | 6  | [Katz, J. Wikipedia](https://www.politicalavenue.com/libraryebooks/cryptology-and-cryptography/Introduction%20to%20Modern%20Cryptography.pdf) | **Introduction to Modern Cryptography**.                             | Capman & Hall/CRC.                                                                              |
-
 
