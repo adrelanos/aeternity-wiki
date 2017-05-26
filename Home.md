@@ -11,11 +11,11 @@
 
 <b>How Can æternity Blockchain Serve Smart Contract Platforms?<p>
 
-There are three main problems that underlie the presently available smart contract platforms. These are mainly, the lack of sufficient scalability (global use throughput), coding safety and relatively inexpensive access to real-world data and chain governance:<p>
+There are three main problems that underlie the presently available smart contract platforms. These include; the lack of sufficient scalability (global use throughput), coding safety and relatively inexpensive access to real-world data and chain governance:<p>
 
 <ol>
-<li>The presently prevalent stateful designs renders smart contracts, coded for smart contract platforms like Ethereum, rather hard to analyze. Moreover, combining statefefulness with sequential ordering of transactions greatly reduces the scalability of the Blockchain.
-<li>The difficulty to introduce real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
+<li>The presently prevalent stateful designs render smart contracts, coded for smart contract platforms like Ethereum, rather hard to analyze. Moreover, combining statefefulness with sequential ordering of transactions greatly reduces the scalability of the Blockchain.
+<li>The difficulty of introducing real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
 <li>Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.</ol><p>
 
 Recent studies of the state channel technology have proven that, in many instances, storing state on-chain is unnecessary. In most cases, all data can be stored in state channels, and the Blockchain would be only used to settle the economic results of exchange of information and/or to act as a fallout whenever a dispute occurs. This represents an alternative Blockchain architecture approach, which is marked by [Turing-complete](https://en.wikipedia.org/wiki/Turing_completeness) smart contracts that exist in state channels but not on the Blockchain. This would boost scalability as all transactions are independent and can be processed in parallel. Furthermore, this approach means that smart contracts will not write to [shared state](http://wiki.c2.com/?SharedStateConcurrency), which will greatly simplify contracts’ safety and the process of testing and verification.<p>
@@ -46,7 +46,7 @@ The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for
 
 Contributors will be able to use their AE after Phase 2 is complete (most probably in the form of an [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) token on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network).
 
-The contributor portion will comprise eighty-two percent of the initial æternity AE tokens. Seventeen percent of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and one percent will be allocated holders of BTC or ETH, accessible when the æternity blockchain launches. 
+The contributor portion will comprise eighty-two percent of the initial æternity AE tokens. Seventeen percent of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and one percent will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
 All will be recorded on the Ethereum Blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE tokens for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
 
