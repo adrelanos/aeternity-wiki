@@ -5,6 +5,9 @@ development.
 
 ### Main Resources
 
+- [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)
+- [SL docs](../../../../aeternity/testnet/tree/master/docs/)
+***
 - [Web3 JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
   \- This is the main JavaScript SDK to use when you want to interact
   with a nodes API
