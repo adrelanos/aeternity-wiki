@@ -1,6 +1,6 @@
 # How do contracts work?
 
-On the æternity network, smart contracts only exist in off-chain state channels. In case of disagreement between the parties in the channel, the smart contract code gets enforced by the æternity blockchain. In essence, the underlying blockchain acts to enforce and mitigate any disagreements between contracting parties in a transaction. The rest of the contracts are executed off-chain, ensuring fast and private execution.
+On the æternity network, smart contracts only exist in off-chain state channels. In the case of disagreement between the parties in the channel, the smart contract code gets enforced by the æternity blockchain. In essence, the underlying blockchain acts to enforce and mitigate any disagreements between contracting parties in a transaction. The rest of the contracts are executed off-chain, ensuring fast and private execution.
 
 # Contract components and participants
 
@@ -10,7 +10,7 @@ The use of the blockchain is not free but requires the user to spend tokens call
 
 ### Accounts:
 
-Each account has an address, Aeon balance,  and nonce that increases with every transaction and the height of the last update. Each account also accrues a small fee relative to the amount of a time that it is open. The costs of creating and keeping accounts open prevents spam and disincentivizes state-bloat. Reward for deleting accounts incentivizes the reclaiming of space.
+Each account has an address, Aeon balance,  and nonce that increases with every transaction and the height of the last update. Each account also accrues a small fee relative to the amount of a time that it is open. The costs of creating and keeping accounts open prevents spam and disincentivizes state-bloat. The reward for deleting accounts incentivizes the reclaiming of space.
 
 ### Name system: 
 
