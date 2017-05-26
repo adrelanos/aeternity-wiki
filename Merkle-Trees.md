@@ -2,22 +2,24 @@ TOC Merkle trees
 ================
 
 * [What are Merkle trees?](#what-are-merkle-trees)
-  * [Uses](#uses)
-  * [æternity is the blockchain to rule them all!](#æternity-is-the-blockchain-to-rule-them-all)
-  * [æternity the blockchain to rule them all](#æternity-the-blockchain-to-rule-them-all)
-  * [Structure: Merkle tree](#structure-merkle-tree)
-  * [The Basic Protocol Merkle Trees follow](#the-basic-protocol-merkle-trees-follow)
-  * [Benefits](#benefits)
+     * [Uses](#uses)
+     * [æternity is the blockchain to rule them all!](#æternity-is-the-blockchain-to-rule-them-all)
+     * [æternity the blockchain to rule them all](#æternity-the-blockchain-to-rule-them-all)
+     * [Structure: Merkle tree](#structure-merkle-tree)
+     * [The Basic Protocol Merkle Trees follow](#the-basic-protocol-merkle-trees-follow)
+     * [Benefits](#benefits)
+
 * [æternity Merkle trees](#æternity-merkle-trees)
-  * [æternity orders](#æternity-orders)
-  * [æternity channels](#æternity-channels)
-  * [æternity accounts](#)
-  * [æternity oracle bets](#)
-  * [æternity oracle shares](#)
-  * [æternity proof of burn](#)
-  * [æternity æternity proof of existence](#)
+     * [æternity orders](#æternity-orders)
+     * [æternity channels](#æternity-channels)
+     * [æternity accounts](#æternity-accounts)
+     * [æternity oracle bets](#æternity-oracle-bets)
+     * [æternity oracle shares](#æternity-oracle-shares)
+     * [æternity proof of burn](#æternity-proof-of-burn)
+     * [æternity æternity proof of existence](#æternity-proof-of-existence)
 * [Sources](#sources)
 
+***
 
 ## What are Merkle trees?
 
@@ -266,4 +268,5 @@ otherwise. This data is available to the virtual machine. #
 | 4  | Chumble, Alex. Moore, Karleigh. _Merkle Tree_                                                                                                 | **Protocol**;                                                        | [brillian.org](https://brilliant.org/wiki/merkle-tree/ )                                        |
 | 5  | zack-bitcoin, sjamayee.                                                                                                                       | **_æternity Merkle trees_**                                          | [aeternity/testnet](https://github.com/aeternity/testnet/blob/master/docs/trees.md  )           |
 | 6  | [Katz, J. Wikipedia](https://www.politicalavenue.com/libraryebooks/cryptology-and-cryptography/Introduction%20to%20Modern%20Cryptography.pdf) | **Introduction to Modern Cryptography**.                             | Capman & Hall/CRC.                                                                              |
+
 
