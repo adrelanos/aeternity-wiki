@@ -62,7 +62,7 @@ be verified with a cryptographic hash function.
     wants Alice to be able to verify that the data she received has not been
     corrupted or tampered with in transit. What Bob will do is use a
     cryptograpic hash function like sha-2 to create a hash of the block of
-    data before he sends it to Alice. In the example below Bob uses sha-256
+    data before he sends it to Alice. In the example below, Bob uses sha-256
     to hash the block of data which in this case is a short sentence:
 
 
@@ -113,7 +113,7 @@ The hash of the above sentence is:
     10 bytes, using a hashing algorithm that maps data to a 32 byte string would 
     not be efficient. 
     
-    However,  if the data being hashed is very large,  for instance a 100 terabyte block, 
+    However,  if the block of data being hashed is very large,  for instance a 100 terabyte block, 
     using the same hashing algorithm would be efficient, and this in turn is what
     makes Merkle trees so efficient.
 
