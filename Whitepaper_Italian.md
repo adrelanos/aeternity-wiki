@@ -59,9 +59,9 @@ V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquid
 V-B [Lavori Futuri](#lavori-futuri)  . . . . . . . . . . . . . . . 9  
 V-B.1 [Linguaggio funzionale del contratto](#linguaggio-funzionale-del-contratto)  . . . 9  
 V-B.2 [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9
-[GLOSSARIO](#glossario)
-[RINGRAZIAMENTI](#ringraziamenti)
-[RIFERIMENTI](#riferimenti)
+[GLOSSARIO](#glossario)  
+[RINGRAZIAMENTI](#ringraziamenti)  
+[RIFERIMENTI](#riferimenti)  
 
 #### Introduzione
 Lo scopo di questo paper è di dare un quadro d'insieme dell'architettura della æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica: tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
@@ -389,7 +389,7 @@ V-B.2
 #### Canali multi-parti
 Al momento tutti i canali su æternity sono limitati a due parti. Nonostante si potrebbero ottenere di fatto canali multi-parti attraverso hashlocking, ciò potrebbe risultare costoso. Per questo motivo stiamo progettando di studiare la possibilità di aggiungere il supporto a canali di _n-_parti con un meccanismo di accordo di tipo _m-_di_-n_.  
 
-**GLOSSARIO**  
+#### GLOSSARIO  
 
 **Blockchain** Un database distribuito, non manomissibile con accesso libero e pay-per-use ("metered"). Il database è costituito da una lista crescente di blocchi collegati tramite hash, e può utilizzare una qualsiasi regola per collegarli.  
 
@@ -411,9 +411,9 @@ Al momento tutti i canali su æternity sono limitati a due parti. Nonostante si 
 
 **Validatore** Un validatore è un utente che partecipa al meccanismo di consenso. Nel caso di æternity, ogni detentore di valore può partecipare a tale processo.  
 
-**RINGRAZIAMENTI**  
+#### RINGRAZIAMENTI  
 
 Grazie a Vlad, Matt, Paul, Dirk, Martin, Alistair, Devon e Ben per la revisione. Grazie a queste e molte altre persone per il confronto approfondito.  
 
-**RIFERIMENTI**  
+#### RIFERIMENTI  
 
