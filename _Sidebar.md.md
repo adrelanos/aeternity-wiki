@@ -8,7 +8,7 @@
 - [Getting Started][started]
 - [Frequently Asked Questions][faq]
 - [æternity Team][team]
-- [WhitepaperAbstract](Whitepaper_English) [pdf](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf) / [Translations](æternity-Whitepaer)
+- [Whitepaper Abstract](Whitepaper_English) / [pdf](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
 - [æternity Home Page](http://www.aeternity.com/)
