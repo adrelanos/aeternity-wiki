@@ -143,18 +143,18 @@ Una cosa importante da notare è che i contratti su æternity non mantengono alc
 
 I benefici nell'utilizzo di _funzioni pure_ nello sviluppo di software in generale, e in quello di applicazioni economiche in particolare, è ampiamente documentato da decenni in ambiente accademico e nell'industria [10] [cit. necessaria].  
 
-> *1 | : hashlock
-2 | swap
-3 | hash
-4 | == ;*
+> *1 | : hashlock  
+2 | swap  
+3 | hash  
+4 | == ;*  
 
 Fig. 2. Un semplice hashlock. 
 
-> *1 | macro Commitment a9d7e8023f80ac8928334 ;
-2 |
-3 | Commitment hashlock call
-4 | if 0 100 else 0 50 end
-5 | 1*
+> *1 | macro Commitment a9d7e8023f80ac8928334 ;  
+2 |  
+3 | Commitment hashlock call  
+4 | if 0 100 else 0 50 end  
+5 | 1*  
  
 Fig. 3. Utilizzo di un hashlock per un invio trustless di token attraverso un intermediario.  
 
@@ -163,11 +163,11 @@ Anche se tutti i contratti sono privi di stato e vengono eseguiti indipendenteme
 Come semplice utilizzo, gli hashlock permettono agli utenti che non condividono un canale di stato di scambiarsi aeon in maniera trustless, a patto che fra di essi esistano dei canali che li mettano in comunicazione. Ad esempio, se Alice e Bob hanno un canale e Bob e Carol ne hanno un altro, allora Alice e Carol possono fare delle transazioni tramite Bob mediante la creazione di due copie del contratto in figura 3, una per ogni canale. Il "_Commitment_" di linea 1 è l'hash di un segreto scelto da Alice. Sulla linea 3 viene inviato allo stack e si richiama la funzione hashlock. Il valore di ritorno dell'hashlock determina quale ramo dell'if viene eseguito. Alice rivela il segreto non appena i contratti saranno firmati da tutte le parti coinvolte, permettendo così a Bob e a Carol di usarlo per rivendicare i loro aeon.  
 L'hashlocking può essere anche utilizzato, ad esempio, per partecipare a giochi multi-player nei canali, come mostrato nella figura 4. Ognuno crea un canale con il game manager che pubblicherà lo stesso contratto in ogni canale. Ad esempio, se ci trovassimo nello stato di gioco 32, definito dalla funzione _State32_, e se volessimo aggiornare simultaneamente in maniera trustless tutti i canali allo stato 33, non appena il game manager rivelasse il segreto ciò causerebbe l'aggiornamento simultaneo di tutti i canali.  
 
-> *1 | macro Commitment a9d7e8023f80ac8928334 ;
-2 |
-3 | Commitment hashlock call
-4 | if State33 else State32 end
-5 | call*
+> *1 | macro Commitment a9d7e8023f80ac8928334 ;  
+2 |  
+3 | Commitment hashlock call  
+4 | if State33 else State32 end  
+5 | call*  
 
 Fig. 4. Un esempio semplificato dell'uso di un hashlock per giocare a un gioco multi-player nei canali.  
   
