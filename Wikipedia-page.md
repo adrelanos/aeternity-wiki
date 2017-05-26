@@ -186,3 +186,27 @@ Stable value assets and portfolio replication[edit source]
 Next-generation block chain network Aeternity by the German-born computer scientist "Tower of the Godfather" Yanislav Malahov and former Augur core developer Zack Hess, former Synereo core developer Jack Pettersson launched in 2016, gathered a number of subversive innovation in one, aimed at Re - the underlying agreement for today 's smart contract. Aeternity's technical highlights are Turing's State Channels and Oracles. The team has posted the testnet source code (https://github.com/aeternity/testnet) on Github.
 
 Recently, the co-founder of the Aeternity project, Mr. Nikola Stojanow, has just finished his one-week Asian roadshow. The first leg of the team's Asian line is Shanghai, where the Nikon Stojanow delivered a speech at the 2017 Block Chain Financial Technology China Annual Conference as a roundtable forum guest.
+German computer scientist "Tower of the Godfather" Yanislav Malahov in 2016 initiated the establishment of the next generation of block chain network Aeternity, designed to re-establish the underlying agreement of today's smart contract. The Aeternity core development team also includes former Augur core developer Zack Hess and former Synereo core developer Jack Pettersson. Recently, the team has published test code (testnet) source code on Github, and will be in early April 2017 for Pre-ICO round of financing activities. As a new block chain network, Aeternity is a major technological innovation is the state channel (state channels).
+Introduction to state channels
+The Godfather Temple Godfather Launches Next Generation Block Chain Network
+ 
+The state channel is essentially a proprietary, Turing complete intelligent contract execution environment established by both parties to the transaction. Both parties run the smart contract in the status channel and sign the status update, and the block chain is responsible for settlement and execution (only In the case of controversy).
+ 
+In the Aeternity network, only the state updates of its aeon token transfer need to be determined on the chain, and the aeon can transfer the premise that the parties to the transaction have already deposited it into the status channel. This will allow all channels to be independent, and any transactions involving channels can be handled in parallel, significantly increasing transaction throughput. Transactions related to the data in the state channel, can be a good protection of privacy.
+ 
+Status channel example
+In practice, if Alice and Bob want to use the state channel on Aeternity to trade, they will experience the following process:
+ 
+1) Alice and Bob signed a deal that clarified how much money they had deposited into the channel (calculated as coin aeon) and posted it to the chain.
+2) Once the channel is on, Alice and Bob can create new channel states, send them and sign each other. The channel status can be a redistribution of funds within the channel, or a contract that determines the redistribution of the content. Each channel state has an increasing number of random numbers and signed by both parties, so if a dispute occurs, the last valid state can be submitted to the chain and then executed by the block chain.
+3) The channel can be closed in one of two ways:
+A) If Alice and Bob decide that they have finished trading and agree with their respective final balances, they can sign a deal that declares to agree to this fact and submits it to the block chain, which will close the channel, And accordingly redistribute the funds within the channel.
+B) If Alice refuses to sign the final transaction, whatever the reason is, Bob can submit the latest status that both have signed and ask the channel to be closed by this status. This will turn on a countdown. If Alice thinks Bob is dishonest, she has the opportunity to announce a state that both sides have signed, but the random value is higher, before the countdown is completed. Otherwise, the channel will be closed when the countdown is complete.
+Aeternity contrasts with existing block chain systems (eg,
+The Godfather Temple Godfather Launches Next Generation Block Chain Network
+ 
+This article represents the author's point of view, does not represent Baidu position.
+
+Author: Seven Culture and Education
+
+From: https: //po.baidu.com/feed/share? IsBdboxShare
