@@ -52,7 +52,7 @@ IV-B [Adozione tramite integrazione web](#adozione-tramite-integrazione-web) . .
 IV-C [Moduli open source](#moduli-open-source)  . . . . . . . . . . . . 8  
 IV-D [Condizioni d'uso e design dell'UX](#condizioni-duso-e-design-dellux) . . . . . 8  
 V [Discussioni](#discussioni)  . . . . . . . . . . . . . . . . . 8  
-V-A [Limitazioni e tradeoff](#limitazioni-e-tradeoff) . . . . . . . . . . . 9  
+V-A [Limitazioni e compromessi](#limitazioni-e-compromessi) . . . . . . . . . . . 9  
 V-A.1 [Stati sulla blockchain](#stati-sulla-blockchain) . . . . . . . . . . 9  
 V-A.2 [Problema dell'opzione gratuita](#problema-dellopzione-gratuita) . . . . . . 9  
 V-A.3 [Perdita di liquidità e tipologie di macchine a stati](#perdita-di-liquidità-e-tipologie-di-macchine-a-stati) . . . . . 9  
@@ -307,19 +307,28 @@ Abbiamo fornito una spiegazione su come progettare un sistema di trasferimento d
 Il nostro approccio ha tuttavia sia limiti fondamentali che spazi di miglioramento. Entrambi vengono discussi qui.  
 
 V-A
-#### Limitazioni e tradeoff
+#### Limitazioni e compromessi
+Nonostante crediamo che i compromessi fatti nella nostra architettura siano ragionevoli visto l'incremento conseguente di performance in altre aeree, æternity non è una soluzione onnicomprensiva per applicazioni decentralizzate. Dovrebbe essere piuttosto vista come un complemento sinergico alle attuali tecnologie. Ci sono diverse considerazioni di cui ci si deve rendere conto.  
 
 V-A.1
 #### Stati sulla blockchain
+Nonostante abbia molti vantaggi, la mancanza di stati programmabili di æternity la rende inadeguata per le applicazioni che richiedono di mantenere sotto consenso uno stato personalizzato. Ad esempio ciò include le DAO (Organizzazioni Decentralizzate Autonome o "Decentralized Autonomous Organizations") per come sono normalmente concepite, i sistemi di nomi personalizzati e le sotto-valute che non sono legate al valore di un asset di base.  
 
 V-A.2
 #### Problema dell'opzione gratuita
+Se Alice e Bob possiedono un canale e Alice sigla un contratto, quando lo invia a Bob gli da essenzialmente una libera opzione: Bob potrebbe scegliere di siglare e restituire (cioè attivare) il contratto in qualsiasi momento del futuro. Spesso ciò non è però voluto. Per evitare questo problema i contratti del canale non sono attivati immediatamente con la cifra intera, ma sono suddivisi in tempo o spazio. Entrambi i partecipanti sigleranno i contratti in brevi intervalli così da evitare che un utente offra una grande opzione libera all'altro.  
+Ad esempio, se le parti vogliono scommettere 100 aeon, allora potrebbero siglare il contratto in 1000 frazioni, ognuna delle quali incrementerebbe la scommessa di 0,1 aeon. Ciò richiederebbe il passaggio di 1000 messaggi, 500 in ogni direzione, il che risulterebbe abbastanza economico dato che il contratto non verrebbe mai sottomesso alla blockchain. Come ulteriore esempio, se qualcuno volesse creare un asset economico della durata di 100 giorni, si potrebbe siglare in 2400 frazioni di un'ora ciascuna, cioè 2400 messaggi, 1200 in ciascuna direzione. 
 
 V-A.3
 #### Perdita di liquidità e tipologie di macchine a stati
+Quando si compongono canali mediante un blocco di hash ("hashlock") come mostrato nella sezione [II-B.1](#smart-contract), ogni intermediario deve bloccare almeno il doppio degli aeon trasmessi per suo tramite. Ad esempio, se Alice e Carol vogliono compiere una transazione tramite Bob, Bob agirà come Carol quando interagirà con Alice e viceversa.  
+Poiché questo risulta costoso per Bob, molto probabilmente guadagnerebbe una tariffa come compenso. Se Alice e Carol pensano di condurre molti scambi fra di loro, possono evitare ciò creando un nuovo canale e trasferendogli in maniera trustless i contratti attivi utilizzando un hashlock.  
+Ma poiché il mantenimento di un ulteriore canale aperto impatta negativamente la liquidità personale, il passaggio da un intermediario rimane preferibile in molti casi, soprattutto quando le parti non si aspettano di commerciare molto nel futuro. Dunque si prevede l'emergere di una tipologia di canale in cui alcuni ricchi utenti guadagnino nel trasmettere in maniera trustless transazioni fra altri utenti.  
+È da notare che ciò non costituisce un punto critico di fallimento in quanto non affidiamo nulla a questi trasmettitori di transazioni. Se un trasmettitore andasse offline prima che il segreto fosse rivelato ad un hashlock, la transazione non passerebbe. Se dovesse andare offline in seguito, l'unico possibile effetto "negativo" è che il trasmettitore non sarebbe in grado di reclamare i propri aeon.  
 
 V-B
 #### Lavori Futuri
+
 
 V-B.1
 #### Linguaggio funzionale del contratto
