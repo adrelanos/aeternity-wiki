@@ -21,7 +21,7 @@ Table of Contents
    * [What are æternity tokens be used for?](#what-are-æternity-tokens-be-used-for)
    * [What are some interesting applications?](#what-are-some-interesting-applications)
    * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
-   * [What are the features of the æternity virtual machine?](#what-the-features-of-the-æternity-virtual-machine)
+   * [What are the features of the æternity virtual machine?](#what-are-the-features-of-the-æternity-virtual-machine)
    * [Why do we need Ethereum?](#why-do-we-need-ethereum)
    * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
    * [What’s the difference between an account and the æternity wallet?](#whats-the-difference-between-an-account-and-the-æternity-wallet)
