@@ -251,8 +251,8 @@ Possiamo usare gli smart contract per programmare asset sintetici che mantengano
 III-B.5
 #### Contratti ad eventi
 I contratti ad eventi pagano quando avviene un evento e non lo fanno quando non avviene, a seconda del responso dell'oracolo. Oltre a essere interessanti di per sé, possono essere utilizzati da parecchie applicazioni diverse:  
-    a) Assicurazioni: possiamo usare contratti ad eventi per integrare delle assicurazioni. Ad esempio i biglietti di un costoso evento musicale possono perdere il loro valore nel caso di pessime condizioni atmosferiche. Tuttavia, se lo spettatore riceve del denaro in quanto l'oracolo stabilisce che nel giorno dell'evento ha piovuto, il suo investimento viene protetto in modo che possa trovare un'alternativa emotivamente adeguata. Parlando un po' più seriamente, gli agricoltori sono sovente interessati alla quantità di precipitazioni di una stagione. Possiamo assicurarli sul pessimo raccolto dovuto alla siccità.  
-    b) Informatori: i contratti ad eventi possono anche essere utilizzati per incentivare la rivelazione di informazioni sensibili. Potremmo ad esempio scommettere sull'evento "Informazioni che la Società A ha fatto un uso illegale di pesticidi sono rese disponibili entro la data del 24 gennaio 2017". Qualsiasi persona con accesso a tale tipo di informazione sarebbe incentivata a scommettere sull'evento e poi a rilasciarla.  
+a) Assicurazioni: possiamo usare contratti ad eventi per integrare delle assicurazioni. Ad esempio i biglietti di un costoso evento musicale possono perdere il loro valore nel caso di pessime condizioni atmosferiche. Tuttavia, se lo spettatore riceve del denaro in quanto l'oracolo stabilisce che nel giorno dell'evento ha piovuto, il suo investimento viene protetto in modo che possa trovare un'alternativa emotivamente adeguata. Parlando un po' più seriamente, gli agricoltori sono sovente interessati alla quantità di precipitazioni di una stagione. Possiamo assicurarli sul pessimo raccolto dovuto alla siccità.  
+b) Informatori: i contratti ad eventi possono anche essere utilizzati per incentivare la rivelazione di informazioni sensibili. Potremmo ad esempio scommettere sull'evento "Informazioni che la Società A ha fatto un uso illegale di pesticidi sono rese disponibili entro la data del 24 gennaio 2017". Qualsiasi persona con accesso a tale tipo di informazione sarebbe incentivata a scommettere sull'evento e poi a rilasciarla.  
 
 III-B.6
 #### Mercati predittivi
@@ -263,22 +263,22 @@ Come notato nella sezione II-D, possiamo ad esempio utilizzare mercati predittiv
 
 Fig. 5. Mercato predittivo multidimensionale.  
 
-    a) Mercati predittivi multidimensionali: i mercati predittivi multidimensionali ci permettono di prevedere la correlazione fra possibili eventi futuri. Per esempio si potrebbe quindi prevedere se, nel caso in cui Alice fosse eletta leader, il prezzo delle patate andrebbe al ribasso o se, nel caso in cui vincesse Bob, al rialzo. Si potrebbe capire che se Google utilizzasse il piano A nei prossimi tre mesi guadagnerebbe probabilmente di più, o che se seguisse il piano B guadagnerebbe di meno. O, ancora, come in figura 5, che se Alice fosse eletta presidente ci sarebbe un'elevata probabilità che il prezzo delle patate sarebbe piuttosto basso.  
+a) Mercati predittivi multidimensionali: i mercati predittivi multidimensionali ci permettono di prevedere la correlazione fra possibili eventi futuri. Per esempio si potrebbe quindi prevedere se, nel caso in cui Alice fosse eletta leader, il prezzo delle patate andrebbe al ribasso o se, nel caso in cui vincesse Bob, al rialzo. Si potrebbe capire che se Google utilizzasse il piano A nei prossimi tre mesi guadagnerebbe probabilmente di più, o che se seguisse il piano B guadagnerebbe di meno. O, ancora, come in figura 5, che se Alice fosse eletta presidente ci sarebbe un'elevata probabilità che il prezzo delle patate sarebbe piuttosto basso.  
 
 III-B.7
 #### Market con un lotto in vendita ad un prezzo singolo
 Un attacco per rubare aeon a un mercato ha due strategie possibili. Potrebbe sfruttare la divisione del mercato nel tempo o nello spazio.  
-    - Se il mercato è diviso nello spazio, allora l'attaccante fa dell'arbitraggio. Egli, facendo scambi simultanei in entrambi i mercati, annulla il rischio e fa del profitto.  
-    - Se il mercato è diviso nel tempo, allora l'attaccante cerca di anticipare il mercato. Egli, leggendo le transazioni in ingresso nel mercato, crea ordini di acquisto e di vendita immediatamente prima e dopo.  
+* Se il mercato è diviso nello spazio, allora l'attaccante fa dell'arbitraggio. Egli, facendo scambi simultanei in entrambi i mercati, annulla il rischio e fa del profitto.  
+* Se il mercato è diviso nel tempo, allora l'attaccante cerca di anticipare il mercato. Egli, leggendo le transazioni in ingresso nel mercato, crea ordini di acquisto e di vendita immediatamente prima e dopo.  
 
-[fig_6.jpg]  
+![fig_6](https://cloud.githubusercontent.com/assets/18164515/26499742/f682326e-4233-11e7-84f0-9aed9927db25.JPG)
 
 Fig. 6. La linea nera è la curva di domanda, quella rossa di offerta. Le vendite in rosso sono della stessa dimensione degli acquisti in nero. La linea verticale è il prezzo selezionato dal creatore del mercato. Chiunque fosse intenzionato a comprare a un prezzo più alto ha scambiato a quel prezzo, chiunque fosse intenzionato a vendere a un prezzo più basso ha scambiato a quel prezzo.  
   
 Per riunione i mercati nello spazio, tutti dovrebbero utilizzare lo stesso creatore del mercato.  
 Per riunirli nel tempo dobbiamo fare scambi per lotti, ciascun lotto ad un singolo prezzo. Il creatore del mercato deve proporre a ciascuna persona il prezzo da lui stabilito e se qualcuno dovesse scoprire proposte contraddittorie da parte del creatore, allora tutti i suoi clienti dovrebbero essere in grado di prosciugare ogni suo canale. Se il creatore dovesse proporre un prezzo ragionevole, allora dovrebbe ottenere lo stesso volume di acquirenti e venditori, come mostrato in fig. 6. Altrimenti finirebbe in una situazione simile a quella di fig. 7, prendendosi dunque un grave rischio.  
 
-[fig_7.jpg]  
+![fig_7](https://cloud.githubusercontent.com/assets/18164515/26499743/f6831eae-4233-11e7-9d89-76e491660787.JPG)
 
 Fig. 7. Il nero è molto più esteso del rosso. Il creatore del mercato sta vendendo molte più quote di quante ne stia comprando, prendendosi di conseguenza un grave rischio.  
   
