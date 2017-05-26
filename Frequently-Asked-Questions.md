@@ -116,12 +116,9 @@ The people who caused the attack lose all the money they attacked with. The defe
 
 Yes, æternity is a next-level, brand new blockchain, with many features that solve current issues in blockchain technology in an elegant way. Reading [the whitepaper](Whitepaper_English) is the best way to understand æternity’s design. æternity’s first testnet is already online, ready for testing and mining.
 
-# What can the AE token be used for? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
+# What can æternity tokens be used for? #
 
-AEON or AE are the access tokens to the æternity blockchain and act as a unit of account for the resources spent on æternity. AE are the energy (or “crypto-fuel”) used to power any application implemented on the platform. Every action (and even inaction) on the æternity platform costs something, even if only a fraction of a cent.
-
-AE are the fuel for the new types of trustless apps that will be enabled. For more information regarding applications, consult the [æternity whitepaper](https://uploads.strikinglycdn.com/files/8a476e2a-e859-4e5b-8d37-a21c88b1cf93/aeternity-trustless-decentralized%20%2853%29.pdf), visit the [website](http://www.aeternity.com/) or continue reading this FAQ.
+æternity tokens are called aeon (AE for short), and are the access tokens to the æternity blockchain. They act as a unit of account for the resources spent. Aeon are the energy (“crypto-fuel”) used to power any application implemented on the æternity platform. Every action (and even inaction) costs something, even if only a fraction of a cent.
 
 # What are some of the more interesting applications that can be created on æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
