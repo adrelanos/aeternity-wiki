@@ -11,7 +11,7 @@ Aus diesem Grund wird æternity entwickelt, als die einzige Blockchain, die durc
 
 * Die "State Channels" abseits der Blockchain ("off-chain") zu verarbeiten, erlaubt es, Smart Contracts einfacher zu analysieren, schneller zu verarbeiten und mehr Privatsphäre zu erstellen, während sie keinen wesentlichen Verlust an Funktionalität erleiden.
 
-* Es ist der interne Konsensmechanismus, der das Orakel überprüfen und die Blockchain mit realen Weltdaten versorgen kann, wobei die Notwendigkeit vernachlässigt wird, ineffiziente Orakelmechanismen oben zu implementieren (wie Augur oder Gnosis oben auf Ethereum).
+* Sein interner Konsensmechanismus kann das Orakel überprüfen und die Blockchain mit realen Daten versorgen, wobei darauf verzichtet wird ineffiziente Orakelmechanismen darauf aufbauend zu implementieren (wie Augur oder Gnosis auf Basis von Ethereum).
 
 Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden. Mehrere Teile haben in Erlang vorgegebene Vorführungen. Entwicklungswerkzeuge und Anwendungsgrundlagen wie ein Brieftaschen-, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
 
