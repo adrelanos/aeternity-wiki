@@ -2,7 +2,7 @@
 #### Potential partner: Alice.si 
 * Ethereum based crowdfunding solutions for charitable projects 
     
-    Decentralized oracles / prediction markets could help decide where funds are best applied for the greater good and have the most powerful tool for making welfare recirculate and shape a better world, in which every trade there is an slice for that global greater good fund, acting as a society balancing tool...
+    Decentralized oracles / prediction markets could help decide where funds are best applied for the greater good and have the most powerful tool for making welfare recirculate and shape a better world, in which every trade there is a slice for that global greater good fund, acting as a society balancing tool...
 
 #### Use Case Concept
 ![Use Case Concept sketch](https://github.com/aeternity/wiki/blob/master/AE-Crowdfund.png)
@@ -14,7 +14,7 @@
 
 ### Vision:
 
-Something like an open marketplace for people to trade private or group lessons with social profiles of prosumers/users (student and teachers), incentivized by earning tokens for studying and gameification features. 
+Something like an open marketplace for people to trade private or group lessons with social profiles of prosumers/users (student and teachers), incentivized by earning tokens for studying and gamification features. 
 Students can become teachers once they have received digital certification, with æternity oracles you could let more than one teacher rate a test, exam, work or class, ...
 
 ### Goal:
