@@ -5,6 +5,7 @@
 * [Twitter](https://twitter.com/aetrnty)
 * [Reddit](https://www.reddit.com/r/Aeternity/)
 * [Telegram](https://telegram.me/aeternity)
+* [Telegram AETrader](https://telegram.me/aetrader)
 * [LinkedIn](https://www.linkedin.com/company/aeternity)
 * [WeChat](http://www.aeternity.com/#)
 * [QQ](http://www.aeternity.com/#)

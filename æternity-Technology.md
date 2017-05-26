@@ -3,7 +3,7 @@
 </div>
 <h2>Introduction</h2>
 
-The innovation in æternity is the creation of a highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes the oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and are the de facto layer for the execution of smart contracts. This increases both the privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss to functionality.
+The innovation in the æternity is a creation of highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes an oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and are the de facto layer for execution of smart contracts. This increases both privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss of functionality.
 Applications like markets for synthetic assets and prediction markets can be efficiently implemented at global scale. 
 
 <div class="weiss">
@@ -23,7 +23,7 @@ Applications like markets for synthetic assets and prediction markets can be eff
 <strong class="d-block">INDUSTRIAL GRADE CODE BASE</strong>
 
 <small>The core æternity blockchain code is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stoppable applications.
-Erlang is the perfect choice to write a blockchain from scratch allowing to achieve superior operational stability and performance.</small>
+Erlang is the perfect choice to write a blockchain from scratch that allows it to achieve superior operational stability and performance.</small>
 </td>
 </tr>
 </tbody>
@@ -41,8 +41,8 @@ Erlang is the perfect choice to write a blockchain from scratch allowing to achi
 <td class="align-middle">
 <strong class="d-block">BLOCKCHAIN NETWORKS</strong>
 
-<small>The æternity blockchain technology is free to use and easy to incorporate. 
-MIT-licensed modules will allow easy implementation in blockchain consortiums and will enable free and open access for developers to be able to build on the æternity platform. Cross-chain atomic swaps do the rest.</small>
+<small>The æternity blockchain technology is free to use and easy incorporate. 
+MIT-licensed modules will allow easy implementation in blockchain consortiums, enable free and open access for developers to be able to build on the æternity platform. Cross-chain atomic swaps do the rest.</small>
 </td>
 </tr>
 </tbody>
@@ -61,7 +61,7 @@ MIT-licensed modules will allow easy implementation in blockchain consortiums an
 <strong class="d-block">AE TOKEN</strong>
 
 <small>Aeons (AE) are the access tokens to the æternity network and act as a unit of account for the resources (Space and computation time) spent on æternity.
-Furthermore, æons are the energy for any application implemented on the platform.
+Furthermore, aeons are the energy for any application implemented on the platform.
 The initial amount of AE for the genesis block will be determined by a verifiable smart contract on Ethereum.</small>
 </td>
 </tr>
@@ -81,7 +81,7 @@ The initial amount of AE for the genesis block will be determined by a verifiabl
 <strong class="d-block">SMART CONTRACTS</strong>
 
 <small>State channels enable highly scalable, trustless transactions of value and purely functional, easily verifiable Turing-complete smart contracts.
-State channels effortlessly support an immense throughput of transactions. The execution of the smart contracts as well as the settlement happens off-chain.
+State channels effortlessly support an immense throughput of transactions. The execution of the smart contracts, as well as the settlement, happens off-chain.
 In other words: They are one-to-one sidechains, where the blockchain acts as a public crypto court only used for disagreement resolution.</small>
 </td>
 </tr>
@@ -120,7 +120,7 @@ Each user can ask questions about the environment. Everybody can answer. The con
 <td class="align-middle">
 <strong class="d-block">NAMES (DNS)</strong>
 
-<small>In the vein of Aaron Swartz’ work and Namecoin, æternity features an easy to use name system that is both decentralized and secure, while still supporting human-friendly, memorable names.
+<small>In the vein of Aaron Swartz’ work and Namecoin, æternity features an easy to use name system that is both decentralised and secure, while still supporting human-friendly, memorable names.
 The blockchain’s state includes a mapping from unique human-friendly strings to fixed-size byte arrays, which are individually customizable.</small>
 </td>
 </tr>
@@ -139,7 +139,7 @@ The blockchain’s state includes a mapping from unique human-friendly strings t
 <td class="align-middle">
 <strong class="d-block">ACCOUNTS & IDENTITY</strong>
 
-<small>æternity's accounts are permission-less, but still allow customization via schema.org's semantic web scheme.
+<small>æternity's accounts are permission-less, but still, allow customization via schema.org's semantic web scheme.
 Create and own your identity on the æternity network, then use it everywhere on the web!</small>
 </td>
 </tr>

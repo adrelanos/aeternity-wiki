@@ -12,7 +12,7 @@ Table of Contents
    * [How does æternity protect from the next DAO happening?](#how-does-æternity-protect-from-the-next-dao-happening)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
-   * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-ae)
+   * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-æ)
    * [What is the Maximum Supply of AE?](#what-is-the-maximum-supply-of-ae)
    * [How is the AE dispersed?](#how-is-the-ae-dispersed)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
@@ -31,11 +31,11 @@ Table of Contents
 
 # How is æternity different from Ethereum and Bitcoin? #
 
-With Bitcoin, smart contracts don't exist as of yet. All transactions are executed on-chain.
+Smart contracts don't yet exist in Bitcoin, and all transactions are executed on-chain.
 
-With Ethereum, smart contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for smart-contracts with no coherent design, no coherent API for web apps and no naming system or oracles. All these are being built on top of the blockchain.
+In Ethereum, smart contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. There is only a ground layer for smart contracts, without a coherent design, coherent API for web apps, naming system, nor oracles. These can only be built _on top of_ the blockchain.
 
-With æternity, contracts only exist for a moment. They settled independently from all the other contracts via state channels. This solution makes the blockchain use a cases and throughput more scalable for mainstream adoption and adequate to private use cases.
+In æternity, smart contracts only exist for a moment. They are settled _independently_ from all other contracts via state channels. This makes blockchain use cases and throughput more scalable for mainstream adoption and suitable for private use cases.
 
 # Why is æternity faster than Ethereum? #
 Since contracts on æternity are independent, they can be processed in parallel.
@@ -44,75 +44,67 @@ On Ethereum it is possible to move computation, but it is much more complicated 
 
 On æternity computation by default happens off-chain.
 
-# How is æternity written? #
+# In what language is æternity written? #
 
-The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
+The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available unstoppable applications. 
 
-Erlang was chosen because it is the perfect choice to write a blockchain from scratch, allowing to achieve superior code execution, stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch, enabling superior code execution, stability, and performance.
 
 # Which PoW Algorithm is used for mining in æternity? #
 
-æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more  power efficient than most other algorithms currently available. Theoretically,  devices with low power such as smartphones and tablets can be used to mine on "Cuckoo Cycle" efficiently.
+æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more power efficient than most other algorithms currently available. Theoretically, devices with low power such as smartphones and tablets can mine on "Cuckoo Cycle" efficiently.
 
-For more info : [Mining](Mining)
+For more info: [Mining](Mining)
 
 # How does PoS work in æternity? #
 
-Each Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The user is required to deposit AEON  also in the proportion to the length of the time-frame, which will be returned if the user giving answer whose gets accepted as truth, otherwise it will be burned. Other users have a set amount of time to submit counter-claims by depositing the same amount of Aeon. Then the consensus mechanism for blocks will be used to answer the oracle and rewarding the user saying the truth while penalising one of lying.
+Any aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The creator is required to deposit aeon in proportion to the length of the time frame. Other users can submit counterclaims by depositing the same amount of aeon. If there are counterclaims, the consensus mechanism will be used to decide the oracle. If the creator's answer is accepted, the aeon will be returned to the creator; Otherwise, it will be burned. And so, the creator will be rewarded if telling the truth and penalized if lying.
 
-For more info : [Mining](Mining)
+For more info: [Mining](Mining), [Oracles](Oracles)
 
+# How is æternity protected from another DAO attack? #
 
-# How does æternity protect from the next DAO happening? #
-Since contracts are independent, it is much easier to prove and verify what each contract does.
+In the DAO, some people trusted other people to spend their money for them. However, if you give your money to someone and trust them to spend it, there is nothing you can do to stop them from robbing you. 
 
-The DAO had a problem where some people trusted other people to spend their money for them. For instance, If you give your money to someone, and trusting them to spend it for you wisely, there is nothing that can be done to stop them from robbing you.
+æternity, in contrast, supports trustless smart contracts. With æternity, there is no reason to trust anybody or any other blockchain system. After all, any smart contract that requires trust is not so smart.
 
-æternity supports many trustless contracts. There is no reason you should ever use trust with æternity, or any other blockchain system.
-
-Any smart contract that requires trust is not so smart.
+Since contracts in aeternity are independent of each other, it is much easier to prove and verify what each contract does.
 
 # Is smart contract verification on the roadmap? #
 
-The language for æternity is very simple. Smart contracts do not depend on each others state, so it is easy to prove the correctness of a smart contract.
-We wont need any special verification software to be sure of the correctness of æternity contracts.   
+The programming language for contracts will be written in a high-level functional language. This eliminates many types of possible errors and aids formal verification. Additionally, since contracts do not depend on each others' state, it is easier be correct.
 
-Channels can be connected to each other using hashlocking. This is how cross-chain atomic swaps and the Lightning Network function. This is how we can build prediction markets with more than 2 users.
+# How does on-chain conflict resolution work? (Crypto-court) #
 
-# How does on-chain conflict resolution work? (crypto-court) #
+It is possible that conflicting final channel states are submitted to the blockchain. In this case, the blockchain will examine which has a higher nonce. Only the higher nonced version of the state is accepted. Every time there's a channel payment or update the channel state, the nonce is increased. 
 
-Answer by agorism1337 from [reddit](https://www.reddit.com/r/Aeternity/comments/64x1u7/how_does_onchain_conflict_resolution_work/).
+The blockchain is not completely stateless. It keeps a record of each account balance and the results of every oracle, among other things. What is important for scalability is that channels cannot edit any shared memory. It is deterministic to let processes read data in parallel, but it is not deterministic to let processes edit data in parallel. Since channels can't edit shared memory, we can process all the channel transactions in parallel.
 
-It is possible that you each submit conflicting final channel states to the blockchain. The blockchain processes both options, and examines which has a higher nonce. The higher nonced version of the state is accepted, and the other is rejected.
+# What is the Circulating Supply of æ? #
 
-So every time we make a channel payment or update the channel state, we also have to update the nonce in the channel state. That way the blockchain will prefer the most recent channel state we made.
+Total æ distributed during Contribution Phase 1: 139,089,935.082
 
-The blockchain is not completely stateless. It keeps a record of each account balance, and the results of every oracle, and some other things. What is important for scalability is that channels cannot edit any shared memory. It is deterministic to let processes read data in parallel, but it is not deterministic to let processes edit data in parallel. Since channels can't edit shared memory, we can process all the channel transactions in parallel.
+Total æ to be distributed during Contribution Phase 2: 21,000,000 CHF (Swiss Francs)
 
-# What is the Circulating Supply of AE? #
-AE currently in circulation: TODO
-
-Total AE distributed during Phase 1: 139,089,935.082
-
-AE in circulation after contribution phase 2: TODO
+Total æ in circulation after contribution phase 2: 
 
 # What is the Maximum Supply of AE? #
 
-Answer by vdramaliev on [reddit](https://www.reddit.com/r/Aeternity/comments/64z73r/will_there_have_the_cap_amount_of_aeon/).
+The maximum supply of AE tokens will be determined after the phase two of æternity backing campaign ends. 
 
-It is possible for the mining reward amount to be modifiable by the users through a prediction market, as the governance of aeternity is decentralized, and can be adjusted based on the real-world needs.
 
 # How is the AE dispersed? #
 
-Following Phase 2, 82 % of the AE that has been created will be in the hands of investors. 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses in order to encourage the use of AE and the aeternity network.
 
-90% of the AE that has been reserved for the founding team (a total of 17% of the available AE) will be time-locked so as to discourage team members from taking the AE tokens and leaving the project. 
+Following the phase two of æternity backing campaign, 82 % of the total AE that has been created will be distributed to all investors. While 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses. This will encourage the use of AE tokens and the æternity network.
+
+90% of the AE that has been reserved for the founding team (a total of 17% of the available AE) will be locked away for a period of time so as to discourage team members from taking the AE tokens and leaving the project. 
 
 # Can malicious rich people make an oracle lie? #
 
 Answered by agorism1337 on [reddit](https://www.reddit.com/r/Aeternity/comments/64x733/the_highest_stakes_the_whales_decide_what_will_be/). (modified)
 
-If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both side of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, the other is a new altcoin.
+If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both sides of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, the other is a new altcoin.
 
 The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with.
 
@@ -122,11 +114,11 @@ Even a whale can't afford to do this attack many times, and we quickly recover a
 
 Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/Aeternity/comments/63tabp/aeternity_vs_qtum_vs_cosmos/) and [here](https://www.reddit.com/r/Aeternity/comments/63mhg7/how_does_aeternity_contrast_with_truebit/).
 
-* Ethereum is a Turing-complete stateful smart contract system. It allows for examples apps like: subcurrencies, domain name servers, and blackjack card game gambling.
+* Ethereum is a Turing-complete stateful smart contract system. It allows for examples apps like subcurrencies, domain name servers, and blackjack card game gambling.
 * Cosmos is a way to move coins from one blockchain to another.
 * Qtum is a proposal for a software suite for making Dapps on blockchains like æternity or Ethereum.
 * Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity oracle. æternity's oracle is market based instead of voting based. æternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
-* æternity is a Turing-complete stateless smart contract system with a built in oracle. It allows for the creation of trustless Dapps. For example: insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
+* æternity is a Turing-complete stateless smart contract system with a built-in oracle. It allows for the creation of trustless Dapps. For example insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
 
 # æternity, a new blockchain? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
@@ -156,7 +148,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 * Side-chained blockchain networks that can communicate efficiently and securely.
 * Multiplayer video games where the rules are enforced by the blockchain. Poker, chess, Go, and first person shooter games.
 * Investment opportunities for ventures that are specializing in predicting the price of food.
-* Contracts for powering crowdsales to finance public goods and create a sustainable economy.
+* Contracts for powering crowd sales to finance public goods and create a sustainable economy.
 * Lie detectors to know when leaders or experts are hiding the truth.
 * Prediction markets that can help us better prepare for the future.
 * Everything else that we (and You) haven’t thought of yet.
@@ -175,11 +167,11 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 
 We are building a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code, so that the users only publish the portion of code that actually gets executed.
 
-æternity smart contracts can be massive and can be gigabytes to terabytes in volume. This however is not a problem  as long as the part that gets executed is relatively small.
+æternity smart contracts can be massive and can be gigabytes to terabytes in volume. This, however, is not a problem  as long as the part that gets executed is relatively small.
 
 # Why do we need Ethereum? #
 
-The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale . Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
+The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However, even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale . Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world use-cases. Most of those don’t require data to be openly shared all of the time.
 
 # What is the legal status of æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)

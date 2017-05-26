@@ -12,7 +12,7 @@ First mover advantage in cryptocurrency giving it a huge head start but also a f
 
 # Ethereum: 
 
-Ethereum also has a first mover advantage in the smart contract space and a huge amount of learnings were generated in the first years. æternity taking these learnings and resolving these issues.
+Ethereum also has a first mover advantage in the smart contract space and a huge amount of learnings were generated in the first years. æternity is taking these learnings and resolving these issues.
 
 > On Ethereum smart contracts exist on-chain for multiple blocks. They hold state and can interact with other contracts. It only provides a ground layer for smart contracts with no coherent design, no coherent API for web apps, and no naming system or oracles. All these are being built on top of the blockchain.
 
@@ -33,7 +33,7 @@ Futarchy / governance - how this compares.
 
 dApp on the Ethereum blockchain vs æternity
 
-Realitykeys external oracle provider intergration
+Realitykeys external oracle provider integration
 
 (Comparisons on both to æternity, i.e. it will use its down blockchain)
 
