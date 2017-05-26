@@ -46,7 +46,7 @@
 
 #    account_new
 
-This creates a new account on the blockchain and gives it some tokens and possibly some shares. The account loses a little money every block. This stops attackers from making tones of accounts to spam the network.
+This creates a new account on the blockchain and gives it some tokens and possibly some shares. The account loses a little money every block. This stops attackers from making tonnes of accounts to spam the network.
 
 #    account_spend
 
@@ -58,15 +58,15 @@ This deletes an account on the blockchain and sends all of it's AE tokens to a d
 
 #    account_recycle
 
-If an account runs out of money anyone can do this transactions to delete the account. The user who deletes the empty account receives a reward which is smaller than the cost of creating an account.
+If an account runs out of money anyone can do this transaction to delete the account. The user who deletes the empty account receives a reward which is smaller than the cost of creating an account.
 
 #    channel_new
 
-This creates an new channel on the blockchain. It needs to be signed by both participants in the channel. It takes money from both participant's accounts to put into the channel. Channels can only hold AE tokens. There is a record of recently closed channels. You can't use an ID from a recently closed channel. The channel loses a little money every block. This is to stop attackers from making lots of channels to spam networks.
+This creates a new channel on the blockchain. It needs to be signed by both participants in the channel. It takes money from both participant's accounts to put into the channel. Channels can only hold AE tokens. There is a record of recently closed channels. You can't use an ID from a recently closed channel. The channel loses a little money every block. This is to stop attackers from making lots of channels to spam networks.
 
 #   channel_grow
 
-This adds more money to an existing channel. Both parties need to sign. It can take AE tokens from both accounts. This transaction  has a hashlock, so it can be connected to a channel payment or a spend transaction. This transaction can update the minimum nonce accepted when a channel is closed. (Important if you ever increase the delay period for the closing channel)
+This adds more money to an existing channel. Both parties need to sign. It can take AE tokens from both accounts. This transaction has a hash lock, so it can be connected to a channel payment or a spend transaction. This transaction can update the minimum nonce accepted when a channel is closed. (Important if you ever increase the delay period for the closing channel)
 
 #   channel_team_close
 
@@ -74,7 +74,7 @@ Both parties need to sign. This closes the channel. The AE tokens in the channel
 
 #   channel_solo_close
 
-If your partner disappears, or refuses to close the channel, this is how you can start the process of closing the channel without your partner's help.
+If your partner disappears or refuses to close the channel, this is how you can start the process of closing the channel without your partner's help.
 
 #   channel_slash
 
