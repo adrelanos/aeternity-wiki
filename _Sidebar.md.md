@@ -40,6 +40,7 @@
 - [API Commands](API-Commands)
 - [Api Examples](Api-Examples)
 - [Mining][mining]
+- [Merkle Trees](Merkle-Trees)
 - [Transaction Types](Transaction-Types)
 - [æternity Contracts][contracts]
 - [Channels](Channels)
