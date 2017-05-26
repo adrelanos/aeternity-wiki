@@ -22,9 +22,9 @@ Table of Contents
    * [What are some interesting applications?](#what-are-some-interesting-applications)
    * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
    * [What are the features of the æternity virtual machine?](#what-are-the-features-of-the-æternity-virtual-machine)
-   * [Why do we need Ethereum?](#why-do-we-need-ethereum)
+   * [Why is Ethereum used for the token sale?](#why-is-ethereum-used-for-the-token-sale)
    * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
-   * [What’s the difference between an account and the æternity wallet?](#whats-the-difference-between-an-account-and-the-æternity-wallet)
+   * [What’s the difference between an account and wallet?](#whats-the-difference-between-an-account-and-wallet)
    * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
    * [How can I type the æ character?](#how-can-i-type-the-æ-character)
    * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
@@ -146,21 +146,17 @@ In comparison to Ethereum, we're function-based instead of goto-based. Thus, it 
 
 It is a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code so that the users only publish the portion of code that actually gets executed: æternity smart contracts can be terabytes in volume without a problem if part that gets executed is relatively small.
 
-# Why do we need Ethereum? #
+# Why is Ethereum used for the token sale? #
 
-The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However, even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale . Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world use-cases. Most of those don’t require data to be openly shared all of the time.
+The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However, even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale. Ethereum is great for the type of use case that requires a fully public index of things (e.g. tokens). æternity is focusing on scalable, real-world use cases which usually don’t require data to be openly shared all of the time.
 
 # What is the legal status of æternity? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-We will provide a rock solid technology to build on, but that wouldn’t be enough if it wasn’t based on a legally safe foundation. æternity is incorporated in Liechtenstein and is in regular contact with regulators to keep track of the project’s legal status. The team includes a legal adviser and makes use of additional legal consultancy on an ad-hoc basis.
+æternity is incorporated in Liechtenstein and is in regular contact with regulators to keep track of the project’s legal status. The team includes a legal adviser and makes use of additional legal consultancy on an ad-hoc basis.
 
-# What’s the difference between an account and the æternity wallet? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
+# What’s the difference between an account and wallet? #
 
-A wallet is a piece of software that is used to interact with æternity. It allows you to make accounts and channels. It will allow users to make channel contracts, bet, play games, buy/sell assets, provides identity, communicate with other users, etc. 
-
-The account on æternity will be accessed by the wallet.
+A wallet is a piece of software that is used to interact with æternity. It's what makes and accesses accounts and channels. With it, users make channel contracts, bet, play games, buy/sell assets, provides identity, communicate with other users, etc.
 
 # Will there be different types of nodes in æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
