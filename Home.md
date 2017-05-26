@@ -63,7 +63,7 @@ The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.heroku
 _This will be rapidly expanded._
 
 [Whitepaper_English]: Whitepaper_English
-[Whitepaper_Korean (한국어)]: Whitepaper_Korean-(한국어)
+[Whitepaper_Korean ]: Whitepaper_Korean
 [Whitepaper_Indonesia]: Whitepaper_Indonesia
 [Whitepaper_French]: Whitepaper_French
 [Whitepaper_Chinese]: Whitepaper_Chinese
