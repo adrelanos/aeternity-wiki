@@ -46,21 +46,21 @@ On æternity computation by default happens off-chain.
 
 # In what language is æternity written? #
 
-The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available non-stopable applications. 
+The blockchain code of æternity core is written in Erlang, which makes it easy to write distributed, fault-tolerant, soft real-time and highly available unstoppable applications. 
 
-Erlang was chosen because it is the perfect choice to write a blockchain from scratch, enabling superior code execution, stability and performance.
+Erlang was chosen because it is the perfect choice to write a blockchain from scratch, enabling superior code execution, stability, and performance.
 
 # Which PoW Algorithm is used for mining in æternity? #
 
-æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more  power efficient than most other algorithms currently available. Theoretically, devices with low power such as smartphones and tablets can mine on "Cuckoo Cycle" efficiently.
+æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more power efficient than most other algorithms currently available. Theoretically, devices with low power such as smartphones and tablets can mine on "Cuckoo Cycle" efficiently.
 
-For more info : [Mining](Mining)
+For more info: [Mining](Mining)
 
 # How does PoS work in æternity? #
 
 Any aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain. The creator is required to deposit aeon in proportion to the length of the time frame. Other users can submit counterclaims by depositing the same amount of aeon. If there are counterclaims, the consensus mechanism will be used to decide the oracle. If the creator's answer is accepted, the aeon will be returned to the creator; Otherwise, it will be burned. And so, the creator will be rewarded if telling the truth and penalized if lying.
 
-For more info : [Mining](Mining), [Oracles](Oracles)
+For more info: [Mining](Mining), [Oracles](Oracles)
 
 # How is æternity protected from another DAO attack? #
 
@@ -68,7 +68,7 @@ In the DAO, some people trusted other people to spend their money for them. Howe
 
 æternity, in contrast, supports trustless smart contracts. With æternity, there is no reason to trust anybody or any other blockchain system. After all, any smart contract that requires trust is not so smart.
 
-Since contracts in aeternity are independent from each other, it is much easier to prove and verify what each contract does.
+Since contracts in aeternity are independent of each other, it is much easier to prove and verify what each contract does.
 
 # Is smart contract verification on the roadmap? #
 
@@ -104,7 +104,7 @@ Following the phase two of æternity backing campaign, 82 % of the total AE that
 
 Answered by agorism1337 on [reddit](https://www.reddit.com/r/Aeternity/comments/64x733/the_highest_stakes_the_whales_decide_what_will_be/). (modified)
 
-If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both side of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, the other is a new altcoin.
+If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both sides of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, the other is a new altcoin.
 
 The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with.
 
@@ -114,11 +114,11 @@ Even a whale can't afford to do this attack many times, and we quickly recover a
 
 Based on replies by agorism1337 at reddit from [here](https://www.reddit.com/r/Aeternity/comments/63tabp/aeternity_vs_qtum_vs_cosmos/) and [here](https://www.reddit.com/r/Aeternity/comments/63mhg7/how_does_aeternity_contrast_with_truebit/).
 
-* Ethereum is a Turing-complete stateful smart contract system. It allows for examples apps like: subcurrencies, domain name servers, and blackjack card game gambling.
+* Ethereum is a Turing-complete stateful smart contract system. It allows for examples apps like subcurrencies, domain name servers, and blackjack card game gambling.
 * Cosmos is a way to move coins from one blockchain to another.
 * Qtum is a proposal for a software suite for making Dapps on blockchains like æternity or Ethereum.
 * Ethereum's oracle systems, like Augur and Gnosis, will probably be much more expensive than the æternity oracle. æternity's oracle is market based instead of voting based. æternity's oracle is connected to the blockchain consensus mechanism in a way that makes it more secure.
-* æternity is a Turing-complete stateless smart contract system with a built in oracle. It allows for the creation of trustless Dapps. For example: insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
+* æternity is a Turing-complete stateless smart contract system with a built-in oracle. It allows for the creation of trustless Dapps. For example insurance, sports betting, stablecoins, prediction markets, insured crowdfunding, blackjack card game gambling.
 
 # æternity, a new blockchain? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
@@ -148,7 +148,7 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 * Side-chained blockchain networks that can communicate efficiently and securely.
 * Multiplayer video games where the rules are enforced by the blockchain. Poker, chess, Go, and first person shooter games.
 * Investment opportunities for ventures that are specializing in predicting the price of food.
-* Contracts for powering crowdsales to finance public goods and create a sustainable economy.
+* Contracts for powering crowd sales to finance public goods and create a sustainable economy.
 * Lie detectors to know when leaders or experts are hiding the truth.
 * Prediction markets that can help us better prepare for the future.
 * Everything else that we (and You) haven’t thought of yet.
@@ -167,11 +167,11 @@ source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-
 
 We are building a state-of-the-art virtual machine for secure and efficient blockchain computations. For example, we have added a tool for ‘merklizing’ the code, so that the users only publish the portion of code that actually gets executed.
 
-æternity smart contracts can be massive and can be gigabytes to terabytes in volume. This however is not a problem  as long as the part that gets executed is relatively small.
+æternity smart contracts can be massive and can be gigabytes to terabytes in volume. This, however, is not a problem  as long as the part that gets executed is relatively small.
 
 # Why do we need Ethereum? #
 
-The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale . Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world uses-cases. Most of those don’t require data to be openly shared all of the time.
+The primary reason for using Ethereum created tokens for the token sale is that æternity is not functional yet. Once æternity launches, tokens will exist on æternity. However, even if æternity did exist, it wouldn’t give us the ability to do a decentralized token sale . Ethereum is great for this type of use-cases, that require a fully public index of things (e.g. tokens, …). æternity is focusing on scalable, real-world use-cases. Most of those don’t require data to be openly shared all of the time.
 
 # What is the legal status of æternity? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
