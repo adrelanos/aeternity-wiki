@@ -24,7 +24,7 @@ Dominant assurance contracts differ from traditional assurance contracts like Ki
 dominant strategy to participate. If the good is not funded, all participants get their aeon back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an oracle, we can ensure that the provider of the good or service only gets paid if the good or service is actually provided.
 
 ### Cross-Chain atomic swaps
-Cross-chain atomic swaps allow for trustless exchange of aeon for other cryptocurrencies (for example, bitcoins). These can be implemented using a hashlock, that locks the transactions on both blockchains under the same value.
+Cross-chain atomic swaps allow for the trustless exchange of aeon for other cryptocurrencies (for example, bitcoins). These can be implemented using a hashlock, that locks the transactions on both blockchains under the same value.
 
 ###  Stable value assets and portfolio replication
 We can use smart contracts to program synthetic assets that stay nearly the same price as a real world asset. For example,
