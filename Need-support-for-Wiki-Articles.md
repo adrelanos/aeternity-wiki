@@ -42,4 +42,4 @@ Open request
    * Where can I found a image about
 
 ***
-Note: If
+thought by zwilla: on bounty program is no word, that an other bounty campaign will follow 👍 Go live is Q1-2018
