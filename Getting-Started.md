@@ -4,13 +4,13 @@ Anyone who wants to store or transfer value, with unparalleled speed, reliabilit
 
 ### Contributors:
 
-Contributors can support æternity directly by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens directly on an exchange once Aeon have been listed in them. To do this, users must first be registered on an exchange where Aeon is trading. Next, the user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose storing the AE tokens on the exchange (not recommended) or transfer to a wallet.
+Contributors can support æternity directly by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens directly on an exchange once Aeon has been listed on them. To do this, users must first be registered on an exchange where Aeon is trading. Next, the user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose to store the AE tokens on the exchange (not recommended) or transfer to a wallet.
 
-In addition, many decentralized applications will be written on top of æternity. Contributors will be able to participate in challenge and cutting edge projects on a most cutting edge blockchain by contributing to their initial coin offerings and/or purchasing their tokens on an exchange. 
+In addition, many decentralized applications will be written on top of æternity. Contributors will be able to participate in the challenge and cutting edge projects on a most cutting edge blockchain by contributing to their initial coin offerings and/or purchasing their tokens on an exchange. 
 
 ### Speculators:
 
-The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity are required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make a short-term profit based on anticipate developments in the fundamentals or the emergence of certain profitable trading patterns.
+The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity are required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make a short-term profit based on anticipating developments in the fundamentals or the emergence of certain profitable trading patterns.
  
 ### Contract writers & Developers:
 
