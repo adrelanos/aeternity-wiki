@@ -19,3 +19,5 @@ This is the language for writing smart contracts:
 
 ***
 related: [æternity DApp Development](æternity-DApp-Development)
+***
+Sources:
