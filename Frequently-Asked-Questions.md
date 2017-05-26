@@ -135,13 +135,12 @@ Yes, æternity is a next-level, brand new blockchain, with many features that so
 * Everything else that we (including you) haven’t thought of yet.
 
 # What makes æternity smart contracts special? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
 
-Manifold factors contribute to æternity’s uniqueness! One major advantage of æternity smart contracts is the fact that they are created off-chain. This allows to — once created — to interact with other participating parties blazingly fast and has important privacy implications. The users’ interactions stay off-chain and are kept secure. Only in cases of disagreement will a transaction be submitted on-chain. The æternity blockchain will function as a crypto-court.
+One major advantage is that they are created off-chain. This enables interaction with other participating parties quickly and privately. The users’ interactions stay off-chain and are kept secure. Only in cases of disagreement will a transaction be submitted on-chain, where blockchain will function as a "crypto-court".
 
-Furthermore, there is no limit to the volume of smart contracts that can be processed per second, since æternity smart contracts don’t share state, they can be processed in parallel.
+Furthermore, there is no limit to the volume of smart contracts that can be processed per second: Since æternity smart contracts don’t share state, they can be processed in parallel.
 
-In comparison to ‘legacy’ Ethereum, we switched from being goto-based to being function-based. Thus, it is a lot simpler to reason about and write more secure smart contract code.
+In comparison to Ethereum, we're function-based instead of goto-based. Thus, it is a lot simpler to reason about and write secure smart contract code.
 
 # What are some of the features of æternity virtual machine? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
