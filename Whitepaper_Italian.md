@@ -43,7 +43,7 @@ III-B.1 [Strumento API](#strumento-api)  . . . . . . . . . . . . . 7
 III-B.2 [Raccolta fondi assicurata](#raccolta-fondi-assicurata)  . . . . . . . 7  
 III-B.3 [Swap atomico tra blockchain](#swap-atomico-tra-blockchain)  . . . . . . 7  
 III-B.4 [Asset a valore stabile e replicazione del portafoglio](#asset-a-valore-stabile-e-replicazione-del-portafoglio) . . . . 7  
-III-B.5 [Contratti dell'evento](#contratti-dellevento)  . . . . . . . . . 7  
+III-B.5 [Contratti ad eventi](#Contratti-ad-eventi)  . . . . . . . . . 7  
 III-B.6 [Mercati predittivi](#mercati-predittivi) . . . . . . . . . . . 7  
 III-B.7 [Market con un lotto in vendita ad un prezzo singolo](#market-con-un-lotto-in-vendita-ad-un-prezzo-singolo) . . . . . . 7  
 IV [Implementazione](#implementazione) . . . . . . . . . . . . . . . 8  
@@ -249,8 +249,10 @@ III-B.4
 Possiamo usare gli smart contract per programmare asset sintetici che mantengano quasi lo stesso prezzo di un asset del mondo reale. Potremmo creare ad esempio un asset che mantenga lo stesso prezzo dell'oro. I derivati sintetici sono creati a coppie, uguali e opposte. Affinché un utente possieda un asset che muti con l'oro, un altro utente deve possedere un asset che muti inversamente rispetto all'oro. Ad esempio Alice potrebbe creare un contratto con Bob che le permette di possedere 1 grammo d'oro. Del denaro del contratto, l'equivalente in aeon del valore di un grammo d'oro va ad Alice e il corrispondente valore in soldi a Bob. Il contratto ha una data di scadenza fissata al momento in cui il prezzo dell'oro verrà calcolato e i fondi verranno distribuiti di conseguenza ad Alice e Bob.  
 
 III-B.5
-#### Contratti dell'evento
-
+#### Contratti ad eventi
+I contratti ad eventi pagano quando avviene un evento e non lo fanno quando non avviene, a seconda del responso dell'oracolo. Oltre a essere interessanti di per sé, possono essere utilizzati da parecchie applicazioni diverse:  
+    a) Assicurazioni: possiamo usare contratti ad eventi per integrare delle assicurazioni. Ad esempio i biglietti di un costoso evento musicale possono perdere il loro valore nel caso di pessime condizioni atmosferiche. Tuttavia, se lo spettatore riceve del denaro in quanto l'oracolo stabilisce che nel giorno dell'evento ha piovuto, il suo investimento viene protetto in modo che possa trovare un'alternativa emotivamente adeguata. Parlando un po' più seriamente, gli agricoltori sono sovente interessati alla quantità di precipitazioni di una stagione. Possiamo assicurarli sul pessimo raccolto dovuto alla siccità.  
+    b) Informatori: i contratti ad eventi possono anche essere utilizzati per incentivare la rivelazione di informazioni sensibili. Potremmo ad esempio scommettere sull'evento "Informazioni che la Società A ha fatto un uso illegale di pesticidi sono rese disponibili entro la data del 24 gennaio 2017". Qualsiasi persona con accesso a tale tipo di informazione sarebbe incentivata a scommettere sull'evento e poi a rilasciarla.  
 
 III-B.6
 #### Mercati predittivi
