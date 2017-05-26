@@ -24,7 +24,7 @@ II-A.3 [Sistema dei nomi](#sistema-dei-nomi)  . . . . . . . . . . . . 3
 II-A.4 [Contenuti dei blocchi](#contenuti-dei-blocchi) . . . . . . . . . . 3  
 II-B [Canali a stati](#canali-a-stati) . . . . . . . . . . . . . . . 3  
 II-B.1 [Smart contract](#smart-contract)  . . . . . . . . . . . . . 3  
-II-B.2 [Esempi](#esempi)  . . . . . . . . . . . . . . . . . 4  
+II-B.2 [Esempio](#esempio)  . . . . . . . . . . . . . . . . . 4  
 II-C [Meccanismo di Consenso](#meccanismo-di-consenso)  . . . . . . . . . . 5  
 II-C.1 [Oracoli](#oracoli) . . . . . . . . . . . . . . . . . 5  
 II-D [Governance](#governance)  . . . . . . . . . . . . . . . . 5  
@@ -139,26 +139,44 @@ Fig. 1. Un semplice contratto che codifica una scommessa sul valore dell'oro. Il
 
 Ad esempio, la figura 1 mostra un contratto molto semplice che codifica una scommessa sul valore dell'oro in un dato momento. Alla riga 1, la macro _**Gold**_ salva l'identificatore dell'oracolo in questione il cui risultato sarà vero ("True") nel caso in cui il prezzo dell'oro sia inferiore a 38$ per grammo il primo dicembre 2016. Il corpo del contratto è visualizzato alle righe 2-4: inizialmente inviamo l'identificatore dell'oracolo sull'oro allo stack e lo invochiamo usando _**oracle**_, il quale lascerà la risposta dell'oracolo in cima allo stack. Facciamo ciò per ottenere una ramificazione condizionale: se l'oracolo restituisce _True_, inviamo 0 e 1000 allo stack, indicando che 0 aeon devono essere bruciati e che 1000 devono andare al primo partecipante del canale. Altrimenti inviamo 0 e 0, con il secondo 0 a indicare che l'altro partecipante riceve tutti gli aeon del canale. Infine inviamo 0 che verrà preso come il livello di difficoltà di questo stato del canale. Nell'uso effettivo il livello di difficoltà verrebbe generato all'apertura.  
 Una cosa importante da notare è che i contratti su æternity non mantengono alcun stato per conto loro. Qualunque stato è mantenuto dalle parti e inviato come input durante l'esecuzione. Ogni contratto è essenzialmente una _funzione pura_ che prende un dato input e ritorna un nuovo canale di stato come output
-> * Da notare che, potendo leggere le risposte degli oracoli e alcuni parametri ambientali, i contratti non sono del tutto pure funzioni. Tuttavia le risposte degli oracoli non cambiano una volta fornite e può essere messo in discussione che ciò sia dovuto alla ricchezza computazionale della macchina dell'oracolo piuttosto che si tratti di una impurità. I parametri ambientali sono ritenuti un "male necessario" e verranno idealmente compartimentalizzati appropriatamente da linguaggi di alto livello.*
+> *Da notare che, potendo leggere le risposte degli oracoli e alcuni parametri ambientali, i contratti non sono del tutto _funzioni pure_. Tuttavia le risposte degli oracoli non cambiano una volta fornite e può essere messo in discussione che ciò sia dovuto alla ricchezza computazionale della macchina dell'oracolo piuttosto che si tratti di una impurità. I parametri ambientali sono ritenuti un "male necessario" e verranno idealmente compartimentalizzati appropriatamente da linguaggi di alto livello.*
 
-I benefici nell'utilizzo di funzioni pure nello sviluppo di software in generale, e in quello di applicazioni economiche in particolare, è ampiamente documentato da decenni in ambiente accademico e nell'industria |10|[richiesta citazione].  
+I benefici nell'utilizzo di _funzioni pure_ nello sviluppo di software in generale, e in quello di applicazioni economiche in particolare, è ampiamente documentato da decenni in ambiente accademico e nell'industria [10] [cit. necessaria].  
 
-Fig. 2. Un semplice hashlock.  
+> *1 | : hashlock
+2 | swap
+3 | hash
+4 | == ;*
+
+Fig. 2. Un semplice hashlock. 
+
+> *1 | macro Commitment a9d7e8023f80ac8928334 ;
+2 |
+3 | Commitment hashlock call
+4 | if 0 100 else 0 50 end
+5 | 1*
+ 
 Fig. 3. Utilizzo di un hashlock per un invio trustless di token attraverso un intermediario.  
 
 a) Interazione con i contratti e contratti progressivi:  
-Anche se tutti i contratti sono privi di stato e vengono eseguiti indipendentemente l'uno dall'altro, l'interazione fra contratti e statefulness (????) può comunque essere ottenuta tramite hashlocking [necessaria citazione]. Un semplice hashlock è mostrato nella figura 2. Sulla linea 1 definiamo una funzione chiamata hashlock che prevede che lo stack contenga uno hash h e un segreto (????) s. Li scambia alla linea 2, in maniera da rendere il segreto uno hash alla linea 3, prima di invocare l'operatore di uguaglianza sullo hash(v) e h alla linea 4. Ciò restituisce true se il segreto è una immagine precedente dello hash. Questa funzione può essere utilizzata per dichiarare l'esecuzione di ramificazioni di codice in contratti diversi sulla base dell'esistenza dello stesso valore segreto.  
-Come semplice utilizzo, gli hashlock permettono agli utenti che non condividono un canale di stato di scambiarsi aeon in maniera trustless, a patto che fra di essi esista un percorso di canali. Ad esempio, se Alice e Bob hanno un canale e Bob e Carol ne hanno un altro, allora Alice e Carol possono fare delle transazioni tramite Bob mediante la creazione di due copie del contratto in figura 3, una per ogni canale. Il Commitment di linea 1 è l'hash di un segreto scelto da Alice. Sulla linea 3 viene inviato allo stack e si richiama la funzione hashlock. Il valore di ritorno dell'hashlock determina quale ramo dell'if viene eseguito. Alice rivela il segreta non appena i contratti saranno firmati da tutte le parti coinvolte, permettendo così a Bob e a Carol di usarlo per rivendicare i loro aeon.  
-L'hashlocking può essere anche utilizzato, ad esempio, per partecipare a giochi multi-player nei canali, come mostrato nella figura 4. Ognuno crea un canale con il game manager che pubblicherà lo stesso contratto in ogni canale. Ad esempio, se ci trovassimo nello stato di gioco 32, definito dalla funzione State32, e se volessimo aggiornare simultaneamente in maniera trustless tutti i canali allo stato 33, non appena il game manager rivelasse il segreto ciò causerebbe l'aggiornamento simultaneo di tutti i canali.  
+Anche se tutti i contratti sono privi di stato e vengono eseguiti indipendentemente l'uno dall'altro, l'interazione fra contratti e assenza di stato ("statefulness") può comunque essere ottenuta tramite **_hashlocking_** [cit. necessaria]. Un semplice hashlock è mostrato nella figura 2. Sulla linea 1 definiamo una funzione chiamata hashlock che prevede che lo stack contenga uno hash h e un segreto s. Li scambia alla linea 2, in maniera da rendere il segreto un hash alla linea 3, prima di invocare l'operatore di uguaglianza sull'hash(v) e h alla linea 4. Ciò restituisce Vero ("True") se il segreto è una immagine precedente dell'hash. Questa funzione può essere utilizzata per dichiarare l'esecuzione di ramificazioni di codice in contratti diversi sulla base dell'esistenza dello stesso valore segreto.  
+Come semplice utilizzo, gli hashlock permettono agli utenti che non condividono un canale di stato di scambiarsi aeon in maniera trustless, a patto che fra di essi esistano dei canali che li mettano in comunicazione. Ad esempio, se Alice e Bob hanno un canale e Bob e Carol ne hanno un altro, allora Alice e Carol possono fare delle transazioni tramite Bob mediante la creazione di due copie del contratto in figura 3, una per ogni canale. Il "_Commitment_" di linea 1 è l'hash di un segreto scelto da Alice. Sulla linea 3 viene inviato allo stack e si richiama la funzione hashlock. Il valore di ritorno dell'hashlock determina quale ramo dell'if viene eseguito. Alice rivela il segreto non appena i contratti saranno firmati da tutte le parti coinvolte, permettendo così a Bob e a Carol di usarlo per rivendicare i loro aeon.  
+L'hashlocking può essere anche utilizzato, ad esempio, per partecipare a giochi multi-player nei canali, come mostrato nella figura 4. Ognuno crea un canale con il game manager che pubblicherà lo stesso contratto in ogni canale. Ad esempio, se ci trovassimo nello stato di gioco 32, definito dalla funzione _State32_, e se volessimo aggiornare simultaneamente in maniera trustless tutti i canali allo stato 33, non appena il game manager rivelasse il segreto ciò causerebbe l'aggiornamento simultaneo di tutti i canali.  
+
+> *1 | macro Commitment a9d7e8023f80ac8928334 ;
+2 |
+3 | Commitment hashlock call
+4 | if State33 else State32 end
+5 | call*
 
 Fig. 4. Un esempio semplificato dell'uso di un hashlock per giocare a un gioco multi-player nei canali.  
   
 b) Esecuzione misurata:
 L'esecuzione dei contratti è misurata in maniera analoga al "gas" di Ethereum, ma æternity usa due risorse differenti per la sua misurazione, una per il tempo e una per lo spazio. Entrambe sono pagate per l'utilizzo di aeon dalla parte che richiede l'esecuzione.  
-Ciò potrebbe essere considerato sgradito in quanto probabilmente è un'altra parte a provocare in principio il bisogno di una blockchain per risolvere la disputa. Tuttavia, a meno che tutto il denaro nel canale non sia usato per scommettere, ciò può essere annullato efficacemente nel codice di contratto in quanto questi è in grado di ridistribuire i fondi da una delle parti all'altra. È di fatto una buona norma generale evitare di usare tutti i fondi in un canale per la transazione per non disincentivare la parte perdente a cooperare nella chiusura del canale. 
+Ciò potrebbe essere considerato sgradito in quanto probabilmente è un'altra parte a provocare in principio la necessità per la blockchain di risolvere la disputa. Tuttavia, a meno che tutto il denaro nel canale non sia stato usato per scommettere, ciò può essere risolto efficacemente nel codice di contratto in quanto questi è in grado di ridistribuire i fondi da una delle parti all'altra. È di fatto una buona norma generale evitare di usare tutti i fondi in un canale per la transazione per non disincentivare la parte perdente a cooperare nella chiusura del canale. 
 
 II-B.2
-#### Esempi
+#### Esempio
 Portiamo tutte queste idee con i piedi per terra. In pratica, se Alice e Bob vogliono effettuare una transazione usando un canale di stato su æternity, devono avvalersi della seguente procedura:  
 1) Alice e Bob firmano una transazione che specifica quanto denaro ciascuno di essi deposita nel canale, e la pubblicano nella blockchain.  
 2) Una volta che la blockchain apre il canale, entrambi possono creare nuovi stati del canale, inviarseli a vicenda e firmarli. Gli stati del canale possono essere sia una nuova distribuzione dei fondi nel canale che un contratto che determini una nuova distribuzione. Ognuno di tali stati del canale ha un livello di difficoltà crescente ed è firmato da entrambe le parti così che se dovesse manifestarsi una disputa, l'ultimo stato valido possa essere inviato alla blockchain per essere imposto.  
