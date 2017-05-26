@@ -54,7 +54,7 @@ An agreement ledger is distributed ledger used by two or more parties to negotia
 A distributed ledger providing a durable record of agreements, commitments or statements, providing evidence (attestation) that these agreements, commitments or statements were made. 
 
 # ASIC
-ASIC is an acronym for "Application Specific Integrated Circuit". ASICs are silicon chips specifically designed to do a single task. In the case of bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins.
+ASIC is an acronym for "Application Specific Integrated Circuit". ASICs are silicon chips specifically designed to do a single task. 
 
 # Bitcoin (uppercase)
 The well known cryptocurrency, based on the proof-of-work blockchain.
@@ -67,13 +67,13 @@ A blockchain is a type of distributed ledger, comprised of unchangeable, digital
 Block height refers to the number of blocks connected together in the block chain. For example, Height 0, would be the very first block, which is also called the Genesis Block.
 
 # Block Reward
-The reward given to a miner which has successfully hashed a transaction block. Block rewards can be a mixture of coins and transaction fees, depending on the policy used by the cryptocurrency in question, and whether all of the coins have already been successfully mined. The current block reward for the Bitcoin network is 25 bitcoins for each block.
+The reward given to a miner which has successfully hashed a transaction block. Block rewards can be a mixture of coins and transaction fees, depending on the policy used by the cryptocurrency in question, and whether all of the coins have already been successfully mined. 
 
 # Central Ledger
 A central ledger refers to a ledger maintained by a central agency. 
 
 # Confirmation
-A confirmation means that the blockchain transaction has been verified by the network. This happens through a process known as mining, in a proof-of-work system (e.g. Bitcoin). Once a transaction is confirmed, it cannot be reversed or double spent. The more confirmations a transaction has, the harder it becomes to perform a double spend attack.
+A confirmation means that the blockchain transaction has been verified by the network. This happens through a process known as mining, in a proof-of-work system. Once a transaction is confirmed, it cannot be reversed or double spent. The more confirmations a transaction has, the harder it becomes to perform a double spend attack.
 
 # Consensus Process
 The process a group of peers responsible for maintaining a distributed ledger use to reach consensus on the ledger’s contents. 
@@ -94,19 +94,16 @@ A digital identity is an online or networked identity adopted or claimed in cybe
 Distributed ledgers are a type of database that are spread across multiple sites, countries or institutions. Records are stored one after the other in a continuous ledger. Distributed ledger data can be either "permissioned" or "unpermissioned" to control who can view it. 
 
 # Difficulty
-Difficulty, in Proof-of-Work mining, is how hard it is to verify blocks in a blockchain network. In the Bitcoin network, the difficulty of mining adjusts verifying blocks every 2016 blocks. This is to keep block verification time at ten minutes.
+Difficulty, in Proof-of-Work mining, is how hard it is to verify blocks in a blockchain network. 
 
 # Double Spend
-Double spend refers to a scenario, in the Bitcoin network, where someone tries to send a bitcoin transaction to two different recipients at the same time. However, once a bitcoin transaction is confirmed, it makes it nearly impossible to double spend it. The more confirmations that a particular transaction has, the harder it becomes to double spend the bitcoins.
+Double spend refers to a scenario where someone tries to send a transaction to two different recipients at the same time. However, once a transaction is confirmed, it makes it nearly impossible to double spend it. The more confirmations that a particular transaction has, the harder it becomes to double spend.
 
 # Genesis Block
 The very first block in a block chain.
 
-# Halving
-Bitcoins have a finite supply, which makes them a scarce digital commodity. The total amount of bitcoins that will ever be issued is 21 million. The number of bitcoins generated per block is decreased 50% every four years. This is called “halving.” The final halving will take place in the year 2140.
-
 # Hashrate
-The number of hashes that can be performed by a bitcoin miner in a given period of time (usually a second).
+The number of hashes that can be performed by a miner in a given period of time (usually a second).
 
 # Ledger
 An append-only record store, where records are immutable and may hold more general information than financial records. 
@@ -121,7 +118,7 @@ Multi-signature (multisig) addresses allow multiple parties to require more than
 A currency minted off-ledger and used on-ledger. An example of this would be using distributed ledgers to manage a national currency.
 
 # On-Ledger Currency
-A currency minted on-ledger and used on-ledger. An example of this would be the cryptocurrency, Bitcoin.
+A currency minted on-ledger and used on-ledger.
 
 # P2P
 Peer-to-peer (P2P) refers to the decentralized interactions that happen between at least two parties in a highly interconnected network. P2P participants deal directly with each other through a single mediation point.
@@ -139,7 +136,7 @@ A permissioned ledger is a ledger where actors must have permission to access th
 A currency issued by a private individual or firm, typically secured against uninsured assets. 
 
 # Private Key
-A private key is a string of data that shows you have access to bitcoins in a specific wallet. Private keys can be thought of as a password; private keys must never be revealed to anyone but you, as they allow you to spend the bitcoins from your bitcoin wallet through a cryptographic signature.
+A private key is a string of data that shows you have access to aeons in a specific wallet. Private keys can be thought of as a password; private keys must never be revealed to anyone but you, as they allow you to spend the aeons from your aeon wallet through a cryptographic signature.
 
 # Proof-of-Stake
 An alternative to the proof-of-work system, in which your existing stake in a cryptocurrency (the amount of that currency that you hold) is used to calculate the amount of that currency that you can mine.
@@ -155,7 +152,7 @@ A ledger with one master (authoritative) copy of the data, and many slave (non-a
 An alternative proof of work system to SHA-256, designed to be particularly friendly to CPU and GPU miners, while offering little advantage to ASIC miners.
 
 SHA 256
-The cryptographic function used as the basis for bitcoin’s proof of work system.
+The cryptographic function used as the basis for the work system.
 
 # Smart Contracts
 Smart contracts are contracts whose terms are recorded in a computer language instead of legal language. Smart contracts can be automatically executed by a computing system, such as a suitable distributed ledger system.
@@ -164,18 +161,10 @@ Smart contracts are contracts whose terms are recorded in a computer language in
 A tokenless ledger refers to a distributed ledger that doesn’t require a native currency to operate.
 
 # Transaction Block
-A collection of transactions on the bitcoin network, gathered into a block that can then be hashed and added to the blockchain.
+A collection of transactions on the network, gathered into a block that can then be hashed and added to the blockchain.
 
 # Transaction Fee
-A small fee imposed on some transactions sent across the bitcoin network. The transaction fee is awarded to the miner that successfully hashes the block containing the relevant transaction.
-
-# Unpermissioned ledgers
-Unpermissioned ledgers such as Bitcoin have no single owner — indeed, they cannot be owned. The purpose of an unpermissioned ledger is to allow anyone to contribute data to the ledger and for everyone in possession of the ledger to have identical copies. This creates censorship resistance, which means that no actor can prevent a transaction from being added to the ledger. Participants maintain the integrity of the ledger by reaching a consensus about its state
-
-
-
-
-
+A small fee imposed on some transactions sent across the network. The transaction fee is awarded to the miner that successfully hashes the block containing the relevant transaction.
 
 
 
