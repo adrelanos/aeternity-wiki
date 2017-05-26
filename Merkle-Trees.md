@@ -57,12 +57,14 @@ they work and their uses is well outside the scope of the paper. What we
 will do instead is go through a very simplified example of how data can
 be verified with a cryptographic hash function.
 
-    In this example, lets say Bob wants to send Alice a block of data and
-    wants Alice to be able to verify that the data she received has not been
-    corrupted or tampered with in transit. What Bob will do is use a
-    cryptograpic hash function like sha-2 to create a hash of the block of
-    data before he sends it to Alice. In the example below, Bob uses sha-256
-    to hash the block of data which in this case is a short sentence:
+    In this example, lets say Bob wants to send Alice a block of data and he also 
+    wants Alice to be able to verify that the data she received has not been corrupted
+    corruptedor tampered with in transit. 
+
+    What Bob will do is use a cryptographic hash function like sha-2 to create
+    a hash of the block of data before he sends it to Alice. In the example
+    below, Bob uses sha-256 to hash the block of data which in this case is a
+    short sentence:
 
 
 ### æternity is the blockchain to rule them all!
@@ -70,38 +72,42 @@ be verified with a cryptographic hash function.
 The hash of the above sentence is:
 `60c1be71e2915ea72a33c059cf7710787f6748e10091173dfc17363444a2d3ce`
 
-    After Bob has created the hash,  he sends the original data over the
-    network to Alice. 
-    However, Bob does not send the hash along with the data,  he sends them 
-    separately. We will assume for the sake of this example that Alice rec-
-    eived the hash of Bobs data from a known trusted source. 
-    
-    Now, Alice has both the data Bob sent her and the hash of the data. 
+    After Bob has created the hash, he sends the original data over the
+    network to Alice. However, Bob does not send the hash along with the data, 
+    he sends them separately.
+
+    We will assume for the sake of this example that Alice received the hash
+    of Bobs data from a known trusted source. Now, Alice has both the data
+    Bob sent her and the hash of the data. 
     
     What Alice will do next is us the same cryptographic hash function that 
-    Bob used,  and create a  hash of the data that she received:  referred 
+    Bob used,  and create a  hash  of the data that she received:  referred 
     to as a checksum. Lets say that Alice received the below sentence from
     Bob.
 
 ### æternity the blockchain to rule them all
 
 The hash of the above sentence is:
-`45c93bfadb67691456e61e011ba4652125c16303304ecb2ab31d6f033ef09180`
+`45c93bfadb67691456e61e011ba4652125c16303304ecb2ab31d6f033ef09180`                                                                                                                               
 
-    I am sure you have noticed 2 things. First is that the 2 hashes values are
-    completely different.The second is the hashes are larger than  the actual
-    size of the data that was  hashed.  Would this  not  mean  that hashes are
-    inefficient?  Why is this?  Well, to answer  the  first question.  If  you
-    look carefully you will notice that the exclamation point is missing  from 
-    the sentence that Alice received. This is the reason the 2 hash values are 
-    different. For some reason the data was altered while in transit to  Alice. 
     
-    Alice does not need to know what the original sentence looked like to know 
-    it has been altered. As you can see even a very small change  in  the data 
-    will result in  completely different outcomes  when using  a cryptographic 
+    I am sure you have notices 2 things. First is that the 2 hashes values are
+    completely different.The second is the hashes are larger  than  the actual
+    size of the data that was  hashed.  Would this  not  mean  that hashes are
+    inefficient?  Why is this?  
+
+    Well, to answer  the  first question. If  you look carefully you will notice 
+    that the exclamation point is missing from the sentence that Alice received.
+    This is the reason the 2 hash values are different. For some reason the data 
+    was altered while in transit to  Alice.
+
+    Alice however, does not need to know what the original sentence looked like  
+    to know it has been altered. As you can see even a very small change  in  the  
+    data will result in  completely different outcomes  when using  a cryptographic 
     hash function. 
+    
     Now, to answer the second question. As stated above, cryptograhic hash func-
-    tions map data of any size to a bit string of a fixed size.  Since we are 
+    tions map data of any size, to a bit string of a fixed size.  Since we are 
     using sha-256 as a hashing algorithm, the data is mapped to a 32 byte string. 
     
     This means regardless of the size of the block of data being hashed, the hash 
@@ -112,10 +118,9 @@ The hash of the above sentence is:
     10 bytes, using a hashing algorithm that maps data to a 32 byte string would 
     not be efficient. 
     
-    However,  if the block of data being hashed is very large,  for instance a 100 terabyte block, 
-    using the same hashing algorithm would be efficient, and this in turn is what
-    makes Merkle trees so efficient.
-
+    However, if the block of data being hashed is very large, for instance a 100   
+    terabyte block, using the same hashing algorithm would be efficient, and this 
+    in turn is what makes Merkle trees so efficient.
 ### Structure: Merkle tree
 
 Merkle trees are essentially a tree of hashes where each leaf is a hash
