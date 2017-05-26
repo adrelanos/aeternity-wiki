@@ -10,7 +10,7 @@ In addition, many decentralized applications will be written on top of æternity
 
 ### Speculators:
 
-The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity are required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make a short-term profit based on anticipating developments in the fundamentals or the emergence of certain profitable trading patterns.
+The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity is required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make a short-term profit based on anticipating developments in the fundamentals or the emergence of certain profitable trading patterns.
  
 ### Contract writers & Developers:
 
