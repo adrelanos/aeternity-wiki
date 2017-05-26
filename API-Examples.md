@@ -14,8 +14,8 @@ Here we found two variables: IP and Port
 - IP: variable looks like this: `-define(IP, {46,101,103,165}).` = special formatted so we have to bring it into this brackets [ and ]
 - Port: `-define(Port, 8080).` = integer type
 
-Mean: Different variables types need a special formated sting to shoot the
-commnd to the server.
+Mean: Different variables types need a specially formatted string to shoot the
+command to the server.
 
 - integer type = [3010] or [,3010]
 - string type  = ["3010"]
@@ -40,8 +40,8 @@ inside this file: [easy.erl](../../../../aeternity/testnet/blob/master/src/easy.
 
 ***
 
-1. Example of how to add a node to the list of nodes you share blocks
-with. This is an example of accessing the local api on the same machine.
+1. An example of how to add a node to the list of nodes you share blocks
+with. This is an example of accessing the local API on the same machine.
 
 ```
 curl -i -d '["add_peer", [127,0,0,1], 3010]' http://localhost:8041
@@ -74,10 +74,10 @@ local_get(["add_peer", [127,0,0,1], 3010]);
 ***
 
 
-3. Example: Now an example of accessing an api of a different node.
+3. Example: Now an example of accessing an API of a different node.
 
 This is how you request the header of the genesis block.
-Notice that the ip for external api is one lower than the ip for the api
+Notice that the IP for external API is one lower than the IP for the API
 that is only on the same node.
 
 ```
