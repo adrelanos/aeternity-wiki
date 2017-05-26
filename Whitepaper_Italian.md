@@ -256,12 +256,30 @@ I contratti ad eventi pagano quando avviene un evento e non lo fanno quando non 
 
 III-B.6
 #### Mercati predittivi
+Un mercato predittivo funziona permettendo agli utenti di scommettere sull'eventuale occorrenza di un evento futuro. Dalle cifre puntate possiamo prevedere la probabilità del futuro [3], [8], [16]. Rappresentano il metodo più accurato per misurare il futuro ad un dato prezzo [cit. necessaria]. Una volta avvenuto l'evento, l'esito del mercato viene stabilito attraverso l'oracolo.  
+Come notato nella sezione II-D, possiamo ad esempio utilizzare mercati predittivi per prevedere quali aggiornamenti del software saranno positivi e quali nocivi. Possiamo anche utilizzarli per stimare quanto i candidati di una elezione siano effettivamente in grado di mettere in pratica ciò che dichiarano, così da poter individuare più facilmente menzogne e promesse senza fondamento.   
 
+[fig_5.jpg]  
+
+Fig. 5. Mercato predittivo multidimensionale.  
+
+    a) Mercati predittivi multidimensionali: i mercati predittivi multidimensionali ci permettono di prevedere la correlazione fra possibili eventi futuri. Per esempio si potrebbe quindi prevedere se, nel caso in cui Alice fosse eletta leader, il prezzo delle patate andrebbe al ribasso o se, nel caso in cui vincesse Bob, al rialzo. Si potrebbe capire che se Google utilizzasse il piano A nei prossimi tre mesi guadagnerebbe probabilmente di più, o che se seguisse il piano B guadagnerebbe di meno. O, ancora, come in figura 5, che se Alice fosse eletta presidente ci sarebbe un'elevata probabilità che il prezzo delle patate sarebbe piuttosto basso.  
 
 III-B.7
 #### Market con un lotto in vendita ad un prezzo singolo
+Un attacco per rubare aeon a un mercato ha due strategie possibili. Potrebbe sfruttare la divisione del mercato nel tempo o nello spazio.  
+    - Se il mercato è diviso nello spazio, allora l'attaccante fa dell'arbitraggio. Egli, facendo scambi simultanei in entrambi i mercati, annulla il rischio e fa del profitto.  
+    - Se il mercato è diviso nel tempo, allora l'attaccante cerca di anticipare il mercato. Egli, leggendo le transazioni in ingresso nel mercato, crea ordini di acquisto e di vendita immediatamente prima e dopo.  
 
+[fig_5.jpg]  
 
+Fig. 6. La linea nera è la curva di domanda, quella rossa di offerta. Le vendite in rosso sono della stessa dimensione degli acquisti in nero. La linea verticale è il prezzo selezionato dal creatore del mercato. Chiunque fosse intenzionato a comprare a un prezzo più alto ha scambiato a quel prezzo, chiunque fosse intenzionato a vendere a un prezzo più basso ha scambiato a quel prezzo.  
+  
+Per riunione i mercati nello spazio, tutti dovrebbero utilizzare lo stesso creatore del mercato.  
+Per riunirli nel tempo dobbiamo fare scambi per lotti, ciascun lotto ad un singolo prezzo. Il creatore del mercato deve proporre a ciascuna persona il prezzo da lui stabilito e se qualcuno dovesse scoprire proposte contraddittorie da parte del creatore, allora tutti i suoi clienti dovrebbero essere in grado di prosciugare ogni suo canale. Se il creatore dovesse proporre un prezzo ragionevole, allora dovrebbe ottenere lo stesso volume di acquirenti e venditori, come mostrato in fig. 6. Altrimenti finirebbe in una situazione simile a quella di fig. 7, prendendosi dunque un grave rischio.  
+  
+Fig. 7. Il nero è molto più esteso del rosso. Il creatore del mercato sta vendendo molte più quote di quante ne stia comprando, prendendosi di conseguenza un grave rischio.  
+  
 IV
 #### Implementazione
 
