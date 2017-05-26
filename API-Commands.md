@@ -84,14 +84,14 @@ inside this file:
 
 ***
 
-### Actions with api commands
+### Actions with API commands
 
-Read this perfect page for more and detailed informations about the 
+Read this perfect page for more and detailed information about the 
 [Transaction-Types](Transaction-Types)
 
 ***
 
-### Setup first for using api commands
+### Setup first for using API commands
 
 Read this page, it describes an easy to use and setup for æternity Testnet
 [Testnet setup start and use](Testnet-setup-start-and-use)
