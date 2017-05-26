@@ -1,6 +1,8 @@
 æternity Scripting Language Examples
 ====================================
 
+[Work in progress! DO NOT DELETE, please. THX](https://github.com/aeternity/testnet/pull/94)
+
 Here you will learn about Chlang, I will show and explain how they will work
 
 |  No |    Example                                                                                                            |
