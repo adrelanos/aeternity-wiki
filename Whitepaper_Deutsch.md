@@ -7,11 +7,11 @@ Dies bläht die Größe der Blockchain auf, setzt Smart Contracts unnötigen Sch
 
 Aus diesem Grund wird æternity entwickelt, als die einzige Blockchain, die durch ihr Kerndesign den Durchsatz von Mainstream Anwendungsfällen aufrechterhalten kann, während sie Schnittstellen zur realen Welt innerhalb ihrer Blockchain bereitstellt.
 
-Es kann dank der integrierten Zustandskanäle einen größeren Transaktionsdurchsatz (mehr als Visa und Legacy-Systeme) verarbeiten.
+* Es kann dank der integrierten Zustandskanäle einen größeren Transaktionsdurchsatz (mehr als Visa und Legacy-Systeme) verarbeiten.
 
-Die staatlichen Kanäle, die Off-Chain verarbeiten, machen intelligente Verträge einfacher zu analysieren, schneller zu verarbeiten und privater zu machen, während sie keinen wesentlichen Verlust an Funktionalität aufrechterhalten.
+* Die staatlichen Kanäle, die Off-Chain verarbeiten, machen intelligente Verträge einfacher zu analysieren, schneller zu verarbeiten und privater zu machen, während sie keinen wesentlichen Verlust an Funktionalität aufrechterhalten.
 
-Es ist der interne Konsensmechanismus, der das Orakel überprüfen und die Blockchain mit realen Weltdaten versorgen kann, wobei die Notwendigkeit vernachlässigt wird, ineffiziente Orakelmechanismen oben zu implementieren (wie Augur oder Gnosis oben auf Ethereum).
+* Es ist der interne Konsensmechanismus, der das Orakel überprüfen und die Blockchain mit realen Weltdaten versorgen kann, wobei die Notwendigkeit vernachlässigt wird, ineffiziente Orakelmechanismen oben zu implementieren (wie Augur oder Gnosis oben auf Ethereum).
 
 Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden. Mehrere Teile haben in Erlang vorgegebene Vorführungen. Entwicklungswerkzeuge und Anwendungsgrundlagen wie ein Brieftaschen-, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
 
