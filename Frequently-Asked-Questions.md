@@ -27,7 +27,8 @@ Table of Contents
    * [What’s the difference between an account and wallet?](#whats-the-difference-between-an-account-and-wallet)
    * [Will there be different types of nodes in æternity?](#will-there-be-different-types-of-nodes-in-æternity)
    * [How can I type the æ character?](#how-can-i-type-the-æ-character)
-   * [What can I expect to happen from æternity in the near future?](#what-can-i-expect-to-happen-from-æternity-in-the-near-future)
+   * [What can I expect in the near future?](#what-can-i-expect-in-the-near-future)
+   * [How do I contact you?](#how-do-I-contact-you)
 
 # How is æternity different from Ethereum and Bitcoin? #
 
@@ -174,13 +175,12 @@ Some nodes will just run trading software. They will buy and sell assets offered
 * macOS: Option and ' (apostrophe).
 * iOS and Android: Hold "a" until a small menu appears.
 
-# What can I expect to happen from æternity in the near future? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
+# What can I expect in the near future? #
 
-The first testnet is now ready! We will be adding more features all the time. Start interacting with æternity by visiting [GitHub](http://github.com/aeternity/testnet).
+The first testnet ready, and we are adding more features all the time. Start interacting with æternity by visiting [GitHub](http://github.com/aeternity/testnet). A detailed roadmap is coming soon. [Subscribe to our newsletter](http://www.aeternity.com/#newsletter) to stay updated.
 
-Your feedback will be highly appreciated! Join our [public chat on Gitter](https://gitter.im/aeternity/Lobby).
+# How do I contact you? #
+
+Your feedback is highly appreciated: Join our [public chat on Gitter](https://gitter.im/aeternity/Lobby).
 
 You can also get in touch with us through our [Facebook page](https://www.facebook.com/aeternityproject), [Twitter profile](https://twitter.com/aetrnty), [LinkedIn account](https://www.linkedin.com/company/aeternity), [Telegram](https://telegram.me/aeternity), [Bitcointalk post](https://bitcointalk.org/index.php?topic=1733140.0) and our [subreddit](https://www.reddit.com/r/Aeternity).
-
-A detailed roadmap is also in the making. You can get an update on this by [subscribing to our newsletter](http://www.aeternity.com/#newsletter).
