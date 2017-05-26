@@ -80,7 +80,7 @@
 - [[German] Testnet setup start and use]([German]-Testnet-setup-start-and-use)
 - [[German] æternity TOC]([German]-æternity-TOC)
 - [[German]API Commands]([German]API-Commands)
-- [[German]Api Examples]([German]Api-Examples)
+- [[German]API Examples]([German]Api-Examples)
 - [[German]Terminal interface commands]([German]Terminal-interface-commands)
 - [[Indonesia] æternity TOC]([Indonesia]-æternity-TOC)
 - [[Italian] æternity TOC]([Italian]-æternity-TOC)
