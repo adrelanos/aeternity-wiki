@@ -16,7 +16,7 @@
 - [æternity Blog](https://blog.aeternity.com)
 - [Bounty Programs][bounty]
 - [Community](Community)
-- [Wikipedia page](Wikipedia-page)
+- [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
 - [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
 
 ### Research
