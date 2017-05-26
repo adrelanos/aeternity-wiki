@@ -16,4 +16,4 @@ This is the language for writing smart contracts:
 
 
 ***
-related: [DApp Development](DApp-Development)
+related: [æternity DApp Development](æternity-DApp-Development)
