@@ -1,6 +1,8 @@
 # æternity development tutorial
 
-Stay tuned work in progress!
+[NOT only a copy and past! DO NOT DELETE, please. THX - my pull request](https://github.com/aeternity/testnet/pull/94)
+
+Stay tuned! Work in progress!
 
 
 
