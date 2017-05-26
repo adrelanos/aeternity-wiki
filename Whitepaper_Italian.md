@@ -76,7 +76,7 @@ Per ora però hanno fallito nel mettersi insieme in un sistema unificato che man
 II
 #### Cos'é la blockchain æternity
 Crediamo che le carenze nelle “piattaforme di smart contract” in termini di scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale si possano ricondurre a tre problemi di fondo.
-Primo, il predominio dello “stateful design” rende gli smart contract scritti per queste piattaforme difficili da analizzare 1
+Primo, il predominio dello “stateful design” rende gli smart contract scritti per queste piattaforme difficili da analizzare 
 > *La difficoltà di analizzare contratti “stateful” è stata chiaramente dimostrata dal bug di chiamata ricorsiva che ha buttato giù “The DAO”. Questo è successo nonostante il codice fosse stato verificato da diversi creatori di Ethereum così come dalla più ampia comunità [cit. necessaria].*
  
 , e la “statefulness” (assenza di stato) combinata con l’ordinamento sequenziale delle transazioni rende più complessa la scalabilità [cit. necessaria]. Secondo, l’alto costo di trasportare i dati dal mondo reale all'interno del sistema in modo decentralizzato, “trustless” e affidabile complica o rende del tutto impossibile la realizzazione di molte promettenti applicazioni [cit. necessaria]. Terzo, le piattaforme vengono limitate nella loro capacità di adattarsi a nuovi sviluppi economici o tecnologici. Riteniamo che ciascuno di questi tre problemi abbia dei percorsi risolutivi del tutto chiari che dovrebbero essere esplorati.  
@@ -129,20 +129,19 @@ II-B.1
 #### Smart contract
 Nonostante l'unico stato che possa essere risolto on-chain sia un trasferimento di aeon, æternity comunque dispone di una macchina virtuale Turing-complete che può gestire "smart contract". I contratti su æternity sono tassativamente accordi che distribuiscono fondi in ottemperanza a certe regole, il che si pone in totale contrasto con i contratti di natura simil-giuridica come quelli di, per esempio, Ethereum. Due delle differenze pratiche più rimarchevoli sono che per default solo le parti coinvolte sono a conoscenza di un dato contratto e che solo le parti che hanno un canale di stato aperto possono creare un contratto valido. Se le parti si accordano con un contratto, lo firmano e ne conservano copia per usi futuri. Viene inviato alla blockchain solo se il suo esito è discusso, nel qual caso il codice sarà conservato esclusivamente come parte della transazione inviata, mai in alcun altro stato. Se ciò dovesse capitare, la blockchain distribuisce i token in base al contratto e chiude il canale. 
 
-> *1 | macro Gold f870e8f615b386aad5b953fe089 ;
-2 |
-3 | Gold oracle
-4 | if 0 1000 else 0 0 end
-5 | 0*
+> *1 | macro Gold f870e8f615b386aad5b953fe089 ;  
+2 |  
+3 | Gold oracle  
+4 | if 0 1000 else 0 0 end  
+5 | 0*  
 
 Fig. 1. Un semplice contratto che codifica una scommessa sul valore dell'oro. Il linguaggio utilizzato è quello simil-Forth Chalang che sarà presentato nella sezione [IV-A](#macchine-e-linguaggio-del-contratto).  
 
 Ad esempio, la figura 1 mostra un contratto molto semplice che codifica una scommessa sul valore dell'oro in un dato momento. Alla riga 1, la macro _**Gold**_ salva l'identificatore dell'oracolo in questione il cui risultato sarà vero ("True") nel caso in cui il prezzo dell'oro sia inferiore a 38$ per grammo il primo dicembre 2016. Il corpo del contratto è visualizzato alle righe 2-4: inizialmente inviamo l'identificatore dell'oracolo sull'oro allo stack e lo invochiamo usando _**oracle**_, il quale lascerà la risposta dell'oracolo in cima allo stack. Facciamo ciò per ottenere una ramificazione condizionale: se l'oracolo restituisce _True_, inviamo 0 e 1000 allo stack, indicando che 0 aeon devono essere bruciati e che 1000 devono andare al primo partecipante del canale. Altrimenti inviamo 0 e 0, con il secondo 0 a indicare che l'altro partecipante riceve tutti gli aeon del canale. Infine inviamo 0 che verrà preso come il livello di difficoltà di questo stato del canale. Nell'uso effettivo il livello di difficoltà verrebbe generato all'apertura.  
-Una cosa importante da notare è che i contratti su æternity non mantengono alcun stato per conto loro. Qualunque stato è mantenuto dalle parti e inviato come input durante l'esecuzione. Ogni contratto è essenzialmente una _funzione pura_ che prende un dato input e ritorna un nuovo canale di stato come output[²](#nota-2). I benefici nell'utilizzo di funzioni pure nello sviluppo di software in generale, e in quello di applicazioni economiche in particolare, è ampiamente documentato da decenni in ambiente accademico e nell'industria |10|[richiesta citazione].  
+Una cosa importante da notare è che i contratti su æternity non mantengono alcun stato per conto loro. Qualunque stato è mantenuto dalle parti e inviato come input durante l'esecuzione. Ogni contratto è essenzialmente una _funzione pura_ che prende un dato input e ritorna un nuovo canale di stato come output
+> * Da notare che, potendo leggere le risposte degli oracoli e alcuni parametri ambientali, i contratti non sono del tutto pure funzioni. Tuttavia le risposte degli oracoli non cambiano una volta fornite e può essere messo in discussione che ciò sia dovuto alla ricchezza computazionale della macchina dell'oracolo piuttosto che si tratti di una impurità. I parametri ambientali sono ritenuti un "male necessario" e verranno idealmente compartimentalizzati appropriatamente da linguaggi di alto livello.*
 
-> *
-#### nota 2
-Da notare che, potendo leggere le risposte degli oracoli e alcuni parametri ambientali, i contratti non sono del tutto pure funzioni. Tuttavia le risposte degli oracoli non cambiano una volta fornite e può essere messo in discussione che ciò sia dovuto alla ricchezza computazionale della macchina dell'oracolo piuttosto che si tratti di una impurità. I parametri ambientali sono ritenuti un "male necessario" e verranno idealmente compartimentalizzati appropriatamente da linguaggi di alto livello.*
+I benefici nell'utilizzo di funzioni pure nello sviluppo di software in generale, e in quello di applicazioni economiche in particolare, è ampiamente documentato da decenni in ambiente accademico e nell'industria |10|[richiesta citazione].  
 
 Fig. 2. Un semplice hashlock.  
 Fig. 3. Utilizzo di un hashlock per un invio trustless di token attraverso un intermediario.  
