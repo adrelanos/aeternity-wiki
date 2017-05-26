@@ -282,23 +282,29 @@ Fig. 7. Il nero è molto più esteso del rosso. Il creatore del mercato sta vend
   
 IV
 #### Implementazione
-
+Molti concetti chiave hanno già implementazioni a livello prototipale in Erlang, inclusi la stessa blockchain, il linguaggio contrattuale e la VM, l'oracolo e i meccanismi di governance e anche una vecchia versione del meccanismo di consenso. Abbiamo usato Erlang/OTP in quanto rende agevole la scrittura di codice in grado di rispondere a molte richieste in parallelo senza andare in crash. I server con il più elevato tempo di funzionamento sono basati su Erlang. Ha dimostrato di essere un prodotto stabile e affidabile in trent'anni di uso per applicazioni industriali.  
 
 IV-A
 #### Macchine e linguaggio del contratto
-
+La macchina virtuale (VM o "virtual machine") è basata su stack ed è simile ai linguaggi di scripting di Forth e Bitcoin, anche se in rapporto a quest'ultimo è decisamente più ricca. La VM supporta funzioni piuttosto che reindirizzamenti ("gotos") rendendo relativamente semplice l'analisi della sua semantica. Si può trovare una lista dei codici operativi della VM sul [nostro Github](https://github.com/aeternity/chalang/blob/master/opcodes.md ).  
+Inoltre esiste un linguaggio simile a Forth di livello superiore, il Chalang, che compila in bytecode per la VM. Supporta macro e nomi di variabili, ma mantiene il modello di esecuzione basato su stack [17]. Potete trovare esempi di codice Chalang sempre sul [nostro Github](https://github.com/aeternity/chalang/tree/master/examples ).  
 
 IV-B
 #### Adozione tramite integrazione web
+Il web è la piattaforma di applicazione più popolare. Forniremo strumenti di sviluppo web facili da usare, come librerie JS e JSON-API per le caratteristiche di base della blockchain æternity. 
 
 IV-C
 #### Moduli open source
+Il software sarà scritto con moduli di licenza MIT, come il modulo di consenso che può essere adattato a necessità individuali, così da poterlo facilmente riutilizzare per un consorzio di blockchain privato e per altri usi.  
 
 IV-D
 #### Condizioni d'uso e design dell'UX
+I nostri sforzi di sviluppo saranno focalizzati nel ridurre gli attriti dovuti alla interazione umana. Nel dettaglio, ci assicureremo che sia chiaramente stabilito chi controlla identità, chiavi e transazioni. Inoltre, offrire un accesso facilitato tramite web-gateway sarà al centro del nostro futuro lavoro. La partecipazione degli utenti ai mercati predittivi tramite interfacce mobili simili a Tinder (scorrimento sinistra/destra) e la facile integrazione in un sito attraverso iframe di semplici portafogli web diventeranno esperienza di uso comune.  
 
 V
 #### Discussioni
+Abbiamo fornito una spiegazione su come progettare un sistema di trasferimento di valore fondamentalmente più efficiente. Il sistema descritto è di fatto una macchina-oracolo globale, cioè una machcina che può essere usata per fornire servizi decisionali su scala globale. In particolare si possono implementare facilmente su æternity tutte le applicazioni proposte nella [III sezione](#applicazioni).  
+Il nostro approccio ha tuttavia sia limiti fondamentali che spazi di miglioramento. Entrambi vengono discussi qui.  
 
 V-A
 #### Limitazioni e tradeoff
