@@ -1,3 +1,5 @@
+[Work in progress! DO NOT DELETE, please. THX](https://github.com/aeternity/testnet/pull/94)
+
 æternity Scripting Language
 ===========================
 
