@@ -55,6 +55,11 @@
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
 
+### [DApp Development](DApp-Development) 
+- [DApp Introducion](DApp-Introducion)
+   - [Scripting language](Zacks-Scripting-language)
+   - [æternity development tutorial](æternity-development-tutorial)
+
 ### æternity Whitepaper
 - [中文](Whitepaper_Chinese) / [pdf](http://blockchain.aeternity.com/Aeternity区块链白皮书.pdf)
 - [Whitepaper deutsch](Whitepaper_Deutsch)
@@ -98,7 +103,7 @@
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
 
-(68 - pages)
+(72 - pages)
 ***
 [drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
