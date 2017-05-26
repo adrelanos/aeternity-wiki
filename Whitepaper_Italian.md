@@ -129,6 +129,35 @@ II-B.1
 #### Smart contract
 Nonostante l'unico stato che possa essere risolto on-chain sia un trasferimento di aeon, æternity comunque dispone di una macchina virtuale Turing-complete che può gestire "smart contract". I contratti su æternity sono tassativamente accordi che distribuiscono fondi in ottemperanza a certe regole, il che si pone in totale contrasto con i contratti di natura simil-giuridica come quelli di, per esempio, Ethereum. Due delle differenze pratiche più rimarchevoli sono che per default solo le parti coinvolte sono a conoscenza di un dato contratto e che solo le parti che hanno un canale di stato aperto possono creare un contratto valido. Se le parti si accordano con un contratto, lo firmano e ne conservano copia per usi futuri. Viene inviato alla blockchain solo se il suo esito è discusso, nel qual caso il codice sarà conservato esclusivamente come parte della transazione inviata, mai in alcun altro stato. Se ciò dovesse capitare, la blockchain distribuisce i token in base al contratto e chiude il canale. 
 
+> *1 | macro Gold f870e8f615b386aad5b953fe089 ;
+2 |
+3 | Gold oracle
+4 | if 0 1000 else 0 0 end
+5 | 0*
+
+Fig. 1. Un semplice contratto che codifica una scommessa sul valore dell'oro. Il linguaggio utilizzato è quello simil-Forth Chalang che sarà presentato nella sezione [IV-A](#macchine-e-linguaggio-del-contratto).  
+
+Ad esempio, la figura 1 mostra un contratto molto semplice che codifica una scommessa sul valore dell'oro in un dato momento. Alla riga 1, la macro _**Gold**_ salva l'identificatore dell'oracolo in questione il cui risultato sarà vero ("True") nel caso in cui il prezzo dell'oro sia inferiore a 38$ per grammo il primo dicembre 2016. Il corpo del contratto è visualizzato alle righe 2-4: inizialmente inviamo l'identificatore dell'oracolo sull'oro allo stack e lo invochiamo usando _**oracle**_, il quale lascerà la risposta dell'oracolo in cima allo stack. Facciamo ciò per ottenere una ramificazione condizionale: se l'oracolo restituisce _True_, inviamo 0 e 1000 allo stack, indicando che 0 aeon devono essere bruciati e che 1000 devono andare al primo partecipante del canale. Altrimenti inviamo 0 e 0, con il secondo 0 a indicare che l'altro partecipante riceve tutti gli aeon del canale. Infine inviamo 0 che verrà preso come il livello di difficoltà di questo stato del canale. Nell'uso effettivo il livello di difficoltà verrebbe generato all'apertura.  
+Una cosa importante da notare è che i contratti su æternity non mantengono alcun stato per conto loro. Qualunque stato è mantenuto dalle parti e inviato come input durante l'esecuzione. Ogni contratto è essenzialmente una _funzione pura_ che prende un dato input e ritorna un nuovo canale di stato come output[²](#nota-2). I benefici nell'utilizzo di funzioni pure nello sviluppo di software in generale, e in quello di applicazioni economiche in particolare, è ampiamente documentato da decenni in ambiente accademico e nell'industria |10|[richiesta citazione].  
+
+> *
+#### nota 2
+Da notare che, potendo leggere le risposte degli oracoli e alcuni parametri ambientali, i contratti non sono del tutto pure funzioni. Tuttavia le risposte degli oracoli non cambiano una volta fornite e può essere messo in discussione che ciò sia dovuto alla ricchezza computazionale della macchina dell'oracolo piuttosto che si tratti di una impurità. I parametri ambientali sono ritenuti un "male necessario" e verranno idealmente compartimentalizzati appropriatamente da linguaggi di alto livello.*
+
+Fig. 2. Un semplice hashlock.  
+Fig. 3. Utilizzo di un hashlock per un invio trustless di token attraverso un intermediario.  
+
+a) Interazione con i contratti e contratti progressivi:  
+Anche se tutti i contratti sono privi di stato e vengono eseguiti indipendentemente l'uno dall'altro, l'interazione fra contratti e statefulness (????) può comunque essere ottenuta tramite hashlocking [necessaria citazione]. Un semplice hashlock è mostrato nella figura 2. Sulla linea 1 definiamo una funzione chiamata hashlock che prevede che lo stack contenga uno hash h e un segreto (????) s. Li scambia alla linea 2, in maniera da rendere il segreto uno hash alla linea 3, prima di invocare l'operatore di uguaglianza sullo hash(v) e h alla linea 4. Ciò restituisce true se il segreto è una immagine precedente dello hash. Questa funzione può essere utilizzata per dichiarare l'esecuzione di ramificazioni di codice in contratti diversi sulla base dell'esistenza dello stesso valore segreto.  
+Come semplice utilizzo, gli hashlock permettono agli utenti che non condividono un canale di stato di scambiarsi aeon in maniera trustless, a patto che fra di essi esista un percorso di canali. Ad esempio, se Alice e Bob hanno un canale e Bob e Carol ne hanno un altro, allora Alice e Carol possono fare delle transazioni tramite Bob mediante la creazione di due copie del contratto in figura 3, una per ogni canale. Il Commitment di linea 1 è l'hash di un segreto scelto da Alice. Sulla linea 3 viene inviato allo stack e si richiama la funzione hashlock. Il valore di ritorno dell'hashlock determina quale ramo dell'if viene eseguito. Alice rivela il segreta non appena i contratti saranno firmati da tutte le parti coinvolte, permettendo così a Bob e a Carol di usarlo per rivendicare i loro aeon.  
+L'hashlocking può essere anche utilizzato, ad esempio, per partecipare a giochi multi-player nei canali, come mostrato nella figura 4. Ognuno crea un canale con il game manager che pubblicherà lo stesso contratto in ogni canale. Ad esempio, se ci trovassimo nello stato di gioco 32, definito dalla funzione State32, e se volessimo aggiornare simultaneamente in maniera trustless tutti i canali allo stato 33, non appena il game manager rivelasse il segreto ciò causerebbe l'aggiornamento simultaneo di tutti i canali.  
+
+Fig. 4. Un esempio semplificato dell'uso di un hashlock per giocare a un gioco multi-player nei canali.  
+  
+b) Esecuzione misurata:
+L'esecuzione dei contratti è misurata in maniera analoga al "gas" di Ethereum, ma æternity usa due risorse differenti per la sua misurazione, una per il tempo e una per lo spazio. Entrambe sono pagate per l'utilizzo di aeon dalla parte che richiede l'esecuzione.  
+Ciò potrebbe essere considerato sgradito in quanto probabilmente è un'altra parte a provocare in principio il bisogno di una blockchain per risolvere la disputa. Tuttavia, a meno che tutto il denaro nel canale non sia usato per scommettere, ciò può essere annullato efficacemente nel codice di contratto in quanto questi è in grado di ridistribuire i fondi da una delle parti all'altra. È di fatto una buona norma generale evitare di usare tutti i fondi in un canale per la transazione per non disincentivare la parte perdente a cooperare nella chiusura del canale. 
+
 II-B.2
 #### Esempi
 Portiamo tutte queste idee con i piedi per terra. In pratica, se Alice e Bob vogliono effettuare una transazione usando un canale di stato su æternity, devono avvalersi della seguente procedura:  
@@ -183,7 +212,7 @@ II-E.4
 #### Transazioni per secondo ad una certa richiesta di memoria
 Le variabili che definiscono il protocollo sono tutte aggiornate costantemente dal consenso. Possiamo calcolare il tasso iniziale di default delle transazioni per secondo dai loro valori di default iniziali.   
 
-1 | Nota che questa è una bozza e probabilmente  
+> *1 | Nota che questa è una bozza e probabilmente  
 2 | varierà  
 3 |   
 4 | Definiamo le seguenti variabili per il calcolo che segue:  
@@ -203,7 +232,7 @@ Le variabili che definiscono il protocollo sono tutte aggiornate costantemente d
 18 |  
 19 |  1000000 * 24*60*2 / 1000 / 24*3600  
 20 |  = 1000000 / 1000 / 30  
-21 |  = ca. 32 transazioni per secondo (sufficientemente veloce per registrare ogni essere umano entro gli 8 anni)  
+21 |  = ca. 32 transazioni per secondo (sufficientemente veloce per registrare ogni essere umano entro gli 8 anni)*
 
 Per operare un nodo dobbiamo conservare una copia di tutti i blocchi fino al suo stato conclusivo e dobbiamo essere in grado di registrare cento volte più informazioni nel caso in cui dovesse avvenire un attacco. Stimando che il termine sia due giorni, ci saranno 5760 blocchi fino al termine. Quindi i requisiti di memoria sono di 5760 * 1 megabyte * 100 = 576000 megabyte = 576 gigabyte. In assenza di un attacco servirebbero solo 5.76 gigabyte per conservare i blocchi.  
 
