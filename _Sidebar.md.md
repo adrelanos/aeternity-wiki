@@ -57,7 +57,8 @@
 
 ### [DApp Development](æternity-DApp-Development)
 - [DApp Introducion](æternity-DApp-Introducion)
-   - [Scripting language](Zacks-Scripting-language)
+   - [Scripting language](æternity-Scripting-Language)
+     - [SL-Examples](æternity-Scripting-Language-Examples) 
    - [æternity development tutorial](æternity-development-tutorial)
 
 ### æternity Whitepaper
@@ -103,7 +104,7 @@
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
 
-(72 - pages)
+(73 - pages)
 ***
 [drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
