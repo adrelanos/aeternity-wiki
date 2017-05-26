@@ -58,12 +58,12 @@ they work and their uses is well outside the scope of the paper. What we
 will do instead is go through a very simplified example of how data can
 be verified with a cryptographic hash function.
 
-In this example, lets say Bob wants to send Alice a block of data and
-wants Alice to be able to verify that the data she received has not been
-corrupted or tampered with in transit. What Bob will do is use a
-cryptograpic hash function like sha-2 to create a hash of the block of
-data before he sends it to Alice. In the example below Bob uses sha-256
-to hash the block of data which in this case is a short sentence:
+    In this example, lets say Bob wants to send Alice a block of data and
+    wants Alice to be able to verify that the data she received has not been
+    corrupted or tampered with in transit. What Bob will do is use a
+    cryptograpic hash function like sha-2 to create a hash of the block of
+    data before he sends it to Alice. In the example below Bob uses sha-256
+    to hash the block of data which in this case is a short sentence:
 
 
 ### æternity is the blockchain to rule them all!
@@ -113,7 +113,7 @@ The hash of the above sentence is:
     10 bytes, using a hashing algorithm that maps data to a 32 byte string would 
     not be efficient. 
     
-    However,  if the data being hashed is very large,  like a 100 terabyte block, 
+    However,  if the data being hashed is very large,  for instance a 100 terabyte block, 
     using the same hashing algorithm would be efficient, and this in turn is what
     makes Merkle trees so efficient.
 
