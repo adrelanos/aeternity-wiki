@@ -209,14 +209,24 @@ Per operare un nodo dobbiamo conservare una copia di tutti i blocchi fino al suo
 
 III
 #### Applicazioni
+L'implementazione delle seguenti applicazioni sulla blockchain di æternity è resa semplice dalla natura "stateless" degli smart contract di æternity. Questa è adatta soprattutto ai casi di utilizzo ad ampio volume.  
+
 III-A
 #### Elementi essenziali della blockchain
+Gli elementi essenziali della blockchain sono necessariamente quegli elementi nativi come aeon, portafoglio, nomi e concetti collegati. Questi rendono modulari i componenti riutilizzabili che possono quindi essere utilizzati come base per le applicazioni da sviluppare e possono essere migliorati. 
+
 III-A.1
 #### Identità
+A ciascun account sarà associato un ID univoco. Gli utenti possono registrare nomi univoci e collegarli alla radice Merkle della struttura dati. Questa può contenere sia l'ID univoco che altre informazioni circa l'account di un individuo. Puntiamo ad usare il formato JSON di [Schema.org](Schema.org) per rappresentare oggetti come persone o società [13].  
+
 III-A.2
 #### Portafoglio
+Il portafoglio ("wallet") è un elemento di software utilizzato per interagire con æternity. Gestisce credenziali private per gli aeon, crea e firma le transazioni. Un individuo può usare il portafoglio per inviare transazioni in un certo canale, e per utilizzare le applicazioni nel network dei canali.  
+
 III-A.3
 #### Prova di esistenza
+Un certo tipo di transazione permette la pubblicazione di hash di qualsiasi dato. Chiunque adoperi il sistema può usare le intestazioni per provare che i dati esistevano in quel punto nel tempo.  
+
 III-B
 #### Applicazioni su canali a stati
 III-B.1
