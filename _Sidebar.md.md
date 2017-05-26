@@ -58,8 +58,9 @@
 ### [DApp Development](æternity-DApp-Development)
 - [DApp Introducion](æternity-DApp-Introducion)
    - [Scripting language](æternity-Scripting-Language)
-     - [SL-Examples](æternity-Scripting-Language-Examples) 
+     - [SL-Examples](æternity-Scripting-Language-Examples)
    - [æternity development tutorial](æternity-development-tutorial)
+   - [Resources](æternity-DApp-Developer-Resources)
 
 ### æternity Whitepaper
 - [中文](Whitepaper_Chinese) / [pdf](http://blockchain.aeternity.com/Aeternity区块链白皮书.pdf)
@@ -104,7 +105,7 @@
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
 
-(73 - pages)
+(74 - pages)
 ***
 [drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
