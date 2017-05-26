@@ -1,3 +1,5 @@
+# DApp Development Introduction
+
 [NOT only a copy and past! DO NOT DELETE, please. THX - my pull request](https://github.com/aeternity/testnet/pull/94)
 
 Take a look at the dice smart contract for an idea of what state channel applications will look like.
