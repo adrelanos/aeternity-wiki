@@ -1,4 +1,4 @@
-TOC Merkle trees
+Merkle trees
 ================
 
 * [What are Merkle trees?](#what-are-merkle-trees)
@@ -29,9 +29,10 @@ data into a single, compact hash: the Merkle root. It is a tree
 structure in which each leaf node is a hash of a block of data, and each
 non-leaf node is a hash of its children. You can think of a Merkle tree
 as a network of cascading hashes or hash trees.
+***
+***
 
-
-### Uses
+## Uses
 
 Merkle trees are used to verify data being stored and transmitted in and
 between different computers on a network and do so very efficiently.
@@ -67,7 +68,7 @@ be verified with a cryptographic hash function.
     short sentence:
 
 
-### æternity is the blockchain to rule them all!
+  **æternity is the blockchain to rule them all!**
 
 The hash of the above sentence is:
 `cb7ee542fe6bf21b8b3f18410f3a034a97fc35de43e935674ce97e36e278efad`
@@ -85,7 +86,7 @@ The hash of the above sentence is:
     to as a checksum. Lets say that Alice received the below sentence from
     Bob.
 
-### æternity is the blockchain to rule them all
+   **æternity is the blockchain to rule them all**
 
 The hash of the above sentence is:
 `a931b75f2afee220bf3a62f8a8f67301c932a2a7cd8ac5ce26831896b9b433fb`                                                                                                                               
@@ -121,7 +122,9 @@ The hash of the above sentence is:
     However, if the block of data being hashed is very large, for instance a 100   
     terabyte block, using the same hashing algorithm would be efficient, and this 
     in turn is what makes Merkle trees so efficient.
-### Structure: Merkle tree
+***
+***
+## Structure: Merkle tree
 
 Merkle trees are essentially a tree of hashes where each leaf is a hash
 of a block of data. Nodes further up in the tree are the hashes of their
@@ -185,8 +188,9 @@ start.
 6. Steps 4 and 5 are repeated until the inconsistent data block(s) are
    found. It is possible to find more than 1 data block that is wrong
    because there may be more than one error in the data.
-
-### Benefits
+***
+***
+## Benefits
 
 Because the computers are only sending hashes over the network (not the
 entire file), this process can go very quickly. Plus, if an inconsistent
