@@ -92,9 +92,7 @@ Total æ in circulation after contribution phase 2:
 
 The maximum supply of AE tokens will be determined after the phase two of æternity backing campaign ends. 
 
-
 # How is the AE dispersed? #
-
 
 Following the phase two of æternity backing campaign, 82 % of the total AE that has been created will be distributed to all investors. While 17% of the AE has been reserved for the founding team, the founding company, and the foundation. Additionally, 1% of the AE available will be allocated to people who have BTC and ETH addresses. This will encourage the use of AE tokens and the æternity network.
 
@@ -102,13 +100,9 @@ Following the phase two of æternity backing campaign, 82 % of the total AE that
 
 # Can malicious rich people make an oracle lie? #
 
-Answered by agorism1337 on [reddit](https://www.reddit.com/r/Aeternity/comments/64x733/the_highest_stakes_the_whales_decide_what_will_be/). (modified)
+If people try to make the oracle lie, the blockchain ends up forking into two. One side is honest and the other dishonest. The attackers lose their bets on both sides of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, and the other side is a new altcoin.
 
-If people try to make the oracle lie, then the blockchain ends up forking into two. One side is honest, and the other is dishonest. The attackers lose their bets on both sides of the fork, and the defenders win their bets on both sides. The side that answers the question honestly is the official æternity blockchain, the other is a new altcoin.
-
-The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with.
-
-Even a whale can't afford to do this attack many times, and we quickly recover after each attack with an honest oracle.
+The people who caused the attack lose all the money they attacked with. The defenders all earn twice as much money as they used to defend with. Even a whale can't afford to do this attack many times, and we quickly recover after each attack with an honest oracle.
 
 # How does æternity compare to ...? #
 
