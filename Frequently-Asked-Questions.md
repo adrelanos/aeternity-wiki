@@ -19,7 +19,7 @@ Table of Contents
    * [How does æternity compare with..?](#how-does-æternity-compare-with)
    * [æternity is a new blockchain?](#æternity-is-a-new-blockchain)
    * [What are æternity tokens be used for?](#what-are-æternity-tokens-be-used-for)
-   * [What are some of the more interesting applications that can be created on æternity?](#what-are-some-of-the-more-interesting-applications-that-can-be-created-on-æternity)
+   * [What are some interesting applications?](#what-are-some-interesting-applications)
    * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
    * [What are some of the features of æternity virtual machine?](#what-are-some-of-the-features-of-æternity-virtual-machine)
    * [Why do we need Ethereum?](#why-do-we-need-ethereum)
@@ -120,20 +120,19 @@ Yes, æternity is a next-level, brand new blockchain, with many features that so
 
 æternity tokens are called aeon (AE for short), and are the access tokens to the æternity blockchain. They act as a unit of account for the resources spent. Aeon are the energy (“crypto-fuel”) used to power any application implemented on the æternity platform. Every action (and even inaction) costs something, even if only a fraction of a cent.
 
-# What are some of the more interesting applications that can be created on æternity? #
-source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
+# What are some interesting applications? #
 
-æternity enables a high transaction throughput. Broadly speaking, and contrary to traditional blockchain limitations, any type of application that requires high transactional speed will run smoothly on æternity. Here are some of those:
+æternity enables a high transaction throughput. Broadly speaking, and contrary to traditional blockchain limitations, any type of application that requires high transactional speed will run smoothly on æternity. For example:
 
-* Nano and micro payments.
+* Nano and micropayments.
 * Smart contracts using oracles to initiate millions of parallel transactions.
 * Side-chained blockchain networks that can communicate efficiently and securely.
-* Multiplayer video games where the rules are enforced by the blockchain. Poker, chess, Go, and first person shooter games.
-* Investment opportunities for ventures that are specializing in predicting the price of food.
+* Multiplayer video games where the rules are enforced by the blockchain, including Poker, Chess, Go, and first person shooter games.
+* Investment opportunities for ventures that specialize in predicting the price of food.
 * Contracts for powering crowd sales to finance public goods and create a sustainable economy.
 * Lie detectors to know when leaders or experts are hiding the truth.
 * Prediction markets that can help us better prepare for the future.
-* Everything else that we (and You) haven’t thought of yet.
+* Everything else that we (including you) haven’t thought of yet.
 
 # What makes æternity smart contracts special? #
 source: [website FAQ](https://blog.aeternity.com/%C3%A6ternity-frequently-asked-questions-faq-9cb0e34e0740)
