@@ -12,20 +12,20 @@
 ## State Channels
 
 The state channel design in æternity enables off-chain verification of
-data and smart contracts. If the verification in the channel failes, the
-blockchain is asked to resolve. This, in return permits high
+data and smart contracts. If the verification in the channel fails, the
+blockchain is asked to resolve. This, in return, permits high
 transactional throughput and parallel processing of smart contracts.
 
 Therefore, the programmability of complex relationships for large
-numbers of users and handling high volume of products and information in
+numbers of users and handling a high volume of products and information in
 parallel is æternity's strong suit. Only the parties who participated in
 a smart contract know about the contents of that smart contract. 
 
 When a channel is settled on-chain, the only way it changes the blockchain
 state is by changing account balances. No contract state is stored
-on-chain, so all channels are independent from each other. Transaction
+on-chain, so all channels are independent of each other. Transaction
 speed is limited only by bandwidth, so the æternity system can scale as
-well as known centralised solutions available today. For more
+well as known centralized solutions available today. For more
 information, refer to
 [State Channel](http://www.jeffcoleman.ca/state-channels/)
 
@@ -81,7 +81,7 @@ predictions.**
 Participants in a prediction market buy and sell shares based on what
 they think the likelihood of an outcome will be. It is important to note
 that in order for a market participant to win consistently, he/she must
-not only predict the outcome correctly, but must also correctly assess
+not only predict the outcome correctly but must also correctly assess
 the probability of that outcome. Take for example an event that has a
 90% probability. If on a market the current price signals a probability
 of 95% instead of 90%, it can still be very profitable in the long run
@@ -101,12 +101,12 @@ will make a profit of 5000 AE (10x950-90x50=5000).
 Given that the participants in a prediction market are rewarded for
 being correct and punished for being wrong, they will try and be
 economically incentivized to be as accurate as possible and the prices
-will reflect that. In prediction markets prices can be understood as
+will reflect that. In prediction markets, prices can be understood as
 showing the probabilities of the outcome that is being traded.
 
 An example here could be a miner who wants to plan his hardware
 purchases in advance and needs to know the probability of the total
-hashrate getting past a certain level in the following six months. In
+hash rate getting past a certain level in the following six months. In
 this case, instead of guessing or relying on his intuition, the miner
 can set up the prediction market that will give him very accurate
 probabilities. The people betting on those opportunities would not be
@@ -127,7 +127,7 @@ consensus.
 
 Any user may create an oracle by posing a question or statement, staking
 coins and providing a binary or a scaled answering option. AE coins can
-be used to acquire stakes of those specific outcomes. The more sure a
+be used to acquire stakes of those specific outcomes. The surer a
 user is about the outcome, the more stakes he may acquire and hence more
 likely (he thinks) the outcome will be correct. Applying the wisdom of
 the crowd to all participating users of the prediction market, it is
@@ -184,7 +184,7 @@ Publications dealing with æternity-specific technical concerns:
 
 Turing-completeness - what does it mean, and what does it enable?
 
-* [Stateful Turing-Complete Policies - by Vitalki Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
+* [Stateful Turing-Complete Policies - by Vitalik Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
 
 * [Godfather of Ethereum - by Yanislav Georgiev Malahov](https://medium.com/@yanislav/king-of-bitcoin-godfather-of-ethereum-a9af9ecf56d5)
 
@@ -200,7 +200,7 @@ State Channels - further reading and examples.
 
 * [Avocado](https://github.com/jtremback/avocado) - Example of an "judge" or oracle-based state channel implementation
 
-Blockchains - spinal column of cryptocurrency past, present and future.
+Blockchains - spinal column of cryptocurrency past, present, and future.
 
 * [Bitcoin: A Peer-to-Peer Electronic Cash System - by Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf)
 
