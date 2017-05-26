@@ -36,13 +36,13 @@ as a network of cascading hashes or hash trees.
 Merkle trees are used to verify data being stored and transmitted in and
 between different computers on a network and do so very efficiently.
 Their main use is to ensure data blocks received from other peers in a
-peer-to-peer network are received undamaged and unaltered, and even to
+[peer-to-peer ](https://en.wikipedia.org/wiki/Peer-to-peer) network are received undamaged and unaltered, and even to
 check that the other peers do not lie and send fake blocks. To do this
-Merkle trees use a cryptographic hash function. In order for you, the
+Merkle trees use a [cryptographic has function](https://en.wikipedia.org/wiki/Cryptographic_hash_function). In order for you, the
 reader, to understand Merkle trees, a basic understanding of cryptographic hash functions is needed.
 
-A cryptographic hash function is a mathematical algorithm that maps data
-of arbitrary size to a bit string of a fixed size (a hash function)
+A cryptographic hash function is a mathematical [algorithm](https://en.wikipedia.org/wiki/Algorithm) that maps data
+of arbitrary size to a bit string of a fixed size (a [hash function](https://en.wikipedia.org/wiki/Hash_function))
 which is designed to also be a one-way function. This means that there
 is no mathematical equation, or algorithm that can unhash or reverse the
 data to its original data state prior to being hashed. Hashes provide
@@ -50,8 +50,8 @@ efficient data storage and reduce the level of data needed to prove
 something exists.
 
 There are many different cryptographic protocol suites that use hashes
-to verify data. One example is Asymmetric-key cryptography: also
-referred to as public key cryptography and digital signatures. They use
+to verify data. One example is [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography): also
+referred to as asymmetric cryptography. They use
 cryptographic hash functions to verify data. However, explaining how
 they work and their uses is well outside the scope of the paper. What we
 will do instead is go through a very simplified example of how data can
@@ -70,7 +70,7 @@ be verified with a cryptographic hash function.
 ### æternity is the blockchain to rule them all!
 
 The hash of the above sentence is:
-`60c1be71e2915ea72a33c059cf7710787f6748e10091173dfc17363444a2d3ce`
+`cb7ee542fe6bf21b8b3f18410f3a034a97fc35de43e935674ce97e36e278efad`
 
     After Bob has created the hash, he sends the original data over the
     network to Alice. However, Bob does not send the hash along with the data, 
@@ -81,29 +81,29 @@ The hash of the above sentence is:
     Bob sent her and the hash of the data. 
     
     What Alice will do next is us the same cryptographic hash function that 
-    Bob used,  and create a  hash  of the data that she received:  referred 
+    Bob used, and create a hash of the data that she received: referred 
     to as a checksum. Lets say that Alice received the below sentence from
     Bob.
 
-### æternity the blockchain to rule them all
+### æternity is the blockchain to rule them all
 
 The hash of the above sentence is:
-`45c93bfadb67691456e61e011ba4652125c16303304ecb2ab31d6f033ef09180`                                                                                                                               
+`a931b75f2afee220bf3a62f8a8f67301c932a2a7cd8ac5ce26831896b9b433fb`                                                                                                                               
 
     
-    I am sure you have notices 2 things. First is that the 2 hashes values are
-    completely different.The second is the hashes are larger  than  the actual
-    size of the data that was  hashed.  Would this  not  mean  that hashes are
+    I am sure you have noticed 2 things. First is that the 2 hashes values are
+    completely different. The second is the hashes are larger than the actual
+    size of the data that was  hashed. Would this not mean that hashes are
     inefficient?  Why is this?  
 
-    Well, to answer  the  first question. If  you look carefully you will notice 
+    Well, to answer the  first question. If you look carefully you will notice 
     that the exclamation point is missing from the sentence that Alice received.
     This is the reason the 2 hash values are different. For some reason the data 
     was altered while in transit to  Alice.
 
     Alice however, does not need to know what the original sentence looked like  
-    to know it has been altered. As you can see even a very small change  in  the  
-    data will result in  completely different outcomes  when using  a cryptographic 
+    to know it has been altered. As you can see even a very small change in the  
+    data will result in completely different outcomes when using a cryptographic 
     hash function. 
     
     Now, to answer the second question. As stated above, cryptograhic hash func-
@@ -111,10 +111,10 @@ The hash of the above sentence is:
     using sha-256 as a hashing algorithm, the data is mapped to a 32 byte string. 
     
     This means regardless of the size of the block of data being hashed, the hash 
-    value will always be a 32 byte string: weather it is an 8 byte block  or an 8
+    value will always be a 32 byte string: weather it is an 8 byte block or an 8
     terabyte block of data. 
     
-    This would also mean if the data you are verifying is very small,  lets say: 
+    This would also mean if the data you are verifying is very small, lets say: 
     10 bytes, using a hashing algorithm that maps data to a 32 byte string would 
     not be efficient. 
     
@@ -133,7 +133,7 @@ hash 0=hash( hash 0-0 + hash 0-1 ) where + denotes concatenation.
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/640px-Hash_Tree.svg.png)
 
 
-In most cases, merkle trees have a branching factor of 2, meaning that
+In most cases, Merkle trees have a branching factor of 2, meaning that
 each node has up to 2 children. They can, however, use many more child
 nodes under each node.
 
