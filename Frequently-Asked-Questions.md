@@ -6,19 +6,19 @@ Table of Contents
    * [Table of Contents](#table-of-contents)
    * [How is æternity different from Ethereum and Bitcoin?](#how-is-æternity-different-from-ethereum-and-bitcoin)
    * [Why is æternity faster than Ethereum?](#why-is-æternity-faster-than-ethereum)
-   * [How is æternity written?](#how-is-æternity-written)
+   * [In what language is æternity written?](#in-what-language-is-æternity-written)
    * [Which PoW Algorithm is used for mining in æternity?](#which-pow-algorithm-is-used-for-mining-in-æternity)
    * [How does PoS work in æternity?](#how-does-pos-work-in-æternity)
-   * [How does æternity protect from the next DAO happening?](#how-does-æternity-protect-from-the-next-dao-happening)
+   * [How æternity protected from another DAO attack?](#how-is-æternity-protected-from-another-dao-attack)
    * [Is smart contract verification on the roadmap?](#is-smart-contract-verification-on-the-roadmap)
    * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
    * [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-æ)
    * [What is the Maximum Supply of AE?](#what-is-the-maximum-supply-of-ae)
    * [How is the AE dispersed?](#how-is-the-ae-dispersed)
    * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
-   * [How does æternity compare to ...?](#how-does-æternity-compare-to-)
-   * [æternity, a new blockchain?](#æternity-a-new-blockchain)
-   * [What can the AE token be used for?](#what-can-the-ae-token-be-used-for)
+   * [How does æternity compare with..?](#how-does-æternity-compare-with)
+   * [æternity is a new blockchain?](#æternity-is-a-new-blockchain)
+   * [What are æternity tokens be used for?](#what-are-æternity-tokens-be-used-for)
    * [What are some of the more interesting applications that can be created on æternity?](#what-are-some-of-the-more-interesting-applications-that-can-be-created-on-æternity)
    * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
    * [What are some of the features of æternity virtual machine?](#what-are-some-of-the-features-of-æternity-virtual-machine)
@@ -116,7 +116,7 @@ The people who caused the attack lose all the money they attacked with. The defe
 
 Yes, æternity is a next-level, brand new blockchain, with many features that solve current issues in blockchain technology in an elegant way. Reading [the whitepaper](Whitepaper_English) is the best way to understand æternity’s design. æternity’s first testnet is already online, ready for testing and mining.
 
-# What can æternity tokens be used for? #
+# What are æternity tokens be used for? #
 
 æternity tokens are called aeon (AE for short), and are the access tokens to the æternity blockchain. They act as a unit of account for the resources spent. Aeon are the energy (“crypto-fuel”) used to power any application implemented on the æternity platform. Every action (and even inaction) costs something, even if only a fraction of a cent.
 
