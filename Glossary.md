@@ -147,8 +147,6 @@ An alternative to the proof-of-work system, in which your existing stake in a cr
 # Proof-of-Work
 A system that ties mining capability to computational power. Blocks must be hashed, which is in itself an easy computational process, but an additional variable is added to the hashing process to make it more difficult. When a block is successfully hashed, the hashing must have taken some time and computational effort. Thus, a hashed block is considered proof of work.
 
-# Ripple
-A payment network built on distributed ledgers that can be used to transfer any currency. The network consists of payment nodes and gateways operated by authorities. Payments are made using a series of IOUs, and the network is based on trust relationships.
 
 # Replicated Ledger
 A ledger with one master (authoritative) copy of the data, and many slave (non-authoritative) copies.
