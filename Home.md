@@ -55,12 +55,3 @@ https://blog.aeternity.com/security-transparency-simplicity-1411fad10974
 ## Learn More
 The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/), feel free to join us!
 _This will be rapidly expanded._
-
-[Whitepaper_English]: Whitepaper_English
-[Whitepaper_Korean ]: Whitepaper_Korean
-[Whitepaper_Indonesia]: Whitepaper_Indonesia
-[Whitepaper_French]: Whitepaper_French
-[Whitepaper_Chinese]: Whitepaper_Chinese
-[Whitepaper_Russian]: Whitepaper_Russian
-[Whitepaper_Español]: Whitepaper_Español
-[Whitepaper_Japanese]: Whitepaper_Japanese
