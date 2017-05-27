@@ -313,7 +313,3 @@ You can also get in touch with us through our
 [Telegram](https://telegram.me/aeternity),
 [Bitcointalk post](https://bitcointalk.org/index.php?topic=1733140.0)
 and our [subreddit](https://www.reddit.com/r/Aeternity).
-***
-
-on editing this page please use the right tags # = H1 / ## = H2 / ### = H3
-and *** = horizontal line. For now this document is SEO safe!!!
