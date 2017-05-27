@@ -1,6 +1,12 @@
 æternity Scripting Language (Chalang)
 =====================================
 
+* [Opcodes](#opcodes)
+* [Compile Backtracking](#compile-backtracking)
+* [Compile Functions](#compile-functions)
+* [Sources](#sources)
+
+***
 Chalang is developed by Zackary Hess
 
 It is built for blockchain smart contracts. This is a language make for
@@ -276,7 +282,7 @@ related: [æternity DApp Development](æternity-DApp-Development),
 
 ***
 
-Sources:
+## Sources:
 
 | No | Type | Source                                                                                    |
 |:---|:-----|:------------------------------------------------------------------------------------------|
