@@ -21,7 +21,6 @@
 ### Research
 - [Idea Box][ideabox]
 - [Research & Theory][research]
-- [Cryptoeconomics](Cryptoeconomics)
 - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
 
 ### æternity Technologies
