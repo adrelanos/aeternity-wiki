@@ -130,24 +130,16 @@ Aeon distributed during Contribution Phase 1: 139,089,935.082
 
 Aeon to be distributed during Contribution Phase 2: 21,000,000 Swiss Francs
 
-## What is the Maximum Supply of AE?
+## What is the Maximum Supply of aeon?
 
-The maximum supply of AE tokens will be determined after the phase two
-of æternity backing campaign ends.
+The maximum supply of aeon tokens will be determined after phase two
+of the æternity backing campaign ends.
 
-## How is the AE dispersed?
+## How is the aeon dispersed?
 
-Following the phase two of æternity backing campaign, 82 % of the total
-AE that has been created will be distributed to all investors. While 17%
-of the AE has been reserved for the founding team, the founding company,
-and the foundation. Additionally, 1% of the AE available will be
-allocated to people who have BTC and ETH addresses. This will encourage
-the use of AE tokens and the æternity network.
+Following phase two of the æternity backing campaign, 82% of the total aeon that has been created will be distributed to all investors. 17% has been reserved for the founding team, the founding company, and the foundation. 1% of the AE available will be allocated to people who have BTC and ETH addresses. This will encourage the use of aeon tokens and the æternity network.
 
-90% of the AE that has been reserved for the founding team (a total of
-17% of the available AE) will be locked away for a period of time so as
-to discourage team members from taking the AE tokens and leaving the
-project.
+90% of the aeon reserved for the founding team, company, and foundation will be released over time in order to discourage team members from leaving the project.
 
 ## Can malicious rich people make an oracle lie?
 
