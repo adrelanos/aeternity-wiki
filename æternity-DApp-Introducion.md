@@ -14,12 +14,16 @@ It is a little spread around now.
 We need a way to organize dapps so it is easy to upgrade a basic aeternity node to support whatever dapp you want.
 
 This is the language for writing smart contracts:
-[/BumblebeeBat/chalang](../../../../BumblebeeBat/chalang)
+[Zack’s Chalang](../../../../aeternity/chalang/)
 
 
 ***
 related: [æternity DApp Development](æternity-DApp-Development)
 ***
-sources:
-* [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)
-* [SL docs](../../../../aeternity/testnet/tree/master/docs/)
+Sources:
+
+| No | Type | Source                                                           |
+|:---|:-----|:-----------------------------------------------------------------|
+| 1  | docs | [SL docs](../../../../aeternity/chalang/blob/master/README.md)   |
+| 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)  |
+| 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master//Opcodes.md) |
