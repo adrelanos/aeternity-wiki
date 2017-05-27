@@ -21,9 +21,8 @@
 ### Research
 - [Idea Box][ideabox]
 - [Research & Theory][research]
-- [Hashing ≠ Encryption](hashing--encryption)
 - [Cryptoeconomics](Cryptoeconomics)
-- [Humanistic Use Cases](hHumanistic-Use-Cases)
+- [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
 
 ### æternity Technologies
 - [Technology of æternity][tech]
@@ -31,7 +30,6 @@
 - [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
 - [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
 - [æternity in the blockchain space](æternity-in-the-blockchain-space)
-- [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
 
 ### Infrastructure
 - [Testnet setup start and use](testnet-setup-start-and-use)
