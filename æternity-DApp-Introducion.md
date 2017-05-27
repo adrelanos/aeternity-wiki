@@ -1,5 +1,7 @@
 # DApp Development Introduction
 
+[NOT only a copy and past! DO NOT DELETE, please. THX - my pull request](https://github.com/aeternity/testnet/pull/94)
+
 Take a look at the dice smart contract for an idea of what state channel
 applications will look like. It is a slot machine where you gamble money
 at 50/50 odds.
@@ -15,7 +17,7 @@ at 50/50 odds.
 >want.
 
 This is the language for writing smart contracts:
-[/BumblebeeBat/chalang](../../../../aeternity/chalang)
+[/aeternity/chalang](../../../../aeternity/chalang)
 
 **On sources tree we have this modules:**
 
@@ -40,24 +42,8 @@ This is the language for writing smart contracts:
 8. test_chalang.erl
 
 ***
-
 related: [æternity DApp Development](æternity-DApp-Development)
-
 ***
-
-Sources:
-
-æternity DApp Development
-=========================
-
-* [DApp Developper Introducion](æternity-DApp-Introducion)
-* [Scripting Language](æternity-Scripting-Language)
-  * [æternity Scripting Language Examples](æternity-Scripting-Language-Examples)
-* [Resources](æternity-DApp-Developer-Resources)
-
-
-***
-
 Sources:
 
 | No | Type | Source                                                          |
