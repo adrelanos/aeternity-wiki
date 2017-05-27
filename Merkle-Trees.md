@@ -215,7 +215,7 @@ data synchronization thereby making network I/O cheaper.
 ## æternity Merkle trees
 
 The æternity blockchain uses Merkle trees to verify data. At the time
-this paper was composed there were 8 Merkle trees in the æternity
+this paper was composed there were 9 Merkle trees in the æternity
 blockchain. The following is a brief description:
 
 ### æternity oracles:
@@ -226,6 +226,8 @@ question is stored and are the results of the oracles that have existed.
 They are stored by ID. This data is available to the virtual machine.
 The result is stored in 1 byte. Either it is 0 for false, 1 for true, 2
 if the question was bad, or 4 if the question hasn't been answered yet.
+Oracles are included in the generation of the state-hash that is recorded
+on the block's header.
 
 related æ-wiki pages: [Oracles](Oracles)
 ***
@@ -238,7 +240,8 @@ related æ-wiki pages:
 ***
 ### æternity channels:
 
-This stores channels by an integer channel ID.
+This stores channels by an integer channel ID. Channels are also included
+in the generation of the state-hash that is recorded on the block's header.
 
 related æ-wiki pages: [Channels](https://github.com/aeternity/wiki/wiki/Channels), [State-Channels](State-Channels)
 ***
@@ -246,7 +249,8 @@ related æ-wiki pages: [Channels](https://github.com/aeternity/wiki/wiki/Channel
 
 This tree stores accounts by integer ID. Each account has 2 Merkle roots
 written in them. One is for a shares tree, the other is for an oracle
-bets tree.
+bets tree. Accounts are included in the generation  of the state-hash that
+is recorded on the block's header.
 
 related æ-wiki pages:   [Accounts]()
 ***
@@ -271,14 +275,16 @@ related æ-wiki pages: [Oracles](Oracles),
 
 Proof of burn tree stores by address. It stores the number of AE tokens
 that this address has burned. This data is available to the virtual
-machine.
+machine. Proof of burn is also included in state-hash generation that is
+recorded on the block's header.
 
 related æ-wiki pages:   [Proof of burn]()
 ***
 ### æternity proof of existence
 
 This tree stores by hash. If returns a 1 if the thing exists, a 0
-otherwise. This data is available to the virtual machine.
+otherwise. This data is available to the virtual machine. Proof of
+existance is included in the generation of the state-hash that is recorded on the block's header.
 
 related æ-wiki pages:   [Proof of Existence]()
 ***
