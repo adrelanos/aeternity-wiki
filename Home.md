@@ -43,9 +43,11 @@ The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for
 
 [Phase 2, the "Early Adopter" round](https://wallet.aeternity.com/) begins on May 29th and will be open for three full weeks - or until contributions reach the cap of twenty one million Swiss Francs (CHF). This round will allow contributors to purchase 800 AE for each ETH contributed over the first 24 hours, 750 over the remainder of the first week, 700 AE per ETH over the second week, and 650 ETH over the third week. BTC will also be accepted.
 
+To contribute to the campaign, you will be obliged to use the aeternity contribution wallet at [wallet.aeternity.com](https://wallet.aeternity.com/), fund that wallet and then proceed with your transfer.
+
 Contributors will be able to use their aeon after Phase 2 is complete. These tokens will be distributed right after Phase 2, directly to the contribution addresses (for ETH contributors) as [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network). These will be taken care of automatically by a smart contract.
 
-At the bottom of [wallet.aeternity.com](https://wallet.aeternity.com/) you can enter the public address from which you made your contribution to the aeternity funding address and you will see how many AE you will receive upon their issuance.
+At the bottom of [wallet.aeternity.com](https://wallet.aeternity.com/), you can enter the public address from which you made your contribution to the aeternity funding address.  How many AE you will receive upon their issuance, will be displayed.
 
 The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
