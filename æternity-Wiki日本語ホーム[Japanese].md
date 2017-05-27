@@ -27,7 +27,7 @@
 
 ステートチャネル技術に関する最近の研究では、多くの場合、ステートオンチェーン上にデータを保存することは不要であることが証明されてます。ほとんどの場合、全てのデータはステートチャネル内に保存することができます。そしてブロックチェーンは結果の情報を保存し解決すため、及び・または争いが発生した際の仲裁方法としてのみ使用されます。これは、ステートチャンネルではできるが、ブロックチェーンではできないチューリング完全なスマートコントラクトによってマークされているアルタネイティブブロックチェーンアーキテクチャを示してます。これにより、全てのトランザクションが独立して処理されるため、スケーラビリティが爆発的に向上します。さらに、このアプローチは、スマートコントラクトが共有されないため、コントラクトのテスト及び検証が大幅に簡素化されます。<p>
 
-[[Augur]] is a decentralized prediction market that attempted to integrate real-world data with the blockchain in a decentralized manner via a process that implements a consensus mechanism on smart contracts, rather than implementing the consensus mechanism provided by the underlying blockchain. This will result in inefficiencies, yet it won’t boost security. So, it is logically better to generalize the consensus mechanism of the blockchain so that it can provide information on the next [[internal state]] as well as on the external world’s state. So, we can assume that the blockchain’s consensus mechanism dictates the outcome of executing what [[complexity theory]] describes as an “[[oracle machine]]”. An oracle machine is a theoretical machine that is far more powerful than a [[Turing machine]] due to the fact that it can bear answers to questions whose answers cannot be computed such as “Who won the Super Bowl in 2016?”<p>
+[[Augur]]は基礎レイヤーブロックチェーンによってデフォルトで使うことができるコンセンサスアルゴリズムを実装するのではなく、実世界のデータを分散型な方法でブロックチェーン上に書き込もうとする分散型予測市場です。この方法は非効率で、またセキュリティーも高くありません。なので、[[ブロックチェーン内の状態]]と実世界のデータに関するデータを提供するためには、ブロックチェーンのコンセンサスメカニズムを普遍化することが論理的に優れています。したがってブロックチェーンのコンセンサスメカニズムを[[複雑性理論]]化すると「[[オラクルマシン]]」と表現できると推測できます。オラクルマシーンは、「スーパーボールを獲得したのは誰か？」といった計算できない問いに対する答えを出せるといった理由から、[[チューリング完全なマシーン]]よりもはるかに強力です。<p>
 
 <b>Overview and Applications of æternity:<p>
 
