@@ -167,7 +167,7 @@ recover after each attack with an honest oracle.
   is market based instead of voting based. It is connected to the
   blockchain consensus mechanism in a way that makes it more secure.
 * æternity is a Turing complete *stateless* smart contract system with a
-  built-in oracle. It allows the creation of trustless Dapps such as
+  built-in oracle system. It allows the creation of trustless Dapps such as
   insurance, sports betting, stablecoins, prediction markets, insured
   crowdfunding, and card game gambling.
 
@@ -175,7 +175,7 @@ recover after each attack with an honest oracle.
 
 Yes, æternity is a next-level, brand new blockchain, with many features
 that solve current issues in blockchain technology in an elegant way.
-Reading [the whitepaper](Whitepaper_English) is the best way to
+Read [the whitepaper](Whitepaper_English) to
 understand æternity’s design. æternity’s first testnet is already
 online, ready for testing and mining.
 
