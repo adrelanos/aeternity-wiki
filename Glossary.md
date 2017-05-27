@@ -76,6 +76,10 @@ block. Block rewards can be a mixture of coins and transaction fees,
 depending on the policy used by the cryptocurrency in question, and
 whether all of the coins have already been successfully mined.
 
+### BTC
+
+BTC is a common unit used to designate one bitcoin.
+
 ***
 
 ## C
