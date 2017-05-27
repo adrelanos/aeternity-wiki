@@ -102,6 +102,7 @@
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
 ### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
+- [Dedicated Wiki channel on Slack](https://pacific-beach-20900.herokuapp.com/)
 - [æternity-Documentation][doc]
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 
