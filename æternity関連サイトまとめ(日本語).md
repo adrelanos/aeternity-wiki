@@ -27,3 +27,5 @@
 - [Whitepaper（日本語、未完）](https://github.com/aeternity/wiki/wiki/Whitepaper_Japanese)
 
 - [Ethereumとæternityの比較表](http://fusanpro.com/aeternity/aeternity.html)
+
+- [aeternityブロックチェーンユースケースとICO参加方法](http://cryptocurrencymagazine.com/aeternity-blockchain-usecase-and-how-to-join-ico)
