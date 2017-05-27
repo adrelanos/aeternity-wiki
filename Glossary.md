@@ -4,7 +4,7 @@ GLOSSARY FOR æTERNITY BLOCKCHAIN
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) |   [Numbers](#0123)               |
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:-----------------|
 | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) |  [linking to here](#linking-to-this-glossary)                |
-| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         |  [Sources](#sources-whitepaper-english) |
+| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         |  [Sources](#sources) |
 
 ***
 
@@ -425,6 +425,6 @@ But you have no time to explain it at this moment, than ! If doesn't matter, do 
 or no one will it do. The main thing is linking to here. (please fix my bad english, if know what I mean)
 
 
-## Sources: [[Whitepaper_English]]
-
+## Sources: 
+[[Whitepaper_English]]
 [Blockchain Technology Glossary](http://www.blockchaintechnologies.com/blockchain-glossary)
