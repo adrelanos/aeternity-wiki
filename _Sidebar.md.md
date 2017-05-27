@@ -40,7 +40,7 @@
 - [Terminal interface commands](Terminal-interface-commands)
 - [API Commands](API-Commands)
 - [Api Examples](Api-Examples)
-- [Cuckoo Cycles](Cuckoo Cycles)
+- [Cuckoo Cycles](Cuckoo-Cycles)
 - [Mining][mining]
 - [Merkle Trees](Merkle-Trees)
 - [Transaction Types](Transaction-Types)
