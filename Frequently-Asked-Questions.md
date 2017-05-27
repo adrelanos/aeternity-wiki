@@ -12,13 +12,13 @@
 * [How æternity protected from another DAO attack?](#how-is-æternity-protected-from-another-dao-attack)
 * [Can smart contracts be formally verified?](#can-smart-contracts-be-formally-verified)
 * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
-* [What is the Circulating Supply of AE?](#what-is-the-circulating-supply-of-æ)
-* [What is the Maximum Supply of AE?](#what-is-the-maximum-supply-of-ae)
-* [How is the AE dispersed?](#how-is-the-ae-dispersed)
+* [What is the Circulating Supply of aeon?](#what-is-the-circulating-supply-of-aeon)
+* [What is the Maximum Supply of aeon?](#what-is-the-maximum-supply-of-aeon)
+* [How is the aeon dispersed?](#how-is-the-aeon-dispersed)
 * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
 * [How does æternity compare with..?](#how-does-æternity-compare-with)
 * [æternity is a new blockchain?](#æternity-is-a-new-blockchain)
-* [What are æternity tokens be used for?](#what-are-æternity-tokens-be-used-for)
+* [What are æternity tokens used for?](#what-are-æternity-tokens-be-used-for)
 * [What are some interesting applications?](#what-are-some-interesting-applications)
 * [What makes æternity smart contracts special?](#what-makes-æternity-smart-contracts-special)
 * [What are the features of the æternity virtual machine?](#what-are-the-features-of-the-æternity-virtual-machine)
@@ -179,10 +179,10 @@ Read [the whitepaper](Whitepaper_English) to
 understand æternity’s design. æternity’s first testnet is already
 online, ready for testing and mining.
 
-## What are æternity tokens be used for?
+## What are æternity tokens used for?
 
-æternity tokens are called aeon (AE for short), and are the access
-tokens to the æternity blockchain. They act as a unit of account for the
+æternity tokens are called aeon (AE for short) and are the access
+tokens to the æternity blockchain. They are the unit of account for the
 resources spent. Aeon are the energy (“crypto-fuel”) used to power any
 application implemented on the æternity platform. Every action (and even
 inaction) costs something, even if only a fraction of a cent.
