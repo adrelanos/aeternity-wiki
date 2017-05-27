@@ -250,7 +250,7 @@ Le variabili che definiscono il protocollo sono tutte aggiornate costantemente d
 18 |  
 19 |  1000000 * 24*60*2 / 1000 / 24*3600  
 20 |  = 1000000 / 1000 / 30  
-21 |  = ca. 32 transazioni per secondo (sufficientemente veloce per registrare ogni essere umano entro gli 8 anni)*
+21 |  = ca. 32 transazioni per secondo (sufficientemente veloce perché entro 8 anni ogni essere umano possa aver registrato una transazione accedendo ad un canale)*
 
 Per operare un nodo dobbiamo conservare una copia di tutti i blocchi fino al suo stato conclusivo e dobbiamo essere in grado di registrare cento volte più informazioni nel caso in cui dovesse avvenire un attacco. Stimando che il termine sia due giorni, ci saranno 5760 blocchi fino al termine. Quindi i requisiti di memoria sono di 5760 * 1 megabyte * 100 = 576000 megabyte = 576 gigabyte. In assenza di un attacco servirebbero solo 5.76 gigabyte per conservare i blocchi.  
 
