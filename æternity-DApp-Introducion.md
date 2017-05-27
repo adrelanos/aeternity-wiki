@@ -2,24 +2,51 @@
 
 [NOT only a copy and past! DO NOT DELETE, please. THX - my pull request](https://github.com/aeternity/testnet/pull/94)
 
-Take a look at the dice smart contract for an idea of what state channel applications will look like.
-It is a slot machine where you gamble money at 50/50 odds.
+Take a look at the dice smart contract for an idea of what state channel
+applications will look like. It is a slot machine where you gamble money
+at 50/50 odds.
 
 - [/tree/master/src/dice.erl](../../../../aeternity/testnet/tree/master/src/dice.erl)
 - [/master/src/networking/handler.erl](../../../../aeternity/testnet/tree/master/src/networking/handler.erl#L104)
 - [/master/src/easy.erl#L96](../../../../aeternity/testnet/tree/master/src/easy.erl#L96)
 - [/master/src/networking/internal_handler.erl#L55](../../../../aeternity/testnet/tree/master/src/networking/internal_handler.erl#L55)
 
-It is a little spread around now.
-We need a way to organize dapps so it is easy to upgrade a basic aeternity node to support whatever dapp you want.
+>**Zack said:**
+>It is a little spread around now. We need a way to organize dapps so it
+>is easy to upgrade a basic aeternity node to support whatever dapp you
+>want.
 
 This is the language for writing smart contracts:
-[Zack’s Chalang](../../../../aeternity/chalang/)
+[/BumblebeeBat/chalang](../../../../BumblebeeBat/chalang)
 
+**On sources tree we have this modules:**
+
+| No |                                                                                                       |
+|:---|:------------------------------------------------------------------------------------------------------|
+| 1  | [arithmetic_chalang.erl](https://github.com/aeternity/chalang/blob/master/src/arithmetic_chalang.erl) |
+| 2  | [chalang.app.src](https://github.com/aeternity/chalang/blob/master/src/chalang.app.src)               |
+| 3  | [chalang.erl](https://github.com/aeternity/chalang/blob/master/src/chalang.erl)                       |
+| 4  | [chalang_app.erl](https://github.com/aeternity/chalang/blob/master/src/chalang_app.erl)               |
+| 5  | [chalang_sup.erl](https://github.com/aeternity/chalang/blob/master/src/chalang_sup.erl)               |
+| 6  | [compiler_chalang.erl](https://github.com/aeternity/chalang/blob/master/src/compiler_chalang.erl)     |
+| 7  | [fractions.erl](https://github.com/aeternity/chalang/blob/master/src/fractions.erl)                   |
+| 8  | [test_chalang.erl](https://github.com/aeternity/chalang/blob/master/src/test_chalang.erl)             |
+
+1. arithmetic_chalang
+2. chalang.app.src
+3. chalang.erl
+4. chalang_app.erl
+5. chalang_sup.erl
+6. compiler_chalang.erl
+7. fractions.erl
+8. test_chalang.erl
 
 ***
+
 related: [æternity DApp Development](æternity-DApp-Development)
+
 ***
+
 Sources:
 
 | No | Type | Source                                                           |
