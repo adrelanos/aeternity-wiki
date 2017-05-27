@@ -12,8 +12,8 @@
 * [How æternity protected from another DAO attack?](#how-is-æternity-protected-from-another-dao-attack)
 * [Can smart contracts be formally verified?](#can-smart-contracts-be-formally-verified)
 * [How does on-chain conflict resolution work? (crypto-court)](#how-does-on-chain-conflict-resolution-work-crypto-court)
-* [What is the Circulating Supply of aeon?](#what-is-the-circulating-supply-of-aeon)
-* [What is the Maximum Supply of aeon?](#what-is-the-maximum-supply-of-aeon)
+* [What is the circulating supply of aeon?](#what-is-the-circulating-supply-of-aeon)
+* [What is the maximum supply of aeon?](#what-is-the-maximum-supply-of-aeon)
 * [How is the aeon dispersed?](#how-is-the-aeon-dispersed)
 * [Can malicious rich people make an oracle lie?](#can-malicious-rich-people-make-an-oracle-lie)
 * [How does æternity compare with..?](#how-does-æternity-compare-with)
@@ -124,13 +124,13 @@ parallel deterministically, but it is not deterministic for processes to edit da
 parallel. Since channels can't edit shared memory, we can process all
 the channel transactions in parallel.
 
-## What is the Circulating Supply of aeon?
+## What is the circulating supply of aeon?
 
 Aeon distributed during Contribution Phase 1: 139,089,935.082
 
 Aeon to be distributed during Contribution Phase 2: 21,000,000 Swiss Francs
 
-## What is the Maximum Supply of aeon?
+## What is the maximum supply of aeon?
 
 The maximum supply of aeon tokens will be determined after phase two
 of the æternity backing campaign ends.
