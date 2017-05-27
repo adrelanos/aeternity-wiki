@@ -119,8 +119,7 @@ highest integer and 00000000 is the lowest.
 * 90 stack_size ( -- Size )
 * 91 total_coins %( -- TotalCoins )
 * 92 height %( -- Height )
-* 93 slash %( -- true/false) %if this is part of a solo_stop transaction,
-* then return 0. %If it is part of a slash transaction, return 1
+* 93 slash %( -- true/false) %if this is part of a solo_stop transaction, then return 0. %If it is part of a slash transaction, return 1
 * 94 gas % ( -- X )
 * 95 ram ( -- X ) tells how much space is left in ram.
 * 96 id2addr % ( ID -- Addr )
@@ -143,8 +142,8 @@ block.
 
 ### Function Opcodes
 * 110 : % this starts the function declaration.
-* 111 ; % This symbol ends a function declaration. example : square dup *
-;
+* 111 ; % This symbol ends a function declaration.
+>example : square dup *;
 * 112 recurse %crash. this word should only be used in the definition of a
 word.
 * 113 call %Use the binary at the top of the stack to look in our
@@ -196,5 +195,4 @@ Sources:
 | 1  | docs | [SL docs](../../../../aeternity/chalang/blob/master/README.md)   |
 | 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)  |
 | 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master//Opcodes.md) |
-
 
