@@ -7,7 +7,7 @@
 
 æternity is a [blockchain](https://en.wikipedia.org/wiki/Blockchain) protocol built from scratch in [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) with speed, efficiency and scalability in mind. It offers a unique hybrid [proof of work (PoW)](https://en.wikipedia.org/wiki/Proof-of-work_system) and [proof of stake (PoS)](https://en.wikipedia.org/wiki/Proof-of-stake) [consensus mechanism](https://www.ibm.com/developerworks/cloud/library/cl-blockchain-basics-intro-bluemix-trs/) that can be used to check [[oracles]]. This maximizes efficiency by not layering multiple consensus mechanisms. [[State channels]] maximize scalability and privacy by removing the need to store smart-contract code on-chain. Transfer of [tokens](http://cruiserselite.co.in/downloads/btech/materials/second%20sem/4/e-com/UNIT-3.pdf) through channels is done by function-based [smart contracts](https://en.wikipedia.org/wiki/Smart_contract) which have access to real-world data through the Oracle. æternity thus renders smart contracts faster, easier to execute, and more fault-tolerant, without degrading their performance or functionality.<p>
 
-<b>Csmart contract platforms?<p>
+<b>How does the æternity blockchain improve on smart contract platforms?<p>
 
 There are problems that underlie the presently available smart contract platforms, including the lack of sufficient scalability (global use throughput), coding safety, and relatively inexpensive access to real-world data and chain governance.<p>
 
