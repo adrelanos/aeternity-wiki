@@ -152,6 +152,10 @@ harder it becomes to double spend.
 
 ## E
 
+### ETH
+
+ETH is a common unit used to designate one ether.
+
 ***
 
 ## F
