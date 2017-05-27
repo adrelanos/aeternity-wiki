@@ -249,3 +249,22 @@ The remaining 50% will be assigned to the top ten contributors of the best quali
 Because document evaluation is a very subjective thing, so do not make a lot of bonuses for the bonus editor. Remember that your manuscript may not get the kind of appreciation you expect.
 
 Encyclopedia Awarded by Simply VC Co LTD (https://www.simply-vc-co.ltd/), which is a subsidiary of Simply Holding Co LTD (http://simply-holding.co/).
+who are we 
+
+Aeternity by the German computer scientist "etherflies" Yanislav Malahov and former Augur core developer Zack Hess, former Synereo core developer Jack Pettersson was launched in 2016 to rethink the underlying agreement for today's smart contract. The team has published test network (testnet) source code on Github. Aeternity will be in Beijing time on April 3, 2017 21:05 start global synchronization pre-ICO public sale.
+
+
+what can we do 
+
+The Aeternity block chain can reduce transaction costs by using state channels, chained smart contracts and ebard machines, and the trade is more intimate, faster and safer and more flexible
+
+Aeternity aims to use block-chain technology to avoid the need for paper documents, instead providing a secure and digitized solution that accelerates transaction time, reduces costs, and provides a suitable financing solution for small and medium-sized businesses The
+
+
+Our technological innovation
+Turing State Channel Blocks The most interesting recent recent developments in the industry are the study of state channels. A status channel can be thought of as a Layer 2 network in which smart contracts and transactions occur within the channel, and only the results (final status) are updated to the block chain. We believe that the benchmark principle of block chain trading is that in most cases, only those who are affected by a transaction need to know the deal. On Aeternity, only the status of the network tokens aeon transfer needs to be determined on the chain, and the block chain is only used to determine the final result, or to resolve possible disputes. So the state channel will exponentially increase transaction speed, throughput and privacy performance. To the center of the whistle machine inspired by the truthcoin, Augur and Gnosis, Aeternity provides a token system based on the token aeon as a means of reward and punishment to ensure that through the public wisdom and the game to obtain reliable outside the chain data mining and the chain mechanism. Friendship naming system Yani's rich development experience will bring a human-readable public key address encryption nickname program for Aeternity users. Perhaps it will become the mainstream of the future, after all, I would rather transfer to Alice.12345, rather than a bunch of complex, there is no linguistic meaning of the string (like the vast majority of the existing block chain system). For more technical details, please refer to the official white paper.
+
+Aeternity's technology application scenario
+Trade finance; insurance event contract; small micro-paid API; security activities of various activities; cross-chain atomic level exchange; forecast market and so on.
+
+our team
