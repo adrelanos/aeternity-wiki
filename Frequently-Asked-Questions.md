@@ -237,7 +237,7 @@ small.
 
 ## Why is Ethereum used for the token sale?
 
-The primary reason for using Ethereum created tokens for the token sale
+The primary reason for using Ethereum tokens for the sale
 is that æternity is not functional yet. Once æternity launches, tokens
 will exist on æternity. However, even if æternity did exist, it wouldn’t
 give us the ability to do a decentralized token sale. Ethereum is great
@@ -248,7 +248,7 @@ which usually don’t require data to be openly shared all of the time.
 ## What is the legal status of æternity?
 
 æternity is incorporated in Liechtenstein and is in regular contact with
-regulators to keep track of the project’s legal status. The team
+regulators in order to keep track of the project’s legal status. The team
 includes a legal adviser and makes use of additional legal consultancy
 on an ad-hoc basis.
 
@@ -270,8 +270,8 @@ Some nodes will run trustless exchanges for any asset, as well as
 collect transaction fees. We envision nodes that let people use state
 channels to play games like Go, Monopoly, slot machines, or poker –
 single player, with your friends, or with strangers. æternity enables
-trustless financial applications, but not necessarily decentralized
-applications. Anyone can start a “centralized server” and use our
+trustless financial applications, but doesn't require decentralization.
+Anyone can start a “centralized server” and use our
 software to create trustless financial tools.
 
 There can be "servers/nodes" to invest in stocks, derivatives, or
@@ -280,7 +280,7 @@ Other nodes can specialize in recycling old accounts: There is a fee for
 having an account open. If the account runs out of money, anyone will be
 able to delete it for a small reward.
 
-Some nodes will just run trading software. They will buy and sell assets
+Some nodes will run trading software. They will buy and sell assets
 offered by market makers. Some nodes will specialize in participation in
 prediction markets, running the consensus mechanism. This will be
 profitable because transaction fees are the initial liquidity in these
