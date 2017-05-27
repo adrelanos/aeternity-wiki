@@ -52,11 +52,7 @@ adoption and suitable for private use cases.
 Since contracts on æternity are independent, they can be processed in
 parallel.
 
-On Ethereum it is possible to move computation, but it is much more
-complicated than standard contracts. A lot of boilerplate code needs to
-be reimplemented for every contract.
-
-On æternity computation by default happens off-chain.
+On æternity computation by default happens off-chain. While it is possible to move computation in Ethereum, it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
 
 ## In what language is æternity written?
 
