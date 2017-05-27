@@ -143,14 +143,14 @@ Following phase two of the æternity backing campaign, 82% of the total aeon tha
 
 ## Can malicious rich people make an oracle lie?
 
-If people try to make the oracle lie, the blockchain ends up forking
-into two. One side is honest and the other dishonest. The attackers lose
+If people try to make the oracle lie, the blockchain forks
+in two: One side is honest and the other dishonest. The attackers lose
 their bets on both sides of the fork, and the defenders win their bets
-on both sides. The side that answers the question honestly is the
+on both. The side that answers the question honestly is the
 official æternity blockchain, and the other side is a new altcoin.
 
-The people who caused the attack lose all the money they attacked with.
-The defenders all earn twice as much money as they used to defend with.
+The people who caused the attack will lose all the money they attacked with.
+The defenders all earn twice the money that they used to defend.
 Even a whale can't afford to do this attack many times, and we quickly
 recover after each attack with an honest oracle.
 
