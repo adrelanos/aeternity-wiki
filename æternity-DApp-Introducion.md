@@ -1,7 +1,5 @@
 # DApp Development Introduction
 
-[NOT only a copy and past! DO NOT DELETE, please. THX - my pull request](https://github.com/aeternity/testnet/pull/94)
-
 Take a look at the dice smart contract for an idea of what state channel
 applications will look like. It is a slot machine where you gamble money
 at 50/50 odds.
@@ -17,20 +15,20 @@ at 50/50 odds.
 >want.
 
 This is the language for writing smart contracts:
-[/BumblebeeBat/chalang](../../../../BumblebeeBat/chalang)
+[/BumblebeeBat/chalang](../../../../aeternity/chalang)
 
 **On sources tree we have this modules:**
 
 | No |                                                                                                       |
 |:---|:------------------------------------------------------------------------------------------------------|
-| 1  | [arithmetic_chalang.erl](https://github.com/aeternity/chalang/blob/master/src/arithmetic_chalang.erl) |
-| 2  | [chalang.app.src](https://github.com/aeternity/chalang/blob/master/src/chalang.app.src)               |
-| 3  | [chalang.erl](https://github.com/aeternity/chalang/blob/master/src/chalang.erl)                       |
-| 4  | [chalang_app.erl](https://github.com/aeternity/chalang/blob/master/src/chalang_app.erl)               |
-| 5  | [chalang_sup.erl](https://github.com/aeternity/chalang/blob/master/src/chalang_sup.erl)               |
-| 6  | [compiler_chalang.erl](https://github.com/aeternity/chalang/blob/master/src/compiler_chalang.erl)     |
-| 7  | [fractions.erl](https://github.com/aeternity/chalang/blob/master/src/fractions.erl)                   |
-| 8  | [test_chalang.erl](https://github.com/aeternity/chalang/blob/master/src/test_chalang.erl)             |
+| 1  | [arithmetic_chalang.erl](../../../../aeternity/chalang/blob/master/src/arithmetic_chalang.erl) |
+| 2  | [chalang.app.src](../../../../aeternity/chalang/blob/master/src/chalang.app.src)               |
+| 3  | [chalang.erl](../../../../aeternity/chalang/blob/master/src/chalang.erl)                       |
+| 4  | [chalang_app.erl](../../../../aeternity/chalang/blob/master/src/chalang_app.erl)               |
+| 5  | [chalang_sup.erl](../../../../aeternity/chalang/blob/master/src/chalang_sup.erl)               |
+| 6  | [compiler_chalang.erl](../../../../aeternity/chalang/blob/master/src/compiler_chalang.erl)     |
+| 7  | [fractions.erl](../../../../aeternity/chalang/blob/master/src/fractions.erl)                   |
+| 8  | [test_chalang.erl](../../../../aeternity/chalang/blob/master/src/test_chalang.erl)             |
 
 1. arithmetic_chalang
 2. chalang.app.src
@@ -49,8 +47,21 @@ related: [æternity DApp Development](æternity-DApp-Development)
 
 Sources:
 
-| No | Type | Source                                                           |
-|:---|:-----|:-----------------------------------------------------------------|
-| 1  | docs | [SL docs](../../../../aeternity/chalang/blob/master/README.md)   |
-| 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)  |
-| 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master//Opcodes.md) |
+æternity DApp Development
+=========================
+
+* [DApp Developper Introducion](æternity-DApp-Introducion)
+* [Scripting Language](æternity-Scripting-Language)
+  * [æternity Scripting Language Examples](æternity-Scripting-Language-Examples)
+* [Resources](æternity-DApp-Developer-Resources)
+
+
+***
+
+Sources:
+
+| No | Type | Source                                                          |
+|:---|:-----|:----------------------------------------------------------------|
+| 1  | docs | [SL docs](../../../../aeternity/chalang/blob/master/README.md)  |
+| 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/) |
+| 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master/opcodes.md) |
