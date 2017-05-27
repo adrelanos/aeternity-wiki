@@ -67,6 +67,7 @@ and so forth.
 * make sure you use relative links wherever possible! eg. if you want to
   refer to the "[[Understanding æternity|Understanding-æternity]]" page,
   you can use `[[Understanding æternity|Understanding-æternity]]`
+* Use hashes for headers (# = H1 / ## = H2 / ### = H3). *** = horizontal line.
 
 **When editing anything, please always comment your changes in the edit
 message.**
