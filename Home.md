@@ -53,3 +53,22 @@ https://blog.aeternity.com/security-transparency-simplicity-1411fad10974
 ## Learn More
 The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/), feel free to join us!
 _This will be rapidly expanded._
+Allocation of funds:
+
+
+Token Distribution: 82% of the tokens are distributed to participating investors, and 18% of the tokens are allocated to Aeternity, the Foundation and the founding team.
+
+project instruction
+
+
+
+
+Next-generation block chain network Aeternity by the German-born computer scientist "Tower of the Godfather" Yanislav Malahov and former Augur core developer Zack Hess, former Synereo core developer Jack Pettersson launched in 2016, gathered a number of subversive innovation in one, aimed at Re - the underlying agreement for today 's smart contract. Recently, the team has published on the Github test network (testnet) source code.
+
+25.png
+
+Aeternity Technology Advantage
+
+Turing complete state channel (State Channel)
+
+The state channel is essentially a proprietary, Turing complete intelligent contract execution environment established by both parties to the transaction. Both parties run the smart contract in the status channel and sign the status update, and the block chain is responsible for settlement and execution (only In the case of controversy). In the Aeternity network, only the state updates of its aeon token transfer need to be determined on the chain, and the aeon can transfer the premise that the parties to the transaction have already deposited it into the status channel. This will allow all channels to be independent, and any transactions involving channels can be handled in parallel, significantly increasing transaction throughput. Transactions related to the data in the state channel, can be a good protection of privacy.
