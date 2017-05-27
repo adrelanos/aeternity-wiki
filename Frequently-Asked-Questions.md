@@ -66,7 +66,7 @@ performance.
 
 ## Which PoW Algorithm is used for mining in æternity?
 
-æternity uses "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more
+æternity uses the "Cuckoo Cycle" Proof-of-Work hash algorithm. It is more
 power efficient than most other algorithms currently available.
 Theoretically, devices with low power such as smartphones and tablets
 can mine on "Cuckoo Cycle" efficiently.
