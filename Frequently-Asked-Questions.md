@@ -124,14 +124,11 @@ parallel deterministically, but it is not deterministic for processes to edit da
 parallel. Since channels can't edit shared memory, we can process all
 the channel transactions in parallel.
 
-## What is the Circulating Supply of æ?
+## What is the Circulating Supply of aeon?
 
-Total æ distributed during Contribution Phase 1: 139,089,935.082
+Aeon distributed during Contribution Phase 1: 139,089,935.082
 
-Total æ to be distributed during Contribution Phase 2: 21,000,000 CHF
-(Swiss Francs)
-
-Total æ in circulation after contribution phase 2:
+Aeon to be distributed during Contribution Phase 2: 21,000,000 Swiss Francs
 
 ## What is the Maximum Supply of AE?
 
