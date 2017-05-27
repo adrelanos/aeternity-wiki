@@ -69,7 +69,7 @@ To check if you are currently mining:
 mine:is_on().
 ```
 
-If it answers **Go**, it's mining!
+> Note: If it answers **Go**, it's mining!
 
 ***
 
@@ -99,12 +99,12 @@ easy:mempool().
 
 ***
 
-To look up a block by its number. This command is looking up block
-number 4.
+To look up a block by its number.
 
 ```
 block:read_int(4)
 ```
+> Note: This command is looking up block number 4. Just place the block number you are looking for in between the Parentheses ``()``. 
 
 ***
 
@@ -155,7 +155,7 @@ To find out your address:
 keys:address().
 ```
 
-If it returns something less than 1, that means you don't have an
+> Note: If it returns something less than 1, that means you don't have an
 account yet.
 
 ***
@@ -226,7 +226,7 @@ keys:unlock("password").
 Signing
 -------
 
-First you have to have your keys unlocked. See [here](#Lock and Unlock)
+First you have to have your keys unlocked. See [here](#Lock-and-Unlock)
 Then, to manually sign a transaction:
 
 ```
@@ -249,12 +249,13 @@ Passwords and Keys
 The node keeps an encrypted copy of your private key. The decrypted copy
 is only stored in RAM.
 
-You can generate a new private key this way: ( !! Warning !! This
-deletes your old private key!!)
+You can generate a new private key this way:
 
 ```
 keys:new("password").
 ```
+( **!! Warning !!** This
+deletes your old private key!!)
 
 ***
 
@@ -352,11 +353,11 @@ easy:close_channel().
 
 ***
 
-After closing channel you need to sync with the network to see if your
+After closing the channel you need to sync with the network to see if your
 channel is closed.
 
 If your channel partner disappears, or breaks, you can still get your
-money without his help. Start with a solo-close transaction, then wait
+money without his or her help. Start with a solo-close transaction, then wait
 over 100 blocks, then do a channel timeout transaction.
 
 ```
@@ -455,7 +456,8 @@ oracle_unmatched(OracleID, OrderID).
 **//TODO  Add more commands.**
 
 ***
-Source: zack-bitcoin, keypair and stefek99
+### Source:
+ zack-bitcoin, keypair and stefek99
 [/aeternity/testnet](https://github.com/aeternity/testnet/blob/master/README.md)
 and
 [/testnet/docs](https://github.com/aeternity/testnet/blob/master/docs/keys.md)
