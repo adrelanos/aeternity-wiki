@@ -3,7 +3,7 @@
 [**Wiki Editing Guidelines & To do list**][todo]
 
 ### Basics
-- [HOME](https://github.com/aeternity/wiki/wiki)
+- [Home](https://github.com/aeternity/wiki/wiki)
 - [Understanding æternity][understandAE]
 - [Getting Started][started]
 - [Frequently Asked Questions][faq]
