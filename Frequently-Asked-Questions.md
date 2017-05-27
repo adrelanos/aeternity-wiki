@@ -56,8 +56,8 @@ On æternity computation by default happens off-chain. While it is possible to m
 
 ## In what language is æternity written?
 
-The blockchain code of æternity core is written in Erlang, which makes
-it easy to write distributed, fault-tolerant, soft real-time and highly
+The blockchain of æternity is written in Erlang, which makes
+it easy to write distributed, fault-tolerant, soft real-time, and highly
 available unstoppable applications.
 
 Erlang was chosen because it is the perfect choice to write a blockchain
