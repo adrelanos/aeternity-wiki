@@ -1,13 +1,15 @@
 GLOSSARY FOR æTERNITY BLOCKCHAIN
 ================================
 
-| [A](#A) | [B](#B) | [C](#C) | [D](#D) | [E](#E) | [F](#F) | [G](#G) | [H](#H) | [I](#I) |
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-| [J](#J) | [K](#K) | [L](#L) | [M](#M) | [N](#N) | [O](#O) | [P](#P) | [Q](#Q) | [R](#R) |
-| [S](#S) | [T](#T) | [U](#U) | [V](#V) | [W](#W) | [X](#X) | [Y](#Y) | [Z](#Z) |   [Numbers](#0123)   |
+| [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) |                  |
+|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:-----------------|
+| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) |                  |
+| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Numbers](#0123) |
 
 ***
+
 ## A
+
 ### Address
 
 Addresses (Cryptocurrency addresses) are used to receive and send
@@ -38,7 +40,9 @@ ASIC is an acronym for "Application Specific Integrated Circuit". ASICs
 are silicon chips specifically designed to do a single task.
 
 ***
+
 ## B
+
 ### Blockchain?
 
 A distributed, tamper-proof database with metered access. The database
@@ -73,6 +77,7 @@ depending on the policy used by the cryptocurrency in question, and
 whether all of the coins have already been successfully mined.
 
 ***
+
 ## C
 
 ### Central Ledger
@@ -106,7 +111,9 @@ verify the transfer of funds. Furthermore, cryptocurrencies operate
 independently of a central bank.
 
 ***
+
 ## D
+
 ### Digital Commodity
 
 A digital commodity is a scarce, electronically transferrable,
@@ -138,13 +145,17 @@ spend it. The more confirmations that a particular transaction has, the
 harder it becomes to double spend.
 
 ***
+
 ## E
 
 ***
+
 ## F
 
 ***
+
 ## G
+
 ### Governance
 
 A well-defined process of making decisions for the future protocol(s) of
@@ -155,7 +166,9 @@ the blockchain.
 The very first block in a block chain.
 
 ***
+
 ## H
+
 ### Hashlocking
 
 This is how we connect pairs of channels to make smart contracts that
@@ -169,26 +182,33 @@ The number of hashes that can be performed by a miner in a given period
 of time (usually a second).
 
 ***
+
 ## I
 
 
 ***
+
 ## J
 
 
 ***
+
 ## K
 
 
 ****
+
 ## L
+
 ### Ledger
 
 An append-only record store, where records are immutable and may hold
 more general information than financial records.
 
 ***
+
 ## M
+
 ### Mining
 
 The process by which transactions are verified and added to a
@@ -203,11 +223,14 @@ signatures is agreed at the creation of the address. Multi signature
 addresses have a much greater resistance to theft.
 
 ***
+
 ## N
 
 
 ***
+
 ## O
+
 ### Oracle
 
 A mechanism that tells the blockchain facts about the world we live in.
@@ -227,7 +250,9 @@ would be using distributed ledgers to manage a national currency.
 A currency minted on-ledger and used on-ledger.
 
 ***
+
 ## P
+
 ### P2P
 
 Peer-to-peer (P2P) refers to the decentralized interactions that happen
@@ -285,17 +310,22 @@ taken some time and computational effort. Thus, a hashed block is
 considered proof of work.
 
 ***
+
 ## Q
 
 ***
+
 ## R
+
 ### Replicated Ledger
 
 A ledger with one master (authoritative) copy of the data, and many
 slave (non-authoritative) copies.
 
 ***
+
 ## S
+
 ### Scrypt
 
 An alternative proof of work system to SHA-256, designed to be
@@ -313,6 +343,7 @@ executed by a computing system, such as a suitable distributed ledger
 system.
 
 ***
+
 ### State Channel
 
 A relationship between two users recorded on the blockchain. It enables
@@ -323,7 +354,9 @@ output. The same input always hashes to the same output. Given an
 output, one cannot calculate the input.
 
 ***
+
 ## T
+
 ### Tokenless Ledger
 
 A tokenless ledger refers to a distributed ledger that doesn’t require a
@@ -342,11 +375,14 @@ block containing the relevant transaction.
 
 
 ***
+
 ## U
 
 
 ***
+
 ## V
+
 ### Validator
 
 A validator is a user who participates in the consensus mechanism. In
@@ -354,24 +390,31 @@ the case of Æternity, every value-holder can participate.
 
 
 ***
+
 ## W
 
 
 ***
+
 ## X
 
 
 ***
+
 ## Y
 
 
 ***
+
 ## Z
 
 
 ***
+
 ## 0123
 
 ***
+
 ## Sources: [[Whitepaper_English]]
+
 [Blockchain Technology Glossary](http://www.blockchaintechnologies.com/blockchain-glossary)
