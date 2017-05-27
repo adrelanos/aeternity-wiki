@@ -12,7 +12,7 @@
 There are three main problems that underlie the presently available smart contract platforms. These include; the lack of sufficient scalability (global use throughput), coding safety and relatively inexpensive access to real-world data and chain governance:<p>
 
 <ol>
-<li>The presently prevalent stateful designs render smart contracts, coded for smart contract platforms like Ethereum, rather hard to analyze. Moreover, combining statefefulness with sequential ordering of transactions greatly reduces the scalability of the Blockchain.
+<li>The presently prevalent stateful designs render smart contracts, coded for smart contract platforms like Ethereum, rather hard to analyze. Moreover, combining statefulness with sequential ordering of transactions greatly reduces the scalability of the Blockchain.
 <li>The difficulty of introducing real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
 <li>Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.</ol><p>
 
