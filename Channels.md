@@ -19,7 +19,7 @@ channel_solo_close, channel_slash, channel_timeout.
 
 If your partner disappears, and you want to close the channel then you
 first publish a solo_close, which gives the current state of the channel
-which is defined by a turing complete contract that outputs a nonce.
+which is defined by a Turing-complete contract that outputs a nonce.
 
 The contract is split into _2 parts_ the _scriptpubkey part_ which both
 participants signed and the _scripsig part_ which only one signed.
@@ -49,12 +49,12 @@ from the **channel_solo_close**.
 | No. | recorded data on Blockchain               |
 |:----|:------------------------------------------|
 | 1.  | amount of money at the channel            |
-| 2.  | the accound id's that control the channel |
+| 2.  | the account id's that control the channel |
 
 The data that gets recorded on-chain for each channel is: How much money
-is in the channel. The 2 accounts ids that control the channel.
+is in the channel. The 2 account IDs that control the channel.
 
 ***
-read also this: [channels untrusted slasher](channels_untrusted_slasher), [how_to_use_channels](how_to_use_channels)
+read this also: [channels untrusted slasher](channels_untrusted_slasher), [how_to_use_channels](how_to_use_channels)
 ***
 [Source: Zack docs](../../../zack-bitcoin/testnet/blob/master/docs/channels.md)
