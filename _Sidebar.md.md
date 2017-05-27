@@ -64,19 +64,18 @@
    - [Resources](æternity-DApp-Developer-Resources)
 
 ### æternity Whitepaper
-- [中文](Whitepaper_Chinese) / [pdf](http://blockchain.aeternity.com/Aeternity区块链白皮书.pdf)
+- [Whitepaper English][WP_engl]
+- [中文](Whitepaper_Chinese)
 - [Whitepaper deutsch](Whitepaper_Deutsch)
-- [Whitepaper English][WP_engl] / [original PDF document](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
-- [Español](Whitepaper_Español) / [pdf](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
+- [Español](Whitepaper_Español)
 - [français](Whitepaper_French)
 - [bahasa Indonesia](Whitepaper_Indonesia)
 - [italiano](Whitepaper_Italian)
 - [日本語](Whitepaper_Japanese)
 - [한국어][WP_kr]
 - [Whitepaper_ Português](Whitepaper_-Português)
-- [русский](Whitepaper_Russian) / [pdf](http://blockchain.aeternity.com/Æternity-whitepaper-russian.pdf)
+- [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
-- [æternity Whitepaper orig.PDF](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
 
 ### MISC
 - [Glossary](Glossary)
