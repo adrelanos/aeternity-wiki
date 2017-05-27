@@ -7,16 +7,15 @@
 - [Understanding æternity][understandAE]
 - [Getting Started][started]
 - [Frequently Asked Questions][faq]
-- [æternity Team][team]
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
+- [æternity Team][team]
 - [æternity Home Page](http://www.aeternity.com/)
 - [Contacts and Groups](Contacts-and-Groups)
 - [æternity Blog](https://blog.aeternity.com)
 - [Bounty Programs][bounty]
 - [Community](Community)
-- [Wikipedia page](Wikipedia-page)
 - [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
 
 ### Research
@@ -79,6 +78,7 @@
 
 ### MISC
 - [Glossary](Glossary)
+- [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
 
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
