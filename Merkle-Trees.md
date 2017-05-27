@@ -23,7 +23,7 @@ Merkle trees
 
 ## What are Merkle trees?
 
-In cryptography and cryptocurrency a Merkle tree: also referred to as a
+In [cryptography](https://en.wikipedia.org/wiki/Cryptography) and cryptocurrency a Merkle tree: also referred to as a
 hash tree, is a mathematical structure that hashes different sets of
 data into a single, compact hash: the Merkle root. It is a tree
 structure in which each leaf node is a hash of a block of data, and each
@@ -160,7 +160,7 @@ hash, and if the hash tree is damaged or fake, another hash tree from
 another source will be tried until the program finds one that matches
 the top hash.
 
-The main difference from a hash list is that one branch of the hash tree
+The main difference from a [hash list](https://en.wikipedia.org/wiki/Hash_list) is that one branch of the hash tree
 can be downloaded at a time and the integrity of each branch can be
 checked immediately, even though the whole tree is not available yet.
 For example, in the picture, the integrity of data block 2 can be
@@ -205,7 +205,7 @@ are useful in peer-to-peer networks because they help verify
 information. They separate the validation of the data from the data
 itself even if it comes from a untrusted source. This is a concern in a
 peer-to-peer network. Merkle trees also significantly reduce the network
-I/O packet size to perform consistency and data verification as well as
+[I/O](https://en.wikipedia.org/wiki/Input/output) packet size to perform consistency and data verification as well as
 data synchronization thereby making network I/O cheaper.
 
 ***
@@ -284,7 +284,7 @@ related æ-wiki pages:   [Proof of Existence]()
 ***
 ###  æternity contracts
 
-Add some words here:
+Contracts can be gigabytes to terabytes in size.
 
 related æ-wiki pages: [æternity-Contracts](æternity-Contracts)
 ***
