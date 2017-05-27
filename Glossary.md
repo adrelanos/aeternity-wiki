@@ -1,10 +1,10 @@
 GLOSSARY FOR æTERNITY BLOCKCHAIN
 ================================
 
-| [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) |   [Numbers](#0123)               |
-|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:-----------------|
-| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) |  [linking to here](#linking-to-this-glossary)                |
-| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         |  [Sources](#sources) |
+| [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                             |
+|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:---------------------------------------------|
+| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#linking-to-this-glossary) |
+| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Sources](#sources)                          |
 
 ***
 
@@ -326,6 +326,11 @@ slave (non-authoritative) copies.
 
 ## S
 
+### Sign up
+
+Signing up here means: create a state channel and be able to transact.
+It is an example calculation [Yani on Slack](https://aeternity.slack.com/archives/C59BALQCE/p1495863238325733)
+
 ### Scrypt
 
 An alternative proof of work system to SHA-256, designed to be
@@ -418,13 +423,17 @@ the case of Æternity, every value-holder can participate.
 ## linking to this glossary
 
 This is how a link looks like:
-https://github.com/aeternity/wiki/wiki/Glossary#hashlocking, if you are writing an article and using a complex word
-which had to be explained, set this word inside a link like this [balblablub](Glossary#blablablub)
+https://github.com/aeternity/wiki/wiki/Glossary#hashlocking, if you are
+writing an article and using a complex word which had to be explained,
+set this word inside a link like this [balblablub](Glossary#blablablub)
 
-But you have no time to explain it at this moment, than ! If doesn't matter, do it later, do it never, another one will do it for you,
-or no one will it do. The main thing is linking to here. (please fix my bad english, if know what I mean)
+But you have no time to explain it at this moment, than ! If doesn't
+matter, do it later, do it never, another one will do it for you, or no
+one will it do. The main thing is linking to here. (please fix my bad
+english, if know what I mean)
 
 
-## Sources: 
+## Sources:
+
 [[Whitepaper_English]]
 [Blockchain Technology Glossary](http://www.blockchaintechnologies.com/blockchain-glossary)
