@@ -207,20 +207,68 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 ***
 
 ## Compile Backtracking
+
 (logic_or '((both_reveal) (one_reveal) (end 1 0 0)))
 
-(logic_define both_reveal (Secret1 Secret2) ((X (commit 0)) (X (hash Secret1)) (Y (commit 1)) (Y (hash Secret2)) (C (rem (bxor Secret1 Secret2) 2))) (end 3 C (amount)))
+(logic_define both_reveal (Secret1 Secret2) ((X (commit 0)) (X (hash
+Secret1)) (Y (commit 1)) (Y (hash Secret2)) (C (rem (bxor Secret1
+Secret2) 2))) (end 3 C (amount)))
 
-(logic_define one_reveal (Secret) ((N (logic_or (0 1))) (X (commit N)) (X (hash Secret))) (end 2 N (amount)))
+(logic_define one_reveal (Secret) ((N (logic_or (0 1))) (X (commit N))
+(X (hash Secret))) (end 2 N (amount)))
 
-(macro (logic_or L) %each one needs to be a function, that way we can have continutations. (let ((Fs (to_funcs L (cond ((= (cdr L) ()) '(car L)) (
+(macro (logic_or L) %each one needs to be a function, that way we can
+have continutations. (let ((Fs (to_funcs L (cond ((= (cdr L) ()) '(car
+L)) (
 
-(macro (logic_eqs Pointer Func Continuation) (let ((Var '(get Pointer))) '(case ((eqs Var (empty)) (store (Func) Pointer)) ((eqs Var (Func)) ()) (true (Continutation)))))
+(macro (logic_eqs Pointer Func Continuation) (let ((Var '(get Pointer)))
+'(case ((eqs Var (empty)) (store (Func) Pointer)) ((eqs Var (Func)) ())
+(true (Continutation)))))
 
-(macro both_reveal (define (Secret1 Secret2 Continuation VarCounter) (nop (store (empty) (+ 0 VarCounter)) (store (empty) (+ 1 VarCounter)) (store (empty) (+ 2 VarCounter)) (logic_eqs (+ 0 VarCounter) (commit 0) Continutation) (logic_eqs (+ 0 VarCounter) Secret1 Continutation) (logic_eqs (+ 1 VarCounter) (commit 1) Continutation) (logic_eqs (+ 1 VarCounter) Secret2 Continutation) (logic_eqs (+ 2 VarCounter) (rem (bxor Secret1 Secret2) 2) Continutation) (end 3 C (amount)))))
+(macro both_reveal (define (Secret1 Secret2 Continuation VarCounter)
+(nop (store (empty) (+ 0 VarCounter)) (store (empty) (+ 1 VarCounter))
+(store (empty) (+ 2 VarCounter)) (logic_eqs (+ 0 VarCounter) (commit 0)
+Continutation) (logic_eqs (+ 0 VarCounter) Secret1 Continutation)
+(logic_eqs (+ 1 VarCounter) (commit 1) Continutation) (logic_eqs (+ 1
+VarCounter) Secret2 Continutation) (logic_eqs (+ 2 VarCounter) (rem
+(bxor Secret1 Secret2) 2) Continutation) (end 3 C (amount)))))
 <sup>5</sup>
 
+## Compile Functions
 
+getting variables to work correctly in functions can't be done
+completely at compile-time. If a function calls itself recursively, and
+the function is not tail-call optimized, then we need to remember the
+values of the caller-function's variables, so that when the child
+returns, we know how to finish the parent's execution. So, we need to
+keep track of a variable, at run-time, which increments every time we
+call a function, once for each of the function's inputs. The goal is to
+never re-use variables for functions that are being executed
+simultaniously.
+
+f(x) -> cond (= x ()) () true ((f (cdr (x))) drop %x needs to still
+exist at this point, with value 'x' x)
+
+Fdepth will keep track of how many variables have been defined. When
+returning from a function, fdepth needs to decrease by the number of
+variables to to the caller function.
+
+When calling a function, Fdepth needs to increase by the number of
+variables to the caller function.
+
+So variables in functions get compiled something like this:
+
+(define func1 (x y) (+ x y)) (define func2 (x y) (+ (apply func1 (x y))
+y)) (define func3 (x y) (apply func2 (x y)))
+
+macro Fname 9999 ; macro Fdepth Fname @ ; macro A1 Fdepth 0 + ; macro A2
+Fdepth 1 + ; : func1 A1 ! A2 ! A1 @ A2 @ + ; : func2 A1 ! A2 ! A1 @ A2 @
+Fdepth 2 + Fname ! func1 call Fdepth 2 - Fname ! A2 @ +; : func3 A1 ! A2
+! A1 @ A2 @ func2 call ;
+
+: func1 + ; : func2 dup tuck func1 call + ; : func3 func2 call ;
+
+<sup>6</sup>
 ***
 
 related: [æternity DApp Development](æternity-DApp-Development),
@@ -230,10 +278,11 @@ related: [æternity DApp Development](æternity-DApp-Development),
 
 Sources:
 
-| No | Type | Source                                                                                            |
-|:---|:-----|:--------------------------------------------------------------------------------------------------|
-| 1  | docs | [SL docs](../../../../aeternity/chalang/blob/master/README.md)                                    |
-| 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)                                   |
-| 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master/Opcodes.md)                                   |
-| 4  | docs | [BumblebeeBat/chalang](../../../../BumblebeeBat/chalang/tree/master/docs)                         |
-| 5  | docs | [BumblebeeBat/chalang](../../../../BumblebeeBat/chalang/tree/master/docs/compile_backtracking.md) |
+| No | Type | Source                                                                                    |
+|:---|:-----|:------------------------------------------------------------------------------------------|
+| 1  | docs | [SL docs](../../../../aeternity/chalang/blob/master/README.md)                            |
+| 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)                           |
+| 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master/Opcodes.md)                           |
+| 4  | docs | [BumblebeeBat/chalang](../../../../BumblebeeBat/chalang/tree/master/docs)                 |
+| 5  | docs | [backtracking](../../../../BumblebeeBat/chalang/tree/master/docs/compile_backtracking.md) |
+| 6  | docs | [compile functions](../../../../BumblebeeBat/chalang/tree/master/docs/compile_functions.md) |
