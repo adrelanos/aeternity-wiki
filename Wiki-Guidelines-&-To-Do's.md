@@ -49,7 +49,7 @@ and so forth.
 * Please open an
   [issue / ticket](https://github.com/aeternity/wiki/issues)
 * Upload Your image, including a short reason & link to the page you
-  want to use it
+  want to use
 * Image will be reviewed and approved in a timely manner (24h)
 
 ## After **adding** content:
