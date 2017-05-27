@@ -137,7 +137,7 @@ of the æternity backing campaign ends.
 
 ## How is the aeon dispersed?
 
-Following phase two of the æternity backing campaign, 82% of the total aeon that has been created will be distributed to all investors. 17% has been reserved for the founding team, the founding company, and the foundation. 1% of the AE available will be allocated to people who have BTC and ETH addresses. This will encourage the use of aeon tokens and the æternity network.
+Following phase two of the æternity backing campaign, 82% of the total aeon that has been created will be distributed to all investors. 17% has been reserved for the founding team, the founding company, and the foundation. 1% of the aeon available will be allocated to people who have BTC and ETH addresses. This will encourage the use of aeon tokens and the æternity network.
 
 90% of the aeon reserved for the founding team, company, and foundation will be released over time in order to discourage team members from leaving the project.
 
@@ -215,14 +215,14 @@ For example:
 One major advantage is that they are created off-chain. This enables
 interaction with other participating parties quickly and privately. The
 users’ interactions stay off-chain and are kept secure. Only in cases of
-disagreement will a transaction be submitted on-chain, where blockchain
+disagreement will a transaction be submitted on-chain, where the blockchain
 will function as a "crypto-court".
 
 Furthermore, there is no limit to the volume of smart contracts that can
 be processed per second: Since æternity smart contracts don’t share
 state, they can be processed in parallel.
 
-In comparison to Ethereum, we're function-based instead of goto-based.
+In comparison with Ethereum, we're function-based instead of goto-based.
 Thus, it is a lot simpler to reason about and write secure smart
 contract code.
 
@@ -231,8 +231,8 @@ contract code.
 It is a state-of-the-art virtual machine for secure and efficient
 blockchain computations. For example, we have added a tool for
 ‘merklizing’ the code so that the users only publish the portion of code
-that actually gets executed: æternity smart contracts can be terabytes
-in volume without a problem if part that gets executed is relatively
+that actually gets executed. Therefore, æternity smart contracts can be terabytes
+in volume without a problem if part that gets executed is relatively
 small.
 
 ## Why is Ethereum used for the token sale?
