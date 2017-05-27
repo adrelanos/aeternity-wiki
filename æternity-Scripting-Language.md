@@ -1,34 +1,33 @@
-[Work in progress! DO NOT DELETE, please. THX](https://github.com/aeternity/testnet/pull/94)
-
 æternity Scripting Language
 ===========================
 
 
-It is built for blockchain smart contracts.
+It is built for blockchain smart contracts. This is a language make for
+state channels.
 
-This is a language make for state channels.
-
-It is deterministic, so that every node of the blockchain gets the same result.
+It is deterministic, so that every node of the blockchain gets the same
+result.
 
 Functions are tail call optimized.
 
-Has 2 types of gas, one for space, and one for time.
+Manages 2 types of gas:
+* one for space,
+* and one for time.
 
-Instead of using goto for recursion, it uses function calls.
+Instead of using `goto` for recursion, it uses function calls.
 
-[Example code is in this folder](https://github.com/aeternity/chalang/blob/master/examples) , hashlock has lots of documentation.
+[Example code is in this folder](https://github.com/aeternity/chalang/blob/master/examples)
+, [hashlock](../../../../aeternity/chalang/blob/master/examples/hashlock.fs) has lots of documentation.
 
-to install:
+* to install: `sh install.sh`
 
-sh install.sh
+* to start a node with these libraries loaded: `sh start.sh`
 
-to start a node with these libraries loaded:
-
-sh start.sh
-
-to run tests on a node:
-
-1> test_chalang:test().
+* to run tests on a node: 1> `test_chalang:test().`
 
 ***
-related: [æternity DApp Development](æternity-DApp-Development)
+related: [æternity DApp Development](æternity-DApp-Development),
+***
+sources:
+* [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)
+* [SL docs](../../../../aeternity/testnet/tree/master/docs/)
