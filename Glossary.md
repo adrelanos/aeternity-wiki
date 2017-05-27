@@ -159,6 +159,7 @@ ETH is a common unit used to designate one ether.
 ### Ethereum
 
 Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality.
+Ethereum also provides a cryptocurrency token called "ether", which can be transferred between accounts and used to compensate participant nodes for computations performed.
 
 ***
 
