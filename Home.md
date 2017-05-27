@@ -38,6 +38,8 @@ Some of these "æpps" applications include :<p>
 * Supply Chain Management: The supply chain management can be trusted to a smart-contract that is constantly interfacing with the Oracle on æternity. The demand for any product can be fed to the smart-contract through the Oracle. It will automatically trigger the contract to send procurement orders to suppliers, and raw materials providers, taking into consideration the normal delays of each item in the procurement process.
 * Others: [Other possible applications](https://github.com/aeternity/wiki/wiki/Idea-Box#decentralized-education-marketplace-on-%C3%A6ternity) include cross-chain atomic swaps, event contracts (e.g. insurance, whistleblowing) and prediction markets. 
 
+<b>Campaign<p>
+
 The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for three days, beginning on April 3rd, 2017. In that time, contributors were able to purchase 1,100 AE for very ETH spent in the first 24 hours, and 1,000 AE per ETH thereafter. The first thousand who contributed 12 ETH or more were also entitled to a limited edition æternity branded Ledger Nano S hardware wallet. In this time period, 2466 contributers generated 139,099,689.485 AE through total contributions of 121,265.614 ETH and 323.5482 BTC. At current fiat to cryptocurrency conversion rates (as of 5/23/17), the USD value translates to $733,736.14 in BTC and $21,955,139.41 in ETH, totaling $22,688,875.55.
 
 [Phase 2, the "Early Adopter" round](https://wallet.aeternity.com/), which begins on May 29th, will be open for three full weeks - or until contributions reach the cap of twenty one million Swiss Francs (CHF). This round will allow contributors to purchase 800 AE for each ETH contributed over the first 24 hours, 750 over the remainder of the first week, 700 AE per ETH over the second week, and 650 ETH over the third week. As in the first round, BTC will also be accepted.
@@ -47,28 +49,3 @@ Contributors will be able to use their AE after Phase 2 is complete (most probab
 The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation and the founding team, and the remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
 All will be recorded on the Ethereum Blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE tokens for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
-
-https://blog.aeternity.com/security-transparency-simplicity-1411fad10974
-
-## Learn More
-The dedicated Wiki channel on Slack is [HERE](https://pacific-beach-20900.herokuapp.com/), feel free to join us!
-_This will be rapidly expanded._
-Allocation of funds:
-
-
-Token Distribution: 82% of the tokens are distributed to participating investors, and 18% of the tokens are allocated to Aeternity, the Foundation and the founding team.
-
-project instruction
-
-
-
-
-Next-generation block chain network Aeternity by the German-born computer scientist "Tower of the Godfather" Yanislav Malahov and former Augur core developer Zack Hess, former Synereo core developer Jack Pettersson launched in 2016, gathered a number of subversive innovation in one, aimed at Re - the underlying agreement for today 's smart contract. Recently, the team has published on the Github test network (testnet) source code.
-
-25.png
-
-Aeternity Technology Advantage
-
-Turing complete state channel (State Channel)
-
-The state channel is essentially a proprietary, Turing complete intelligent contract execution environment established by both parties to the transaction. Both parties run the smart contract in the status channel and sign the status update, and the block chain is responsible for settlement and execution (only In the case of controversy). In the Aeternity network, only the state updates of its aeon token transfer need to be determined on the chain, and the aeon can transfer the premise that the parties to the transaction have already deposited it into the status channel. This will allow all channels to be independent, and any transactions involving channels can be handled in parallel, significantly increasing transaction throughput. Transactions related to the data in the state channel, can be a good protection of privacy.
