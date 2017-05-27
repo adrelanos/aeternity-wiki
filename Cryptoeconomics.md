@@ -36,7 +36,7 @@ For now, please refer to this section fo the Wiki: [Hashing ≠ Encryption](http
 
 The prices of digital assets like Bitcoin, Ethereum and other cryptocurrencies are greatly influenced by demand and supply. When the demand increases, the price will tend to rise or vice versa. But unlike other markets, cryptocurrency markets have a higher level of volatility as the prices fluctuate frequently.
 
-While demand and supply may seem as the only factors that determine the prices of cryptocurrencies, there are other factors which attribute to the price as well. Speculation is one of those factors. It is fueled by recent press releases, development updates, reputational issues, and a latter called 'fomo', wich is the feeling of missing out something, causing a high demand. More often than not, positive news and press releases tend to bring about a rise in prices and vice versa. 
+While demand and supply may seem as the only factors that determine the prices of cryptocurrencies, there are other factors which attribute to the price as well. Speculation is one of those factors. It is fueled by recent press releases, development updates, reputational issues, and a latter called 'fomo', which is the feeling of missing out something, causing a high demand. More often than not, positive news and press releases tend to bring about a rise in prices and vice versa. 
 
 Other factors include the introduction of digital assets in larger exchange markets with high trading volume, acceptance of digital currencies by more merchants, and improvements over the cryptocurrency.
 
