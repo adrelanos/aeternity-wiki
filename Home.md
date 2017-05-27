@@ -11,10 +11,9 @@
 
 There are three main problems that underlie the presently available smart contract platforms. These include; the lack of sufficient scalability (global use throughput), coding safety and relatively inexpensive access to real-world data and chain governance:<p>
 
-<ol>
-<li>The presently prevalent stateful designs render smart contracts, coded for smart contract platforms like Ethereum, rather hard to analyze. Moreover, combining statefulness with sequential ordering of transactions greatly reduces the scalability of the Blockchain.
-<li>The difficulty of introducing real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
-<li>Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.</ol><p>
+1. The presently prevalent stateful designs render smart contracts, coded for smart contract platforms like [Ethereum](https://en.wikipedia.org/wiki/Ethereum), rather hard to analyze. Moreover, combining statefulness with sequential ordering of transactions greatly reduces the scalability of the Blockchain.
+2. The difficulty of introducing real-world data to smart contract platforms, in a trustless, decentralized and reliable manner significantly hurdles the realization of a large number of advantageous smart-contracts applications.
+3. Most smart contract platforms have limited abilities to update themselves to cope with newly emerging economic and technological knowledge.<p>
 
 Recent studies of the state channel technology have proven that, in many instances, storing state on-chain is unnecessary. In most cases, all data can be stored in state channels, and the Blockchain would be only used to settle the economic results of exchange of information and/or to act as a fallout whenever a dispute occurs. This represents an alternative Blockchain architecture approach, which is marked by [Turing-complete](https://en.wikipedia.org/wiki/Turing_completeness) smart contracts that exist in state channels but not on the Blockchain. This would boost scalability as all transactions are independent and can be processed in parallel. Furthermore, this approach means that smart contracts will not write to [shared state](http://wiki.c2.com/?SharedStateConcurrency), which will greatly simplify contracts’ safety and the process of testing and verification.<p>
 
