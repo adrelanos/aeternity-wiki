@@ -35,7 +35,7 @@ The oracle system lets data outside the blockchain be instantly implemented in �
 
 An oracle is a mechanism to provide the blockchain truths about our world or any element external to the blockchain itself. This is a virtual machine that crowd-sources real-time answers to specific questions using principles of [Prediction Markets](Research-and-Theory#prediction-markets). It can also be used to negotiate fundamental changes on how the system functions, allowing for high adaptability to market demands and other developments. Good examples include weather conditions, currency valuation, competition results, betting results, and any other information accessible to the public.
 
-[More details](Research-and-Theory#decentralized-oracles)
+For more info: [Research and Theory](Research-and-Theory#decentralized-oracles)
 
 
 # What are state channels?
@@ -44,7 +44,7 @@ State channels enable off-chain (or off-network) verification of transactions, d
 
 State channels allow for increased privacy because only the parties participating in a smart contract know about the contents of that smart contract. When a channel is settled on-chain, the only information put onto the blockchain is the transnational value that was exchanged. No contracting state is stored on-chain, so all channels are independent of each other. æternity's scalable smart contract systems improve upon the centralized scaling solutions that are available today. Transaction speed is limited only by bandwidth.
 
-For more information refer to [State Channel](http://www.jeffcoleman.ca/state-channels/). Also see [[State Channels]].
+For more info: [State Channel](http://www.jeffcoleman.ca/state-channels/) and [[State Channels]].
 
 
 # How does æternity work?
@@ -59,7 +59,7 @@ By having prediction markets determine the value of variables that define the pr
 
 Prediction markets could be the solution to public blockchain governance and allow for a novel way of organizing society and global economic interactions.
 
-To learn more: [Governance & æternity](Research-and-Theory#governance--consensus)
+For more info: [Governance & æternity](Research-and-Theory#governance--consensus)
 
 
 # What are æternity token and how are they used and consumed?
