@@ -204,11 +204,13 @@ Nontraditional DRAM architectures - background on innovations in Tromp's Cuckoo 
 * [Rethinking DRAM Design and Organization for Energy-Constrained Multi-Cores - by Udipi et al.](https://www.cs.utah.edu/~rajeev/pubs/isca10.pdf)
 * [The Dynamic Granularity Memory System - Yoon et. al](http://mbsullivan.info/attachments/papers/yoon2012dgms.pdf)
 
-Slasher and Proof-of-Stake
+Consensus, Proof-Of-Stake, and Slasher
 
 * [Proof of Stake: How I Learned to Love Weak Subjectivity by Vitalik Buterin](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)
 * [Slasher: A Punitive Proof-of-Stake Algorithm by Vitalik Buterin](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/)
-* [Slasher Implementation by Zach Hess](https://github.com/zack-bitcoin/slasher)
+* [Slasher implementation by Zach Hess](https://github.com/zack-bitcoin/slasher)
+* [Comparison of Failure Modes between Flying Fox Consensus and Traditional Byzantine Fault Tolerant Consensus by Zach Hess](https://github.com/BumblebeeBat/FlyingFox/blob/master/docs/failure_modes.md)
+* [The Honey Badger of BFT Protocols by Miller et. al](https://eprint.iacr.org/2016/199.pdf)
 
 # Working Theories
 
