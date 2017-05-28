@@ -18,23 +18,24 @@
 - Governance
 - Address naming system
 
+
 # What is the purpose of æternity?
 
+æternity seeks to develop a highly scalable blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create a blockchain that is as efficient and cost-effective as possible. With the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another (e.g. Augur and Gnosis on top of Ethereum). With state channels, privacy and scalability will be improved. Tokens in these state channels can be transferred using function-based smart contracts that have access to network-wide oracle answers. By not storing the contract code or state on the blockchain, smart contracts are easier to analyse and faster to process, with no substantial loss in de facto functionality. Contracts are safer and don't bloat the blockchain.
 
-æternity seeks to develop a highly scalable Blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create a Blockchain that is as efficient and cost-effective as possible. Through use of the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another (Augur and Gnosis on top of Ethereum). Through state channel integration, privacy and scalability will be improved. Tokens in these state channels can be transferred using purely functional smart-contracts that have access to network-wide oracle answers. And while not storing the contract code or state on the Blockchain, we are able to make smart-contracts easier to analyse and faster to process, with no substantial loss in de facto functionality, while also keeping them safer and minimizing the risk of Blockchain bloating.
 
+# What is a blockchain?
 
-# What is a Blockchain?
+A blockchain is a secured ledger distributed among participants' computers and, in this case, governed only by the æternity software. More generally, a blockchain is a distributed database that contains a constantly growing chronological list of unalterable transaction records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node or computer connected to the blockchain network is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
-In short, a Blockchain is a secured ledger distributed among participant's computers and in this case, governed only by the æternity software. More generally, a Blockchain is essentially a distributed database that contains a constantly growing chronological list of unalterable transaction records called "blocks". Each block in the chain consists of bundled transaction data that is cryptographically hashed. In order to prevent tampering of the recorded data in the chain, each block is time-stamped and linked to the previous block in the chain. Typically each node, or computer connected to the Blockchain network, is charged with creating and validating new blocks using various consensus algorithms. Once new blocks are validated, they are appended to the chain. In this way, Blockchains serve as the complete record of all transactions on the network from the genesis block to the most recently completed block.
 
 # What is special about æternity and how does it compare to other Blockchains?
-(Focus on Oracles, practicality, flexibility, the AE court, state channels)
 
 æternity is built for scalable smart contracts that can interface with real-world data through oracles. 
-Other smart contract platforms experiment with 3rd party oracle machines added on top of the consensus; this is inefficient and unnecessary. 
-In contrast, the æternity's oracle is fully integrated into the consensus mechanism and delivers deterministic values (from legacy systems, real-world data or other Blockchains) with which smart contracts may interact.
-Thus, the oracle system offers Blockchain outside data to be instantly implemented in æternity smart contracts and, in so doing, enables countless business use cases.
+Other smart contract platforms have experimented with 3rd party oracle machines added on top of the consensus, but this is inefficient and unnecessary. 
+
+In contrast, the æternity's oracle is fully integrated into the consensus mechanism and delivers deterministic values (from legacy systems, real-world data, or other blockchains) with which smart contracts may interact.
+The oracle system lets data outside the blockchain be instantly implemented in æternity smart contracts, enabling countless business use cases.
 
 ![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
 
