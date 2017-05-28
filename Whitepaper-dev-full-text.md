@@ -11,7 +11,7 @@
 * I. [Introduction](#introduction)
   * [Previous Work](#previous-work)
 
-* II. æTERNITY BLOCKCHAIN
+* II. [æTERNITY BLOCKCHAIN](#æternity-blockchain)
 
 * [Tokens, accounts and blocks](#æternity-tokens-accounts-and-blocks)
   * [Access Token](#æternity-access-token)
@@ -60,7 +60,7 @@
     * [Functional contract language](#æternity-functional-contract-language)
     * [Multi-party channels:](#æternity-multi-party-channels)
 
-* [Sources](#sources)
+* [REFERENCES](#references)
 
 ***
 
@@ -122,16 +122,16 @@ other technologies.
 White Paper section: I.A
 
 Blockchains, first of all Bitcoin, have shown a new way to architect
-value exchange on the Internet [1](#sources). This has been followed by
+value exchange on the Internet [1](#references). This has been followed by
 a number of promising advances: Ethereum demonstrated a way to write
 Turing-complete smart con- tracts secured by a blockchain architecture
-[2](#sources); Truthcoin created tools for making oracles on blockchains
-[3](#sources), while GroupGnosis and Augur showed how to make them more
-efficient [4](#sources); Casey Detrio showed how to make markets on
-blockchains [5](#sources); Namecoin showed how to make the distributed
-equivalent of a domain name server [6](#sources); Factom showed how a
+[2](#references); Truthcoin created tools for making oracles on blockchains
+[3](#references), while GroupGnosis and Augur showed how to make them more
+efficient [4](#references); Casey Detrio showed how to make markets on
+blockchains [5](#references); Namecoin showed how to make the distributed
+equivalent of a domain name server [6](#references); Factom showed how a
 blockchain that stores hashes can be used as a proof of existence for
-any digital data [7](#sources).
+any digital data [7](#references).
 
 These technologies show great promise when it comes to providing
 first-class financial and legal services to anyone. So far however, they
@@ -143,9 +143,82 @@ improve the state of the art in all of these respects.
 
 ***
 
+## æTERNITY BLOCKCHAIN
+
+White Paper section: II
+
+We believe that the lack of scalability, scripting safety and cheap
+access to real-world data of current "smart con- tract platforms" come
+down to three core issues. First, the currently prevailing stateful
+design makes smart contracts written for the platform hard to analyze1,
+and statefulness combined with sequential transaction ordering
+complicates scalability [need cit.]. Second, the high cost of bringing
+real- world data into the system in a decentralized, trustless and
+reliable way complicates or outright prevents the realization of many
+promising applications [need cit.]. Third, the platforms are limited in
+their abilities to update themselves, in order to adapt to new
+technological or economical knowledge. We believe that each of these
+three problems have clear solution paths that should be explored.
+
+First, recent research into state channel technology sug- gests that for
+many use cases, keeping state on-chain is not necessary [need cit.]. It
+is very often entirely possible to store all information in state
+channels, and only use the blockchain to settle any economic results of
+the information exchange, and as a fallback in the case of dispute. This
+suggests an alternative approach to blockchain architecture in which
+Turing-complete smart contracts exist in state channels but not
+on-chain. This increases scalability since all transactions
+
+<sup> 1 The difficulty of analyzing stateful contracts was very clearly
+demon- strated by the re-entrance bug that brought down "The DAO". This
+happened despite the code having been audited by several of Ethereum's
+creators as well as the general community [need cit.].</sup>
+
+become independent and can thus be processed in parallel. Additionally,
+this means that contracts never write to shared state, greatly
+simplifying their testing and verification. We believe that this design
+emphasizes that blockchains are about financial logic rather than data
+storage; there exist decentralized storage solutions that complement
+blockchains perfectly.
+
+Second, applications such as Augur have attempted to bring real-world
+data onto the blockchain in a decentralized way in the process
+essentially building a consensus mechanism inside smart contracts [8](#references),
+instead of utilizing the consensus mechanism of the underlying
+blockchain. This leads to inefficiencies but doesn't increase security.
+The natural conclusion from this is to generalize the blockchain's
+consensus mechanism so that it can provide information not only on the
+next internal state, but also on the state of the external world. It
+could thus be argued that the blockchain's consensus mechanism
+determines the result of running what complexity theory dubs an oracle
+machine: a theoretical machine that is more powerful than a Turing
+machine because it has answers to some questions that can't necessarily
+be computed, such as "Who won football game X?" [need cit.] .
+
+Third, it seems natural that the consensus mechanism could also be used
+to determine the parameters of the system. This allows it to adapt to
+changing external conditions, as well as adopting new research and
+recent developments in the field.
+
+The rest of this section introduces the Æternity blockchain in greater
+detail, starting with a brief overview of accounts, tokens, names and
+the structure of blocks. This is followed by an explanation of our
+approach to state channels and smart contracts, and then a discussion on
+how the blockchain's consensus mechanism can be used both to create an
+efficient oracle mechanism and to govern the system. Finally, we discuss
+scalability from several different angles.
+
+
 ## æternity Tokens, accounts and blocks
 
 White Paper section: II A
+
+Despite being "stateless" from the contract developer's point of view,
+the Æternity blockchain keeps track of several predefined state
+components. We will now explain these, as well as the content of each
+block. For simplicity, this section assumes that every node keeps track
+of the whole blockchain. Possible optimizations are described in section
+[II-E](#æternity-scalability).
 
 
 [☝](#)
@@ -583,26 +656,26 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 
 ## REFERENCES:
 
-| No | Name                                       | Title / Link                                                                                                                   |                                                                                                                                             |
-|:---|:-------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | S. Nakamoto                                | "Bitcoin: A peer-to-peer electronic cash system," 2008.                                                                        | [link](https://bitcoin.org/bitcoin.pdf)                                                                                        |
-| 2  | V. Buterin                                 | "Ethereum: A next-generation smart contract and decentralized application platform," 2014.                                     | [link](https://github.com/ethereum/wiki/wiki/White-Paper)                                                                      |
-| 3  | P. Sztorc                                  | "Market empiricism,"                                                                                                           | [link](http://bitcoinhivemind.com/papers/1_Purpose.pdf)                                                                        |
-| 4  | M. Liston and M. Koppelmann                | "A visit to the oracle," 2016.                                                                                                 | [link](https://blog.gnosis.pm/a-visit-to-the-oracle-fefc9dec5462)                                                              |
-| 5  | C. Detrio                                  | "Smart markets for smart contracts," 2015.                                                                                     | [link](http://cdetr.io/smart-markets/)                                                                                         |
-| 6  | many                                       | Namecoin wiki, 2016.                                                                                                           | [link](https://wiki.namecoin.org/index.php?title=Welcome)                                                                      |
-| 7  | P. Snow, B. Deery, J. Lu,et al.            | "Factom: Business processes secured by immutable audit trails on the blockchain," 2014.                                        | [link](http://bravenewcoin.com/assets/Whitepapers/Factom-Whitepaper.pdf)                                                       |
+| No | Name                                       | Title / Link                                                                                                                   |                                                                                                                          |
+|:---|:-------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|
+| 1  | S. Nakamoto                                | "Bitcoin: A peer-to-peer electronic cash system," 2008.                                                                        | [link](https://bitcoin.org/bitcoin.pdf)                                                                                  |
+| 2  | V. Buterin                                 | "Ethereum: A next-generation smart contract and decentralized application platform," 2014.                                     | [link](https://github.com/ethereum/wiki/wiki/White-Paper)                                                                |
+| 3  | P. Sztorc                                  | "Market empiricism,"                                                                                                           | [link](http://bitcoinhivemind.com/papers/1_Purpose.pdf)                                                                  |
+| 4  | M. Liston and M. Koppelmann                | "A visit to the oracle," 2016.                                                                                                 | [link](https://blog.gnosis.pm/a-visit-to-the-oracle-fefc9dec5462)                                                        |
+| 5  | C. Detrio                                  | "Smart markets for smart contracts," 2015.                                                                                     | [link](http://cdetr.io/smart-markets/)                                                                                   |
+| 6  | many                                       | Namecoin wiki, 2016.                                                                                                           | [link](https://wiki.namecoin.org/index.php?title=Welcome)                                                                |
+| 7  | P. Snow, B. Deery, J. Lu,et al.            | "Factom: Business processes secured by immutable audit trails on the blockchain," 2014.                                        | [link](http://bravenewcoin.com/assets/Whitepapers/Factom-Whitepaper.pdf)                                                 |
 | 8  | J. Peterson and J. Krug                    | "Augur: A decentralized, open-source platform for prediction markets," 2014.                                                   | [link](http://bravenewcoin.com/assets/Whitepapers/Augur-A-Decentralized-Open-Source-Platform-for-Prediction-Markets.pdf) |
-| 9  | A. Swartz                                  | "Squaring the triangle: Secure, decentralized, human-readable names," 2011.                                                    | [link](http://www.aaronsw.com/weblog/squarezooko)                                                                              |
-| 10 | T. Hvitved                                 | "A Survey of Formal Languages for Contracts," inFormal Languages and Analysis of Contract-Oriented Software, 2010, pp. 29--32. | [link](http://www.diku.dk/hjemmesider/ansatte/hvitved/publications/hvitved10flacosb.pdf)                                       |
-| 11 | R. C. Merkle                               | Protocols for public key cryptosystems,"                                                                                       | inIEEE Symposium on Security and Privacy, 1980.                                                                                             |
-| 12 | V. Buterin                                 | "Proof of stake: How I learned to love weak subjectivity," 2014.                                                               | [link](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)                                       |
-| 13 |                                            | "Schema.org schemas," 2016.                                                                                                    | [link](http://schema.org/docs/schemas.html)                                                                                    |
-| 14 |                                            | "Atomic-cross-chain-trading," 2016.                                                                                            | [link](https://en.bitcoin.it/wiki/Atomic%5C_cross-chain%5C_trading)                                                            |
-| 15 |                                            | "Interledger," 2016.                                                                                                           | [link](https://interledger.org)                                                                                                |
-| 16 | K. J. Arrow, R. Forsythe, M. Gorham,et al. | "The promise of prediction markets,"Science, 320 2008                                                                          | [link](http://mason.gmu.edu/˜rhanson/PromisePredMkt.pdf)                                                                       |
-| 17 | Z. Hess                                    | "Chalang," 2016.                                                                                                               | [link](https://github.com/aeternity/chalang)                                                                                   |
-| 18 | White Paper V 0.1                          | [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)                                |                                                                                                                                             |
+| 9  | A. Swartz                                  | "Squaring the triangle: Secure, decentralized, human-readable names," 2011.                                                    | [link](http://www.aaronsw.com/weblog/squarezooko)                                                                        |
+| 10 | T. Hvitved                                 | "A Survey of Formal Languages for Contracts," inFormal Languages and Analysis of Contract-Oriented Software, 2010, pp. 29--32. | [link](http://www.diku.dk/hjemmesider/ansatte/hvitved/publications/hvitved10flacosb.pdf)                                 |
+| 11 | R. C. Merkle                               | Protocols for public key cryptosystems,"                                                                                       | inIEEE Symposium on Security and Privacy, 1980.                                                                          |
+| 12 | V. Buterin                                 | "Proof of stake: How I learned to love weak subjectivity," 2014.                                                               | [link](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)                                 |
+| 13 |                                            | "Schema.org schemas," 2016.                                                                                                    | [link](http://schema.org/docs/schemas.html)                                                                              |
+| 14 |                                            | "Atomic-cross-chain-trading," 2016.                                                                                            | [link](https://en.bitcoin.it/wiki/Atomic%5C_cross-chain%5C_trading)                                                      |
+| 15 |                                            | "Interledger," 2016.                                                                                                           | [link](https://interledger.org)                                                                                          |
+| 16 | K. J. Arrow, R. Forsythe, M. Gorham,et al. | "The promise of prediction markets,"Science, 320 2008                                                                          | [link](http://mason.gmu.edu/˜rhanson/PromisePredMkt.pdf)                                                                 |
+| 17 | Z. Hess                                    | "Chalang," 2016.                                                                                                               | [link](https://github.com/aeternity/chalang)                                                                             |
+| 18 | White Paper V 0.1                          | [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)                                |                                                                                                                          |
 
 [☝](#)
 
