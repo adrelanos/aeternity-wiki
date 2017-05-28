@@ -116,7 +116,7 @@ independently of a central bank.
 
 
 ### Cuckoo Cycle
-The "Cuckoo Cycle" PoW algorithm is more power efficient than that of current blockchains, and enables the development of better random access memory (DRAM) chips for mining. Since low-power devices such as smartphones, tablets and laptops can efficiently mine new tokens, incentives for mining are decentralized and geographically distributed, and shifted away from large mining entities that use application-specific integrated circuit („ASIC“) chips designed specifically to take advantage of a particular PoW algorithm. <sup>[source:](https://eprint.iacr.org/2014/059.pdf) / [Github](https://github.com/tromp/cuckoo)</sup>
+The "Cuckoo Cycle" PoW algorithm is more power efficient than that of current blockchains, and enables the development of better random access memory (DRAM) chips for mining. Since low-power devices such as smartphones, tablets and laptops can efficiently mine new tokens, incentives for mining are decentralized and geographically distributed, and shifted away from large mining entities that use application-specific integrated circuit („ASIC“) chips designed specifically to take advantage of a particular PoW algorithm. <sup>[source:](https://eprint.iacr.org/2014/059.pdf) / [Github](https://github.com/tromp/cuckoo) / [æ-wiki](Cuckoo-Cycles)</sup>
 
 ***
 
