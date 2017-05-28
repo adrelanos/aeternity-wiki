@@ -1,8 +1,9 @@
 # æternity on channel ONE
 
-* [English Videos](#english-æternity-videos)
-* [Spanish Videos](#spanish-æternity-videos)
-* [Russian Videos](#russian-æternity-videos)
+* [English æternity Videos](#english-æternity-videos)
+* [Spanish æternity Videos](#spanish-æternity-videos)
+* [Russian æternity Videos](#russian-æternity-videos)
+* [æternity Community Videos](#æternity-community-stuff)
 
 
 ***
@@ -40,12 +41,17 @@
 
 ### [What is aeternity blockchain?](https://www.youtube.com/watch?v=F9cqkdx1Llo "What is aeternity blockchain?")
 
+### [æternity the oracle machine on blockchain](https://www.youtube.com/watch?v=lqP59HWnDus "æternity the oracle machine on blockchain")
+
+
 
 ***
 
 ## [**Events**](https://www.youtube.com/watch?v=Twvm5Ivl1FQ&list=PLZTjth8D1qBdyDGcvXeGk1WNcISbG1xEj "Events")
 
 ### [Yanislav Malahov at D10e | aeternity blockchain](https://www.youtube.com/watch?v=Twvm5Ivl1FQ&list=PLZTjth8D1qBdyDGcvXeGk1WNcISbG1xEj)
+
+### [Aeternity - The Oracle Machine - Ethereum London](https://www.youtube.com/watch?v=r1TkgPJwy-U "Aeternity - The Oracle Machine - Ethereum London")
 
 
 ### [BlockchainUA. Yanislav Malahov:Aeternity blockchain scalable smart contracts](https://www.youtube.com/watch?v=yNtJf1DDY0Y)
@@ -65,6 +71,10 @@
 
 ## Only music and english text
 * [æternity the oracle machine on blockchain](https://www.youtube.com/watch?v=lqP59HWnDus)
+
+***
+## æternity Community stuff
+### [Aeternity the Oracle Machine- My T-shirt Bounty Designs!!!](https://www.youtube.com/watch?v=I12pdOWkJW8 "Aeternity the Oracle Machine- My T-shirt Bounty Designs!!!")
 
 
 
