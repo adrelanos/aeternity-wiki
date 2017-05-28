@@ -18,7 +18,7 @@ Différentes parties des implémentations ont leur preuve de concept déjà écr
 
 
 
-Téléchargez l'intégralité du livre blanc v0.1 (PDF) ici: [Livre blanc d'æternity](https://www.dropbox.com/s/fe3qm0artl3eka1/%C3%A6ternity-blockchain-whitepaper-French.pdf?dl=0)
+Téléchargez l'intégralité du livre blanc v0.1 (PDF) ici: [Livre blanc d'æternity](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper-French.pdf)
 
 Auteurs:
 
