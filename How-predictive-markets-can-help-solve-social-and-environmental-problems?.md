@@ -1,4 +1,4 @@
-# Social startup to be launched with Aeternity : Shelpin
+# Social startup to be launched on Aeternity : Shelpin
 
 Brands will donate % percentages of their clients buyings, to the social project they want...
 
