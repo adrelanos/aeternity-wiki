@@ -4,20 +4,18 @@ Cryptocurrency has changed the way we use currency. It allows us to be
 in a sense or own bankers and it provides us with new ways to buy and
 sell products. However, it brings with it one of the inherent problems
 that all other currencies have weather its paper money or digital
-currency. (Crackers, Hackers, Thieves)<which one> will go to just about
-any lengths necessary in order to obtain your hard earned (aeon, digital
-currency). They don't care about who you are, how nice a person you are
-or how adversely affect you will be from them stealing your (digital
-currency, aeon.)
+currency. Malicious users and thieves will go to just about
+any lengths necessary in order to obtain your hard earned aeon,.                                                    They don't care about who you are, how nice a person you are
+or how adversely affected you will be from them stealing your aeon.
 
 It seams like everyday we hear of a story about someone either losing
 their digital currency or having had it stolen by a
-(cracker,hacker,thief). In many of those cases had the victim
+malicious user. In many of those cases had the victim
 implemented a few simple security measures their digital currency would
 not have been stolen. This does not mean that you can follow all the
 security practices on the page and you will have nothing to worry about.
 Unfortunately, there is nothing that can be done to prevent a gifted
-(cracker,hacker,attacker) that is committed to gain entry into your
+attacker that is committed to gaining entry into your
 computer. The best you can do is use the security best practices below
 in an effort to mitigate a majority of these threats.
 
@@ -25,7 +23,7 @@ in an effort to mitigate a majority of these threats.
 
 ## Security Best Practices
 
-### Physcial Security
+### Physical Security
 
 The first thing that we will go over is physical security. This means
 restricting physical access to your computer and hardware wallets. How
@@ -100,7 +98,7 @@ code. What this means is the public can not download, modify, or publish
 their version of the software with out the express permission of the
 software's publisher.
 
-In most cases the publisher will not let anyonesee the source code out
+In most cases the publisher will not let anyone see the source code out
 of fear that trade secrets or the source code will be stolen. You may be
 wondering what all this has to do with keeping our digital currency
 safe. Well, we are about to get to that now that we know the difference
@@ -129,8 +127,8 @@ there would be severe legal repercussions.
 What this means is that no independent security audits can be performed
 and published on Windows OS. There is no way for the public to know if
 there are any major security holes in the OS. We just have to take
-Microsoft at it word that there are no backdoors(insert laughter) or
-security vulnerabilities (laughing harder).
+Microsoft at it word that there are no back doors (insert laughter) or
+security vulnerabilities (laughing even harder).
 
 **Open-source operating** systems like Linux do not have nearly as many
 user as Window but they are much more secure. The source code is freely
@@ -212,7 +210,7 @@ run the program. Not very likely, in other words.
 ### Passwords
 
 **Strong Passwords** **Password Managers/Safes** #
-
+### Man in the middle attacks
 ### Cryptocurrency Wallets
 
 **Software Wallets** **Hardware Wallets** #
