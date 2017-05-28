@@ -11,4 +11,4 @@ Aplicaciones como mercados para activos sintéticos y mercados de predicción pu
 
 ***
 
-Descargue el documento completo: [Cadena de Bloques æternity](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
+Descargue el documento completo: [Cadena de Bloques æternity](https://github.com/aeternity/wiki/blob/master/whitepapers/Aeternity-blockchain-espaniol.pdf)
