@@ -23,6 +23,7 @@ After having worked for Augur and built a few other blockchains from scratch in 
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/marion-vogel.png" alt="Marion Vogel" />
 
 ## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
+#### Marketing & Operations
 
 Intrigued by the magic of blockchain technology since early 2014, Marion is especially interested in connecting the dots between technology and the growing community. Research on the socio-economic impact, spreading the word and taking care of handling æternity's operations efficiently is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
 <table></table>
