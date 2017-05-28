@@ -151,7 +151,7 @@ Englischer Artikel hier zu:
 
 | Nr. | Typ         | Quellen                                                                                             |
 |:----|:------------|:----------------------------------------------------------------------------------------------------|
-| 1   | doc         |                                                                                                     |
+| 1   | doc         |  [Brainwallet Zwilla](æternity-wiki-authors#zwilla)                                                                                                   |
 | 2   | doc         |                                                                                                     |
 | 3   | Inspiration | [Bitcoin Wallet](https://the-internet-of-money.de/blog/bitcoin-wallet-brieftasche/) (author:zwilla) |
 
