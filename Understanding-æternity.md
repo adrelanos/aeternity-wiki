@@ -1,26 +1,22 @@
 # What is æternity?
 
-æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur.
-Real-world data can interface with smart contracts on æternity through the use of decentralized oracles.
-True scalability (possibility to handle mainstream adoption thorough-puts) and Trustless Turing-complete state channels set æternity apart from Ethereum.
+æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. Real-world data can interface with smart contracts on æternity through the use of decentralized oracles. True scalability (the ability to handle throughputs that come from mainstream adoption) and trustless Turing complete state channels set æternity apart from Ethereum.
 
 ![æternity platform-vision](https://github.com/aeternity/wiki/blob/master/AE101_BlockchainOrganism.png)
     
     Disclaimer: This is the first visualization of the æternity vision. A very simplified concept to communicate the basic idea
-    to people outside crypto space.
+    to people outside the crypto space.
     To be more specific (from Zack): The oracles are below state channels. Using ethereum as an example for smart contracts 
-    is not good, because our smart contracts can't do Ethereum's most important application (on-chain programmability)
+    is not good because our smart contracts can't do Ethereum's most important application (on-chain programmability)
     We should really call this row "financial derivatives" instead of "smart contracts", and have the example be "options".
-
-
 
 æternity is unique in many ways, but the key features are:
 
-- Hybrid PoW/PoS;
-- Oracle Machine;
-- State Channels, or "Off-chain transactions" and "Off-chain contracts" execution that will allow for both faster transaction time as well as improving anonymity when executing contracts and while transacting;
-- Governance;
-- Address naming system;
+- Hybrid PoW/PoS
+- Oracle Machine
+- State Channels, or "Off-chain transactions" and "Off-chain contracts" execution that will allow for faster transaction time, improving anonymity when executing contracts and while transacting
+- Governance
+- Address naming system
 
 # What is the purpose of æternity?
 
