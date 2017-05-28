@@ -97,7 +97,7 @@ also be provided.
 
 White Paper section: I
 
-The intention of this paper is to give a overview of the Æternity
+The intention of this paper is to give a overview of the æternity
 blockchain architecture and possible applica- tions. More detailed
 papers will be released in the future, specifically for the consensus
 and governance mechanisms. However, it should be noted that our
@@ -122,23 +122,23 @@ other technologies.
 White Paper section: I.A
 
 Blockchains, first of all Bitcoin, have shown a new way to architect
-value exchange on the Internet [1](#references). This has been followed by
-a number of promising advances: Ethereum demonstrated a way to write
+value exchange on the Internet [1](#references). This has been followed
+by a number of promising advances: Ethereum demonstrated a way to write
 Turing-complete smart con- tracts secured by a blockchain architecture
-[2](#references); Truthcoin created tools for making oracles on blockchains
-[3](#references), while GroupGnosis and Augur showed how to make them more
-efficient [4](#references); Casey Detrio showed how to make markets on
-blockchains [5](#references); Namecoin showed how to make the distributed
-equivalent of a domain name server [6](#references); Factom showed how a
-blockchain that stores hashes can be used as a proof of existence for
-any digital data [7](#references).
+[2](#references); Truthcoin created tools for making oracles on
+blockchains [3](#references), while GroupGnosis and Augur showed how to
+make them more efficient [4](#references); Casey Detrio showed how to
+make markets on blockchains [5](#references); Namecoin showed how to
+make the distributed equivalent of a domain name server
+[6](#references); Factom showed how a blockchain that stores hashes can
+be used as a proof of existence for any digital data [7](#references).
 
 These technologies show great promise when it comes to providing
 first-class financial and legal services to anyone. So far however, they
 have failed to come together to a unified whole that actually fulfills
 the promise. Specifically, all solutions so far have been lacking in at
 least one of the following respects: governance, scalability, scripting
-safety and cheap access to real-world data [need cit.]. Æternity aims to
+safety and cheap access to real-world data [need cit.]. æternity aims to
 improve the state of the art in all of these respects.
 
 ***
@@ -183,13 +183,13 @@ blockchains perfectly.
 
 Second, applications such as Augur have attempted to bring real-world
 data onto the blockchain in a decentralized way in the process
-essentially building a consensus mechanism inside smart contracts [8](#references),
-instead of utilizing the consensus mechanism of the underlying
-blockchain. This leads to inefficiencies but doesn't increase security.
-The natural conclusion from this is to generalize the blockchain's
-consensus mechanism so that it can provide information not only on the
-next internal state, but also on the state of the external world. It
-could thus be argued that the blockchain's consensus mechanism
+essentially building a consensus mechanism inside smart contracts
+[8](#references), instead of utilizing the consensus mechanism of the
+underlying blockchain. This leads to inefficiencies but doesn't increase
+security. The natural conclusion from this is to generalize the
+blockchain's consensus mechanism so that it can provide information not
+only on the next internal state, but also on the state of the external
+world. It could thus be argued that the blockchain's consensus mechanism
 determines the result of running what complexity theory dubs an oracle
 machine: a theoretical machine that is more powerful than a Turing
 machine because it has answers to some questions that can't necessarily
@@ -200,7 +200,7 @@ to determine the parameters of the system. This allows it to adapt to
 changing external conditions, as well as adopting new research and
 recent developments in the field.
 
-The rest of this section introduces the Æternity blockchain in greater
+The rest of this section introduces the æternity blockchain in greater
 detail, starting with a brief overview of accounts, tokens, names and
 the structure of blocks. This is followed by an explanation of our
 approach to state channels and smart contracts, and then a discussion on
@@ -214,7 +214,7 @@ scalability from several different angles.
 White Paper section: II A
 
 Despite being "stateless" from the contract developer's point of view,
-the Æternity blockchain keeps track of several predefined state
+the æternity blockchain keeps track of several predefined state
 components. We will now explain these, as well as the content of each
 block. For simplicity, this section assumes that every node keeps track
 of the whole blockchain. Possible optimizations are described in section
@@ -229,6 +229,17 @@ of the whole blockchain. Possible optimizations are described in section
 
 White Paper section: II A.1
 
+To use the blockchain is not free, but requires that the user spends a
+token called aeon. Aeon are used as payment for any resources one
+consumes on the platform, as well as the basis for financial
+applications implemented on the platform.
+
+The distribution of aeon in the genesis block will be determined by a
+smart contract hosted on Ethereum. Further aeon will be created via
+mining.
+
+All system fees get paid with aeon, all smart contracts settle in aeon.
+
 [☝](#)
 
 ***
@@ -237,6 +248,8 @@ White Paper section: II A.1
 
 White Paper section: II A.1
 
+see above
+
 [☝](#)
 
 ***
@@ -244,6 +257,14 @@ White Paper section: II A.1
 ### æternity Accounts
 
 White Paper section: II A.2
+
+Each account has an address and a balance of aeon and also a nonce which
+increases with every transaction and the height of its last update. Each
+account also has to pay a small fee for the amount of time it is open.
+
+The costs of creating and keeping accounts prevents spam and
+disincentivizes state-bloat. The reward for deleting accounts
+incentivizes the reclaiming of space.
 
 
 [☝](#)
@@ -254,6 +275,13 @@ White Paper section: II A.2
 
 White Paper section: II A.3
 
+Many blockchain systems suffer from unreadable addresses for their
+users. In the vein of Aaron Swartz' work and Namecoin, æternity features
+a name system that is both decentralized and secure, while still
+supporting human-friendly names [9]. The blockchain's state includes a
+mapping from unique human-friendly strings to fixed-size byte arrays.
+These names can be used to point to things such as account addresses on
+æternity, or hashes e.g. of Merkle trees.
 
 [☝](#)
 
@@ -262,6 +290,30 @@ White Paper section: II A.3
 ### æternity Block Contents
 
 White Paper section: II A.4
+
+
+Each block contains the following components:
+
+* The hash of the previous block.
+* A Merkle tree of transactions.
+* A Merkle tree of accounts.
+* A Merkle tree of names.
+* A Merkle tree of open channels.
+* A Merkle tree of oracles which haven't answered their respective
+  questions.
+* A Merkle tree of oracle answers.
+* A Merkle tree of Merkle proofs.
+* The current entropy in the random number generator.
+
+The hash of the previous block is required to maintain an ordering of
+the blockchain. The transaction tree contains all transactions that are
+included in the current block. With the exception of the consensus vote
+tree, all the trees are fully under consensus: if a tree is changed from
+one block to the next, this change has to be due to a transaction in the
+new block's transaction tree, and a Merkle proof of the update has to be
+included in the block's proof tree. The purpose of the three remaining
+trees will hopefully become clear in the following sections.
+
 
 [☝](#)
 
@@ -273,6 +325,43 @@ White Paper section: II A.4
 
 White Paper section: II B
 
+One of the most interesting developments in the blockchain space lately
+is that of state channels. They operate on the basic principle that in
+most cases, only the people affected by a transaction need to know about
+it. In essence, the transacting parties instantiate some state on a
+blockchain, e.g. an Ethereum contract or a Bitcoin multisig. They then
+simply send signed updates to this state between each other. The key
+point is that either one of them could use these to update the state on
+the blockchain, but in most cases, they don't.
+
+This allows for transactions to be conducted as fast as information can
+be transmitted and processed by the parties, instead of them having to
+wait until the transaction has been validated and potentially finalized
+by the blockchain's consensus mechanism. On æternity, the only state
+update that can be settled on the blockchain is a transfer of aeon, and
+the only aeon that can be transferred are the ones that the transacting
+parties already deposited into the channel. This makes all channels
+independent from each other, which has the immediate 1. bene-
+
+>1 2 3 4 5 3 macro Gold f870e8f615b386aad5b953fe089 ; Gold oracle if 0
+>1000 else 0 0 end 0
+
+
+<sup>Fig. 1. used is the Forth-like Chalang, which will be presented in
+section IV-A.</sup>
+
+A simple contract encoding a bet on the price of gold. The language fit
+that any transactions related to channels can be processed in parallel,
+greatly improving transaction throughput.
+
+The blockchain is only used to settle the final outcome or to resolve
+conflicts that arise, roughly analogous to the judicial system. However,
+because the blockchain's behavior will be predictable, there is no gain
+in disputing the intended result of a state channel; malicious actors
+are incentivized to behave correctly and only settle the final state on
+the blockchain. All taken together, this increases transaction speed and
+volume by several orders of magnitude, as well as privacy.
+
 
 [☝](#)
 
@@ -282,6 +371,117 @@ White Paper section: II B
 
 White Paper section: II B.1
 
+Despite that the only state that can be settled on-chain is a transfer
+of aeon, æternity still features a Turing-complete virtual machine that
+can run “smart contracts”. Contracts on æternity are strictly agreements
+that distribute funds according to some rules, which stands in stark
+contrast to the entity-like contracts of e.g. Ethereum. Two of the more
+notable practical differences is that by default, only the involved
+parties know about a given contract, and only parties that have an open
+state channel can create a valid contract.
+
+If the parties agree to a contract, they sign it and keep copies for
+future reference. It is only submitted to the blockchain if its outcome
+is disputed, in which case the code is only ever stored as part of the
+submitted transaction, never in any other state.
+
+If this happens, the blockchain distributes the tokens according to the
+contract and closes the channel. As an example, fig. 1 shows a very
+simple contract that encodes a bet on the price of gold at a certain
+time. On line 1, the macro Gold saves the identifier of the oracle in
+question, which will return true if the price of gold is below $38/g on
+December 1st, 2016. The body of the contract is displayed on lines 2-4:
+we first push the gold oracle’s identifier to the stack and call it
+using oracle, which will leave the oracle’s answer on the top of the
+stack. We use this to do a conditional branching:
+
+if the oracle returns true, we push 0 and 1000 to the stack, indicating
+that 0 aeon should be burned and 1000 aeon should go to the first
+participant in the channel. Otherwise, we push 0 and 0, with the second
+0 indicating that the other participant receives all aeon in the
+channel. Finally we push 0, which is taken to be the nonce of this
+channel state. In actual usage, the nonce would be generated at
+deployment.
+
+One important thing to note is that contracts on æternity don’t maintain
+any state of their own. Any state is maintained by the transacting
+parties and submitted as input at execution. Every contract is
+essentially a pure function that takes some Despite that the only state
+that can be settled on-chain is a transfer of aeon, æternity still
+features a Turing-complete virtual machine that can run “smart
+contracts”.
+
+Contracts on æternity are strictly agreements that distribute funds
+according to some rules, which stands in stark contrast to the
+entity-like contracts of e.g. Ethereum. Two of the more notable
+practical differences is that by default, only the involved parties know
+about a given contract, and only parties that have an open state channel
+can create a valid contract.
+
+If the parties agree to a contract, they sign it and keep copies for
+future reference. It is only submitted to the blockchain if its outcome
+is disputed, in which case the code is only ever stored as part of the
+submitted transaction, never in any other state.
+
+If this happens, the blockchain distributes the tokens according to the
+contract and closes the channel. As an example, fig. 1 shows a very
+simple contract that encodes a bet on the price of gold at a certain
+time. On line 1, the macro Gold saves the identifier of the oracle in
+question, which will return true if the price of gold is below $38/g on
+December 1st, 2016.
+
+The body of the contract is displayed on lines 2-4: we first push the
+gold oracle’s identifier to the stack and call it using oracle, which
+will leave the oracle’s answer on the top of the stack. We use this to
+do a conditional branching: if the oracle returns true, we push 0 and
+1000 to the stack, indicating that 0 aeon should be burned and 1000 aeon
+should go to the first participant in the channel. Otherwise, we push 0
+and 0, with the second 0 indicating that the other participant receives
+all aeon in the channel. Finally we push 0, which is taken to be the
+nonce of this channel state.
+
+In actual usage, the nonce would be generated at deployment. One
+important thing to note is that contracts on æternity don’t maintain any
+state of their own. Any state is maintained by the transacting parties
+and submitted as input at execution. Every contract is essentially a
+pure function that takes some Despite that the only state that can be
+settled on-chain is a transfer of aeon, æternity still features a
+Turing-complete virtual machine that can run “smart contracts”.
+Contracts on æternity are strictly agreements that distribute funds
+according to some rules, which stands in stark contrast to the
+entity-like contracts of e.g. Ethereum.
+
+Two of the more notable practical differences is that by default, only
+the involved parties know about a given contract, and only parties that
+have an open state channel can create a valid contract.
+
+If the parties agree to a contract, they sign it and keep copies for
+future reference. It is only submitted to the blockchain if its outcome
+is disputed, in which case the code is only ever stored as part of the
+submitted transaction, never in any other state. If this happens, the
+blockchain distributes the tokens according to the contract and closes
+the channel.
+
+As an example, fig. 1 shows a very simple contract that encodes a bet on
+the price of gold at a certain time. On line 1, the macro Gold saves the
+identifier of the oracle in question, which will return true if the
+price of gold is below $38/g on December 1st, 2016.
+
+The body of the contract is displayed on lines 2-4: we first push the
+gold oracle’s identifier to the stack and call it using oracle, which
+will leave the oracle’s answer on the top of the stack. We use this to
+do a conditional branching: if the oracle returns true, we push 0 and
+1000 to the stack, indicating that 0 aeon should be burned and 1000 aeon
+should go to the first participant in the channel. Otherwise, we push 0
+and 0, with the second 0 indicating that the other participant receives
+all aeon in the channel.
+
+Finally we push 0, which is taken to be the nonce of this channel state.
+In actual usage, the nonce would be generated at deployment. One
+important thing to note is that contracts on æternity don’t maintain any
+state of their own. Any state is maintained by the transacting parties
+and submitted as input at execution. Every contract is essentially a
+pure function that takes some
 
 [☝](#)
 
@@ -680,3 +880,4 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 [☝](#)
 
 ***
+
