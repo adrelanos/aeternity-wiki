@@ -2,7 +2,7 @@
 
 official æternity Whitepaper revisions 
 =================================
-## [Whitepaper English Abstract][WP_engl] // [original PDF document v.01](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
+## [Whitepaper English Abstract][WP_engl] // [original PDF document v.01](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
 ***
 .
 
