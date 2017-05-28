@@ -14,7 +14,7 @@ man hier seine Wallet schützen sollte.
 
 Auf die folgenden Fragen möchte ich eingehen:
 * [Bewährte Verfahren](#bewährte-verfahren--best-practice)
-  * [Welche Wallet Art ist die richtige? ](#welche-wallet-art-ist-die-richtige) 
+  * [Welche Wallet Art ist die richtige? ](#welche-wallet-art-ist-die-richtige)
   * [Welches Betriebssytem ist das richtige für mich?](#welches-betriebssytem-ist-das-richtige-für-mich)
   * [Wie und wo sichere ich meine Wallet?](#welches-betriebssytem-ist-das-richtige-für-mich)
   * [Wie wichtig ist der 'Private' Schlüssel](#privater-schlüssel)
@@ -25,6 +25,7 @@ Auf die folgenden Fragen möchte ich eingehen:
 * [Kraft und Macht der Hacker](#kraft-und-macht-der-hacker)
 
 ***
+
 ## Hauptprobleme:
 
 **Die Hauptprobleme sind:**
@@ -33,16 +34,15 @@ Auf die folgenden Fragen möchte ich eingehen:
 * Unwissenheit, Leichtsinnigkeit.
 * fehlendes Verantwortungsbewusstsein.
 
-
-* Naivität.
-Nun muss man aber auch erst einmal wissen was Naivität im Bezug auf den
-Umgang mit Wallets ist. Glaube mir viele, sehr viele Enthusiasten sind
-es. Denn sie wissen nicht was sie tun.
+* Naivität. Nun muss man aber auch erst einmal wissen was Naivität im
+  Bezug auf den Umgang mit Wallets ist. Glaube mir viele, sehr viele
+  Enthusiasten sind es. Denn sie wissen nicht was sie tun.
 
 
 ## Bewährte Verfahren / best practice
 
 ### Welche Wallet Art ist die richtige?
+
 **Auflistung nach Sicherheit!**
 
 Hinweis: Ab 3. wird es nahezu unkontrollierbar
@@ -109,10 +109,10 @@ Entwicklung von æternity in einem Status ist wann diese das erstemal
 live gegangen ist. Geplant ist das erste Quartal 2018
 
 
-
 ## Kraft und Macht der Hacker
-Der Einfallsreichtum dieser Gruppe ist nahezu genauso vielfältig wie
-die Dummheit und Naivität meiner selbst.
+
+Der Einfallsreichtum dieser Gruppe ist nahezu genauso vielfältig wie die
+Dummheit und Naivität meiner selbst.
 
 Hier zulande assoziiert man einen Hacker mit etwas bösem, schlechtem,
 ist es aber nicht. Jemadn der sich einen Quellcode anschaut, ein paar
@@ -137,6 +137,7 @@ Also sei auf der Hut und sei vorsichtig!
 
 
 ***
+
 HINWEIS: Ich erhebe keinen Anspruch darauf mit diesem Bericht alles
 vollständig und sicher beschrieben zu haben. Dieses Dokument sollte
 lediglich als Richtlinie dienen (Stand 29. Mai 2017)
@@ -148,9 +149,23 @@ Englischer Artikel hier zu:
 
 ***
 
-| Nr. | Typ          | Quellen                                                                                             |
-|:----|:-------------|:----------------------------------------------------------------------------------------------------|
-| 1   | doc          |                                                                                                     |
-| 2   | doc          |                                                                                                     |
+| Nr. | Typ         | Quellen                                                                                             |
+|:----|:------------|:----------------------------------------------------------------------------------------------------|
+| 1   | doc         |                                                                                                     |
+| 2   | doc         |                                                                                                     |
 | 3   | Inspiration | [Bitcoin Wallet](https://the-internet-of-money.de/blog/bitcoin-wallet-brieftasche/) (author:zwilla) |
 
+***
+
+Warum eine Keyword Liste?
+
+Nicht immer ist für Google und Co. (Suchmaschine) auf den ersten Blick
+ersichtlich was hier geboten wird und in welchem Kontext es zur
+Suchanfrage des Hilfesuchenden steht, daher diese Liste
+
+| Nr. | Keyword / Schalgwort                | Englisches Wort dafür                        |
+|:----|:------------------------------------|:---------------------------------------------|
+| 1   | Bitcoin Wallet                      | Bitcoin Brieftasche                          |
+| 2   | Brieftasche von digitalen Währungen | Cryptocoin Wallet oder Cryptocurrency Wallet |
+|     | Digitale Währung                    | Cryptocoin oder Cryptocurrency               |
+|     |                                     |                                              |
