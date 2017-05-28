@@ -1,5 +1,3 @@
-# æternity on channel ONE
-
 * [English æternity Videos](#english-æternity-videos)
 * [Spanish æternity Videos](#spanish-æternity-videos)
 * [Russian æternity Videos](#russian-æternity-videos)
