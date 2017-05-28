@@ -73,28 +73,27 @@ on our journey to find the right OS.
 
 - **Open-source v.s. Proprietary**
 
-- *Open-source:**
 
-we all have heard those words before, but what do they mean? Simply
-stated open-source is a decentralized (just like aeternity) development
-model that encourages open collaboration between peers and making
-products such as source code and documentation freely available to the
-public. Open-source code is meant to be a collaborative effort, where
+Open-source, we all have heard those words before, but what do they mean? 
+Simply stated open-source is a decentralized (just like aeternity) 
+developmental model that encourages open collaboration between peers and 
+making products such as source code and documentation freely available to 
+the public. Open-source code is meant to be a collaborative effort, where
 programmers improve upon the source code and share the changes within
-the community.
+the community. Code is released under the terms of a software license. 
+Depending on the license terms, others may then download, modify, and 
+publish their version (fork) back to the community.
 
-Code is released under the terms of a software license. Depending on the
-license terms, others may then download, modify, and publish their
-version (fork) back to the community.
 
-It is more than likely that you have heard of proprietary (also referred
-to as closed-source) software. Relatively speaking proprietary software
-is the opposite of open-source software. Proprietary software is
-computer software for which the software's publisher or another person
-retains intellectual property rights--usually copyright of the source
-code. What this means is the public can not download, modify, or publish
-their version of the software with out the express permission of the
-software's publisher.
+
+Now that you have a basic understanding of open-source lets move onto                                           proprietary (also referred to as closed-source) software. Relatively
+speaking proprietary software is the opposite of open-source software.
+Proprietary software is computer software for which the software's 
+publisher or another person retains intellectual property rights--usually
+copyright of the source code. What this means is the public can not
+download, modify, or publish their version of the software with out the
+express permission of the software's publisher.
+
 
 In most cases the publisher will not let anyone see the source code out
 of fear that trade secrets or the source code will be stolen. You may be
@@ -104,14 +103,15 @@ between open-source and proprietary software.
 
 - **Proprietary operating systems**
 
-like Windows have many more users than Mac and Linux combined. Since
-they have all of these user does it mean that is is more secure?
+Proprietary operating systems like Windows has many more users than Mac and Linux combined. Since
+they have all of these user does it mean that is is more secure? Why else would so many people use
+them?
 
-Why else would so many people use them? The answer to the first question
-is NO!
+The answer to the first question is NO!Windows has more users but those people are not using Windows because it
+is a secure operating system.
 
-Windows has more users but those people are not using Windows because it
-is a secure operating system. To answer the second question. Most people
+ 
+To answer the second question. Most people
 are using it because because it has all the bells and whistles and its
 easy to use. What makes Windows OS insecure is that the source code is
 closed-source.
@@ -158,12 +158,12 @@ closed-source Windows OS.
   opening up an email attachment that is carrying a virus or worm or
   clicking on a malicius link.
 
-What makes Linux less suceptable to these types of attacks is most Linux
-users don't have root access however, it's much harder to accomplish any
-real damage on a Linux system by getting them to do something foolish.
-Before any real damage could be done, a Linux user would have to read
-the email, save the attachment, give it executable permissions and then
-run the program. Not very likely, in other words.
+  What makes Linux less suceptable to these types of attacks is most Linux
+  users don't have root access however, it's much harder to accomplish any
+  real damage on a Linux system by getting them to do something foolish.
+  Before any real damage could be done, a Linux user would have to read
+  the email, save the attachment, give it executable permissions and then
+  run the program. Not very likely, in other words.
 
 ***
 
