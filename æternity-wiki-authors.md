@@ -410,7 +410,7 @@
 | 5  | [5](#zwilla)                                                               |
 
 * Contact: e-Mail: Michael.Padilla@zwilla.de
-* Websie: https://www.zwilla.de
+* Website: https://www.zwilla.de
 * Language: native language German, community english :), spanish
   (basics), french (basics)
 * Working on: (1) with [0Brand](#0Brand),
