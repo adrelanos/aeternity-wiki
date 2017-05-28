@@ -1,12 +1,22 @@
 ## Community is live on these links
 
+# Homepage
+
 * http://www.aeternity.com/
+
+# Social Media
 
 * https://www.facebook.com/aeternityproject/
 
 * https://twitter.com/aetrnty
 
+* https://www.linkedin.com/company/aeternity
+
+# Repository
+
 * https://github.com/aeternity/
+
+# Communities
 
 * https://www.reddit.com/r/Aeternity/
 
@@ -14,10 +24,8 @@
 
 * https://telegram.me/aetrader
 
-* http://www.aeternity.com/# (IRC NOT THERE - LINK ON WEBSITE NOT WORKING)
-
 * http://slack.aeternity.com/
 
-* https://www.linkedin.com/company/aeternity
+
 
 * https://gitter.im/aeternity/Lobby
