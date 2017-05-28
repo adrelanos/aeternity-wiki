@@ -53,7 +53,7 @@ In case the link goes offline:
 
 **5.2)** `rebar get`
 
-**4.3)** `rebar compile`
+**5.3)** `rebar compile`
 
 It is likely that it will throw an error:
 
