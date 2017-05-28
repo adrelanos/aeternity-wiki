@@ -15,43 +15,43 @@ These instructions assume a basic familiarity with command line. The fastest way
 
 These are the very basic commands so that you know how to navigate folders from the command line. I suggest creating a folder `c:/code` to keep all your code there. The command `md code` creates the folder.
 
-## 0. Download and install Git
+## 1. Download and install Git
 
 https://www.google.com/search?q=install+git
 
 In that way, you'll be able to get the source code directly from the repository.
 
-## 1. Download and install Erlang
+## 2. Download and install Erlang
 
 https://www.erlang.org/downloads
 
 For the more adventurous, build it from source.
 
-## 2. Add the folder to the path
+## 3. Add the folder to the path
 
 **On Windows 10:** Right click on the start button - System - _(left hand side)_ Advanced system settings - Environment Variables - find `path` - Edit... - New - on my machine, it is `c:\Program Files\erl8.3\bin`
 
 It many clicks away, I've reported a usability bug, it's by design: http://imgur.com/a/qbeTc
 
 
-## 3. Install rebar
+## 4. Install rebar
 
 A very detailed set of instructions can be found on this link: http://theburningmonk.com/2014/08/getting-started-with-rebar-on-windows/
 
 In case the link goes offline:
 
-**3.1)** `git clone https://github.com/rebar/rebar`
+**4.1)** `git clone https://github.com/rebar/rebar`
 
-**3.2)** go into that directory and run `bootstrap.bat`
+**4.2)** go into that directory and run `bootstrap.bat`
 
-**3.3)** same business as previously, add the directory to the path so that you can execute `rebar`
+**4.3)** same business as previously, add the directory to the path so that you can execute `rebar`
 
 
-## 4. Get code and dependencies:
+## 5. Get code and dependencies:
 
-**4.1)** `git clone https://github.com/aeternity/testnet.git`
+**5.1)** `git clone https://github.com/aeternity/testnet.git`
 
-**4.2)** `rebar get`
+**5.2)** `rebar get`
 
 **4.3)** `rebar compile`
 
