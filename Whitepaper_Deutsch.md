@@ -19,7 +19,7 @@ Entwicklungswerkzeuge und grundlegende Anwendungen wie ein Brieftaschen, Namens-
 
 ***
 Das Whitepaper v0.1 (PDF) im englischen Original kann hier heruntergeladen werden:
-[æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+[æternity whitepaper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 Autoren:  
 Zackary Hess - zack@aeternity.com  
