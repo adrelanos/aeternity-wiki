@@ -194,8 +194,21 @@ run the program. Not very likely, in other words.
   through obscurity" argument.Not only that, but Linux users can fix
   problems themselves. Microsoft may tout its large team of paid
   developers, but it's unlikely that team can compare with a global base
-  of Linux user-developers around the globe ### Short list of Linux
-  Distros that put security first. Why use these distros? ###
+  of Linux user-developers around the globe.
+### Choosing Your Linux Distribution 
+With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, all though many may share the same Linux kernel there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
+
+**Debian** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well-over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
+
+Advantages 
+* Efficient and well integrated packaging for a more robust system
+* Publicy available bug tracking system
+* Stability - some users report running Debian 1+ year without a single reboot!
+* Security - being 100% open, security issues are exposed and plugged quickly 
+
+**Qubes** is a security-focused desktop operating system that aims to provide security through isolation. Virtualization is performed by the Xen hypervisor , and user environments can be based on Fedora, Debian, Whonix, and Windows, among other operating systems. 
+
+**Tails**(which stands for ‘The Amnesiac Incognito Live System’) is probably the most well-known privacy-focused distro. It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick.All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy  for example, there’s the KeePassX password manager. Do note that vulnerabilities are constantly discovered with Tails so be sure to check for updates (as you should do with any OS, of course).
 
 ### Bios Passwords
 
