@@ -1,10 +1,5 @@
 <a href="http://www.aeternity.com/"><img width="160px" src="http://www.aeternity.com/user/themes/aeon/img/aeternity_logo.png" align="left" hspace="10" vspace="10"></a>
 
-<p align = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
-<a target="_blank" href="https://twitter.com/aetrnty"> <img src="https://s24.postimg.org/4xcf9j8xh/Follow-_Twitter.jpg?2"></a>
-</p>
-<b>æternity Blockchain – A Functional Oracle Machine<p>
-
 æternity is a [blockchain](https://en.wikipedia.org/wiki/Blockchain) protocol built from scratch in [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)) with speed, efficiency and scalability in mind. It offers a unique hybrid [proof of work (PoW)](https://en.wikipedia.org/wiki/Proof-of-work_system) and [proof of stake (PoS)](https://en.wikipedia.org/wiki/Proof-of-stake) [consensus mechanism](https://www.ibm.com/developerworks/cloud/library/cl-blockchain-basics-intro-bluemix-trs/) that can be used to check [[oracles]]. This maximizes efficiency by not layering consensus mechanisms. [[State channels]] maximize scalability and privacy by removing the need to store smart-contract code on-chain. Transfer of [tokens](http://cruiserselite.co.in/downloads/btech/materials/second%20sem/4/e-com/UNIT-3.pdf) through channels is done by function-based [smart contracts](https://en.wikipedia.org/wiki/Smart_contract) which have access to real-world data through the oracle. æternity thus renders smart contracts faster, easier to execute, and more fault-tolerant, without degrading their performance or functionality.<p>
 
 <b>How does the æternity blockchain improve on smart contract platforms?<p>
