@@ -53,7 +53,7 @@ Despite how on-chain state settlement is limited to the transfer of Aeon, ætern
 
 # Contract interaction
 
-Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a simple hash locking operation. [(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
+Even though all contracts are stateless and execute independently of each other, contract interaction and statefulness can still be achieved through a simple hash locking operation. [(White Paper)](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf) This function can be used to predicate
 the execution of code branches in different contracts on the existence of the same secret value. A simple usage example is how hashlocks make it possible for users to trustlessly send each other Aeon as long as there is a path of channels between them: even when they don’t share the same state channel.
 
 
@@ -64,7 +64,7 @@ Contract execution is metered in a way similar to Ethereum’s “gas”, but æ
 # Writing a contract:
 Documentation of syntax and samples of common code.
 
-[(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) 
+[(White Paper)](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf) 
 
 A reasonable future direction would be to experiment with high-level languages that adhere more closely to the functional paradigm. Keeping track of an implicit stack is generally error-prone and, arguably, it is not suitable for a high-level, developer-facing language. Working in this future direction should be rather easy given that programs are already pure functions (modulo some environment variables), and would greatly simplify both development and formal verification of contracts. If this is done, it could also make sense to revise the Virtual Machine (VM) to be tightly coupled with the new language, to make the compilation less error-prone and less dependent on trust in the developers. Ideally, the translation from surface language to VM code would simply be a direct transcription of peer-reviewed research, though pragmatic concessions will likely have to be made.
 
