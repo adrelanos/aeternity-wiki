@@ -11,7 +11,3 @@ Although we don't endorse it, many people will want to speculate on the price of
 ## Contract writers and developers
 
 Thanks to its unique features (state channels, decentralized oracles, on-chain governance, ENS) in addition to everything else blockchains have to offer, æternity is a logical choice for developers and smart contract writers.
-
-## Miners
-
-Miners will be rewarded for providing security to the æternity blockchain. The specificity of the Cuckoo Cycle algorithm will enable anyone to become a miner. Oracle mining will be rewarded for providing real world data to the æternity blockchain.
