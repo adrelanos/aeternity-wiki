@@ -12,10 +12,9 @@
 ### Community & Support
 - [æternity Team][team]
 - [æternity Home Page](http://www.aeternity.com/)
-- [Contacts and Groups](Contacts-and-Groups)
+- [Contacts and Communities](Contacts-and-Communities)
 - [æternity Blog](https://blog.aeternity.com)
 - [Bounty Programs][bounty]
-- [Community](Community)
 - [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
 - [æternity Wiki-Authors](æternity-wiki-authors)
 
