@@ -14,8 +14,10 @@ man hier seine Wallet schützen sollte.
 
 Auf die folgenden Fragen möchte ich eingehen:
 * [Bewährte Verfahren](#bewährte-verfahren--best-practice)
-* [Wie und wo sichere ich meine Wallet?]()
-* [Wie wichtig ist der 'Private' Schlüssel](#privater-schlüssel)
+  * [Welches Betriebssytem ist das richtige für mich?]
+  * [Wie und wo sichere ich meine Wallet?](#welches-betriebssytem-ist-das-richtige-für-mich)
+  * [Wie wichtig ist der 'Private' Schlüssel](#privater-schlüssel)
+  
 * [Hauptprobleme!](#hauptprobleme)
 * [Unterschied Wallets und Konten](#unterschied-wallets-und-konten)
   * [æternity Wallets und Konten](#æternity-wallets-und-konten)
@@ -40,6 +42,7 @@ es. Denn sie wissen nicht was sie tun.
 ## Bewährte Verfahren / best practice
 
 **Auflistung nach Sicherheit!**
+
 Hinweis: Ab 3. wird es nahezu unkontrollierbar
 
 1. Offline Computer einsetzen
@@ -54,6 +57,23 @@ Hinweis: Ab 3. wird es nahezu unkontrollierbar
    sein. Vielleicht später mehr!
 
 Auf was hier zu achten ist, komme ich später nochmals zurück!
+
+### Welches Betriebssystem ist das richtige für mich?
+
+Würde ich Lobbyarbeit Ausführen und auf noch mehr Umsatz für einen
+Konzern plädieren, würde ich sagen Windows oder Apple Mac.
+
+**Auflistung nach Sicherheit!**
+
+1. freies Linux System
+2. Apple's OSX
+3. Microsoft's Windows
+
+Bei freien Linux Betriebsystem hat man den Vorteil, dass der Quellcode
+für jedermann offen liegt und zu jederzeit eine Revision dessen
+stattfinden kann. Bei Apple OSX ist das (fast auch für alle Teile des
+Systems möglich), bei Microsoft ist es unmöglich aus einem Quellcode ein
+lauffähiges Betriebssystem zu erhalten.
 
 ### Privater Schlüssel
 
@@ -83,7 +103,7 @@ Eine Wallet kann eine unendliche Anzahl von Konten haben, was jedoch der
 
 In Bezug auf æternity Wallets gilt gleiches Handling wie oben
 beschrieben, nähere Details kann ich dann veröffentlichen, wenn die
-Entwicklung von æternity in einem Status ist wann diese das erstemal
+Entwicklung von æternity in einem Status ist wann diese das erste mal
 live gegangen ist. Geplant ist das erste Quartal 2018
 
 
@@ -93,8 +113,8 @@ Der Einfallsreichtum dieser Gruppe ist nahezu genauso vielfältig wie
 die Dummheit und Naivität meiner selbst.
 
 Hier zulande assoziiert man einen Hacker mit etwas bösem, schlechtem,
-ist es aber nicht. Jemadn der sich einen Quellcode anschaut, ein paar
-Änderungen macht ist im englischen auch shon ein Hacker, was nicht heißt
+ist es aber nicht. Jemand der sich einen Quellcode anschaut, ein paar
+Änderungen macht ist im englischen auch schon ein Hacker, was nicht heißt
 das dieser etwas unrechtes im Schilde führt.
 
 Hier gibt es ein Bezeichnung für:
@@ -131,4 +151,5 @@ Englischer Artikel hier zu:
 | 1   | doc          |                                                                                                     |
 | 2   | doc          |                                                                                                     |
 | 3   | Inspiration | [Bitcoin Wallet](https://the-internet-of-money.de/blog/bitcoin-wallet-brieftasche/) (author:zwilla) |
+
 
