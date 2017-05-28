@@ -53,7 +53,7 @@
 ### How to
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
-- [keep your cryptocurrency secure & safe](keep-cryptocurrency-wallet-secure-&-safe)
+- [keep your cryptocurrency secure & safe](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
 
 ### [DApp Development](æternity-DApp-Development)
