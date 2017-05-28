@@ -59,7 +59,7 @@ Therefore, what is in effect achieved is a decentralised oracle system.
 The truth value of oracle answers, if in dispute, will be ultimately
 determined by the decentralised consensus system of the AE network.
 
-![æternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
+![æternity Oracle at work](https://github.com/aeternity/wiki/blob/master/images/binary-prediction-market.png)
 
 For more information, refer to the
 [æternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
@@ -152,15 +152,15 @@ more decentralised and not relying on a 3rd Party company or entity
 
 ##### Prediction Market - High Level Concept
 
-![æternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
+![æternity prediction market](https://github.com/aeternity/wiki/blob/master/images/binary-prediction-market.png)
 
 ##### Oracle & Prediction Market - High Level Concept
 
-![æternity oracle & prediction market](http://i63.tinypic.com/30c291s.png)
+![æternity oracle & prediction market](https://github.com/aeternity/wiki/blob/master/images/prediction-market-highlevel.png)
 
 ## Governance & Consensus
 
-![æternity governance](http://i67.tinypic.com/axehab.png)
+![æternity governance](https://github.com/aeternity/wiki/blob/master/images/governance-and-consensus.png)
 
 ## Futarchy
 
