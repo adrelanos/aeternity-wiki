@@ -145,7 +145,7 @@ lediglich als Richtlinie dienen (Stand 29. Mai 2017)
 ***
 
 Englischer Artikel hier zu:
-[keep your cryptocurrency secure & safe](keeping-your-cryptocurrency--safe--secure)
+[keep your cryptocurrency secure & safe](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
 
 ***
