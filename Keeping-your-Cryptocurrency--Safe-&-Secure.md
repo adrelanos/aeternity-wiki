@@ -1,5 +1,3 @@
-# Keeping your Cryptocurrency  Safe & Secure
-
 Cryptocurrency has changed the way we use currency. It allows us to be
 in a sense or own bankers and it provides us with new ways to buy and
 sell products. However, it brings with it one of the inherent problems
