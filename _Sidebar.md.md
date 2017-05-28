@@ -21,39 +21,42 @@
 
 ### Research
 - [Idea Box][ideabox]
-- [Research & Theory][research]
 - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
+- [Research & Theory][research]
+- []()
 
 ### æternity Technologies
 - [Technology of æternity][tech]
-- [æternity in the Blockchain space][blockchainAndAE]
+- [æternity in the blockchain space](æternity-in-the-blockchain-space)
 - [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
 - [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
-- [æternity in the blockchain space](æternity-in-the-blockchain-space)
+
 
 ### Infrastructure
-- [Cuckoo Cycles](Cuckoo-Cycles)
-- [Mining][mining]
-- [Merkle Trees](Merkle-Trees)
-- [Transaction Types](Transaction-Types)
 - [æternity Contracts][contracts]
 - [Channels](Channels)
-- [[State Channels]]
+- [Cuckoo Cycles](Cuckoo-Cycles)
+- [Merkle Trees](Merkle-Trees)
+- [Mining][mining]
 - [[Oracles]]
+- [[State Channels]]
+- [Transaction Types](Transaction-Types)
 - [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
 
 ### Handling Technologies & Infrastructure
-- [Testnet setup start and use](testnet-setup-start-and-use)
-- [Ubuntu Node Commands](Ubuntu-Node-Commands)
-- [Terminal interface commands](Terminal-interface-commands)
 - [API Commands](API-Commands)
 - [Api Examples](Api-Examples)
+- [Terminal interface commands](Terminal-interface-commands)
+- [Testnet setup start and use](testnet-setup-start-and-use)
 - [Troubleshooting][troubleshooting]
+- [Ubuntu Node Commands](Ubuntu-Node-Commands)
 - [Windows Installation][wininstall]
 
 ### How to
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
+- [keep your cryptocurrency secure&safe](#keep-cryptocurrency-wallet-secure--safe)
+
 
 ### [DApp Development](æternity-DApp-Development)
 - [DApp Introducion](æternity-DApp-Introducion)
@@ -112,7 +115,6 @@
 [tech]: æternity-Technology
 [research]: Research-and-Theory
 [doc]: æternity-Documentation
-[blockchainAndAE]: æternity-in-the-blockchain-space
 [contracts]: æternity-Contracts
 [team]: æternity-Team
 [bounty]: Bounty
