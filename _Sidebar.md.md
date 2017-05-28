@@ -39,11 +39,11 @@
 - [[Oracles]]
 - [[State Channels]]
 - [Transaction Types](Transaction-Types)
-- [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
+- [Full Text Search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
 
 ### Handling Technologies & Infrastructure
 - [API Commands](API-Commands)
-- [Api Examples](Api-Examples)
+- [API Examples](Api-Examples)
 - [Terminal interface commands](Terminal-interface-commands)
 - [Testnet setup start and use](testnet-setup-start-and-use)
 - [Troubleshooting][troubleshooting]
