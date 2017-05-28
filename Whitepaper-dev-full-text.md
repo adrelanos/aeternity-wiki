@@ -343,8 +343,8 @@ the only aeon that can be transferred are the ones that the transacting
 parties already deposited into the channel. This makes all channels
 independent from each other, which has the immediate 1. bene-
 
->1 2 3 4 5 3 macro Gold f870e8f615b386aad5b953fe089 ; Gold oracle if 0
->1000 else 0 0 end 0
+> *1 | macro Gold f870e8f615b386aad5b953fe089 ; 2 | 3 | Gold oracle 4 |
+> if 0 1000 else 0 0 end 5 | 0*
 
 
 <sup>Fig. 1. used is the Forth-like Chalang, which will be presented in
@@ -481,7 +481,31 @@ In actual usage, the nonce would be generated at deployment. One
 important thing to note is that contracts on æternity don’t maintain any
 state of their own. Any state is maintained by the transacting parties
 and submitted as input at execution. Every contract is essentially a
-pure function that takes some
+pure function that takes some input and gives a new channel state as
+output2.
+
+The benefits of using pure functions in software development in general,
+and in the development of financial applications in particular, has been
+extensively documented in academia and industry for decades
+[10][need cit.].
+
+
+> *1 | : hashlock 2 | swap 3 | hash 4 | == ;*
+
+Fig. 2. A simple hashlock
+
+> *1 | macro Commitment a9d7e8023f80ac8928334 ; 2 | 3 | Commitment
+> hashlock call 4 | if 0 100 else 0 50 end 5 | 1*
+
+Fig. 3. Using the hashlock to trustlessly send tokens through a
+middleman
+
+> *1 | macro Commitment a9d7e8023f80ac8928334 ; 2 | 3 | Commitment
+> hashlock call 4 | if State33 else State32 end 5 | call*
+
+Fig. 4. A simplified example of using the hashlock to play a
+multi-playergame in channels.
+
 
 [☝](#)
 
@@ -880,4 +904,3 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 [☝](#)
 
 ***
-
