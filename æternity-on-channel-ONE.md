@@ -9,6 +9,9 @@
 ***
 ## English æternity Videos
 
+### [Website background Video](https://www.aeternity.com/user/themes/aeon/files/video/novaeternity39.mp4)
+ 
+ 
 ## æternity Youtube and other Videos
 
 ### Playlists
@@ -60,6 +63,7 @@
 ***
 ## Spanish æternity videos
 
+**æternity Community español Videos**
 * [æternity Blockchain Testnet - nueva dirección & contraseña æternity](https://www.youtube.com/watch?v=ZPBSYMzeHNw)
 * [æternity Blockchain Testnet - instalación de nodo y minería æternity](https://www.youtube.com/watch?v=bRkzGQo3nDA)
 
