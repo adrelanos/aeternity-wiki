@@ -185,19 +185,14 @@ Publications dealing with æternity-specific technical concerns:
 Turing-completeness - what does it mean, and what does it enable?
 
 * [Stateful Turing-Complete Policies - by Vitalik Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
-
 * [Godfather of Ethereum - by Yanislav Georgiev Malahov](https://medium.com/@yanislav/king-of-bitcoin-godfather-of-ethereum-a9af9ecf56d5)
 
 State Channels - further reading and examples.
 
 * [From Smart Contracts to Courts with not so Smart Judges - by Christian Reitwiessner ](https://blog.ethereum.org/2016/02/17/smart-contracts-courts-not-smart-judges/)
-
 * [Ethereum Lightning Network and Beyond - by Arcturnus](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/) - a discussion of state channel significance and implementation on Bitcoin and Ethereum.
-
 * [Raiden](http://raiden.network/) - forthcoming Ethereum state channel implementation.
-
 * [Abstracted State Channels](https://github.com/AnnaIsAWang/LedgerLabsCoops2016/tree/master/AbstractedStateChannel) Example by Ledger Labs
-
 * [Avocado](https://github.com/jtremback/avocado) - Example of an "judge" or oracle-based state channel implementation
 
 Blockchains - spinal column of cryptocurrency past, present, and future.
@@ -207,8 +202,13 @@ Blockchains - spinal column of cryptocurrency past, present, and future.
 Nontraditional DRAM architectures - background on innovations in Tromp's Cuckoo Cycle.
 
 * [Rethinking DRAM Design and Organization for Energy-Constrained Multi-Cores - by Udipi et al.](https://www.cs.utah.edu/~rajeev/pubs/isca10.pdf)
-
 * [The Dynamic Granularity Memory System - Yoon et. al](http://mbsullivan.info/attachments/papers/yoon2012dgms.pdf)
+
+Slasher and Proof-of-Stake
+
+* [Proof of Stake: How I Learned to Love Weak Subjectivity by Vitalik Buterin](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)
+* [Slasher: A Punitive Proof-of-Stake Algorithm by Vitalik Buterin](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/)
+* [Slasher Implementation by Zach Hess](https://github.com/zack-bitcoin/slasher)
 
 # Working Theories
 
