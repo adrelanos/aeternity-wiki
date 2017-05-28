@@ -35,4 +35,11 @@
 * Translation campaign bounty: 200.000 (Completed)
 * Blog posts bounty: 130.000 (Completed)
 
-More bounty programs to come. Crypto puzzles, and more!
+### Future Bounty Campaigns
+
+Future bounties are listed in the following places.
+Keep an eye on them so you dont miss them
+
+* [aeternity blog](https://blog.aeternity.com/%C3%A6ternity-bounty-program-e6191d330cf5)
+
+* [Bitcointalk Forum](https://bitcointalk.org/index.php?topic=1819473.0)
