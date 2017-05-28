@@ -3,7 +3,7 @@ GLOSSARY FOR æTERNITY BLOCKCHAIN
 
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                             |
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:---------------------------------------------|
-| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#linking-to-this-glossary) |
+| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#Glossary-Guidelines) |
 | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Sources](#sources)                          |
 
 ***
@@ -437,7 +437,11 @@ the case of Æternity, every value-holder can participate.
 
 ***
 
-## linking to this glossary
+## Glossary Guidelines
+
+<sup>[read also Wiki-Guidelines](Wiki-Guidelines-&-To-Do's)</sup>
+
+### linking to this glossary
 
 This is how a link looks like:
 https://github.com/aeternity/wiki/wiki/Glossary#hashlocking, if you are
@@ -449,14 +453,13 @@ matter, do it later, do it never, another one will do it for you, or no
 one will it do. The main thing is linking to here. (please fix my bad
 english, if know what I mean)
 
-## Links to external sources from every content
-If it is possible, please set inside (at the bottom) : 
+### Links to external sources from every content
+If it is possible, please set inside (at the bottom) :
 * < s u p > link to source, from where you have the information < / sup >
 * < s u p > link to a æ-wiki page, if we have < / sup > see Example: [Cuckoo Cycle](#cuckoo-cycle)
   * if we have a æ-wiki page: doit
   * if not, but you think we have to: do it also, so that we recognized this and write one if you have not the time or skill to do it. I think we will love this.
 
-## Sources:
+### Sources:
 
-[[Whitepaper_English]]
-[Blockchain Technology Glossary](http://www.blockchaintechnologies.com/blockchain-glossary)
+see above: Links to external sources from every content
