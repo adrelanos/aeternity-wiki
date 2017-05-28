@@ -15,6 +15,8 @@ GLOSSARY FOR æTERNITY BLOCKCHAIN
 Addresses (Cryptocurrency addresses) are used to receive and send
 transactions on the network. An address is a string of alphanumeric
 characters, but can also be represented as a scannable QR code.
+
+### AE
 AE is a common unit used to designate one aeon.
 
 ### Aeon
