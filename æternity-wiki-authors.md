@@ -242,6 +242,17 @@
 
 ### [0ldPaul](https://github.com/0ldPaul)
 
+* Profile: [Github Zwilla](https://github.com/Zwilla)
+* Motivation: I want to make the world smarter
+* Contribution: 
+
+| No | æTERNITY WIKI  Contribution and support                                    |
+|:---|:---------------------------------------------------------------------------|
+| 1  | [æternity Italian Whitepaper](https://github.com/aeternity/wiki/wiki/Whitepaper_Italian/_history)                              |
+| 2  | [Futarchy section under Research and Theory](https://github.com/aeternity/wiki/wiki/Research-and-Theory/_history) |
+
+* Contact: e-Mail: paolo.anziano@gmail.com
+* Language: native language Italian, community english, french (basics)
 
 ***
 
