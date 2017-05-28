@@ -62,7 +62,7 @@
      - [SL-Examples](æternity-Scripting-Language-Examples)
    - [æternity development tutorial](æternity-development-tutorial)
    - [Resources](æternity-DApp-Developer-Resources)
-   - [Whitepaper full text(en)](Whitepaper-dev-full-text-en)
+   - [Whitepaper full text(en)](Whitepaper-dev-full-text)
 
 ### æternity White Paper
 - [English][WP_engl]
