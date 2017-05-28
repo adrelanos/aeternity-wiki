@@ -487,9 +487,3 @@ Dear Donator,
   entrie on 'Donations are wellcome:' are posted by the author it self
 * also check the line above, not that the 'æTERNITY WIKI
   author/_history' where poinitng anywhere else.
-
-### Number of authors:
-
-* 65
-* I hope I did not forgot one! All authors sinc first day to : 29th May
-  2017 this commit: 3717dbc
