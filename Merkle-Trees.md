@@ -133,7 +133,7 @@ result of hashing the concatenation of hash 0-0 and hash 0-1. That is,
 hash 0=hash( hash 0-0 + hash 0-1 ) where + denotes concatenation.
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/640px-Hash_Tree.svg.png)
+![](https://github.com/aeternity/wiki/blob/master/images/merkle-tree.png)
 
 
 In most cases, Merkle trees have a branching factor of 2, meaning that
