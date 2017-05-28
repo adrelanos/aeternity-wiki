@@ -190,6 +190,7 @@ Turing-completeness - what does it mean, and what does it enable?
 State Channels - further reading and examples.
 
 * [From Smart Contracts to Courts with not so Smart Judges - by Christian Reitwiessner ](https://blog.ethereum.org/2016/02/17/smart-contracts-courts-not-smart-judges/)
+* [Universal Payment Channels By Jehan Tremback](http://jtremback.github.io/universal-payment-channels/universal-payment-channels.pdf)
 * [Ethereum Lightning Network and Beyond - by Arcturnus](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/) - a discussion of state channel significance and implementation on Bitcoin and Ethereum.
 * [Raiden](http://raiden.network/) - forthcoming Ethereum state channel implementation.
 * [Abstracted State Channels](https://github.com/AnnaIsAWang/LedgerLabsCoops2016/tree/master/AbstractedStateChannel) Example by Ledger Labs
@@ -211,6 +212,9 @@ Consensus, Proof-Of-Stake, and Slasher
 * [Slasher implementation by Zach Hess](https://github.com/zack-bitcoin/slasher)
 * [Comparison of Failure Modes between Flying Fox Consensus and Traditional Byzantine Fault Tolerant Consensus by Zach Hess](https://github.com/BumblebeeBat/FlyingFox/blob/master/docs/failure_modes.md)
 * [The Honey Badger of BFT Protocols by Miller et. al](https://eprint.iacr.org/2016/199.pdf)
+* [On Stake and Consensus by Andrew Poelstra](https://download.wpsoftware.net/bitcoin/pos.pdf)(contrarian account)
+* [A History of Casper by Vlad Zamfir](https://blog.ethereum.org/2016/12/06/history-casper-chapter-1/) A 5-chapter account.
+* [Tendermint: Consensus without Mining by Jae Kwon](https://cdn.relayto.com/media/files/LPgoWO18TCeMIggJVakt_tendermint.pdf)
 
 # Working Theories
 
