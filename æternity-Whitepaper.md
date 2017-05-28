@@ -12,7 +12,7 @@ official æternity Whitepaper revisions
 ## æternity Whitepaper unofficial translations
 ### [中文](Whitepaper_Chinese)
 ### [Deutsch - Zusammenfassung](Whitepaper_Deutsch) // [unofficial draft]([German]-æternity-Whitepaper-Draft)
-### [Español - Resumen](Whitepaper_Español) // [pdf](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
+### [Español - Resumen](Whitepaper_Español) // [pdf](https://github.com/aeternity/wiki/blob/master/whitepapers/Aeternity-blockchain-espaniol.pdf)
 ### [français - Historique](Whitepaper_French)
 ### [bahasa Indonesia - Abstrak](Whitepaper_Indonesia)
 ### [italiano - Documento completo](Whitepaper_Italian)
