@@ -17,6 +17,7 @@
 - [Bounty Programs][bounty]
 - [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
 - [æternity Wiki-Authors](æternity-wiki-authors)
+- [æternity on channel ONE](æternity-on-channel-ONE)
 
 ### Research
 - [Idea Box][ideabox]
