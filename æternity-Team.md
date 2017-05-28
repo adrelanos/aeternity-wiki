@@ -73,6 +73,18 @@ Blending his fast growing knowledge and interest in blockchain technologies and 
 
 ***
 
+ <img align="left" src="https://www.aeternity.com/user/pages/01.home/_10.team/michal.jpg" height="300" alt="Michal Zajda">
+
+## Michal Zajda <a target="_blank" href="https://www.linkedin.com/in/mzajda"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
+
+#### Senior Erlang Architect
+
+Michał Zajda is a hands-on engineer with a track record in the hottest projects of the last few years. He has been responsible for the architecture, scalability and performance in systems behind RTB markets, Mobile Chat apps, and IoT systems that serve hundreds of millions customers. He will support æternity’s incorporation of Erlang technology in order to deliver a state-of-the-art blockchain.
+
+<table></table>
+
+***
+
  <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/jack-pettersson.png" alt="Jack Pettersson">
 
 ## Jack Pettersson <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
