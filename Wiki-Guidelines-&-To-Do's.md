@@ -90,17 +90,6 @@ If you grab a To Do, please do the following:
 * [ ] Research: æternity DAO - possible?
 * [ ] Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
 * [ ] Add [Subpages](Idea-Box#subpages) to Wiki
-* [ ] Revert [THIS PAGE](Understanding-Aeternity) back to the revision
-      before content was deleted [davidiach 17-05-06]  
-      **there has been a misunderstanding:**
-
-[This page](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity)
-_contains revisions that are missing in the copied page, that got
-migrated into the new Repo by accident._ _Since the migration already
-happened, we need to somehow import the revision from the above page to
-here:_
-
-    _[Understanding æternity (in the new wiki repo)](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity)_
 
 ### CLOSED
 
@@ -117,3 +106,15 @@ here:_
       the repo to reference it in the wiki and at a later point on the
       website www.aeternity.com. The revision history needs to be
       completely migrated as well. [acetronaut 17-05-08]
+* [x] Revert [THIS PAGE](Understanding-Aeternity) back to the revision
+      before content was deleted [davidiach 17-05-06]  
+      **there has been a misunderstanding:**
+
+[This page](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity)
+_contains revisions that are missing in the copied page, that got
+migrated into the new Repo by accident._ _Since the migration already
+happened, we need to somehow import the revision from the above page to
+here:_
+
+    _[Understanding æternity (in the new wiki repo)](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity)_
+ 
