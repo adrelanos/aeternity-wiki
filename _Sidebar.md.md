@@ -23,7 +23,6 @@
 - [Idea Box][ideabox]
 - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
 - [Research & Theory][research]
-- []()
 
 ### æternity Technologies
 - [Technology of æternity][tech]
