@@ -6,6 +6,7 @@
 - [Korean (translation)](Whitepaper_korean-%28%ED%95%9C%EA%B5%AD%EC%96%B4%29)
 - [Spanish (translation)](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
 - [Russian (translation)](Whitepaper_Russian)
+- [German (translation)](Whitepaper_Deutsch)
 
 # Concepts
 
