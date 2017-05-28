@@ -17,7 +17,7 @@ Applications like markets for synthetic assets and prediction markets can be eff
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/1.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/code.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">INDUSTRIAL GRADE CODE BASE</strong>
@@ -36,7 +36,7 @@ Erlang is the perfect choice to write a blockchain from scratch that allows it t
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/2.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/blockchain.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">BLOCKCHAIN NETWORKS</strong>
@@ -55,7 +55,7 @@ MIT-licensed modules will allow easy implementation in blockchain consortiums, e
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/3.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/ae.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">AE TOKEN</strong>
@@ -75,7 +75,7 @@ The initial amount of AE for the genesis block will be determined by a verifiabl
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/4.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/smart-contracts.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">SMART CONTRACTS</strong>
@@ -95,7 +95,7 @@ In other words: They are one-to-one sidechains, where the blockchain acts as a p
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/5.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/oracles.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">ORACLES</strong>
@@ -115,7 +115,7 @@ Each user can ask questions about the environment. Everybody can answer. The con
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/6.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/dns.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">NAMES (DNS)</strong>
@@ -134,7 +134,7 @@ The blockchain’s state includes a mapping from unique human-friendly strings t
 <tbody>
 <tr>
 <td class="align-top">
-<img src="http://www.aeternity.com/user/pages/02.technology/_technology/7.png" alt="">
+<img src="https://github.com/aeternity/wiki/blob/master/images/icons/accounts.png" alt="">
 </td>
 <td class="align-middle">
 <strong class="d-block">ACCOUNTS & IDENTITY</strong>
