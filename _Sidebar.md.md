@@ -32,11 +32,6 @@
 - [æternity in the blockchain space](æternity-in-the-blockchain-space)
 
 ### Infrastructure
-- [Testnet setup start and use](testnet-setup-start-and-use)
-- [Ubuntu Node Commands](Ubuntu-Node-Commands)
-- [Terminal interface commands](Terminal-interface-commands)
-- [API Commands](API-Commands)
-- [Api Examples](Api-Examples)
 - [Cuckoo Cycles](Cuckoo-Cycles)
 - [Mining][mining]
 - [Merkle Trees](Merkle-Trees)
@@ -45,9 +40,16 @@
 - [Channels](Channels)
 - [[State Channels]]
 - [[Oracles]]
+- [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
+
+### Handling Technologies & Infrastructure
+- [Testnet setup start and use](testnet-setup-start-and-use)
+- [Ubuntu Node Commands](Ubuntu-Node-Commands)
+- [Terminal interface commands](Terminal-interface-commands)
+- [API Commands](API-Commands)
+- [Api Examples](Api-Examples)
 - [Troubleshooting][troubleshooting]
 - [Windows Installation][wininstall]
-- [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
 
 ### How to
 - [How to sign a message with private key][privatekeymessage]
