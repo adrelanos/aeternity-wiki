@@ -34,15 +34,15 @@ Examples:<p>
 
 <b>Campaign<p>
 
-The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for three days, beginning on April 3rd, 2017. Contributors were able to purchase 1,100 aeon tokens (AE) for every ETH spent in the first 24 hours and 1,000 AE for every ETH thereafter. The first thousand who contributed 12 ETH or more were also entitled to a limited edition æternity branded Ledger Nano S hardware wallet. 2466 contributers generated 139,099,689.485 AE through a total contribution of 121,265.614 ETH and 323.5482 BTC. At fiat to cryptocurrency conversion rates of 5/23/17, the USD value translates to $733,736.14 in BTC and $21,955,139.41 in ETH, totaling $22,688,875.55.
+The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for three days, beginning on April 3rd, 2017. Contributors were able to purchase 1,100 aeon tokens (AE) for every ETH spent in the first 24 hours and 1,000 AE for every ETH thereafter. The first thousand who contributed 12 ETH or more were also entitled to a limited edition æternity branded Ledger Nano S hardware wallet. 2466 contributors generated 139,099,689.485 AE through a total contribution of 121,265.614 ETH and 323.5482 BTC. At fiat to cryptocurrency conversion rates of 5/23/17, the USD value translates to $733,736.14 in BTC and $21,955,139.41 in ETH, totaling $22,688,875.55.
 
 [Phase 2, the "Early Adopter" round](https://wallet.aeternity.com/) begins on May 29th and will be open for three full weeks - or until contributions reach the cap of twenty one million Swiss Francs (CHF). This round will allow contributors to purchase 800 AE for each ETH contributed over the first 24 hours, 750 over the remainder of the first week, 700 AE per ETH over the second week, and 650 ETH over the third week. BTC will also be accepted.
 
-To contribute to the campaign, you will be obliged to use the aeternity contribution wallet at [wallet.aeternity.com](https://wallet.aeternity.com/), fund that wallet and then proceed with your transfer.
+To contribute to the campaign, you will be obligated to use the aeternity contribution wallet at [wallet.aeternity.com](https://wallet.aeternity.com/), fund that wallet and then proceed with your transfer.
 
 Contributors will be able to use their aeon after Phase 2 is complete. These tokens will be distributed right after Phase 2, directly to the contribution addresses (for ETH contributors) as [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network). These will be taken care of automatically by a smart contract.
 
-At the bottom of [wallet.aeternity.com](https://wallet.aeternity.com/), you can enter the public address from which you made your contribution to the aeternity funding address.  How many AE you will receive upon their issuance, will be displayed.
+At the bottom of [wallet.aeternity.com](https://wallet.aeternity.com/), you can enter the public address from which you made your contribution to the aeternity funding address.  How many AE you will receive upon their issuance, will be displayed afterwards.
 
 The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
