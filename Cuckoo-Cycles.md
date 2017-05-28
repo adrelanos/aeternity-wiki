@@ -1,5 +1,3 @@
-Cuckoo Cycle
-============
 
 ## Introduction of Proof of Work
 
