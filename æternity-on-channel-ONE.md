@@ -3,7 +3,7 @@
 
 ## æternity Youtube Videos 
 
-* https://www.youtube.com/watch?v=lqP59HWnDus
+* [æternity the oracle machine on blockchain](https://www.youtube.com/watch?v=lqP59HWnDus)
 
 
 
