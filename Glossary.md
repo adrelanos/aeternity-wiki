@@ -43,13 +43,7 @@ are silicon chips specifically designed to do a single task.
 
 ## B
 
-### Blockchain?
-
-A distributed, tamper-proof database with metered access. The database
-is defined by a growing list of hash-linked blocks and can have any
-rules for appending them.
-
-### Blockchain-??
+### Blockchain
 
 A blockchain is a type of distributed ledger, comprised of unchangeable,
 digitally recorded data in packages called blocks (rather like collating
