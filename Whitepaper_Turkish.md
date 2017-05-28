@@ -16,7 +16,7 @@ Sentetik varlık ve tahmin pazarları gibi pazar uygulamaları küresel ölçekt
 
 
 Tüm whitepaper ı buradan indirin v0.1 (PDF):
-[æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+[æternity whitepaper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 **Yazarlar:**
   
