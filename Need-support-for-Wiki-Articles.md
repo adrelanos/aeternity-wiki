@@ -1,5 +1,5 @@
 We need your support for Wiki-Articles
-![æternity-need-wiki-support](http://aeternity.de/images-by-zwilla/aeternity-need-wiki-support.jpg)
+![æternity-need-wiki-support](https://github.com/aeternity/wiki/blob/master/images/wiki-support.jpg)
 TOC
 ==================================
 
