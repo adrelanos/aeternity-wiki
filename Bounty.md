@@ -41,5 +41,26 @@ Future bounties are listed in the following places.
 Keep an eye on them so you dont miss them
 
 * [aeternity blog](https://blog.aeternity.com/%C3%A6ternity-bounty-program-e6191d330cf5)
+  This post gets updated frequently when bounties start and finish.
 
 * [Bitcointalk Forum](https://bitcointalk.org/index.php?topic=1819473.0)
+   You can use bitcointalk to ask questions about bounties.
+   This is also updated as well as the blog when new bounties start and finish
+
+### Upcoming bounties to watch out for
+
+* Facebook campaign bounty: 25.000 AE (Will be announced soon)
+
+* Twitter campaign bounty: 25.000 AE (Will be announced soon)
+
+* Contests: 90.000 AE (Total) (Will be announced soon)
+
+* Blog post: 130.000 AE  (Will be announced soon)
+
+* Meme contest: 15.000 AE
+
+* Infographic contest: 15.000 AE
+
+* Video contest: 35.000 AE
+
+
