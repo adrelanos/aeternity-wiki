@@ -3,6 +3,11 @@ We need your support for Wiki-Articles
 TOC
 ==================================
 
+Dear Wiki-Authors, æternity enthusiasts and Fans!
+
+Dan wrote on Slack [Dan’s post](https://aeternity.slack.com/archives/C59BALQCE/p1495980563682848), that it would be better to open up an issue on wiki to discuss and support everything we want to know. So let us open an issue by clicking here: [open Wiki issue](https://github.com/aeternity/wiki/issues/new)
+
+
 Open request
 
 * [Translation support](#translation-support)
