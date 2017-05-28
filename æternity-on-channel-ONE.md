@@ -1,10 +1,16 @@
 # æternity on channel ONE
 
 
-## æternity Youtube Videos 
+## æternity Youtube and other Videos
+
+## Playlists
 
 ## English Videos
 
+[What is aeternity blockchain?](https://www.youtube.com/watch?v=F9cqkdx1Llo)
+
+
+***
 ## Spanish videos
 
 * [æternity Blockchain Testnet - nueva dirección & contraseña aeternity](https://www.youtube.com/watch?v=ZPBSYMzeHNw)
