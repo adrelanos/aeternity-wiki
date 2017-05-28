@@ -1,4 +1,4 @@
-# Trust is in the Air. Feel like singing?? Just get "that" song and sing it with this lyric instead ;)
+# Feel like singing?? Just get "that" song and sing it with this lyric instead ;)
 
 
 Trust is in the air everywhere I look around 
