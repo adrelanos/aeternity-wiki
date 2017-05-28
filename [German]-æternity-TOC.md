@@ -25,6 +25,7 @@
 - [æternity Testnet installieren]([German]-install-æternity-Testnet)
 - [Testnet Setup, start und Handling]([German]-Testnet-setup-start-and-use)
 - [FAQ in Deutsch]([German]-Frequently-Asked-Questions)
+- [Digitale Wallets sicherer Umgang und Aufbewahrung]([German]-Digitale-Wallets-sicherer-Umgang-und-Aufbewahrung)
 
 (falls im Moment ein Link ins leere führt, liegt es daran, dass die
 Seite gerade in Bearbeitung ist. Danke für dein Verständnis)
