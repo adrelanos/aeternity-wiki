@@ -10,7 +10,7 @@ die neue Blockchain Technologie von æternity eingehen und erklären wie
 man hier seine Wallet schützen sollte.
 
 >Hinweis vor dem sorgfältigen lesen: Bitte nicht für übel nehmen, wenn
->ich etws zynisch wirke. Ich will nur das Beste für dich.
+>ich etwas zynisch wirke. Ich will nur das Beste für dich.
 
 Auf die folgenden Fragen möchte ich eingehen:
 * [Bewährte Verfahren](#bewährte-verfahren--best-practice)
@@ -18,7 +18,8 @@ Auf die folgenden Fragen möchte ich eingehen:
 * [Wie wichtig ist der 'Private' Schlüssel](#privater-schlüssel)
 * [Hauptprobleme!](#hauptprobleme)
 * [Unterschied Wallets und Konten](#unterschied-wallets-und-konten)
- * [æternity Wallets und Konten](#æternity-wallets-und-konten) 
+  * [æternity Wallets und Konten](#æternity-wallets-und-konten)
+* [Kraft und Macht der Hacker](#kraft-und-macht-der-hacker)
 
 ***
 ## Hauptprobleme:
@@ -27,7 +28,7 @@ Auf die folgenden Fragen möchte ich eingehen:
 * Dein Computer der online ist.
 * Eine Wallet die du online erstellt hast.
 * Unwissenheit, Leichtsinnigkeit.
-* fehlendes Verantwortungsbewußtsein.
+* fehlendes Verantwortungsbewusstsein.
 
 
 * Naivität.
@@ -39,7 +40,7 @@ es. Denn sie wissen nicht was sie tun.
 ## Bewährte Verfahren / best practice
 
 **Auflistung nach Sicherheit!**
-Hinweis: Ab 3. wird es nahezu unkontollierbar
+Hinweis: Ab 3. wird es nahezu unkontrollierbar
 
 1. Offline Computer einsetzen
 2. Hardware Wallet benutzen
@@ -60,8 +61,8 @@ Viele vergessen die Wichtigkeit, des privaten Schlüssels! Warum? Ganz
 einfach, weil diese, diese Zeilen hier nicht verstehen oder nie zuvor
 gelesen haben.
 
-Der 'Private Schlüssel' ist wie das Wort es schon sagt. Im besitz sollte
-nur der jenige sein dem du auch vertraust.
+Der 'Private Schlüssel' ist wie das Wort es schon sagt. Im Besitz sollte
+nur der jene sein dem du auch vertraust.
 * nur Du und deine möglichen Erben, bzw. Notar
 
 ## Unterschied Wallets und Konten
@@ -74,16 +75,44 @@ dir dann so vorstellen musst:
     *  Konto 1
     *  Konto 2
     *  usw.
-    
+
 Eine Wallet kann eine unendliche Anzahl von Konten haben, was jedoch der
 Übersicht halber nicht immer sinnig ist.
 
 ## æternity Wallets und Konten
 
 In Bezug auf æternity Wallets gilt gleiches Handling wie oben
-beschrieben, nähere Details kann ich dann veröffenlichen, wenn die
+beschrieben, nähere Details kann ich dann veröffentlichen, wenn die
 Entwicklung von æternity in einem Status ist wann diese das erstemal
 live gegangen ist. Geplant ist das erste Quartal 2018
+
+
+
+## Kraft und Macht der Hacker
+Der Einfallsreichtum dieser Gruppe ist nahezu genauso vielfältig wie
+die Dummheit und Naivität meiner selbst.
+
+Hier zulande assoziiert man einen Hacker mit etwas bösem, schlechtem,
+ist es aber nicht. Jemadn der sich einen Quellcode anschaut, ein paar
+Änderungen macht ist im englischen auch shon ein Hacker, was nicht heißt
+das dieser etwas unrechtes im Schilde führt.
+
+Hier gibt es ein Bezeichnung für:
+
+* White Hat (guter Hacker)
+* Black Hat (böser Hacker)
+
+Immer wieder denke ich: Mensch, wie hat man an das oder das nicht denken
+können. Im Zweifel hilft nur eines Computer hart ausschalten, vom
+Internet trennen und nicht wieder an das Netz lassen bevor du nicht
+alles mögliche und erdenkliche getan hat.
+
+Warum den Stecker ziehen? Tja, selbst das klicken auf "abbrechen",
+"schliessen", "löschen", "Nein", und so weiter löst schon eine Aktion
+aus die genutzt werden könnte.
+
+Also sei auf der Hut und sei vorsichtig!
+
 
 ***
 HINWEIS: Ich erhebe keinen Anspruch darauf mit diesem Bericht alles
@@ -101,4 +130,5 @@ Englischer Artikel hier zu:
 |:----|:-------------|:----------------------------------------------------------------------------------------------------|
 | 1   | doc          |                                                                                                     |
 | 2   | doc          |                                                                                                     |
-| 3   | Instipration | [Bitcoin Wallet](https://the-internet-of-money.de/blog/bitcoin-wallet-brieftasche/) (author:zwilla) |
+| 3   | Inspiration | [Bitcoin Wallet](https://the-internet-of-money.de/blog/bitcoin-wallet-brieftasche/) (author:zwilla) |
+
