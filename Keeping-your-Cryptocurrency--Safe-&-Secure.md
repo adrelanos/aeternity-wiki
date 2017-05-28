@@ -151,7 +151,7 @@ closed-source Windows OS.
   rights, and, theoretically, the virus can only access the users local
   files and folders thus preventing malicous code from infecting the
   entire system.
-
+***
 * **Social Engineering** Closed source operating systems like Windows
   are more vulnerabilities to social engineering attacks. Most viruses
   are spread by convincing users to doing something they shouldn't, like
@@ -205,10 +205,37 @@ Advantages
 * Publicy available bug tracking system
 * Stability - some users report running Debian 1+ year without a single reboot!
 * Security - being 100% open, security issues are exposed and plugged quickly 
+***
+**Qubes** is a security-focused desktop operating system that aims to provide security through isolation. Virtualization is performed by the Xen hypervisor , and user environments can be based on Fedora, Debian, Whonix, and Windows, among other operating systems.
 
-**Qubes** is a security-focused desktop operating system that aims to provide security through isolation. Virtualization is performed by the Xen hypervisor , and user environments can be based on Fedora, Debian, Whonix, and Windows, among other operating systems. 
+Advantages
 
-**Tails**(which stands for ‘The Amnesiac Incognito Live System’) is probably the most well-known privacy-focused distro. It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick.All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy  for example, there’s the KeePassX password manager. Do note that vulnerabilities are constantly discovered with Tails so be sure to check for updates (as you should do with any OS, of course).
+* The Xen hypervisor and administrative domain (dom0) in Qubes OS actively discourages any activity other than running VMs.
+* The network stack and WiFi drivers are running in a dedicated, unprivileged network VM (NetVM), which substantially reduces the attack surface.
+* An additional firewall VM is used to house the Linux kernel-based firewall, providing extra protection against a compromised NetVM.
+* By default, Qubes OS is firewalled and no incoming ports are open.
+* No networking is present in the administrative domain (dom0). Even dom0 upgrades are done in a dedicated UpdateVM.
+  (currently set by default to NetVM), before those are verified and installed in dom0.
+* DisposableVMs are available to open untrusted applications, links, attachments and documents.
+* Greater security of email-centric work environments is possible by using split GPG to protect private keys and      
+  limiting network connections exclusively to the chosen email server.
+* Protection against unintentional leaks of critical user data is possible by setting an empty NetVM field for the 
+  corresponding qube.
+*** 
+
+**Tails**(which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS . It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
+
+Advantages
+
+* Tails is amnesiac which means that when you reboot the OS any changes that were made to it in that session are    
+  erased. So if a malicious user was to infect your computer with a virus or worm it would no longer be there after 
+  you reboot the system. Keep in mind that if you are infected with a virus during that a session all the work you
+  did during that session could be compromised. If you entered your password into your web wallet the malicious user 
+  could very well have your password.
+* The Tails devs have already tested and configured the much of the software for you.  Most of the applications you
+  will need come pre installed.
+
+ 
 
 ### Bios Passwords
 
