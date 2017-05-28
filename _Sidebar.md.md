@@ -101,9 +101,6 @@
 - [Dedicated Wiki channel on Slack](https://pacific-beach-20900.herokuapp.com/)
 - [æternity-Documentation][doc]
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
-
-
-(74 - pages)
 ***
 [drafts]: æternity-wiki-draft-documents
 [todo]: Wiki-Guidelines-&-To-Do's
