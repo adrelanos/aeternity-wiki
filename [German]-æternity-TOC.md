@@ -10,7 +10,6 @@ Es bietet einen einzigartigen [Proof-of-Work (PoW)](https://en.wikipedia.org/wik
 Dadurch, dass verschiedene Konsensmechanismen nicht übereinander gelagert werden, wird die Effizienz maximiert. 
 [["State Channels"|State channels]] maximieren die Skalierbarkeit und Privatsphäre, weil es nicht nötig ist "Smart Contracts" on-chain zu speichern. 
 Überweisung von Token über "Channels" wird mittels funktionen-basierter "Smart Contracts" erledigt, die über das Orakel Zugriff auf reale Daten haben.
-
 Damit kann æternity "Smart Contracts" schneller und einfacher ausführen, mit höherer Fehlertoleranz ohne Einbußen an Geschwindigkeit und Funktionalität.
 
 .
