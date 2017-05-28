@@ -19,3 +19,5 @@
 * http://slack.aeternity.com/
 
 * https://www.linkedin.com/company/aeternity
+
+* https://gitter.im/aeternity/Lobby
