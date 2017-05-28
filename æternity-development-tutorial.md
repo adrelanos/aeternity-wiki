@@ -1,13 +1,10 @@
-# æternity development tutorial
+# æternity æternity development tutorial
 
 >Stay tuned! We will fill this page with all your needs, from time to
 >time. Note! æternity is still under development! We were creating this
 >draft page to not forget something! Note that this is a draft and will
 >change likely!
 
-
-
-**Learning about this:**
 
 II. æTERNITY BLOCKCHAIN
 
@@ -29,35 +26,34 @@ II. æTERNITY BLOCKCHAIN
   * [Light clients](#æternity-light-clients)
   * [State channels and parallelism](#æternity-state-channels-and-parallelism)
   * [Transactions per second at a given memory requirement](#æternity-transactions-per-second-at-a-given-memory-requirement)
-* [Applications]()
-  * [Blockchain Essentials]()
-    * [Identities]()
-    * [Proof of Existence]()
-  * [State channel applications]()
-    * [Toll API]()
-    * [Insured crowdfunding]()
-    * [Cross-chain atomic swaps]()
-    * [Stable value assets and portfolio replication]()
-    * [Event contracts]()
-      * [Insurances]()
-      * [Whistleblowing]()
-    * [Prediction markets]()
-      * [Multidimensional prediction markets]()
-      * [Market with batch trading at a single price]()
-* [Implementation]()
-  * [Virtual machine and contract language]()
-  * [Adoption via web-integration]()
-  * [Open source modules]()
-  * [Usability and UX design]()
-* [Disscussion and Idea-Box Solutions]()
-  * [Limitations and tradeoffs]()
-    * [On-chain state]()
-    * [Free option problem]()
-    * [Liquidity loss and state channel topologies]()
-  * [Future work]()
-    * [Functional contract language]()
-    * [Multi-party channels:]()
-    
+* [Applications](#æternity-applications)
+  * [Blockchain Essentials](#æternity-blockchain-essentials)
+    * [Identities](#æternity-identities)
+    * [Proof of Existence](#æternity-proof-of-existence)
+  * [State channel applications](#æternity-state-channel-applications)
+    * [Toll API](#æternity-toll-api)
+    * [Insured crowdfunding](#æternity-insured-crowdfunding)
+    * [Cross-chain atomic swaps](#æternity-cross-chain-atomic-swaps)
+    * [Stable value assets and portfolio replication](#æternity-stable-value-assets-and-portfolio-replication)
+    * [Event contracts](#æternity-event-contracts)
+      * [Insurances](#æternity-insurances)
+      * [Whistleblowing](#æternity-whistleblowing)
+    * [Prediction markets](#æternity-prediction-markets)
+      * [Multidimensional prediction markets](#æternity-multidimensional-prediction-markets)
+      * [Market with batch trading at a single price](#æternity-market-with-batch-trading-at-a-single-price)
+* [Implementation](#æternity-implementation)
+  * [Virtual machine and contract language](#æternity-virtual-machine-and-contract-language)
+  * [Adoption via web-integration](#æternity-adoption-via-web-integration)
+  * [Open source modules](#æternity-open-source-modules)
+  * [Usability and UX design](#æternity-usability-and-ux-design)
+* [Disscussion and Idea-Box Solutions](#æternity-disscussion-and-idea-box-solutions)
+  * [Limitations and tradeoffs](#æternity-limitations-and-tradeoffs)
+    * [On-chain state](#æternity-on-chain-state)
+    * [Free option problem](#æternity-free-option-problem)
+    * [Liquidity loss and state channel topologies](#æternity-liquidity-loss-and-state-channel-topologies)
+  * [Future work](#æternity-future-work)
+    * [Functional contract language](#æternity-functional-contract-language)
+    * [Multi-party channels:](#æternity-multi-party-channels)
 
 * [Sources](#sources)
 
@@ -325,14 +321,6 @@ related: [æternity DApp Development](æternity-DApp-Development)
 ***
 
 ## Sources:
-
 | No | Type        | Source                                                                                          |
 |:---|:------------|:------------------------------------------------------------------------------------------------|
-| 1  | docs        | [SL docs](../../../../aeternity/chalang/blob/master/README.md)                                  |
-| 2  | docs        | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)                                 |
-| 3  | docs        | [Opcodes](../../../../aeternity/chalang/blob/master/Opcodes.md)                                 |
-| 4  | docs        | [BumblebeeBat/chalang](../../../../BumblebeeBat/chalang/tree/master/docs)                       |
-| 5  | docs        | [backtracking](../../../../BumblebeeBat/chalang/tree/master/docs/compile_backtracking.md)       |
-| 6  | docs        | [compile functions](../../../../BumblebeeBat/chalang/tree/master/docs/compile_functions.md)     |
-| 7  | brain       | [Brainwallet Zwilla](æternity-wiki-authors#zwilla)                                              |
-| 8  | White Paper | [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) |
+| 1  | White Paper V 0.1| [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) |
