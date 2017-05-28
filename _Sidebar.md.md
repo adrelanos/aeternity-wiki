@@ -17,6 +17,7 @@
 - [Bounty Programs][bounty]
 - [Community](Community)
 - [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
+- [æternity Wiki-Authors](æternity-wiki-authors)
 
 ### Research
 - [Idea Box][ideabox]
