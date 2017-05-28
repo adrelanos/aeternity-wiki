@@ -27,6 +27,10 @@
 
 ### [akki199420](https://github.com/akki199420)
 
+***
+
+### [Alex Shelpin](https://github.com/Shelpin)
+
 
 ***
 
@@ -455,7 +459,7 @@ so we and visitors know how to contact you/us and ask for
 
 ### before donate!
 
-Dear Doantor,
+Dear Donator,
 * double check before you where donating to an æTERNITY WIKI author.
 * open this [history](æternity-wiki-authors/_history) and check if the
   entrie on 'Donations are wellcome:' are posted by the author it self
@@ -464,6 +468,6 @@ Dear Doantor,
 
 ### Number of authors:
 
-* 64
+* 65
 * I hope I did not forgot one! All authors sinc first day to : 29th May
   2017 this commit: 3717dbc
