@@ -43,7 +43,7 @@
 - [Transaction Types](Transaction-Types)
 - [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
 
-### USING: Technologies & Infrastructure
+### Handling Technologies & Infrastructure
 - [API Commands](API-Commands)
 - [Api Examples](Api-Examples)
 - [Terminal interface commands](Terminal-interface-commands)
@@ -55,7 +55,7 @@
 ### How to
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
-- [keep your cryptocurrency secure & safe](keep-cryptocurrency-wallet-secure—safe)
+- [keep your cryptocurrency secure&safe](#keep-cryptocurrency-wallet-secure--safe)
 
 
 ### [DApp Development](æternity-DApp-Development)
@@ -86,12 +86,13 @@
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
 - [[French] æternity TOC]([French]-æternity-TOC)
-- [[German] Frequently Asked Questions]([German]-Frequently-Asked-Questions)
-- [[German] Testnet setup start and use]([German]-Testnet-setup-start-and-use)
 - [[German] æternity TOC]([German]-æternity-TOC)
-- [[German]API Commands]([German]API-Commands)
-- [[German]API Examples]([German]Api-Examples)
-- [[German]Terminal interface commands]([German]Terminal-interface-commands)
+   - [[German] Frequently Asked Questions]([German]-Frequently-Asked-Questions)
+   - [[German] Testnet setup start and use]([German]-Testnet-setup-start-and-use)
+   - [[German]API Commands]([German]API-Commands)
+   - [[German]API Examples]([German]Api-Examples)
+   - [[German]Terminal interface commands]([German]Terminal-interface-commands)
+   - [[German] Digitale Wallets: sicherer Umgang](german-digitale-wallets-sicherer-umgang)
 - [[Indonesia] æternity TOC]([Indonesia]-æternity-TOC)
 - [[Italian] æternity TOC]([Italian]-æternity-TOC)
 - [æternity Wiki日本語ホーム[Japanese]](æternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0[Japanese])
