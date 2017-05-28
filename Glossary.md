@@ -3,7 +3,7 @@ GLOSSARY FOR æTERNITY BLOCKCHAIN
 
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                             |
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:---------------------------------------------|
-| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#Glossary-Guidelines) |
+| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#glossary-guidelines) |
 | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Sources](#sources)                          |
 
 ***
