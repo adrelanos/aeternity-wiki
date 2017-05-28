@@ -284,6 +284,20 @@
 
 ### [schlady](https://github.com/schlady)
 
+* Profile: [Github schlady](https://github.com/schlady)
+* Motivation: enthusiast about æternity potentials
+* Contributions: 
+
+| No | æTERNITY WIKI  Contribution and support                                    |
+|:---|:---------------------------------------------------------------------------|
+| 1  | [æternity German Whitepaper](https://github.com/aeternity/wiki/wiki/Whitepaper_German/_history)                              |
+| 2  | [æternity German TOC](https://github.com/aeternity/wiki/wiki/%5BGerman%5D-%C3%A6ternity-TOC/_history) |
+|
+| 3  | [æternity Glossary](https://github.com/aeternity/wiki/wiki/Glossary)
+
+* Contact: e-Mail: jens.schleede@gmail.com
+* Language: native language German, community english, french (basics)
+
 ***
 
 ### [stefek99](https://github.com/stefek99)
