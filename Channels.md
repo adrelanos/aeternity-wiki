@@ -1,5 +1,3 @@
-**Channels**
-
 There are 5 transaction types: 2 that need to be signed by both:
 channel_new, channel_team_close and 3 that are signed by one:
 channel_solo_close, channel_slash, channel_timeout.
