@@ -12,4 +12,4 @@
 系统这样的开发工具和应用必需品也将会一并提供。
 ***
 
-下載整個白皮書：[Aeternity 区块链白皮书](http://blockchain.aeternity.com/Aeternity%E5%8C%BA%E5%9D%97%E9%93%BE%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+下載整個白皮書：[Aeternity 区块链白皮书](https://github.com/aeternity/wiki/blob/master/whitepapers/Aeternity%E5%8C%BA%E5%9D%97%E9%93%BE%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
