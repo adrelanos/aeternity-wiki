@@ -55,7 +55,7 @@
 ### How to
 - [How to sign a message with private key][privatekeymessage]
 - [Claiming Your Ledger][ledgerclaim]
-- [keep your cryptocurrency secure & safe](keep-cryptocurrency-wallet-secure--safe)
+- [keep your cryptocurrency secure & safe](keep-cryptocurrency-wallet-secure-&-safe)
 
 
 ### [DApp Development](æternity-DApp-Development)
@@ -92,7 +92,7 @@
    - [[German]API Commands]([German]API-Commands)
    - [[German]API Examples]([German]Api-Examples)
    - [[German]Terminal interface commands]([German]Terminal-interface-commands)
-   - [[German] Digitale Wallets: sicherer Umgang](german-digitale-wallets-sicherer-umgang)
+   - [[German] Digitale Wallets: sicherer Umgang]([German]-Digitale-Wallets-sicherer-Umgang-und-Aufbewahrung)
 - [[Indonesia] æternity TOC]([Indonesia]-æternity-TOC)
 - [[Italian] æternity TOC]([Italian]-æternity-TOC)
 - [æternity Wiki日本語ホーム[Japanese]](æternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0[Japanese])
