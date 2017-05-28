@@ -1,5 +1,3 @@
-Merkle trees
-================
 
 * [What are Merkle trees?](#what-are-merkle-trees)
      * [Uses](#uses)
