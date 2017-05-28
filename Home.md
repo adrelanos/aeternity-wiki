@@ -23,8 +23,6 @@ Decentralized prediction markets like [Augur](https://en.wikipedia.org/wiki/Augu
 
 <b>Overview and Applications of æternity<p>
 
-æternity is a blockchain protocol designed to solve the problems which are challenging smart contract platforms. æternity provides a highly efficient system for transferring value. Practically speaking, æternity represents a global oracle machine that can be utilized to provide decision making services in conjunction with smart contracts on an enormous scale.<p>
-
 The stateless nature of æternity’s smart contracts makes it ideal for building applications that provide scalability and privacy through state channels, while maintaining the security of blockchain and the access to real-world data through oracles. 
 These applications will also benefit from several on-chain features, including:<p>
 * Identities. Each account will be associated with a [unique ID number](https://en.wikipedia.org/wiki/Universally_unique_identifier). Users will be allowed to register distinctive names and link them to a data structure’s [Merkle](https://en.wikipedia.org/wiki/Merkle_tree) root.
