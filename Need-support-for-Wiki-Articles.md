@@ -20,7 +20,7 @@ Open request
 ### ~Translation support [Italian]~
 
 1. ~**Working on**: [Whitepaper_Italian #transazioni-per-secondo-ad-una-certa-richiesta-di-memoria](Whitepaper_Italian#transazioni-per-secondo-ad-una-certa-richiesta-di-memoria)~
-   * ~Reference to [original White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)~
+   * ~Reference to [original White Paper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)~
    * ~E.4.2 - line 21 of the box: what does „fast enough to sign up every
      human within 8 years“ means ? it means each human being which is 8
      years old ? or each human being within the next 8 years ? and sign
