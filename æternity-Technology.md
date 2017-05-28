@@ -1,6 +1,8 @@
 ## Introduction
 
-The innovation in the æternity is a creation of highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes an oracle very efficient because it avoids layering one consensus mechanism on top of another. State channels are integrated into the blockchain and are the de facto layer for execution of smart contracts. This increases both privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss of functionality.
+The innovation in the æternity is a creation of highly scalable blockchain architecture with a built-in Proof-Of-Work (POW) and Proof-Of-Stake (POS) consensus mechanism, which is also used to check the oracle. This hybrid system makes an oracle very efficient because it avoids layering one consensus mechanism on top of another. 
+
+State channels are integrated into the blockchain and are the de facto layer for execution of smart contracts. This increases both privacy and scalability. Tokens inside the state channels can be transferred using purely functional smart contracts that can access oracle answers. By not storing the contract code or state on-chain, æternity is able to make smart contracts easier to analyze and faster to process in parallel, with no substantial loss of functionality.
 Applications like markets for synthetic assets and prediction markets can be efficiently implemented at global scale. 
 
 ## Blockchain Technology
