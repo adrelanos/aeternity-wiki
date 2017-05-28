@@ -88,8 +88,9 @@ proof-of-concept implementations in Erlang. Devel- opment tools and
 application essentials such as a wallet, naming and identity system will
 also be provided.
 
-***
 
+[☝](#)
+***
 ## Introduction
 
 White Paper section: I
@@ -110,6 +111,8 @@ proof-of-concept imple- mentation, written in Erlang. We conclude with a
 discussion, including possible future directions and comparisons to
 other technologies.
 
+[☝](#)
+***
 ## Previous Work
 
 White Paper section: I.A
@@ -185,9 +188,6 @@ White Paper section: II A.4
 [☝](#)
 
 ***
-
-[☝](#)
-
 ***
 
 ## æternity State Channels
@@ -231,9 +231,6 @@ White Paper section: II B.2)
 [☝](#)
 
 ***
-
-[☝](#)
-
 ***
 
 ## æternity Consensus Mechanism
@@ -251,9 +248,6 @@ White Paper section: II C.1
 [☝](#)
 
 ***
-
-[☝](#)
-
 ***
 
 ## æternity Governance
@@ -263,9 +257,6 @@ White Paper section: II D
 [☝](#)
 
 ***
-
-[☝](#)
-
 ***
 
 ## æternity Scalability
@@ -310,9 +301,6 @@ White Paper section: II E.4
 [☝](#)
 
 ***
-
-[☝](#)
-
 ***
 
 ## æternity Applications
@@ -583,95 +571,28 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 
 ***
 
-## Sources:
+## REFERENCES:
 
-| No | Type              | Source                                                                                          |
-|:---|:------------------|:------------------------------------------------------------------------------------------------|
-| 1  |                   |                                                                                                 |
-| 2  |                   |                                                                                                 |
-| 3  |                   |                                                                                                 |
-| 4  |                   |                                                                                                 |
-| 5  |                   |                                                                                                 |
-| 6  |                   |                                                                                                 |
-| 7  |                   |                                                                                                 |
-| 8  |                   |                                                                                                 |
-| 9  |                   |                                                                                                 |
-| 10 |                   |                                                                                                 |
-| 11   |                   |                                                                                                 |
-|   12 |                   |                                                                                                 |
-|   13 |                   |                                                                                                 |
-|   14 |                   |                                                                                                 |
-|   15 |                   |                                                                                                 |
-|  16  |                   |                                                                                                 |
-|   17 |                   |                                                                                                 |
-| 11 | White Paper V 0.1 | [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) |
+| No | Name                                       | Title / Link                                                                                                                   |                                                                                                                                             |
+|:---|:-------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | S. Nakamoto                                | "Bitcoin: A peer-to-peer electronic cash system," 2008.                                                                        | [Online]. Available: https://bitcoin.org/bitcoin.pdf                                                                                        |
+| 2  | V. Buterin                                 | "Ethereum: A next-generation smart contract and decentralized application platform," 2014.                                     | [Online]. Available: https://github.com/ethereum/wiki/wiki/White-Paper                                                                      |
+| 3  | P. Sztorc                                  | "Market empiricism,"                                                                                                           | [Online]. Available: http://bitcoinhivemind.com/papers/1_Purpose.pdf                                                                        |
+| 4  | M. Liston and M. Koppelmann                | "A visit to the oracle," 2016.                                                                                                 | [Online]. Available: https://blog.gnosis.pm/a-visit-to-the-oracle-fefc9dec5462                                                                                       |
+| 5  | C. Detrio                                  | "Smart markets for smart contracts," 2015.                                                                                     | [Online]. Available: http://cdetr.io/smart-markets/                                                                                         |
+| 6  | many                                       | Namecoin wiki, 2016.                                                                                                           | [Online]. Available: https://wiki.namecoin.org/index.php?title=Welcome                                                                      |
+| 7  | P. Snow, B. Deery, J. Lu,et al.            | "Factom: Business processes secured by immutable audit trails on the blockchain," 2014.                                        | [Online]. Available: http://bravenewcoin.com/assets/Whitepapers/Factom-Whitepaper.pdf                                                       |
+| 8  | J. Peterson and J. Krug                    | "Augur: A decentralized, open-source platform for prediction markets," 2014.                                                   | [Online] Available: http://bravenewcoin.com/assets/Whitepapers/Augur-A-Decentralized - Open - Source - Platform -for-Prediction-Markets.pdf |
+| 9 | A. Swartz                                  | "Squaring the triangle: Secure, decentralized, human-readable names," 2011.                                                    | [Online]. Available: http://www.aaronsw.com/weblog/squarezooko                                                                              |
+| 10 | T. Hvitved                                 | "A Survey of Formal Languages for Contracts," inFormal Languages and Analysis of Contract-Oriented Software, 2010, pp. 29--32. | [Online]. Available: http://www.diku.dk/hjemmesider/ansatte/hvitved/publications/hvitved10flacosb.pdf                                       |
+| 11 | R. C. Merkle                               | Protocols for public key cryptosystems,"                                                                                       | inIEEE Symposium on Security and Privacy, 1980.                                                                                             |
+| 12 | V. Buterin                                 | "Proof of stake: How I learned to love weak subjectivity," 2014.                                                               | [Online]. Available: https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/                                       |
+| 13 |                                            | "Schema.org schemas," 2016.                                                                                                    | [Online]. Available: http://schema.org/docs/schemas.html                                                                                    |
+| 14 |                                            | "Atomic-cross-chain-trading," 2016.                                                                                            | [Online]. Available: https://en.bitcoin.it/wiki/Atomic%5C_cross-chain%5C_trading                                                            |
+| 15 |                                            | "Interledger," 2016.                                                                                                           | [Online]. Available: https://interledger.org                                                                                                |
+| 16 | K. J. Arrow, R. Forsythe, M. Gorham,et al. | "The promise of prediction markets,"Science, 320 2008                                                                          | [Online]. Available: http://mason.gmu.edu/˜rhanson/PromisePredMkt.pdf                                                                       |
+|  17  | Z. Hess                                    | "Chalang," 2016.                                                                                                               | [Online]. Available: https://github.com/aeternity/chalang                                                                                   |
+| 18 | White Paper V 0.1                          | [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)                                |                                                                                                                                             |
 
-
-<table style="text-align: left; width: 100%;" border="1" cellpadding="2"
-cellspacing="2">
-<tbody>
-<tr>
-<td style="vertical-align: top;">REFERENCES<br>
-[1] S. Nakamoto, “Bitcoin: A peer-to-peer electronic cash<br>
-system,” 2008. [Online]. Available: https://<br>
-bitcoin.org/bitcoin.pdf.<br>
-[2] V. Buterin, “Ethereum: A next-generation smart con-<br>
-tract and decentralized application platform,” 2014.<br>
-[Online]. Available:https://github . com /<br>
-ethereum/wiki/wiki/White-Paper.<br>
-[3] P. Sztorc, “Market empiricism,” [Online]. Available:<br>
-http://bitcoinhivemind.com/papers/1_<br>
-Purpose.pdf.<br>
-[4] M. Liston and M. Koppelmann, “A visit to the ora-¨<br>
-cle,” 2016. [Online]. Available:https://bloggnosis.pm<br>
-[5] C. Detrio, “Smart markets for smart contracts,” 2015.<br>
-[Online]. Available:http://cdetr.io/smart-markets/ <br>
-[6]Namecoin wiki, 2016. [Online]. Available: https://wiki.namecoin.org/index.php?title=Welcome.<br>
-[7] P. Snow, B. Deery, J. Lu,et al., “Factom: Business<br>
-processes secured by immutable audit trails on the<br>
-blockchain,” 2014. [Online]. Available:http : / /<br>
-bravenewcoin.com/assets/Whitepapers/<br>
-Factom-Whitepaper.pdf.<br>
-[8] J. Peterson and J. Krug, “Augur: A decentralized,<br>
-open-source platform for prediction markets,” 2014.<br>
-[Online]. Available:http : / / bravenewcoin .<br>
-com / assets / Whitepapers / Augur - A -<br>
-Decentralized - Open - Source - Platform -<br>
-for-Prediction-Markets.pdf.<br>
-[9] A. Swartz, “Squaring the triangle: Secure, decentral-<br>
-ized, human-readable names,” 2011. [Online]. Avail-<br>
-able:http : / / www . aaronsw . com / weblog /<br>
-squarezooko.<br>
-[10] T. Hvitved, “A Survey of Formal Languages for<br>
-Contracts,” inFormal Languages and Analysis of<br>
-Contract-Oriented Software, 2010, pp. 29–32. [On-<br>
-line]. Available:http : / / www . diku .<br>
-dk / hjemmesider / ansatte / hvitved /<br>
-publications/hvitved10flacosb.pdf.<br>
-</td>
-<td style="vertical-align: top;">[11] R. C. Merkle, “Protocols
-for public key cryptosys-<br>
-tems,” inIEEE Symposium on Security and Privacy,<br>
-1980.<br>
-[12] V. Buterin, “Proof of stake: How I learned to<br>
-love weak subjectivity,” 2014. [Online]. Available:<br>
-https://blog . ethereum . org / 2014 / 11 /<br>
-25 / proof - stake - learned - love - weak -<br>
-subjectivity/.<br>
-[13] “Schema.org schemas,” 2016. [Online]. Available:<br>
-http://schema.org/docs/schemas.html.<br>
-[14] “Atomic-cross-chain-trading,” 2016. [Online]. Avail-<br>
-able:https://en . bitcoin . it / wiki /<br>
-Atomic%5C_cross-chain%5C_trading.<br>
-[15] “Interledger,” 2016. [Online]. Available:https://<br>
-interledger.org/.<br>
-[16] K. J. Arrow, R. Forsythe, M. Gorham,et al., “The<br>
-promise of prediction markets,”Science, 320 2008.<br>
-[Online]. Available:http : / / mason . gmu . edu /<br>
-˜rhanson/PromisePredMkt.pdf.<br>
-[17] Z. Hess, “Chalang,” 2016. [Online]. Available:<br>
-https://github.com/aeternity/chalang.<br>
-</td>
-</tr>
-</tbody>
-</table>
+[☝](#)
+***
