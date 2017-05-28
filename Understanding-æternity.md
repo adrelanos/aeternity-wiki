@@ -29,7 +29,7 @@ Other smart contract platforms have experimented with 3rd party oracle machines 
 In contrast, æternity's oracle is fully integrated into the consensus mechanism and delivers deterministic values (from legacy systems, real-world data, or other blockchains) with which smart contracts may interact.
 The oracle system lets data outside the blockchain be instantly implemented in æternity smart contracts, enabling countless business use cases.
 
-![æternity-tech stack](http://i64.tinypic.com/219uskn.png)
+![æternity-tech stack](https://github.com/aeternity/wiki/blob/master/images/ae-tech-stack.png)
 
 # What is an oracle?
 
