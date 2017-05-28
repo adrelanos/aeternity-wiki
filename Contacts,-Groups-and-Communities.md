@@ -1,4 +1,7 @@
-# Get in touch:
+# Get in touch with the team and active community:
+
+## Homepage
+* [æternity.com](https://www.aeternity.com/)
 
 ## Social 
 * [Facebook](https://www.facebook.com/aeternityproject/)
@@ -7,16 +10,14 @@
 * [Telegram](https://telegram.me/aeternity)
 * [Telegram AETrader](https://telegram.me/aetrader)
 * [LinkedIn](https://www.linkedin.com/company/aeternity)
-* [WeChat](http://www.aeternity.com/#)
-* [QQ](http://www.aeternity.com/#)
 * [Medium](https://blog.aeternity.com/) 
 * [Bitcointalk](https://bitcointalk.org/index.php?topic=1733140.0)
+* [Gitter](https://gitter.im/aeternity/Lobby)
 
 ## Development & Support
 * [Github](https://github.com/aeternity) 
 * [Telegram](https://telegram.me/aeternity) 
-* [Slack](https://pacific-beach-20900.herokuapp.com/) 
-* [IRC](http://www.aeternity.com/#)
+* [Slack](https://aeternity.slack.com/) 
 * [Newsletter](http://www.aeternity.com/#newsletter)
 
 ## æternity Community Meetups
