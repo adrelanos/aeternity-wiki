@@ -14,18 +14,22 @@
 
 
 ***
+
 ### [acetronaut](https://github.com/acetronaut)
 
 
 ***
+
 ### [adrelanos](https://github.com/adrelanos)
 
 
 ***
+
 ### [akki199420](https://github.com/akki199420)
 
 
 ***
+
 ### [alibyte](https://github.com/alibyte)
 
 ***
@@ -36,10 +40,12 @@
 
 
 ***
+
 ### [bilbma](https://github.com/bilbma)
 
 
 ***
+
 ### [bgube](https://github.com/bgube)
 
 
@@ -51,10 +57,12 @@
 
 
 ***
+
 ### [cytadela8](https://github.com/cytadela8)
 
 
 ***
+
 ### [cmorrowny](https://github.com/cmorrowny)
 
 
@@ -66,22 +74,27 @@
 
 
 ***
+
 ### [DanMercurius](https://github.com/DanMercurius)
 
 
 ***
+
 ### [debbiemagro](https://github.com/debbiemagro)
 
 
 ***
+
 ### [davidiach](https://github.com/davidiach)
 
 
 ***
+
 ### [Dexaran](https://github.com/Dexaran)
 
 
 ***
+
 ### [darwin72](https://github.com/darwin72)
 
 ***
@@ -107,10 +120,12 @@
 
 
 ***
+
 ### [hashsoft](https://github.com/hashsoft)
 
 
 ***
+
 ## I
 
 ### [lsil](https://github.com/lsil)
@@ -123,12 +138,15 @@
 ### [JasonJAyalaP](https://github.com/JasonJAyalaP)
 
 ***
+
 ### [juras54](https://github.com/juras54)
 
 ***
+
 ### [Jkat](https://github.com/Jkat)
 
 ***
+
 ### [jingtying](https://github.com/jingtying)
 
 
@@ -140,44 +158,53 @@
 
 
 ***
+
 ### [kellendil](https://github.com/kellendil)
 
 
 ***
+
 ### [kimjonghyung](https://github.com/kimjonghyung)
 
 * I do not like this name, it is political!!! We have to respect all the
-people arround the world, also 'No space for Racism'
+  people arround the world, also 'No space for Racism'
 
 ***
+
 ### [keypair](https://github.com/keypair)
 
 
 ***
+
 ## L
 
 ### [llolo96](https://github.com/llolo96)
 
 
 ***
+
 ### [lordhamberger](https://github.com/lordhamberger)
 
 
 ***
+
 ## M
 
 ### [mel-moth](https://github.com/mel-moth)
 
 
 ***
+
 ### [Michikori](https://github.com/Michikori)
 
 
 ***
+
 ### [markscamilleri](https://github.com/markscamilleri)
 
 
 ***
+
 ### [MarkGriffin](https://github.com/MarkGriffin)
 
 
@@ -189,13 +216,16 @@ people arround the world, also 'No space for Racism'
 
 
 ***
+
 ### [nicohabets](https://github.com/nicohabets)
 
 
 ***
+
 ### [nikola-ae](https://github.com/nikola-ae)
 
 ***
+
 ### [NickJamesBTC](https://github.com/NickJamesBTC)
 
 ***
@@ -212,6 +242,7 @@ people arround the world, also 'No space for Racism'
 ### [pedddro](https://github.com/pedddro)
 
 ***
+
 ### [p34567](https://github.com/p34567)
 
 
@@ -227,6 +258,7 @@ people arround the world, also 'No space for Racism'
 
 
 ***
+
 ### [revelacaogr](https://github.com/revelacaogr)
 
 ***
@@ -236,40 +268,50 @@ people arround the world, also 'No space for Racism'
 ### [schlady](https://github.com/schlady)
 
 ***
+
 ### [stefek99](https://github.com/stefek99)
 
 
 ***
+
 ### [snasps](https://github.com/snasps)
 
 
 ***
+
 ### [simeon4real](https://github.com/simeon4real)
 
 
 ***
+
 ### [stelio](https://github.com/stelio)
 
 
 ***
+
 ### [sneki1988](https://github.com/sneki1988)
 
 
 ***
+
 ### [snamoah](https://github.com/snamoah)
 
 
 ***
+
 ### [stewface](https://github.com/stewface)
 
 
 ***
+
 ### [sjamayee](https://github.com/sjamayee)
 
 ***
+
 ### [Shelpin](https://github.com/Shelpin)
 
 ***
+
 ### [ShamariFeaster](https://github.com/ShamariFeaster)
 
 ***
@@ -280,14 +322,17 @@ people arround the world, also 'No space for Racism'
 
 
 ***
+
 ### [tsubasa2017](https://github.com/tsubasa2017)
 
 
 ***
+
 ### [tusandii](https://github.com/tusandii)
 
 
 ***
+
 ### [tpaixao](https://github.com/tpaixao)
 
 
@@ -328,6 +373,7 @@ people arround the world, also 'No space for Racism'
 
 
 ***
+
 ### [Zwilla](https://github.com/Zwilla)
 
 
@@ -351,7 +397,8 @@ people arround the world, also 'No space for Racism'
 * Working on: (1) with [0Brand](#0Brand),
   [I love this team](#æternity-wiki-authors), and so on (but not to
   many, only the main ones)
-* Donations are wellcome: <sup>[read this before donate!](#before-donate)</sup>
+* Donations are wellcome:
+  <sup>[read this before donate!](#before-donate)</sup>
   * btc:1DaGkc1Uv4GeCSpjkrMVzCA35ENmrd526V
   * eth:0x284DbB6139e2e08cd3D3BE6f51306c19cAB04e3c
   * ltc:LNvu63U68G72KXHWP5yqSuSYpoa7ef58c7
@@ -362,7 +409,6 @@ people arround the world, also 'No space for Racism'
 ## 0123
 
 ### [0brand](https://github.com/0brand)
-
 
 
 ### [767178175](https://github.com/767178175)
@@ -377,7 +423,8 @@ people arround the world, also 'No space for Racism'
 ### linking to æTERNITY WIKI authors
 
 This is how a link looks like:
-https://github.com/aeternity/wiki/wiki/æternity-Wiki-Authors#zwilla,
+https://github.com/aeternity/wiki/wiki/æternity-Wiki-Authors#zwilla
+(external link) and  (internal link) like this:
 [zwilla](æternity-wiki-authors#zwilla)if you are writing an article and
 using an authors name link to him/her. Note! For the link we have to use
 'smal letters'.
@@ -406,9 +453,13 @@ so we and visitors know how to contact you/us and ask for
 
 Dear Doantor,
 * double check before you where donating to an æTERNITY WIKI author.
-* open this [history](æternity-wiki-authors/_history) and check if the entrie on 'Donations are wellcome:' are posted by the author it self
-* also check the line above, not that the 'æTERNITY WIKI author/_history' where poinitng anywhere else.
+* open this [history](æternity-wiki-authors/_history) and check if the
+  entrie on 'Donations are wellcome:' are posted by the author it self
+* also check the line above, not that the 'æTERNITY WIKI
+  author/_history' where poinitng anywhere else.
 
 ### Number of authors:
+
 * 64
-* I hope I did not forgot one! All authors sinc first day to : 29th May 2017 this commit: 3717dbc
+* I hope I did not forgot one! All authors sinc first day to : 29th May
+  2017 this commit: 3717dbc
