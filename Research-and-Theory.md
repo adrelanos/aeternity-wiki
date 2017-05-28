@@ -220,7 +220,14 @@ Consensus, Proof-Of-Stake, and Slasher
 
 # Working Theories
 
+See: 
+[Aeternity Testnet Docs](https://github.com/aeternity/testnet/tree/master/docs)
+[Flying Fox Docs](https://github.com/BumblebeeBat/FlyingFox/tree/master/docs)
+
 # Open problems
+
+As summarized by Vitalik Buterin - [slides](https://edcon.io/ppt/one/Vitalik%20Buterin_Introduction%20to%20Cryptoeconomics_EDCON.pdf).  
+See also: [Problems - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/problems). 
 
 ## Optimal properties of consensus algorithms
 
@@ -228,6 +235,10 @@ Consensus, Proof-Of-Stake, and Slasher
 
 ## Maximally accurate time stamping
 
+See also: [On Slow and Fast Block Times by Vitalik Buterin](https://blog.ethereum.org/2015/09/14/on-slow-and-fast-block-times/)
+
 ## Scalable validation
+
+See also: [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 
 ## Optimal data availability solutions
