@@ -17,6 +17,8 @@ Auf die folgenden Fragen möchte ich eingehen:
 * [Wie und wo sichere ich meine Wallet?]()
 * [Wie wichtig ist der 'Private' Schlüssel](#privater-schlüssel)
 * [Hauptprobleme!](#hauptprobleme)
+* [Unterschied Wallets und Konten](#unterschied-wallets-und-konten)
+ * [æternity Wallets und Konten](#æternity-wallets-und-konten) 
 
 ***
 ## Hauptprobleme:
@@ -50,7 +52,7 @@ Hinweis: Ab 3. wird es nahezu unkontollierbar
 5. hier müsste ich zynisch werden, daher lasse ich es im Moment gut
    sein. Vielleicht später mehr!
 
-Auf was hier zu achten ist, komme ich später nochmals zurück! 
+Auf was hier zu achten ist, komme ich später nochmals zurück!
 
 ### Privater Schlüssel
 
@@ -62,11 +64,28 @@ Der 'Private Schlüssel' ist wie das Wort es schon sagt. Im besitz sollte
 nur der jenige sein dem du auch vertraust.
 * nur Du und deine möglichen Erben, bzw. Notar
 
+## Unterschied Wallets und Konten
 
+Kurze Erklärung: Eine Wallet kann mehrere Konten (Adressen) haben was du
+dir dann so vorstellen musst:
+
+* Wallet
+  * Konten
+    *  Konto 1
+    *  Konto 2
+    *  usw.
+    
+Eine Wallet kann eine unendliche Anzahl von Konten haben, was jedoch der
+Übersicht halber nicht immer sinnig ist.
 
 ## æternity Wallets und Konten
 
+In Bezug auf æternity Wallets gilt gleiches Handling wie oben
+beschrieben, nähere Details kann ich dann veröffenlichen, wenn die
+Entwicklung von æternity in einem Status ist wann diese das erstemal
+live gegangen ist. Geplant ist das erste Quartal 2018
 
+***
 HINWEIS: Ich erhebe keinen Anspruch darauf mit diesem Bericht alles
 vollständig und sicher beschrieben zu haben. Dieses Dokument sollte
 lediglich als Richtlinie dienen (Stand 29. Mai 2017)
