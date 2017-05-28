@@ -88,8 +88,6 @@ If you grab a To Do, please do the following:
 ### OPEN
 
 * [ ] Research: æternity DAO - possible?
-* [ ] Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
-* [ ] Add [Subpages](Idea-Box#subpages) to Wiki
 
 ### CLOSED
 
@@ -106,6 +104,10 @@ If you grab a To Do, please do the following:
       the repo to reference it in the wiki and at a later point on the
       website www.aeternity.com. The revision history needs to be
       completely migrated as well. [acetronaut 17-05-08]
+* [x] Add [Google Calendar plugin](Idea-Box#google-calendar-plug-in)
+      This is not possible in github - issue closed
+* [x] Add [Subpages](Idea-Box#subpages) to Wiki
+      This is not possible in github - issue closed
 * [x] Revert [THIS PAGE](Understanding-Aeternity) back to the revision
       before content was deleted [davidiach 17-05-06]  
       **there has been a misunderstanding:**
