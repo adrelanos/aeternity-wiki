@@ -4,11 +4,15 @@
 ## æternity Youtube and other Videos
 
 ## Playlists
-
+ * [What is Aeternity? - Aeternity Blockchain Interview, Part 1-5](https://www.youtube.com/watch?v=h28bqemW_-I&list=PLFtiUQof0wufcw6e0Fq33bFpCzODoSlrJ)
 ## English Videos
 
-[What is aeternity blockchain?](https://www.youtube.com/watch?v=F9cqkdx1Llo)
-
+* [What is aeternity blockchain?](https://www.youtube.com/watch?v=F9cqkdx1Llo)
+* [What is Aeternity? - Aeternity Blockchain Interview, Part 1]()
+* [What is Aeternity? - Aeternity Blockchain Interview, Part 2]()
+* [What is Aeternity? - Aeternity Blockchain Interview, Part 3]()
+* [What is Aeternity? - Aeternity Blockchain Interview, Part 4]()
+* [What is Aeternity? - Aeternity Blockchain Interview, Part 5]()
 
 ***
 ## Spanish videos
