@@ -27,6 +27,12 @@
 
     4th Winner: 1.250 AE Token 
 
-  
+
+### Previous Bounties
+
+* Signature campaign bounty Part 1: 350.000 (Completed)
+
+* Translation campaign bounty: 200.000 (Completed)
+* Blog posts bounty: 130.000 (Completed)
 
 More bounty programs to come. Crypto puzzles, and more!
