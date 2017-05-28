@@ -449,6 +449,12 @@ matter, do it later, do it never, another one will do it for you, or no
 one will it do. The main thing is linking to here. (please fix my bad
 english, if know what I mean)
 
+## Links to external sources from every content
+If it is possible, please set inside (at the bottom) : 
+* < s u p > link to source, from where you have the information < / sup >
+* < s u p > link to a æ-wiki page, if we have < / sup > see Example: [Cuckoo Cycle](#cuckoo-cycle)
+  * if we have a æ-wiki page: doit
+  * if not, but you think we have to: do it also, so that we recognized this and write one if you have not the time or skill to do it. I think we will love this.
 
 ## Sources:
 
