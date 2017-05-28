@@ -243,7 +243,7 @@
 ### [0ldPaul](https://github.com/0ldPaul)
 
 * Profile: [Github 0ldPaul](https://github.com/0ldPaul)
-* Motivation: I want to make the world smarter
+* Motivation: enthusiast about aeternity potentials: state channels scalability, predictive markets, futarchy as a governance tool
 * Contribution: 
 
 | No | æTERNITY WIKI  Contribution and support                                    |
