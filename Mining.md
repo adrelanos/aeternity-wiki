@@ -24,7 +24,7 @@ The æternity blockchain will feature multiple types of nodes that each fulfill 
 
 # Proof-Of-Stake Mining (Oracle):
 
-Source: [(White Paper)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+Source: [(White Paper)](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 Any Aeon holder can launch an oracle by committing to answering a yes/no question on the blockchain.
 When doing so, they also need to specify the time-frame during which the question can be answered, which can start now or at any point in the future. The user that launches the oracle is also required to deposit AEON in proportion to the length of the time-frame, which will be returned if the user supplies an answer that gets accepted as truth, otherwise, it is burned. The blockchain generates a unique identifier for the oracle that can be used to retrieve the answer once it is available. Once the time comes for the question to be answered, the user who launched the oracle can supply an answer for free. Once the oracle launcher has supplied an answer the other users have a set amount of time to submit counter-claims by depositing the same amount of AEON. If no counter-claims have been submitted by the end of the time-frame, the answer supplied by the user that launched the oracle is accepted as truth, and the deposit is returned. If any counter claims are submitted, then the consensus mechanism for blocks will be used to answer the oracle. This is more expensive, but since we know we can take at least one of the two safety deposits, we can use it.
