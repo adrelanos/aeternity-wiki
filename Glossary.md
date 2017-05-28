@@ -1,4 +1,4 @@
-GLOSSARY FOR æTERNITY BLOCKCHAIN
+GLOSSARY FOR ÆTERNITY BLOCKCHAIN
 ================================
 
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                             |
