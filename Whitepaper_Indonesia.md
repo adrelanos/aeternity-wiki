@@ -5,7 +5,7 @@
 Inilah sebabnya mengapa æternity dikembangkan sebagai satu-satunya Blockchain yang pada dasarnya dapat mempertahankan penggunaan dunia mainstream secara berkelanjutan didalam kasusnya.
 
 
-* Dapat menangani throughput besar (lebih dari Visa dan sistem peninggalan) berkat state channel yang terintegrasi.
+* Dapat menangani throughput besar (lebih dari Visa dan peninggalan sistem lama) berkat state channel yang terintegrasi.
 
 * Proses off-chain state channel membuat smart contract lebih mudah untuk dianalisis, lebih cepat memproses, dan lebih pribadi, tanpa mempertahankan kerugian substansial dalam fungsionalitas.
 
