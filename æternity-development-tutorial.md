@@ -1,4 +1,3 @@
-# æternity æternity development tutorial
 
 >Stay tuned! We will fill this page with all your needs, from time to
 >time. Note! æternity is still under development! We were creating this
