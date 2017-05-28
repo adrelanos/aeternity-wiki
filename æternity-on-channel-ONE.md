@@ -27,6 +27,24 @@
 * [What is æternity? - æternity Blockchain Interview, Part 6](https://www.youtube.com/watch?v=L1Kg5P9YfEA&index=5&list=PLFtiUQof0wufcw6e0Fq33bFpCzODoSlrJ)
 
 ***
+
+### [What is æternity?](https://www.youtube.com/watch?v=MnRVK_9CEYI "What is aeternity?")
+
+### [Nikola and Vladislav talking about æternity at Bloomberg TV](https://www.youtube.com/watch?v=zSO1RDBpHA4 "Nikola and Vladislav talking about æternity at Bloomberg TV")
+
+### [What is aeternity blockchain?](https://www.youtube.com/watch?v=F9cqkdx1Llo "What is aeternity blockchain?")
+
+
+***
+
+## [**Events**](https://www.youtube.com/watch?v=Twvm5Ivl1FQ&list=PLZTjth8D1qBdyDGcvXeGk1WNcISbG1xEj "Events")
+
+#### [Yanislav Malahov at D10e | aeternity blockchain](https://www.youtube.com/watch?v=Twvm5Ivl1FQ&list=PLZTjth8D1qBdyDGcvXeGk1WNcISbG1xEj)
+
+
+
+
+***
 ## Spanish videos
 
 * [æternity Blockchain Testnet - nueva dirección & contraseña æternity](https://www.youtube.com/watch?v=ZPBSYMzeHNw)
@@ -38,4 +56,4 @@
 
 
 Source:
-Youtube, æternity
+[Youtube æternity channel](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA), Youtube, æternity
