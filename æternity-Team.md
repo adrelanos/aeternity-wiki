@@ -2,7 +2,7 @@
 
 Crypto believers and true experts in each of their fields, who have taken on the challenge to build æternity.
 
-<img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/yanislav.jpg" alt="Yanislav Malahov">
+<img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/yanislav-malahov.jpg" alt="Yanislav Malahov">
 
 ## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 #### Founder
@@ -10,7 +10,7 @@ Having exchanged ideas and pursued blockchain endeavors with many of the greates
 <table></table>
 
 ***
-<img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/zack.png" alt="Zack Hess" />
+<img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/zack-hess.png" alt="Zack Hess" />
 
 ## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 #### Technical Lead
@@ -20,7 +20,7 @@ After having worked for Augur and built a few other blockchains from scratch in 
 <table></table>
 
 ***
-<img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/marion.png" alt="Marion Vogel" />
+<img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/marion-vogel.png" alt="Marion Vogel" />
 
 ## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 
@@ -29,7 +29,7 @@ Intrigued by the magic of blockchain technology since early 2014, Marion is espe
 
 ***
 
-<img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/nikola.png" alt="Nikola Stojanow">
+<img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/nikola-stojanow.png" alt="Nikola Stojanow">
 
 ## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Business Development
@@ -39,7 +39,7 @@ As a multi-national business development executive with experience working in Ge
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/vlad.png" alt="Vladislav Dramaliev">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/vladislav-dramaliev.png" alt="Vladislav Dramaliev">
 
 ## Vladislav Dramaliev <a target="_blank" href="https://medium.com/@BitHope.org"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dramaliev/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Marketing & Community
@@ -49,7 +49,7 @@ Digital marketing analyst and Bitcoin entrepreneur. Founder of BitHope.org, Cryp
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/lior.png" alt="Lior Zysman">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/lior-zysman.png" alt="Lior Zysman">
 
 ## Lior Zysman <a target="_blank" href="https://www.linkedin.com/in/lior-zysman-2977963"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Law and regulation
@@ -60,7 +60,7 @@ He is working on decentralized autonomous non-profits (Runner-up at Consensus 20
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/dan.png" alt="Dan Verowski">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/dan-verowski.png" alt="Dan Verowski">
 
 ## Dan Verowski <a target="_blank" href="https://medium.com/@DanMercurius"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/dan-verowski-89120511/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Project Manager
@@ -72,7 +72,7 @@ Blending his fast growing knowledge and interest in blockchain technologies and 
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/jack.png" alt="Jack Pettersson">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/jack-pettersson.png" alt="Jack Pettersson">
 
 ## Jack Pettersson <a target="_blank" href="https://www.linkedin.com/in/jackpettersson/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 ##### Scientific Advisor
@@ -82,7 +82,7 @@ Computer science and blockchain enthusiast -looking for ways to combine the two.
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/louis.png" alt="Louis Chang">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/louis-chang.png" alt="Louis Chang">
 
 ## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Creative Advisor
@@ -93,7 +93,7 @@ Particularly interested in human-computer interaction, design, education and beh
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/julio.png" alt="Julio Alexandro">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/julio-alexandro.png" alt="Julio Alexandro">
 
 ## Julio Alexandro <a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a>
 #### Humanitarian Advisor
@@ -103,7 +103,7 @@ The "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016) - a founder and CEO of 
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/john.png" alt="John Tromp">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/john-tromp.png" alt="John Tromp">
 
 ## John Tromp <a target="_blank" href="https://tromp.github.io/"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a> <a target="_blank" href="www.linkedin.com/in/john-tromp-b1601b8/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Advisor on POW "Cuckoo Cycle"
@@ -113,7 +113,7 @@ Recently he designed a new Proof-of-Work method called the "Cuckoo Cycle," which
 <table></table>
 
 ***
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/vincent.png" alt="Vincent Zhou">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/vincent-zhou.png" alt="Vincent Zhou">
 
 ## Vincent Zhou
 #### China Advisor
@@ -122,7 +122,7 @@ Founding partner of FinTech Blockchain Group, Vincent is an expert on digital cu
 
 ***
 
- <img align="left" src="http://www.aeternity.com/user/pages/01.home/_10.team/you.png" alt="You?">
+ <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/stormtrooper.png" alt="You?">
 
 ## You?
 #### Open Position
