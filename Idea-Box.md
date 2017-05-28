@@ -36,7 +36,7 @@
 ## Health & æternity
 
 ### DocOræcle
-A platform for everyone to get meaningful medical advice, no matter the infrastructure or insurance policy. A platform for questions too sensible or personal to ask a doctor in person.
+A platform for everyone to get meaningful medical advice, no matter the infrastructure or insurance policy. A platform for questions too sensitive or personal to ask a doctor in person.
 Answering questions and participating in the prediction markets created by the medical Oracles should only be accessible to doctors with digitally signed degree.
 [Furthermore Oracles may be fed information regarding symptoms diagnosis & can be combined with AI image recognition to offer diagnosis prediction.]
 
@@ -51,7 +51,7 @@ Answering questions and participating in the prediction markets created by the m
     * any answer provided by the medical professional may be forwarded to an Oracle. The prediction market that emerges is open to professionals to reach a comprehensive diagnosis, comparable with visiting 20 doctors
 
 #### Target audiences
-* persons struggling with sensible, personal medical problems or questions
+* persons struggling with sensitive, personal medical problems or questions
   * person suffering from unknown medical condition
   * person in need of nutrition advice
   * person in need of homeopathic advice
@@ -62,7 +62,7 @@ Answering questions and participating in the prediction markets created by the m
     * Question board and Oracle marketplace
 * æternity identity
 * Working state channels
-* Pool of medicinal professionals
+* Pool of medical professionals
     * Only they are allowed to answer questions and participate in oracle
 
 ***
@@ -107,7 +107,7 @@ The release of funds can be set on several milestones. Once a milestone is clear
 
 Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a dominant strategy to participate. If the good is produced, all participants get their "æons" back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an Oracle, we can ensure that the provider of the good or service only gets paid if he provides the goods as promised.
 
-This will enable a leap of transparency and trust-less investment opportunities in ICOs and startups , where the investors funds are safe from mismanagement or fraud by the project's founders.
+This will enable a leap of transparency and trust-less investment opportunities in ICOs and startups, where the investors funds are safe from mismanagement or fraud by the project's founders.
 
 This can also be implemented on any other exchange of services between multiple parties, thus decentralizing the freelancing and business-to-business sectors.
 
