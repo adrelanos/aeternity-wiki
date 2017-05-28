@@ -18,6 +18,7 @@ Auf die folgenden Fragen möchte ich eingehen:
 * [Wie wichtig ist der 'Private' Schlüssel](#privater-schlüssel)
 * [Hauptprobleme!](#hauptprobleme)
 
+***
 ## Hauptprobleme:
 
 **Die Hauptprobleme sind:**
@@ -35,6 +36,21 @@ es. Denn sie wissen nicht was sie tun.
 
 ## Bewährte Verfahren / best practice
 
+**Auflistung nach Sicherheit!**
+Hinweis: Ab 3. wird es nahezu unkontollierbar
+
+1. Offline Computer einsetzen
+2. Hardware Wallet benutzen
+3. Online Wallet von Unternehmen mit staatlicher Zulassung in
+   Deutschland nur [Bitcoin.de](https://www.bitcoin.de/de/r/a7esbb), und
+   von einem zugelassenen Wirtschaftsprüfer jährlich untersucht wird.
+4. Online Wallet von Betreiber, der zertifizierte und sichere Verfahren
+   einsetzt, und von einem zugelassenen Wirtschaftsprüfer jährlich
+   untersucht wird.
+5. hier müsste ich zynisch werden, daher lasse ich es im Moment gut
+   sein. Vielleicht später mehr!
+
+Auf was hier zu achten ist, komme ich später nochmals zurück! 
 
 ### Privater Schlüssel
 
