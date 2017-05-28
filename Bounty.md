@@ -1,4 +1,4 @@
-![bounty image](https://cdn-images-1.medium.com/max/1400/1*l5-bqVCstxHjsZPk8vzL4Q.png)
+![bounty image](https://github.com/aeternity/wiki/blob/master/images/ae-bounty-program.png)
 
 æternity will list 'bounty programs' that incentivize the completion of some task. Some examples of tasks include content creation, finding bugs in code, or even just hosting a local æternity meet-up. Find more specific details in existing bounty-campaigns below.
 
