@@ -495,12 +495,3 @@ so we and visitors know how to contact you/us and ask for
 * NO illegal websites or SPAM pages
 * NO porn pages or something !!!
 * Adult pages mark with (+18/+21 or only for adult, please.)
-
-### before donate!
-
-Dear Donator,
-* double check before you where donating to an æTERNITY WIKI author.
-* open this [history](æternity-wiki-authors/_history) and check if the
-  entrie on 'Donations are wellcome:' are posted by the author it self
-* also check the line above, not that the 'æTERNITY WIKI
-  author/_history' where poinitng anywhere else.
