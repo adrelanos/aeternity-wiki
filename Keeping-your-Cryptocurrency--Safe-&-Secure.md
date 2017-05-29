@@ -25,7 +25,7 @@ in an effort to mitigate a majority of these threats.
 
 The first thing that we will go over is physical security. This means
 restricting physical access to your computer and hardware wallets. How
-do we do this? It starts with following the do and don't.
+do we do this? It starts with following the dos and don'ts.
 
 * If you are leaving your house it is a good to put your laptop and
   hardware wallet in a safe. Not all of use have a safe in our homes,
@@ -47,7 +47,7 @@ do we do this? It starts with following the do and don't.
   lock.
 
 * Never leave your laptop or hardware wallet unattended in your office
-  or dorm room. Once again if you must step out for a molment, use a
+  or dorm room. Once again if you must step out for a moment, use a
   Kensington lock. Remember thieves will go after what is easiest for
   them to steal. If they have a choice between 2 identical laptops and 1
   of them is secured with a Kensington lock, which one do you thing they
@@ -128,7 +128,9 @@ there are any major security holes in the OS. We just have to take
 Microsoft at it word that there are no back doors (insert laughter) or
 security vulnerabilities (laughing even harder).
 
-**Open-source operating** systems like Linux do not have nearly as many
+- **Open-source Operating systems**
+
+Open-source operating systems like Linux do not have nearly as many
 user as Window but they are much more secure. The source code is freely
 available for everyone to see. This means that independent security
 audits can be performed to make sure there are no major vulnerabilities
@@ -156,9 +158,9 @@ closed-source Windows OS.
   are more vulnerabilities to social engineering attacks. Most viruses
   are spread by convincing users to doing something they shouldn't, like
   opening up an email attachment that is carrying a virus or worm or
-  clicking on a malicius link.
+  clicking on a malicious link.
 
-  What makes Linux less suceptable to these types of attacks is most Linux
+  What makes Linux less susceptible to these types of attacks is most Linux
   users don't have root access however, it's much harder to accomplish any
   real damage on a Linux system by getting them to do something foolish.
   Before any real damage could be done, a Linux user would have to read
@@ -168,7 +170,7 @@ closed-source Windows OS.
 ***
 
 * **Separateness of Environment** Linux works in many environments and
-  distros such as Debian, Qubes, Openbsd, Arch, and many others. With
+  distros such as Debian, Qubes,  Arch, and many others. With
   Various email clients, shells and packaging systems that makes the
   system extremely fragmented and difficult for any virus. So, whereas a
   virus can be targeted squarely at Windows users, since for the most
@@ -180,10 +182,10 @@ closed-source Windows OS.
 * **How many eyes see the code** As stated above Windows source code is
   closed-source and has a limited set of paid developers who try to find
   the problems in the code. Windows devs would have you believe this is
-  a good this. Like want you to beleive that ist a good thng that only
+  a good thing. They want you to believe that its a good thing that only
   the paid devs can see the source code. The phrase they like to use is
-  "security through obscurity", which is a very common term and i'm sure
-  you have heard of it.The expression is intended to suggest that
+  "security through obscurity", which is a very common term and I'm sure
+  you have heard of it. The expression is intended to suggest that
   proprietary software is more secure by virtue of its closed nature. If
   hackers can't see the code, then it's harder for them to create
   exploits for it: or so the thinking goes. Unfortunately for Windows
@@ -191,18 +193,18 @@ closed-source Windows OS.
   group of developers and testers working on a set of code, this makes
   it much more likely any flaws will be caught and fixed quickly. This,
   in other words, is essentially the polar opposite of the "security
-  through obscurity" argument.Not only that, but Linux users can fix
+  through obscurity" argument. Not only that, but Linux users can fix
   problems themselves. Microsoft may tout its large team of paid
   developers, but it's unlikely that team can compare with a global base
   of Linux user-developers around the globe.
 ### Choosing Your Linux Distribution 
 With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, all though many may share the same Linux kernel there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
 
-**Debian** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well-over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
+**Debian** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
 
 Advantages 
 * Efficient and well integrated packaging for a more robust system
-* Publicy available bug tracking system
+* Publicly available bug tracking system
 * Stability - some users report running Debian 1+ year without a single reboot!
 * Security - being 100% open, security issues are exposed and plugged quickly 
 ***
@@ -223,7 +225,7 @@ Advantages
   corresponding qube.
 *** 
 
-**Tails**(which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS . It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
+**Tails** (which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS . It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
 
 Advantages
 
@@ -232,8 +234,10 @@ Advantages
   you reboot the system. Keep in mind that if you are infected with a virus during that a session all the work you
   did during that session could be compromised. If you entered your password into your web wallet the malicious user 
   could very well have your password.
-* The Tails devs have already tested and configured the much of the software for you.  Most of the applications you
+* The Tails devs have already tested and configured much of the software for you.  Most of the applications you
   will need come pre installed.
+***
+
 
  
 
