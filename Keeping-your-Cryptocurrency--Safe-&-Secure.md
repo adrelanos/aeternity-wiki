@@ -261,6 +261,9 @@ You’ll also want to visit the Boot Order section and ensure the boot order is 
 #
 
 ### Full Disk Encryption
+Disk encryption **FDE** is a technology which protects the information on your drive, usb, or cd by converting it into unreadable code that cannot be deciphered easily by unauthorized people. Disk encryption used encryption software of hardware to encrypt all of the data that goes on a disk or disk volume Disk encryption prevents unauthorized access to the data stored on the disk.
+
+What we will be focusing on is referred to as Full Disk Encryption. You would think--from the name--that full disk encryption signifies that everything on the disk is encrypted: however the master boot record (MBR) or the Unified Extensible Firmware Interface (UEFI) which is the code that starts the OS loading sequence, is not encrypted. There are drives with hardware based encyption that also encrypt the MBR or UEFI partitions. These are proprietary and therefore the source code can not be audited by independent security professionals.  
 
 #
 
