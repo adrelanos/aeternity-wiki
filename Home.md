@@ -49,5 +49,3 @@ Contributors will be able to use their aeon after Phase 2 is complete. These tok
 At the bottom of [wallet.aeternity.com](https://wallet.aeternity.com/), you can enter the public address from which you made your contribution to the æternity funding address.  How many AE you will receive upon their issuance, will be displayed afterwards.
 
 The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
-
-All will be recorded on the Ethereum blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
