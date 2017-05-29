@@ -19,13 +19,13 @@
 
 * [T-Shirt design bounty](https://docs.google.com/forms/d/e/1FAIpQLSc4NSHNUE8uHCpkh2Ap3zuikGwOB7QHeadp8e-F6vkKsboUQQ/viewform)
     
-    1st Winner: 12.500 AE Token
+    1st Winner: 12.500 AE 
 
-    2nd Winner: 7.500 AE Token 
+    2nd Winner: 7.500 AE 
 
-    3rd Winner: 3.750 AE Token
+    3rd Winner: 3.750 AE 
 
-    4th Winner: 1.250 AE Token 
+    4th Winner: 1.250 AE 
 
 
 ### Previous Bounties
