@@ -21,7 +21,6 @@
 
 ### Research
 - [Idea Box][ideabox]
-- [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
 - [Research & Theory][research]
 
 ### æternity Technologies
@@ -63,6 +62,7 @@
      - [SL-Examples](æternity-Scripting-Language-Examples)
    - [æternity development tutorial](æternity-development-tutorial)
    - [Resources](æternity-DApp-Developer-Resources)
+     - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/) 
    - [Whitepaper full text(en)](Whitepaper-dev-full-text)
 
 ### æternity White Paper
