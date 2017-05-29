@@ -57,7 +57,7 @@
 
 
 ### [DApp Development](æternity-DApp-Development)
-- [DApp Introducion](æternity-DApp-Introducion)
+- [DApp Introduction](æternity-DApp-Introduction)
    - [Scripting language](æternity-Scripting-Language)
      - [SL-Examples](æternity-Scripting-Language-Examples)
    - [æternity development tutorial](æternity-development-tutorial)
