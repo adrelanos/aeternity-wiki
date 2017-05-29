@@ -49,7 +49,7 @@ translates to the following desirable properties:
    production of custom memory chips for a memory bound PoW will incur a
    sufficient cost premium to wipe out any performance gains.
 
-## Cuckoo Cycle (work in progress)
+## Cuckoo Cycle
 
 a memory bound graph-theoretic proof-of-work
 
