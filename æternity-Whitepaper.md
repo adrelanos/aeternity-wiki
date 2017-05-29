@@ -24,7 +24,7 @@ official æternity Whitepaper revisions
 
 ***
 # Unofficial translations
-The aeternity community has translated the whitepaper into a variety of languages. However, these translations are for convenience, and
+The æternity community has translated the whitepaper into a variety of languages. However, these translations are for convenience, and
 **only** the English language whitepaper is official.
 
 ***
