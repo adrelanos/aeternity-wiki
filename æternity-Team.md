@@ -4,7 +4,7 @@ Crypto believers and true experts in each of their fields, who have taken on the
 
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/yanislav-malahov.jpg" alt="Yanislav Malahov">
 
-## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
+## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 #### Founder
 Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is a true veteran of the blockchain space. The "<a href="https://medium.com/@yanislav/king-of-bitcoin-godfather-of-ethereum-a9af9ecf56d5" target="_blank">Godfather of Ethereum</a>" envisioned in 2013 to have powerful algorithms on blockchains. Now, with æternity, a new version of his vision is becoming reality again.
 <table></table>
@@ -12,7 +12,7 @@ Having exchanged ideas and pursued blockchain endeavors with many of the greates
 ***
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/zack-hess.png" alt="Zack Hess" />
 
-## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
+## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://image.flaticon.com/icons/svg/25/25231.svg" height="24" /></a>
 #### Technical Lead
 
 Blockchain writer and a true visionary. The first of his "basic coins" was the attempt to write a compact blockchain.
@@ -22,7 +22,7 @@ After having worked for Augur and built a few other blockchains from scratch in 
 ***
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/marion-vogel.png" alt="Marion Vogel" />
 
-## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
+## Marion Vogel <a target="_blank" href="https://twitter.com/marionmiaume"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/marionvogel/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Marketing & Operations
 
 Intrigued by the magic of blockchain technology since early 2014, Marion is especially interested in connecting the dots between technology and the growing community. Research on the socio-economic impact, spreading the word and taking care of handling æternity's operations efficiently is where she performs best. Previously she worked in marketing &amp; business development in Silicon Valley.
@@ -32,7 +32,7 @@ Intrigued by the magic of blockchain technology since early 2014, Marion is espe
 
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/nikola-stojanow.png" alt="Nikola Stojanow">
 
-## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
+## Nikola Stojanow <a target="_blank" href="https://twitter.com/ae_nikola"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://www.linkedin.com/in/nikola-stojanow-46478518?trk=nav_responsive_tab_profile"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Business Development
 
 As a multi-national business development executive with experience working in Germany, Eastern Europe, MENA, Asia and Pacific, Nikola is the go-to person for strategy and business development. He has developed and consulted numerous international projects for almost a decade and has recently been introduced to the unlimited possibilities of blockchain technologies.
@@ -97,7 +97,7 @@ Computer science and blockchain enthusiast -looking for ways to combine the two.
 
  <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/louis-chang.png" alt="Louis Chang">
 
-## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
+## Louis Chang <a target="_blank" href="https://twitter.com/louissschang"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://uk.linkedin.com/in/louisc"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Creative Advisor
 
 Louis Chang is co-founder and Creative Director of Proof of Work, the first creative design and communication agency working specifically with blockchain companies.
@@ -108,7 +108,7 @@ Particularly interested in human-computer interaction, design, education and beh
 
  <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/julio-alexandro.png" alt="Julio Alexandro">
 
-## Julio Alexandro <a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a>
+## Julio Alexandro <a target="_blank" href="https://twitter.com/julioalexo?lang=de"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a>
 #### Humanitarian Advisor
 
 The "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016) - a founder and CEO of Humanitarian Blockchain, an e-governance and human rights consultancy. Branded as “World’s #1" in decentralized political technologies, he lectured at United Nations, European Union, Google, and University of Cambridge on 2016. He has globalization and immigration studies from Sciences Po (Paris) and Cambridge and resides in London.
