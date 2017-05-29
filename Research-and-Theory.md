@@ -231,6 +231,8 @@ See also: [Problems - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/probl
 
 ## Optimal properties of consensus algorithms
 
+Considerations that go into defining 'optimal properties' listed by Buterin include: algorithm design, security margin, cost and performance under relevant economic models.
+
 ## Censorship resistance
 
 'Censorship resistance' refers to the problem of preventing or detecting Sybil attacks that would 'censor' or absent valid blocks on the chain. Such attacks may allow attackers to privilege or appropriate a set of transactions in blockchain contexts.  Present methods allow detection of censorship that may be occurring, but not censorship that has already occurred.  
@@ -257,3 +259,11 @@ See also:
 
 
 ## Optimal data availability solutions
+
+Blockchains that outstrip the data limitations of individual nodes are vulnerable to issues of data availability.  In sharded blockchains a single node is not expected to parse or retain the full contents of a block (as this would limit throughput).  Therefore correctness cannot be unambiguously proved, as the necessary data is 'unavailable.'  Requesting it would prove an unsustainable burden on such a system commensurate with a denial-of-service attack.
+
+One offered solution has been an 'honest-minority' assumption - that a certain percentage subset of the network is randomly selected to be deemed honest in order the finalize the state.  The other is erasure coding - the reconstruction of the entire, extended data from a fragmentary amount of the entire data.
+
+See also:
+
+* [A note on data availability and erasure coding - Ethereum Wiki](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding)
