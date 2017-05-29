@@ -39,31 +39,24 @@ All will be recorded on the Ethereum blockchain by a standard [multisig escrow c
 Block Chain Investment & Comments 2017-05-28 00:25:45
 Globalized Lightning Smart Contract AETERNITY China
 
-In 1990, Nick Sabo proposed the concept of "smart contract", which appeared almost simultaneously with the Internet. But because of the lack of a credible execution environment, smart contracts have not been applied to the real industry. After the birth of Bitcoin, people realize that the bottom of Bitcoin - Block Chain technology is inherently able to provide a credible execution environment for smart contracts. The emergence of the ether square will be intelligent contract to a new height, the ether square as a smart contract platform, people in it to build to the center to trust applications (smart contract) caused by the growing interest.
+In 1990, Nick Szabo proposed the concept of "smart contract", which appeared almost simultaneously with the Internet. But because of the lack of a credible execution environment, smart-contracts have not been applied to the real industry. After the birth of Bitcoin, people realized that the underlying technology of Bitcoin - Block-chain is able to provide a credible backbone and execution environment for smart contracts. 
+
+
+The æternity team has put forward their own views in the area of ​​block-chain and smart-contracts, and they think it is inefficient to store application status and code on the chain and the white-paper explains the reasons for that. æternity completed the first contribution round in early April, successfully raised the then equivalent of $ 5 millions in Bitcoins and Ethers. In order to thank the concerns of the Chinese community, founder Yaniselav came to Shanghai and Beijing on May 16th and 17th respectively, expressing gratitude to the Chinese Block-chain lovers and explaining the æternity White-paper.
+
+æternity trip to Shanghai
 
 
 
-The Aeternity team has put forward their own views in the area of ​​block chains and smart contracts, and they think it is wrong to store application status and code on the chain and explain a number of reasons. Aeternity completed the angel round in early April, successfully raised $ 5 million. In order to thank the concerns of the Chinese community, founder Yaniselav came to Shanghai and Beijing on May 16th and 17th respectively, expressing gratitude to the Chinese chain block lovers and explaining the Aeternity block chain.
+æternity will present a highly scalable block chain architecture whose state channels will be integrated to enhance privacy and scalability. With this state channel's innovative solution, users can quickly and privately perform large volumes of transactions and perform complex processes under the chain, providing a solid foundation for large-scale application of block-chain technology.
 
 
 
-Aeternity trip to Shanghai
-
- 
-
- 
-
-Aeternity will present a highly scalable block chain architecture whose state channels will be integrated to enhance privacy and scalability. With this state channel's innovative solution, users can quickly and privately perform large volumes of transactions and perform complex processes under the chain, providing a solid foundation for large-scale application of block-chain technology.
-
- 
+æternity trip to Beijing
 
 
 
-Aeternity trip to Beijing
-
- 
-
-Aeternity also has a consensus mechanism that can also be used to view the oracle. This will make the whistle machine very efficient (cheap) because it will avoid the overlap of the consensus mechanism. Using Aeternity, any real-world data can be retrieved by the block chain, which can generate value for smart contracts and open the door for real-world applications.
+æternity also has a consensus mechanism that can also be used to view the oracle. This will make the whistle machine very efficient (cheap) because it will avoid the overlap of the consensus mechanism. Using æternity, any real-world data can be retrieved by the block chain, which can generate value for smart contracts and open the door for real-world applications.
 
  
 
@@ -71,4 +64,4 @@ The tokens in the channel can be transmitted with a fully reliable, intelligent 
 
  
 
-Aeternity is known as the potential competitor of the Ether Square and Lightning Networks, another stunning public chain project, and the team is in full swing. Let's look forward to the progress of Aeternity!
+æternity is known as the potential competitor of the Ether Square and Lightning Networks, another stunning public chain project, and the team is in full swing. Let's look forward to the progress of æternity!
