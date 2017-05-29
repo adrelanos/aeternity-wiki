@@ -64,8 +64,11 @@ Keep an eye on them so you dont miss them
 * Video contest: 35.000 AE
 
 * More T-Shirt Design contests:
+
     Contest #2: 15.000 AE Token 
+
     Contest #3: 15.000 AE Token 
+
     Contest #4: 35.000 AE Token
 
 
