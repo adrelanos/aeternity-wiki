@@ -82,7 +82,7 @@
 ### MISC
 - [Glossary](Glossary)
 - [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
-- [Wikipedia page transcript](Wikipedia page transcript)
+- [Wikipedia page transcript](https://github.com/aeternity/wiki/wiki/Wikipedia-page-transcript)
 
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
