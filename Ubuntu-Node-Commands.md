@@ -29,7 +29,7 @@ List:
 * [Signing](#signing)
 * [Passwords and Keys](#passwords-and-keys)
 * [Channels](#channels)
-* [Oracles](#Oracles)
+* [Oracles](#oracles)
 
 ***
 
