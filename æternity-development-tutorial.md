@@ -126,6 +126,9 @@ White Paper section: II B
 
 White Paper section: II B.1
 
+This is the language for writing smart contracts:
+[/aeternity/chalang](../../../../aeternity/chalang)
+
 
 [☝](#)
 
