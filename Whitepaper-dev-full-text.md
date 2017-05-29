@@ -67,21 +67,24 @@
 
 ## Abstract
 
-Abstract--- Since the introduction of Ethereum in 2014 there has been
-great interest in decentralized trustless applications (smart
-contracts). Consequently, many have tried to implement applications with
-real world data on top of a blockchain. We believe that storing the
-application's state and code on-chain is wrong for several reasons.
+Since the introduction of Ethereum in 2014 there has been great interest
+in decentralized trustless applications (smart contracts). Consequently,
+many have tried to implement applications with real world data on top of
+a blockchain. We believe that storing the application's state and code
+on-chain is wrong for several reasons.
 
 We present a highly scalable blockchain architecture with a consensus
 mechanism which is also used to check the oracle. This makes the oracle
 very efficient, because it avoids layering one consensus mechanism on
-top of another. State channels are integrated to increase privacy and
-scalability. Tokens in channels can be transferred using purely
-functional smart contracts that can access oracle answers. By not
-storing contract code or state on-chain, we are able to make smart
-contracts easier to analyze and faster to process, with no substantial
-loss in de facto functionality.
+top of another.
+
+State channels are integrated to increase privacy and scalability.
+Tokens in channels can be transferred using purely functional smart
+contracts that can access oracle answers.
+
+By not storing contract code or state on-chain, we are able to make
+smart contracts easier to analyze and faster to process, with no
+substantial loss in de facto functionality.
 
 Applications like markets for synthetic assets and prediction markets
 can be efficiently implemented at global scale. Several parts have
@@ -99,20 +102,25 @@ also be provided.
 White Paper section: I
 
 The intention of this paper is to give a overview of the æternity
-blockchain architecture and possible applica- tions. More detailed
-papers will be released in the future, specifically for the consensus
-and governance mechanisms. However, it should be noted that our
-architecture is holistic; all components tie together and synergize, in
-a modular way.
+blockchain architecture and possible applications. More detailed papers
+will be released in the future, specifically for the consensus and
+governance mechanisms.
 
-The rest of this paper is broken into four parts. First, we will
-introduce and discuss the fundamental theoretical ideas that inform our
-architecture. Second, we will discuss the included essential
-applications, other possible use cases and give intuitions for how to
-use the platform as a developer. Third, we will present the current
-proof-of-concept imple- mentation, written in Erlang. We conclude with a
-discussion, including possible future directions and comparisons to
-other technologies.
+However, it should be noted that our architecture is holistic; all
+components tie together and synergize, in a modular way.
+
+The rest of this paper is broken into four parts.
+
+* First, we will introduce and discuss the fundamental theoretical ideas
+  that inform our architecture.
+
+* Second, we will discuss the included essential applications, other
+  possible use cases and give intuitions for how to use the platform as
+  a developer.
+
+* Third, we will present the current proof-of-concept imple- mentation,
+  written in Erlang. We conclude with a discussion, including possible
+  future directions and comparisons to other technologies.
 
 [☝](#)
 
@@ -123,24 +131,38 @@ other technologies.
 White Paper section: I.A
 
 Blockchains, first of all Bitcoin, have shown a new way to architect
-value exchange on the Internet [1](#references). This has been followed
-by a number of promising advances: Ethereum demonstrated a way to write
-Turing-complete smart con- tracts secured by a blockchain architecture
-[2](#references); Truthcoin created tools for making oracles on
-blockchains [3](#references), while GroupGnosis and Augur showed how to
-make them more efficient [4](#references); Casey Detrio showed how to
-make markets on blockchains [5](#references); Namecoin showed how to
-make the distributed equivalent of a domain name server
-[6](#references); Factom showed how a blockchain that stores hashes can
-be used as a proof of existence for any digital data [7](#references).
+value exchange on the Internet [1](#references).
+
+This has been followed by a number of promising advances:
+
+Ethereum demonstrated a way to write Turing-complete smart con- tracts
+secured by a blockchain architecture [2](#references);
+
+Truthcoin created tools for making oracles on blockchains
+[3](#references), while
+
+GroupGnosis and Augur showed how to make them more efficient
+[4](#references);
+
+Casey Detrio showed how to make markets on blockchains [5](#references);
+
+Namecoin showed how to make the distributed equivalent of a domain name
+server [6](#references);
+
+Factom showed how a blockchain that stores hashes can be used as a proof
+of existence for any digital data [7](#references).
 
 These technologies show great promise when it comes to providing
-first-class financial and legal services to anyone. So far however, they
-have failed to come together to a unified whole that actually fulfills
-the promise. Specifically, all solutions so far have been lacking in at
-least one of the following respects: governance, scalability, scripting
-safety and cheap access to real-world data [need cit.]. æternity aims to
-improve the state of the art in all of these respects.
+first-class financial and legal services to anyone.
+
+So far however, they have failed to come together to a unified whole
+that actually fulfills the promise.
+
+Specifically, all solutions so far have been lacking in at least one of
+the following respects: governance, scalability, scripting safety and
+cheap access to real-world data [need cit.].
+
+æternity aims to improve the state of the art in all of these respects.
 
 ***
 
@@ -150,64 +172,82 @@ White Paper section: II
 
 We believe that the lack of scalability, scripting safety and cheap
 access to real-world data of current "smart con- tract platforms" come
-down to three core issues. First, the currently prevailing stateful
-design makes smart contracts written for the platform hard to analyze1,
-and statefulness combined with sequential transaction ordering
-complicates scalability [need cit.]. Second, the high cost of bringing
-real- world data into the system in a decentralized, trustless and
-reliable way complicates or outright prevents the realization of many
-promising applications [need cit.]. Third, the platforms are limited in
-their abilities to update themselves, in order to adapt to new
-technological or economical knowledge. We believe that each of these
-three problems have clear solution paths that should be explored.
+down to three core issues.
 
-First, recent research into state channel technology sug- gests that for
-many use cases, keeping state on-chain is not necessary [need cit.]. It
-is very often entirely possible to store all information in state
+* First, the currently prevailing stateful design makes smart contracts
+  written for the platform hard to analyze, and statefulness combined
+  with sequential transaction ordering complicates scalability
+  [need cit.].
+
+* Second, the high cost of bringing real- world data into the system in
+  a decentralized, trustless and reliable way complicates or outright
+  prevents the realization of many promising applications [need cit.].
+
+* Third, the platforms are limited in their abilities to update
+  themselves, in order to adapt to new technological or economical
+  knowledge. We believe that each of these three problems have clear
+  solution paths that should be explored.
+
+First, recent research into state channel technology suggests that for
+many use cases, keeping state on-chain is not necessary [need cit.].
+
+It is very often entirely possible to store all information in state
 channels, and only use the blockchain to settle any economic results of
-the information exchange, and as a fallback in the case of dispute. This
-suggests an alternative approach to blockchain architecture in which
-Turing-complete smart contracts exist in state channels but not
-on-chain. This increases scalability since all transactions
+the information exchange, and as a fallback in the case of dispute.
+
+This suggests an alternative approach to blockchain architecture in
+which Turing-complete smart contracts exist in state channels but not
+on-chain.
+
+This increases scalability since all transactions
 
 <sup> 1 The difficulty of analyzing stateful contracts was very clearly
 demon- strated by the re-entrance bug that brought down "The DAO". This
 happened despite the code having been audited by several of Ethereum's
 creators as well as the general community [need cit.].</sup>
 
-become independent and can thus be processed in parallel. Additionally,
-this means that contracts never write to shared state, greatly
-simplifying their testing and verification. We believe that this design
-emphasizes that blockchains are about financial logic rather than data
-storage; there exist decentralized storage solutions that complement
-blockchains perfectly.
+become independent and can thus be processed in parallel.
 
-Second, applications such as Augur have attempted to bring real-world
-data onto the blockchain in a decentralized way in the process
-essentially building a consensus mechanism inside smart contracts
-[8](#references), instead of utilizing the consensus mechanism of the
-underlying blockchain. This leads to inefficiencies but doesn't increase
-security. The natural conclusion from this is to generalize the
-blockchain's consensus mechanism so that it can provide information not
-only on the next internal state, but also on the state of the external
-world. It could thus be argued that the blockchain's consensus mechanism
+Additionally, this means that contracts never write to shared state,
+greatly simplifying their testing and verification.
+
+We believe that this design emphasizes that blockchains are about
+financial logic rather than data storage; there exist decentralized
+storage solutions that complement blockchains perfectly.
+
+Second, applications such as Augur have attempted to bring
+real-world-data onto the blockchain in a decentralized way in the
+process essentially building a consensus mechanism inside smart
+contracts [8](#references), instead of utilizing the consensus mechanism
+of the underlying blockchain.
+
+This leads to inefficiencies but doesn't increase security. The natural
+conclusion from this is to generalize the blockchain's consensus
+mechanism so that it can provide information not only on the next
+internal state, but also on the state of the external world.
+
+It could thus be argued that the blockchain's consensus mechanism
 determines the result of running what complexity theory dubs an oracle
 machine: a theoretical machine that is more powerful than a Turing
 machine because it has answers to some questions that can't necessarily
 be computed, such as "Who won football game X?" [need cit.] .
 
 Third, it seems natural that the consensus mechanism could also be used
-to determine the parameters of the system. This allows it to adapt to
-changing external conditions, as well as adopting new research and
-recent developments in the field.
+to determine the parameters of the system.
+
+This allows it to adapt to changing external conditions, as well as
+adopting new research and recent developments in the field.
 
 The rest of this section introduces the æternity blockchain in greater
 detail, starting with a brief overview of accounts, tokens, names and
-the structure of blocks. This is followed by an explanation of our
-approach to state channels and smart contracts, and then a discussion on
-how the blockchain's consensus mechanism can be used both to create an
-efficient oracle mechanism and to govern the system. Finally, we discuss
-scalability from several different angles.
+the structure of blocks.
+
+This is followed by an explanation of our approach to state channels and
+smart contracts, and then a discussion on how the blockchain's consensus
+mechanism can be used both to create an efficient oracle mechanism and
+to govern the system.
+
+Finally, we discuss scalability from several different angles.
 
 
 ## æternity Tokens, accounts and blocks
@@ -216,9 +256,13 @@ White Paper section: II A
 
 Despite being "stateless" from the contract developer's point of view,
 the æternity blockchain keeps track of several predefined state
-components. We will now explain these, as well as the content of each
-block. For simplicity, this section assumes that every node keeps track
-of the whole blockchain. Possible optimizations are described in section
+components.
+
+We will now explain these, as well as the content of each block. For
+simplicity, this section assumes that every node keeps track of the
+whole blockchain.
+
+Possible optimizations are described in section
 [II-E](#æternity-scalability).
 
 
@@ -260,8 +304,10 @@ see above
 White Paper section: II A.2
 
 Each account has an address and a balance of aeon and also a nonce which
-increases with every transaction and the height of its last update. Each
-account also has to pay a small fee for the amount of time it is open.
+increases with every transaction and the height of its last update.
+
+Each account also has to pay a small fee for the amount of time it is
+open.
 
 The costs of creating and keeping accounts prevents spam and
 disincentivizes state-bloat. The reward for deleting accounts
@@ -279,8 +325,11 @@ White Paper section: II A.3
 Many blockchain systems suffer from unreadable addresses for their
 users. In the vein of Aaron Swartz' work and Namecoin, æternity features
 a name system that is both decentralized and secure, while still
-supporting human-friendly names [9]. The blockchain's state includes a
-mapping from unique human-friendly strings to fixed-size byte arrays.
+supporting human-friendly names [9].
+
+The blockchain's state includes a mapping from unique human-friendly
+strings to fixed-size byte arrays.
+
 These names can be used to point to things such as account addresses on
 æternity, or hashes e.g. of Merkle trees.
 
@@ -308,12 +357,17 @@ Each block contains the following components:
 
 The hash of the previous block is required to maintain an ordering of
 the blockchain. The transaction tree contains all transactions that are
-included in the current block. With the exception of the consensus vote
-tree, all the trees are fully under consensus: if a tree is changed from
-one block to the next, this change has to be due to a transaction in the
-new block's transaction tree, and a Merkle proof of the update has to be
-included in the block's proof tree. The purpose of the three remaining
-trees will hopefully become clear in the following sections.
+included in the current block.
+
+With the exception of the consensus vote tree, all the trees are fully
+under consensus:
+
+if a tree is changed from one block to the next, this change has to be
+due to a transaction in the new block's transaction tree, and a Merkle
+proof of the update has to be included in the block's proof tree.
+
+The purpose of the three remaining trees will hopefully become clear in
+the following sections.
 
 
 [☝](#)
@@ -330,23 +384,29 @@ One of the most interesting developments in the blockchain space lately
 is that of state channels. They operate on the basic principle that in
 most cases, only the people affected by a transaction need to know about
 it. In essence, the transacting parties instantiate some state on a
-blockchain, e.g. an Ethereum contract or a Bitcoin multisig. They then
-simply send signed updates to this state between each other. The key
-point is that either one of them could use these to update the state on
-the blockchain, but in most cases, they don't.
+blockchain, e.g. an Ethereum contract or a Bitcoin multisig.
+
+They then simply send signed updates to this state between each other.
+The key point is that either one of them could use these to update the
+state on the blockchain, but in most cases, they don't.
 
 This allows for transactions to be conducted as fast as information can
 be transmitted and processed by the parties, instead of them having to
 wait until the transaction has been validated and potentially finalized
-by the blockchain's consensus mechanism. On æternity, the only state
-update that can be settled on the blockchain is a transfer of aeon, and
-the only aeon that can be transferred are the ones that the transacting
-parties already deposited into the channel. This makes all channels
-independent from each other, which has the immediate 1. bene-
+by the blockchain's consensus mechanism.
 
-> *1 | macro Gold f870e8f615b386aad5b953fe089 ; 2 | 3 | Gold oracle 4 |
-> if 0 1000 else 0 0 end 5 | 0*
+On æternity, the only state update that can be settled on the blockchain
+is a transfer of aeon, and the only aeon that can be transferred are the
+ones that the transacting parties already deposited into the channel.
 
+This makes all channels independent from each other, which has the
+immediate 1. bene-
+
+    > *1 | macro Gold f870e8f615b386aad5b953fe089 ; 
+    > 2  | 
+    > 3  | Gold oracle 
+    > 4  | if 0 1000 else 0 0 end 
+    > 5  | 0*
 
 <sup>Fig. 1. used is the Forth-like Chalang, which will be presented in
 section IV-A.</sup>
@@ -356,12 +416,15 @@ that any transactions related to channels can be processed in parallel,
 greatly improving transaction throughput.
 
 The blockchain is only used to settle the final outcome or to resolve
-conflicts that arise, roughly analogous to the judicial system. However,
-because the blockchain's behavior will be predictable, there is no gain
-in disputing the intended result of a state channel; malicious actors
-are incentivized to behave correctly and only settle the final state on
-the blockchain. All taken together, this increases transaction speed and
-volume by several orders of magnitude, as well as privacy.
+conflicts that arise, roughly analogous to the judicial system.
+
+However, because the blockchain's behavior will be predictable, there is
+no gain in disputing the intended result of a state channel; malicious
+actors are incentivized to behave correctly and only settle the final
+state on the blockchain.
+
+All taken together, this increases transaction speed and volume by
+several orders of magnitude, as well as privacy.
 
 
 [☝](#)
@@ -374,12 +437,15 @@ White Paper section: II B.1
 
 Despite that the only state that can be settled on-chain is a transfer
 of aeon, æternity still features a Turing-complete virtual machine that
-can run “smart contracts”. Contracts on æternity are strictly agreements
-that distribute funds according to some rules, which stands in stark
-contrast to the entity-like contracts of e.g. Ethereum. Two of the more
-notable practical differences is that by default, only the involved
-parties know about a given contract, and only parties that have an open
-state channel can create a valid contract.
+can run “smart contracts”.
+
+Contracts on æternity are strictly agreements that distribute funds
+according to some rules, which stands in stark contrast to the
+entity-like contracts of e.g. Ethereum.
+
+Two of the more notable practical differences is that by default, only
+the involved parties know about a given contract, and only parties that
+have an open state channel can create a valid contract.
 
 If the parties agree to a contract, they sign it and keep copies for
 future reference. It is only submitted to the blockchain if its outcome
@@ -387,22 +453,25 @@ is disputed, in which case the code is only ever stored as part of the
 submitted transaction, never in any other state.
 
 If this happens, the blockchain distributes the tokens according to the
-contract and closes the channel. As an example, fig. 1 shows a very
+contract and closes the channel. As an example, **fig. 1** shows a very
 simple contract that encodes a bet on the price of gold at a certain
 time. On line 1, the macro Gold saves the identifier of the oracle in
 question, which will return true if the price of gold is below $38/g on
-December 1st, 2016. The body of the contract is displayed on lines 2-4:
-we first push the gold oracle’s identifier to the stack and call it
-using oracle, which will leave the oracle’s answer on the top of the
-stack. We use this to do a conditional branching:
+December 1st, 2016.
+
+The body of the contract is displayed on lines 2-4: we first push the
+gold oracle’s identifier to the stack and call it using oracle, which
+will leave the oracle’s answer on the top of the stack. We use this to
+do a conditional branching:
 
 if the oracle returns true, we push 0 and 1000 to the stack, indicating
 that 0 aeon should be burned and 1000 aeon should go to the first
-participant in the channel. Otherwise, we push 0 and 0, with the second
-0 indicating that the other participant receives all aeon in the
-channel. Finally we push 0, which is taken to be the nonce of this
-channel state. In actual usage, the nonce would be generated at
-deployment.
+participant in the channel.
+
+Otherwise, we push 0 and 0, with the second 0 indicating that the other
+participant receives all aeon in the channel. Finally we push 0, which
+is taken to be the nonce of this channel state. In actual usage, the
+nonce would be generated at deployment.
 
 One important thing to note is that contracts on æternity don’t maintain
 any state of their own. Any state is maintained by the transacting
@@ -414,10 +483,11 @@ contracts”.
 
 Contracts on æternity are strictly agreements that distribute funds
 according to some rules, which stands in stark contrast to the
-entity-like contracts of e.g. Ethereum. Two of the more notable
-practical differences is that by default, only the involved parties know
-about a given contract, and only parties that have an open state channel
-can create a valid contract.
+entity-like contracts of e.g. Ethereum.
+
+Two of the more notable practical differences is that by default, only
+the involved parties know about a given contract, and only parties that
+have an open state channel can create a valid contract.
 
 If the parties agree to a contract, they sign it and keep copies for
 future reference. It is only submitted to the blockchain if its outcome
@@ -433,21 +503,26 @@ December 1st, 2016.
 
 The body of the contract is displayed on lines 2-4: we first push the
 gold oracle’s identifier to the stack and call it using oracle, which
-will leave the oracle’s answer on the top of the stack. We use this to
-do a conditional branching: if the oracle returns true, we push 0 and
-1000 to the stack, indicating that 0 aeon should be burned and 1000 aeon
-should go to the first participant in the channel. Otherwise, we push 0
-and 0, with the second 0 indicating that the other participant receives
-all aeon in the channel. Finally we push 0, which is taken to be the
-nonce of this channel state.
+will leave the oracle’s answer on the top of the stack.
+
+We use this to do a conditional branching: if the oracle returns true,
+we push 0 and 1000 to the stack, indicating that 0 aeon should be burned
+and 1000 aeon should go to the first participant in the channel.
+
+Otherwise, we push 0 and 0, with the second 0 indicating that the other
+participant receives all aeon in the channel. Finally we push 0, which
+is taken to be the nonce of this channel state.
 
 In actual usage, the nonce would be generated at deployment. One
 important thing to note is that contracts on æternity don’t maintain any
 state of their own. Any state is maintained by the transacting parties
-and submitted as input at execution. Every contract is essentially a
-pure function that takes some Despite that the only state that can be
-settled on-chain is a transfer of aeon, æternity still features a
-Turing-complete virtual machine that can run “smart contracts”.
+and submitted as input at execution.
+
+Every contract is essentially a pure function that takes some Despite
+that the only state that can be settled on-chain is a transfer of aeon,
+æternity still features a Turing-complete virtual machine that can run
+“smart contracts”.
+
 Contracts on æternity are strictly agreements that distribute funds
 according to some rules, which stands in stark contrast to the
 entity-like contracts of e.g. Ethereum.
@@ -471,19 +546,23 @@ price of gold is below $38/g on December 1st, 2016.
 The body of the contract is displayed on lines 2-4: we first push the
 gold oracle’s identifier to the stack and call it using oracle, which
 will leave the oracle’s answer on the top of the stack. We use this to
-do a conditional branching: if the oracle returns true, we push 0 and
-1000 to the stack, indicating that 0 aeon should be burned and 1000 aeon
-should go to the first participant in the channel. Otherwise, we push 0
-and 0, with the second 0 indicating that the other participant receives
-all aeon in the channel.
+do a conditional branching:
+
+if the oracle returns true, we push 0 and 1000 to the stack, indicating
+that 0 aeon should be burned and 1000 aeon should go to the first
+participant in the channel. Otherwise, we push 0 and 0, with the second
+0 indicating that the other participant receives all aeon in the
+channel.
 
 Finally we push 0, which is taken to be the nonce of this channel state.
-In actual usage, the nonce would be generated at deployment. One
-important thing to note is that contracts on æternity don’t maintain any
-state of their own. Any state is maintained by the transacting parties
-and submitted as input at execution. Every contract is essentially a
-pure function that takes some input and gives a new channel state as
-output2.
+In actual usage, the nonce would be generated at deployment.
+
+One important thing to note is that contracts on æternity don’t maintain
+any state of their own. Any state is maintained by the transacting
+parties and submitted as input at execution.
+
+Every contract is essentially a pure function that takes some input and
+gives a new channel state as output2.
 
 The benefits of using pure functions in software development in general,
 and in the development of financial applications in particular, has been
@@ -518,34 +597,43 @@ White Paper section: II B.1 a)
 
 Even though all contracts are stateless and execute inde- pendently of
 each other, contract interaction and statefulness can still be achieved
-through hashlocking [need cit.]. A simple hashlock is shown in fig. 2.
+through hashlocking [need cit.]. A simple hashlock is shown in **fig.
+2**.
+
 On line 1, we define a function called hashlock that expects the stack
-to contain a hash h and a secret s. It swaps them on line 2, in order to
-hash the secret on line 3, before calling the equality operator on
-hash(v) and h on line 4. This returns true if the secret is a preimage
-of the hash. This function can be used to predicate the execution of
-code branches in different contracts on the existence of the same secret
-value.
+to contain a hash h and a secret s.
+
+It swaps them on line 2, in order to hash the secret on line 3, before
+calling the equality operator on hash(v) and h on line 4.
+
+This returns true if the secret is a preimage of the hash. This function
+can be used to predicate the execution of code branches in different
+contracts on the existence of the same secret value.
 
 As a simple example usage, hashlocks make it possible for users that
 don't share a state channel to trustlessly send each other aeon, as long
 as there is a path of channels between them. For example, if Alice and
 Bob have a channel and Bob and Carol have a channel, then Alice and
-Carol can transact through Bob. They do this by creating two copies of
-the contract shown in fig. 3, one for each channel. The Commitment on
-line 1 is the hash of a secret that Alice chooses. On line 3 we push it
-to the stack and call the hashlock function. Which branch of the if that
-gets executed depends on the return value of hashlock. Once these
-contracts have been signed by all parties, Alice reveals the secret,
-allowing Bob and Carol to use it to claim their aeon.
+Carol can transact through Bob.
+
+They do this by creating two copies of the contract shown in fig. 3, one
+for each channel. The Commitment on line 1 is the hash of a secret that
+Alice chooses. On line 3 we push it to the stack and call the hashlock
+function.
+
+Which branch of the if that gets executed depends on the return value of
+hashlock. Once these contracts have been signed by all parties, Alice
+reveals the secret, allowing Bob and Carol to use it to claim their
+aeon.
 
 Hashlocking can also be used to e.g. play multi-player games in the
 channels, as shown in fig. 4. Everyone makes a channel with the game
-manager, which publishes the same contract to every channel. Say we are
-in game state 32, defined by the function State32, and we want to
-trustlessly simultaneously update all the channels to state 33. When the
-game manager reveals the secret, it causes all the channels to update at
-the same time.
+manager, which publishes the same contract to every channel.
+
+Say we are in game state 32, defined by the function State32, and we
+want to trustlessly simultaneously update all the channels to state 33.
+When the game manager reveals the secret, it causes all the channels to
+update at the same time.
 
 
 <sup>2 It should be noted that since contracts can read answers from
@@ -578,12 +666,15 @@ requests the execution.
 
 This could be seen as undesirable, because it is probably another party
 that is causing the need for the blockchain to resolve the dispute in
-the first place. However, as long as all money in the channel is not
-used for betting, this can be effectively nullified in the contract
-code, since it has the ability to redistribute funds from one party to
-the other. It is in fact generally good practice to avoid using all
-funds in a channel to transact, because it disincentivizes the losing
-party to cooperate when closing the channel.
+the first place.
+
+However, as long as all money in the channel is not used for betting,
+this can be effectively nullified in the contract code, since it has the
+ability to redistribute funds from one party to the other.
+
+It is in fact generally good practice to avoid using all funds in a
+channel to transact, because it disincentivizes the losing party to
+cooperate when closing the channel.
 
 
 [☝](#)
@@ -635,36 +726,42 @@ White Paper section: II C
 mechanism. The block-order will be determinedvia Proof-of-Work. Certain
 system variables will be deter-mined via on-chain prediction market
 system, which allowsthe users to participate and bring in their
-knowledge. Forthe PoW algorithm we currently favor a variant of
-Tromp'sCuckoo Cycle, one which is memory bound, and also isan
-"indirectly useful Proof-of-Work", as it requires lesselectricity to
-run, but instead has another limiting factor,the one of memory latency
-availability. This also makes itfeasible to mine with a smart
-phone.Tromp writes about his work:
+knowledge.
+
+Forthe PoW algorithm we currently favor a variant of Tromp'sCuckoo
+Cycle, one which is memory bound, and also isan "indirectly useful
+Proof-of-Work", as it requires lesselectricity to run, but instead has
+another limiting factor,the one of memory latency availability. This
+also makes itfeasible to mine with a smart phone.Tromp writes about his
+work:
 
 
->[Cuckoo Cycle is] an instantly verifiable memorybound PoW that is
->unique in being dominated bylatency rather than computation. In that
->sense, min-ing Cuckoo Cycle is a form of ASIC mining whereDRAM chips
->serve the application of randomlyreading and writing billions of
->bits.When even phones charging overnight can minewithout orders of
->magnitude loss in efficiency,not with a mindset of profitability but of
->playingthe lottery, the mining hardware landscape willsee vast
->expansion, benefiting adoption as well asdecentralization.
+    [Cuckoo Cycle is] an instantly verifiable memorybound PoW that is
+    unique in being dominated bylatency rather than computation. In that
+    sense, min-ing Cuckoo Cycle is a form of ASIC mining whereDRAM chips
+    serve the application of randomlyreading and writing billions of
+    bits. When even phones charging overnight can minewithout orders of
+    magnitude loss in efficiency,not with a mindset of profitability but of
+    playingthe lottery, the mining hardware landscape willsee vast
+    expansion, benefiting adoption as well asdecentralization.
 
 Preview: The consensus mechanism has a somewhat non-standard role in
 æternity. In addition to agreeing on newblocks for the blockchain, it
 also agrees on both answers tooracle questions and the values of the
-system's parameters.In particular, the consensus mechanism can change
-itself.However, it should be noted that this is not entirely
-unprob-lematic. For example, if a simple proof-of-work mechanismwas
-used, it would be rather cheap to bribe the miners tocorrupt the oracle.
-Therefore æternity is going to use a novelhybrid Proof-of-Stake
-Proof-of-Work algorithm, leveragingthe benefits of both. Independently
-from this, PoW is goingto be used to issue new aeon tokens.Sidenote:
-Originally Aeternity intended to be a 100 percentproof-of-stake
-blockchain. We don't think anymore that adecentralized 100 percent PoS
-system is possible.
+system's parameters.
+
+In particular, the consensus mechanism can change itself.However, it
+should be noted that this is not entirely unprob-lematic.
+
+For example, if a simple proof-of-work mechanismwas used, it would be
+rather cheap to bribe the miners tocorrupt the oracle. Therefore
+æternity is going to use a novelhybrid Proof-of-Stake Proof-of-Work
+algorithm, leveragingthe benefits of both.
+
+Independently from this, PoW is goingto be used to issue new aeon
+tokens.Sidenote: Originally Aeternity intended to be a 100
+percentproof-of-stake blockchain. We don't think anymore that
+adecentralized 100 percent PoS system is possible.
 
 
 [☝](#)
@@ -679,12 +776,15 @@ A crucial feature for most contracts,whether encoded as text or as code,
 is the ability to refer tovalues from the environment, such as the
 prices of differentgoods or whether a certain event occurred or not. A
 smartcontract system without this ability is essentially a closedsystem
-and arguably not very useful. This is a generally ac-cepted fact and
-there are already several projects that attemptto bring external data
-into the blockchain in decentralizedway [8]. However, to decide whether
-a supplied fact is trueor not, these essentially require the
-implementation of a newconsensus mechanism on top of the consensus
-mechanism.
+and arguably not very useful.
+
+This is a generally ac-cepted fact and there are already several
+projects that attemptto bring external data into the blockchain in
+decentralizedway [8].
+
+However, to decide whether a supplied fact is trueor not, these
+essentially require the implementation of a newconsensus mechanism on
+top of the consensus mechanism.
 
 Running two consensus mechanisms on top of each otheris as expensive as
 running both separately. Additionally, itdoesn't increase security,
@@ -708,13 +808,14 @@ can supply an answer for free.
 
 Once the oracle launcher has supplied an answer or until acertain amount
 of time has passed, any other users can submitcounter-claims by
-depositing the same amount of aeon. Ifno counter-claims have been
+depositing the same amount of aeon. If no counter-claims have been
 submitted by the end of thetimeframe, the answer supplied by the user
 that launched theoracle is accepted as truth, and the deposit is
 returned. If anycounter-claims are submitted, then the consensus
-mechanismfor blocks will be used to answer the oracle. This is
-moreexpensive, but since we know we can take at least one ofthe two
-safety deposits, we can use it.
+mechanismfor blocks will be used to answer the oracle.
+
+This is moreexpensive, but since we know we can take at least one ofthe
+two safety deposits, we can use it.
 
 
 [☝](#)
@@ -730,6 +831,7 @@ White Paper section: II D
 Governance of blockchain-based systems has been a bigproblem in the
 past. Whenever a system upgrade needs to bedone, this requires a hard
 fork, which usually leads to bigdiscussions among all value holders.
+
 Even simple things, likecorrecting an arbitrarily set variable in the
 source code, aswe have seen with the block size debate in Bitcoin,
 seemto be very hard in a system where the users' incentives arenot
@@ -739,8 +841,8 @@ path.
 We have also seen more complicatedgovernance decisions, like fixing a
 single smart contract bugin "The DAO", which required quick intervention
 by systemdevelopers.The primary problem of these systems is
-easilyidentifiable---the decision-making process for a protocol up-grade
-or change is not well defined and lacks transparency.
+easilyidentifiable the decision making process for a protocol upgrade or
+change is not well defined and lacks transparency.
 
 æternity's governance system is part of the consensus. It usesprediction
 markets to function as efficiently and transparentlyas possible.
@@ -812,7 +914,7 @@ headers are muchsmaller than full blocks; very few transactions are
 processed.
 
 For simplicity, we made no mention of the block headerswhen discussing
-the block structure in section II-A.4, butthey contain the following:
+the block structure in section II-A.4, but they contain the following:
 * The hash of the previous block.
 * The root hash of all of the state trees.
 
@@ -826,7 +928,7 @@ the block structure in section II-A.4, butthey contain the following:
 White Paper section: II E.3
 
 State channelshave immense throughput and most transactions inside
-themare never executed or even recorded on the blockchain.Additionally,
+themare never executed or even recorded on the blockchain. Additionally,
 the channels don't write to any shared stateon-chain, so all
 transactions that actuallydoget recordedon the blockchain can be
 processed in parallel.
@@ -881,11 +983,15 @@ rate oftransactions per second.
 
 To operate a node, we need to keep a copy of all the blocks since
 finality, and we need to be able to record 100 times more information,
-in case there is an attack. Estimating that finality is 2 days, then
-there would be 5760 blocks till finality. So the memory requirement is
-5760 * one megabyte * 100 = 576000 megabytes = 576 gigabytes. When there
-isn't an attack happening, one would only need about 5.76 gigabytes to
-store the blocks.
+in case there is an attack.
+
+Estimating that finality is 2 days, then there would be 5760 blocks till
+finality. So the memory requirement is
+
+5760 * one megabyte * 100 = 576000 megabytes = 576 gigabytes.
+
+When there isn't an attack happening, one would only need about 5.76
+gigabytes to store the blocks.
 
 [☝](#)
 
@@ -925,9 +1031,11 @@ White Paper section: III A.1
 
 Each account will have an associated unique ID number. Users can
 register unique names, and link names to the Merkle-root of a data
-structure. The data structure can contain one's unique ID as well as
-other information about one's account. We aim to use Schema.org's JSON
-format to represent things like persons or companies [13](#references).
+structure.
+
+The data structure can contain one's unique ID as well as other
+information about one's account. We aim to use Schema.org's JSON format
+to represent things like persons or companies [13](#references).
 
 [☝](#)
 
@@ -977,10 +1085,10 @@ web that require a high transaction through- put.
 White Paper section: III B.1
 
 Most APIs existing today are publicly available for anyone to call, or
-else they are secured by a username-password--scheme or unique access
+else they are secured by a username-password-scheme or unique access
 tokens.
 
-Pay- ment channels allow for a new kind of API, where one pays for every
+Payment channels allow for a new kind of API, where one pays for every
 call to the API, possibly every HTTP-request. Paying to access an API
 solves DDoS problems, and it makes it easier to build high-quality APIs
 that are always available.
@@ -1039,10 +1147,11 @@ White Paper section: III B.4
 
 We can use smart contracts to program synthetic assets that stay nearly
 the same price as a real world asset. For example, we could make an
-asset that stays the same price as gold. Synthetic derivatives are
-created in equal and opposite pairs. For one user to have an asset that
-moves with gold, a different user will have to have an asset that move
-inversely to gold.
+asset that stays the same price as gold.
+
+Synthetic derivatives are created in equal and opposite pairs. For one
+user to have an asset that moves with gold, a different user will have
+to have an asset that move inversely to gold.
 
 For example, Alice could make a contract with Bob so that Alice owns 1
 gram of gold. Out of the money in the contract, one gram of gold worth
@@ -1147,7 +1256,8 @@ down, and that if Bob wins, the price will go up.
 
 One could learn that if Google uses plan A for the next 3 months, that
 it will probably earn more money, and that if it uses plan B, it will
-probably earn less. Or, as in fig. 5, we can see that if Alice would be
+probably earn less. 
+Or, as in **fig. 5**, we can see that if Alice would be
 elected president, there is a high likelihood of the price of potatoes
 being rather low.
 
