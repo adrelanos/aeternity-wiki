@@ -35,7 +35,7 @@ Contributors will be able to use their æons after Phase 2 is complete. These to
 
 The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity Blockchain launches.
 
-## Background on Blockains and æternity
+<b>Background on Blockains and æternity<p>
 
 In 1990, Nick Szabo proposed the concept of "smart contract", which appeared almost simultaneously with the Internet. But due to the lack of a credible execution environment, smart-contracts were not developed and functional. After the development of Bitcoin, people realized that its underlying technology - Blockchain is able to provide a credible backbone and execution environment for smart contracts. 
 
