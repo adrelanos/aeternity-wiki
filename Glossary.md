@@ -136,6 +136,27 @@ specifically to take advantage of a particular PoW algorithm.
 
 ## D
 
+### DApp
+DApp is the short form of (d)ecentralized (a)application
+
+Decentralized applications also known as DApps, are the next logical
+step in the evolution of technology. A decentralized application is
+similar to a smart contract on the Ethereum blockchain, yet it also has
+key differences. Unlike smart contracts, Dapps do not need to revolve
+around finance but can leverage blockchain technology for any purpose
+that comes to mind. <sup>[source](https://themerkle.com/what-is-a-dapp/)</sup>
+
+
+
+### DAC
+DAC is the short form of (d)ecentralized (a)utonomous (c)orporation
+
+### DAO
+DAO is the short form of (d)ecentralized (a)utonomous (o)rganization
+<sup>[link](http://inpluslab.sysu.edu.cn/files/Paper/SmartContract/Blockchains_And_Smart_Contracts_For_The_Internet_Of_Things.pdf)</sup>
+
+
+
 ### Digital Commodity
 
 A digital commodity is a scarce, electronically transferrable,
