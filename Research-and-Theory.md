@@ -221,9 +221,8 @@ Consensus, Proof-Of-Stake, and Slasher
 
 See: 
 
-[Aeternity Testnet Docs](https://github.com/aeternity/testnet/tree/master/docs)
-
-[Flying Fox Docs](https://github.com/BumblebeeBat/FlyingFox/tree/master/docs)
+* [Aeternity Testnet Docs](https://github.com/aeternity/testnet/tree/master/docs)
+* [Flying Fox Docs](https://github.com/BumblebeeBat/FlyingFox/tree/master/docs)
 
 # Open problems
 
@@ -234,6 +233,17 @@ See also: [Problems - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/probl
 
 ## Censorship resistance
 
+'Censorship resistance' refers to the problem of preventing or detecting Sybil attacks that would 'censor' or absent valid blocks on the chain. Such attacks may allow attackers to privilege or appropriate a set of transactions in blockchain contexts.  Present methods allow detection of censorship that may be occurring, but not censorship that has already occurred.  
+
+Proof-of-Work is considered a solution to this kind of attack (although proof-of-work systems are likewise subject to potential 51% attacks with similar consequences and motives).  Proof-of-Stake systems have gravitated towards security deposits that may be 'slashed' if participation in such an attack is detected.  Other suggestions have included the creation of anti-Sybil tokens that would be unique to individuals, and therefore produce a network of trust.
+
+See also: 
+
+* [Wikipedia - Sybil Attack](https://en.wikipedia.org/wiki/Sybil_attack)
+* [Problems - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/problems)
+* [Proof-Of-Stake FAQ - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+
+
 ## Maximally accurate time stamping
 
 See also: [On Slow and Fast Block Times by Vitalik Buterin](https://blog.ethereum.org/2015/09/14/on-slow-and-fast-block-times/)
@@ -242,9 +252,8 @@ See also: [On Slow and Fast Block Times by Vitalik Buterin](https://blog.ethereu
 
 See also:
 
-[Ethereum Wiki - Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
-
-[Notes on Scalable Blockchain Protocols - Buterin et. al](https://github.com/vbuterin/scalability_paper/blob/master/scalability.pdf)
+* [Ethereum Wiki - Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+* [Notes on Scalable Blockchain Protocols - Buterin et. al](https://github.com/vbuterin/scalability_paper/blob/master/scalability.pdf)
 
 
 ## Optimal data availability solutions
