@@ -157,6 +157,7 @@
 ## K
 
 ### [kosanke](https://github.com/kosanke)
+* Transformed the wiki into an educational, professional-looking, encyclopedic document with solid third-party links.
 
 
 ***
