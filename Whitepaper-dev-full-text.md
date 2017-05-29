@@ -59,6 +59,7 @@
   * [Future work](#æternity-future-work)
     * [Functional contract language](#æternity-functional-contract-language)
     * [Multi-party channels:](#æternity-multi-party-channels)
+* [GLOSSARY](Glossary)
 
 * [REFERENCES](#references)
 
@@ -490,12 +491,18 @@ extensively documented in academia and industry for decades
 [10][need cit.].
 
 
-> *1 | : hashlock 2 | swap 3 | hash 4 | == ;*
+    >1 | : hashlock 
+    >2 | swap 
+    >3 | hash 
+    >4 | == ;*
 
 Fig. 2. A simple hashlock
 
-> *1 | macro Commitment a9d7e8023f80ac8928334 ; 2 | 3 | Commitment
-> hashlock call 4 | if 0 100 else 0 50 end 5 | 1*
+    > 1 | macro Commitment a9d7e8023f80ac8928334 ; 
+    > 2 | 
+    > 3 | Commitment hashlock call 
+    > 4 | if 0 100 else 0 50 end 5 
+    >   | 1*
 
 Fig. 3. Using the hashlock to trustlessly send tokens through a
 middleman
@@ -850,28 +857,27 @@ by the consensus.
 From their initialdefault values, we can calculate the initial default
 rate oftransactions per second.
 
-> *1 | Note that this is a draft and will likely  
-> 2 | change.  
-> 4 | We define the following variables for thefollowing calculations:  
-> 5 |  
-> 6 | B = block size in bytes  
-> 7 | F = blocks till finality  
-> 8 | R = time till finality in seconds  
-> 9 | T = transaction size in bytes  
-> 10 |  
-> 11 | transactions per second = B * F / (T * R)  
-> 12 |  
-> 13 | B = 1000000 bytes = 1 megabyte per block  
-> 14 | F = 24*60*2 blocks per day  
-> 15 | R / F = 30 secondsperblock  
-> 16 | R = 24*3600 seconds per day  
-> 17 | T = 1000 bytes per transaction  
-> 18 |  
-> 19 | 1000000 * 24*60*2 / 1000 / 24*3600  
-> 20 | = 1000000 / 1000 / 30  
-> 21 | = ca. 32 transactions per second (fast enough to sign up every
-> human within 8 years)*
-
+    > 1  | Note that this is a draft and will likely
+    > 2  | change.
+    > 4  | We define the following variables for thefollowing calculations:
+    > 5  |
+    > 6  | B = block size in bytes
+    > 7  | F = blocks till finality
+    > 8  | R = time till finality in seconds
+    > 9  | T = transaction size in bytes
+    > 10 |
+    > 11 | transactions per second = B * F / (T * R)
+    > 12 |
+    > 13 | B = 1000000 bytes = 1 megabyte per block
+    > 14 | F = 24*60*2 blocks per day
+    > 15 | R / F = 30 secondsperblock
+    > 16 | R = 24*3600 seconds per day  
+    > 17 | T = 1000 bytes per transaction  
+    > 18 |  
+    > 19 | 1000000 * 24*60*2 / 1000 / 24*3600
+    > 20 | = 1000000 / 1000 / 30
+    > 21 | = ca. 32 transactions per second (fast enough to sign up every
+    >        human within 8 years)*
 
 To operate a node, we need to keep a copy of all the blocks since
 finality, and we need to be able to record 100 times more information,
@@ -891,8 +897,8 @@ store the blocks.
 
 White Paper section: III
 
-The stateless nature of the Æternity smart contracts makesit easy to build
-the following applications on Æternity'sblockchain.
+The stateless nature of the æternity smart contracts makesit easy to
+build the following applications on æternity'sblockchain.
 
 It is especially suitable for high-volume use-cases.
 
@@ -917,12 +923,11 @@ used as application foun- dations and can be improved on.
 
 White Paper section: III A.1
 
-Each account will have an associated unique ID number. Users can register
-unique names, and link names to the Merkle-root of a data structure.
-The data structure can contain one's unique ID as well as other information
-about one's account.
-We aim to use Schema.org's JSON format to represent things like persons
-or companies [13](#references).
+Each account will have an associated unique ID number. Users can
+register unique names, and link names to the Merkle-root of a data
+structure. The data structure can contain one's unique ID as well as
+other information about one's account. We aim to use Schema.org's JSON
+format to represent things like persons or companies [13](#references).
 
 [☝](#)
 
@@ -936,7 +941,8 @@ A wallet is a piece of software that is used to interact with Aeternity.
 A wallet manages private keys for the aeon and creates and signs
 transactions.
 
-One can use the wallet to send channel transactions, and use apps in the channel network.
+One can use the wallet to send channel transactions, and use apps in the
+channel network.
 
 [☝](#)
 
@@ -970,19 +976,18 @@ web that require a high transaction through- put.
 
 White Paper section: III B.1
 
-Most APIs existing today are publicly available for anyone to call,
-or else they are secured by a username-password--scheme or unique access
+Most APIs existing today are publicly available for anyone to call, or
+else they are secured by a username-password--scheme or unique access
 tokens.
 
-Pay- ment channels allow for a new kind of API, where one pays
-for every call to the API, possibly every HTTP-request. Paying to access
-an API solves DDoS problems, and it makes it easier to build high-quality
-APIs that are always available.
+Pay- ment channels allow for a new kind of API, where one pays for every
+call to the API, possibly every HTTP-request. Paying to access an API
+solves DDoS problems, and it makes it easier to build high-quality APIs
+that are always available.
 
-API responses that require a payment are
-fundamental for the creation of as of yet impossible types of businesses
-and can play an important role in the emergence of the decentralized
-economy.
+API responses that require a payment are fundamental for the creation of
+as of yet impossible types of businesses and can play an important role
+in the emergence of the decentralized economy.
 
 They create incentives for information owners to make otherwise private
 data publicly available.
@@ -1019,9 +1024,10 @@ only gets paid if the good or service is actually provided.
 
 White Paper section: III B.3
 
-Cross chain atomic swaps allow for trustless exchange of aeon for bitcoins
-[14](#references), [15](#). These can be implemented using a hashlock,
-that locks the transactions on both blockchains under the same value.
+Cross chain atomic swaps allow for trustless exchange of aeon for
+bitcoins [14](#references), [15](#). These can be implemented using a
+hashlock, that locks the transactions on both blockchains under the same
+value.
 
 [☝](#)
 
@@ -1032,15 +1038,15 @@ that locks the transactions on both blockchains under the same value.
 White Paper section: III B.4
 
 We can use smart contracts to program synthetic assets that stay nearly
-the same price as a real world asset. For example, we could make an asset
-that stays the same price as gold. Synthetic derivatives are created in
-equal and opposite pairs. For one user to have an asset that moves with
-gold, a different user will have to have an asset that move inversely
-to gold.
+the same price as a real world asset. For example, we could make an
+asset that stays the same price as gold. Synthetic derivatives are
+created in equal and opposite pairs. For one user to have an asset that
+moves with gold, a different user will have to have an asset that move
+inversely to gold.
 
 For example, Alice could make a contract with Bob so that Alice owns 1
-gram of gold. Out of the money in the contract, one gram of gold worth of
-aeon will go to Alice, and the leftover money goes to Bob.
+gram of gold. Out of the money in the contract, one gram of gold worth
+of aeon will go to Alice, and the leftover money goes to Bob.
 
 The contract has an expiration date when the price of gold will be
 measured, and the funds distributed to Alice and Bob accordingly.
@@ -1055,9 +1061,9 @@ measured, and the funds distributed to Alice and Bob accordingly.
 White Paper section: III B.5
 
 Event contracts pay when an event happens and don't pay when an event
-does not happen, as per the oracle's telling.
-Apart from being interesting in them- selves, these can be used by
-several different applications:
+does not happen, as per the oracle's telling. Apart from being
+interesting in them- selves, these can be used by several different
+applications:
 
 
 [☝](#)
@@ -1095,7 +1101,8 @@ information.
 For example, we could bet on the event "Information indicating that
 Company A has used illegal pesticides was released on or before January
 24th, 2017". Any person with access to such information would be
-incentivized to first bet that the event will happen and then release it.
+incentivized to first bet that the event will happen and then release
+it.
 
 [☝](#)
 
@@ -1110,7 +1117,8 @@ will happen. From the price of the bets we can predict the future
 likelihood [3](#references), [8](#references), [16](#references).
 
 They are the most accurate way to measure the future at a given price
-[need cit.]. Once the event has happened, the market is settled using the oracle.
+[need cit.]. Once the event has happened, the market is settled using
+the oracle.
 
 As noted in section II-D, we can for example use predic- tion markets to
 predict which updates to the software will be beneficial, and which will
@@ -1132,10 +1140,10 @@ detected more easily.
 
 White Paper section: III B.6 a)
 
-Multidimen- tional prediction markets allow us to predict the correlation
-between possible future events. So for example, one could predict that
-if Alice is elected leader, the price of potatoes will go down, and that
-if Bob wins, the price will go up.
+Multidimen- tional prediction markets allow us to predict the
+correlation between possible future events. So for example, one could
+predict that if Alice is elected leader, the price of potatoes will go
+down, and that if Bob wins, the price will go up.
 
 One could learn that if Google uses plan A for the next 3 months, that
 it will probably earn more money, and that if it uses plan B, it will
@@ -1153,10 +1161,42 @@ being rather low.
 White Paper section: III B.7
 
 There are two approaches available to attackers that want to rob aeon
-from a market. They can take advantage of the market being split in time,
-or they can take advantage of it being split in space.
+from a market. They can take advantage of the market being split in
+time, or they can take advantage of it being split in space.
 
-* If the market is split in space, then the attacker does arbitrage. He simultaneously makes trades in both mar- kets at once so that his risk cancels out and he earns a
+* If the market is split in space, then the attacker does arbitrage. He
+  simultaneously makes trades in both mar- kets at once so that his risk
+  cancels out and he earns a profit.
+
+* If the market is split in time, then the attacker frontruns the
+  market. He reads the transactions coming into the market and creates
+  buy and sell orders immediately before and after.
+
+![fig_6](https://cloud.githubusercontent.com/assets/18164515/26499742/f682326e-4233-11e7-84f0-9aed9927db25.JPG)
+
+<sup>Fig. 6. The blackline is the demand curve, the redline is the
+supply curve. The sells in red are the same size as the buys in red. The
+vertical line is the price the market maker selected. Everyone willing
+to buy at a higher price traded at that price, everyone willing to sell
+at a lower price traded at that price.</sup>
+
+To combine markets in space, everyone should use the same market maker.
+To combine markets in time, we need to have trading done in batches, at
+single price.
+
+The market maker needs to commit to each person what price he decided,
+and if anyone can find contradictory commitments from the market maker,
+then all of his customers should be able to drain all of his channels.
+
+If the market maker commits to a fair price, then he will match the same
+volume of buyers and sellers together, as fig. 6 shows. Otherwise, he
+will end up in a situation similar to fig. 7, thus taking a large risk.
+
+![fig_7](https://cloud.githubusercontent.com/assets/18164515/26499743/f6831eae-4233-11e7-9d89-76e491660787.JPG)
+
+<sup>Fig.7. The red line is much bigger than the red. The market is
+selling many more shares than it is buying, thus taking on a lot of
+risk.</sup>
 
 
 [☝](#)
@@ -1167,6 +1207,18 @@ or they can take advantage of it being split in space.
 
 White Paper section: IV
 
+Most key concepts already have proof-of-concept implementations in
+Erlang. This includes the blockchain itself, the contract language and
+VM, the oracle and governance mechanisms, as well as an old version of
+the consensus mechanism.
+
+We have used Erlang/OTP because it makes it easy to write code that can
+respond to many requests in parallel and does not crash.
+
+The servers with the highest up- time in the world are based on Erlang.
+It has been used for industrial applications for 30 years, proving
+itself to be a reliable and stable product.
+
 
 [☝](#)
 
@@ -1176,6 +1228,19 @@ White Paper section: IV
 
 White Paper section: IV A
 
+The virtual machine is stack-based and similar to Forth and Bitcoin'
+scripting language, although in comparison to the latter, it is rather
+rich.
+
+The VM supports functions instead of gotos, making its semantics
+relatively simple to analyze. A list of the VM's opcodes can be found on
+our Github<sup>3</sup>
+
+Additionally, there exists a higher-level Forth-like lan- guage called
+Chalang, which compiles to bytecode for the VM. It supports macros and
+variable names, but keeps the stack-based execution model
+[17](#references). Examples of Chalang code can also be found on our
+Github<sup>4</sup>.
 
 [☝](#)
 
@@ -1184,6 +1249,10 @@ White Paper section: IV A
 ### æternity Adoption via web-integration
 
 White Paper section: IV B
+
+The web is the most popular application platform. We will provide
+easy-to-use web-development tools, such as JS- libraries and JSON-APIs
+for the core features of the æternity blockchain.
 
 
 [☝](#)
@@ -1194,6 +1263,9 @@ White Paper section: IV B
 
 White Paper section: IV C
 
+In order to be easily re-used for private blockchain con- sortium and
+other use-cases, the software will be written in MIT-licensed modules,
+such as a consensus module, that can be adapted to specific needs.
 
 [☝](#)
 
@@ -1203,6 +1275,16 @@ White Paper section: IV C
 
 White Paper section: IV D
 
+Frictionless human interaction will be a big focus of our development
+efforts. More specifically, we will make sure that who controls the
+identity, keys and transactions is clearly established.
+
+Also, offering easy access via web-gateways will be a central focus of
+future development.
+
+Users participating in prediction markets via a Tinder-like (swipe
+left/right) mobile interface, and simple web-wallets that can be easily
+integrated in a website through an iframe will be the new norm.
 
 [☝](#)
 
@@ -1212,6 +1294,20 @@ White Paper section: IV D
 
 White Paper section: V
 
+We have provided an explanation of how to architect a fundamentally more
+efficient value transfer system. The described system is in fact a
+global oracle machine that can be used to provide decision making
+services at global scale.
+
+In particular, all the applications proposed in section III can be built
+easily and efficiently on top of æternity.
+
+<sup>3</sup>https://github.com/aeternity/chalang/blob/master/opcodes.md
+
+<sup>4</sup>https://github.com/aeternity/chalang/tree/master/examples
+
+However, our approach has both fundamental limitations and avenues for
+improvement. These are discussed here.
 
 [☝](#)
 
@@ -1220,6 +1316,13 @@ White Paper section: V
 ### æternity Limitations and tradeoffs
 
 White Paper section: V A
+
+While we do believe that the tradeoffs made in our architecture are
+reasonable given the resulting performance increase in other areas,
+æternity is not a catch-all solution for decentralized applications.
+
+It should rather be viewed as a synergistic complement to existing
+technologies. There are several caveats that one need to be aware of.
 
 
 [☝](#)
@@ -1230,6 +1333,13 @@ White Paper section: V A
 
 White Paper section: V A.1
 
+Despite having many advantages, æternity's lack of programmable state
+makes it unfit for applications that require a custom state to be under
+consensus.
+
+For example, this includes DAOs as they are usually conceived, custom
+name systems and subcurrencies which are not tied to the value of an
+underlying asset.
 
 [☝](#)
 
@@ -1239,6 +1349,29 @@ White Paper section: V A.1
 
 White Paper section: V A.2
 
+If Alice and Bob have a channel and Alice signs a contract, she
+essentially gives Bob a free option when she sends it to him:
+
+Bob can choose to sign and return (i.e. activate) the contract at any
+time in the future. Often this is not what is intended. To avoid this
+problem, channel contracts aren't immediately activated with the full
+amount.
+
+They are divided up in time or space. Both participants would sign up
+for the contract in small intervals so that neither user ever offers a
+large free option to the other.
+
+For example, if the parties want to bet 100 aeon, then they might sign
+up to it in 1000 steps that each increase the bet by 0.1 aeon.
+
+This would require about 1000 messages to pass, 500 in each direction,
+which is cheap enough since the contract is never submitted to the
+blockchain.
+
+As another example, if one wanted to make a financial asset that would
+last for 100 days, one might sign up in 2400 steps of one hour each.
+
+This would require about 2400 messages to pass, 1200 in each direction.
 
 [☝](#)
 
@@ -1248,6 +1381,32 @@ White Paper section: V A.2
 
 White Paper section: V A.3
 
+When composing channels using hashlocks as demonstrated in section
+II-B.1, any middlemen have to lock up at least twice as many aeon as
+will be transmitted through them. For example, if Alice and Carol want
+to transact through Bob, Bob will act as Carol when interacting with
+Alice, and vice- versa.
+
+Since this is expensive for Bob, he would most likely earn a fee as
+compensation. If Alice and Carol expect to conduct many trades between
+each other, they can avoid this by creating a new channel and
+trustlessly moving the active contracts to the new channel using a
+hashlock.
+
+Still, since keeping an extra channel open impacts one's liquidity
+negatively, going through middlemen is expected to be desirable in many
+cases, especially in cases where the parties don't expect to trade a lot
+in the future. Thus, a channel topology where certain rich users make
+money from trustlessly transmitting transactions between other users is
+expected to emerge.
+
+It should be noted that this does not constitute a single point of
+failure, since we do not trust these transaction transmitters with
+anything. If a transmitter goes offline before
+
+the secret to a hashlock has been revealed, the transaction doesn't go
+through. If it goes offline afterwards, the only possible "negative"
+effect is that the transmitter is not able to claim its aeon.
 
 [☝](#)
 
@@ -1256,6 +1415,8 @@ White Paper section: V A.3
 ## æternity Future work
 
 White Paper section: V B
+
+There are several possible ways to improve on the current architecture.
 
 
 [☝](#)
@@ -1266,6 +1427,22 @@ White Paper section: V B
 
 White Paper section: V B.1
 
+A reasonable future direction would be to experiment with high-level
+languages that adhere more closely to the functional paradigm. Keep- ing
+track of an implicit stack is generally error-prone and arguably not
+suitable for a high-level, developer-facing lan- guage.
+
+This should be rather easy given that programs are already pure
+functions (modulo some environment variables), and would greatly
+simplify both development and formal verification of contracts.
+
+If this is done, it could also make sense to revise the VM to be tightly
+coupled with the new language, to make the compilation less error-prone
+and less dependent on trust in the developers.
+
+Ideally, the translation from surface language to VM code would simply
+be a direct transcription of peer-reviewed research, though pragmatic
+concessions will likely have to be made.
 
 [☝](#)
 
@@ -1274,6 +1451,11 @@ White Paper section: V B.1
 ### æternity Multi-party channels:
 
 White Paper section: V B.2
+
+Currently, all channels on æternity are limited to two parties. While
+multi-party chan- nels can de facto be achieved through hashlocking,
+this can be expensive. Hence, we plan to investigate the possibility of
+adding support for n-party channels, with a m-of-n settlement mechanism.
 
 
 [☝](#)
@@ -1314,4 +1496,3 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 [☝](#)
 
 ***
-
