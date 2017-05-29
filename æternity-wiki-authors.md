@@ -88,7 +88,11 @@
 ***
 
 ### [davidiach](https://github.com/davidiach)
+* written the theory behind [prediction markets](https://github.com/aeternity/wiki/wiki/Research-and-Theory#prediction-markets) and how they work
 
+
+
+* edits and revisions and several other pages
 
 ***
 
