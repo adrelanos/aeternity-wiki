@@ -65,10 +65,10 @@ Keep an eye on them so you dont miss them
 
 * More T-Shirt Design contests:
 
-    Contest #2: 15.000 AE Token 
+    Contest #2: 15.000 AE 
 
-    Contest #3: 15.000 AE Token 
+    Contest #3: 15.000 AE  
 
-    Contest #4: 35.000 AE Token
+    Contest #4: 35.000 AE 
 
 
