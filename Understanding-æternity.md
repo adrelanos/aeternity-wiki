@@ -69,7 +69,7 @@ The æternity token (aeon) is used to pay for resources consumed through the pla
 Aeon will be distributed via the genesis block through an ERC20 Ethereum smart contract and at a later stage by mining.
 
 
-# What are some examples of how æternity be used?
+# What are some examples of how æternity can be used?
 
 Toll API: Payment channels allow for a new kind of API where one
 pays for every call to the API, possibly every HTTP-request.
