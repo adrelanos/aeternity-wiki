@@ -29,35 +29,22 @@ The Phase 1 "Friends, Family, and Real Innovators" contribution campaign ran for
 
 [Phase 2, the "Early Adopter" round](https://wallet.aeternity.com/) begins on May 29th and will be open for three full weeks - or until contributions reach the cap of twenty one million Swiss Francs (CHF). This round will allow contributors to purchase 800 AE for each ETH contributed over the first 24 hours, 750 over the remainder of the first week, 700 AE per ETH over the second week, and 650 AE per ETH over the third week. BTC will also be accepted.
 
-To contribute to the campaign, you will be obligated to use the æternity contribution wallet at [wallet.aeternity.com](https://wallet.aeternity.com/), fund that wallet and then proceed with your transfer.
+To contribute to the campaign, you will need to use the æternity contribution wallet at [wallet.aeternity.com](https://wallet.aeternity.com/), fund that wallet and then proceed with your transfer.
 
-Contributors will be able to use their aeon after Phase 2 is complete. These tokens will be distributed right after Phase 2, directly to the contribution addresses (for ETH contributors) as [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network). These will be taken care of automatically by a smart contract.
+Contributors will be able to use their æons after Phase 2 is complete. These tokens will be distributed right after Phase 2, directly to the contribution addresses (for ETH contributors) as [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard) tokens on the [Ethereum](https://en.wikipedia.org/wiki/Ethereum) network). These will be taken care of automatically by a smart contract.
 
-The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
+The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity Blockchain launches.
 
-In 1990, Nick Szabo proposed the concept of "smart contract", which appeared almost simultaneously with the Internet. But because of the lack of a credible execution environment, smart-contracts have not been applied to the real industry. After the birth of Bitcoin, people realized that the underlying technology of Bitcoin - Block-chain is able to provide a credible backbone and execution environment for smart contracts. 
+## Background on Blockains and æternity
 
+In 1990, Nick Szabo proposed the concept of "smart contract", which appeared almost simultaneously with the Internet. But due to the lack of a credible execution environment, smart-contracts were not developed and functional. After the development of Bitcoin, people realized that its underlying technology - Blockchain is able to provide a credible backbone and execution environment for smart contracts. 
 
-The æternity team has put forward their own views in the area of ​​block-chain and smart-contracts, and they think it is inefficient to store application status and code on the chain and the white-paper explains the reasons for that. æternity completed the first contribution round in early April, successfully raised the then equivalent of $ 5 millions in Bitcoins and Ethers. In order to thank the concerns of the Chinese community, founder Yaniselav came to Shanghai and Beijing on May 16th and 17th respectively, expressing gratitude to the Chinese Block-chain lovers and explaining the æternity White-paper.
+The æternity team are putting forward their views on ​​Blockchain development, their approach is that it is inefficient to store application status and code on the chain. The æternity white-paper explains all the underlying reasons for that. æternity will have a highly scalable Blockchain architecture where State channels will be integrated to enhance the privacy and scalability. With this innovative solution, users can quickly and privately perform large volumes of transactions and perform complex processes off-chain, which provides a solid foundation for large-scale and enterprise applications æternity also has a consensus mechanism that can also be used to view the oracle. This will make the Oracle machine very efficient (cheap) because it will avoid the overlap of several consensus mechanisms. Using æternity, any real-world data can be retrieved by the Blockchain, which can generate value for smart contracts and open the door for real-world applications.
+The tokens can be transmitted though channels trustlessly, and smart-contracts can access the answers of the Oracle. The fact that the contract code and status are not stored on the chain, will make it easier and faster to analyze and process the contracts.
 
-æternity trip to Shanghai
-
-
-
-æternity will present a highly scalable block chain architecture whose state channels will be integrated to enhance privacy and scalability. With this state channel's innovative solution, users can quickly and privately perform large volumes of transactions and perform complex processes under the chain, providing a solid foundation for large-scale application of block-chain technology.
+æternity has already completed its first contribution round in early April, and successfully raised the then equivalent of $ 5 Millions in Bitcoins and Ethers (almost $ 22 Millions valuation now).
 
 
 
-æternity trip to Beijing
 
 
-
-æternity also has a consensus mechanism that can also be used to view the oracle. This will make the whistle machine very efficient (cheap) because it will avoid the overlap of the consensus mechanism. Using æternity, any real-world data can be retrieved by the block chain, which can generate value for smart contracts and open the door for real-world applications.
-
- 
-
-The tokens in the channel can be transmitted with a fully reliable, intelligent contract that can access the verbal answers. The contract code or status will not be stored on the chain, making it easier to analyze and process faster, and the actual functionality will not suffer significant losses.
-
- 
-
-æternity is known as the potential competitor of the Ether Square and Lightning Networks, another stunning public chain project, and the team is in full swing. Let's look forward to the progress of æternity!
