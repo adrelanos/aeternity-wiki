@@ -781,7 +781,8 @@ about the substate that they careabout, but we can shard this data
 across arbitrarily manynodes so that each node's load is arbitrarily
 small.
 
-Merkletrees are used to prove that a substate is part of the state[11](#references).
+Merkletrees are used to prove that a substate is part of the
+state[11](#references).
 
 It is easy to imagine a scenario where certain nodesspecialize on
 keeping track of the trees and get paid forinserts and look-ups.
@@ -794,6 +795,20 @@ keeping track of the trees and get paid forinserts and look-ups.
 
 White Paper section: II E.2
 
+Light clients don't download the entireblocks. First the user gives
+their client a hash in the historyof the fork they prefer, a technique
+also known asweaksubjectivity[12](#references).
+
+Then the client knows only to downloadforks that include a block with
+that hash. The client onlydownloads the headers of the blocks. The
+headers are muchsmaller than full blocks; very few transactions are
+processed.
+
+For simplicity, we made no mention of the block headerswhen discussing
+the block structure in section II-A.4, butthey contain the following:
+* The hash of the previous block.
+* The root hash of all of the state trees.
+
 
 [☝](#)
 
@@ -803,6 +818,23 @@ White Paper section: II E.2
 
 White Paper section: II E.3
 
+State channelshave immense throughput and most transactions inside
+themare never executed or even recorded on the blockchain.Additionally,
+the channels don't write to any shared stateon-chain, so all
+transactions that actuallydoget recordedon the blockchain can be
+processed in parallel.
+
+Given thatmost consumer hardware sold today has at least four
+pro-cessing cores, this has the immediate effect that
+transactionthroughput is multiplied by roughly a factor of 4.
+Furthermore, the fact that there will never be any complexconcurrent
+interaction suggests that sharding this blockchainarchitecture should be
+relatively easy.
+
+Since blockchainsharding is still fairly experimental, we have
+deliberatelychosen not to pursue any sharding techniques in the
+initialdesign of æternity. However, if this changes in the
+future,æternity should be one of the easiest blockchains to shard.
 
 [☝](#)
 
@@ -812,6 +844,42 @@ White Paper section: II E.3
 
 White Paper section: II E.4
 
+The variables that define the protocol are allconstantly being updated
+by the consensus.
+
+From their initialdefault values, we can calculate the initial default
+rate oftransactions per second.
+
+> *1 | Note that this is a draft and will likely  
+> 2 | change.  
+> 4 | We define the following variables for thefollowing calculations:  
+> 5 |  
+> 6 | B = block size in bytes  
+> 7 | F = blocks till finality  
+> 8 | R = time till finality in seconds  
+> 9 | T = transaction size in bytes  
+> 10 |  
+> 11 | transactions per second = B * F / (T * R)  
+> 12 |  
+> 13 | B = 1000000 bytes = 1 megabyte per block  
+> 14 | F = 24*60*2 blocks per day  
+> 15 | R / F = 30 secondsperblock  
+> 16 | R = 24*3600 seconds per day  
+> 17 | T = 1000 bytes per transaction  
+> 18 |  
+> 19 | 1000000 * 24*60*2 / 1000 / 24*3600  
+> 20 | = 1000000 / 1000 / 30  
+> 21 | = ca. 32 transactions per second (fast enough to sign up every
+> human within 8 years)*
+
+
+To operate a node, we need to keep a copy of all the blocks since
+finality, and we need to be able to record 100 times more information,
+in case there is an attack. Estimating that finality is 2 days, then
+there would be 5760 blocks till finality. So the memory requirement is
+5760 * one megabyte * 100 = 576000 megabytes = 576 gigabytes. When there
+isn't an attack happening, one would only need about 5.76 gigabytes to
+store the blocks.
 
 [☝](#)
 
@@ -823,6 +891,11 @@ White Paper section: II E.4
 
 White Paper section: III
 
+The stateless nature of the Æternity smart contracts makesit easy to build
+the following applications on Æternity'sblockchain.
+
+It is especially suitable for high-volume use-cases.
+
 
 [☝](#)
 
@@ -832,6 +905,9 @@ White Paper section: III
 
 White Paper section: III A
 
+Blockchain essentials are necessary primitives like aeon, wallets, names
+and related concepts. They modularize reusable components which can be
+used as application foun- dations and can be improved on.
 
 [☝](#)
 
@@ -841,6 +917,12 @@ White Paper section: III A
 
 White Paper section: III A.1
 
+Each account will have an associated unique ID number. Users can register
+unique names, and link names to the Merkle-root of a data structure.
+The data structure can contain one's unique ID as well as other information
+about one's account.
+We aim to use Schema.org's JSON format to represent things like persons
+or companies [13](#references).
 
 [☝](#)
 
@@ -850,6 +932,11 @@ White Paper section: III A.1
 
 White Paper section: III A.2
 
+A wallet is a piece of software that is used to interact with Aeternity.
+A wallet manages private keys for the aeon and creates and signs
+transactions.
+
+One can use the wallet to send channel transactions, and use apps in the channel network.
 
 [☝](#)
 
@@ -859,6 +946,10 @@ White Paper section: III A.2
 
 White Paper section: III A.3
 
+One transaction type allows for the publishing of the hash of any data.
+System participants can use the headers to prove that the data existed
+at that point in time.
+
 [☝](#)
 
 ***
@@ -866,6 +957,9 @@ White Paper section: III A.3
 ## æternity State channel applications
 
 White Paper section: III B
+
+Smart contracts in state channels are perfect for micro- services on the
+web that require a high transaction through- put.
 
 
 [☝](#)
@@ -876,6 +970,23 @@ White Paper section: III B
 
 White Paper section: III B.1
 
+Most APIs existing today are publicly available for anyone to call,
+or else they are secured by a username-password--scheme or unique access
+tokens.
+
+Pay- ment channels allow for a new kind of API, where one pays
+for every call to the API, possibly every HTTP-request. Paying to access
+an API solves DDoS problems, and it makes it easier to build high-quality
+APIs that are always available.
+
+API responses that require a payment are
+fundamental for the creation of as of yet impossible types of businesses
+and can play an important role in the emergence of the decentralized
+economy.
+
+They create incentives for information owners to make otherwise private
+data publicly available.
+
 
 [☝](#)
 
@@ -885,6 +996,20 @@ White Paper section: III B.1
 
 White Paper section: III B.2
 
+We can implement insured crowdfunding using dominant assurance contracts
+[need cit.]. These are smart contracts that are used to raise money for
+a public good, like a new bridge, a school or a market.
+
+Dominant assurance contracts differ from traditional as- surance
+contracts like Kickstarter, in that they make it a dominant strategy to
+participate.
+
+If the good is not funded, all participants get their aeon back plus
+interest, so they are insured against reducing their liquidity without
+receiving the good.
+
+Using an oracle, we can ensure that the provider of the good or service
+only gets paid if the good or service is actually provided.
 
 [☝](#)
 
@@ -894,6 +1019,9 @@ White Paper section: III B.2
 
 White Paper section: III B.3
 
+Cross chain atomic swaps allow for trustless exchange of aeon for bitcoins
+[14](#references), [15](#). These can be implemented using a hashlock,
+that locks the transactions on both blockchains under the same value.
 
 [☝](#)
 
@@ -902,6 +1030,20 @@ White Paper section: III B.3
 ### æternity Stable value assets and portfolio replication
 
 White Paper section: III B.4
+
+We can use smart contracts to program synthetic assets that stay nearly
+the same price as a real world asset. For example, we could make an asset
+that stays the same price as gold. Synthetic derivatives are created in
+equal and opposite pairs. For one user to have an asset that moves with
+gold, a different user will have to have an asset that move inversely
+to gold.
+
+For example, Alice could make a contract with Bob so that Alice owns 1
+gram of gold. Out of the money in the contract, one gram of gold worth of
+aeon will go to Alice, and the leftover money goes to Bob.
+
+The contract has an expiration date when the price of gold will be
+measured, and the funds distributed to Alice and Bob accordingly.
 
 
 [☝](#)
@@ -912,6 +1054,11 @@ White Paper section: III B.4
 
 White Paper section: III B.5
 
+Event contracts pay when an event happens and don't pay when an event
+does not happen, as per the oracle's telling.
+Apart from being interesting in them- selves, these can be used by
+several different applications:
+
 
 [☝](#)
 
@@ -920,6 +1067,18 @@ White Paper section: III B.5
 ### æternity Insurances
 
 White Paper section: III B.5 a)
+
+We can use event contracts to imple- ment insurances. For example,
+expensive music event tickets can become worthless if the weather goes
+bad.
+
+However, if the concert-goer receives money if the oracle decides that
+it rained on the day of the event, the investment can be protected so
+that one can afford to find an emotionally- adequate alternative.
+
+Slightly more seriously, farmers are often interested in the total
+number of inches of rain in a season. We can insure them against their
+crops wilting from dryness.
 
 
 [☝](#)
@@ -930,6 +1089,13 @@ White Paper section: III B.5 a)
 
 White Paper section: III B.5 b)
 
+Event contracts can also be used to incentivize revealing sensitive
+information.
+
+For example, we could bet on the event "Information indicating that
+Company A has used illegal pesticides was released on or before January
+24th, 2017". Any person with access to such information would be
+incentivized to first bet that the event will happen and then release it.
 
 [☝](#)
 
@@ -939,6 +1105,24 @@ White Paper section: III B.5 b)
 
 White Paper section: III B.6
 
+A prediction market works by letting users bet on whether a future event
+will happen. From the price of the bets we can predict the future
+likelihood [3](#references), [8](#references), [16](#references).
+
+They are the most accurate way to measure the future at a given price
+[need cit.]. Once the event has happened, the market is settled using the oracle.
+
+As noted in section II-D, we can for example use predic- tion markets to
+predict which updates to the software will be beneficial, and which will
+be harmful.
+
+We can also use them to estimate how much candidates in an election will
+actually be able to accomplish, so lies and baseless promises can be
+detected more easily.
+
+![fig_5](https://cloud.githubusercontent.com/assets/18164515/26499741/f6818440-4233-11e7-892f-1937b1ca5f56.JPG)
+
+<sup>Fig. 5. Multidimensional prediction market.</sup>
 
 [☝](#)
 
@@ -948,6 +1132,17 @@ White Paper section: III B.6
 
 White Paper section: III B.6 a)
 
+Multidimen- tional prediction markets allow us to predict the correlation
+between possible future events. So for example, one could predict that
+if Alice is elected leader, the price of potatoes will go down, and that
+if Bob wins, the price will go up.
+
+One could learn that if Google uses plan A for the next 3 months, that
+it will probably earn more money, and that if it uses plan B, it will
+probably earn less. Or, as in fig. 5, we can see that if Alice would be
+elected president, there is a high likelihood of the price of potatoes
+being rather low.
+
 
 [☝](#)
 
@@ -956,6 +1151,12 @@ White Paper section: III B.6 a)
 ### æternity Market with batch trading at a single price
 
 White Paper section: III B.7
+
+There are two approaches available to attackers that want to rob aeon
+from a market. They can take advantage of the market being split in time,
+or they can take advantage of it being split in space.
+
+* If the market is split in space, then the attacker does arbitrage. He simultaneously makes trades in both mar- kets at once so that his risk cancels out and he earns a
 
 
 [☝](#)
@@ -1113,3 +1314,4 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 [☝](#)
 
 ***
+
