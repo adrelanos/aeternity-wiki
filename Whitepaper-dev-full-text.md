@@ -500,6 +500,55 @@ Fig. 2. A simple hashlock
 Fig. 3. Using the hashlock to trustlessly send tokens through a
 middleman
 
+
+[☝](#)
+
+***
+
+### æternity Contract interaction and multi-step contracts
+
+White Paper section: II B.1 a)
+
+Even though all contracts are stateless and execute inde- pendently of
+each other, contract interaction and statefulness can still be achieved
+through hashlocking [need cit.]. A simple hashlock is shown in fig. 2.
+On line 1, we define a function called hashlock that expects the stack
+to contain a hash h and a secret s. It swaps them on line 2, in order to
+hash the secret on line 3, before calling the equality operator on
+hash(v) and h on line 4. This returns true if the secret is a preimage
+of the hash. This function can be used to predicate the execution of
+code branches in different contracts on the existence of the same secret
+value.
+
+As a simple example usage, hashlocks make it possible for users that
+don't share a state channel to trustlessly send each other aeon, as long
+as there is a path of channels between them. For example, if Alice and
+Bob have a channel and Bob and Carol have a channel, then Alice and
+Carol can transact through Bob. They do this by creating two copies of
+the contract shown in fig. 3, one for each channel. The Commitment on
+line 1 is the hash of a secret that Alice chooses. On line 3 we push it
+to the stack and call the hashlock function. Which branch of the if that
+gets executed depends on the return value of hashlock. Once these
+contracts have been signed by all parties, Alice reveals the secret,
+allowing Bob and Carol to use it to claim their aeon.
+
+Hashlocking can also be used to e.g. play multi-player games in the
+channels, as shown in fig. 4. Everyone makes a channel with the game
+manager, which publishes the same contract to every channel. Say we are
+in game state 32, defined by the function State32, and we want to
+trustlessly simultaneously update all the channels to state 33. When the
+game manager reveals the secret, it causes all the channels to update at
+the same time.
+
+
+<sup>2 It should be noted that since contracts can read answers from
+oracles and some environment parameters, they aren't completely pure
+functions. However, oracle answers never change once they've been
+provided and can be argued to be due to the computational richness of
+the oracle machine, rather than being an impurity. Environment
+parameters are deemed a "necessary evil" and will ideally be
+compartmentalized appropriately by high-level languages.</sup>
+
 > *1 | macro Commitment a9d7e8023f80ac8928334 ; 2 | 3 | Commitment
 > hashlock call 4 | if State33 else State32 end 5 | call*
 
@@ -511,17 +560,24 @@ multi-playergame in channels.
 
 ***
 
-### æternity Contract interaction and multi-step contracts
-
-White Paper section: II B.1 a)
-
-[☝](#)
-
-***
-
 ### æternity Metered Execution
 
 White Paper section: II B.1 b)
+
+Contract execution is metered in a way similar to Ethereum's "gas", but
+æternity uses two different resources for its metering, one for time and
+one for space. Both of these are paid for using aeon by the party that
+requests the execution.
+
+This could be seen as undesirable, because it is probably another party
+that is causing the need for the blockchain to resolve the dispute in
+the first place. However, as long as all money in the channel is not
+used for betting, this can be effectively nullified in the contract
+code, since it has the ability to redistribute funds from one party to
+the other. It is in fact generally good practice to avoid using all
+funds in a channel to transact, because it disincentivizes the losing
+party to cooperate when closing the channel.
+
 
 [☝](#)
 
@@ -530,6 +586,33 @@ White Paper section: II B.1 b)
 ### æternity State Channel Example
 
 White Paper section: II B.2)
+
+Let's bring all of these ideas down to earth. In practice, if Alice and
+Bob want to transact using a state channel on æternity, they go through
+the following procedure:
+
+1. Alice and Bob sign a transaction that specifies howmuch money each of
+   them is depositing into thechannel, and publish it to the blockchain.
+2. Once the blockchain has opened the channel, they canboth create new
+   channel states, send them betweeneach other and sign them. Channel
+   states can be eithera new distribution of the funds in the channel or
+   acontract that determines a new distribution. Each ofthese channel
+   states has an increasing nonce and aresigned by both parties, so if a
+   dispute arises, the latestvalid state can be submitted to the
+   blockchain, whichenforces it.
+3. The channel can be closed in two different ways:
+   - a) If Alice and Bob decide that they have finishedtransacting and
+     agree on their final balances,they both sign a transaction
+     indicating this andsubmit it to the blockchain, which will close
+     thechannel and redistribute the money in the channelaccordingly.
+   - b) If Alice refuses to sign a closing transaction forany reason,
+     Bob can submit the last state that bothof them signed and request
+     to have the channelclosed using this state. This starts a
+     countdown.If Alice believes that Bob is being dishonest,she has the
+     opportunity to publish a state with a higher nonce that both of
+     them have signedbefore the countdown finishes. If she does so,
+     thechannel closes immediately. Otherwise it closeswhen the
+     countdown has finished.
 
 [☝](#)
 
@@ -541,6 +624,42 @@ White Paper section: II B.2)
 
 White Paper section: II C
 
+æternity uses a hybrid Proof-of-Work and Proof-of-Stakeconsensus
+mechanism. The block-order will be determinedvia Proof-of-Work. Certain
+system variables will be deter-mined via on-chain prediction market
+system, which allowsthe users to participate and bring in their
+knowledge. Forthe PoW algorithm we currently favor a variant of
+Tromp'sCuckoo Cycle, one which is memory bound, and also isan
+"indirectly useful Proof-of-Work", as it requires lesselectricity to
+run, but instead has another limiting factor,the one of memory latency
+availability. This also makes itfeasible to mine with a smart
+phone.Tromp writes about his work:
+
+
+>[Cuckoo Cycle is] an instantly verifiable memorybound PoW that is
+>unique in being dominated bylatency rather than computation. In that
+>sense, min-ing Cuckoo Cycle is a form of ASIC mining whereDRAM chips
+>serve the application of randomlyreading and writing billions of
+>bits.When even phones charging overnight can minewithout orders of
+>magnitude loss in efficiency,not with a mindset of profitability but of
+>playingthe lottery, the mining hardware landscape willsee vast
+>expansion, benefiting adoption as well asdecentralization.
+
+Preview: The consensus mechanism has a somewhat non-standard role in
+æternity. In addition to agreeing on newblocks for the blockchain, it
+also agrees on both answers tooracle questions and the values of the
+system's parameters.In particular, the consensus mechanism can change
+itself.However, it should be noted that this is not entirely
+unprob-lematic. For example, if a simple proof-of-work mechanismwas
+used, it would be rather cheap to bribe the miners tocorrupt the oracle.
+Therefore æternity is going to use a novelhybrid Proof-of-Stake
+Proof-of-Work algorithm, leveragingthe benefits of both. Independently
+from this, PoW is goingto be used to issue new aeon tokens.Sidenote:
+Originally Aeternity intended to be a 100 percentproof-of-stake
+blockchain. We don't think anymore that adecentralized 100 percent PoS
+system is possible.
+
+
 [☝](#)
 
 ***
@@ -548,6 +667,48 @@ White Paper section: II C
 ### æternity Oracles
 
 White Paper section: II C.1
+
+A crucial feature for most contracts,whether encoded as text or as code,
+is the ability to refer tovalues from the environment, such as the
+prices of differentgoods or whether a certain event occurred or not. A
+smartcontract system without this ability is essentially a closedsystem
+and arguably not very useful. This is a generally ac-cepted fact and
+there are already several projects that attemptto bring external data
+into the blockchain in decentralizedway [8]. However, to decide whether
+a supplied fact is trueor not, these essentially require the
+implementation of a newconsensus mechanism on top of the consensus
+mechanism.
+
+Running two consensus mechanisms on top of each otheris as expensive as
+running both separately. Additionally, itdoesn't increase security,
+because the least secure one canstill be attacked and made to produce
+"false" values. Thus,we propose to conflate the two consensus mechanisms
+intoone, essentially reusing the mechanism that we use to agreeon the
+state of the system, to also agree on the state of theoutside world.
+
+The way that this works is as follows. Any aeon-holdercan launch an
+oracle by committing to answering a yes/no-question. When doing so, they
+also need to specify thetimeframe during which the question can be
+answered, whichcan start now or some time in the future.
+
+The user thatlaunches the oracle is required to deposit aeon in
+proportionto the length of the timeframe, which will be returned if
+theuser supplies an answer that gets accepted as truth, otherwiseit is
+burned. The blockchain generates a unique identifier forthe oracle that
+can be used to retrieve the answer once it isavailable.Once the time
+comes for the question to be answered, theuser who launched the oracle
+can supply an answer for free.
+
+Once the oracle launcher has supplied an answer or until acertain amount
+of time has passed, any other users can submitcounter-claims by
+depositing the same amount of aeon. Ifno counter-claims have been
+submitted by the end of thetimeframe, the answer supplied by the user
+that launched theoracle is accepted as truth, and the deposit is
+returned. If anycounter-claims are submitted, then the consensus
+mechanismfor blocks will be used to answer the oracle. This is
+moreexpensive, but since we know we can take at least one ofthe two
+safety deposits, we can use it.
+
 
 [☝](#)
 
@@ -558,6 +719,38 @@ White Paper section: II C.1
 ## æternity Governance
 
 White Paper section: II D
+
+Governance of blockchain-based systems has been a bigproblem in the
+past. Whenever a system upgrade needs to bedone, this requires a hard
+fork, which usually leads to bigdiscussions among all value holders.
+Even simple things, likecorrecting an arbitrarily set variable in the
+source code, aswe have seen with the block size debate in Bitcoin,
+seemto be very hard in a system where the users' incentives arenot
+aligned with the decision makers, and where there isno clear upgrade
+path.
+
+We have also seen more complicatedgovernance decisions, like fixing a
+single smart contract bugin "The DAO", which required quick intervention
+by systemdevelopers.The primary problem of these systems is
+easilyidentifiable---the decision-making process for a protocol up-grade
+or change is not well defined and lacks transparency.
+
+æternity's governance system is part of the consensus. It usesprediction
+markets to function as efficiently and transparentlyas possible.
+Moreover, the consensus mechanism is defined by a number of variables
+that determine how the system functionsand that are being slightly
+updated by each new block. From how much it costs to make transactions
+or ask an oracle, tomodifications of fundamental parameter values like
+the blocktime.
+
+By having prediction markets about the variables thatdefine the
+protocol, the users can learn how to efficientlyimprove the protocol.
+
+By having predictions markets aboutpotential hard forks, we can help the
+community come toconsensus about which version of the code to use. Each
+userchooses for itself which metric it seeks to optimize, but asimple
+default strategy would be to maximize the value ofits holdings.
+
 
 [☝](#)
 
@@ -576,6 +769,22 @@ White Paper section: II E
 ### æternity Sharding trees
 
 White Paper section: II E.1
+
+The architecture that has been pre-sented thus far is highly scalable.
+
+It is possible to run theblockchain even when each user only keeps track
+of thepart of the blockchain state that they care about and
+ignoreseveryone else's data.
+
+At least one copy of the state is neededfor new users to be certain
+about the substate that they careabout, but we can shard this data
+across arbitrarily manynodes so that each node's load is arbitrarily
+small.
+
+Merkletrees are used to prove that a substate is part of the state[11](#references).
+
+It is easy to imagine a scenario where certain nodesspecialize on
+keeping track of the trees and get paid forinserts and look-ups.
 
 [☝](#)
 
