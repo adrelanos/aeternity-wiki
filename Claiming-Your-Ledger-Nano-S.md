@@ -1,4 +1,4 @@
-The phase one contribution has officially ended. If you were one of the first 1000 people to contribute at least 11.9 ETH you may have qualified for a free Ledger Nano S!
+The phase one contribution has officially ended. If you were one of the first 1000 people to contribute more than 11.9 ETH you may have qualified for a free Ledger Nano S!
 
 Below you will find information on how to check if you qualified and start the claim process to receive your Ledger.
 
