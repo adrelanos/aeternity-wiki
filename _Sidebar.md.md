@@ -62,7 +62,7 @@
      - [SL-Examples](æternity-Scripting-Language-Examples)
    - [æternity development tutorial](æternity-development-tutorial)
    - [Resources](æternity-DApp-Developer-Resources)
-     - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/) 
+     - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
    - [Whitepaper full text(en)](Whitepaper-dev-full-text)
 
 ### æternity White Paper
@@ -82,7 +82,6 @@
 ### MISC
 - [Glossary](Glossary)
 - [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
-- [Wikipedia page transcript](https://github.com/aeternity/wiki/wiki/Wikipedia-page-transcript)
 
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
@@ -94,6 +93,7 @@
    - [[German]API Examples]([German]Api-Examples)
    - [[German]Terminal interface commands]([German]Terminal-interface-commands)
    - [[German] Digitale Wallets: sicherer Umgang]([German]-Digitale-Wallets-sicherer-Umgang-und-Aufbewahrung)
+   - [[German]æternity DApp Einführung]([German]-æternity-DApp-Introducion)
 - [[Indonesia] æternity TOC]([Indonesia]-æternity-TOC)
 - [[Italian] æternity TOC]([Italian]-æternity-TOC)
 - [æternity Wiki日本語ホーム[Japanese]](æternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0[Japanese])
