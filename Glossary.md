@@ -1,10 +1,10 @@
 GLOSSARY FOR ÆTERNITY BLOCKCHAIN
 ================================
 
-| [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                             |
-|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:---------------------------------------------|
+| [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                        |
+|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:----------------------------------------|
 | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#glossary-guidelines) |
-| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Sources](#sources)                          |
+| [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Sources](#sources)                     |
 
 ***
 
@@ -17,6 +17,7 @@ transactions on the network. An address is a string of alphanumeric
 characters, but can also be represented as a scannable QR code.
 
 ### AE
+
 AE is a common unit used to designate one aeon.
 
 ### Aeon
@@ -113,7 +114,18 @@ independently of a central bank.
 
 
 ### Cuckoo Cycle
-The "Cuckoo Cycle" PoW algorithm is more power efficient than that of current blockchains, and enables the development of better random access memory (DRAM) chips for mining. Since low-power devices such as smartphones, tablets and laptops can efficiently mine new tokens, incentives for mining are decentralized and geographically distributed, and shifted away from large mining entities that use application-specific integrated circuit („ASIC“) chips designed specifically to take advantage of a particular PoW algorithm. <sup>[source:](https://eprint.iacr.org/2014/059.pdf) / [Github](https://github.com/tromp/cuckoo) / [æ-wiki](Cuckoo-Cycles)</sup>
+
+The "Cuckoo Cycle" PoW algorithm is more power efficient than that of
+current blockchains, and enables the development of better random access
+memory (DRAM) chips for mining. Since low-power devices such as
+smartphones, tablets and laptops can efficiently mine new tokens,
+incentives for mining are decentralized and geographically distributed,
+and shifted away from large mining entities that use
+application-specific integrated circuit („ASIC“) chips designed
+specifically to take advantage of a particular PoW algorithm.
+<sup>[source:](https://eprint.iacr.org/2014/059.pdf) /
+[Github](https://github.com/tromp/cuckoo) /
+[æ-wiki](Cuckoo-Cycles)</sup>
 
 ***
 
@@ -159,8 +171,20 @@ ETH is a common unit used to designate one ether.
 
 ### Ethereum
 
-Ethereum is an open-source, public, blockchain-based distributed computing platform featuring smart contract (scripting) functionality.
-Ethereum also provides a cryptocurrency token called "ether", which can be transferred between accounts and used to compensate participant nodes for computations performed.
+Ethereum is an open-source, public, blockchain-based distributed
+computing platform featuring smart contract (scripting) functionality.
+Ethereum also provides a cryptocurrency token called "ether", which can
+be transferred between accounts and used to compensate participant nodes
+for computations performed.
+
+### Erlang/OTP
+
+Erlang is a programming language used to build massively scalable soft
+real-time systems with requirements on high availability. Some of its
+uses are in telecoms, banking, e-commerce, computer telephony and
+instant messaging. Erlang's runtime system has built-in support for
+concurrency, distribution and fault tolerance. <sup>[erlang.org](https://www.erlang.org/)</sup>
+
 
 ***
 
@@ -343,7 +367,8 @@ slave (non-authoritative) copies.
 ### Sign up
 
 Signing up here means: create a state channel and be able to transact.
-It is an example calculation [Yani on Slack](https://aeternity.slack.com/archives/C59BALQCE/p1495863238325733)
+It is an example calculation
+[Yani on Slack](https://aeternity.slack.com/archives/C59BALQCE/p1495863238325733)
 
 ### Scrypt
 
@@ -451,11 +476,16 @@ one will it do. The main thing is linking to here. (please fix my bad
 english, if know what I mean)
 
 ### Links to external sources from every content
+
 If it is possible, please set inside (at the bottom) :
-* < s u p > link to source, from where you have the information < / sup >
-* < s u p > link to a æ-wiki page, if we have < / sup > see Example: [Cuckoo Cycle](#cuckoo-cycle)
+* < s u p > link to source, from where you have the information < / sup
+  \>
+* < s u p > link to a æ-wiki page, if we have < / sup > see Example:
+  [Cuckoo Cycle](#cuckoo-cycle)
   * if we have a æ-wiki page: doit
-  * if not, but you think we have to: do it also, so that we recognized this and write one if you have not the time or skill to do it. I think we will love this.
+  * if not, but you think we have to: do it also, so that we recognized
+    this and write one if you have not the time or skill to do it. I
+    think we will love this.
 
 ### Sources:
 
