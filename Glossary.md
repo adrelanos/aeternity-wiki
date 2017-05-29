@@ -27,7 +27,7 @@ AE is a common unit used to designate one aeon.
 
 ### Aeon
 
-An aeon represents a unit of account and an access right to the Æternity
+An aeon represents a unit of account and an access right to the æternity
 blockchain. It is transferable. Transaction A message from a user to the
 blockchain. This is how users can use their currency to access the
 blockchain.
@@ -436,7 +436,7 @@ block containing the relevant transaction.
 ### Validator
 
 A validator is a user who participates in the consensus mechanism. In
-the case of Æternity, every value-holder can participate.
+the case of æternity, every value-holder can participate.
 
 
 ***
