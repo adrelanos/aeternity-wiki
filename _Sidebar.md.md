@@ -119,7 +119,7 @@
 [contracts]: æternity-Contracts
 [team]: æternity-Team
 [bounty]: Bounty
-[ledgerclaim]: Claiming-Your-Ledger
+[ledgerclaim]: Claiming-Your-Ledger-Nano-S
 [started]: Getting-Started
 [contact]: Contacts-and-Groups
 [privatekeymessage]: How-to-sign-a-message-with-a-private-key%3F
