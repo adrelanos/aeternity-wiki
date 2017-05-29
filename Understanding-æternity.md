@@ -13,7 +13,7 @@
 
 # What is the purpose of æternity?
 
-æternity seeks to develop a highly scalable blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create a blockchain that is as efficient and cost-effective as possible. With the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another (e.g. Augur and Gnosis on top of Ethereum). With state channels, privacy and scalability will be improved. Tokens in these state channels can be transferred using function-based smart contracts that have access to network-wide oracle answers. By not storing the contract code or state on the blockchain, smart contracts are easier to analyze and faster to process, with no substantial loss in practical usage (de facto functionality). Contracts are safer and will not bloat the blockchain.
+æternity seeks to develop a highly scalable blockchain architecture with a consensus mechanism that is used to support the oracle machine. In other words, the goal is to create a blockchain that is as efficient and cost-effective as possible. With the oracle machine, we can avoid the unnecessary layering of one consensus mechanism on top of another (e.g. Augur and Gnosis on top of Ethereum). With state channels, privacy and scalability will be improved. Tokens in these state channels can be transferred using function-based smart contracts that have access to network-wide oracle answers. By not storing the contract code or state on the blockchain, smart contracts are easier to analyze and faster to process, with no substantial loss in practical usage and fact-based (de facto functionality). Contracts are safer and will not bloat the blockchain.
 
 
 # What is a blockchain?
