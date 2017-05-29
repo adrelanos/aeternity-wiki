@@ -5,7 +5,6 @@
 ### Basics
 - [Home](https://github.com/aeternity/wiki/wiki)
 - [Understanding æternity][understandAE]
-- [Getting Started][started]
 - [Frequently Asked Questions][faq]
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
