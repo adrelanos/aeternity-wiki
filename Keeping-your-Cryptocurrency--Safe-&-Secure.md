@@ -277,7 +277,26 @@ There is one very important thing you must know however. As mentioned previously
 #
 
 ### Passwords
-We all use them, weather its signing in to our email accounts,signing into github, or unlocking our OS user account. Passwords are in our lives and they are here to stay, but many don't take the time to think about what goes into making a strong high password. Most people use a password that is easy for them to remember like a pets name, a birthday, or the name of one of their children. These are the passwords malicious users want us to have. All a cracker has to do is search on Google to find out all the personal information they need to know about someone to gain access to their computer. 
+We all use them, weather its signing in to our email accounts,signing into github, or unlocking our OS user account. Passwords are in our lives and they are here to stay, but many don't take the time to think about what goes into making a strong high password. Most people use a password that is easy for them to remember like a pets name, a birthday, or the name of one of their children. These are the passwords malicious users want us to have. All a cracker has to do is search on Google to find out all the personal information they need to know about someone to gain access to their computer. So how do we prevent someone from figuring out our password? Keep on reading and by the time we are done you will know that and much more.
+
+We are going to start of with some guidelines for making a strong password.
+* Use a minimum password length of 12 to 14 characters if permitted.
+* Include lowercase and uppercase alphabetic characters, numbers and symbols if permitted.
+* Generate passwords randomly where feasible.
+* Avoid using the same password twice (e.g., across multiple user accounts and/or software systems).
+* Avoid character repetition, keyboard patterns, dictionary words, letter or number sequences, usernames, relatives
+  or pet names, romantic links (current or past) and biographical information (e.g., ID numbers, ancestors' names or
+  dates).
+* Avoid using information that is or might become publicly associated with the you or the account.
+* Avoid using information that your colleagues and/or acquaintances might know to be associated with the you.
+* Do not use a place of birthplace.
+* Do not use a name of a favorite holiday.
+* Do not use something related to a favorite sports team.
+* Do not use the word "password"!  Yes people use it all the time.
+* Do not use passwords which consist wholly of any simple combination of the aforementioned weak components.
+* Do not use the default password that came with your device or user account.
+* **Do not write your password down on a piece of paper or sticky note!** If you do why bother making a strong 
+  password?
 
 
 **Strong Passwords** **Password Managers/Safes** #
