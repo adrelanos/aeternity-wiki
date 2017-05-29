@@ -1,14 +1,19 @@
-GLOSSARY FOR ÆTERNITY BLOCKCHAIN
-================================
+# Glossary for æternity blockchain
 
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                        |
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:----------------------------------------|
-| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#glossary-guidelines) |
+| [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [linking to here](#æternity-glossary-guidelines) |
 | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [X](#x) | [Y](#y) | [Z](#z) |         | [Sources](#sources)                     |
 
 ***
 
 ## A
+
+### æternity
+æternity is a new blockchain technologie, pleaes read this articles:
+* [Home](https://github.com/aeternity/wiki/wiki),
+* [Understanding æternity](Understanding-æternity)
+* [getting started](Getting-Started)
 
 ### Address
 
@@ -460,11 +465,11 @@ the case of Æternity, every value-holder can participate.
 
 ***
 
-## Glossary Guidelines
+## æternity glossary guidelines
 
 <sup>[read also Wiki-Guidelines](Wiki-Guidelines-&-To-Do's)</sup>
 
-### linking to this glossary
+### linking to æternity glossary
 
 This is how a link looks like:
 https://github.com/aeternity/wiki/wiki/Glossary#hashlocking, if you are
