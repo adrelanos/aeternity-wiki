@@ -221,7 +221,9 @@ Consensus, Proof-Of-Stake, and Slasher
 # Working Theories
 
 See: 
+
 [Aeternity Testnet Docs](https://github.com/aeternity/testnet/tree/master/docs)
+
 [Flying Fox Docs](https://github.com/BumblebeeBat/FlyingFox/tree/master/docs)
 
 # Open problems
@@ -239,6 +241,11 @@ See also: [On Slow and Fast Block Times by Vitalik Buterin](https://blog.ethereu
 
 ## Scalable validation
 
-See also: [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+See also:
+
+[Ethereum Wiki - Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+
+[Notes on Scalable Blockchain Protocols - Buterin et. al](https://github.com/vbuterin/scalability_paper/blob/master/scalability.pdf)
+
 
 ## Optimal data availability solutions
