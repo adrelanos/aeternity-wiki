@@ -37,7 +37,7 @@ between different computers on a network and do so very efficiently.
 Their main use is to ensure data blocks received from other peers in a
 [peer-to-peer ](https://en.wikipedia.org/wiki/Peer-to-peer) network are received undamaged and unaltered, and even to
 check that the other peers do not lie and send fake blocks. To do this
-Merkle trees use a [cryptographic has function](https://en.wikipedia.org/wiki/Cryptographic_hash_function). In order for you, the
+Merkle trees use a [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function). In order for you, the
 reader, to understand Merkle trees, a basic understanding of cryptographic hash functions is needed.
 
 A cryptographic hash function is a mathematical [algorithm](https://en.wikipedia.org/wiki/Algorithm) that maps data
