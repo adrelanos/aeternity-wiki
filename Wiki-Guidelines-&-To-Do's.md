@@ -1,3 +1,5 @@
+<i>Editing will be disabled during the Phase 2 Contribution Campaign beginning on May 29th. 
+
 ## Editing the Wiki
 
 
