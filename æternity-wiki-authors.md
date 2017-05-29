@@ -230,15 +230,15 @@
 
 ### [NickJamesBTC](https://github.com/NickJamesBTC)
 <a target="_blank" href="https://twitter.com/@nickjamesbtc"><img alt="Twitter" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="24" /></a>
-
+<a target="_blank" href="https://medium.com/@nicholashiggins"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png"
 * Contributions: 
 
 | No | æTERNITY WIKI  Contribution and support                                    |
 |:---|:---------------------------------------------------------------------------|
-| 1  | [Understanding æternity](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity |
+| 1  | [Understanding æternity](https://github.com/aeternity/wiki/wiki/Understanding-%C3%A6ternity) |
 | 2  | [Troubleshooting](https://github.com/aeternity/wiki/wiki/Troubleshooting) |
 | 3  | [Claiming Your Ledger Nano S](https://github.com/aeternity/wiki/wiki/Claiming-Your-Ledger-Nano-S) |
-| 4  | [Contacts & Communities] (https://github.com/aeternity/wiki/wiki/Contacts-and-Communities) |
+| 4  | [Contacts and Communities] (https://github.com/aeternity/wiki/wiki/Contacts-and-Communities) |
 ***
 
 ### [Nuclearvodka](https://github.com/Nuclearvodka)
