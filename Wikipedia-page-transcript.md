@@ -1,12 +1,6 @@
 AEternity
 From Wikipedia, the free encyclopedia
 
-[hide]This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
-This article possibly contains original research. (April 2017)
-This article relies too much on references to primary sources. (April 2017)
-This article's use of external links may not follow Wikipedia's policies or guidelines. (April 2017)
-This article is an orphan, as no other articles link to it. Please introduce links to this page from related articles; try the Find link tool for suggestions. (May 2017)
-æternity
 Developer(s)	æternity team
 Initial release	29 October 2016
 Development status	Under development
