@@ -62,6 +62,7 @@
 * [GLOSSARY](Glossary)
 
 * [REFERENCES](#references)
+* [REVISION](#revision)
 
 ***
 
@@ -1256,10 +1257,11 @@ down, and that if Bob wins, the price will go up.
 
 One could learn that if Google uses plan A for the next 3 months, that
 it will probably earn more money, and that if it uses plan B, it will
-probably earn less. 
-Or, as in **fig. 5**, we can see that if Alice would be
-elected president, there is a high likelihood of the price of potatoes
-being rather low.
+probably earn less.
+
+Or, as in **fig. 5**, we can see that if Alice would be elected
+president, there is a high likelihood of the price of potatoes being
+rather low.
 
 
 [☝](#)
@@ -1593,16 +1595,26 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 | 7  | P. Snow, B. Deery, J. Lu,et al.            | "Factom: Business processes secured by immutable audit trails on the blockchain," 2014.                                        | [link](http://bravenewcoin.com/assets/Whitepapers/Factom-Whitepaper.pdf)                                                 |
 | 8  | J. Peterson and J. Krug                    | "Augur: A decentralized, open-source platform for prediction markets," 2014.                                                   | [link](http://bravenewcoin.com/assets/Whitepapers/Augur-A-Decentralized-Open-Source-Platform-for-Prediction-Markets.pdf) |
 | 9  | A. Swartz                                  | "Squaring the triangle: Secure, decentralized, human-readable names," 2011.                                                    | [link](http://www.aaronsw.com/weblog/squarezooko)                                                                        |
-| 10 | T. Hvitved                                 | "A Survey of Formal Languages for Contracts," inFormal Languages and Analysis of Contract-Oriented Software, 2010, pp. 29--32. | [link](https://pdfs.semanticscholar.org/5002/76c957028a65503c4b13214515c07abd5d93.pdf)                                 |
+| 10 | T. Hvitved                                 | "A Survey of Formal Languages for Contracts," inFormal Languages and Analysis of Contract-Oriented Software, 2010, pp. 29--32. | [link](http://www.diku.dk/hjemmesider/ansatte/hvitved/publications/hvitved10flacosb.pdf)                                 |
 | 11 | R. C. Merkle                               | Protocols for public key cryptosystems,"                                                                                       | inIEEE Symposium on Security and Privacy, 1980.                                                                          |
 | 12 | V. Buterin                                 | "Proof of stake: How I learned to love weak subjectivity," 2014.                                                               | [link](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)                                 |
 | 13 |                                            | "Schema.org schemas," 2016.                                                                                                    | [link](http://schema.org/docs/schemas.html)                                                                              |
-| 14 |                                            | "Atomic-cross-chain-trading," 2016.                                                                                            | [link](https://en.bitcoin.it/wiki/Atomic_cross-chain_trading)                                                      |
+| 14 |                                            | "Atomic-cross-chain-trading," 2016.                                                                                            | [link](https://en.bitcoin.it/wiki/Atomic%5C_cross-chain%5C_trading)                                                      |
 | 15 |                                            | "Interledger," 2016.                                                                                                           | [link](https://interledger.org)                                                                                          |
-| 16 | K. J. Arrow, R. Forsythe, M. Gorham,et al. | "The promise of prediction markets,"Science, 320 2008                                                                          | [link](https://mason.gmu.edu/~rhanson/PromisePredMkt.pdf)                                                                 |
+| 16 | K. J. Arrow, R. Forsythe, M. Gorham,et al. | "The promise of prediction markets,"Science, 320 2008                                                                          | [link](http://mason.gmu.edu/˜rhanson/PromisePredMkt.pdf)                                                                 |
 | 17 | Z. Hess                                    | "Chalang," 2016.                                                                                                               | [link](https://github.com/aeternity/chalang)                                                                             |
 | 18 | White Paper V 0.1                          | [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)                                |                                                                                                                          |
 
 [☝](#)
 
 ***
+
+## REVISION
+
+| No | changed what? | Changed where?      | changed when? | by                                       |
+|:---|:--------------|:--------------------|:--------------|:-----------------------------------------|
+| 1  | blank line    | Line: 1261          | 29th May 2017 | [Zwilla](æternity-wiki-authors#zwilla)   |
+| 2  | link          | line: 1598  - No 10 | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+| 3  | link          | line: 1602  - No 14 | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+| 4  | link          | line: 1604  - No 16 | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+|    |               |                     | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
