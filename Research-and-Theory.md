@@ -151,9 +151,7 @@ built on top of it. This makes the source of information more reliable,
 more decentralised and not relying on a 3rd Party company or entity
 (Like Augur and Gnosis).
 
-##### Prediction Market - High Level Concept
-
-![æternity prediction market](https://github.com/aeternity/wiki/blob/master/images/binary-prediction-market.png)
+![æternity prediction market](https://github.com/aeternity/wiki/blob/master/images/AE101-Prediction_Market_noText.png)
 
 ##### Oracle & Prediction Market - High Level Concept
 
@@ -161,7 +159,8 @@ more decentralised and not relying on a 3rd Party company or entity
 
 ## Governance & Consensus
 
-![æternity governance](https://github.com/aeternity/wiki/blob/master/images/governance-and-consensus.png)
+![æternity governance](https://github.com/aeternity/wiki/blob/master/images/%C3%86_101_Governance.png)
+
 
 ## Futarchy
 
