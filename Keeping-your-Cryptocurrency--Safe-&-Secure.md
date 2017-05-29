@@ -241,7 +241,22 @@ Advantages
 
  
 
-### Bios Passwords
+### BIOS Passwords
+Let’s say you’ve followed good security practices and have a password set on your Linux user account. When your computer boots, someone will have to enter your Linux user account password to use it or access your files, right? Not necessarily.
+
+The person could insert a removable device like a USB drive, CD, or DVD with a live operating system on it. They could boot from that device and access a live Linux desktop if your files are unencrypted, they could access your files. A  user account password doesn’t protect your files. 
+
+You could change the boot order to force the computer to always boot from its internal hard drive, but someone could enter your BIOS and change your boot order to boot the removable device.
+
+A BIOS  password provides some protection against this. Depending on how you configure the password, people will need the password to boot the computer or just to change BIOS settings.
+
+Of course, if someone has physical access to your computer, all bets are off. They could crack it open and remove your hard drive or insert a different hard drive. They could use their physical access to reset the BIOS password. A BIOS password still does provide extra protection here, particularly in situations where people have access to a keyboard and USB ports, but the computer’s case is locked up and they can’t open it.
+
+These passwords are set in your BIOS settings screen. You’ll need to reboot your computer and press the appropriate key during the boot-up process to bring up the BIOS settings screen. This key varies from computer to computer, but is often F2. If you need help, look at your computer’s documentation.
+
+In the BIOS settings screen, locate the password option, configure your password settings however you like, and enter a password. You may be able to set different passwords for example, one password that allows the computer to boot and one that controls access to BIOS settings.
+
+You’ll also want to visit the Boot Order section and ensure the boot order is locked down so people can’t boot from removable devices without your permission.
 
 #
 
