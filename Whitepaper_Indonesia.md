@@ -11,7 +11,7 @@ Inilah sebabnya mengapa æternity dikembangkan sebagai satu-satunya Blockchain y
 
 * Mekanisme konsensus internal dapat memeriksa oracle dan nenyediakan data dari dunia nyata pada Blockchain, mengurangi kebutuhan implementasi mekanisme oracle yang tidak efisien (seperti Augur atau Gnosis di atas Ethereum).
 
-Aplikasi seperti pasar untuk aset buatan/sintetis dan prediksi pasar dapat diterapkan secara efisien dalam skala global. Beberapa bagian tersebut memiliki implementasi proof-of-concept yang ditulis di dalam bahasa Erlang. Alat-alat untuk pengembangan dan aplikasi penting seperti dompet, penamaan, dan sistem identitas akan segera disediakan.
+Aplikasi seperti pasar untuk aset buatan/sintetis dan prediksi pasar dapat diterapkan secara efisien dalam skala global. Beberapa bagian tersebut memiliki implementasi proof-of-concept yang ditulis dalam bahasa Erlang. Alat-alat untuk pengembangan dan aplikasi penting seperti dompet, penamaan, dan sistem identitas akan segera disediakan.
 
 ***
 
