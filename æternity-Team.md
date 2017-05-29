@@ -4,7 +4,7 @@ Crypto believers and true experts in each of their fields, who have taken on the
 
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/yanislav-malahov.jpg" alt="Yanislav Malahov">
 
-## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://github.com/aeternity/wiki/blob/master/images/icons/github.svg" height="24" /></a>
+## Yanislav Malahov <a target="_blank" href="https://medium.com/@yanislav"><img alt="Medium" src="https://image.flaticon.com/icons/png/512/174/174858.png" height="24" /></a> <a target="_blank" href="https://twitter.com/@noyyy"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://github.com/keypair"><img alt="Github" src="https://camo.githubusercontent.com/11406e7ae7d4716fcc586cddf450451576d71bef/68747470733a2f2f696d6167652e666c617469636f6e2e636f6d2f69636f6e732f7376672f32352f32353233312e737667" height="24" /></a>
 #### Founder
 Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, Yanislav is a true veteran of the blockchain space. The "<a href="https://medium.com/@yanislav/king-of-bitcoin-godfather-of-ethereum-a9af9ecf56d5" target="_blank">Godfather of Ethereum</a>" envisioned in 2013 to have powerful algorithms on blockchains. Now, with æternity, a new version of his vision is becoming reality again.
 <table></table>
@@ -12,7 +12,7 @@ Having exchanged ideas and pursued blockchain endeavors with many of the greates
 ***
 <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/zack-hess.png" alt="Zack Hess" />
 
-## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://github.com/aeternity/wiki/blob/master/images/icons/github.svg" height="24" /></a>
+## Zack Hess <a target="_blank" href="https://twitter.com/zack_bitcoin"><img alt="Twitter" src="https://github.com/aeternity/wiki/blob/master/images/icons/twitter.png" height="24" /></a> <a target="_blank" href="https://github.com/zack-bitcoin"><img alt="Github" src="https://camo.githubusercontent.com/11406e7ae7d4716fcc586cddf450451576d71bef/68747470733a2f2f696d6167652e666c617469636f6e2e636f6d2f69636f6e732f7376672f32352f32353233312e737667" height="24" /></a>
 #### Technical Lead
 
 Blockchain writer and a true visionary. The first of his "basic coins" was the attempt to write a compact blockchain.
@@ -118,7 +118,7 @@ The "Leonardo da Vinci of Fintech" (CoinTelegraph, 2016) - a founder and CEO of 
 
  <img align="left" src="https://github.com/aeternity/wiki/blob/master/images/team/john-tromp.png" alt="John Tromp">
 
-## John Tromp <a target="_blank" href="https://tromp.github.io/"><img alt="Github" src="https://github.com/aeternity/wiki/blob/master/images/icons/github.svg" height="24" /></a> <a target="_blank" href="www.linkedin.com/in/john-tromp-b1601b8/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
+## John Tromp <a target="_blank" href="https://tromp.github.io/"><img alt="Github" src="https://camo.githubusercontent.com/11406e7ae7d4716fcc586cddf450451576d71bef/68747470733a2f2f696d6167652e666c617469636f6e2e636f6d2f69636f6e732f7376672f32352f32353233312e737667" height="24" /></a> <a target="_blank" href="www.linkedin.com/in/john-tromp-b1601b8/"><img alt="Linkedin" src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" height="24" /></a>
 #### Advisor on POW "Cuckoo Cycle"
 
 Board Games and Artificial Intelligence, Algorithms, Complexity, Algorithmic Information Theory, Distributed Computing, Computational Biology, and what-not.
