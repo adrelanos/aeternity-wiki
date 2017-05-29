@@ -58,6 +58,7 @@ do we do this? It starts with following the dos and don'ts.
   in a bag and put the bag in the trunk. It is preferable that you stop
   somewhere before you reach your destination so potential thieves don't
   see you putting your hardware into the trunk. ##
+***
 
 ### Choosing an Os
 
@@ -144,6 +145,7 @@ quickly. This is all because Linux is open-source. ### Now that we have
 a good understanding of proprietary and open-source we can discuss other
 reasons why an open-source Linux disro is more secure than a
 closed-source Windows OS.
+***
 
 * **User Account Privileges** In Windows, users are generally given
   administrator priveleges by default which means they have access to
@@ -204,6 +206,7 @@ With so many Linux distros: also referred to as flavors of Linux, how do we deci
 
 Advantages 
 * Efficient and well integrated packaging for a more robust system
+* Full disk encryption
 * Publicly available bug tracking system
 * Stability - some users report running Debian 1+ year without a single reboot!
 * Security - being 100% open, security issues are exposed and plugged quickly 
@@ -236,6 +239,7 @@ Advantages
   could very well have your password.
 * The Tails devs have already tested and configured much of the software for you.  Most of the applications you
   will need come pre installed.
+* Linux Unified Key Setup (LUKS) for persistent volume.
 ***
 
 
@@ -257,6 +261,7 @@ These passwords are set in your BIOS settings screen. You’ll need to reboot yo
 In the BIOS settings screen, locate the password option, configure your password settings however you like, and enter a password. You may be able to set different passwords for example, one password that allows the computer to boot and one that controls access to BIOS settings.
 
 You’ll also want to visit the Boot Order section and ensure the boot order is locked down so people can’t boot from removable devices without your permission.
+***
 
 #
 
@@ -265,7 +270,9 @@ Disk encryption **FDE** is a technology which protects the information on your d
 
 What we will be focusing on is referred to as Full Disk Encryption. You would think--from the name--that full disk encryption signifies that everything on the disk is encrypted: however the master boot record (MBR) or the Unified Extensible Firmware Interface (UEFI) which is the code that starts the OS loading sequence, is not encrypted. There are drives with hardware based encryption that also encrypt the MBR or UEFI partitions. These are proprietary and therefore the source code can not be audited by independent security professionals. For this reason we will not be discussing hardware encrypted drives.  
 
-Now that we have decided that Linux is the OS we will be using, how do we encrypt it? Since you will be using full disk encryption you must encrypt our OS during the installation. As far as what  
+Since Linux is our OS of choice  , we will be using LUKS: or Linux Unified Key setup. LUKS is based on an enhanced version of cryptsetup, using dm-crypt as the disk encryption backend. The next question is how do we encrypt our OS. With most Linux distros you are given the option to encrypt your system during installation.  All you have to do is follow  the documentation for your given disrto and in most cases the OS installer will guide you through the installation. The most that is required of you is to put in the required information when prompted.  After you have completed the installation you should have a Linux Os with full disk encryption
+
+There is one very important thing you must know however. As mentioned previously with full disk encryption the boot partition, or MBR is not encrypted. This means that if a malicious user where to have physical access to your computer, malicious code--like a keylogger-- could be installed on you boot partition.  It only takes a few seconds for a usb to be inserted into your laptop and a virus uploaded. It does not matter if your computer is running or powered down, It is still just as vulnerable. You are given some protection is you have a bios password and you have configured your computer not to auto-mount external media. I say "some protection" because there is no practical way to stop a gifted attacker if they are committed to compromising your computer. The only other way to prevent an attacker from doing this is to transfer you boot partition to an external usb. This way if you remove the usb from you computer no one will be able to boot it unless they use a live cd. I hope you are starting to see a pattern hear and I'm going to say it again: **There is no way to stop a gifted attacker if they are committed to compromising your computer!!**  
 #
 
 ### Passwords
