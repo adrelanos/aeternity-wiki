@@ -35,10 +35,6 @@ Contributors will be able to use their aeon after Phase 2 is complete. These tok
 
 The contributor portion will comprise 82% of the initial æternity AE tokens. 17% of funds will be allocated to [Aeternity Anstalt](http://kundmachungen.li/AktuellsteNeugr%C3%BCndungen/Details?nr=FL00025283581&Firma=AETERNITY+ANSTALT&ort=Triesen&datum=11.11.2016), the foundation, and the founding team. The remaining 1% will be allocated to holders of BTC or ETH, accessible when the æternity blockchain launches. 
 
-All will be recorded on the Ethereum blockchain by a standard [multisig escrow contract](https://en.wikipedia.org/wiki/Multisignature). The AE for the team will be [time-locked](https://www.ethereum.org/dao#time-locked-multisig).
-Block Chain Investment & Comments 2017-05-28 00:25:45
-Globalized Lightning Smart Contract AETERNITY China
-
 In 1990, Nick Szabo proposed the concept of "smart contract", which appeared almost simultaneously with the Internet. But because of the lack of a credible execution environment, smart-contracts have not been applied to the real industry. After the birth of Bitcoin, people realized that the underlying technology of Bitcoin - Block-chain is able to provide a credible backbone and execution environment for smart contracts. 
 
 
