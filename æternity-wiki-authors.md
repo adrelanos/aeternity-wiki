@@ -489,9 +489,3 @@ so we and visitors know how to contact you/us and ask for
 ### ANTI SPAM - POLICY
 
 * please add here what you think
-
-### Websie:
-
-* NO illegal websites or SPAM pages
-* NO porn pages or something !!!
-* Adult pages mark with (+18/+21 or only for adult, please.)
