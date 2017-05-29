@@ -317,6 +317,12 @@
 
 ### [snasps](https://github.com/snasps)
 
+| No | æTERNITY WIKI  Contribution and support                                    |
+|:---|:---------------------------------------------------------------------------|
+| 1  | [æternity French Whitepaper](https://github.com/aeternity/wiki/wiki/Whitepaper_French) |
+| 2  | [æternity Wikipedia page](https://en.wikipedia.org/wiki/AEternity) |
+| 3  | More page than I can remember on the Github Wiki |
+
 
 ***
 
