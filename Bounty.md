@@ -15,7 +15,7 @@
 
 * [Wiki bounty by Simply VC Co Ltd.](https://blog.aeternity.com/%C3%A6ternity-wiki-bounty-campaign-6419b7c7c3bd)
 
-    Reward: 500 ETH split between all contributors, 5000 ETH split between the top 10 contributors
+    Reward: 500 ETH split between all contributors, 500 ETH split between the top 10 contributors
 
 * [T-Shirt design bounty](https://docs.google.com/forms/d/e/1FAIpQLSc4NSHNUE8uHCpkh2Ap3zuikGwOB7QHeadp8e-F6vkKsboUQQ/viewform)
     
