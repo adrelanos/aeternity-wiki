@@ -1,4 +1,4 @@
-![aeternity-channel-one](aeternity/images-by-zwilla/aeternity-channel-one-3.jpg)
+![aeternity-channel-one](http://aeternity.de/images-by-zwilla/aeternity-channel-one-3.jpg)
 * [English æternity Videos](#english-æternity-videos)
 * [Spanish æternity Videos](#spanish-æternity-videos)
 * [Russian æternity Videos](#russian-æternity-videos)
