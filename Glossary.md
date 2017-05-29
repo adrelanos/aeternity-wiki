@@ -183,7 +183,8 @@ Erlang is a programming language used to build massively scalable soft
 real-time systems with requirements on high availability. Some of its
 uses are in telecoms, banking, e-commerce, computer telephony and
 instant messaging. Erlang's runtime system has built-in support for
-concurrency, distribution and fault tolerance. <sup>[erlang.org](https://www.erlang.org/)</sup>
+concurrency, distribution and fault tolerance. <sup>[erlang.org](https://www.erlang.org/)</sup>,
+<sup>[blog.aeternity](https://blog.aeternity.com/why-we-use-erlang-otp-in-%C3%A6ternity-a4bd1232b614)</sup>,
 
 
 ***
