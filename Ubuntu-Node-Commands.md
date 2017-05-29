@@ -18,7 +18,7 @@ List:
 * [Sync with the network](#sync-with-the-network)
 * [Mining](#mining)
 * [Spend](#spend)
-* [Lookup a Block or Transaction](#Lookup-a-Block-or-Transaction)
+* [Lookup a Block or Transaction](#lookup-a-block-or-Transaction)
 * [Account ID](#account-id)
 * [Public key](#public-key)
 * [Address](#address)
