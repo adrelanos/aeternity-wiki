@@ -1,8 +1,7 @@
-# Glossary for æternity Blockchain
-
 An alphabetical list of words related to the æternity Blockchain.
 Some of the words defined below are defined in the way they function in æternity. Their definition / use might be  different for other Blockchains or Software.
 
+# Glossary for æternity Blockchain
 
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                        |
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:----------------------------------------|
