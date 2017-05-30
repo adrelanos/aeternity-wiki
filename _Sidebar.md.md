@@ -10,18 +10,18 @@
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
-- [æternity Team][team]
 - [æternity Home Page](http://www.aeternity.com/)
-- [Contacts and Communities](Contacts-and-Communities)
 - [æternity Blog](https://blog.aeternity.com)
-- [Bounty Programs][bounty]
-- [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
-- [æternity Wiki-Authors](æternity-wiki-authors)
+- [Contacts and Communities](Contacts-and-Communities)
+- [Help support our Wiki-Articles!](Need-support-for-Wiki-Articles)
 - [æternity on channel ONE](æternity-on-channel-ONE)
+- [Bounty Programs][bounty]
+- [æternity Wiki-Authors](æternity-wiki-authors)
+- [The æternity Team][team]
 
 ### Research
 - [Idea Box][ideabox]
-- [Research & Theory][research]
+- [Research and Theory][research]
 
 ### æternity Technologies
 - [Technology of æternity][tech]
@@ -51,9 +51,9 @@
 - [Windows Installation][wininstall]
 
 ### How to
-- [How to sign a message with private key][privatekeymessage]
-- [Claiming Your Ledger][ledgerclaim]
-- [keep your cryptocurrency secure & safe](Keeping-your-Cryptocurrency--Safe-%26-Secure)
+- [How To Sign A Message Using Your Private Key][privatekeymessage]
+- [How To Claim Your Ledger][ledgerclaim]
+- [How To Keep Your Tokens Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
 
 ### [DApp Development](æternity-DApp-Development)
