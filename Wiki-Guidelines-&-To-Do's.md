@@ -3,7 +3,7 @@ beginning on May 29th.
 
 **TOC**
 * [Editing the Wiki](#editing-the-wiki)
-* [Wiki Guidelines](#wiki-guidelines)
+* [The Wiki Guidelines](#the-wiki-guidelines)
 * [Before adding content](#before-adding-content)
 * [After adding content](#after-adding-content)
 * [Page translations](#page-translations)
@@ -28,7 +28,7 @@ beginning on May 29th.
 
     Please do not change referenced content as it breaks the links
 
-## Wiki Guidelines
+## The Wiki Guidelines
 
 The dedicated Wiki channel on Slack is
 [HERE](https://aeternity.slack.com/messages/C59BALQCE/details/) feel
