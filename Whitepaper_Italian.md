@@ -63,6 +63,8 @@ V-B.2   [Canali multi-parti](#canali-multi-parti) . . . . . . . . . . . . 9
 [RINGRAZIAMENTI](#ringraziamenti)  
 [RIFERIMENTI](#riferimenti)  
 
+***
+
 #### Introduzione
 Lo scopo di questo paper è di dare un quadro d'insieme dell'architettura della æternity blockchain e delle sue possibili applicazioni. Paper più dettagliati verranno rilasciati in futuro, specificatamente per i meccanismi di consenso e governance. In ogni caso, deve essere sottolineato che la nostra architettura è olistica: tutti i componenti sono strettamente interconnessi e sinergici, in maniera modulare. La struttura di questo paper è suddivisa in quattro parti.
 * Primo, introdurremo e analizzeremo la struttura teorica fondamentale che da forma alla nostra architettura.
@@ -70,11 +72,19 @@ Lo scopo di questo paper è di dare un quadro d'insieme dell'architettura della 
 * Terzo, presenteremo l'attuale implementazione del POC (proof-of-concept), scritto in Erlang.
 * Concluderemo con una discussione che includa possibili futuri sviluppi e comparazioni con altre tecnologie.
 
+[☝](#)
+
+***
+
 I-A
 #### Lavori precedenti
 Le blockchain nate precedentemente, prima di tutti il Bitcoin, hanno mostrato un nuovo modo di consentire il trasferimento di valore su Internet [[1](#1-s-nakamoto-bitcoin-a-peer-to-peer-electronic-cash-system-2008)]. A ciò è seguito un certo numero di promettenti passi avanti: Ethereum ha mostrato un modo per scrivere smart contract Turing-complete legati a una architettura blockchain [[2](#2-v-buterin-ethereum-a-next-generation-smart-contract-and-decentralized-application-platform-2014)]; Truthcoin ha creato degli strumenti per creare degli oracoli su blockchain [[3](#3-p-sztorc-market-empiricism)], mentre Gnosis e Augur hanno mostrato come rendere gli stessi più efficienti [[4](#4-m-liston-and-m-k%C3%B6ppelmann-a-visit-to-the-oracle-2016)]; Casey Detrio ha mostrato come creare dei mercati su blockchain [[5](#5-c-detrio-smart-markets-for-smart-contracts-2015)], Namecoin come realizzare l'equivalente distribuito di un dominio server [[6](#6-namecoin-wiki-2016)]; Factom ha mostrato come una blockchain che generi hash possa essere usata come prova di esistenza di qualsiasi dato digitale [[7](#7-p-snow-b-deery-j-lu-et-al-factom-business-processes-secured-by-immutable-audit-trails-on-the-blockchain-2014)].  
 Queste tecnologie sono molto promettenti qualora giungano a fornire servizi finanziari e legali di prim'ordine a chiunque.  
 Per ora però hanno fallito nel mettersi insieme in un sistema unificato che mantenga le promesse. Più specificatamente, tutte le soluzioni sono venute meno in almeno uno dei seguenti aspetti: governance, scalabilità, sicurezza del codice e accesso economico ai dati del mondo reale [cit. necessaria]. æternity punta a migliorare lo stato dell'arte in tutti questi aspetti.
+
+[☝](#)
+
+***
 
 II
 #### Cos'é la blockchain æternity
@@ -88,9 +98,17 @@ Secondo, applicazioni come Augur hanno tentato di portare i dati del mondo reale
 Terzo, sembra naturale che il meccanismo di consenso potrebbe essere anche utilizzato per determinare i parametri del sistema. Ciò gli permetterebbe di adattarsi alle mutevoli condizioni esterne esattamente come nell'adottare nuove ricerche e sviluppi recenti nel campo.
 Il resto di questa sezione introduce la æternity blockchain in maggior dettaglio, a cominciare da una breve panoramica degli account, dei token, dei nomi e della struttura dei blocchi. Questa è seguita da una spiegazione del nostro approccio ai canali di stato e agli smart contract, quindi da una discussione su come il meccanismo di consenso della blockchain può essere utilizzato sia per creare un meccanismo di oracolo efficiente sia per governare il sistema. Infine parliamo della scalabilità da diversi punti di vista. 
 
+[☝](#)
+
+***
+
 II-A
 #### Token, account e blocchi
 Nonostante sia "stateless" dal punto di vista del contratto dello sviluppatore, la æternity blockchain mantiene traccia di vari componenti di stato predefiniti. Ora spiegheremo queste e il contenuto di ciascun blocco. Per semplicità, questa sezione presuppone che ogni nodo tenga traccia dell'intera blockchain. Possibili ottimizzazioni sono descritte nella sezione II-E.  
+
+[☝](#)
+
+***
 
 II-A.1
 #### Token di accesso, Aeon
@@ -98,13 +116,25 @@ L'uso della blockchain non è gratuito e presuppone che l'utente spenda un token
 La distribuzione degli aeon nel blocco di genesi sarà determinato da uno smart contract ospitato su Ethereum. Ulteriori aeon saranno creati tramite mining.  
 Ogni compenso del sistema è pagato con aeon, ogni smart contract è stabilito in aeon.  
  
+[☝](#)
+
+***
+
 II-A.2
 #### Account
 Ogni account ha un indirizzo e un bilancio di aeon e anche un livello di difficoltà che aumenta a ogni transazione e all'altezza del suo ultimo aggiornamento. Ogni account deve anche pagare un piccolo compenso in base al tempo intercorso dalla sua apertura. I costi per creare e mantenere account prevengono lo spam e disincentivano l'aumento a dismisura degli stati. Il compenso per l'eliminazione di un account incentiva la rivendicazione di spazio.  
 
+[☝](#)
+
+***
+
 II-A.3
 #### Sistema dei nomi
 Molti sistemi di blockchain soffrono per gli indirizzi illeggibili dei loro utenti. In modo analogo al lavoro di Aaron Swartz e di Namecoin, æternity presenta un sistema nominale che è tanto decentralizzato quanto sicuro, pur supportando nomi user-friendly [[9](#9-a-swartz-squaring-the-triangle-secure-decentralized-human-readable-names-2011)]. Lo stato della blockchain include una mappatura da stringhe unicamente user-friendly ad array di dimensioni fisse di byte. Questi nomi possono essere usati per puntare a cose come indirizzi di account su æternity o ad hash come, per esempio, nell'albero di Merkle.
+
+[☝](#)
+
+***
 
 II-A.4
 #### Contenuti dei blocchi
@@ -120,11 +150,19 @@ Ogni blocco contiene i seguenti componenti:
 - L'entropia corrente nel generatore di numeri casuali.
 L'hash del blocco precedente è richiesto per mantenere un ordinamento della blockchain. L'albero delle transazioni contiene tutte le transazioni che sono incluse nel blocco corrente. A eccezione dell'albero del voto di consenso tutti gli alberi sono interamente sotto consenso: se un albero è cambiato fra un blocco e il successivo, tale cambiamento deve essere dovuto a una transazione nell'albero delle transazioni del nuovo blocco, e una prova Merkle dell'aggiornamento deve essere incluso nell'albero di prova del blocco. Lo scopo dei tre alberi restanti sarà chiarito nelle seguenti sezioni.  
 
+[☝](#)
+
+***
+
 II-B
 #### Canali a stati
 Uno degli sviluppi recenti più interessanti riguardo la blockchain è quello dei canali a stati. Questi operano sul principio base che in molti casi solo le persone coinvolte in una transazione devono averne conoscenza. In sintesi, le parti che effettuano una transazione instaurano qualche stato sulla blockchain, ad esempio un contratto Ethereum o un contratto Bitcoin multi-firma. Quindi inviano semplicemente aggiornamenti firmati allo stato condiviso. Il punto chiave è che entrambi potrebbero usarli per aggiornare lo stato sulla blockchain ma, nella maggior parte dei casi, non lo fanno. Ciò permette di condurre transazioni tanto rapidamente quanto le parti possono trasmettere e processare i dati invece che dover aspettare che la transazione sia stata validata (e potenzialmente finalizzata) dal meccanismo di consenso della blockchain.  
 Su æternity l'unico aggiornamento dello stato che può essere stabilito sulla blockchain è un trasferimento di aeon, e gli unici aeon che possono essere trasmessi sono quelli che le parti hanno già depositato nel canale. Ciò rende ogni canale indipendente dagli altri, il che ha l'immediato beneficio che qualsiasi transazione in relazione ai canali può essere processata in parallelo migliorando considerevolmente il volume di trasmissione di transazioni.  
 La blockchain è usata unicamente per risolvere l'esito finale o eventuali conflitti che potrebbero palesarsi, grossomodo analogamente al sistema giudiziario. Poiché il comportamento della blockchain sarà prevedibile, non c'è comunque alcun vantaggio nel disputarsi il risultato previsto del canale di stato: agenti malevoli sono incentivati a comportarsi correttamente e a stabilire lo stato finale sulla blockchain. Preso tutto insieme, ciò aumenta la velocità e il volume di transazione, nonché la privacy, di varie unità di grandezza.  
+
+[☝](#)
+
+***
 
 II-B.1
 #### Smart contract
@@ -176,6 +214,10 @@ b) Esecuzione misurata:
 L'esecuzione dei contratti è misurata in maniera analoga al "gas" di Ethereum, ma æternity usa due risorse differenti per la sua misurazione, una per il tempo e una per lo spazio. Entrambe sono pagate per l'utilizzo di aeon dalla parte che richiede l'esecuzione.  
 Ciò potrebbe essere considerato sgradito in quanto probabilmente è un'altra parte a provocare in principio la necessità per la blockchain di risolvere la disputa. Tuttavia, a meno che tutto il denaro nel canale non sia stato usato per scommettere, ciò può essere risolto efficacemente nel codice di contratto in quanto questi è in grado di ridistribuire i fondi da una delle parti all'altra. È di fatto una buona norma generale evitare di usare tutti i fondi in un canale per la transazione per non disincentivare la parte perdente a cooperare nella chiusura del canale. 
 
+[☝](#)
+
+***
+
 II-B.2
 #### Esempio
 Portiamo tutte queste idee con i piedi per terra. In pratica, se Alice e Bob vogliono effettuare una transazione usando un canale di stato su æternity, devono avvalersi della seguente procedura:  
@@ -184,6 +226,10 @@ Portiamo tutte queste idee con i piedi per terra. In pratica, se Alice e Bob vog
 3) Il canale può essere chiuso in due modi differenti:  
     a) Se Alice e Bob decidono che la transazione è cessata e si accordano sul loro bilancio finale, firmano entrambi una transazione che lo dichiari e la inviano alla blockchain. Questa chiuderà il canale e vi distribuirà di conseguenza il denaro.  
     b) Se Alice per qualsiasi ragione si rifiuta di firmare una transazione di chiusura, Bob può inviare l'ultimo stato firmato da entrambi e richiedere la chiusura del canale utilizzando tale stato. Ciò da il via a un conto alla rovescia. Se Alice crede che Bob sia disonesto può pubblicare prima della scadenza uno stato con un livello di difficoltà più alto che entrambi hanno siglato. Se lo fa, il canale è chiuso immediatamente. Altrimenti chiude al termine del conto alla rovescia.  
+
+[☝](#)
+
+***
 
 II-C
 #### Meccanismo di Consenso
@@ -195,12 +241,20 @@ Quando persino i telefoni cellulari durante la ricarica notturna potranno esegui
 Introduzione: il meccanismo di consenso ha in qualche modo un ruolo non standard in æternity. Oltre a dare il consenso a nuovi blocchi della blockchain, da l'avvallo anche alle risposte alle domande dell'oracolo e ai valori dei parametri di sistema. In particolare il meccanismo di consenso può anche cambiare se stesso. È da notare tuttavia che ciò non avviene del tutto senza problemi. Ad esempio, nel caso in cui fosse adottato solamente un metodo di validazione Proof-of-Work, sarebbe piuttosto economico corrompere i miners per manipolare a sua volta l'oracolo. Per questo motivo æternity utilizzerà un nuovo algoritmo ibrido fra Proof-of-Work e Proof-of-Stake, godendo dei benefici di entrambi. Indipendentemente da ciò, il metodo Proof-of-Work verrà utilizzato per emettere nuovi token aeon.  
 Nota a margine: in origine æternity intendeva essere una blockchain convalidata al 100% da un metodo Proof-of-Stake, ma non pensiamo più sia possibile un sistema decentralizzato basato al 100% sul metodo Proof-of-Stake.  
 
+[☝](#)
+
+***
+
 II-C.1
 #### Oracoli
 L'abilità di ricorrere a valori ambientali, quali i prezzi di diversi prodotti o l'eventuale occorrenza di un evento, è una caratteristica decisiva di gran parte dei contratti, sia sotto forma testuale che codificati. Un sistema contrattuale brillante privo di questa abilità è essenzialmente un sistema chiuso e verosimilmente poco utile. Questo è un dato generalmente accettato e ci sono già diversi progetti che tentano di importare dati esterni nella blockchain in maniera decentralizzata [[8](#8-j-peterson-and-j-krug-augur-a-decentralized-open-source-platform-for-prediction-markets-2014)]. Tuttavia la decisione circa la verità o meno di un fatto acquisito richiede essenzialmente l'implementazione di un ulteriore meccanismo di consenso al di sopra del meccanismo di consenso esistente.  
 L'attivazione di due meccanismi di consenso uno sopra l'altro è costoso tanto quanto gestirli entrambi separatamente. Inoltre non aumenta la sicurezza in quanto il meno sicuro dei due può ancora essere attaccato e costretto a produrre valori "falsi". Di conseguenza proponiamo di fondere i due meccanismi di consenso in uno solo riutilizzando essenzialmente il meccanismo che adoperiamo per accordarci sullo stato del sistema per accordarci anche sullo stato del mondo esterno.  
 Il modo in cui ciò avviene è il seguente. Qualsiasi possessore di aeon può lanciare un oracolo impegnandosi a rispondere a una domanda sì/no. Facendo ciò deve anche specificare il lasso di tempo entro il quale la domanda deve ricevere una risposta, che può iniziare nell'immediato o in un dato istante del futuro. L'utente che lancia l'oracolo deve, in proporzione al lasso di tempo, depositare una quantità di aeon che gli verrà restituita nel caso in cui l'utente fornisca una risposta accettata come vera, altrimenti sarà bruciata. La blockchain genera un identificatore univoco per l'oracolo che potrà essere utilizzato per recuperare la risposta appena sarà resa disponibile.  
 Quando sarà ora di rispondere alla domanda, l'utente che ha lanciato l'oracolo può fornire una risposta gratuitamente. Una volta risposto, o dopo un determinato lasso di tempo, qualsiasi altro utente potrà fornire un contro reclamo depositando la stessa quantità di aeon. Se nessun reclamo sarà stato fornito entro la fine del lasso di tempo stabilito, la risposta data dall'utente che ha lanciato l'oracolo verrà accettata come vera, e il deposito sarà restituito. Nel caso in cui sia stato fornito un reclamo il meccanismo di consenso per i blocchi verrà utilizzato per rispondere all'oracolo. Ciò risulta più costoso, ma il saper di poter ottenere almeno uno dei due depositi di sicurezza ci permette di usarlo.
+
+[☝](#)
+
+***
 
 II-D
 #### Governance
@@ -209,11 +263,19 @@ Il problema principale di questi sistemi è facilmente identificabile: il proces
 Il meccanismo di consenso è inoltre definito da un numero di variabili che determinano come funziona il sistema e che sono aggiornate a poco a poco da ciascun nuovo blocco. Dal costo per effettuare transazioni o per interrogare un oracolo fino alle modifiche dei valori di parametri fondamentali come il tempo di generazione di un blocco.  
 Gli utenti possono imparare come migliorare efficacemente il protocollo attivando dei mercati predittivi sulle variabili che lo definiscono. Possiamo aiutare la comunità a raggiungere un consenso su quale versione del codice utilizzare attivando dei mercati predittivi su potenziali "hard-fork" della blockchain. Ciascun utente sceglie per conto suo quale metrica preferisce ottimizzare, ma massimizzare il valore di ciò che possiede è la strategia predefinita più semplice.  
 
+[☝](#)
+
+***
+
 II-E
 #### Scalabilità
 II-E.1
 #### Frammentazione ad alberi
 L'architettura presentata fino a questo punto è altamente scalabile. È possibile far funzionare la blockchain anche quando ciascun utente tiene traccia esclusivamente dello stato della blockchain di suo interesse ignorando i dati altrui. I nuovi utenti hanno bisogno di almeno una copia dello stato della blockchain per essere certi del sotto-stato di loro interesse, ma possiamo frammentare tali dati attraverso parecchi nodi casuali così che il carico di ciascun nodo sia arbitrariamente piccolo. Viene utilizzato lo schema ad alberi di Merkle per dimostrare che un sotto-stato sia parte di uno stato [[11](#11-r-c-merkle-protocols-for-public-key-cryptosystems-in-ieee-symposium-on-security-and-privacy-1980)]. È facile immaginare uno scenario in cui certi nodi si specializzino nel mantenere traccia delle ramificazioni e nell'essere pagati per inserimenti e consultazioni.  
+
+[☝](#)
+
+***
 
 II-E.2
 #### Client leggero
@@ -221,10 +283,18 @@ I client leggeri non scaricano interamente i blocchi. In primo luogo l'utente da
     - L'hash del blocco precedente.  
     - L'hash radice di tutti gli alberi dello stato.  
 
+[☝](#)
+
+***
+
 II-E.3
 #### Canali a stati e parallelismo
 I canali a stati processano una immensa mole di dati e molte delle transazioni che avvengono al loro interno non sono mai eseguite o addirittura registrate nella blockchain. Inoltre i canali non registrano su nessuno stato condiviso con la blockchain, così tutte le transazioni che invece vengono effettivamente registrate sulla blockchain possono essere processate in parallelo. Dato che gran parte dell'hardware venduto oggi ai consumatori possiede almeno quattro processori, l'effetto immediato è che la capacità di trasmissione delle transazioni è grossomodo quadruplicata.  
 Inoltre il fatto che non ci sia alcuna interazione concorrenziale complessa suggerisce che la frammentazione di questa architettura della blockchain dovrebbe essere relativamente semplice. Poiché la frammentazione di una blockchain è una tecnologia ancora piuttosto sperimentale, abbiamo deciso deliberatamente di non perseguire alcuna specifica tecnica di frammentazione nella progettazione iniziale di æternity. Tuttavia, se ci dovessero essere dei cambiamenti futuri, æternity dovrebbe essere una delle blockchain più facili da frammentare.  
+
+[☝](#)
+
+***
 
 II-E.4
 #### Transazioni per secondo ad una certa richiesta di memoria
@@ -254,52 +324,100 @@ Le variabili che definiscono il protocollo sono tutte aggiornate costantemente d
 
 Per operare un nodo dobbiamo conservare una copia di tutti i blocchi fino al suo stato conclusivo e dobbiamo essere in grado di registrare cento volte più informazioni nel caso in cui dovesse avvenire un attacco. Stimando che il termine sia due giorni, ci saranno 5760 blocchi fino al termine. Quindi i requisiti di memoria sono di 5760 * 1 megabyte * 100 = 576000 megabyte = 576 gigabyte. In assenza di un attacco servirebbero solo 5.76 gigabyte per conservare i blocchi.  
 
+[☝](#)
+
+***
+
 III
 #### Applicazioni
 L'implementazione delle seguenti applicazioni sulla blockchain di æternity è resa semplice dalla natura "stateless" degli smart contract di æternity. Questa è adatta soprattutto ai casi di utilizzo ad ampio volume.  
+
+[☝](#)
+
+***
 
 III-A
 #### Elementi essenziali della blockchain
 Gli elementi essenziali della blockchain sono necessariamente quegli elementi nativi come aeon, portafoglio, nomi e concetti collegati. Questi rendono modulari i componenti riutilizzabili che possono quindi essere utilizzati come base per le applicazioni da sviluppare e possono essere migliorati. 
 
+[☝](#)
+
+***
+
 III-A.1
 #### Identità
 A ciascun account sarà associato un ID univoco. Gli utenti possono registrare nomi univoci e collegarli alla radice Merkle della struttura dati. Questa può contenere sia l'ID univoco che altre informazioni circa l'account di un individuo. Puntiamo a usare il formato JSON di [Schema.org](Schema.org) per rappresentare oggetti come persone o società [[13](#13-schemaorg-schemas-2016)].  
+
+[☝](#)
+
+***
 
 III-A.2
 #### Portafoglio
 Il portafoglio ("wallet") è un elemento di software utilizzato per interagire con æternity. Gestisce credenziali private per gli aeon, crea e firma le transazioni. Un individuo può usare il portafoglio per inviare transazioni in un certo canale e per utilizzare le applicazioni nel network dei canali.  
 
+[☝](#)
+
+***
+
 III-A.3
 #### Prova di esistenza
 Un certo tipo di transazione permette la pubblicazione di hash di qualsiasi dato. Chiunque adoperi il sistema può usare le intestazioni per provare che i dati esistevano in quel punto nel tempo.  
+
+[☝](#)
+
+***
 
 III-B
 #### Applicazioni su canali a stati
 Gli smart contract nei canali a stati sono perfetti per micro-servizi sul web che richiedono un'alta capacità di trasmissione.  
 
+[☝](#)
+
+***
+
 III-B.1
 #### Strumento API
 La maggior parte delle API sono disponibili per chiunque voglia fare una chiamata pubblica, sono alternativamente accessibili tramite uno schema utente-password o tramite un token di accesso univoco. I canali per i pagamenti permettono una nuova tipologia di API in cui si paga per ogni richiesta all'API, eventualmente persino per ogni richiesta HTTP. Pagare per accedere a una API risolve i problemi degli attacchi DDoS e rende più facile costruire API sempre disponibili di alta qualità. Le risposte API che richiedono un pagamento sono fondamentali per la creazione di tipologie di business ancora impossibili e possono ricoprire un ruolo importante nell'emergere di una economia decentralizzata. Creano incentivi affinché i possessori di informazioni rendano disponibili pubblicamente dati di norma privati.  
+
+[☝](#)
+
+***
 
 III-B.2
 #### Raccolta fondi assicurata
 Possiamo implementare un crowdfunding assicurato utilizzando contratti di assicurazione "dominanti" [cit. necessaria]. Questi sono smart contract utilizzati per raccogliere fondi per un'opera di utilità pubblica come un nuovo ponte, una scuola o un mercato.  
 I contratti di assicurazione dominanti differiscono dai contratti di assicurazione tradizionali come Kickstarter nel rendere la partecipazione la strategia dominante. Se il prodotto non è finanziato ogni partecipante rientra in possesso dei propri aeon più un certo interesse, in modo da essere assicurati contro la riduzione della loro liquidità senza aver ottenuto il prodotto. Possiamo assicurare per mezzo di un oracolo che il fornitore del prodotto o del servizio sia pagato solo nel caso in cui prodotto o servizio siano effettivamente erogati.  
 
+[☝](#)
+
+***
+
 III-B.3
 #### Swap atomico tra blockchain
 Gli swap atomici tra blockchain permettono lo scambio trustless fra aeon e bitcoin [[14](#14-atomic-cross-chain-trading-2016)], [[15](#15-interledger-2016)]. Possono essere implementati tramite un blocco di hash ("hashlock") che blocchi le transazioni su entrambe le blockchain per il medesimo valore.  
 
+[☝](#)
+
+***
+
 III-B.4
 #### Asset a valore stabile e replicazione del portafoglio
 Possiamo usare gli smart contract per programmare asset sintetici che mantengano quasi lo stesso prezzo di un asset del mondo reale. Potremmo creare ad esempio un asset che mantenga lo stesso prezzo dell'oro. I derivati sintetici sono creati a coppie, uguali e opposte. Affinché un utente possieda un asset che muti con l'oro, un altro utente deve possedere un asset che muti inversamente rispetto all'oro. Ad esempio Alice potrebbe creare un contratto con Bob che le permette di possedere 1 grammo d'oro. Del denaro del contratto, l'equivalente in aeon del valore di un grammo d'oro va ad Alice e il corrispondente valore in soldi a Bob. Il contratto ha una data di scadenza fissata al momento in cui il prezzo dell'oro verrà calcolato e i fondi verranno distribuiti di conseguenza ad Alice e Bob.  
+
+[☝](#)
+
+***
 
 III-B.5
 #### Contratti ad eventi
 I contratti ad eventi pagano quando avviene un evento e non lo fanno quando non avviene, a seconda del responso dell'oracolo. Oltre a essere interessanti di per sé, possono essere utilizzati da parecchie applicazioni diverse:  
 a) Assicurazioni: possiamo usare contratti ad eventi per integrare delle assicurazioni. Ad esempio i biglietti di un costoso evento musicale possono perdere il loro valore nel caso di pessime condizioni atmosferiche. Tuttavia, se lo spettatore riceve del denaro in quanto l'oracolo stabilisce che nel giorno dell'evento ha piovuto, il suo investimento viene protetto in modo che possa trovare un'alternativa emotivamente adeguata. Parlando un po' più seriamente, gli agricoltori sono sovente interessati alla quantità di precipitazioni di una stagione. Possiamo assicurarli sul pessimo raccolto dovuto alla siccità.  
 b) Informatori: i contratti ad eventi possono anche essere utilizzati per incentivare la rivelazione di informazioni sensibili. Potremmo ad esempio scommettere sull'evento "Informazioni che la Società A ha fatto un uso illegale di pesticidi sono rese disponibili entro la data del 24 gennaio 2017". Qualsiasi persona con accesso a tale tipo di informazione sarebbe incentivata a scommettere sull'evento e poi a rilasciarla.  
+
+[☝](#)
+
+***
 
 III-B.6
 #### Mercati predittivi
@@ -311,6 +429,10 @@ Come notato nella sezione II-D, possiamo ad esempio utilizzare mercati predittiv
 Fig. 5. Mercato predittivo multidimensionale.  
 
 a) Mercati predittivi multidimensionali: i mercati predittivi multidimensionali ci permettono di prevedere la correlazione fra possibili eventi futuri. Per esempio si potrebbe quindi prevedere se, nel caso in cui Alice fosse eletta leader, il prezzo delle patate andrebbe al ribasso o se, nel caso in cui vincesse Bob, al rialzo. Si potrebbe capire che se Google utilizzasse il piano A nei prossimi tre mesi guadagnerebbe probabilmente di più, o che se seguisse il piano B guadagnerebbe di meno. O, ancora, come in figura 5, che se Alice fosse eletta presidente ci sarebbe un'elevata probabilità che il prezzo delle patate sarebbe piuttosto basso.  
+
+[☝](#)
+
+***
 
 III-B.7
 #### Market con un lotto in vendita ad un prezzo singolo
@@ -328,45 +450,85 @@ Per riunirli nel tempo dobbiamo fare scambi per lotti, ciascun lotto a un singol
 ![fig_7](https://cloud.githubusercontent.com/assets/18164515/26499743/f6831eae-4233-11e7-9d89-76e491660787.JPG)
 
 Fig. 7. Il nero è molto più esteso del rosso. Il creatore del mercato sta vendendo molte più quote di quante ne stia comprando, prendendosi di conseguenza un grave rischio.  
-  
+
+[☝](#)
+
+***
+
 IV
 #### Implementazione
 Molti concetti chiave hanno già implementazioni a livello prototipale in Erlang, inclusi la stessa blockchain, il linguaggio contrattuale e la VM, l'oracolo e i meccanismi di governance e anche una vecchia versione del meccanismo di consenso. Abbiamo usato Erlang/OTP in quanto rende agevole la scrittura di codice in grado di rispondere a molte richieste in parallelo senza andare in crash. I server con il più elevato tempo di funzionamento sono basati su Erlang. Ha dimostrato di essere un prodotto stabile e affidabile in trent'anni di uso per applicazioni industriali.  
+
+[☝](#)
+
+***
 
 IV-A
 #### Macchine e linguaggio del contratto
 La macchina virtuale (VM o "virtual machine") è basata su stack ed è simile ai linguaggi di scripting di Forth e Bitcoin, anche se in rapporto a quest'ultimo è decisamente più ricca. La VM supporta funzioni piuttosto che reindirizzamenti ("gotos") rendendo relativamente semplice l'analisi della sua semantica. Si può trovare una lista dei codici operativi della VM sul [nostro Github](https://github.com/aeternity/chalang/blob/master/opcodes.md ).  
 Inoltre esiste un linguaggio simile a Forth di livello superiore, il Chalang, che compila in bytecode per la VM. Supporta macro e nomi di variabili, ma mantiene il modello di esecuzione basato su stack [[17](#17-z-hess-chalang-2016)]. Potete trovare esempi di codice Chalang sempre sul [nostro Github](https://github.com/aeternity/chalang/tree/master/examples ).  
 
+[☝](#)
+
+***
+
 IV-B
 #### Adozione tramite integrazione web
 Il web è la piattaforma di applicazione più popolare. Forniremo strumenti di sviluppo web facili da usare, come librerie JS e JSON-API per le caratteristiche di base della blockchain æternity. 
+
+[☝](#)
+
+***
 
 IV-C
 #### Moduli open source
 Il software sarà scritto con moduli di licenza MIT, come il modulo di consenso che può essere adattato a necessità individuali, così da poterlo facilmente riutilizzare per un consorzio di blockchain privato e per altri usi.  
 
+[☝](#)
+
+***
+
 IV-D
 #### Condizioni d'uso e design dell'UX
 I nostri sforzi di sviluppo saranno focalizzati nel ridurre gli attriti dovuti alla interazione umana. Nel dettaglio, ci assicureremo che sia chiaramente stabilito chi controlla identità, chiavi e transazioni. Inoltre, offrire un accesso facilitato tramite web-gateway sarà al centro del nostro futuro lavoro. La partecipazione degli utenti ai mercati predittivi tramite interfacce mobili simili a Tinder (scorrimento sinistra/destra) e la facile integrazione in un sito attraverso iframe di semplici portafogli web diventeranno esperienza di uso comune.  
+
+[☝](#)
+
+***
 
 V
 #### Discussioni
 Abbiamo fornito una spiegazione su come progettare un sistema di trasferimento di valore fondamentalmente più efficiente. Il sistema descritto è di fatto una macchina-oracolo globale, cioè una machcina che può essere usata per fornire servizi decisionali su scala globale. In particolare si possono implementare facilmente su æternity tutte le applicazioni proposte nella [III sezione](#applicazioni).  
 Il nostro approccio ha tuttavia sia limiti fondamentali che spazi di miglioramento. Entrambi vengono discussi qui.  
 
+[☝](#)
+
+***
+
 V-A
 #### Limitazioni e compromessi
 Nonostante crediamo che i compromessi fatti nella nostra architettura siano ragionevoli visto l'incremento conseguente di performance in altre aeree, æternity non è una soluzione onnicomprensiva per applicazioni decentralizzate. Dovrebbe essere piuttosto vista come un complemento sinergico alle attuali tecnologie. Ci sono diverse considerazioni di cui ci si deve rendere conto.  
+
+[☝](#)
+
+***
 
 V-A.1
 #### Stati sulla blockchain
 Nonostante abbia molti vantaggi, la mancanza di stati programmabili di æternity la rende inadeguata per le applicazioni che richiedono di mantenere sotto consenso uno stato personalizzato. Ad esempio ciò include le DAO (Organizzazioni Decentralizzate Autonome o "Decentralized Autonomous Organizations") per come sono normalmente concepite, i sistemi di nomi personalizzati e le sotto-valute che non sono legate al valore di un asset di base.  
 
+[☝](#)
+
+***
+
 V-A.2
 #### Problema dell'opzione gratuita
 Se Alice e Bob possiedono un canale e Alice sigla un contratto, quando lo invia a Bob gli da essenzialmente una libera opzione: Bob potrebbe scegliere di siglare e restituire (cioè attivare) il contratto in qualsiasi momento del futuro. Spesso ciò non è però voluto. Per evitare questo problema i contratti del canale non sono attivati immediatamente con la cifra intera, ma sono suddivisi in tempo o spazio. Entrambi i partecipanti sigleranno i contratti in brevi intervalli così da evitare che un utente offra una grande opzione libera all'altro.  
 Ad esempio, se le parti vogliono scommettere 100 aeon, allora potrebbero siglare il contratto in 1000 frazioni, ognuna delle quali incrementerebbe la scommessa di 0,1 aeon. Ciò richiederebbe il passaggio di 1000 messaggi, 500 in ogni direzione, il che risulterebbe abbastanza economico dato che il contratto non verrebbe mai sottomesso alla blockchain. Come ulteriore esempio, se qualcuno volesse creare un asset economico della durata di 100 giorni, si potrebbe siglare in 2400 frazioni di un'ora ciascuna, cioè 2400 messaggi, 1200 in ciascuna direzione. 
+
+[☝](#)
+
+***
 
 V-A.3
 #### Perdita di liquidità e tipologie di macchine a stati
@@ -375,17 +537,33 @@ Poiché questo risulta costoso per Bob, molto probabilmente guadagnerebbe una ta
 Ma poiché il mantenimento di un ulteriore canale aperto impatta negativamente la liquidità personale, il passaggio da un intermediario rimane preferibile in molti casi, soprattutto quando le parti non si aspettano di commerciare molto nel futuro. Dunque si prevede l'emergere di una tipologia di canale in cui alcuni ricchi utenti guadagnino nel trasmettere in maniera trustless transazioni fra altri utenti.  
 È da notare che ciò non costituisce un punto critico di fallimento in quanto non affidiamo nulla a questi trasmettitori di transazioni. Se un trasmettitore andasse offline prima che il segreto fosse rivelato ad un hashlock, la transazione non passerebbe. Se dovesse andare offline in seguito, l'unico possibile effetto "negativo" è che il trasmettitore non sarebbe in grado di reclamare i propri aeon.  
 
+[☝](#)
+
+***
+
 V-B
 #### Lavori Futuri
 Ci sono varie possibilità per migliorare l'architettura attuale.  
+
+[☝](#)
+
+***
 
 V-B.1
 #### Linguaggio funzionale del contratto
 Una strada ragionevole per il futuro potrebbe essere la sperimentazione con linguaggi di alto livello che rispettino più strettamente il paradigma funzionale. Il mantenere traccia di uno stack implicito generalmente predispone a errori e presumibilmente non è adatto a un linguaggio di alto livello pensato per lo sviluppo. Ciò dovrebbe essere piuttosto semplice dal momento che i programmi sono già puramente funzionali e semplificherebbe enormemente sia lo sviluppo che la verifica formale dei contratti. Se ciò fosse fatto, avrebbe anche senso rivedere la VM per abbinarla strettamente al nuovo linguaggio per rendere la compilazione meno propensa a errori e meno dipendente dalla fiducia nei confronti degli sviluppatori. Idealmente la traduzione dal linguaggio di superficie al codice della VM dovrebbe essere una trascrizione diretta di una ricerca rivista tra pari, anche se probabilmente bisognerebbe fare delle concessioni pragmatiche.  
 
+[☝](#)
+
+***
+
 V-B.2
 #### Canali multi-parti
 Al momento tutti i canali su æternity sono limitati a due parti. Nonostante si potrebbero ottenere di fatto canali multi-parti attraverso hashlocking, ciò potrebbe risultare costoso. Per questo motivo stiamo progettando di studiare la possibilità di aggiungere il supporto a canali di _n-_parti con un meccanismo di accordo di tipo _m-_di_-n_.  
+
+[☝](#)
+
+***
 
 #### GLOSSARIO  
 
@@ -409,9 +587,17 @@ Al momento tutti i canali su æternity sono limitati a due parti. Nonostante si 
 
 **Validatore** Un validatore è un utente che partecipa al meccanismo di consenso. Nel caso di æternity, ogni detentore di valore può partecipare a tale processo.  
 
+[☝](#)
+
+***
+
 #### RINGRAZIAMENTI  
 
 Grazie a Vlad, Matt, Paul, Dirk, Martin, Alistair, Devon e Ben per la revisione. Grazie a queste e molte altre persone per il confronto approfondito.  
+
+[☝](#)
+
+***
 
 #### RIFERIMENTI  
 
