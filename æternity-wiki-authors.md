@@ -88,7 +88,7 @@
 ***
 
 ### [davidiach](https://github.com/davidiach)
-* written the theory behind [prediction markets](https://github.com/aeternity/wiki/wiki/Research-and-Theory#prediction-markets) and how they work
+* wrote the theory behind [prediction markets](https://github.com/aeternity/wiki/wiki/Research-and-Theory#prediction-markets) and how they work
 
 
 
@@ -447,9 +447,9 @@
 * Language: native language German, community english :), spanish
   (basics), french (basics)
 * Working on: (1) with [0Brand](#0Brand),
-  [I love this team](#æternity-wiki-authors), and so on (but not to
+  [I love this team](#æternity-wiki-authors), and so on (but not too
   many, only the main ones)
-* Donations are wellcome:
+* Donations are welcome:
   <sup>[read this before donate!](#before-donate)</sup>
   * btc:1DaGkc1Uv4GeCSpjkrMVzCA35ENmrd526V
   * eth:0x284DbB6139e2e08cd3D3BE6f51306c19cAB04e3c
@@ -479,14 +479,14 @@ https://github.com/aeternity/wiki/wiki/æternity-Wiki-Authors#zwilla
 (external link) and  (internal link) like this:
 [zwilla](æternity-wiki-authors#zwilla)if you are writing an article and
 using an authors name link to him/her. Note! For the link we have to use
-'smal letters'.
+'small letters'.
 
 ### Contact:
 
 If you don't want a direct contact, set a link to global Slack channel
 or any other link, but do not SPAM!!!
 
-### Contribution Tabele:
+### Contribution Table:
 
 A maximum of 5 entries, please use the most important and link to them,
 so we and visitors know how to contact you/us and ask for
