@@ -1,7 +1,7 @@
 ![whitepaper unofficial translation](http://aeternity.de/images-by-zwilla/whitepaper-header.jpg)
 ## Seite 1
 
-aeternity Blockchain: Die vertrauenslosen, dezentralisierte und rein
+aeternity blockchainDie vertrauenswürdige, dezentralisierte und rein
 funktionale Orakelmaschine
 
 6. Februar 2017 V0.1
@@ -16,14 +16,15 @@ funktionale Orakelmaschine
 Zusammenfassung
 ===============
 
-Seit der Einführung von Ethereum im Jahre 2014 hat sich ein großes Interesse
-an dezentralisierten, vertrauenslosen Anwendungen (intelligenten Verträgen, sogenannten
-Smart Contracts) entwickelt. Viele haben sich an der Umsetzung von Anwendungen mittels Smart Contracts versucht. Wir glauben die Speicherung des Programmcodes und das Speichern des Status eines Programms auf der Blockchain ist aus vielen Gründen falsch.
 
-Wir zeigen eine hochskalierbare Blockchain-Architektur mit einem Konsens-Mechanismus, der auch zur Überprüfung des Orakels verwendet wird. Dies ergibt in einer hohen Effizienz des Orakels, da die Ausführung mehrerer Konsens-Mechanismen unnötig ist. Um die Privatsphäre und Skalierbarkeit zu erhöhen werden Zustandskanäle in die Blockchain integriert. Tokens in diesen Kanälen können mit Smart Contracts übertragen werden, welche auf Antworten des Orakels zugreifen können. Da der Programmcode und der Status des Programmablaufs nicht auf der Blockchain abgespeichert ist, ist es einfacher den Code des Smart Contracts zu analysieren und schneller zu prozessieren. Dies ist alles ohne erheblichen Verlust der gegebenen Funktionalität möglich.
-
+\- Seit der Einführung von Ethereum im Jahre 2014 hat sich ein großes Interesse
+an dezentralisierten vertrauenswürdigen Anwendungen (intelligenten Verträgen, sogenannten
+Smart Contracts) entwickelt. Infolgedessen haben sich viele an der Realisierung von Anwendungen mit real world data auf einer Blockchain versucht. Wir glauben die Speicherung des Standes der Anwendung sowie des Code-on-Chain ist aus mehreren Gründen schlichtweg falsch.
+Wir präsentieren Ihnen eine hochskalierbare Blockchain-Struktur mit einem Consensus-Mechanismus, welcher ebenfalls zur Überprüfung des Orakels verwendet wird. Dies resultiert in einer hohen Effizienz des Orakels, da die Schichtungen mehrerer Consensus-Mechanismen so verhindert werden. Zusätzlich sind Zustandskanäle integriert, um die
+Privatsphäre und Skalierbarkeit zu erhöhen. Tokens in Kanälen können mit
+rein funktionalen Smart Contracts übertragen werden, welche auf Antworten des Orakels zugreifen können. Bei Nichtlagerung des Vertragscodes oder Zustands on-chain, ist es uns möglich Smart Contracts leichter zu analysieren und schneller zu verarbeiten, ohne erheblichen Verlust der faktischen Funktionalität. 
 Anwendungen wie Märkte für synthetische Vermögenswerte sowie Prognosemärkte können auf globaler Ebene effizient umgestzt werden. Mehrere Glieder/Bestandteile besitzen Proof-of-Concept-Implementierungen in Erlang. Werkzeuge zur Entwicklung und wesentliche Anwendungen wie Wallet, Naming sowie das Identitätssystem werden ebenfalls gestellt.
-
+C
 INHALT[ich](#seite-1)[Einführung](#seite-1)1[IA](#seite-2)[Vorherige Arbeit .](#seite-2)
 . . . . . . . . . . .
 .2[II](#seite-2)[aeternity blockchain](#seite-2)2[II-A](#seite-2)[Zugangstoken, Konten und Blöcke](#seite-2)
