@@ -7,14 +7,14 @@
 * [Facebook](https://www.facebook.com/aeternityproject/)
 * [Twitter](https://twitter.com/aetrnty)
 * [Reddit](https://www.reddit.com/r/Aeternity/)
-* [Telegram AETrader](https://telegram.me/aetrader)
+* [Telegram AETrader](https://telegram.me/aetrader) <sup>[new to telegram? Click here to download first the app](https://telegram.org)</sup>
 * [LinkedIn](https://www.linkedin.com/company/aeternity)
 * [Medium](https://blog.aeternity.com/) 
 * [Bitcointalk](https://bitcointalk.org/index.php?topic=1733140.0)
 
 ## Development & Support
 * [Github](https://github.com/aeternity) 
-* [Telegram](https://telegram.me/aeternity) 
+* [Telegram](https://telegram.me/aeternity) <sup>[new to telegram? Click here to download first the app](https://telegram.org)</sup>
 * [Gitter](https://gitter.im/aeternity/Lobby)
 * [Slack](https://aeternity.slack.com/) 
 * [Newsletter](http://www.aeternity.com/#newsletter)
