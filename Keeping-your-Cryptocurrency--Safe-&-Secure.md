@@ -289,14 +289,14 @@ We are going to start of with some guidelines for making a strong password.
   dates).
 * Avoid using information that is or might become publicly associated with the you or the account.
 * Avoid using information that your colleagues and/or acquaintances might know to be associated with the you.
-* Do not use a place of birthplace.
-* Do not use a name of a favorite holiday.
-* Do not use something related to a favorite sports team.
+* Avoid using a place of birth or names of educational facilities like a high school or university.
+* Avoid using something related to a favorite sports team.
 * Do not use the word "password"!  Yes people use it all the time.
 * Do not use passwords which consist wholly of any simple combination of the aforementioned weak components.
 * Do not use the default password that came with your device or user account.
 * **Do not write your password down on a piece of paper or sticky note!** If you do why bother making a strong 
   password?
+Now that we have some guidelines we can start working on our password. As mentioned above password length is very important but we also want a password with uppercase and lowercase letters, and it should have numbers and special characters such as ( &*?@#: ). Many users choose a password that is memorable however, the easier a password is for the user to remember generally means it will be easier for an attacker to guess. On the other hand passwords which are difficult to remember may also reduce the security of the system because (a)  users might need to write down their password, (b) users will need frequent password resets and (c) users are more likely to re-use the same password.    
 
 
 **Strong Passwords** **Password Managers/Safes** #
