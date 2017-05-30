@@ -60,6 +60,17 @@ stack: *lists, *binaries.
 Lists can store other lists, and binaries. If binaries are 32 bits long,
 then we can do arithmetic on them. <sup>4</sup>
 
+## Persistent Root Folder
+
+These are the persistent root folders at moment
+
+* [root folder](../../../../aeternity/testnet/tree/master/)
+  * [backup](../../../../aeternity/testnet/tree/master/backup)
+  * [bets](../../../../aeternity/testnet/tree/master/bets)
+  * [blocks](../../../../aeternity/testnet/tree/master/blocks)
+  * [data](../../../../aeternity/testnet/tree/master/data)
+  * [external_web](../../../../aeternity/testnet/tree/master/external_web)
+  * [web](../../../../aeternity/testnet/tree/master/web)
 
 ***
 
@@ -75,3 +86,6 @@ Sources:
 | 2  | docs | [TestNet docs](../../../../aeternity/testnet/tree/master/docs/)                            |
 | 3  | docs | [Opcodes](../../../../aeternity/chalang/blob/master/opcodes.md)                            |
 | 4  | docs | [data_structures.md](../../../../BumblebeeBat/chalang/tree/master/docs/data_structures.md) |
+
+Get in touch with developers: 
+[æternity’s Slack #erlang-development Channel](https://aeternity.slack.com/)
