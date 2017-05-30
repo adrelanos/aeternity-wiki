@@ -10,14 +10,14 @@
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
-- [æternity Website](http://www.aeternity.com/)
+- [æternity Home Page](http://www.aeternity.com/)
 - [æternity Blog](https://blog.aeternity.com)
 - [Contacts and Communities](Contacts-and-Communities)
 - [Help support our Wiki-Articles!](Need-support-for-Wiki-Articles)
 - [æternity on channel ONE](æternity-on-channel-ONE)
 - [Bounty Programs][bounty]
 - [æternity Wiki-Authors](æternity-wiki-authors)
-- [The æternity Team][team]
+- [æternity Team][team]
 
 ### Research
 - [Idea Box][ideabox]
