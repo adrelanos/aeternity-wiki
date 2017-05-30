@@ -28,7 +28,7 @@ beginning on May 29th.
 
     Please do not change referenced content as it breaks the links
 
-# Wiki Guidelines
+## Wiki Guidelines
 
 The dedicated Wiki channel on Slack is
 [HERE](https://aeternity.slack.com/messages/C59BALQCE/details/) feel
