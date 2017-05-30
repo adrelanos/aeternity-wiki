@@ -18,12 +18,12 @@ free to join us!
 
 ## Before **adding** content:
 
-* read the wiki content, regarding your topic especially thoroughly,
+* Please read the wiki content regarding your topic thoroughly
   before adding any new content (duplicated content will not be counted
-  as wiki bounty)
+  as wiki bounty.)
 * Ask in the
   [Slack Wiki Channel](https://aeternity.slack.com/messages/C59BALQCE/details/)
-  if the content is somewhat meaningful
+  if the content is somewhat meaningful.
 * [read: About GitHub Wikis](https://help.github.com/articles/about-github-wikis/)
 
 ## Page translations
