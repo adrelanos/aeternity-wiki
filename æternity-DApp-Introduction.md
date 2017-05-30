@@ -69,8 +69,15 @@ These are the persistent root folders at moment
   * [bets](../../../../aeternity/testnet/tree/master/bets)
   * [blocks](../../../../aeternity/testnet/tree/master/blocks)
   * [data](../../../../aeternity/testnet/tree/master/data)
+  * [docs](../../../../aeternity/testnet/tree/master/docs)
   * [external_web](../../../../aeternity/testnet/tree/master/external_web)
+  * [oracle_questions](../../../../aeternity/testnet/tree/master/oracle_questions)
+  * [tests](../../../../aeternity/testnet/tree/master/tests)
   * [web](../../../../aeternity/testnet/tree/master/web)
+  
+  **The æternity VM will save here data's: backup, blocks, data
+  oracle_questions**
+
 
 ***
 
