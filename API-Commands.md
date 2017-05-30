@@ -19,7 +19,7 @@ inside this file:
 
 | Function                    | Variables                                  | ok  | Action                        |
 |:----------------------------|:-------------------------------------------|:----|:------------------------------|
-| "height"                    | none                                       | [x] | shows the latest block height |
+| "height" <a name="height"></a>                   | none                                       | [x] | shows the latest block height |
 | "top"                       |                                            | [x] |                               |
 | "sign"                      | TX                                         | [x] |                               |
 | "tx_maker"                  | F                                          | [ ] |                               |
@@ -78,6 +78,8 @@ inside this file:
 | test_it_out                 | none                                       | [ ] |                               |
 |                             |                                            | [ ] |                               |
 |                             |                                            | [ ] |                               |
+
+* <a href="#height">test anchor height</a>
 
 
 [x] = tested and ok / [ ] = untested or not working at moment
