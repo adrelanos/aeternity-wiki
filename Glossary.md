@@ -1,4 +1,8 @@
-# Glossary for æternity blockchain
+# Glossary for æternity Blockchain
+
+An alphabetical list of words related to the æternity Blockchain.
+Some of the words defined below are defined in the way they function in æternity. Their definition / use might be  different for other Blockchains or Software.
+
 
 | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [Numbers](#0123)                        |
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:----------------------------------------|
@@ -10,27 +14,27 @@
 ## A
 
 ### æternity
-æternity is a new blockchain technologie, pleaes read this articles:
+æternity is a new blockchain technology, please read this articles:
 * [Home](https://github.com/aeternity/wiki/wiki),
 * [Understanding æternity](Understanding-æternity)
 * [getting started](Getting-Started)
 
 ### Address
 
-Addresses (Cryptocurrency addresses) are used to receive and send
+Addresses (Crypto-currency addresses) are used to receive and send
 transactions on the network. An address is a string of alphanumeric
 characters, but can also be represented as a scannable QR code.
 
 ### AE
 
-AE is a common unit used to designate one aeon.
+AE is a common unit used to designate one æon.
 
-### Aeon
+### æon
 
-An aeon represents a unit of account and an access right to the æternity
-blockchain. It is transferable. Transaction A message from a user to the
-blockchain. This is how users can use their currency to access the
-blockchain.
+An æon represents a unit of account and an access right to the æternity
+Blockchain. It is transferable. Transaction A message from a user to the
+Blockchain. This is how users can use their currency to access the
+Blockchain.
 
 ### Agreement Ledger
 
@@ -54,7 +58,7 @@ are silicon chips specifically designed to do a single task.
 
 ### Blockchain
 
-A blockchain is a type of distributed ledger, comprised of unchangeable,
+A Blockchain is a type of distributed ledger, comprised of unchangeable,
 digitally recorded data in packages called blocks (rather like collating
 them on to a single sheet of paper). Each block is then ‘chained’ to the
 next block, using a cryptographic signature. This allows block chains to
@@ -63,7 +67,7 @@ the appropriate permissions.
 
 ### Bitcoin (uppercase)
 
-The well known cryptocurrency, based on the proof-of-work blockchain.
+The well known crypto-currency, based on the proof-of-work Blockchain.
 
 
 ### Block Height
@@ -76,12 +80,12 @@ is also called the Genesis Block.
 
 The reward given to a miner which has successfully hashed a transaction
 block. Block rewards can be a mixture of coins and transaction fees,
-depending on the policy used by the cryptocurrency in question, and
+depending on the policy used by the crypto-currency in question, and
 whether all of the coins have already been successfully mined.
 
 ### BTC
 
-BTC is a common unit used to designate one bitcoin.
+BTC is a common abbreviation used to designate Bitcoin.
 
 ***
 
@@ -93,7 +97,7 @@ A central ledger refers to a ledger maintained by a central agency.
 
 ### Confirmation
 
-A confirmation means that the blockchain transaction has been verified
+A confirmation means that the Blockchain transaction has been verified
 by the network. This happens through a process known as mining, in a
 proof-of-work system. Once a transaction is confirmed, it cannot be
 reversed or double spent. The more confirmations a transaction has, the
@@ -110,18 +114,18 @@ A point – either in time, or defined in terms of a set number or volume
 of records to be added to the ledger – where peers meet to agree the
 state of the ledger.
 
-### Cryptocurrency
+### Crypto-currency
 
 A form of digital currency based on mathematics, where encryption
 techniques are used to regulate the generation of units of currency and
-verify the transfer of funds. Furthermore, cryptocurrencies operate
+verify the transfer of funds. Furthermore, crypto-currencies operate
 independently of a central bank.
 
 
 ### Cuckoo Cycle
 
 The "Cuckoo Cycle" PoW algorithm is more power efficient than that of
-current blockchains, and enables the development of better random access
+current Blockchains, and enables the development of better random access
 memory (DRAM) chips for mining. Since low-power devices such as
 smartphones, tablets and laptops can efficiently mine new tokens,
 incentives for mining are decentralized and geographically distributed,
@@ -141,9 +145,9 @@ DApp is the short form of (d)ecentralized (a)application
 
 Decentralized applications also known as DApps, are the next logical
 step in the evolution of technology. A decentralized application is
-similar to a smart contract on the Ethereum blockchain, yet it also has
+similar to a smart contract on the Ethereum Blockchain, yet it also has
 key differences. Unlike smart contracts, Dapps do not need to revolve
-around finance but can leverage blockchain technology for any purpose
+around finance but can leverage Blockchain technology for any purpose
 that comes to mind. <sup>[source](https://themerkle.com/what-is-a-dapp/)</sup>
 
 
@@ -159,7 +163,7 @@ DAO is the short form of (d)ecentralized (a)utonomous (o)rganization
 
 ### Digital Commodity
 
-A digital commodity is a scarce, electronically transferrable,
+A digital commodity is a scarce, electronically transferable,
 intangible, with a market value.
 
 ### Digital Identity
@@ -177,7 +181,7 @@ the other in a continuous ledger. Distributed ledger data can be either
 ### Difficulty
 
 Difficulty, in Proof-of-Work mining, is how hard it is to verify blocks
-in a blockchain network.
+in a Blockchain network.
 
 ### Double Spend
 
@@ -193,13 +197,13 @@ harder it becomes to double spend.
 
 ### ETH
 
-ETH is a common unit used to designate one ether.
+ETH is a common abbreviation used to designate ether.
 
 ### Ethereum
 
-Ethereum is an open-source, public, blockchain-based distributed
+Ethereum is an open-source, public, Blockchain-based distributed
 computing platform featuring smart contract (scripting) functionality.
-Ethereum also provides a cryptocurrency token called "ether", which can
+Ethereum also provides a crypto-currency token called "ether", which can
 be transferred between accounts and used to compensate participant nodes
 for computations performed.
 
@@ -224,7 +228,7 @@ concurrency, distribution and fault tolerance. <sup>[erlang.org](https://www.erl
 ### Governance
 
 A well-defined process of making decisions for the future protocol(s) of
-the blockchain.
+the Blockchain.
 
 ### Genesis Block
 
@@ -277,8 +281,8 @@ more general information than financial records.
 ### Mining
 
 The process by which transactions are verified and added to a
-blockchain. This process of solving cryptographic problems using
-computing hardware also triggers the release of cryptocurrencies.
+Blockchain. This process of solving cryptographic problems using
+computing hardware also triggers the release of crypto-currencies.
 
 ### Multi Signature
 
@@ -298,9 +302,9 @@ addresses have a much greater resistance to theft.
 
 ### Oracle
 
-A mechanism that tells the blockchain facts about the world we live in.
+A mechanism that tells the Blockchain facts about the world we live in.
 Using oracles users can predict the outcome of events, external to the
-blockchain system. Value-Holder A user who owns aeon, or a financial
+Blockchain system. Value-Holder A user who owns æon, or a financial
 derivative in the system.
 
 Zack said: It is the base of the trie
@@ -354,15 +358,15 @@ against uninsured assets.
 
 ### Private Key
 
-A private key is a string of data that shows you have access to aeons in
+A private key is a string of data that shows you have access to æons in
 a specific wallet. Private keys can be thought of as a password; private
 keys must never be revealed to anyone but you, as they allow you to
-spend the aeons from your aeon wallet through a cryptographic signature.
+spend the æons from your æon wallet through a cryptographic signature.
 
 ### Proof-of-Stake
 
 An alternative to the proof-of-work system, in which your existing stake
-in a cryptocurrency (the amount of that currency that you hold) is used
+in a crypto-currency (the amount of that currency that you hold) is used
 to calculate the amount of that currency that you can mine.
 
 ### Proof-of-Work
@@ -417,9 +421,9 @@ system.
 
 ### State Channel
 
-A relationship between two users recorded on the blockchain. It enables
-users to send aeon back and forth, and to create trustless smart
-contracts between them that are enforced and settled by the blockchain.
+A relationship between two users recorded on the Blockchain. It enables
+users to send æon back and forth, and to create trustless smart
+contracts between them that are enforced and settled by the Blockchain.
 Hash A hash takes as input a binary of any size. It gives a fixed sized
 output. The same input always hashes to the same output. Given an
 output, one cannot calculate the input.
@@ -428,15 +432,15 @@ output, one cannot calculate the input.
 
 ## T
 
-### Tokenless Ledger
+### Token-less Ledger
 
-A tokenless ledger refers to a distributed ledger that doesn’t require a
+A token-less ledger refers to a distributed ledger that doesn’t require a
 native currency to operate.
 
 ### Transaction Block
 
 A collection of transactions on the network, gathered into a block that
-can then be hashed and added to the blockchain.
+can then be hashed and added to the Blockchain.
 
 ### Transaction Fee
 
@@ -499,8 +503,7 @@ set this word inside a link like this [balblablub](Glossary#blablablub)
 
 But you have no time to explain it at this moment, than ! If doesn't
 matter, do it later, do it never, another one will do it for you, or no
-one will it do. The main thing is linking to here. (please fix my bad
-english, if know what I mean)
+one will it do. The main thing is linking to here.
 
 ### Links to external sources from every content
 
