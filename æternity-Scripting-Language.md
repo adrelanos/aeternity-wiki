@@ -56,7 +56,7 @@ stack changes.
 | 0      | int    | -- X          | the next 32 bits = 4 bytes are put on the stack as a single binary. |
 | 2      | binary | N -- L        | the next N * 8 bits are put on the stack as a single binary.        |
 
-[☝](#)
+[☝](#opcodes)
 ### other opcodes
 
 | opcode | symbol | stack changes | comment                                                                        |
@@ -65,7 +65,7 @@ stack changes.
 | 11     | crash  |               | code stops execution here. Whatever is on top of the stack is the final state. |
 | 12     | nop    | ( -- )        | does nothing.                                                                  |
 
-[☝](#)
+[☝](#opcodes)
 ### stack opcodes
 
 | opcode | symbol | stack changes  | comment                                 |
@@ -79,7 +79,7 @@ stack changes.
 | 26     | tuckn  | X N --         | inserts X N-deeper into the stack.      |
 | 27     | pickn  | N -- X         | grabs X from N-deep into the stack.     |
 
-[☝](#)
+[☝](#opcodes)
 ### r-stack opcodes
 
 | opcode | symbol | stack changes | comment                     |
@@ -88,7 +88,7 @@ stack changes.
 | 31     | r>     | -- V          | moves from return to stack  |
 | 32     | r@     | -- V          | copies from return to stack |
 
-[☝](#)
+[☝](#opcodes)
 ### crypto opcodes
 
 | opcode | symbol     | stack changes              | comment                                                                                                  |
@@ -97,7 +97,7 @@ stack changes.
 | 41     | verify_sig | Sig Data Pub -- true/false |                                                                                                          |
 | 42     | pub2addr   | Pub -- Addr                | This is difficult because we can't represent tuples. Maybe pinkcrypto:address needs to use lists instead |
 
-[☝](#)
+[☝](#opcodes)
 ### arithmetic opcodes
 
 Note about arithmetic opcodes: they only works with 4-byte integers.
@@ -116,7 +116,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 57     | rem    | A B -- C              | only works for integers. |
 | 58     | ==     | X Y -- true/false X Y |                          |
 
-[☝](#)
+[☝](#opcodes)
 ### conditions opcodes
 
 | opcode | symbol | stack changes | comment                                 |
@@ -125,7 +125,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 71     | else   |               | part of an switch conditional statement |
 | 72     | then   |               | part of switch conditional statement.   |
 
-[☝](#)
+[☝](#opcodes)
 ### logic opcodes
 
 | opcode | symbol | stack changes                       | comment                                                                            |
@@ -138,7 +138,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 85     | bor    | 4 8 -- 12                           |                                                                                    |
 | 86     | bxor   | 4 12 -- 8                           |                                                                                    |
 
-[☝](#)
+[☝](#opcodes)
 ### check state opcodes
 
 | opcode | symbol        | stack changes                        | comment                                                                                                   |
@@ -158,7 +158,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 102    | channels      | -- C                                 | the root of the channels trie from the previous block.                                                    |
 | 103    | verify_merkle | Root Proof Value -- Value true/false |                                                                                                           |
 
-[☝](#)
+[☝](#opcodes)
 ### function opcodes
 
 | opcode | symbol  | stack changes | comment                                                                                                                        |
@@ -168,7 +168,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 112    | recurse |               | crash. this word should only be used in the definition of a word.                                                              |
 | 113    | call    |               | Use the binary at the top of the stack to look in our hashtable of defined words. If it exists call the code, otherwise crash. |
 
-[☝](#)
+[☝](#opcodes)
 ### variables opcodes
 
 | opcode | symbol | stack changes | comment                     |
@@ -176,7 +176,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 120    | !      | X -- Y        | only stores 32-bit integers |
 | 121    | @      | Y -- X        |                             |
 
-[☝](#)
+[☝](#opcodes)
 ### lists opcodes
 
 | opcode | symbol  | stack changes               | comment                                                                                        |
@@ -189,7 +189,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 | 136    | reverse | F -- G                      | only works on lists                                                                            |
 | 137    | is_list | L -- L B                    | checks if the thing on the top of the stack is a list or not. Does not drop it.                |
 
-[☝](#)
+[☝](#opcodes)
 ***
 
 **These are compiler macros to make it easier to program.**
@@ -204,7 +204,7 @@ FFFFFFFF is the highest integer and 00000000 is the lowest.
 * Lists are easy with these 3 words: "[", "," and, "]". You don't need
   spaces between them either. example: "[1,2,3,4]"
 
-[☝](#)
+[☝](#opcodes)
 ***
 
 ***
