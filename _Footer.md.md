@@ -10,4 +10,4 @@
 | [中文](https://github.com/aeternity/wiki/wiki/[Chinese]-æternity-TOC)
 | [Turkish](https://github.com/aeternity/wiki/wiki/[Turkish]-æternity-TOC)
 | [Polski](https://github.com/aeternity/wiki/wiki/%5BPolish%5D-aeternity-Home)
-| [Romanian](https://github.com/aeternity/wiki/wiki/%5BRomanian%5D-Home)
+| [Romanian](https://github.com/aeternity/wiki/wiki/%5BRomanian%5D-Home) ]
