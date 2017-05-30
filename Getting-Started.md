@@ -3,10 +3,6 @@ Anyone who wants to store or transfer value with unparalleled speed, reliability
 ## Contributors
 
 Contributors can support æternity directly by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE on an exchange once aeon has been listed on them.
-
-## Speculators
-
-Although we don't endorse it, many people will want to speculate on the price of aeon. Speculators purchase assets hoping to make a short-term profit based on anticipating developments in fundamentals or the emergence of certain profitable trading patterns.
  
 ## Contract writers and developers
 
