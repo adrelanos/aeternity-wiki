@@ -10,7 +10,7 @@
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
-- [æternity website](http://www.aeternity.com/)
+- [æternity Website](http://www.aeternity.com/)
 - [æternity Blog](https://blog.aeternity.com)
 - [Contacts and Communities](Contacts-and-Communities)
 - [Help support our Wiki-Articles!](Need-support-for-Wiki-Articles)
@@ -25,7 +25,7 @@
 
 ### æternity Technologies
 - [Technology of æternity][tech]
-- [æternity in the blockchain space](æternity-in-the-blockchain-space)
+- [æternity in the Blockchain Space](æternity-in-the-blockchain-space)
 - [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
 - [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
 
