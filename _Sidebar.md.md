@@ -10,7 +10,7 @@
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
-- [æternity Home Page](http://www.aeternity.com/)
+- [æternity website](http://www.aeternity.com/)
 - [æternity Blog](https://blog.aeternity.com)
 - [Contacts and Communities](Contacts-and-Communities)
 - [Help support our Wiki-Articles!](Need-support-for-Wiki-Articles)
