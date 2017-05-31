@@ -1,6 +1,8 @@
 ![whitepaper unofficial translation](http://aeternity.de/images-by-zwilla/whitepaper-header.jpg)
 
-æternity blockchainDie vertrauenswürdige, dezentralisierte und rein
+**æternity blockchain**
+
+Die vertrauenswürdige, dezentralisierte und rein
 funktionale Orakelmaschine
 
 1. Februar 2017 V0.1
@@ -16,17 +18,13 @@ funktionale Orakelmaschine
 * **Das original Dokument findest du hier:
   [original æternity Whitepaper Version 0.01 vom 06.02.2017](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)**
 
-# æternity Whitepaper for development purposes
+# æternity Whitepaper für Entwicklungszwecke
 
->We need this document to refer to the full text if we write some
->developer tutorials or other stuff Note that this is a draft and will
->change likely!
+## INHALT
 
-## CONTENTS
+* [Zusammenfassung](#abstract)
 
-* [Abstract](#abstract)
-
-* I. [Introduction](#introduction)
+* I. [Einleitung](#einleitung)
   * [Previous Work](#previous-work)
 
 * II. [æTERNITY BLOCKCHAIN](#æternity-blockchain)
@@ -126,7 +124,7 @@ Identitätssystem werden in Kürze zur Verfügung gestellt.
 
 ***
 
-## Introduction
+## Einleitung
 
 White Paper section: I
 
