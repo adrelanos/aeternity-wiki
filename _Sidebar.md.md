@@ -44,6 +44,7 @@
 ### Handling Technologies & Infrastructure
 - [API Commands](API-Commands)
 - [API Examples](Api-Examples)
+- [æternity-Erlang-Modules](æternity-Erlang-Modules)
 - [Terminal interface commands](Terminal-interface-commands)
 - [Testnet setup start and use](testnet-setup-start-and-use)
 - [Troubleshooting][troubleshooting]
