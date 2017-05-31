@@ -26,8 +26,7 @@
 * [~Subpages~](#subpages)
 * [Using Mediawiki format?](#using-mediawiki-format)
 * [Migrating Zack's notes into wiki format](#migrating-zacks-notes-into-wiki-format)
-* [Handling of page translations](#handling-of-page-translations)
-* [Handling of page titles](#handling-of-page-titles)
+
 
 ***
 
@@ -172,23 +171,4 @@ Even though plugins are unlikely to be supported, the Mediawiki format is suppor
 ## Migrating Zack's notes into wiki format
 
 Over the months of development Zack has accumulated a lot of notes - https://github.com/aeternity/testnet/tree/master/docs - even though the folder name says `docs` it is more suited for `wiki` - a lot of use cases and great examples.
-***
-## Handling of page translations
-
-**If you translate a page into your language do it this way:**
-
-**page title example:**
-- [German]-Titel-der-original-Seite
-- [Spanish]-Título-de-la-página-de-origen
-- [Italian]-Titolo-della-pagina-di-origine
-
-and so on.
-***
-
-## Handling of page titles
-
-- Do not change the name of the page titles until 30th of May 2017.
-Because this will break something inside the commit history, I think it's only an issue from outside the
-æternity team but the community will be nervous to be losing a lot of work, because @zwilla accidentally did it, too many times. (He really sorry for that)
-
 ***
