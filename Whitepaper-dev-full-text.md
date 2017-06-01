@@ -729,7 +729,7 @@ system variables will be deter-mined via on-chain prediction market
 system, which allowsthe users to participate and bring in their
 knowledge.
 
-Forthe PoW algorithm we currently favor a variant of Tromp'sCuckoo
+For the PoW algorithm we currently favor a variant of Tromp'sCuckoo
 Cycle, one which is memory bound, and also isan "indirectly useful
 Proof-of-Work", as it requires lesselectricity to run, but instead has
 another limiting factor,the one of memory latency availability. This
