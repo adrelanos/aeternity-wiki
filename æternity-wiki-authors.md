@@ -463,10 +463,10 @@
 ### [0brand](https://github.com/0brand)
 | No | æTERNITY WIKI  Contribution and support                                    |
 |:---|:---------------------------------------------------------------------------|
-| 1  |   [Ubuntu Node Commnads](#Ubuntu-Node-Commnads)|
-| 2  |   [Transaction Types](#Transaction-Types)|
-| 3  |   [Merkle Trees](#Merkle-Trees)|
-| 4  |   [Keeping your Crypotcurrency Safe & Secure](#Keeping-your-Cryptocurrency-Safe-&Secure)|
+| 1  |   [Ubuntu Node Commnads](https://github.com/aeternity/wiki/wiki/Ubuntu-Node-Commands)|
+| 2  |   [Transaction Types](https://github.com/aeternity/wiki/wiki/Transaction-Types)|
+| 3  |   [Merkle Trees](https://github.com/aeternity/wiki/wiki/Merkle-Trees#%C3%A6ternity-is-the-blockchain-to-rule-them-all)|
+| 4  |   [Keeping your Crypotcurrency Safe & Secure](https://github.com/aeternity/wiki/wiki/Keeping-your-Cryptocurrency--Safe-&-Secure)|
 
 
 
