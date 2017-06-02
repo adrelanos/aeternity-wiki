@@ -103,7 +103,8 @@
 - [[Polish] æternity Home]([Polish]-æternity-Home)
 - [[Romanian] Home]([Romanian]-Home)
 - [[Russian] æternity TOC]([Russian]-æternity-TOC)
-- [[Spanish] æternity TOC]([Spanish]-æternity-TOC)
+- [[Español] æternity TOC]([Spanish]-æternity-TOC)
+  - [[Español]-Preguntas-Frecuentes---FAQ]([Español]-Preguntas-Frecuentes---FAQ)
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
 ### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
