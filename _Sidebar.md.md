@@ -1,6 +1,6 @@
 [**æternity Contribution Wallet**](https://wallet.aeternity.com)
 
-[**Wiki Editing Guidelines & To do list**][Wiki-Guidelines-&-To-Do's]
+[**Wiki Editing Guidelines & To do list**](Wiki-Guidelines-&-To-Do's)
 
 ### Basics
 - [Home](https://github.com/aeternity/wiki/wiki)
@@ -53,7 +53,7 @@
 
 ### How to
 - [How To Sign A Message Using Your Private Key](How-to-sign-a-message-with-a-private-key%3F)
-- [How To Claim Your Ledger][Claiming-Your-Ledger-Nano-S]
+- [How To Claim Your Ledger](Claiming-Your-Ledger-Nano-S)
 - [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
 
