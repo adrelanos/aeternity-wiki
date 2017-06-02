@@ -14,8 +14,7 @@ align="left" hspace="10" vspace="10"></a>
 .
 
 
-* [Preguntas Frecuentes FAQ]([Español]-Preguntas-Frecuentes---FAQ.md)
-
+* [Preguntas Frecuentes FAQ]([Español]-Preguntas-Frecuentes---FAQ)
 
 **Libro blanco**
 * [Libro blanco (Español)](Whitepaper_Español)
