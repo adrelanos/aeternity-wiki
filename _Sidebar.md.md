@@ -5,8 +5,8 @@
 ### Basics
 - [Home](https://github.com/aeternity/wiki/wiki)
 - [Getting Started](Getting-Started)
-- [Understanding æternity][Understanding-æternity]
-- [Frequently Asked Questions][Frequently-Asked-Questions]
+- [Understanding æternity](Understanding-æternity)
+- [Frequently Asked Questions](Frequently-Asked-Questions)
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
@@ -15,29 +15,29 @@
 - [Contacts and Communities](Contacts-and-Communities)
 - [Help support our Wiki-Articles!](Need-support-for-Wiki-Articles)
 - [æternity on channel ONE](æternity-on-channel-ONE)
-- [Bounty Programs][Bounty]
+- [Bounty Programs](Bounty)
 - [æternity Wiki-Authors](æternity-wiki-authors)
-- [æternity Team][æternity-Team]
+- [æternity Team](æternity-Team)
 
 ### Research
 - [Idea Box][Idea-Box]
-- [Research and Theory][Research-and-Theory]
+- [Research and Theory](Research-and-Theory)
 
 ### æternity Technologies
-- [Technology of æternity][æternity-Technology]
+- [Technology of æternity](æternity-Technology)
 - [æternity in the Blockchain Space](æternity-in-the-blockchain-space)
 - [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
 - [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
 
 
 ### Infrastructure
-- [æternity Contracts][æternity-Contracts]
+- [æternity Contracts](æternity-Contracts)
 - [Channels](Channels)
 - [Cuckoo Cycles](Cuckoo-Cycles)
 - [Merkle Trees](Merkle-Trees)
-- [Mining][mining]
-- [[Oracles]]
-- [[State Channels]]
+- [Mining](Mining)
+- [Oracles](Oracles)
+- [State Channels](State-Channels)
 - [Transaction Types](Transaction-Types)
 - [Full Text Search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
 
@@ -47,12 +47,12 @@
 - [æternity-Erlang-Modules](æternity-Erlang-Modules)
 - [Terminal interface commands](Terminal-interface-commands)
 - [Testnet setup start and use](testnet-setup-start-and-use)
-- [Troubleshooting][Troubleshooting]
+- [Troubleshooting](Troubleshooting)
 - [Ubuntu Node Commands](Ubuntu-Node-Commands)
-- [Windows Installation][Installing-on-Windows-(work-in-progress,-help-wanted)]
+- [Windows Installation](Installing-on-Windows-%28work-in-progress%2C-help-wanted%29)
 
 ### How to
-- [How To Sign A Message Using Your Private Key][How-to-sign-a-message-with-a-private-key%3F]
+- [How To Sign A Message Using Your Private Key](How-to-sign-a-message-with-a-private-key%3F)
 - [How To Claim Your Ledger][Claiming-Your-Ledger-Nano-S]
 - [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
@@ -67,7 +67,7 @@
    - [Whitepaper full text(en)](Whitepaper-dev-full-text)
 
 ### æternity White Paper
-- [English][Whitepaper_English]
+- [English](Whitepaper_English)
 - [中文](Whitepaper_Chinese)
 - [Deutsch](Whitepaper_Deutsch)
 - [Español](Whitepaper_Español)
@@ -75,7 +75,7 @@
 - [Bahasa Indonesia](Whitepaper_Indonesia)
 - [Italiano](Whitepaper_Italian)
 - [日本語](Whitepaper_Japanese)
-- [한국어][Whitepaper_korean-(%ED%95%9C%EA%B5%AD%EC%96%B4)]
+- [한국어](Whitepaper_korean-(%ED%95%9C%EA%B5%AD%EC%96%B4))
 - [Português](Whitepaper-Português)
 - [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
@@ -107,8 +107,8 @@
 - [[Russian] æternity TOC]([Russian]-æternity-TOC)
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
-### [Drafts][æternity-wiki-draft-documents] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
+### [Drafts](æternity-wiki-draft-documents) / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
 - [Dedicated Wiki channel on Slack](https://pacific-beach-20900.herokuapp.com/)
-- [æternity-Documentation][æternity-Documentation]
+- [æternity-Documentation](æternity-Documentation)
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
 ***
