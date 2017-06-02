@@ -86,6 +86,8 @@
 
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
+- [[Español] æternity TOC]([Español]-æternity-TOC)
+  - [[Español]Preguntas Frecuentes FAQ]([Español]-Preguntas-Frecuentes---FAQ)
 - [[French] æternity TOC]([French]-æternity-TOC)
 - [[German] æternity TOC]([German]-æternity-TOC)
    - [[German] Frequently Asked Questions]([German]-Frequently-Asked-Questions)
@@ -103,8 +105,6 @@
 - [[Polish] æternity Home]([Polish]-æternity-Home)
 - [[Romanian] Home]([Romanian]-Home)
 - [[Russian] æternity TOC]([Russian]-æternity-TOC)
-- [[Español] æternity TOC]([Español]-æternity-TOC)
-  - [[Español]Preguntas Frecuentes FAQ]([Español]-Preguntas-Frecuentes---FAQ)
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
 ### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
