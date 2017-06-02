@@ -102,7 +102,7 @@ wondering what all this has to do with keeping our digital currency
 safe. Well, we are about to get to that now that we know the difference
 between open-source and proprietary software.
 
-- **Proprietary operating systems**
+- **Proprietary**
 
 Proprietary operating systems like Windows has many more users than Mac and Linux combined. Since
 they have all of these user does it mean that is is more secure? Why else would so many people use
@@ -129,7 +129,7 @@ there are any major security holes in the OS. We just have to take
 Microsoft at it word that there are no back doors (insert laughter) or
 security vulnerabilities (laughing even harder).
 
-- **Open-source Operating systems**
+- **Open-source**
 
 Open-source operating systems like Linux do not have nearly as many
 user as Window but they are much more secure. The source code is freely
@@ -202,22 +202,25 @@ closed-source Windows OS.
 ### Choosing Your Linux Distribution 
 With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, all though many may share the same Linux kernel there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
 
-**Debian** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
+**[Debian](https://www.debian.org/)** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
 
 Advantages 
-* Efficient and well integrated packaging for a more robust system
+* Efficient and well integrated packaging for a more robust system.
 * Full disk encryption
-* Publicly available bug tracking system
+* iptables - a user-space application program that allows users to configure the tables provided by the Linux 
+             kernel firewall (implemented as different Netfilter modules) and the chains and rules it stores.
+* SELinux - Linux kernel security module that provides a mechanism for supporting access control security policies.
+* Publicly available bug tracking system.
 * Stability - some users report running Debian 1+ year without a single reboot!
-* Security - being 100% open, security issues are exposed and plugged quickly 
+* Security - being 100% open, security issues are exposed and plugged quickly. 
 ***
-**Qubes** is a security-focused desktop operating system that aims to provide security through isolation. Virtualization is performed by the Xen hypervisor , and user environments can be based on Fedora, Debian, Whonix, and Windows, among other operating systems.
+**[Qubes](https://www.qubes-os.org/)** is a security-focused desktop operating system that aims to provide security through isolation. In order to secure a desktop, a Qubes user should take care of isolating various environments, so that if one of the components gets compromised, the malicious software would get access to only the data inside that environment. With Qubes The assumption is that there can be no perfect, bug-free desktop environment. Such an environment counts millions of lines of code, billions of software/hardware interactions. To provide isolation, Qubes leverages virtualization through the Xen hypervisor to provide isolation between two different qubes. User environments can be based on Fedora, Debian, Whonix, and Windows, among other operating systems.
 
 Advantages
 
 * The Xen hypervisor and administrative domain (dom0) in Qubes OS actively discourages any activity other than running VMs.
-* The network stack and WiFi drivers are running in a dedicated, unprivileged network VM (NetVM), which substantially reduces the attack surface.
-* An additional firewall VM is used to house the Linux kernel-based firewall, providing extra protection against a compromised NetVM.
+* The network stack and Wi-Fi drivers are running in a dedicated, unprivileged network VM (NetVM), which substantially reduces the attack surface.
+* An additional firewall VM is used to house the Linux kernel-based firewall, providing extra protection against a  compromised NetVM.
 * By default, Qubes OS is firewalled and no incoming ports are open.
 * No networking is present in the administrative domain (dom0). Even dom0 upgrades are done in a dedicated UpdateVM.
   (currently set by default to NetVM), before those are verified and installed in dom0.
@@ -226,9 +229,19 @@ Advantages
   limiting network connections exclusively to the chosen email server.
 * Protection against unintentional leaks of critical user data is possible by setting an empty NetVM field for the 
   corresponding qube.
-*** 
+***
+**[Whonix](https://www.whonix.org/wiki/Main_Page)**  is a desktop operating system designed for advanced security and privacy. Whonix mitigates the threat of common attack vectors while maintaining usability. Online anonymity is realized via fail-safe, automatic, and desktop-wide use of the Tor network. A heavily reconfigured Debian base is run inside multiple virtual machines, providing a substantial layer of protection from malware and IP address leaks. Commonly used applications are pre-installed and safely pre-configured for immediate use. The user is not jeopardized by installing additional applications or personalizing the desktop. Whonix is under active development and is the only operating system designed to be run inside a virtual machine and paired with Tor.
 
-**Tails** (which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS . It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
+Advantages
+
+* Based on Debian, which is well known for its security and stability.
+* Only connections through the Tor network are permitted 
+* Servers can be run, and applications used anonymously over the internet.
+* DNS leaks are impossible
+* Malware with root privileges cannot discover the user's real IP address.
+* Threats posed by misbehaving applications and user error are minimized.
+
+**[Tails](https://tails.boum.org/)** (which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS . It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
 
 Advantages
 
@@ -239,7 +252,7 @@ Advantages
   could very well have your password.
 * The Tails devs have already tested and configured much of the software for you.  Most of the applications you
   will need come pre installed.
-* Linux Unified Key Setup (LUKS) for persistent volume.
+* Uses state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging. .
 ***
 
 
@@ -296,13 +309,16 @@ We are going to start of with some guidelines for making a strong password.
 * Do not use the default password that came with your device or user account.
 * **Do not write your password down on a piece of paper or sticky note!** If you do why bother making a strong 
   password?
-Now that we have some guidelines we can start working on our password. As mentioned above password length is very important but we also want a password with uppercase and lowercase letters, and it should have numbers and special characters such as [ &*?@#: ]. We also want our passwords to be as random as possible.  Random passwords consist of a string of symbols of specified length taken from some set of symbols using a random selection process in which each symbol is equally likely to be selected. The symbols can be individual characters from a character set (e.g., the ASCII character set), syllables designed to form pronounceable passwords, or even words from a word list (thus forming a passphrase). Many users choose a password that is memorable, however the easier a password is for the user to remember generally means it will be easier for an attacker to guess. On the other hand passwords which are difficult to remember may also reduce the security of the system because (a)  users may need to write down their password on a sticky note, which in turn will end up affixed to their desktop  or computer monitor. (b) users are more likely to re-use the same password for all of their accounts.    
 
-One of the better ways to create a strong password is to use memory techniques.  With mnemonic passwords users develop memorable phrases and use them to generate more or less random passwords which are nevertheless relatively easy for the user to remember. For instance, the first letter of each word in a memorable phrase. For example, if the memorable phrase was 'four red balls rolled down the hill and stopped at Jose's house', the password would be [ frbrdthasaJh ]. This password is easy to remember but it does not have numbers or special characters. Another way to make mnemonic passwords is called after-the-fact mnemonics: After the password has been established, invent a mnemonic that fits. It does not have to be reasonable or sensible, only memorable. This allows passwords to be random. So If you created the password [ 7paHjolT? ] a possible mnemonic would be 'seven people and Horses jump over lost trees? ' .  
+Now that we have some guidelines we can start working on our password. As mentioned above password length is very important but we also want a password with uppercase and lowercase letters, and it should have numbers and special characters such as [ &*?@#: ].  We also want our passwords to be as random as possible.  Random passwords consist of a string of symbols of specified length taken from some set of symbols using a random selection process in which each symbol is equally likely to be selected. The symbols can be individual characters from a character set (e.g., the ASCII character set), syllables designed to form pronounceable passwords, or even words from a word list (thus forming a passphrase). Many users choose a password that is memorable, however the easier a password is for the user to remember generally means it will be easier for an attacker to guess. On the other hand passwords which are difficult to remember may also reduce the security of the system because (a)  users may need to write down their password on a sticky note, which in turn will end up affixed to their desktop  or computer monitor. (b) users are more likely to re-use the same password for all of their accounts.    
 
-Another way to create strong passwords is to combine mnemonic with phonetic pronunciation. Phonetic pronunciation is means how something sounds. Instead of writing what you see [e.g , at , and , four ] we are going to type how it sounds (e.g [ate = 8] [at = @] [and = & ] [four = 4) . Obviously we can't do this for every word but it is useful for some phrases . For example the phrase we used from earlier 'four red balls rolled down the hill and stopped at Jose's house'.  Our new password would be [ 4rbrdth&s@Jh ].  As you can see the password now has upper and lower case letters, numbers and special characters. Although it is a little bit shorter than what is recommended it is still a fairly strong password and easy to remember. There are however other ways we can make our passwords stronger.
+One of the better ways to create a strong password is to use memory techniques.  With mnemonic passwords users develop memorable phrases and use them to generate more or less random passwords which are nevertheless relatively easy for the user to remember. For instance, the first letter of each word in a memorable phrase. For example, if the memorable phrase was 'four red balls rolled down the hill and stopped at Jose's house', the password would be         [ frbrdthasaJh ]. This password is easy to remember but it does not have numbers or special characters. Another way to make mnemonic passwords is called after-the-fact mnemonics: After the password has been established, invent a mnemonic that fits. It does not have to be reasonable or sensible, only memorable. This allows passwords to be random. So If you created the password [ 7paHjolT? ] a possible mnemonic would be 'seven people and Horses jump over lost trees? ' .  
 
-We have gone over mnemonic and phonetic password and there is another great way to make strong passwords.  This time we are we are going to combine everything we have learned and have a little fun at the same time. What we are going to do is make up a funny story.  It can be anything you want it to be and it does not have to make any sense. Actually the less sense the story makes the better.  We want to have a password with at least 12-14 characters, upper and lower case letters and numbers. Remember to use phonetic pronunciation. For example [ cH9`b8L^aydS| ]           '  camels Have nine backticks but ate Long carrots are yummy dogs smoke pipes  '.  I'm sure you are thinking "How the heck could I remember that?"  You have to remember we all think differently. A password I created may be difficult for you to remember and vise versa. The way my mind associates things is unique. That story makes no sense but is easy for me to remember.  You can also use this method to create a password over the course of a week. On day one create a 4-5 character "base password ", then add 2-3 characters every day until you are satisfied with the strength of the password Keep in mind once you make a memorize a strong password you can make it stronger over time.  Every week you can add a 1 character or even 2. 
+Another way to create strong passwords is to combine mnemonic with phonetic pronunciation. Phonetic pronunciation is means how something sounds. Instead of writing what you see [e.g , at , and , four ] we are going to type how it sounds (e.g [ate = 8] [at = @] [and = & ] [four = 4) . Obviously we can't do this for every word but it is useful for some phrases . For example the phrase we used from earlier 'four red balls rolled down the hill and stopped at Jose's house'.  Our new password would be **4rbrdth&s@Jh**.  As you can see the password now has upper and lower case letters, numbers and special characters. Although it is a little bit shorter than what is recommended it is still a fairly strong password and easy to remember. There are however other ways we can make our passwords stronger.
+
+We have gone over mnemonic and phonetic password and there is another great way to make strong passwords.  This time we are we are going to combine everything we have learned and have a little fun at the same time. What we are going to do is make up a funny story.  It can be anything you want it to be and it does not have to make any sense. Actually the less sense the story makes the better.  We want to have a password with at least 12-14 characters, upper and lower case letters and numbers. Remember to use phonetic pronunciation. 
+
+For example **cH9`b8L^aydS|** could be made into this memorable phrase. _camels Have nine backticks but ate Long carrots are yummy dogs smoke pipes_  '.   I'm sure you are thinking "How the heck could I remember that?"  You have to remember we all think differently. A password I created may be difficult for you to remember and vise versa. The way my mind associates things is unique. That story makes no sense but is easy for me to remember.  You can also use this method to create a password over the course of a week. On day one create a 4-5 character "base password ", then add 2-3 characters every day until you are satisfied with the strength of the password Keep in mind once you make a memorize a strong password you can make it stronger over time.  Every week you can add a 1 character or even 2. 
 
  
 
