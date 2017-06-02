@@ -58,17 +58,17 @@ be verified with a cryptographic hash function.
 
     In this example, lets say Bob wants to send Alice a block of data and he also 
     wants Alice to be able to verify that the data she received has not been corrupted
-    corruptedor tampered with in transit. 
+    or tampered with in transit. 
 
     What Bob will do is use a cryptographic hash function like sha-2 to create
-    a hash of the block of data before he sends it to Alice. In the example
-    below, Bob uses sha-256 to hash the block of data which in this case is a
+    a hash of the block of data before he sends it to Alice. In Example 1,
+    Bob uses sha-256 to hash the block of data which in this case is a
     short sentence:
 
+    Example 1.    æternity is the blockchain to rule them all! 
+  
 
-  **æternity is the blockchain to rule them all!**
-
-The hash of the above sentence is:
+The hash of the example 1 sentence is:
 `cb7ee542fe6bf21b8b3f18410f3a034a97fc35de43e935674ce97e36e278efad`
 
     After Bob has created the hash, he sends the original data over the
@@ -81,12 +81,12 @@ The hash of the above sentence is:
     
     What Alice will do next is us the same cryptographic hash function that 
     Bob used, and create a hash of the data that she received: referred 
-    to as a checksum. Lets say that Alice received the below sentence from
-    Bob.
+    to as a checksum. Example 2. is sentence or block of data Alice received 
+     from Bob.
 
-   **æternity is the blockchain to rule them all**
+     Example 2.   æternity is the blockchain to rule them all
 
-The hash of the above sentence is:
+The hash of the example 2 sentence is:
 `a931b75f2afee220bf3a62f8a8f67301c932a2a7cd8ac5ce26831896b9b433fb`                                                                                                                               
 
     
