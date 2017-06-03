@@ -1,3 +1,9 @@
+# Sign a Message:
+
+* []
+* [BITCOIN](#bitcoin)
+* [ETHEREUM](#ethereum)
+
 There are many ways of signing a message with a private key.
 
 Quite rightfully there are not many websites that allow you to do so - it would be suicide to trust anyone with your private key.
@@ -88,5 +94,7 @@ To sign a message perform the following steps:
 - click "View wallet info" tab
 - choose how you would like to access your wallet and decrypt it locally
 - scroll to the section "Sign or verify message" on the bottom of the page
-- enter your message and optionally enter a date before clicking the "Sign message" button
+- ~enter your message and optionally enter a date before clicking the „Sign message“ button~
 
+- you can open this at the internet: https://www.myetherwallet.com/signmsg.html
+or just add signmsg.html behind you local version at the address bar of you browser.
