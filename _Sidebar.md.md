@@ -1,6 +1,7 @@
-[**æternity Contribution Wallet**](https://wallet.aeternity.com)
-
-[**Wiki Editing Guidelines & To do list**](Wiki-Guidelines-&-To-Do's)
+* [**æternity Contribution Wallet**](https://wallet.aeternity.com)
+    * [æternity contribution guide](https://blog.aeternity.com/guide-for-phase-2-how-to-send-ether-to-%C3%A6ternitys-contribution-wallet-f62fe807c12)
+***
+* [**Wiki Editing Guidelines & To do list**](Wiki-Guidelines-&-To-Do’s)
 
 ### Basics
 - [Home](https://github.com/aeternity/wiki/wiki)
