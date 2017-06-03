@@ -20,7 +20,7 @@
 - [æternity Team](æternity-Team)
 
 ### Research
-- [Idea Box][Idea-Box]
+- [Idea Box](Idea-Box)
 - [Research and Theory](Research-and-Theory)
 
 ### æternity Technologies
