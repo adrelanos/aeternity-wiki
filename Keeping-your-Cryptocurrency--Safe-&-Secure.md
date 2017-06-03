@@ -27,7 +27,7 @@ The first thing that we will go over is physical security. This means
 restricting physical access to your computer and hardware wallets. How
 do we do this? It starts with following the dos and don'ts.
 
-* If you are leaving your house it is a good to put your laptop and
+* If you are leaving your house it is a good idea to put your laptop and
   hardware wallet in a safe. Not all of use have a safe in our homes,
   however they are worth the money if we have something of value.
   Otherwise, if no safe is available hiding your hardware in a place
@@ -50,7 +50,7 @@ do we do this? It starts with following the dos and don'ts.
   or dorm room. Once again if you must step out for a moment, use a
   Kensington lock. Remember thieves will go after what is easiest for
   them to steal. If they have a choice between 2 identical laptops and 1
-  of them is secured with a Kensington lock, which one do you thing they
+  of them is secured with a Kensington lock, which one do you think they
   will go for? They will take the path of least resistance and steal the
   laptop that does not have a notebook lock.
 
@@ -343,6 +343,30 @@ Generally there are 2 different types of password managers
  
 
 ### Man in the middle attacks
+A man-in-the-middle attack (MITM) is an attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with one other. An example of a man-in-the-middle attack is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker.he attacker must be able to intercept all relevant messages passing between the two victims and inject new ones. This is straightforward in many circumstances; for example, an attacker within reception range of wireless access point can insert himself as a man-in-the-middle. 
+
+As an attack that aims at circumventing mutual authentication, or lack thereof, a man-in-the-middle attack can succeed only when the attacker can impersonate each endpoint to their satisfaction as expected from the legitimate end. All protocols include some form of endpoint authentication specifically to prevent attacks. For example, authentication forwarded to either one or two parties using a mutually trusted certificate of authority.
+
+Example:
+
+     Suppose Bob wishes to communicate with Alice. Meanwhile, Mallory wishes to intercept the  
+     conversation to eavesdrop and optionally to deliver a false message to Bob.
+
+     First, Alice asks Bob for his public key. If Bob sends his public key to Alice, but Mallory
+     is able to intercept it, a man-in-the-middle attack can begin. Mallory sends a forged
+     message to Alice that purports to come from Bob, but instead includes Mallory's public key.
+
+     Alice, believing this public key is Bob's, encrypts her message with Mallory's key and
+     sends the encrypted message back to Bob. Mallory again intercepts, decrypts the message
+     using her private key, possibly alters it if she wants, and re-encryptes  it using the
+     public key Bob originally sent to Alice. When Bob receives the newly encrypted message he
+     believes it came from Alice.
+
+
+
+
+
+
 ### Cryptocurrency Wallets
 
 **Software Wallets** **Hardware Wallets** #
