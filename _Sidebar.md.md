@@ -7,6 +7,7 @@
 - [Getting Started](https://github.com/aeternity/wiki/wiki/Getting-Started)
 - [Understanding æternity][understandAE]
 - [Frequently Asked Questions][faq]
+   - [missing answer](Social-Channel-Open-Questions)
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
