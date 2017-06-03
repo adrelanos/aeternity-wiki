@@ -11,9 +11,10 @@
 * [sign with bitcoin](#sign-a-message-bitcoin)
 * [sign with ethereum (mew)](#sign-a-message-ethereum-myetherwallet-mew)
 
+
 * [Where are my private Keys?](#where-are-my-private-keys)
   * [Ledger Wallet](#ledger-wallet-where-are-my-private-keys)
-
+  * [Treor sign a message](https://doc.satoshilabs.com/trezor-user/messages.html)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 
