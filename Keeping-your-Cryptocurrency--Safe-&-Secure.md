@@ -3,10 +3,10 @@ in a sense or own bankers and it provides us with new ways to buy and
 sell products. However, it brings with it one of the inherent problems
 that all other currencies have weather its paper money or digital
 currency. Malicious users and thieves will go to just about
-any lengths necessary in order to obtain your hard earned aeon,.                                                    They don't care about who you are, how nice a person you are
-or how adversely affected you will be from them stealing your aeon.
+any lengths necessary in order to obtain your hard earned digital currency.                                        They don't care about who you are, how nice a person 
+or how adversely affected you will be from them stealing from you.
 
-It seams like everyday we hear of a story about someone either losing
+It seams like everyday we hear a story about someone either losing
 their digital currency or having had it stolen by a
 malicious user. In many of those cases had the victim
 implemented a few simple security measures their digital currency would
@@ -30,11 +30,11 @@ do we do this? It starts with following the dos and don'ts.
 * If you are leaving your house it is a good idea to put your laptop and
   hardware wallet in a safe. Not all of use have a safe in our homes,
   however they are worth the money if we have something of value.
-  Otherwise, if no safe is available hiding your hardware in a place
-  that is hard to find is another option. Even if its in a linen closet
+  Otherwise, if no safe is available, hiding your hardware in a place
+  that is hard to find is another option even if its a linen closet
   or under a blanket in your bedroom. Remember a thief who steals your
   laptop may not even know that there is software wallet on your
-  computer filled with aeon. The thief just sees a valuable laptop for
+  computer filled with currency. The thief just sees a valuable laptop for
   the taking. The same thing goes for hardware wallets. The thief may
   not even know what a hardware wallet is, all he cares about is that it
   could have value.
@@ -62,10 +62,10 @@ do we do this? It starts with following the dos and don'ts.
 
 ### Choosing an Os
 
-Choosing your operating system is arguably the single most important
-decision that you will make when it comes to keeping your aeon safe and
-secure. With so many operating systems to choose from how do we decide
-which one best suits our needs? First we will have do decide what our
+Choosing an operating system is arguably the single most important
+decision that you will make when it comes to keeping your digital currency 
+safe and secure. With so many operating systems to choose from how do we 
+decide which one best suits our needs? First we will have do decide what our
 needs our. Since this paper focuses on keeping our digital currency
 secure will require a open-source OS. Why do we need an open-source
 operating system and not say, that wonderful OS named Window? Well, that
@@ -118,7 +118,7 @@ easy to use. What makes Windows OS insecure is that the source code is
 closed-source.
 
 Microsoft if very strict about who they let see the source code. When
-they do show the source code its only to their clients ( like the
+they do show the source code its only to their clients (like the
 government) but only after signing a Non-Disclosure agreement. This way
 if someone were to steal trade secrets or tell the public what they saw
 there would be severe legal repercussions.
@@ -148,15 +148,15 @@ closed-source Windows OS.
 ***
 
 * **User Account Privileges** In Windows, users are generally given
-  administrator priveleges by default which means they have access to
+  administrator privileges by default which means they have access to
   everything on the system. If the virus is able to penetrate their
   system, they can quickly gain access to important parts of the system.
   On the other hand, in Linux, users are given lower level access
   rights, and, theoretically, the virus can only access the users local
-  files and folders thus preventing malicous code from infecting the
+  files and folders thus preventing malicious code from infecting the
   entire system.
 ***
-* **Social Engineering** Closed source operating systems like Windows
+* **Social Engineering** Closed-source operating systems like Windows
   are more vulnerabilities to social engineering attacks. Most viruses
   are spread by convincing users to doing something they shouldn't, like
   opening up an email attachment that is carrying a virus or worm or
@@ -200,7 +200,7 @@ closed-source Windows OS.
   developers, but it's unlikely that team can compare with a global base
   of Linux user-developers around the globe.
 ### Choosing Your Linux Distribution 
-With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, all though many may share the same Linux kernel there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
+With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, all though many may share the same Linux kernel, there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
 
 **[Debian](https://www.debian.org/)** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
 
@@ -251,7 +251,7 @@ Advantages
   did during that session could be compromised. If you entered your password into your web wallet the malicious user 
   could very well have your password.
 * The Tails devs have already tested and configured much of the software for you.  Most of the applications you
-  will need come pre installed.
+  will need come pre-installed.
 * Uses state-of-the-art cryptographic tools to encrypt your files, emails and instant messaging. .
 ***
 
@@ -279,18 +279,18 @@ You’ll also want to visit the Boot Order section and ensure the boot order is 
 #
 
 ### Full Disk Encryption
-Disk encryption is a technology which protects the information on your drive, usb, or cd by converting it into unreadable code that cannot be deciphered easily by unauthorized people. Disk encryption used encryption software of hardware to encrypt all of the data that goes on a disk or disk volume Disk encryption prevents unauthorized access to the data stored on the disk.
+Disk encryption is a technology which protects the information on your hard drive, USB, or CD by converting it into unreadable code that cannot be deciphered easily by unauthorized people. Disk encryption used encryption software of hardware to encrypt all of the data that goes on a disk or disk volume Disk encryption prevents unauthorized access to the data stored on the disk.
 
 What we will be focusing on is referred to as Full Disk Encryption. You would think--from the name--that full disk encryption signifies that everything on the disk is encrypted: however the master boot record (MBR) or the Unified Extensible Firmware Interface (UEFI) which is the code that starts the OS loading sequence, is not encrypted. There are drives with hardware based encryption that also encrypt the MBR or UEFI partitions. These are proprietary and therefore the source code can not be audited by independent security professionals. For this reason we will not be discussing hardware encrypted drives.  
 
 Since Linux is our OS of choice  , we will be using LUKS: or Linux Unified Key setup. LUKS is based on an enhanced version of cryptsetup, using dm-crypt as the disk encryption backend. The next question is how do we encrypt our OS. With most Linux distros you are given the option to encrypt your system during installation.  All you have to do is follow  the documentation for your given disrto and in most cases the OS installer will guide you through the installation. The most that is required of you is to put in the required information when prompted.  After you have completed the installation you should have a Linux Os with full disk encryption
 
-There is one very important thing you must know however. As mentioned previously with full disk encryption the boot partition, or MBR is not encrypted. This means that if a malicious user where to have physical access to your computer, malicious code--like a keylogger-- could be installed on you boot partition.  It only takes a few seconds for a usb to be inserted into your laptop and a virus uploaded. It does not matter if your computer is running or powered down, It is still just as vulnerable. You are given some protection is you have a bios password and you have configured your computer not to auto-mount external media. I say "some protection" because there is no practical way to stop a gifted attacker if they are committed to compromising your computer. The only other way to prevent an attacker from doing this is to transfer you boot partition to an external usb. This way if you remove the usb from you computer no one will be able to boot it unless they use a live cd. I hope you are starting to see a pattern hear and I'm going to say it again: **There is no way to stop a gifted attacker if they are committed to compromising your computer!!** 
+There is one very important thing you must know however. As mentioned previously with full disk encryption the boot partition, or MBR is not encrypted. This means that if a malicious user was to have physical access to your computer, malicious code--like a keylogger-- could be installed on you boot partition.  It only takes a few seconds for a USB to be inserted into your laptop and a virus uploaded. It does not matter if your computer is running or powered down, It is still just as vulnerable. You are given some protection is you have a bios password and you have configured your computer not to auto-mount external media. I say "some protection" because there is no practical way to stop a gifted attacker if they are committed to compromising your computer. The only other way to prevent an attacker from doing this is to transfer you boot partition to an external USB. This way if you remove the USB from you computer no one will be able to boot it unless they use a live CD. I hope you are starting to see a pattern hear and I'm going to say it again: **There is no way to stop a gifted attacker if they are committed to compromising your computer!!** 
 *** 
 #
 
 ### Passwords
-We all use them, weather its signing in to our email accounts,signing into github, or unlocking our OS user account. Passwords are in our lives and they are here to stay, but many don't take the time to think about what goes into making a strong high password. Most people use a password that is easy for them to remember like a pets name, a birthday, or the name of one of their children. These are the passwords malicious users want us to have. All a cracker has to do is search on Google to find out all the personal information they need to know about someone to gain access to their computer. So how do we prevent someone from figuring out our password? Keep on reading and by the time we are done you will know that and much more.
+We all use them, weather its signing in to our email accounts,signing into Github, or unlocking our OS user account. Passwords are in our lives and they are here to stay, but many don't take the time to think about what goes into making a strong high password. Most people use a password that is easy for them to remember like a pets name, a birthday, or the name of one of their children. These are the passwords malicious users want us to have. All a cracker has to do is search on Google to find out all the personal information they need to know about someone to gain access to their computer. So how do we prevent someone from figuring out our password? Keep on reading and by the time we are done you will know that and much more.
 
 We are going to start of with some guidelines for making a strong password.
 * Use a minimum password length of 12 to 14 characters if permitted.
@@ -330,19 +330,21 @@ We have gone over mnemonic and phonetic password and there is another great way 
 
    I'm sure you are thinking "How the heck could I remember that?"  You have to remember we all think differently. A password I created may be difficult for you to remember and vise versa. The way my mind associates things is unique. That story makes no sense but is easy for me to remember.  You can also use this method to create a password over the course of a week. On day one create a 4-5 character "base password ", then add 2-3 characters every day until you are satisfied with the strength of the password Keep in mind once you make a memorize a strong password you can make it stronger over time.  Every week you can add a 1 character or even 2.
 
+### Password Managers
+
 Another tool that can be helpful is a password manger. A password manger is a encrypted data base that assists in generating, storing, and retrieving complex passwords. The user must create a master password and/or keyfile to unlock the data base. Many of these managers also have password generators. These are simple to operate and allow users to generate strong passwords or keyfiles in seconds. One of the biggest advantages of a password manager is it eliminates the need to remember multiple password for different logins. Users are also no longer compelled to reuse the same password for multiple sites.
 
 Generally there are 2 different types of password managers
 
 **Locally-installed** password managers commonly reside on the user's personal computer or mobile device, such as smart phones, in the form of a locally-installed software application. These applications can be offline, wherein the password database is stored independently and locally on the same device as the password manager software. Alternatively, password managers may offer or require a cloud-based approach, wherein the password database is dependent on an online file hosting service and stored remotely, but handled by password management software installed on the user's device.
 
-**Web-bases** An online password manager is a website that securely stores login details. They are a web-based version of more conventional desktop-based password manager. The advantages of online password managers over desktop-based versions are portability (they can generally be used on any computer with a web browser and a network connection, without having to install software), and a reduced risk of losing passwords through theft from or damage to a single PC - also the same risk is present for the server that is used to store the users passwords on. In both cases this risk can be prevented by ensuring secure backups are taken.The major disadvantages of online password managers are the requirements that the user trusts the hosting site.
+**Web-based** An online password manager is a website that securely stores login details. They are a web-based version of more conventional desktop-based password manager. The advantages of online password managers over desktop-based versions are portability (they can generally be used on any computer with a web browser and a network connection, without having to install software), and a reduced risk of losing passwords through theft from or damage to a single PC - also the same risk is present for the server that is used to store the users passwords on. In both cases this risk can be prevented by ensuring secure backups are taken.The major disadvantages of online password managers are the requirements that the user trusts the hosting site.
+
+**Security implications**Its important to keep in mind the security of your password manager depends on the strength of the chosen master password (which might be guessed or brute-forced) and keyfile if one is used. Care must be taken that the passphrase itself is never stored locally where a malicious program or individual could read it: nor should you leave a USB with your keyfile in an unsecured location were it can be lost or stolen. A compromised master password will render all of the protected passwords vulnerable if you don not also use a keyfile. Just because you use both password and keyfile does not make a password manager infallible. As with any system which involves the user entering a password, the master password may also be attacked and discovered using a key-logger. Some password managers attempt to use virtual keyboards to reduce this risk - though this again is vulnerable to key loggers which take screenshots as data is entered. This risk can be mitigated with the use of a multi-factor verification device (keyfile) . 
 
 
 
- 
-
-### Man in the middle attacks
+ ### Man in the middle attacks
 A man-in-the-middle attack (MITM) is an attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with one other. An example of a man-in-the-middle attack is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker.he attacker must be able to intercept all relevant messages passing between the two victims and inject new ones. This is straightforward in many circumstances; for example, an attacker within reception range of wireless access point can insert himself as a man-in-the-middle. 
 
 As an attack that aims at circumventing mutual authentication, or lack thereof, a man-in-the-middle attack can succeed only when the attacker can impersonate each endpoint to their satisfaction as expected from the legitimate end. All protocols include some form of endpoint authentication specifically to prevent attacks. For example, authentication forwarded to either one or two parties using a mutually trusted certificate of authority.
@@ -353,14 +355,19 @@ Example:
      conversation to eavesdrop and optionally to deliver a false message to Bob.
 
      First, Alice asks Bob for his public key. If Bob sends his public key to Alice, but Mallory
-     is able to intercept it, a man-in-the-middle attack can begin. Mallory sends a forged
-     message to Alice that purports to come from Bob, but instead includes Mallory's public key.
+     is able to intercept it, a man-in-the-middle attack can begin.
+
+     Mallory sends a forged message to Alice that purports to come from Bob, but instead includes 
+     Mallory's public key.
 
      Alice, believing this public key is Bob's, encrypts her message with Mallory's key and
-     sends the encrypted message back to Bob. Mallory again intercepts, decrypts the message
-     using her private key, possibly alters it if she wants, and re-encryptes  it using the
-     public key Bob originally sent to Alice. When Bob receives the newly encrypted message he
-     believes it came from Alice.
+     sends the encrypted message back to Bob.
+    
+     Mallory again intercepts, decrypts the message using her private key, possibly alters
+     it if she wants, and re-encryptes  it using the public key Bob originally sent to Alice.
+     
+     When Bob receives the newly encrypted message he believes it came from Alice.
+     
 
 
 
