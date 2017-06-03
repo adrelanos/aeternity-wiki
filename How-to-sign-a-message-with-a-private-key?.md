@@ -2,9 +2,10 @@
 
 * [WARNINGS](#warnings)
   * [warnings npm](#warnings-npm)
-* [æternity](#æternity)
-* [BITCOIN](#sign-a-message-bitcoin)
-* [ETHEREUM](#sign-a-message-ethereum-myetherwallet-mew)
+  * [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
+* [sign with æternity](#æternity-sign-a-message)
+* [sign with bitcoin](#sign-a-message-bitcoin)
+* [sign with ethereum (mew)](#sign-a-message-ethereum-myetherwallet-mew)
 
 * [Where are my private Keys?](#where-are-my-private-keys)
   * [Ledger Wallet](#ledgerwallet-where-are-my-private-keys)
