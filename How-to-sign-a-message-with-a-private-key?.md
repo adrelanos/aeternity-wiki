@@ -1,3 +1,7 @@
+    Never send private keys to anybody asking for them - never send
+    contribution transactions to any other address then on
+    wallet.aeternity.com
+
 # Sign a Message:
 
 * [WARNINGS](#warnings)
