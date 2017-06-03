@@ -2,6 +2,7 @@
     contribution transactions to any other address then on
     wallet.aeternity.com
 
+DRAFT
 
 The phase one contribution has officially ended. If you were one of the
 first 1000 people to contribute more than 11.9 ETH you may have
@@ -54,4 +55,8 @@ free to reach out to the team.
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
-###### H6
+### Get a Ledger with a Ledger
+
+** more information and instructions asap**
+
+Do not forget on slack to inform: @tombo, and send link into #signer-beta
