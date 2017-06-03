@@ -14,12 +14,20 @@
 * [Where are my private Keys?](#where-are-my-private-keys)
   * [Ledger Wallet](#ledgerwallet-where-are-my-private-keys)
 
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+
+
+### Use-Case Concepts
+
 There are many ways of signing a message with a private key.
 
 Quite rightfully there are not many websites that allow you to do so -
 it would be suicide to trust anyone with your private key.
 
 However, with some precautions you can build a website yourself.
+
+
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 ## Warnings
 
@@ -46,10 +54,12 @@ Installing from npm can be also be dangerous, see links below:
 > package they could only push malicious code to users of a later
 > package.
 
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+
 ## æternity Sign a message
 
-**Will be updated soon with more details**
-You can take a look here [API-Commands](API-Commands)
+**Will be updated soon with more details** You can take a look here
+[API-Commands](API-Commands)
 
 ## Sign a Message: Bitcoin
 
@@ -112,6 +122,8 @@ Now let's create a super simple webpage:
 </html>
 ```
 
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+
 ### TODO:
 
 - provide user interface for inputting the key
@@ -162,11 +174,21 @@ Be aware that displaying your private keys outside the Secure Element
 would expose these private data, the security of your funds wouldn't be
 guaranteed anymore by the device.
 
+For backup reason you got a 24 keyword list.
+
+    One master node (seed) can be used for unlimited number of independent 
+    cryptocoins such as Bitcoin, Ethereum, Litecoin or Namecoin. 
+    However, sharing the same space for various cryptocoins has some disadvantages
+<sup>[read more](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki#coin-type)</sup>
 
 <sup>[source link](http://support.ledgerwallet.com/knowledge_base/topics/where-are-my-private-keys),
-[How to secure your ETH tokens with your Ledger Nano S](http://support.ledgerwallet.com/knowledge_base/categories/ledger-nano-s)</sup>
-
+* [How to secure your ETH tokens with your Ledger Nano S](http://support.ledgerwallet.com/knowledge_base/categories/ledger-nano-s)
+* [Restoring your Ethers (ETH or ETC) without a Ledger Nano S](https://ledger.groovehq.com/knowledge_base/topics/restoring-your-ethers-eth-or-etc-without-a-ledger-nano-s)
+* [Ledger Security](https://ledger.groovehq.com/knowledge_base/categories/security-14)
 ***
 
 **Was this article helpful?**
 [Yes](#)/[No, I want to contact community support](Contacts-and-Communities)
+
+
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
