@@ -26,7 +26,7 @@
 * [What is the legal status of æternity?](#what-is-the-legal-status-of-æternity)
 * [How can I type the æ character?](#how-can-i-type-the-æ-character)
 * [What can I expect in the near future?](#what-can-i-expect-in-the-near-future)
-* [How do I contact you?](#how-do-I-contact-you)
+* [How do I contact you?](#how-do-i-contact-you)
 ***
 
 
