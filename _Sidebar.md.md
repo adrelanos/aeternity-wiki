@@ -7,7 +7,7 @@
 - [Getting Started](Getting-Started)
 - [Understanding æternity](Understanding-æternity)
 - [Frequently Asked Questions](Frequently-Asked-Questions)
-   - [answer missing](Social-Channel:-Open-Questions)
+   - [answer missing](https://github.com/aeternity/wiki/wiki/Social-Channel:-Open-Questions)
 - [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
