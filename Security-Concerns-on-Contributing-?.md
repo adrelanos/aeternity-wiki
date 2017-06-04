@@ -22,6 +22,8 @@
   * [Storage medium](#storage-medium)
 * [**Verify if new the address is a valid one!**](#verify-if-new-the-address-is-a-valid-one)
 * [**Additional WARNINGS**](#additional-warnings)
+* [related articles](#related-articles)
+* [sources](#sources)
 
 **Never send private keys to anybody asking for them - never send
 contribution transactions to any other address then on
@@ -166,7 +168,12 @@ here:
 Bingo Bongo: Now you have successfully verified that the address will
 match. Transfer now your coins from your exchange or where ever you have
 some, to the new address you generated.
+***
+## related articles
+* [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
+
+## Sources
 
 | no | what          | Title                                 | Link                                                           |
 |:---|:--------------|:--------------------------------------|:---------------------------------------------------------------|
