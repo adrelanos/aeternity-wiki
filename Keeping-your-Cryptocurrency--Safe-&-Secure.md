@@ -67,8 +67,8 @@ decision that you will make when it comes to keeping your digital currency
 safe and secure. With so many operating systems to choose from how do we 
 decide which one best suits our needs? First we will have do decide what our
 needs our. Since this paper focuses on keeping our digital currency
-secure will require a open-source OS. Why do we need an open-source
-operating system and not say, that wonderful OS named Window? Well, that
+secure, will require a open-source OS. Why do we need an open-source
+operating system and not say, that wonderful OS named Windows? Well, that
 is one of the questions we are going to answer along with a few others
 on our journey to find the right OS.
 
@@ -108,13 +108,9 @@ Proprietary operating systems like Windows has many more users than Mac and Linu
 they have all of these user does it mean that is is more secure? Why else would so many people use
 them?
 
-The answer to the first question is NO!Windows has more users but those people are not using Windows because it
-is a secure operating system.
-
- 
-To answer the second question. Most people
-are using it because because it has all the bells and whistles and its
-easy to use. What makes Windows OS insecure is that the source code is
+To answer the the question. Most people
+are using it  because it has all the bells and whistles and its
+easy to use. No only that Microsoft puts millions upon millions of dollars every year into marketing. Just because more people use an operating system does not by any means make an OS more secure. What makes Windows OS insecure is that the source code is
 closed-source.
 
 Microsoft if very strict about who they let see the source code. When
