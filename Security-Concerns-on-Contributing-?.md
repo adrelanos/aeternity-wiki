@@ -11,9 +11,9 @@
 
 * [Security Concerns on Contributing to æternity?](#security-concerns-on-contributing-to-æternity)
 * [short version](#short-version)
-   * [Contribute now to æternity](https://wallet.aeternity.com)
-      * [How to contribute ether?](https://blog.aeternity.com/how-to-send-ether-to-%C3%A6ternitys-contribution-campaign-wallet-e11ef89b847e)
-      * [How to contribute bitcoin?](https://blog.aeternity.com/how-to-send-bitcoin-to-%C3%A6ternitys-contribution-campaign-wallet-65d3f46aa4b9)
+  * [Contribute now to æternity](https://wallet.aeternity.com)
+    * [How to contribute ether?](https://blog.aeternity.com/how-to-send-ether-to-%C3%A6ternitys-contribution-campaign-wallet-e11ef89b847e)
+    * [How to contribute bitcoin?](https://blog.aeternity.com/how-to-send-bitcoin-to-%C3%A6ternitys-contribution-campaign-wallet-65d3f46aa4b9)
 * [light version](#light-version)
 * [paranoid version](#paranoid-version)
   * [Mnemonic Code Converter](#mnemonic-code-converter)
@@ -175,15 +175,16 @@ some, to the new address you generated.
 | 3  | Ledger-Wallet | Ledger Nano s - hardware wallet       | [link](https://www.ledgerwallet.com/r/07c5)                    |
 | 4  | Trezor-Wallet | Trezor - hardware wallet              | [link](https://trezor.io/?a=bitcoins-today.com)                |
 | 5  | inspiration   | æternity wallet                       | [link]((https://wallet.aeternity.com/)                         |
-| 6   |  Brainwallet             |   Zwilla's Brainwallet                                    |                                                                |
+| 6  | Brainwallet   | Zwilla's Brainwallet                  | [author profile](æternity-wiki-authors#zwilla)                                                               |
 
 ## Additional WARNINGS
 
-THIS INSTRUCTIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THIS INSTRUCTIONS OR THE USE OR OTHER DEALINGS IN THE INSTRUCTIONS.
+THIS INSTRUCTIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THIS INSTRUCTIONS OR THE USE OR OTHER
+DEALINGS IN THE INSTRUCTIONS.
 
 DO NOT SHARE YOUR PRIVATE KEYS!!!
