@@ -419,5 +419,16 @@ Using best security practices will not be helpful if only used when its convenie
 | No | Type | Source                                             |
 |:---|:-----|:---------------------------------------------------|
 | 1  | doc  | [Brainwallet 0Brand](æternity-wiki-authors#0brand) |
-| 2  | 
-
+| 2  | doc  | [Brainwallet zwilla](æternity-wiki-authors#zwilla) |
+| 3  | open-source model  |[open-source_wiki](https://en.wikipedia.org/wiki/Open-source_model)|  
+| 4  | closed-source model|[proprietary-software_wiki](https://en.wikipedia.org/wiki/Proprietary_software)|
+| 5  | Debian OS | [**Debian** The Universal Operating System](https://www.debian.org/)|
+| 6  | Qubes OS | [Qubes OS_wiki](https://en.wikipedia.org/wiki/Qubes_OS)|
+| 7  | Qubes OS | [**Qubes OS**: A reasonably secure operating system](https://qubes-os.org)|
+| 8  | Whonix | [**Whonix OS**; privacy, security, & anonymity on the internet](https://whonix.org)|
+| 9  | Tails OS | [**Tails OS**:  Privacy for anyone anywhere](https://tails.boum.org/)|
+| 10 | passwords | [Passwords_wiki](https://en.wikipedia.org/wiki/Password)|
+| 11 | password strength | [Password strength_wiki](https://en.wikipedia.org/wiki/Password_strength)|
+| 12 | MITM Attacks | [**Tor Project**: Anonymity Online](https://www.torproject.org/)|
+| 13 | MITM Attacks | [Man in the middle attacks_wiki](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)|
+ 
