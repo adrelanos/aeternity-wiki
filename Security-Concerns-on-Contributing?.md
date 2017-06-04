@@ -11,22 +11,22 @@
 ## TOC
 * [Security Concerns on Contributing to æternity?](#security-concerns-on-contributing-to-æternity)
 * [short version](#short-version)
-  * [Contribute now to æternity](https://wallet.aeternity.com)
+  * [Contribute to æternity now](https://wallet.aeternity.com)
     * [How to contribute ether?](https://blog.aeternity.com/how-to-send-ether-to-%C3%A6ternitys-contribution-campaign-wallet-e11ef89b847e)
     * [How to contribute bitcoin?](https://blog.aeternity.com/how-to-send-bitcoin-to-%C3%A6ternitys-contribution-campaign-wallet-65d3f46aa4b9)
 * [light version](#light-version)
 * [paranoid version](#paranoid-version)
   * [Mnemonic Code Converter](#mnemonic-code-converter)
   * [Supply my own source of entropy]()
-  * [Why to choose a 24 Word BIP39 Mnemonic?](#why-to-choose-a-24-word-bip39-mnemonic)
+  * [Why choose a 24 Word BIP39 Mnemonic?](#why-to-choose-a-24-word-bip39-mnemonic)
   * [Storage medium](#storage-medium)
-* [**Verify if new the address is a valid one!**](#verify-if-new-the-address-is-a-valid-one)
+* [**Verify if the new address is a valid one!**](#verify-if-new-the-address-is-a-valid-one)
 * [**Additional WARNINGS**](#additional-warnings)
 * [related articles](#related-articles)
 * [sources](#sources)
 
 **Never send private keys to anybody asking for them - never send
-contribution transactions to any other address then on
+contribution transactions to any other address other than 
 wallet.aeternity.com**
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
@@ -34,8 +34,8 @@ wallet.aeternity.com**
 ## Security Concerns on Contributing to æternity?
 
 There exist an easy way to bypass your security concerns, this solution
-are also often chosen from investors which own only a online wallet at
-Coinbase, Bistamp aso.
+is frequently chosen by investors that only use online wallets at
+Coinbase, Bistamp etc..
 
 ***
 
@@ -100,7 +100,7 @@ Coinbase, Bistamp aso.
 12. copy the hole text (CTRL-A)
 13. come back to: 'bip39-standalone.html'
 14. past (CRTL-V) the text into 'Entropy BOX'
-15. Drink a cup of coffee or a beer, it your choice now. (my security
+15. Drink a cup of coffee or a beer, its your choice now. (my security
     concerns: don't drink and send money )!
 16. write down the *24 words* on a paper with an pen .
     <sup>[* for documentary use](http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=23720&ICS1=1&ICS2=100&ICS3=40)</sup>
@@ -174,7 +174,7 @@ here:
 10. compare it with the first address on BIP39-Tool
 
 Bingo Bongo: Now you have successfully verified that the address will
-match. Transfer now your coins from your exchange or where ever you have
+match. Now transfer coins from your exchange or where ever you have
 some, to the new address you generated.
 
 [☝](#toc)
