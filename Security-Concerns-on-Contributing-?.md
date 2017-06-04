@@ -53,6 +53,7 @@ Coinbase, Bistamp aso.
 
 <sup>click on the headline</sup>
 
+[☝](#)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 ### light Version!
@@ -72,6 +73,7 @@ Coinbase, Bistamp aso.
 12. [contribute now on æternity!](https://wallet.aeternity.com/)
 
 
+[☝](#)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 ## paranoid version
@@ -110,6 +112,8 @@ Coinbase, Bistamp aso.
 21. transfer your coins to the new address
 22. [contribute now on æternity!](https://wallet.aeternity.com/)
 
+[☝](#)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 #### Supply my own source of entropy
 
 Check this box to use your own entropy. For example:
@@ -121,6 +125,7 @@ Check this box to use your own entropy. For example:
 6. copy the text and past it in to the box: **Entropy**
 
 
+[☝](#)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 ### Why to choose a 24 Word BIP39 Mnemonic?
@@ -140,6 +145,9 @@ hardware wallet Trezor
 | sd-card                    | format      | wipe minimum 7 times |
 | cd/dvd (finalize session!) | buy         | reuse it             |
 | hdd (ssd, flash, magnetic) | do not use! | do not use!          |
+
+[☝](#)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 ## Verify if new the address is a valid one!
 
@@ -168,7 +176,9 @@ here:
 Bingo Bongo: Now you have successfully verified that the address will
 match. Transfer now your coins from your exchange or where ever you have
 some, to the new address you generated.
-***
+
+[☝](#)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 ## related articles
 * [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
@@ -181,7 +191,7 @@ some, to the new address you generated.
 | 2  | software      | BIP39/44 Mnemonic Code Converter      | [link](https://github.com/LedgerHQ/bip39/archive/master.zip)   |
 | 3  | Ledger-Wallet | Ledger Nano s - hardware wallet       | [link](https://www.ledgerwallet.com/r/07c5)                    |
 | 4  | Trezor-Wallet | Trezor - hardware wallet              | [link](https://trezor.io/?a=bitcoins-today.com)                |
-| 5  | inspiration   | æternity wallet                       | [link]((https://wallet.aeternity.com/)                         |
+| 5  | inspiration   | æternity wallet                       | [link](https://wallet.aeternity.com/)                         |
 | 6  | Brainwallet   | Zwilla's Brainwallet                  | [author profile](æternity-wiki-authors#zwilla)                                                               |
 
 ## Additional WARNINGS
@@ -195,3 +205,6 @@ FROM, OUT OF OR IN CONNECTION WITH THIS INSTRUCTIONS OR THE USE OR OTHER
 DEALINGS IN THE INSTRUCTIONS.
 
 DO NOT SHARE YOUR PRIVATE KEYS!!!
+
+[☝](#)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
