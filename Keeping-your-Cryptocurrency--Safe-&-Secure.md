@@ -398,14 +398,19 @@ Guidelines for keeping your wallet secure:
 
 To date there have been no verifiable incidents of digital currency stolen from hardware wallets. Hardware wallets are relatively new, but at least for the time being they have maintained a good track record, unlike the numerous incidents of digital currency theft from Internet-connected computers. Although there have been no verifiable thefts of digital currency from hardware wallets does not make the user immune to other treats.  Becoming the victim of a Man In The Middle attack, sending your digital currency to the wrong address, losing your hardware wallet and losing your digital currency mnemonic recovery passphrase are some of the way you can still permanently  lose you digital currency.
 
-**Mnemonic Recovery Password**  
+**Mnemonic Recovery Passphrase**  
+
+Mnemonic recovery passphrases are used to recover your digital currency if (a) you lose your wallet login information (b) your computer or hardware wallet is lost or stolen (c) the data on you hardware wallet or computer is corrupted.   The mnemonic passphrase is provided to you when you sign up for a new blockchain wallet. It will be impossible to recover your digital currency with out it. These guidelines will help you keep your Mnemonic passphrase safe and secure.
+* When it is first displayed during wallet creatioin write it down legibly and at the top of the paper write what the passphrase if for.
+* Store it in a secure place like a safe, fire-proof security box or a locked draw in your desk that only you have the key for. 
+* Never store it on a computer or smart-phone even if you use a password manager. If a malicious user compromises your computer all all he/she has to do is install a keylogger to obtain all of your passwords.
+* Avoid taking your mnemonic with you when leaving your flat to go out in public. If you lose it you will not be able to recover you digital currency in that wallet.
+* If you lose your mnemonic, create a new wallet immediately and transfer everything to your new wallet. Why take a chance? 
+* To help prevent losing or damaging your mnemonic you can store it on cryptosteel.
+
+ 
  
 
-
-
-### Misc
-
-**Cryptosteel** (look it up id you don't know what it is )
 
 
 | No | Type | Source                                             |
