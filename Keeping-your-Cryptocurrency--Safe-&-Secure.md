@@ -406,7 +406,10 @@ Mnemonic recovery passphrases are used to recover your digital currency if (a) y
 * Never store it on a computer or smart-phone even if you use a password manager. If a malicious user compromises your computer all all he/she has to do is install a keylogger to obtain all of your passwords.
 * Avoid taking your mnemonic with you when leaving your flat to go out in public. If you lose it you will not be able to recover you digital currency in that wallet.
 * If you lose your mnemonic, create a new wallet immediately and transfer everything to your new wallet. Why take a chance? 
-* To help prevent losing or damaging your mnemonic you can store it on cryptosteel.
+* To help prevent losing or damaging your mnemonic you can store it on [Cryptosteel](http://cryptosteel.com/).
+
+### Afterword
+Using best security practices will not be helpful if only used when its convenient for you or when you remember to use them. IT security should be factored into every decision you make. At first it can be frustrating and time consuming but it will become second nature to you over time. Good Luck!!  
 
  
  
@@ -416,4 +419,5 @@ Mnemonic recovery passphrases are used to recover your digital currency if (a) y
 | No | Type | Source                                             |
 |:---|:-----|:---------------------------------------------------|
 | 1  | doc  | [Brainwallet 0Brand](æternity-wiki-authors#0brand) |
+| 2  | 
 
