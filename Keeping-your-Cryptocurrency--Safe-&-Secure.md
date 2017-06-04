@@ -330,6 +330,8 @@ We have gone over mnemonic and phonetic password and there is another great way 
 
    I'm sure you are thinking "How the heck could I remember that?"  You have to remember we all think differently. A password I created may be difficult for you to remember and vise versa. The way my mind associates things is unique. That story makes no sense but is easy for me to remember.  You can also use this method to create a password over the course of a week. On day one create a 4-5 character "base password ", then add 2-3 characters every day until you are satisfied with the strength of the password Keep in mind once you make a memorize a strong password you can make it stronger over time.  Every week you can add a 1 character or even 2.
 
+**Security implications**Even the strongest passwords allow us no protection if they are compromised. When in public be cognizant of your surrounding. Are you in view of any security cameras that could be recording you type in your password? Be aware of shoulder surfers that may be watching you unlock your notebook or log into online accounts.    
+
 ### Password Managers
 
 Another tool that can be helpful is a password manger. A password manger is a encrypted data base that assists in generating, storing, and retrieving complex passwords. The user must create a master password and/or keyfile to unlock the data base. Many of these managers also have password generators. These are simple to operate and allow users to generate strong passwords or keyfiles in seconds. One of the biggest advantages of a password manager is it eliminates the need to remember multiple password for different logins. Users are also no longer compelled to reuse the same password for multiple sites.
@@ -340,12 +342,12 @@ Generally there are 2 different types of password managers
 
 **Web-based** An online password manager is a website that securely stores login details. They are a web-based version of more conventional desktop-based password manager. The advantages of online password managers over desktop-based versions are portability (they can generally be used on any computer with a web browser and a network connection, without having to install software), and a reduced risk of losing passwords through theft from or damage to a single PC - also the same risk is present for the server that is used to store the users passwords on. In both cases this risk can be prevented by ensuring secure backups are taken.The major disadvantages of online password managers are the requirements that the user trusts the hosting site.
 
-**Security implications**Its important to keep in mind the security of your password manager depends on the strength of the chosen master password (which might be guessed or brute-forced) and keyfile if one is used. Care must be taken that the passphrase itself is never stored locally where a malicious program or individual could read it: nor should you leave a USB with your keyfile in an unsecured location were it can be lost or stolen. A compromised master password will render all of the protected passwords vulnerable if you don not also use a keyfile. Just because you use both password and keyfile does not make a password manager infallible. As with any system which involves the user entering a password, the master password may also be attacked and discovered using a key-logger. Some password managers attempt to use virtual keyboards to reduce this risk - though this again is vulnerable to key loggers which take screenshots as data is entered. This risk can be mitigated with the use of a multi-factor verification device (keyfile) . 
+**Security implications** Its important to keep in mind the security of your password manager depends on the strength of the chosen master password (which might be guessed or brute-forced) and keyfile if one is used. Care must be taken that the passphrase itself is never stored locally where a malicious program or individual could read it: nor should you leave a USB with your keyfile in an unsecured location were it can be lost or stolen. A compromised master password will render all of the protected passwords vulnerable if you don not also use a keyfile. Just because you use both password and keyfile does not make a password manager infallible. As with any system which involves the user entering a password, the master password may also be attacked and discovered using a key-logger. Some password managers attempt to use virtual keyboards to reduce this risk - though this again is vulnerable to key loggers which take screenshots as data is entered. This risk can be mitigated with the use of a multi-factor verification device (keyfile) . 
 
 
 
  ### Man in the middle attacks
-A man-in-the-middle attack (MITM) is an attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with one other. An example of a man-in-the-middle attack is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker.he attacker must be able to intercept all relevant messages passing between the two victims and inject new ones. This is straightforward in many circumstances; for example, an attacker within reception range of wireless access point can insert himself as a man-in-the-middle. 
+A man-in-the-middle attack (MITM) is an attack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with one other. An example of a man-in-the-middle attack is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker. The attacker must be able to intercept all relevant messages passing between the two victims and inject new ones. This is straightforward in many circumstances; for example, an attacker within reception range of wireless access point can insert himself as a man-in-the-middle. 
 
 As an attack that aims at circumventing mutual authentication, or lack thereof, a man-in-the-middle attack can succeed only when the attacker can impersonate each endpoint to their satisfaction as expected from the legitimate end. All protocols include some form of endpoint authentication specifically to prevent attacks. For example, authentication forwarded to either one or two parties using a mutually trusted certificate of authority.
 
@@ -367,16 +369,39 @@ Example:
      it if she wants, and re-encryptes  it using the public key Bob originally sent to Alice.
      
      When Bob receives the newly encrypted message he believes it came from Alice.
+
      
+**Defense and Detection**- MITM attacks are largely detected, or prevented by two means: authentication, and tamper detection. Authentication provides some degree of certainty that a given message has come from a source. Means of tamper detection, by comparison, merely shows evidence that a message may have been altered, rather than providing any guarantees.
 
+**Authentication**- All systems that are secure against MITM attacks provide some method of authentication for messages. Most require an exchange of information (such as public keys) in addition to the message over a secure channel. Such protocols often use key-agreement protocols have been developed, with different security requirements for the secure channel, though some have attempted to remove the requirement for any secure channel at all.
 
+A public key infrastructure, such as Transport Layer Security, may harden Transmission Control Protocol against Man-in-the-middle-attacks. In such structures, clients and servers exchange certificates which are issued and verified by a trusted third party called a certificate authority (CA). If the original key to authenticate this CA has not been itself the subject of a MITM attack, then the certificates issued by the CA may be used to authenticate the messages sent by the owner of that certificate.
 
-
-
+**Tamper detection**- Latency examination can potentially detect the attack in certain situations,[8] such as with long calculations that lead into tens of seconds like hash functions. To detect potential attacks, parties check for discrepancies in response times. For example: Say that two parties normally take a certain amount of time to perform a particular transaction. If one transaction, however, were to take an abnormal length of time to reach the other party, this could be indicative of a third party's interference inserting additional latency in the transaction.
 
 ### Cryptocurrency Wallets
 
-**Software Wallets** **Hardware Wallets** #
+**Software Wallets**
+
+Local Wallets are installed on your computer or mobile device/smart-phone and provide the user with complete control over the wallet. They also enable the user to create a wallet address for sending and receiving digital currency. The main benefit of using a local wallet is the user maintains complete control of the private keys.
+
+Web-based wallets store your private keys online, on a server controlled by someone else and connected to the Internet. An advantage of web-based wallets is that you can access them from anywhere, regardless of which device you are using. However, they also have one major disadvantage: unless implemented correctly, they can put the organization running the website in charge of your private keys – essentially taking your digital currency out of your control. 
+
+Guidelines for keeping your wallet secure:
+
+* One way to protect your wallet from prying eyes is to encrypt it with a strong password. This makes it difficult to access your wallet, but not impossible. If your computer is compromised by malware, malicious users could log your keystrokes to find your password.
+* If you have your private keys stored in one wallet, but you mislay that wallet or it gets corrupted, you will lose your keys. Backing up your wallet makes a copy of your private keys, but it's important to back up your whole wallet. Some addresses are used to store change from transactions, and may not be shown to you by default. Back up the whole wallet in several different places, and keep them safe from prying eyes.
+*Use multisig when possible. Multi-signature addresses allow multiple parties to partially seed an address with a public key. When someone wants to spend some of the digital currency, they need some of these people to sign their transaction in addition to themselves. The required number of signatures is agreed at the start when people create the address.
+* If you are too nervous to store your private keys digitally, for fear that they may be stolen by malicious users, there is another option: ‘cold storage’. Cold storage wallets store private bitcoin keys offline, so that they can’t be stolen by someone else on the Internet.
+
+**Hardware Wallet**
+
+To date there have been no verifiable incidents of digital currency stolen from hardware wallets. Hardware wallets are relatively new, but at least for the time being they have maintained a good track record, unlike the numerous incidents of digital currency theft from Internet-connected computers. Although there have been no verifiable thefts of digital currency from hardware wallets does not make the user immune to other treats.  Becoming the victim of a Man In The Middle attack, sending your digital currency to the wrong address, losing your hardware wallet and losing your digital currency mnemonic recovery passphrase are some of the way you can still permanently  lose you digital currency.
+
+**Mnemonic Recovery Password**  
+ 
+
+
 
 ### Misc
 
