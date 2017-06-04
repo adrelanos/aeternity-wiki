@@ -1,7 +1,8 @@
-[**æternity Contribution Wallet**](https://wallet.aeternity.com)
+* [æternity Contribution Wallet](https://wallet.aeternity.com)
+   * []()
 
 [**Wiki Editing Guidelines & To do list**](Wiki-Guidelines-&-To-Do's)
-
+***
 ### Basics
 - [Home](https://github.com/aeternity/wiki/wiki)
 - [Getting Started](Getting-Started)
