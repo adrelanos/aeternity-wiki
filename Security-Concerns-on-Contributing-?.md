@@ -8,7 +8,7 @@
     private keys and/or seed are acceptable. Make sure that you are sending to the correct
     Ether address of æternity's contribution campaign. Funds sent to any other address will
     not be exchanged for AE tokens and will not be returned to you.
-
+## TOC
 * [Security Concerns on Contributing to æternity?](#security-concerns-on-contributing-to-æternity)
 * [short version](#short-version)
   * [Contribute now to æternity](https://wallet.aeternity.com)
@@ -29,7 +29,7 @@
 contribution transactions to any other address then on
 wallet.aeternity.com**
 
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ## Security Concerns on Contributing to æternity?
 
@@ -53,8 +53,8 @@ Coinbase, Bistamp aso.
 
 <sup>click on the headline</sup>
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ### light Version!
 
@@ -73,8 +73,8 @@ Coinbase, Bistamp aso.
 12. [contribute now on æternity!](https://wallet.aeternity.com/)
 
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ## paranoid version
 
@@ -112,8 +112,8 @@ Coinbase, Bistamp aso.
 21. transfer your coins to the new address
 22. [contribute now on æternity!](https://wallet.aeternity.com/)
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 #### Supply my own source of entropy
 
 Check this box to use your own entropy. For example:
@@ -125,8 +125,8 @@ Check this box to use your own entropy. For example:
 6. copy the text and past it in to the box: **Entropy**
 
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ### Why to choose a 24 Word BIP39 Mnemonic?
 
@@ -146,8 +146,8 @@ hardware wallet Trezor
 | cd/dvd (finalize session!) | buy         | reuse it             |
 | hdd (ssd, flash, magnetic) | do not use! | do not use!          |
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ## Verify if new the address is a valid one!
 
@@ -177,8 +177,8 @@ Bingo Bongo: Now you have successfully verified that the address will
 match. Transfer now your coins from your exchange or where ever you have
 some, to the new address you generated.
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 ## related articles
 * [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
@@ -206,5 +206,5 @@ DEALINGS IN THE INSTRUCTIONS.
 
 DO NOT SHARE YOUR PRIVATE KEYS!!!
 
-[☝](#)
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
