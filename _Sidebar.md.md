@@ -1,5 +1,5 @@
 * [æternity Contribution Wallet](https://wallet.aeternity.com)
-   * [Security Concerns on Contributing?](Security-Concerns-on-Contributing)
+   * [Security Concerns on Contributing?](Security-Concerns-on-Contributing-%3F)
 
 [**Wiki Editing Guidelines & To do list**](Wiki-Guidelines-&-To-Do's)
 ***
