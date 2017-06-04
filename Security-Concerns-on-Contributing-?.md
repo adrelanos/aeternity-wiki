@@ -10,17 +10,18 @@
     not be exchanged for AE tokens and will not be returned to you.
 
 * [Security Concerns on Contributing to æternity?](#security-concerns-on-contributing-to-æternity)
-* [Contribute now to æternity](https://wallet.aeternity.com)
-  * [How to contribute ether?](https://blog.aeternity.com/how-to-send-ether-to-%C3%A6ternitys-contribution-campaign-wallet-e11ef89b847e)
-  * [How to contribute bitcoin?](https://blog.aeternity.com/how-to-send-bitcoin-to-%C3%A6ternitys-contribution-campaign-wallet-65d3f46aa4b9)
 * [short version](#short-version)
+   * [Contribute now to æternity](https://wallet.aeternity.com)
+      * [How to contribute ether?](https://blog.aeternity.com/how-to-send-ether-to-%C3%A6ternitys-contribution-campaign-wallet-e11ef89b847e)
+      * [How to contribute bitcoin?](https://blog.aeternity.com/how-to-send-bitcoin-to-%C3%A6ternitys-contribution-campaign-wallet-65d3f46aa4b9)
 * [light version](#light-version)
 * [paranoid version](#paranoid-version)
   * [Mnemonic Code Converter](#mnemonic-code-converter)
   * [Supply my own source of entropy]()
   * [Why to choose a 24 Word BIP39 Mnemonic?](#why-to-choose-a-24-word-bip39-mnemonic)
   * [Storage medium](#storage-medium)
-* [**Verify if new the address is a valid one!**]()
+* [**Verify if new the address is a valid one!**](#verify-if-new-the-address-is-a-valid-one)
+* [**Additional WARNINGS**](#additional-warnings)
 
 **Never send private keys to anybody asking for them - never send
 contribution transactions to any other address then on
@@ -65,7 +66,8 @@ Coinbase, Bistamp aso.
 8. **write down** the 24 words on a paper
 9. at Derived Addresses: write down the **first Ethereum address**
 10. [goto section: verify the new addres](#verify-if-new-the-address-is-a-valid-one)
-11. [contribute now on æternity!](https://wallet.aeternity.com/)
+11. transfer your coins to the new address
+12. [contribute now on æternity!](https://wallet.aeternity.com/)
 
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
@@ -103,7 +105,8 @@ Coinbase, Bistamp aso.
     <sup>[*](#storage-medium)</sup> at minimum 7 times
 19. [contribute now on æternity!](https://wallet.aeternity.com/)
 20. [goto section: verify the new addres](#verify-if-new-the-address-is-a-valid-one)
-21. [contribute now on æternity!](https://wallet.aeternity.com/)
+21. transfer your coins to the new address
+22. [contribute now on æternity!](https://wallet.aeternity.com/)
 
 #### Supply my own source of entropy
 
@@ -174,3 +177,13 @@ some, to the new address you generated.
 | 5  | inspiration   | æternity wallet                       | [link]((https://wallet.aeternity.com/)                         |
 | 6   |  Brainwallet             |   Zwilla's Brainwallet                                    |                                                                |
 
+## Additional WARNINGS
+
+THIS INSTRUCTIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THIS INSTRUCTIONS OR THE USE OR OTHER DEALINGS IN THE INSTRUCTIONS.
+
+DO NOT SHARE YOUR PRIVATE KEYS!!!
