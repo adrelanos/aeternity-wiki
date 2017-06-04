@@ -1,21 +1,22 @@
 Cryptocurrency has changed the way we use currency. It allows us to be
-in a sense or own bankers and it provides us with new ways to buy and
+in a sense our own bankers and it provides us with new ways to buy and
 sell products. However, it brings with it one of the inherent problems
-that all other currencies have weather its paper money or digital
+that all other currencies have whether it's paper money or digital
 currency. Malicious users and thieves will go to just about
-any lengths necessary in order to obtain your hard earned digital currency.                                        They don't care about who you are, how nice a person 
+any length necessary in order to obtain your hard earned digital currency.  
+They don't care about who you are, how nice a person 
 or how adversely affected you will be from them stealing from you.
 
-It seams like everyday we hear a story about someone either losing
+It seems like everyday we hear a story about someone either losing
 their digital currency or having had it stolen by a
-malicious user. In many of those cases had the victim
-implemented a few simple security measures their digital currency would
+malicious user. In many of those cases, had the victim
+implemented a few simple security measures, their digital currency would
 not have been stolen. This does not mean that you can follow all the
 security practices on the page and you will have nothing to worry about.
 Unfortunately, there is nothing that can be done to prevent a gifted
 attacker that is committed to gaining entry into your
-computer. The best you can do is use the security best practices below
-in an effort to mitigate a majority of these threats.
+computer. The best you can do is to use the security best practices below
+in an effort to mitigate the majority of these threats.
 
 ***
 
@@ -28,7 +29,7 @@ restricting physical access to your computer and hardware wallets. How
 do we do this? It starts with following the dos and don'ts.
 
 * If you are leaving your house it is a good idea to put your laptop and
-  hardware wallet in a safe. Not all of use have a safe in our homes,
+  hardware wallet in a safe. Not all of us have a safe in our home,
   however they are worth the money if we have something of value.
   Otherwise, if no safe is available, hiding your hardware in a place
   that is hard to find is another option even if its a linen closet
@@ -65,8 +66,8 @@ do we do this? It starts with following the dos and don'ts.
 Choosing an operating system is arguably the single most important
 decision that you will make when it comes to keeping your digital currency 
 safe and secure. With so many operating systems to choose from how do we 
-decide which one best suits our needs? First we will have do decide what our
-needs our. Since this paper focuses on keeping our digital currency
+decide which one best suits our needs? First we will have to decide what our
+needs are. Since this paper focuses on keeping our digital currency
 secure, will require a open-source OS. Why do we need an open-source
 operating system and not say, that wonderful OS named Windows? Well, that
 is one of the questions we are going to answer along with a few others
@@ -92,7 +93,7 @@ speaking proprietary software is the opposite of open-source software.
 Proprietary software is computer software for which the software's 
 publisher or another person retains intellectual property rights--usually
 copyright of the source code. What this means is the public can not
-download, modify, or publish their version of the software with out the
+download, modify, or publish their version of the software without the
 express permission of the software's publisher.
 
 
@@ -109,7 +110,7 @@ they have all of these user does it mean that is is more secure? Why else would 
 them?
 
 To answer the the question. Most people
-are using it  because it has all the bells and whistles and its
+are using it because it has all the bells and whistles and it's
 easy to use. No only that Microsoft puts millions upon millions of dollars every year into marketing. Just because more people use an operating system does not by any means make an OS more secure. What makes Windows OS insecure is that the source code is
 closed-source.
 
@@ -139,7 +140,7 @@ and patched before the security vulnerability can be exploited.
 If there is a backdoor to the OS it would be found and reported very
 quickly. This is all because Linux is open-source. ### Now that we have
 a good understanding of proprietary and open-source we can discuss other
-reasons why an open-source Linux disro is more secure than a
+reasons why an open-source Linux distro is more secure than a
 closed-source Windows OS.
 ***
 
@@ -158,7 +159,7 @@ closed-source Windows OS.
   opening up an email attachment that is carrying a virus or worm or
   clicking on a malicious link.
 
-  What makes Linux less susceptible to these types of attacks is most Linux
+  What makes Linux less susceptible to these types of attacks is that most Linux
   users don't have root access however, it's much harder to accomplish any
   real damage on a Linux system by getting them to do something foolish.
   Before any real damage could be done, a Linux user would have to read
@@ -167,12 +168,12 @@ closed-source Windows OS.
 
 ***
 
-* **Separateness of Environment** Linux works in many environments and
+* **Separateness of Environments** Linux works in many environments and
   distros such as Debian, Qubes,  Arch, and many others. With
   Various email clients, shells and packaging systems that makes the
   system extremely fragmented and difficult for any virus. So, whereas a
   virus can be targeted squarely at Windows users, since for the most
-  part use the same technology, reaching more than a small faction of
+  part use the same technology, reaching more than a small fraction of
   Linux users is much more difficult.
 
 ***
@@ -187,7 +188,7 @@ closed-source Windows OS.
   proprietary software is more secure by virtue of its closed nature. If
   hackers can't see the code, then it's harder for them to create
   exploits for it: or so the thinking goes. Unfortunately for Windows
-  users, that's just not true. Linux on the on the hand has a larger
+  users, that's just not true. Linux on the other hand has a larger
   group of developers and testers working on a set of code, this makes
   it much more likely any flaws will be caught and fixed quickly. This,
   in other words, is essentially the polar opposite of the "security
@@ -196,7 +197,7 @@ closed-source Windows OS.
   developers, but it's unlikely that team can compare with a global base
   of Linux user-developers around the globe.
 ### Choosing Your Linux Distribution 
-With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, all though many may share the same Linux kernel, there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
+With so many Linux distros: also referred to as flavors of Linux, how do we decide which one to use. Many people will tell you they are all the same and it comes down to user preference. However, although many may share the same Linux kernel, there are some major differences in the distributions. Since we are focusing on keeping our digital currency safe and secure we want a distro that focuses on security and stability.
 
 **[Debian](https://www.debian.org/)** is well known for its security and stability and sets itself apart by being the largest and most comprehensive Linux distribution ever created having well over 1,000 volunteers working on the project since 1993. Because of this many derivatives of Linux distros are based off of Debian, and it has become the grandfather of a large family of Linux distributions.
 
@@ -237,7 +238,7 @@ Advantages
 * Malware with root privileges cannot discover the user's real IP address.
 * Threats posed by misbehaving applications and user error are minimized.
 
-**[Tails](https://tails.boum.org/)** (which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS . It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
+**[Tails](https://tails.boum.org/)** (which stands for ‘The Amnesiac Incognito Live System’) is probably the most well known privacy-focused distro however its features also make it a very secure OS. It can be run from a DVD in Live mode whereby it loads entirely into your system RAM and will leave no trace of its activity. The OS can also be used in ‘persistent’ mode where your settings can be stored on an encrypted USB stick. All connections are routed through the anonymity network Tor, which conceals your location. The applications in Tails have also been carefully selected to enhance your privacy and security.
 
 Advantages
 
