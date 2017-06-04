@@ -1,8 +1,6 @@
 
 * [What are Merkle trees?](#what-are-merkle-trees)
      * [Uses](#uses)
-     * [æternity is the blockchain to rule them all!](#æternity-is-the-blockchain-to-rule-them-all)
-     * [æternity the blockchain to rule them all](#æternity-the-blockchain-to-rule-them-all)
      * [Structure: Merkle tree](#structure-merkle-tree)
      * [The Basic Protocol Merkle Trees follow](#the-basic-protocol-merkle-trees-follow)
      * [Benefits](#benefits)
