@@ -64,11 +64,11 @@ Coinbase, Bistamp aso.
 4. **choose COIN: ETHEREUM**
 5. **choose Generate: 24 Word**
    <sup>[read why?](#why-to-choose-a-24-word-bip39-mnemonic)</sup>
-6. **choose Mnemonic Language: english**
+6. **choose Mnemonic Language: English**
 7. click multiple times on **generate*
 8. **write down** the 24 words on a paper
 9. at Derived Addresses: write down the **first Ethereum address**
-10. [goto section: verify the new addres](#verify-if-new-the-address-is-a-valid-one)
+10. [goto section: verify the new address](#verify-if-new-the-address-is-a-valid-one)
 11. transfer your coins to the new address
 12. [contribute now on æternity!](https://wallet.aeternity.com/)
 
@@ -99,16 +99,16 @@ Coinbase, Bistamp aso.
 11. open a picture YOU made >1MB with an text editor
 12. copy the hole text (CTRL-A)
 13. come back to: 'bip39-standalone.html'
-14. past (CRTL-V)the text into 'Entropy BOX'
+14. past (CRTL-V) the text into 'Entropy BOX'
 15. Drink a cup of coffee or a beer, it your choice now. (my security
     concerns: don't drink and send money )!
 16. write down the *24 words* on a paper with an pen .
     <sup>[* for documentary use](http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=23720&ICS1=1&ICS2=100&ICS3=40)</sup>
-17. Save your wallet datas,
+17. Save your wallet data,
 18. power off your computer and wipe the hard disk
     <sup>[*](#storage-medium)</sup> at minimum 7 times
 19. [contribute now on æternity!](https://wallet.aeternity.com/)
-20. [goto section: verify the new addres](#verify-if-new-the-address-is-a-valid-one)
+20. [goto section: verify the new address](#verify-if-new-the-address-is-a-valid-one)
 21. transfer your coins to the new address
 22. [contribute now on æternity!](https://wallet.aeternity.com/)
 
@@ -139,7 +139,7 @@ hardware wallet Trezor
 
 ### Storage medium
 
-| medium                     | bevore      | after                |
+| medium                     | before      | after                |
 |:---------------------------|:------------|:---------------------|
 | usb stick                  | format      | wipe minimum 7 times |
 | sd-card                    | format      | wipe minimum 7 times |
