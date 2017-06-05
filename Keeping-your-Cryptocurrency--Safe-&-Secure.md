@@ -57,6 +57,8 @@ practices below in an effort to mitigate the majority of these threats.
   * [Afterword](#afterword)
   * [Additional WARNINGS](#additional-warnings)
 
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 ## Security Best Practices
 
 ### Physical Security
@@ -97,10 +99,10 @@ do we do this? It starts with following the dos and don'ts.
   somewhere before you reach your destination so potential thieves don't
   see you putting your hardware into the trunk.
 
-<hr><hr>
+<hr>
 
+[☝](#toc)
 ### Choosing an Os
-
 Choosing an operating system is arguably the single most important
 decision that you will make when it comes to keeping your digital
 currency safe and secure. With so many operating systems to choose from
@@ -111,10 +113,8 @@ an open-source operating system and not say, that wonderful OS named
 Windows? Well, that is one of the questions we are going to answer along
 with a few others on our journey to find the right OS.
 
-
+[☝](#toc)
 #### open-source-vs-proprietary
-
-
 Open-source, we all have heard those words before, but what do they
 mean? Simply stated open-source is a decentralized (just like aeternity)
 developmental model that encourages open collaboration between peers and
@@ -142,9 +142,8 @@ wondering what all this has to do with keeping our digital currency
 safe. Well, we are about to get to that now that we know the difference
 between open-source and proprietary software.
 
+[☝](#toc)
 #### Proprietary OS
-
-
 Proprietary operating systems like Windows has many more users than Mac
 and Linux combined. Since they have all of these user does it mean that
 is is more secure? Why else would so many people use them?
@@ -168,9 +167,8 @@ there are any major security holes in the OS. We just have to take
 Microsoft at it word that there are no back doors (insert laughter) or
 security vulnerabilities (laughing even harder).
 
-
+[☝](#toc)
 #### Open Source OS
-
 
 Open-source operating systems like Linux do not have nearly as many user
 as Window but they are much more secure. The source code is freely
@@ -189,6 +187,7 @@ closed-source Windows OS.
 
 ***
 
+[☝](#toc)
 #### User Account Privileges
 
 In Windows, users are generally given administrator privileges by
@@ -201,6 +200,7 @@ from infecting the entire system.
 
 ***
 
+[☝](#toc)
 #### Social Engineering
 Closed-source operating systems like Windows
   are more vulnerabilities to social engineering attacks. Most viruses
@@ -217,6 +217,7 @@ Closed-source operating systems like Windows
 
 ***
 
+[☝](#toc)
 #### Separateness of Environments
  Linux works in many environments and
   distros such as Debian, Qubes, Arch, and many others. With Various
@@ -228,6 +229,7 @@ Closed-source operating systems like Windows
 
 ***
 
+[☝](#toc)
 #### How many eyes see the code
  As stated above Windows source code is
   closed-source and has a limited set of paid developers who try to find
@@ -248,6 +250,7 @@ Closed-source operating systems like Windows
   developers, but it's unlikely that team can compare with a global base
   of Linux user-developers around the globe.
 
+[☝](#toc)
 ### Choosing Your Linux Distribution
 
 With so many Linux distros: also referred to as flavors of Linux, how do
@@ -257,6 +260,7 @@ share the same Linux kernel, there are some major differences in the
 distributions. Since we are focusing on keeping our digital currency
 safe and secure we want a distro that focuses on security and stability.
 
+[☝](#toc)
 #### [Debian](https://www.debian.org/)
  Debian is well known for its security and
 stability and sets itself apart by being the largest and most
@@ -264,6 +268,7 @@ comprehensive Linux distribution ever created having well over 1,000
 volunteers working on the project since 1993. Because of this many
 derivatives of Linux distros are based off of Debian, and it has become
 the grandfather of a large family of Linux distributions.
+
 
 ##### Advantages Debian
 * Efficient and well integrated packaging for a more robust system.
@@ -282,6 +287,7 @@ the grandfather of a large family of Linux distributions.
 
 ***
 
+[☝](#toc)
 #### [Qubes](https://www.qubes-os.org/)**
 Qubes is a security-focused desktop
 operating system that aims to provide security through isolation. In
@@ -319,6 +325,7 @@ systems.
 
 ***
 
+[☝](#toc)
 #### [Whonix](https://www.whonix.org/wiki/Main_Page)
 Whonix is a desktop
 operating system designed for advanced security and privacy. Whonix
@@ -333,6 +340,7 @@ or personalizing the desktop. Whonix is under active development and is
 the only operating system designed to be run inside a virtual machine
 and paired with Tor.
 
+
 ##### Advantages Whonix
 
 * Based on Debian, which is well known for its security and stability.
@@ -345,6 +353,7 @@ and paired with Tor.
 * Threats posed by misbehaving applications and user error are
   minimized.
 
+[☝](#toc)
 #### [Tails](https://tails.boum.org/)
 Tails (which stands for ‘The Amnesiac
 Incognito Live System’) is probably the most well known privacy-focused
@@ -373,6 +382,7 @@ carefully selected to enhance your privacy and security.
 
 ***
 
+[☝](#toc)
 ### BIOS Passwords
 
 Let’s say you’ve followed good security practices and have a password
@@ -417,8 +427,7 @@ your permission.
 
 ***
 
-<hr>
-
+[☝](#toc)
 ### Full Disk Encryption
 
 Disk encryption is a technology which protects the information on your
@@ -469,8 +478,8 @@ to compromising your computer!!**
 
 ***
 
-<hr>
 
+[☝](#toc)
 ### Passwords
 
 We all use them, weather its signing in to our email accounts,signing
@@ -590,6 +599,7 @@ strength of the password Keep in mind once you make a memorize a strong
 password you can make it stronger over time. Every week you can add a 1
 character or even 2.
 
+[☝](#toc)
 #### Security implications passwords:
 Even the strongest passwords allow us no
 protection if they are compromised. When in public be cognizant of your
@@ -597,6 +607,7 @@ surrounding. Are you in view of any security cameras that could be
 recording you type in your password? Be aware of shoulder surfers that
 may be watching you unlock your notebook or log into online accounts.
 
+[☝](#toc)
 ### Password Managers
 
 Another tool that can be helpful is a password manger. A password manger
@@ -611,6 +622,7 @@ compelled to reuse the same password for multiple sites.
 
 Generally there are 2 different types of password managers
 
+[☝](#toc)
 #### Locally-installed password managers
 Commonly reside on the user's
 personal computer or mobile device, such as smart phones, in the form of
@@ -622,6 +634,7 @@ approach, wherein the password database is dependent on an online file
 hosting service and stored remotely, but handled by password management
 software installed on the user's device.
 
+[☝](#toc)
 #### Web-based password managers
  An online password manager is a website that securely
 stores login details. They are a web-based version of more conventional
@@ -635,6 +648,7 @@ on. In both cases this risk can be prevented by ensuring secure backups
 are taken.The major disadvantages of online password managers are the
 requirements that the user trusts the hosting site.
 
+[☝](#toc)
 ##### Security implications password managers
 Its important to keep in mind the security of
 your password manager depends on the strength of the chosen master
@@ -652,7 +666,7 @@ keyboards to reduce this risk - though this again is vulnerable to key
 loggers which take screenshots as data is entered. This risk can be
 mitigated with the use of a multi-factor verification device (keyfile) .
 
-
+[☝](#toc)
 ### Man in the middle attacks
 
 A man-in-the-middle attack (MITM) is an attack where the attacker
@@ -695,6 +709,7 @@ Example:
      
      When Bob receives the newly encrypted message he believes it came from Alice.
 
+[☝](#toc)
 #### Defense and Detection MITM attacks
 They are largely detected, or
 prevented by two means: authentication, and tamper detection.
@@ -703,6 +718,7 @@ has come from a source. Means of tamper detection, by comparison, merely
 shows evidence that a message may have been altered, rather than
 providing any guarantees.
 
+[☝](#toc)
 ### Authentication
  All systems that are secure against MITM attacks
 provide some method of authentication for messages. Most require an
@@ -721,6 +737,7 @@ itself the subject of a MITM attack, then the certificates issued by the
 CA may be used to authenticate the messages sent by the owner of that
 certificate.
 
+[☝](#toc)
 ### Tamper detection
  Latency examination can potentially detect the
 attack in certain situations,[8] such as with long calculations that
@@ -732,6 +749,7 @@ abnormal length of time to reach the other party, this could be
 indicative of a third party's interference inserting additional latency
 in the transaction.
 
+[☝](#toc)
 ### Cryptocurrency Wallets
 
 #### Software Wallets
@@ -773,6 +791,7 @@ Guidelines for keeping your wallet secure:
   ‘cold storage’. Cold storage wallets store private bitcoin keys
   offline, so that they can’t be stolen by someone else on the Internet.
 
+[☝](#toc)
 #### Hardware Wallets
 
 To date there have been no verifiable incidents of digital currency
@@ -787,6 +806,7 @@ hardware wallet and losing your digital currency mnemonic recovery
 passphrase are some of the way you can still permanently lose you
 digital currency.
 
+[☝](#toc)
 #### Mnemonic Recovery Passphrase
 
 Mnemonic recovery passphrases are used to recover your digital currency
@@ -811,6 +831,7 @@ you keep your Mnemonic passphrase safe and secure.
 * To help prevent losing or damaging your mnemonic you can store it on
   [Cryptosteel](http://cryptosteel.com/).
 
+[☝](#toc)
 ### Afterword
 
 Using best security practices will not be helpful if only used when its
@@ -836,18 +857,22 @@ Good Luck!!
 | 12 | MITM Attacks        | [**Tor Project**: Anonymity Online](https://www.torproject.org/)                         |
 | 13 | MITM Attacks        | [Man in the middle attacks_wiki](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) |
 
-<a href="https://aeternity.slack.com/"><img
-src="https://slack.global.ssl.fastly.net/272a/img/icons/favicon-32.png"><sup>join
-us at slack</sup></a>
 
 ## Additional WARNINGS
 
-THIS INFORMATIONS AND INSTRUCTIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+THIS INFORMATION AND INSTRUCTIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THIS INSTRUCTIONS OR THE USE OR OTHER
-DEALINGS IN THE INFORMATIONS INSTRUCTIONS.
+DEALINGS IN THE INFORMATION INSTRUCTIONS.
 
 DO NOT SHARE YOUR PRIVATE KEYS!!!
+
+[☝](#toc)
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
+
+<a href="https://aeternity.slack.com/"><img
+src="https://slack.global.ssl.fastly.net/272a/img/icons/favicon-32.png"><sup>join
+us at slack</sup></a>
