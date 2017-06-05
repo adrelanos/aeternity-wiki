@@ -12,7 +12,8 @@
 ## TOC
 
 * [Security Concerns on Contributing to æternity?](#security-concerns-on-contributing-to-æternity)
-* [short version](#short-version)
+* [Express short version](#express-version)
+* [Short version](#short-version)
   * [Contribute to æternity now](https://wallet.aeternity.com)
     * [How to contribute ether?](https://blog.aeternity.com/how-to-send-ether-to-%C3%A6ternitys-contribution-campaign-wallet-e11ef89b847e)
     * [How to contribute bitcoin?](https://blog.aeternity.com/how-to-send-bitcoin-to-%C3%A6ternitys-contribution-campaign-wallet-65d3f46aa4b9)
@@ -45,6 +46,18 @@ fill out this form:
 [Contributed from an Exchange?](https://docs.google.com/forms/d/e/1FAIpQLSe6n_-YLaj2y9jMRkuC3GGb5Udx0sjZ1NP5wGvNKZ5pQhuayQ/viewform?c=0&w=1)
 
 ***
+## Express version
+1. open the contribution website: https://wallet.aeternity.com/
+2. click on contibute now
+3. choose ETH or BTC (own wallet)
+4. read and understand the terms and conditions
+5. confirm that you are not a US citizen or US resident
+6. click to accept
+7. pick the ETH/BTC you see on screen
+8. send the coins from your own wallet
+9. check after some confirmation your contribution
+
+
 
 ## Short Version
 The short version works for: **Ethereum, Bitcoin and FIAT**. The choice is yours.
