@@ -1,39 +1,39 @@
-The scope of the document is to explain that there exist more than on
-definition of cold storage of the context of crypto currencies and to
+The scope of the document is to explain that there exist more than one
+definition of cold storage in the context of cryptocurrencies and to
 explain how to:
 
 * create a wallet offline
 * sign a message offline
 * create a transaction offline
 * securely executing the transactions online
-* explain why an offline created crypto coin address / wallet can
-  securely checked form an the wild
+* explain why an offline created cryptocoin address / wallet can
+  be securely checked from in the wild
 
 ## Definition: Cold Storage
 
-A *cold storage* of context of crypto currencies mean to reserve crypto
-currency coins offline. This storage exist there where you save your
-data's and records offline for ever. But there exist a tiny different to
-an deep cold storage. The different is that this datas could exist on a
-medium which was one time connected on a network.
+*Cold storage* in the context of cryptocurrencies means to reserve crypto
+currency coins offline. This storage exist there to save your
+data and offline records for ever. But there exist a subtle different between
+that and deep cold storage. The different is that this data could exist on a
+medium which was at one time connected on a network.
 
-Examples for a cold storage:
+Examples of cold storage medium:
 * a piece of paper
 * an offline computer <sup>(never connect(ed) to a network)</sup>
 * a cd/dvd/blue ray -disk <sup>(never connect(ed) to a network)</sup>
 
-What cold storage on our case not mean:
+What cold storage does not mean in our case:
 
 >If something, usually food, is kept in cold storage, it is put in
 >artificially cold conditions, usually to stop it from decaying.
 
-On the wild exist a site where you can read the pro's and con's: just
-search for 'cold storage & crypto coins'
+In the wild there exists a site where you can read the pros and cons: just
+search for 'cold storage & cryptocoins'
 
 ## Definition: Deep cold storage
 
-A *deep cold storage* of context of crypto currencies mean to reserve
-crypto currency coins offline AND the wallet was created offline.
+A *deep cold storage* in the context of cryptocurrencies mean to reserve
+cryptocurrency coins offline AND the wallet used was created offline.
 
 ## Create a wallet offline
 
@@ -51,9 +51,9 @@ do it, please.
 
 do it, please.
 
-## why an offline created crypto coin wallet:
+## why an offline created cryptocoin wallet:
 
-* can securely checked form an the wild!
+* can be securely checked from in the wild!
 * more examples
 * more examples
 * more examples
