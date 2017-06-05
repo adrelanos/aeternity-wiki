@@ -8,7 +8,9 @@
     private keys and/or seed are acceptable. Make sure that you are sending to the correct
     Ether address of æternity's contribution campaign. Funds sent to any other address will
     not be exchanged for AE tokens and will not be returned to you.
+
 ## TOC
+
 * [Security Concerns on Contributing to æternity?](#security-concerns-on-contributing-to-æternity)
 * [short version](#short-version)
   * [Contribute to æternity now](https://wallet.aeternity.com)
@@ -20,13 +22,14 @@
   * [Supply my own source of entropy]()
   * [Why choose a 24 Word BIP39 Mnemonic?](#why-to-choose-a-24-word-bip39-mnemonic)
   * [Storage medium](#storage-medium)
-* [**Verify if the new address is a valid one!**](#verify-if-new-the-address-is-a-valid-one)
+* [**Verify if your new address is a valid one!**](#verify-if-your-new-address-is-a-valid-one)
 * [**Additional WARNINGS**](#additional-warnings)
 * [related articles](#related-articles)
 * [sources](#sources)
+* [other concerns?](#do-you-have-other-concerns)
 
 **Never send private keys to anybody asking for them - never send
-contribution transactions to any other address other than 
+contribution transactions to any other address other than
 wallet.aeternity.com**
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
@@ -37,9 +40,14 @@ There exist an easy way to bypass your security concerns, this solution
 is frequently chosen by investors that only use online wallets at
 Coinbase, Bistamp etc..
 
+If you accidentally send money from an exchange, let the æ-Team know and
+fill out this form:
+[Contributed from an Exchange?](https://docs.google.com/forms/d/e/1FAIpQLSe6n_-YLaj2y9jMRkuC3GGb5Udx0sjZ1NP5wGvNKZ5pQhuayQ/viewform?c=0&w=1)
+
 ***
 
 ## Short Version
+The short version works for: **Ethereum, Bitcoin and FIAT**. The choice is yours.
 
 ### [Contribute now to æternity](https://wallet.aeternity.com/)
 
@@ -57,11 +65,12 @@ Coinbase, Bistamp etc..
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ### light Version!
+The light version works for: **Ethereum and Bitcoin **. The choice is yours.
 
 1. download this: https://github.com/LedgerHQ/bip39/archive/master.zip
 2. use an offline computer
 3. extract the zip, open bip39-standalone.html
-4. **choose COIN: ETHEREUM**
+4. **choose COIN: ETHEREUM or BITCOIN**
 5. **choose Generate: 24 Word**
    <sup>[read why?](#why-to-choose-a-24-word-bip39-mnemonic)</sup>
 6. **choose Mnemonic Language: English**
@@ -77,7 +86,7 @@ Coinbase, Bistamp etc..
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
 ## paranoid version
-
+The paranoid version works for: **Ethereum and Bitcoin **. The choice is yours.
 ### Mnemonic Code Converter
 
 *DO NOT USE A ONLINE VERSION ! This instructions are for strong safety
@@ -95,7 +104,7 @@ Coinbase, Bistamp etc..
    <sup>[read why?](#why-to-choose-a-24-word-bip39-mnemonic)</sup>
 9. **click english!**
    <sup>[read why?](#why-to-choose-a-24-word-bip39-mnemonic)</sup>
-10. **choose COIN: ETHEREUM**
+10. **choose COIN: ETHEREUM or BITCOIN**
 11. open a picture YOU made >1MB with an text editor
 12. copy the hole text (CTRL-A)
 13. come back to: 'bip39-standalone.html'
@@ -114,6 +123,7 @@ Coinbase, Bistamp etc..
 
 [☝](#toc)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
+
 #### Supply my own source of entropy
 
 Check this box to use your own entropy. For example:
@@ -149,7 +159,7 @@ hardware wallet Trezor
 [☝](#toc)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
 
-## Verify if new the address is a valid one!
+## Verify if your new address is a valid one!
 
 To verify the new Ethereum address we use OFFLINE - the software
 (**M**)y(**E**)ther(**W**)allet (MEW), if you need help you can get it
@@ -179,8 +189,12 @@ some, to the new address you generated.
 
 [☝](#toc)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
+
 ## related articles
+
 * [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
+* æternity Contribution Phase 1:
+  [Contributed from an Exchange?](https://docs.google.com/forms/d/e/1FAIpQLSe6n_-YLaj2y9jMRkuC3GGb5Udx0sjZ1NP5wGvNKZ5pQhuayQ/viewform?c=0&w=1)
 
 
 ## Sources
@@ -191,8 +205,8 @@ some, to the new address you generated.
 | 2  | software      | BIP39/44 Mnemonic Code Converter      | [link](https://github.com/LedgerHQ/bip39/archive/master.zip)   |
 | 3  | Ledger-Wallet | Ledger Nano s - hardware wallet       | [link](https://www.ledgerwallet.com/r/07c5)                    |
 | 4  | Trezor-Wallet | Trezor - hardware wallet              | [link](https://trezor.io/?a=bitcoins-today.com)                |
-| 5  | inspiration   | æternity wallet                       | [link](https://wallet.aeternity.com/)                         |
-| 6  | Brainwallet   | Zwilla's Brainwallet                  | [author profile](æternity-wiki-authors#zwilla)                                                               |
+| 5  | inspiration   | æternity wallet                       | [link](https://wallet.aeternity.com/)                          |
+| 6  | Brainwallet   | Zwilla's Brainwallet                  | [author profile](æternity-wiki-authors#zwilla)                 |
 
 ## Additional WARNINGS
 
@@ -208,3 +222,11 @@ DO NOT SHARE YOUR PRIVATE KEYS!!!
 
 [☝](#toc)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#toc)
+
+## Do you have other concerns?
+
+add your questions or concerns here:
+
+| no | describe concerns! | date |
+|:---|:-------------------|:-----|
+| 1  |                    |      |
