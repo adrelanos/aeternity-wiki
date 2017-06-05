@@ -84,6 +84,7 @@
 
 ### MISC
 - [Glossary](Glossary)
+- [Cold Storages](Cold-Storages)
 - [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
 
 ### Translated Content
