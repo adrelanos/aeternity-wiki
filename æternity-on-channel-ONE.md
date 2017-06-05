@@ -1,14 +1,15 @@
-![aeternity-channel-one](http://aeternity.de/images-by-zwilla/aeternity-channel-one-3.jpg)
+[![aeternity-channel-one](http://aeternity.de/images-by-zwilla/aeternity-channel-one-3.jpg)](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
+
 * [English æternity Videos](#english-æternity-videos)
-* [Spanish æternity Videos](#spanish-æternity-videos)
+* [Español æternity Videos](#español-æternity-videos)
 * [Russian æternity Videos](#russian-æternity-videos)
 * [æternity Community Videos](#æternity-community-stuff)
-
+* [official Youtube æternity channel](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
 
 ***
 ## English æternity Videos
 
-### [Website background Video](https://www.aeternity.com/user/themes/aeon/files/video/novaeternity39.mp4)
+* [Website background Video](https://www.aeternity.com/user/themes/aeon/files/video/novaeternity39.mp4)
  
  
 ## æternity Youtube and other Videos
@@ -60,7 +61,7 @@
 
 
 ***
-## Spanish æternity videos
+## Español æternity videos
 
 **æternity Community español Videos**
 * [æternity Blockchain Testnet - nueva dirección & contraseña æternity](https://www.youtube.com/watch?v=ZPBSYMzeHNw)
@@ -69,17 +70,18 @@
 ***
 
 ## Russian æternity Videos
-[æternity ICO Start 03/04/2017 Проект масштабируемых умных контрактов!](https://www.youtube.com/watch?v=COlgOlKJskU)
-[ICO æternity (айсио айтернити) 29 мая 2017](https://www.youtube.com/watch?v=eDttul_l-d4)
+* [æternity ICO Start 03/04/2017 Проект масштабируемых умных контрактов!](https://www.youtube.com/watch?v=COlgOlKJskU)
+* [ICO æternity (айсио айтернити) 29 мая 2017](https://www.youtube.com/watch?v=eDttul_l-d4)
 
 ## Only music and english text
 * [æternity the oracle machine on blockchain](https://www.youtube.com/watch?v=lqP59HWnDus)
 
 ***
 ## æternity Community stuff
-### [Aeternity the Oracle Machine- My T-shirt Bounty Designs!!!](https://www.youtube.com/watch?v=I12pdOWkJW8 "Aeternity the Oracle Machine- My T-shirt Bounty Designs!!!")
+* [Aeternity the Oracle Machine- My T-shirt Bounty Designs!!!](https://www.youtube.com/watch?v=I12pdOWkJW8 "Aeternity the Oracle Machine- My T-shirt Bounty Designs!!!")
+* [ICO Review of : Aeternity blockchain (Aeon tokens)](https://www.youtube.com/watch?v=UBiiVYUM1TM)
+  [plog post to the video ](https://medium.com/@EthereumRussian/ico-review-of-aeternity-blockchain-aeon-tokens-45f84abe6b4b)
 
-
-
-Source:
-[Youtube æternity channel](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA), Youtube, æternity
+***
+Sources:
+* [official Youtube æternity channel](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA), Youtube, æternity
