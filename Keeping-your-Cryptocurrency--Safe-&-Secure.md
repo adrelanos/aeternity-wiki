@@ -405,10 +405,11 @@ computer or just to change BIOS settings.
 
 Of course, if someone has physical access to your computer, all bets are
 off. They could crack it open and remove your hard drive or insert a
-different hard drive. They could use their physical access to reset the
-BIOS password. A BIOS password still does provide extra protection here,
-particularly in situations where people have access to a keyboard and
-USB ports, but the computer’s case is locked up and they can’t open it.
+different hard drive. Physical access enables a malicious actor to easily
+reset and bypass the BIOS password. A BIOS password still does provide 
+extra protection here,particularly in situations where people have access
+to a keyboard and USB ports, but the computer’s case is locked up and they
+can’t open it.
 
 These passwords are set in your BIOS settings screen. You’ll need to
 reboot your computer and press the appropriate key during the boot-up
