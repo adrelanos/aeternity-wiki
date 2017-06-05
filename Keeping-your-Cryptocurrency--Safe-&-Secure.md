@@ -433,7 +433,7 @@ your permission.
 
 Disk encryption is a technology which protects the information on your
 hard drive, USB, or CD by converting it into unreadable code that cannot
-be deciphered easily by unauthorized people. Disk encryption used
+be deciphered easily by unauthorized people. Disk encryption uses
 encryption software of hardware to encrypt all of the data that goes on
 a disk or disk volume Disk encryption prevents unauthorized access to
 the data stored on the disk.
@@ -462,7 +462,7 @@ with full disk encryption
 There is one very important thing you must know however. As mentioned
 previously with full disk encryption the boot partition, or MBR is not
 encrypted. This means that if a malicious user was to have physical
-access to your computer, malicious code--like a keylogger-- could be
+access to your computer, malicious code--like a key-logger-- could be
 installed on you boot partition. It only takes a few seconds for a USB
 to be inserted into your laptop and a virus uploaded. It does not matter
 if your computer is running or powered down, It is still just as
@@ -487,7 +487,7 @@ We all use them, weather its signing in to our email accounts,signing
 into Github, or unlocking our OS user account. Passwords are in our
 lives and they are here to stay, but many don't take the time to think
 about what goes into making a strong high password. Most people use a
-password that is easy for them to remember like a pets name, a birthday,
+password that's easy for them to remember like a pets name, a birthday,
 or the name of one of their children. These are the passwords malicious
 users want us to have. All a cracker has to do is search on Google to
 find out all the personal information they need to know about someone to
