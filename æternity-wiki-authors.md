@@ -187,6 +187,7 @@
 
 ### [llolo96](https://github.com/llolo96)
 
+* Contributed towards syntax and grammar corrections on most pages
 
 ***
 
