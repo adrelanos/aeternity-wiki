@@ -1,4 +1,4 @@
-Cryptocurrency has changed the way we use currency. It allows us to be
+[Cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency) has changed the way we use currency. It allows us to be
 in a sense our own bankers and it provides us with new ways to buy and
 sell products. However, it brings with it one of the inherent problems
 that all other currencies have whether it's paper money or digital
@@ -83,10 +83,10 @@ do we do this? It starts with following the dos and don'ts.
   do take them into a library or classrooms, do not leave them alone,
   not even for a minute while you go to the restroom or out to your car.
   Thieves look for such opportunities. However, if you must leave your
-  laptop unattended in a public place, lock it up with a Kensington
+  laptop unattended in a public place, lock it up with a [Kensington](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
   lock.
 
-* Never leave your laptop or hardware wallet unattended in your office
+* Never leave your laptop or [hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet) unattended in your office
   or dorm room. Once again if you must step out for a moment, use a
   Kensington lock. Remember thieves will go after what is easiest for
   them to steal. If they have a choice between 2 identical laptops and 1
@@ -115,7 +115,7 @@ with a few others on our journey to find the right OS.
 
 [☝](#toc)
 #### open-source-vs-proprietary
-Open-source, we all have heard those words before, but what do they
+[open-source](https://en.wikipedia.org/wiki/Open-source_model), we all have heard those words before, but what do they
 mean? Simply stated open-source is a decentralized (just like aeternity)
 developmental model that encourages open collaboration between peers and
 making products such as source code and documentation freely available
@@ -127,7 +127,7 @@ modify, and publish their version (fork) back to the community.
 
 
 Now that you have a basic understanding of open-source lets move onto
-proprietary (also referred to as closed-source) software. Relatively
+[proprietary](https://en.wikipedia.org/wiki/Proprietary_software) (also referred to as closed-source) software. Relatively
 speaking proprietary software is the opposite of open-source software.
 Proprietary software is computer software for which the software's
 publisher or another person retains intellectual property
@@ -157,7 +157,7 @@ code is closed-source.
 
 Microsoft if very strict about who they let see the source code. When
 they do show the source code its only to their clients (like the
-government) but only after signing a Non-Disclosure agreement. This way
+government) but only after signing a [non-disclosure agreement](https://en.wikipedia.org/wiki/Non-disclosure_agreement). This way
 if someone were to steal trade secrets or tell the public what they saw
 there would be severe legal repercussions.
 
@@ -331,7 +331,7 @@ Whonix is a desktop
 operating system designed for advanced security and privacy. Whonix
 mitigates the threat of common attack vectors while maintaining
 usability. Online anonymity is realized via fail-safe, automatic, and
-desktop-wide use of the Tor network. A heavily reconfigured Debian base
+desktop-wide use of the [Tor](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29) network. A heavily reconfigured Debian base
 is run inside multiple virtual machines, providing a substantial layer
 of protection from malware and IP address leaks. Commonly used
 applications are pre-installed and safely pre-configured for immediate
@@ -399,7 +399,7 @@ You could change the boot order to force the computer to always boot
 from its internal hard drive, but someone could enter your BIOS and
 change your boot order to boot the removable device.
 
-A BIOS password provides some protection against this. Depending on how
+A [BIOS](https://en.wikipedia.org/wiki/BIOS) password provides some protection against this. Depending on how
 you configure the password, people will need the password to boot the
 computer or just to change BIOS settings.
 
@@ -440,8 +440,8 @@ the data stored on the disk.
 
 What we will be focusing on is referred to as Full Disk Encryption. You
 would think--from the name--that full disk encryption signifies that
-everything on the disk is encrypted: however the master boot record
-(MBR) or the Unified Extensible Firmware Interface (UEFI) which is the
+everything on the disk is encrypted: however the [master boot record](https://en.wikipedia.org/wiki/Master_boot_record)
+(MBR) or the [Unified Extensible Firmware Interface](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) (UEFI) which is the
 code that starts the OS loading sequence, is not encrypted. There are
 drives with hardware based encryption that also encrypt the MBR or UEFI
 partitions. These are proprietary and therefore the source code can not
@@ -449,8 +449,8 @@ be audited by independent security professionals. For this reason we
 will not be discussing hardware encrypted drives.
 
 Since Linux is our OS of choice , we will be using LUKS: or Linux
-Unified Key setup. LUKS is based on an enhanced version of cryptsetup,
-using dm-crypt as the disk encryption backend. The next question is how
+Unified Key setup. [LUKS](https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup) is based on an enhanced version of [cryptsetup](https://en.wikipedia.org/wiki/Dm-crypt#cryptsetup),
+using [dm-crypt](https://en.wikipedia.org/wiki/Dm-crypt) as the disk encryption backend. The next question is how
 do we encrypt our OS. With most Linux distros you are given the option
 to encrypt your system during installation. All you have to do is follow
 the documentation for your given disrto and in most cases the OS
@@ -462,8 +462,8 @@ with full disk encryption
 There is one very important thing you must know however. As mentioned
 previously with full disk encryption the boot partition, or MBR is not
 encrypted. This means that if a malicious user was to have physical
-access to your computer, malicious code--like a key-logger-- could be
-installed on you boot partition. It only takes a few seconds for a USB
+access to your computer, malicious code--like a [keylogger](https://en.wikipedia.org/wiki/Keystroke_logging)-- could be
+installed on you [boot partition](https://en.wikipedia.org/wiki/System_partition_and_boot_partition). It only takes a few seconds for a USB
 to be inserted into your laptop and a virus uploaded. It does not matter
 if your computer is running or powered down, It is still just as
 vulnerable. You are given some protection is you have a bios password
@@ -542,7 +542,7 @@ computer monitor. (b) users are more likely to re-use the same password
 for all of their accounts.
 
 One of the better ways to create a strong password is to use memory
-techniques. With mnemonic passwords users develop memorable phrases and
+techniques. With [mnemonic](https://en.wikipedia.org/wiki/Mnemonic) passwords users develop memorable phrases and
 use them to generate more or less random passwords which are
 nevertheless relatively easy for the user to remember. For instance, the
 first letter of each word in a memorable phrase. In the example we will
@@ -614,7 +614,7 @@ may be watching you unlock your notebook or log into online accounts.
 Another tool that can be helpful is a password manger. A password manger
 is a encrypted data base that assists in generating, storing, and
 retrieving complex passwords. The user must create a master password
-and/or keyfile to unlock the data base. Many of these managers also have
+and/or [keyfile](https://en.wikipedia.org/wiki/Mnemonic) to unlock the data base. Many of these managers also have
 password generators. These are simple to operate and allow users to
 generate strong passwords or keyfiles in seconds. One of the biggest
 advantages of a password manager is it eliminates the need to remember
@@ -665,7 +665,7 @@ a password, the master password may also be attacked and discovered
 using a key-logger. Some password managers attempt to use virtual
 keyboards to reduce this risk - though this again is vulnerable to key
 loggers which take screenshots as data is entered. This risk can be
-mitigated with the use of a multi-factor verification device (keyfile) .
+mitigated with the use of a [multi-factor authentication device](https://en.wikipedia.org/wiki/Multi-factor_authentication) such as a keyfile .
 
 [☝](#toc)
 ### Man in the middle attacks
@@ -724,23 +724,22 @@ providing any guarantees.
  All systems that are secure against MITM attacks
 provide some method of authentication for messages. Most require an
 exchange of information (such as public keys) in addition to the message
-over a secure channel. Such protocols often use key-agreement protocols
+over a [secure channel](https://en.wikipedia.org/wiki/Secure_channel). Such protocols often use key-agreement protocols
 have been developed, with different security requirements for the secure
 channel, though some have attempted to remove the requirement for any
 secure channel at all.
 
-A public key infrastructure, such as Transport Layer Security, may
-harden Transmission Control Protocol against Man-in-the-middle-attacks.
+A [public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure), such as [transport layer security](https://en.wikipedia.org/wiki/Transport_Layer_Security), may
+harden [Transmition Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) against Man-in-the-middle-attacks.
 In such structures, clients and servers exchange certificates which are
-issued and verified by a trusted third party called a certificate
-authority (CA). If the original key to authenticate this CA has not been
+issued and verified by a trusted third party called a [certificate authority](https://en.wikipedia.org/wiki/Certificate_authority) (CA). If the original key to authenticate this CA has not been
 itself the subject of a MITM attack, then the certificates issued by the
 CA may be used to authenticate the messages sent by the owner of that
 certificate.
 
 [☝](#toc)
 ### Tamper detection
- Latency examination can potentially detect the
+ [Latency](https://en.wikipedia.org/wiki/CAS_latency) examination can potentially detect the
 attack in certain situations,[8] such as with long calculations that
 lead into tens of seconds like hash functions. To detect potential
 attacks, parties check for discrepancies in response times. For example:
@@ -755,7 +754,7 @@ in the transaction.
 
 #### Software Wallets
 
-Local Wallets are installed on your computer or mobile
+Local wallets are installed on your computer or mobile
 device/smart-phone and provide the user with complete control over the
 wallet. They also enable the user to create a wallet address for sending
 and receiving digital currency. The main benefit of using a local wallet
