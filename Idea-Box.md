@@ -1,4 +1,4 @@
-[Use Case Ideas for æternity](#use-case-ideas-for-æternity)
+[Use Case Fantasies for æternity](#use-case-ideas-for-æternity)
 ===========================================================
 
 * [Use Case Flow](#use-case-flow)
