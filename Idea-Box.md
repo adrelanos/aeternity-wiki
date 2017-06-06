@@ -4,7 +4,6 @@
 * [Use Case Flow](#use-case-flow)
 * [Target audiences](#target-audiences)
 * [Requirements](#requirements)
-* [Supply Chain Management](#supply-chain-management)
 * [Prediction Markets](#prediction-markets)
 * [Use Case Ideas 1](#use-case-ideas-1)
 * [Gaming](#gaming)
