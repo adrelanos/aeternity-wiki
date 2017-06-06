@@ -50,7 +50,7 @@
 - [Terminal interface commands](Terminal-interface-commands)
 - [Testnet setup start and use](testnet-setup-start-and-use)
 - [Troubleshooting](Troubleshooting)
-- [Ubuntu Node Commands](Ubuntu-Node-Commands)
+- [æternity Node Commands](æternity-Node-Commands)
 - [Windows Installation](Installing-on-Windows-%28work-in-progress%2C-help-wanted%29)
 
 ### How to
