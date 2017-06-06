@@ -1,8 +1,6 @@
 [Use Case Ideas for æternity](#use-case-ideas-for-æternity)
 ===========================================================
 
-* [Health & æternity](#health--æternity)
-* [DocOræcle](#docoræcle)
 * [Use Case Flow](#use-case-flow)
 * [Target audiences](#target-audiences)
 * [Requirements](#requirements)
@@ -14,7 +12,6 @@
 * [Insured (and Trust-less) crowdfunding](#insured-and-trust-less-crowdfunding)
 * [Use Case Ideas 3](#use-case-ideas-3)
 * [Micro- & Nano Payments](#micro---nano-payments)
-* [Decentralized Education Marketplace on æternity](#decentralized-education-marketplace-on-æternity)
 * [Toll API](#toll-api)
 * [Cross-chain atomic swaps](#cross-chain-atomic-swaps)
 * [Stable value assets and portfolio replication](#stable-value-assets-and-portfolio-replication)
@@ -31,13 +28,6 @@
 ***
 
 # Use Case Ideas for æternity
-
-## Health & æternity
-
-### DocOræcle
-A platform for everyone to get meaningful medical advice, no matter the infrastructure or insurance policy. A platform for questions too sensitive or personal to ask a doctor in person.
-Answering questions and participating in the prediction markets created by the medical Oracles should only be accessible to doctors with digitally signed degree.
-[Furthermore Oracles may be fed information regarding symptoms diagnosis & can be combined with AI image recognition to offer diagnosis prediction.]
 
 #### Use Case Flow
 1. Raise question
@@ -65,15 +55,6 @@ Answering questions and participating in the prediction markets created by the m
     * Only they are allowed to answer questions and participate in oracle
 
 ***
-
-## Supply Chain Management
-
-The supply chain management can be trusted to a smart contract that is constantly interfacing with the Oracle on æternity.
-The demand for any product can be fed to the smart contract through the Oracle. That will trigger the contract to send procurement orders to suppliers, and raw materials providers, taking into consideration the normal delays of each item in the procurement process. In the meantime, the smart contract's information being fed through the Oracle can be regulated to increase or decrease the quantity of the orders in-real time, thus eliminating waste of material/overstocking of storage facilities.
-
-High-level concept of Supply Chain Management (SCM) automation with Smart Contracts, Prediction Markets, and Oracles.
-
-![SCM automation (high level)](http://i67.tinypic.com/1112pw4.png)
 
 ## Prediction Markets
 > Prediction Markets (created with Oracles) are one of the most anticipated use cases for Blockchains. They can make possible the harnessing of the wisdom of the crowds in a decentralized and transparent manner for the first time.
@@ -127,12 +108,6 @@ The only problem with other blockchain solutions like Ethereum, is that storing 
 Source: [Cryptocoinnews](https://www.cryptocoinsnews.com/hundreds-charging-stations-electric-cars-blockchenized-ethereum-germany/)
 
 [State Channel Info](Research-and-Theory#state-channels)
-
-## Decentralized Education Marketplace on æternity
-
-We can utilize æternity's powerful features to disrupt education with blockchain by creating an open marketplace where students and teachers alike, can trade private or group lessons. It should include social profiles of both teachers and students, gamification etc. Also, by using æternity's oracle, students can allow more than one teacher to rate a test, exam or work in general.
-[Taken from here](https://github.com/aeternity/wiki/wiki/Humanistic-Use-Cases#education-marketplace)
-
 
 ## Toll API
 
