@@ -36,25 +36,12 @@ information, refer to
 An oracle is a mechanism that tells the blockchain facts about the world
 we live in e.g. the closing price of Apple shares on a particular date.
 æternity's oracle system uses the same consensus system as the æternity
-blockchain itself i.e. it does not require a separate consensus layer on
-top of the æternity mainnet.
+blockchain itself.
 
-To launch an oracle, an aeon holder has to commit to answering a yes or
-no question (e.g. whether the price of an Apple share is above $200) and
-specify additional conditions such as the time frame in which the Aeon
-holder can answer that question. The aeon holder then has to
-deposit/commit a certain amount of aeon, which is proportional to the
-time frame during which the oracle is operational. When the oracle
-supplies an answer that is accepted as the truth by users, the deposit
-will be returned to the creator of the oracle. Otherwise, the deposit
-will be destroyed.
-
-Once the oracle has submitted an answer, other users are free to dispute
-the answer by submitting a counter-claim by depositing the same amount
-of aeon as the oracle creator. If there are no counter-claims by the end
-of the time frame, the answer supplied by the oracle is deemed to be
-truth. If there are counter-claims, the consensus system for the
-æternity main-net will be used to decide on which is the correct answer.
+Anyone willing to pay the fee is allowed to launch an oracle asking any question.
+Everyone is allowed to participate in the oracle mechanism.
+If you participate honestly, you profit. If you participate dishonestly,
+then you lose your money.
 
 Therefore, what is in effect achieved is a decentralised oracle system.
 The truth value of oracle answers, if in dispute, will be ultimately
