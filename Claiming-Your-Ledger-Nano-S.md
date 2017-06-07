@@ -1,6 +1,6 @@
-    Never send private keys or confidential information to anybody asking for them 
-    Never send any contributions to any address other than the one listed on wallet.aeternity.com
-
+    Never send private keys or confidential information to anybody asking for them. 
+    Never send any contributions to any address other than the one listed on 
+    wallet.aeternity.com.
 
 The phase one contribution has officially ended. If you were one of the
 first 1000 people to contribute more than 11.9 ETH you may have
