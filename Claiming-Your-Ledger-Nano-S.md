@@ -14,15 +14,19 @@ start the claim process to receive your Ledger.
 ## Did I qualify for an æternity Ledger Nano S?
 
 To check if you qualified for a æternity Ledger Nano S:
-* Visit: https://wallet.aeternity.com/.
-* Find the section - "Contributed already? Check your AE balance here:"
-  \- at the bottom of the page.
-* Enter your contribution wallet address and hit enter
-* If you qualified for a Ledger you will be informed accordingly.
-[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
-## How do I claim my æternity Ledger Nano S?
+* Visit: https://wallet.aeternity.com/
+* Scroll down to the bottom of the page to the 'AE BALANCE CHECK' field
+* Enter your contribution wallet address in the box as indicated in the picture below:
 
-> You should receive an email with a coupon and instructions for
+![Claim](http://i.imgur.com/IjFPOFY.png)
+
+* You will be informed if you qualified for the limited edition æternity Ledger Nano S. 
+
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+
+## I'm eligible! How do I claim my æternity Ledger Nano S?
+
+> You will receive an email with both a coupon and instructions for
 > receiving your limited edition æternity Ledger Nano S after following
 > the instructions for the claiming process listed below.
 
