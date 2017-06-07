@@ -55,7 +55,7 @@
 
 ### How to
 - [How To Sign A Message Using Your Private Key](How-to-sign-a-message-with-a-private-key%3F)
-- [How To Claim Your Ledger](Claiming-Your-Ledger-Nano-S)
+- [Claiming Your Ledger Nano S](Claiming-Your-Ledger-Nano-S)
 - [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
 
