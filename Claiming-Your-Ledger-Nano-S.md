@@ -1,4 +1,6 @@
-    Never send private keys or confidential information to anybody asking for them - never send any contributions to any address other than the one listed on wallet.aeternity.com
+    Never send private keys or confidential information to anybody asking for them 
+    Never send any contributions to any address other than the one listed on 
+    wallet.aeternity.com
 
 DRAFT
 
@@ -40,13 +42,11 @@ Check out [this page](https://github.com/aeternity/wiki/wiki/How-to-sign-a-messa
 
 ## I still have questions, who can I talk to:
 
-Please visit our
-[[Contacts and Communities|Contacts-and-Communities]] page for resources on how you can reach out to the team.
+On Slack, please feel free to inform @tombo and ask for assistance in the #signer-beta channel. 
+
+You can also visit our
+[[Contacts and Communities|Contacts-and-Communities]] page for more resources on how you can reach out to the team.
+
+On Slack, please feel free to inform @tombo and ask for assistance in the #signer-beta channel. 
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
-
-### How to get an æternity Ledger Nano S using a different Ledger Nano S
-
-** more information and instructions asap**
-
-Do not forget on slack to inform: @tombo, and send link into #signer-beta
