@@ -14,8 +14,6 @@ qualified for a free Ledger Nano S!
 
 ![AEBalance-Check](http://i.imgur.com/IjFPOFY.png)
 
-* You will be informed if you qualified for the limited edition æternity Ledger Nano S. 
-
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 ## I'm eligible! How do I claim my limited edition æternity Ledger Nano S?
