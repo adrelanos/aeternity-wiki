@@ -361,10 +361,6 @@
 
 ***
 
-### [Shelpin](https://github.com/Shelpin)
-
-***
-
 ### [ShamariFeaster](https://github.com/ShamariFeaster)
 
 ***
