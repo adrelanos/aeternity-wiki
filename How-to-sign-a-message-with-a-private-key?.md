@@ -193,3 +193,7 @@ For backup reason you got a 24 keyword list.
 
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
+
+
+
+**NEED TO ADD INSTRUCTIONS FOR CLAIMING LEDGER w/ LEDGER**
