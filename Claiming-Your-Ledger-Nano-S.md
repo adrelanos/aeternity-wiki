@@ -19,16 +19,18 @@ qualified for a free Ledger Nano S!
 ## I'm eligible! How do I claim my limited edition æternity Ledger Nano S?
 
 * Visit: https://wallet.aeternity.com
-* Find the section labeled - "ÆTERNITY LEDGER NANO S" - at the center of the
-  page and click the pink "Claim your æternity Ledger now" button as shown below.
+* Find the section labeled "ÆTERNITY LEDGER NANO S" and click the pink "Claim your æternity Ledger now" button.
 
 ![Claim](http://i.imgur.com/WhfLzF2.jpg)
 
-* Continue down the page and complete the instruction by verifying your
-  wallet similar to when you made your contribution.
+* Continue down the page and complete the instructions by verifying your
+  wallet address.
 
-* After submitting your email you should receive a confirmation. The
-  æternity team will be in touch with you in the near future.
+> You will receive an email with both a coupon and instructions for
+> receiving your limited edition æternity Ledger Nano S. 
+> Someone from the æternity team will reach out to you in the near future.
+
+Check out [this page](https://github.com/aeternity/wiki/wiki/How-to-sign-a-message-with-a-private-key%3F) for instructions on how to sign a message using your private key.
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 ## When will the Ledger Nano S be shipped out?
@@ -36,14 +38,14 @@ qualified for a free Ledger Nano S!
 æternity is currently processing orders and expects to have shipping complete by the end of May.
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
-## I still have a question who can I talk to:
+## I still have questions, who can I talk to:
 
 Please visit our
-[[Contacts and Communities|Contacts-and-Communities]] and feel free to reach out to the team.
+[[Contacts and Communities|Contacts-and-Communities]] page for resources on how you can reach out to the team.
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
-### Get a Ledger with a Ledger
+### How to get an æternity Ledger Nano S using a different Ledger Nano S
 
 ** more information and instructions asap**
 
