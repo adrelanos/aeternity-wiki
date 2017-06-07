@@ -36,7 +36,8 @@ BANTUAN DARI AHLI PENTERJEMAH
 
 ## French language disclaimer
 
-Si vous ne pouvez pas lire et comprendre l'anglais, s'il vous plaît contacter un traducteur professionnel.
+Si vous ne pouvez pas lire et comprendre l'anglais, s'il vous plaît
+contacter un traducteur professionnel.
 
 ***
 
@@ -775,16 +776,20 @@ https://wallet.aeternity.com/
 
 **Version History:**
 
-| no: | revision: | doc title:           | comments:                    | date:          | review by:              | official | pdf               |
-|:----|:----------|:---------------------|:-----------------------------|:---------------|:------------------------|:---------|:------------------|
-| 1   |           | Terms and Conditions |                              |                |                         | x1       |                   |
-| 2   | rev 2     | Terms and Conditions |                              | May 29th, 2017 | Æ-Team member sign here | x1       | [link missing](#) |
-| 3   | rev 3     | Terms and Conditions | changed ÆTERNITY to æternity | Jun 7th, 2017  |                         | x1       |                   |
+| no: | revision: | doc title:           | comments:                    | date:          | review by:              | official | pdf                                                                                         |
+|:----|:----------|:---------------------|:-----------------------------|:---------------|:------------------------|:---------|:--------------------------------------------------------------------------------------------|
+| 1   |           | Terms and Conditions |                              |                |                         | x1       |                                                                                             |
+| x2  | x2        | Framework Agreement  | Bitcoin Suisse AG            | x2             |                         | x1       | [pdf link](https://www.bitcoinsuisse.ch/assets/pdf/FrameworkAgreement_Client_Aeternity.pdf) |
+| 2   | rev 2     | Terms and Conditions |                              | May 29th, 2017 | Æ-Team member sign here | x1       | [link missing](#)                                                                           |
+| 3   | rev 3     | Terms and Conditions | changed ÆTERNITY to æternity | Jun 7th, 2017  |                         | x1       |   [link missing](#)                                                                                          |
+| 4   | rev 4     | Terms and Conditions | added french disclaimer      | Jun 7th, 2017  |                         |          |   [link missing](#)                                                                                          |
 
 <sup>(*) how to sign? Just read, and confirm with your name, that this
 TAC are 1:1 with the website</sup>
 
-<sup>x1= official document only on æternity website and pdf link</sup>
+<sup>x1= official document only on æternity website and pdf Bitcoin
+Suisse AG</sup> , <sup>x2= missing or not found</sup>
+
 ***
 
 ## Definitions
