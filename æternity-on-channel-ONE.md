@@ -46,6 +46,7 @@
 
 ### [æternity the oracle machine on blockchain](https://www.youtube.com/watch?v=lqP59HWnDus "æternity the oracle machine on blockchain")
 
+### [Future Thinkers - Aeternity short vid](https://www.youtube.com/watch?v=8xyIfhTYTro)
 
 
 ***
