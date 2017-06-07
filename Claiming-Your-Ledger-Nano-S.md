@@ -47,6 +47,4 @@ On Slack, please feel free to inform @tombo and ask for assistance in the #signe
 You can also visit our
 [[Contacts and Communities|Contacts-and-Communities]] page for more resources on how you can reach out to the team.
 
-On Slack, please feel free to inform @tombo and ask for assistance in the #signer-beta channel. 
-
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
