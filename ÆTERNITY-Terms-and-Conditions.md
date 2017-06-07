@@ -34,6 +34,10 @@ NAHIHIRAPAN O DI MAKAINTINDI NG WIKANG INGLES.
 JIKA ANDA TIDAK BISA MEMBACA DAN MEMAHAMI BAHASA INGGRIS, MINTALAH
 BANTUAN DARI AHLI PENTERJEMAH
 
+## French language disclaimer
+
+Si vous ne pouvez pas lire et comprendre l'anglais, s'il vous plaît contacter un traducteur professionnel.
+
 ***
 
 By clicking the “I Accept” / “I Agree” / “Continue” / “Next” /
