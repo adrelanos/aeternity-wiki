@@ -1,6 +1,6 @@
-    Never send private keys to anybody asking for them - never send
-    contribution transactions to any other address then on
-    wallet.aeternity.com
+    Never send private keys or confidential information to anybody asking for them. 
+    Never send any contributions to any address other than the one listed on 
+    wallet.aeternity.com.
 
 # Sign a Message:
 
@@ -20,8 +20,9 @@
 
 ### Use-Case Concepts
 
-There are many ways of signing a message with a private key.
+- Bitcoin
 
+- Ethereum 
 Quite rightfully there are not many websites that allow you to do so -
 it would be suicide to trust anyone with your private key.
 
@@ -33,9 +34,8 @@ However, with some precautions you can build a website yourself.
 ## Warnings
 
 
-**Never send private keys to anybody asking for them - never send
-contribution transactions to any other address then on
-wallet.aeternity.com**
+**Never send private keys or confidential information to anybody asking for them. Never send any contributions to any other address than the one listed on wallet.aeternity.com*
+
 <sup>[A-Team on Slack](https://aeternity.slack.com/archives/C229MJXFE/p1496480397840208)</sup>
 
 ### WARNINGS NPM
@@ -194,6 +194,5 @@ For backup reason you got a 24 keyword list.
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
-
-
 **NEED TO ADD INSTRUCTIONS FOR CLAIMING LEDGER w/ LEDGER**
+Currently it is not possible to sign a message using an existing Nano Ledger as LedgerHQ has not yet implemented this function but it is on their roadmap as of 2016. [Please see security concerns on contributing](https://github.com/aeternity/wiki/wiki/Security-Concerns-on-Contributing%3F).
