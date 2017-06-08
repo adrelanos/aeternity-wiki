@@ -17,7 +17,7 @@
 * [Telegram](https://telegram.me/aeternity)
   <sup>[new to telegram? Click here](https://telegram.org)</sup>
 * [Gitter](https://gitter.im/aeternity/Lobby)
-* [Slack](https://aeternity.slack.com/) Channels
+* [Slack](https://pacific-beach-20900.herokuapp.com) Channels (Click this link to get an invite first)
   * [Erlang Developent](https://aeternity.slack.com/?channel?id=C565LU6G6&team=C59BALQCE)
   * [deutsch](https://aeternity.slack.com/?channel?id=C5P7N5X7G&team=C59BALQCE)
   * [general](https://aeternity.slack.com/?channel?id=C229MJXFE&team=C59BALQCE)
