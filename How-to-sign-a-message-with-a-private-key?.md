@@ -14,19 +14,15 @@
 
 * [Where are my private Keys?](#where-are-my-private-keys)
   * [Ledger Wallet](#ledger-wallet-where-are-my-private-keys)
-  * [Treor sign a message](https://doc.satoshilabs.com/trezor-user/messages.html)
+  * [Trezor](https://doc.satoshilabs.com/trezor-user/messages.html)
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 
 
-### Use-Case Concepts
+### Ways to sign: 
 
 - Bitcoin
 
-- Ethereum 
-Quite rightfully there are not many websites that allow you to do so -
-it would be suicide to trust anyone with your private key.
-
-However, with some precautions you can build a website yourself.
+- Ether
 
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
@@ -196,3 +192,12 @@ For backup reason you got a 24 keyword list.
 
 **NEED TO ADD INSTRUCTIONS FOR CLAIMING LEDGER w/ LEDGER**
 Currently it is not possible to sign a message using an existing Nano Ledger as LedgerHQ has not yet implemented this function but it is on their roadmap as of 2016. [Please see security concerns on contributing](https://github.com/aeternity/wiki/wiki/Security-Concerns-on-Contributing%3F).
+
+## I still have questions, help!
+
+Please feel free to visit our the #signer-beta æternity Slack channel for assistance. #signer-beta 
+
+You can also visit our
+[[Contacts and Communities|Contacts-and-Communities]] page for more resources on how you can reach out to the team.
+
+[![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
