@@ -1134,9 +1134,9 @@ only gets paid if the good or service is actually provided.
 White Paper section: III B.3
 
 Cross chain atomic swaps allow for trustless exchange of aeon for
-bitcoins [14](#references), [15](#). These can be implemented using a
-hashlock, that locks the transactions on both blockchains under the same
-value.
+bitcoins [14](#references), [15](#references). These can be implemented
+using a hashlock, that locks the transactions on both blockchains under
+the same value.
 
 [☝](#)
 
@@ -1611,10 +1611,10 @@ related: [æternity DApp Development](æternity-DApp-Development) [☝](#)
 
 ## REVISION
 
-| No | changed what? | Changed where?      | changed when? | by                                       |
-|:---|:--------------|:--------------------|:--------------|:-----------------------------------------|
-| 1  | blank line    | Line: 1261          | 29th May 2017 | [Zwilla](æternity-wiki-authors#zwilla)   |
-| 2  | link          | line: 1598  - No 10 | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
-| 3  | link          | line: 1602  - No 14 | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
-| 4  | link          | line: 1604  - No 16 | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
-|    |               |                     | 29th May 2017 | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+| No | changed what? | Changed where?      | changed when?  | by                                       |
+|:---|:--------------|:--------------------|:---------------|:-----------------------------------------|
+| 1  | blank line    | Line: 1261          | 29th May 2017  | [Zwilla](æternity-wiki-authors#zwilla)   |
+| 2  | link          | line: 1598  - No 10 | 29th May 2017  | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+| 3  | link          | line: 1602  - No 14 | 29th May 2017  | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+| 4  | link          | line: 1604  - No 16 | 29th May 2017  | [0ldPaul](æternity-wiki-authors#0ldpaul) |
+| 5  | link          | line:1137           | 07th June 2017 | [Zwilla](æternity-wiki-authors#zwilla))  |
