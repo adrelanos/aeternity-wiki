@@ -11,6 +11,9 @@ interested question from Slack channel
 
 * [Will AE be on the China Stock Exchange?](#)
 
+
+* what happens after the ico ends. are the AE tokens going to be ERC20 tokens on ethereum? and changed later to the aeternity blockchain when it goes to mainnet?
+
 <sup>[question](https://aeternity.slack.com/archives/C229MJXFE/p1496483480968208)</sup>
 If you have an answer, write it down please and past this to [WIKI-FAQ-Page](Frequently-Asked-Questions)
 
