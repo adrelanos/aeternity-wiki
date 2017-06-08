@@ -13,6 +13,8 @@ Much like Turing's original oracle machine, an æternity oracle produces an outp
 
 Because there are no hardware oracles, æternity oracles aim to provide a trustworthy YES or NO answer to every possible type of question, whose YES or NO answer can be substantiated with real-world data. So again, the human brain will be a part of the process performing a check on the question's answer. That is natural because the human brain is an instantiation of the oracle machine. It is only incentivized by "æons" to provide that correct answer. Accordingly, every single oracle resides on æternity's Blockchain.
 
+![Governance on æternity](https://github.com/aeternity/wiki/blob/master/images/%C3%86_101_Governance.png)
+
 ## Users and the oracle
 In the context of the æternity Oracle, there will be two types of users:
 + object creators: people who instantiate an oracle. They are the ones who commit to a certain result, by depositing "æon", during a specified time-frame.
@@ -23,6 +25,8 @@ In the context of the æternity Oracle, there will be two types of users:
 As you (may) have already noticed, "Oracles" is an item under "Consensus" in the æternity white paper. Since oracles can provide an input to the Blockchain, this input must be validated before every node applies the consensus mechanism function. Ultimately, the current oracle's answer gets included in the Blockchain forever. 
 
 Validating the oracle output on the Blockchain has a number of obstacles. Essentially, the consensus mechanism must validate the oracle outcome separately from the other the other inputs it is validating - transactions, balances, etc. This fact means that on one hand you have the mechanism validating new blocks, and on the other, the same process goes on for the oracle answers. Although technically possible by means of running two consensus mechanisms consecutively, this process can be expensive and time-consuming. Therefore, the object creators commit to an oracle answer using "æons". Ultimately, the oracle's output is determined by its creators and readers (or counter-claimers) and the same output is included in the Blockchain as simply an end result.
+
+![Prediction Markets on æternitry](https://github.com/aeternity/wiki/blob/master/images/AE101-Prediction_Market_noText.png)
 
 ## What good does the oracle bring
 
