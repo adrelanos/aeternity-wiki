@@ -55,8 +55,8 @@
 - [Windows Installation](Installing-on-Windows-%28work-in-progress%2C-help-wanted%29)
 
 ### How to
-- [How To Sign A Message Using Your Private Key](How-to-sign-a-message-with-a-private-key%3F)
 - [Claiming Your Ledger Nano S](Claiming-Your-Ledger-Nano-S)
+- [How To Sign A Message Using Your Private Key](How-to-sign-a-message-with-a-private-key%3F)
 - [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
 
 
