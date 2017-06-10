@@ -29,3 +29,5 @@
 - [Ethereumとæternityの比較表](http://fusanpro.com/aeternity/aeternity.html)
 
 - [aeternityブロックチェーンユースケースとICO参加方法](http://cryptocurrencymagazine.com/aeternity-blockchain-usecase-and-how-to-join-ico)
+
+-[先日ICOを終了したæternityとEthereumの比較](https://steemit.com/japanese/@fusan/ico-aeternity-ethereum)
