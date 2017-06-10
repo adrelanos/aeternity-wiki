@@ -64,9 +64,12 @@ For more info: [Governance & æternity](Research-and-Theory#governance--consensu
 
 # What are æternity token and how are they used and consumed?
 
-The æternity token (aeon) is used to pay for resources consumed through the platform and "gas" to power applications built on top of it.
+The æternity token (aeon/AE) is used to 
+- pay fees for holding and æternity account, asking the oracle questions, opening a state channel
+- pay for resources consumed through the platform 
+- "gas" to power applications built on top of it
 
-Aeon will be distributed via the genesis block through an ERC20 Ethereum smart contract and at a later stage by mining.
+An ERC 20 token on Ethereum, representing the AE token, will be distributed after a security audit on the ERC20 contract. Once the main net launches all ERC20 tokens will be exchanged for AE tokens on the æternity Blockchain.
 
 
 # What are some examples of how æternity can be used?
