@@ -5,7 +5,6 @@
 * https://vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/
 
 Extracting the Jaxx 12-word wallet backup phrase.
-=================================================
 
 I was curious how easy it would be to extract the 12-word wallet backup phrase from a [Jaxx](https://jaxx.io/) cryptocurrency wallet desktop app / chrome extension install.
 
