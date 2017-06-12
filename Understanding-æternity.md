@@ -1,14 +1,14 @@
 # What is æternity?
 
-æternity is a new type of blockchain that innovates and expands upon existing platforms such as Bitcoin, Ethereum, and Augur. Real-world data can interface with smart contracts on æternity through the use of decentralized oracles. True scalability (the ability to handle throughputs that come from mainstream adoption) and trustless Turing complete state channels set æternity apart from Ethereum.
+æternity is a new blockchain-based [smart contract](https://blockgeeks.com/guides/smart-contracts/) platform that synthesizes, streamlines, and expands upon the Bitcoin blockchain, Ethereum smart contracts, and Augur prediction markets. Instead of coding and storing complete contracts on-chain, æternity enables real-world data to interface with smart contracts through the use of a decentralized oracle mechanism. æternity allows true scalability by facilitating an exponential increase in throughputs, which, in turn, will invite mainstream adoption. Trustless, Turing-complete state channels also set æternity apart from Ethereum, the prevailing smart contract platform.
 
-æternity is unique in many ways, but the key features are:
+æternity is unique in many ways, but the major innovations are:
 
-- Hybrid PoW/PoS
-- Oracle Machine
+- Hybrid PoW/PoS (proof of work/ proof of stake) power grid
+- Oracle Machine real-world interface
 - State Channels, or "Off-chain transactions" and "Off-chain contracts" execution that will allow for faster transaction time, improving anonymity when executing contracts and while transacting
-- Governance
-- Address naming system
+- Governance via a prediction-based consensus mechanism
+- Expanded Merkel-tree navigation and address naming system
 
 
 # What is the purpose of æternity?
