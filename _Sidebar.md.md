@@ -87,6 +87,7 @@
 - [Glossary](Glossary)
 - [Cold Storages](Cold-Storages)
 - [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
+- [Cyber-Security: Issues,alerts,warnings](Cyber-Security-Issues-Alerts-Warnings)
 
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
