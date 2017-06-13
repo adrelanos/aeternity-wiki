@@ -84,10 +84,12 @@ Crowdfunding can be made trust-less and more transparent by using dominant assur
 
 The release of funds can be set on several milestones. Once a milestone is cleared and approved, the contract will release the funds allocated to that specific milestone. Several methods can be used to verify the completion including specific Oracles. If the Oracle concludes that the milestone is not reached, investors get their investments with interests back.
 
-Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a dominant strategy to participate. If the good is produced, all participants get their "æons" back plus interest, so they are insured against reducing their liquidity without receiving the good. Using an Oracle, we can ensure that the provider of the good or service only gets paid if he provides the goods as promised.
-
+Dominant assurance contracts differ from traditional assurance contracts like Kickstarter, in that they make it a dominant strategy to participate. 
+Investors: bet against the success of the project, receive æeons & interest back if project is not built.
+Entrepreneurs: bet for the success of the project, receive æeons & (higher) interest back if project is built.
+Builders: execute the project, receive æeons (funds) if they build it.
+Using an Oracle, we can ensure that the provider of the good or service only gets paid if he provides the goods as promised.
 This will enable a leap of transparency and trust-less investment opportunities in ICOs and startups, where the investors funds are safe from mismanagement or fraud by the project's founders.
-
 This can also be implemented on any other exchange of services between multiple parties, thus decentralizing the freelancing and business-to-business sectors.
 
 ### Use Case Ideas 3
