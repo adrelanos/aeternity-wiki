@@ -35,27 +35,24 @@
 Yes, æternity is a next-level, brand new blockchain, with many features
 that solve current issues in blockchain technology in an elegant way.
 Read [the white paper](Whitepaper_English) to
-understand æternity’s design. æternity’s first testnet is already
+understand æternity’s design. 
+æternity enables a high transaction throughput.
+æternity’s testnet is already
 online, ready for testing and mining.
 
 
 ## What are some interesting applications?
 
-æternity enables a high transaction throughput. Broadly speaking, and
-contrary to traditional blockchain limitations, any type of application
-that requires high transactional speed will run smoothly on æternity.
-For example:
-
 * Nano and micropayments.
-* Smart contracts using oracles to initiate millions of parallel
-  transactions.
-* Side-chained blockchain networks that can communicate efficiently and
-  securely.
+* Lightning network that allows payments that flow across multiple 
+  blockchains between the sender and recipient. 
 * Multiplayer video games where the rules are enforced by the
   blockchain, including Poker, Chess, Go, and first person shooter
   games.
 * Investment opportunities for ventures that specialize in predicting
   the price of food.
+* Insurance for farmers producing food, to protect them against
+  volatility in the price of food.
 * Contracts for powering crowd sales to finance public goods and create
   a sustainable economy.
 * Lie detectors to know when leaders or experts are hiding the truth.
@@ -101,27 +98,24 @@ inaction) costs something, even if only a fraction of a cent.
 
 ## How is æternity different from Ethereum and Bitcoin?
 
-Smart contracts don't yet exist in Bitcoin, and all transactions are
-executed on-chain.
+Smart contracts don't yet exist in Bitcoin, and channels are limited
+to only doing payments. Bitcoin channels are also only one-way channels
+currently.
 
 In Ethereum, smart contracts exist on-chain for multiple blocks. They
-hold state and can interact with other contracts. There is only a ground
-layer for smart contracts, without a coherent design, coherent API for
-web apps, naming system, nor oracles. These can only be built _on top
-of_ the blockchain.
+hold state and can interact with other contracts. 
 
 In æternity, smart contracts only exist for a moment. They are settled
-_independently_ from all other contracts via state channels. This makes
-blockchain use cases and throughput more scalable for mainstream
-adoption and suitable for private use cases.
-
+_independently_ from all other contracts via state channels. 
+Since contracts on æternity are independent, they can be processed in
+parallel. This makes
+Aeternity more scalable and thus, more suited for mainstream adoption.
 
 ## Why is æternity faster than Ethereum?
 
-Since contracts on æternity are independent, they can be processed in
-parallel.
-
-On æternity computation by default happens off-chain. While it is possible to move computation in Ethereum, it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
+On æternity computation by default happens off-chain. While it is possible to move computation off-chain in Ethereum, it is much more complicated than standard contracts. A lot of boilerplate code needs to be reimplemented for every contract.
+If you want an off-chain app with turing complete capability on ethereum, that app would depend on an on-chain virtual machine to process the off-chain state. 
+Layering another compiler on top of the ethereum VM makes it slower.
 
 
 ## How does æternity compare with..?
@@ -137,7 +131,7 @@ On æternity computation by default happens off-chain. While it is possible to m
   is market based instead of voting based. It is connected to the
   blockchain consensus mechanism in a way that makes it more secure.
 * æternity is a Turing complete *stateless* smart contract system with a
-  built-in oracle system. It allows the creation of trustless Dapps such as
+  built-in oracle. It allows the creation of trustless Dapps such as
   insurance, sports betting, stablecoins, prediction markets, insured
   crowdfunding, and card game gambling.
 
@@ -183,14 +177,15 @@ For more info: [Mining](Mining)
 
 ## How does PoS work in æternity?
 
-Any aeon holder can launch an oracle by committing to answering a yes/no
-question on the blockchain. The creator is required to deposit aeon in
-proportion to the length of the time frame. Other users can submit
-counterclaims by depositing the same amount of aeon. If there are
-counterclaims, the consensus mechanism will be used to decide the
-oracle. If the creator's answer is accepted, the aeon will be returned
-to the creator; Otherwise, it will be burned. And so, the creator will
-be rewarded if telling the truth and penalized if lying.
+Any aeon holder can ask the oracle a question. It has to be a yes/no
+question. They choose a date when they want the oracle to answer the
+question. Asking the oracle a question costs a fee in Aeons.
+
+The oracle is a market where Aeon holders can bet with each other.
+The bets are designed so that the Aeon holders are incentivized to
+reveal the true outcome of the question.
+They are betting on the correlation between the future difficulty
+of blocks, and the answer to the question.
 
 For more info: [Mining](Mining), [Oracles](Oracles)
 
@@ -255,7 +250,7 @@ trustless financial applications, but doesn't require decentralization.
 Anyone can start a “centralized server” and use our
 software to create trustless financial tools.
 
-There can be "servers/nodes" to invest in stocks, derivatives, or
+There can be nodes to invest in stocks, derivatives, or
 metals. You can gamble at sports in a fully trustless and efficient way.
 Other nodes can specialize in recycling old accounts: There is a fee for
 having an account open. If the account runs out of money, anyone will be
@@ -263,33 +258,28 @@ able to delete it for a small reward.
 
 Some nodes will run trading software. They will buy and sell assets
 offered by market makers. Some nodes will specialize in participation in
-prediction markets, running the consensus mechanism. This will be
-profitable because transaction fees are the initial liquidity in these
-markets.
+prediction markets.
 
 
 ## Why is Ethereum used for the token sale?
 
 The primary reason for using Ethereum tokens for the sale
 is that æternity is not functional yet. Once æternity launches, tokens
-will exist on æternity. However, even if æternity did exist, it wouldn’t
-give us the ability to do a decentralized token sale. Ethereum is great
-for the type of use case that requires a fully public index of things
-(e.g. tokens). æternity is focusing on scalable, real-world use cases
+will exist on æternity. Ethereum is great
+for token sales. æternity is focusing on scalable, real-world use cases
 which usually don’t require data to be openly shared all of the time.
 
 
 ## What is the circulating supply of aeon?
 
-Aeon distributed during Contribution Phase 1: 139,089,935.082
-
-Aeon to be distributed during Contribution Phase 2: 21,000,000 Swiss Francs
+Somewhere between 300 million and 200 million.
 
 
 ## What is the maximum supply of aeon?
 
-The maximum supply of aeon tokens will be determined after phase two
-of the æternity backing campaign ends.
+The block reward is set by the governance mechanism. 
+No one knows how fast the community will decide to
+increase the supply of aeon.
 
 
 ## How is the aeon dispersed?
@@ -316,7 +306,7 @@ on an ad-hoc basis.
 
 ## What can I expect in the near future?
 
-The first testnet ready, and we are adding more features all the time.
+The first testnet is ready, and we are adding more features all the time.
 Start interacting with æternity by visiting
 [GitHub](http://github.com/aeternity/testnet). A detailed roadmap is
 coming soon.
