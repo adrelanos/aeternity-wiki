@@ -40,7 +40,7 @@ Check out [this page](https://blog.aeternity.com/claiming-your-ledger-nano-s-wit
 
 ## I still have questions, who can I talk to:
 
-On Slack, please feel free to inform @tombo and ask for assistance in the #signer-beta channel. 
+On Slack, please feel free to inform @dcale and ask for assistance in the #signer-beta channel. 
 
 You can also visit our
 [[Contacts and Communities|Contacts-and-Communities]] page for more resources on how you can reach out to the team.
