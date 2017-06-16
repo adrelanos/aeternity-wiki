@@ -30,7 +30,7 @@ qualified for a free Ledger Nano S!
 > receiving your limited edition æternity Ledger Nano S. 
 > Someone from the æternity team will reach out to you in the near future.
 
-Check out [this page](https://github.com/aeternity/wiki/wiki/How-to-sign-a-message-with-a-private-key%3F) for instructions on how to sign a message using your private key.
+Check out [this page](https://blog.aeternity.com/claiming-your-ledger-nano-s-with-a-hardware-wallet-device-5d36d877fbad) for instructions on how to sign a message with your hardware wallet. 
 
 [![](https://cdn-images-1.medium.com/max/800/1*Fh8Te8hkihkvLufP05tKPQ.png)](#)
 ## When will the Ledger Nano S be shipped out?
