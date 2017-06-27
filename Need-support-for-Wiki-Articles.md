@@ -1,12 +1,18 @@
 We need your support for Wiki-Articles
-![æternity-need-wiki-support](http://aeternity.de/images-by-zwilla/aeternity-need-wiki-support.jpg)
+![æternity-need-wiki-support](https://github.com/aeternity/wiki/blob/master/images/wiki-support.jpg)
 TOC
 ==================================
 
+Dear Wiki-Authors, æternity enthusiasts and Fans!
+
+Dan wrote on Slack [Dan’s post](https://aeternity.slack.com/archives/C59BALQCE/p1495980563682848), that it would be better to open up an issue on wiki to discuss and support everything we want to know. So let us open an issue by clicking here: [open Wiki issue](https://github.com/aeternity/wiki/issues/new)
+
+DO NOT EDIT THIS PAGE!
+***
 Open request
 
 * [Translation support](#translation-support)
-  * [Italian](#translation-support-italian)
+  * ~[Italian](#translation-support-italian)~
   * [German](#translation-support-german)
 
 * [Understanding æternity](#understanding-æternity)
@@ -17,14 +23,14 @@ Open request
 
 ## Translation support:
 
-### Translation support [Italian]
+### ~Translation support [Italian]~
 
-1. **Working on**: [Whitepaper_Italian #transazioni-per-secondo-ad-una-certa-richiesta-di-memoria](Whitepaper_Italian#transazioni-per-secondo-ad-una-certa-richiesta-di-memoria)
-   * Reference to [original White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
-   * E.4.2 - line 21 of the box: what does „fast enough to sign up every
+1. ~**Working on**: [Whitepaper_Italian #transazioni-per-secondo-ad-una-certa-richiesta-di-memoria](Whitepaper_Italian#transazioni-per-secondo-ad-una-certa-richiesta-di-memoria)~
+   * ~Reference to [original White Paper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)~
+   * ~E.4.2 - line 21 of the box: what does „fast enough to sign up every
      human within 8 years“ means ? it means each human being which is 8
      years old ? or each human being within the next 8 years ? and sign
-     up to what ?
+     up to what ?~
 
 ### Translation support [German]
 

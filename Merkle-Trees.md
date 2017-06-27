@@ -1,10 +1,6 @@
-TOC Merkle trees
-================
 
 * [What are Merkle trees?](#what-are-merkle-trees)
      * [Uses](#uses)
-     * [æternity is the blockchain to rule them all!](#æternity-is-the-blockchain-to-rule-them-all)
-     * [æternity the blockchain to rule them all](#æternity-the-blockchain-to-rule-them-all)
      * [Structure: Merkle tree](#structure-merkle-tree)
      * [The Basic Protocol Merkle Trees follow](#the-basic-protocol-merkle-trees-follow)
      * [Benefits](#benefits)
@@ -23,26 +19,27 @@ TOC Merkle trees
 
 ## What are Merkle trees?
 
-In cryptography and cryptocurrency a Merkle tree: also referred to as a
+In [cryptography](https://en.wikipedia.org/wiki/Cryptography) and cryptocurrency a Merkle tree: also referred to as a
 hash tree, is a mathematical structure that hashes different sets of
 data into a single, compact hash: the Merkle root. It is a tree
 structure in which each leaf node is a hash of a block of data, and each
 non-leaf node is a hash of its children. You can think of a Merkle tree
 as a network of cascading hashes or hash trees.
+***
+***
 
-
-### Uses
+## Uses
 
 Merkle trees are used to verify data being stored and transmitted in and
 between different computers on a network and do so very efficiently.
 Their main use is to ensure data blocks received from other peers in a
-peer-to-peer network are received undamaged and unaltered, and even to
+[peer-to-peer ](https://en.wikipedia.org/wiki/Peer-to-peer) network are received undamaged and unaltered, and even to
 check that the other peers do not lie and send fake blocks. To do this
-Merkle trees use a cryptographic hash function. In order for you, the
+Merkle trees use a [cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function). In order for you, the
 reader, to understand Merkle trees, a basic understanding of cryptographic hash functions is needed.
 
-A cryptographic hash function is a mathematical algorithm that maps data
-of arbitrary size to a bit string of a fixed size (a hash function)
+A cryptographic hash function is a mathematical [algorithm](https://en.wikipedia.org/wiki/Algorithm) that maps data
+of arbitrary size to a bit string of a fixed size (a [hash function](https://en.wikipedia.org/wiki/Hash_function))
 which is designed to also be a one-way function. This means that there
 is no mathematical equation, or algorithm that can unhash or reverse the
 data to its original data state prior to being hashed. Hashes provide
@@ -50,8 +47,8 @@ efficient data storage and reduce the level of data needed to prove
 something exists.
 
 There are many different cryptographic protocol suites that use hashes
-to verify data. One example is Asymmetric-key cryptography: also
-referred to as public key cryptography and digital signatures. They use
+to verify data. One example is [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography): also
+referred to as asymmetric cryptography. They use
 cryptographic hash functions to verify data. However, explaining how
 they work and their uses is well outside the scope of the paper. What we
 will do instead is go through a very simplified example of how data can
@@ -59,18 +56,18 @@ be verified with a cryptographic hash function.
 
     In this example, lets say Bob wants to send Alice a block of data and he also 
     wants Alice to be able to verify that the data she received has not been corrupted
-    corruptedor tampered with in transit. 
+    or tampered with in transit. 
 
     What Bob will do is use a cryptographic hash function like sha-2 to create
-    a hash of the block of data before he sends it to Alice. In the example
-    below, Bob uses sha-256 to hash the block of data which in this case is a
+    a hash of the block of data before he sends it to Alice. In Example 1,
+    Bob uses sha-256 to hash the block of data which in this case is a
     short sentence:
 
+    Example 1.    æternity is the blockchain to rule them all! 
+  
 
-### æternity is the blockchain to rule them all!
-
-The hash of the above sentence is:
-`60c1be71e2915ea72a33c059cf7710787f6748e10091173dfc17363444a2d3ce`
+The hash of the example 1 sentence is:
+`cb7ee542fe6bf21b8b3f18410f3a034a97fc35de43e935674ce97e36e278efad`
 
     After Bob has created the hash, he sends the original data over the
     network to Alice. However, Bob does not send the hash along with the data, 
@@ -81,29 +78,29 @@ The hash of the above sentence is:
     Bob sent her and the hash of the data. 
     
     What Alice will do next is us the same cryptographic hash function that 
-    Bob used,  and create a  hash  of the data that she received:  referred 
-    to as a checksum. Lets say that Alice received the below sentence from
-    Bob.
+    Bob used, and create a hash of the data that she received: referred 
+    to as a checksum. Example 2. is sentence or block of data Alice received 
+     from Bob.
 
-### æternity the blockchain to rule them all
+     Example 2.   æternity is the blockchain to rule them all
 
-The hash of the above sentence is:
-`45c93bfadb67691456e61e011ba4652125c16303304ecb2ab31d6f033ef09180`                                                                                                                               
+The hash of the example 2 sentence is:
+`a931b75f2afee220bf3a62f8a8f67301c932a2a7cd8ac5ce26831896b9b433fb`                                                                                                                               
 
     
-    I am sure you have notices 2 things. First is that the 2 hashes values are
-    completely different.The second is the hashes are larger  than  the actual
-    size of the data that was  hashed.  Would this  not  mean  that hashes are
+    I am sure you have noticed 2 things. First is that the 2 hashes values are
+    completely different. The second is the hashes are larger than the actual
+    size of the data that was  hashed. Would this not mean that hashes are
     inefficient?  Why is this?  
 
-    Well, to answer  the  first question. If  you look carefully you will notice 
+    Well, to answer the  first question. If you look carefully you will notice 
     that the exclamation point is missing from the sentence that Alice received.
     This is the reason the 2 hash values are different. For some reason the data 
     was altered while in transit to  Alice.
 
     Alice however, does not need to know what the original sentence looked like  
-    to know it has been altered. As you can see even a very small change  in  the  
-    data will result in  completely different outcomes  when using  a cryptographic 
+    to know it has been altered. As you can see even a very small change in the  
+    data will result in completely different outcomes when using a cryptographic 
     hash function. 
     
     Now, to answer the second question. As stated above, cryptograhic hash func-
@@ -111,17 +108,19 @@ The hash of the above sentence is:
     using sha-256 as a hashing algorithm, the data is mapped to a 32 byte string. 
     
     This means regardless of the size of the block of data being hashed, the hash 
-    value will always be a 32 byte string: weather it is an 8 byte block  or an 8
+    value will always be a 32 byte string: weather it is an 8 byte block or an 8
     terabyte block of data. 
     
-    This would also mean if the data you are verifying is very small,  lets say: 
+    This would also mean if the data you are verifying is very small, lets say: 
     10 bytes, using a hashing algorithm that maps data to a 32 byte string would 
     not be efficient. 
     
     However, if the block of data being hashed is very large, for instance a 100   
     terabyte block, using the same hashing algorithm would be efficient, and this 
     in turn is what makes Merkle trees so efficient.
-### Structure: Merkle tree
+***
+***
+## Structure: Merkle tree
 
 Merkle trees are essentially a tree of hashes where each leaf is a hash
 of a block of data. Nodes further up in the tree are the hashes of their
@@ -130,10 +129,10 @@ result of hashing the concatenation of hash 0-0 and hash 0-1. That is,
 hash 0=hash( hash 0-0 + hash 0-1 ) where + denotes concatenation.
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hash_Tree.svg/640px-Hash_Tree.svg.png)
+![](https://github.com/aeternity/wiki/blob/master/images/merkle-tree.png)
 
 
-In most cases, merkle trees have a branching factor of 2, meaning that
+In most cases, Merkle trees have a branching factor of 2, meaning that
 each node has up to 2 children. They can, however, use many more child
 nodes under each node.
 
@@ -157,7 +156,7 @@ hash, and if the hash tree is damaged or fake, another hash tree from
 another source will be tried until the program finds one that matches
 the top hash.
 
-The main difference from a hash list is that one branch of the hash tree
+The main difference from a [hash list](https://en.wikipedia.org/wiki/Hash_list) is that one branch of the hash tree
 can be downloaded at a time and the integrity of each branch can be
 checked immediately, even though the whole tree is not available yet.
 For example, in the picture, the integrity of data block 2 can be
@@ -185,8 +184,9 @@ start.
 6. Steps 4 and 5 are repeated until the inconsistent data block(s) are
    found. It is possible to find more than 1 data block that is wrong
    because there may be more than one error in the data.
-
-### Benefits
+***
+***
+## Benefits
 
 Because the computers are only sending hashes over the network (not the
 entire file), this process can go very quickly. Plus, if an inconsistent
@@ -201,7 +201,7 @@ are useful in peer-to-peer networks because they help verify
 information. They separate the validation of the data from the data
 itself even if it comes from a untrusted source. This is a concern in a
 peer-to-peer network. Merkle trees also significantly reduce the network
-I/O packet size to perform consistency and data verification as well as
+[I/O](https://en.wikipedia.org/wiki/Input/output) packet size to perform consistency and data verification as well as
 data synchronization thereby making network I/O cheaper.
 
 ***
@@ -211,7 +211,7 @@ data synchronization thereby making network I/O cheaper.
 ## æternity Merkle trees
 
 The æternity blockchain uses Merkle trees to verify data. At the time
-this paper was composed there were 8 Merkle trees in the æternity
+this paper was composed there were 9 Merkle trees in the æternity
 blockchain. The following is a brief description:
 
 ### æternity oracles:
@@ -222,6 +222,8 @@ question is stored and are the results of the oracles that have existed.
 They are stored by ID. This data is available to the virtual machine.
 The result is stored in 1 byte. Either it is 0 for false, 1 for true, 2
 if the question was bad, or 4 if the question hasn't been answered yet.
+Oracles are included in the generation of the state-hash that is recorded
+on the block's header.
 
 related æ-wiki pages: [Oracles](Oracles)
 ***
@@ -234,7 +236,8 @@ related æ-wiki pages:
 ***
 ### æternity channels:
 
-This stores channels by an integer channel ID.
+This stores channels by an integer channel ID. Channels are also included
+in the generation of the state-hash that is recorded on the block's header.
 
 related æ-wiki pages: [Channels](https://github.com/aeternity/wiki/wiki/Channels), [State-Channels](State-Channels)
 ***
@@ -242,7 +245,8 @@ related æ-wiki pages: [Channels](https://github.com/aeternity/wiki/wiki/Channel
 
 This tree stores accounts by integer ID. Each account has 2 Merkle roots
 written in them. One is for a shares tree, the other is for an oracle
-bets tree.
+bets tree. Accounts are included in the generation  of the state-hash that
+is recorded on the block's header.
 
 related æ-wiki pages:   [Accounts]()
 ***
@@ -267,20 +271,22 @@ related æ-wiki pages: [Oracles](Oracles),
 
 Proof of burn tree stores by address. It stores the number of AE tokens
 that this address has burned. This data is available to the virtual
-machine.
+machine. Proof of burn is also included in state-hash generation that is
+recorded on the block's header.
 
 related æ-wiki pages:   [Proof of burn]()
 ***
 ### æternity proof of existence
 
 This tree stores by hash. If returns a 1 if the thing exists, a 0
-otherwise. This data is available to the virtual machine.
+otherwise. This data is available to the virtual machine. Proof of
+existance is included in the generation of the state-hash that is recorded on the block's header.
 
 related æ-wiki pages:   [Proof of Existence]()
 ***
 ###  æternity contracts
 
-Add some words here:
+Contracts can be gigabytes to terabytes in size.
 
 related æ-wiki pages: [æternity-Contracts](æternity-Contracts)
 ***
@@ -289,7 +295,7 @@ related æ-wiki pages: [æternity-Contracts](æternity-Contracts)
 
 | No |                                                                                                                                               |                                                                      |                                                                                                 |
 |:---|:----------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| 1  | Zackary Hess, Yanislav Malahov, Jack Pettersson                                                                                               | æternity blockchain                                                  | [æternity Whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf) |
+| 1  | Zackary Hess, Yanislav Malahov, Jack Pettersson                                                                                               | æternity blockchain                                                  | [æternity Whitepaper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf) |
 | 2  | zaghal, A. _Wikipedia Merkle Tree.                                                                                                            | _ **Picture**                                                        | [wikipedia/merkle_tree](https://en.wikipedia.org/wiki/Merkle_tree#/media/File:Hash_Tree.svg)    |
 | 3  | Becker, George.                                                                                                                               | **Merkle Signatures Schemes, Merkle Trees and Their Cryptanalysis**. | [link](http://www.emsec.rub.de/media/crypto/attachments/files/2011/04/becker_1.pdf  )           |
 | 4  | Chumble, Alex. Moore, Karleigh. _Merkle Tree_                                                                                                 | **Protocol**;                                                        | [brillian.org](https://brilliant.org/wiki/merkle-tree/ )                                        |

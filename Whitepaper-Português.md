@@ -14,7 +14,7 @@ Aplicações como mercados para ativos sintéticos e mercados de previsão podem
 
 ***
 
-Download do white paper completo v0.1 (PDF) aqui: [æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+Download do white paper completo v0.1 (PDF) aqui: [æternity whitepaper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
 
 **Autores:**
 

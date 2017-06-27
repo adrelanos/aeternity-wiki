@@ -1,5 +1,3 @@
-**API-EXAMPLES**
-
 Here you will learn how to handle the æternity software with the [API Commands](API-Commands)
 
 For accessing the commands we need a program called ‚curl‘

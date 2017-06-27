@@ -1,92 +1,107 @@
-[**æternity Contribution Wallet**](https://wallet.aeternity.com)
+* [æternity Contribution Wallet](https://wallet.aeternity.com)
+   * [Security Concerns on Contributing?](Security-Concerns-on-Contributing%3F)
+   * [Terms and Conditions](ÆTERNITY-Terms-and-Conditions)
 
-[**Wiki Editing Guidelines & To do list**][todo]
-
+[**Wiki Editing Guidelines & To do list**](Wiki-Guidelines-&-To-Do's)
+***
 ### Basics
-- [HOME](https://github.com/aeternity/wiki/wiki)
-- [Understanding æternity][understandAE]
-- [Getting Started][started]
-- [Frequently Asked Questions][faq]
-- [æternity Team][team]
-- [Whitepaper Abstract](Whitepaper_English) / [pdf](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf) / [Translations](æternity-Whitepaper)
+- [Home](https://github.com/aeternity/wiki/wiki)
+- [Getting Started](Getting-Started)
+- [Understanding æternity](Understanding-æternity)
+- [Frequently Asked Questions](Frequently-Asked-Questions)
+   - [answer missing](https://github.com/aeternity/wiki/wiki/Social-Channel:-Open-Questions)
+- [White Paper](Whitepaper_English) / [Translations](æternity-Whitepaper)
 
 ### Community & Support
 - [æternity Home Page](http://www.aeternity.com/)
-- [Contacts and Groups](Contacts-and-Groups)
 - [æternity Blog](https://blog.aeternity.com)
-- [Bounty Programs][bounty]
-- [Community](Community)
-- [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
-- [Need support for Wiki-Articles](Need-support-for-Wiki-Articles)
+- [Contacts and Communities](Contacts-and-Communities)
+- [Help support our Wiki-Articles!](Need-support-for-Wiki-Articles)
+- [æternity on channel ONE](æternity-on-channel-ONE)
+- [Bounty Programs](Bounty)
+- [æternity Wiki-Authors](æternity-wiki-authors)
+- [æternity Team](æternity-Team)
 
 ### Research
-- [Idea Box][ideabox]
-- [Research & Theory][research]
-- [Blockchain comparison](Blockchain-comparison)
-- [Hashing ≠ Encryption](hashing--encryption)
-- [Cryptoeconomics](Cryptoeconomics)
-- [Humanistic Use Cases](hHumanistic-Use-Cases)
+- [Idea Box](Idea-Box)
+- [Research and Theory](Research-and-Theory)
 
 ### æternity Technologies
-- [Technology of æternity][tech]
-- [æternity in the Blockchain space][blockchainAndAE]
+- [Technology of æternity](æternity-Technology)
+- [æternity in the Blockchain Space](æternity-in-the-blockchain-space)
 - [Scripting Language](https://github.com/BumblebeeBat/chalang/tree/master/docs)
 - [Zack-Docs](https://github.com/aeternity/testnet/tree/master/docs)
-- [æternity in the blockchain space](æternity-in-the-blockchain-space)
+
 
 ### Infrastructure
-- [Testnet setup start and use](testnet-setup-start-and-use)
-- [Ubuntu Node Commands](Ubuntu-Node-Commands)
-- [Terminal interface commands](Terminal-interface-commands)
-- [API Commands](API-Commands)
-- [Api Examples](Api-Examples)
-- [Mining][mining]
-- [Merkle Trees](Merkle-Trees)
-- [Transaction Types](Transaction-Types)
-- [æternity Contracts][contracts]
+- [æternity Contracts](æternity-Contracts)
 - [Channels](Channels)
-- [[State Channels]]
-- [[Oracles]]
-- [Troubleshooting][troubleshooting]
-- [Windows Installation][wininstall]
-- [full text search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
+- [Cuckoo Cycles](Cuckoo-Cycles)
+- [Merkle Trees](Merkle-Trees)
+- [Mining](Mining)
+- [Oracles](Oracles)
+- [State Channels](State-Channels)
+- [Transaction Types](Transaction-Types)
+- [Full Text Search](https://github.com/aeternity/wiki/search?o=desc&type=Wikis)
+
+### Handling Technologies & Infrastructure
+- [API Commands](API-Commands)
+- [API Examples](Api-Examples)
+- [æternity-Erlang-Modules](æternity-Erlang-Modules)
+- [Terminal interface commands](Terminal-interface-commands)
+- [Testnet setup start and use](testnet-setup-start-and-use)
+- [Troubleshooting](Troubleshooting)
+- [æternity Node Commands](æternity-Node-Commands)
+- [Windows Installation](Installing-on-Windows-%28work-in-progress%2C-help-wanted%29)
 
 ### How to
-- [How to sign a message with private key][privatekeymessage]
-- [Claiming Your Ledger][ledgerclaim]
+- [Claiming Your Ledger Nano S](Claiming-Your-Ledger-Nano-S)
+- [How To Sign A Message Using Your Private Key](How-to-sign-a-message-with-a-private-key%3F)
+- [Keeping your Cryptocurrency Safe & Secure](Keeping-your-Cryptocurrency--Safe-%26-Secure)
+
 
 ### [DApp Development](æternity-DApp-Development)
-- [DApp Introducion](æternity-DApp-Introducion)
-   - [Scripting language](Zacks-Scripting-language)
+- [DApp Introduction](æternity-DApp-Introduction)
+   - [Scripting language](æternity-Scripting-Language)
+     - [SL-Examples](æternity-Scripting-Language-Examples)
    - [æternity development tutorial](æternity-development-tutorial)
+   - [Resources](æternity-DApp-Developer-Resources)
+     - [Erlang Tutorial](https://www.tutorialspoint.com/erlang/)
+   - [Whitepaper full text(en)](Whitepaper-dev-full-text)
 
-### æternity Whitepaper
-- [中文](Whitepaper_Chinese) / [pdf](http://blockchain.aeternity.com/Aeternity区块链白皮书.pdf)
-- [Whitepaper deutsch](Whitepaper_Deutsch)
-- [Whitepaper English][WP_engl] / [original PDF document](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
-- [Español](Whitepaper_Español) / [pdf](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
-- [français](Whitepaper_French)
-- [bahasa Indonesia](Whitepaper_Indonesia)
-- [italiano](Whitepaper_Italian)
+### æternity White Paper
+- [English](Whitepaper_English)
+- [中文](Whitepaper_Chinese)
+- [Deutsch](Whitepaper_Deutsch)
+- [Español](Whitepaper_Español)
+- [Français](Whitepaper_French)
+- [Bahasa Indonesia](Whitepaper_Indonesia)
+- [Italiano](Whitepaper_Italian)
 - [日本語](Whitepaper_Japanese)
-- [한국어][WP_kr]
-- [Whitepaper_ Português](Whitepaper_-Português)
-- [русский](Whitepaper_Russian) / [pdf](http://blockchain.aeternity.com/Æternity-whitepaper-russian.pdf)
+- [한국어](Whitepaper_korean-(%ED%95%9C%EA%B5%AD%EC%96%B4))
+- [Português](Whitepaper-Português)
+- [русский](Whitepaper_Russian)
 - [Türkçe](Whitepaper_Turkish)
-- [æternity Whitepaper orig.PDF](https://blockchain.aeternity.com/æternity-blockchain-whitepaper.pdf)
 
 ### MISC
 - [Glossary](Glossary)
+- [Cold Storages](Cold-Storages)
+- [Wikipedia page](https://en.wikipedia.org/wiki/AEternity)
+- [Cyber-Security: Issues,alerts,warnings](Cyber-Security-Issues-Alerts-Warnings)
 
 ### Translated Content
 - [[Chinese] æternity TOC]([Chinese]-æternity-TOC)
+- [[Español] æternity TOC]([Español]-æternity-TOC)
+  - [[Español]Preguntas Frecuentes FAQ]([Español]-Preguntas-Frecuentes---FAQ)
 - [[French] æternity TOC]([French]-æternity-TOC)
-- [[German] Frequently Asked Questions]([German]-Frequently-Asked-Questions)
-- [[German] Testnet setup start and use]([German]-Testnet-setup-start-and-use)
 - [[German] æternity TOC]([German]-æternity-TOC)
-- [[German]API Commands]([German]API-Commands)
-- [[German]API Examples]([German]Api-Examples)
-- [[German]Terminal interface commands]([German]Terminal-interface-commands)
+   - [[German] Frequently Asked Questions]([German]-Frequently-Asked-Questions)
+   - [[German] Testnet setup start and use]([German]-Testnet-setup-start-and-use)
+   - [[German]API Commands]([German]API-Commands)
+   - [[German]API Examples]([German]Api-Examples)
+   - [[German]Terminal interface commands]([German]Terminal-interface-commands)
+   - [[German] Digitale Wallets: sicherer Umgang]([German]-Digitale-Wallets-sicherer-Umgang-und-Aufbewahrung)
+   - [[German]æternity DApp Einführung]([German]-æternity-DApp-Introduction)
 - [[Indonesia] æternity TOC]([Indonesia]-æternity-TOC)
 - [[Italian] æternity TOC]([Italian]-æternity-TOC)
 - [æternity Wiki日本語ホーム[Japanese]](æternity-Wiki%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9B%E3%83%BC%E3%83%A0[Japanese])
@@ -95,34 +110,10 @@
 - [[Polish] æternity Home]([Polish]-æternity-Home)
 - [[Romanian] Home]([Romanian]-Home)
 - [[Russian] æternity TOC]([Russian]-æternity-TOC)
-- [[Spanish] æternity TOC]([Spanish]-æternity-TOC)
 - [[Turkish] æternity TOC]([Turkish]-æternity-TOC)
 
-### [Drafts][drafts] / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
-- [æternity-Documentation][doc]
+### [Drafts](æternity-wiki-draft-documents) / [Slack Voting](https://aeternity.slack.com/archives/C59BALQCE/p1495699809433243)
+- [Dedicated Wiki channel on Slack](https://pacific-beach-20900.herokuapp.com/)
+- [æternity-Documentation](æternity-Documentation)
 - [[German] æternity Whitepaper Draft]([German]-æternity-Whitepaper-Draft)
-
-
-(72 - pages)
 ***
-[drafts]: æternity-wiki-draft-documents
-[todo]: Wiki-Guidelines-&-To-Do's
-[understandAE]: Understanding-æternity
-[faq]: Frequently-Asked-Questions
-[tech]: æternity-Technology
-[research]: Research-and-Theory
-[doc]: æternity-Documentation
-[blockchainAndAE]: æternity-in-the-blockchain-space
-[contracts]: æternity-Contracts
-[team]: æternity-Team
-[bounty]: Bounty
-[ledgerclaim]: Claiming-Your-Ledger
-[started]: Getting-Started
-[contact]: Contacts-and-Groups
-[privatekeymessage]: How-to-sign-a-message-with-a-private-key%3F
-[ideabox]: Idea-Box
-[wininstall]: Installing-on-Windows-(work-in-progress,-help-wanted)
-[mining]: Mining
-[troubleshooting]: Troubleshooting
-[WP_engl]: Whitepaper_English
-[WP_kr]: Whitepaper_korean-(%ED%95%9C%EA%B5%AD%EC%96%B4)

@@ -50,3 +50,10 @@ A prediction market works by letting users bet on whether a future event will ha
 We can, for example, use prediction markets to predict which updates made to the software will be beneficial, and which of those will be harmful. We can also use them to estimate how much candidates in an election will actually be able to accomplish, so lies and baseless promises can be detected more easily!
 
 --- taken from the [[Whitepaper_English]].
+
+### Further Reading
+For more information about state channels, you can read the following
+
+* [Universal Payment Channels](http://altheamesh.com/blog/universal-payment-channels/) - Co-written by Zack from aeternity
+* [State Channels](http://www.jeffcoleman.ca/state-channels/) - by Jeff Coleman
+

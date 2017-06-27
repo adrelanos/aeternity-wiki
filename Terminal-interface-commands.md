@@ -1,5 +1,3 @@
-### Terminal interface commands
-
 
 **What do we mean with Terminal interface commands?**
 
@@ -13,7 +11,7 @@ These commands are _internal commands_ this internal commands of æternity are h
 The [api-examples page](Api-Examples) will only access to the commands inside this two files:
  - [internal_handler.erl](../../../aeternity/testnet/blob/master/src/networking/internal_handler.erl) and 
  - [handler.erl](../../../aeternity/testnet/blob/master/src/networking/handler.erl)
- - this modules you finde under the sources folder [Networking](../../../aeternity/testnet/blob/master/src/networking/)
+ - this modules you find under the sources folder [Networking](../../../aeternity/testnet/blob/master/src/networking/)
 
 ***
 **WARNING! The CLI commands will do what you can expect of them. For example: Delete my account, then they will delete your account and if you have not all you need to recover your æternity account every amount is lost forever!**

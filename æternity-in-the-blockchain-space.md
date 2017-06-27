@@ -1,6 +1,6 @@
 The blockchain space has grown at an exponential rate each day and there are many players in the space. So, how does æternity compare?
 
-![Comparison Table](http://i67.tinypic.com/e0g4z4.png)
+![Comparison Table](https://github.com/aeternity/wiki/blob/master/images/compare-aeternity.png)
 
 [Another Comparison table](Blockchain-comparison)
 

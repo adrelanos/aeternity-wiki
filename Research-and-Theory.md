@@ -1,11 +1,13 @@
 # Whitepaper
 
-- [English (original)](http://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
-- [Chinese (translation)](http://blockchain.aeternity.com/Aeternity%E5%8C%BA%E5%9D%97%E9%93%BE%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+- [English (original)](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
+- [Chinese (translation)](https://github.com/aeternity/wiki/blob/master/whitepapers/Aeternity%E5%8C%BA%E5%9D%97%E9%93%BE%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
 - [Indonesian (translation)](Whitepaper_Indonesia)
 - [Korean (translation)](Whitepaper_korean-%28%ED%95%9C%EA%B5%AD%EC%96%B4%29)
-- [Spanish (translation)](http://blockchain.aeternity.com/Aeternity-blockchain-espaniol.pdf)
+- [Spanish (translation)](https://github.com/aeternity/wiki/blob/master/whitepapers/Aeternity-blockchain-espaniol.pdf)
 - [Russian (translation)](Whitepaper_Russian)
+- [German (translation)](Whitepaper_Deutsch)
+- [French (translation)](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper-French.pdf)
 
 # Concepts
 
@@ -34,31 +36,18 @@ information, refer to
 An oracle is a mechanism that tells the blockchain facts about the world
 we live in e.g. the closing price of Apple shares on a particular date.
 æternity's oracle system uses the same consensus system as the æternity
-blockchain itself i.e. it does not require a separate consensus layer on
-top of the æternity mainnet.
+blockchain itself.
 
-To launch an oracle, an aeon holder has to commit to answering a yes or
-no question (e.g. whether the price of an Apple share is above $200) and
-specify additional conditions such as the time frame in which the Aeon
-holder can answer that question. The aeon holder then has to
-deposit/commit a certain amount of aeon, which is proportional to the
-time frame during which the oracle is operational. When the oracle
-supplies an answer that is accepted as the truth by users, the deposit
-will be returned to the creator of the oracle. Otherwise, the deposit
-will be destroyed.
-
-Once the oracle has submitted an answer, other users are free to dispute
-the answer by submitting a counter-claim by depositing the same amount
-of aeon as the oracle creator. If there are no counter-claims by the end
-of the time frame, the answer supplied by the oracle is deemed to be
-truth. If there are counter-claims, the consensus system for the
-æternity main-net will be used to decide on which is the correct answer.
+Anyone willing to pay the fee is allowed to launch an oracle asking any question.
+Everyone is allowed to participate in the oracle mechanism.
+If you participate honestly, you profit. If you participate dishonestly,
+then you lose your money.
 
 Therefore, what is in effect achieved is a decentralised oracle system.
 The truth value of oracle answers, if in dispute, will be ultimately
 determined by the decentralised consensus system of the AE network.
 
-![æternity Oracle at work](http://i66.tinypic.com/2emjrzm.png)
+![æternity Oracle at work](https://github.com/aeternity/wiki/blob/master/images/binary-prediction-market.png)
 
 For more information, refer to the
 [æternity White Paper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
@@ -149,17 +138,15 @@ built on top of it. This makes the source of information more reliable,
 more decentralised and not relying on a 3rd Party company or entity
 (Like Augur and Gnosis).
 
-##### Prediction Market - High Level Concept
-
-![æternity prediction market](http://i66.tinypic.com/2emjrzm.jpg)
 
 ##### Oracle & Prediction Market - High Level Concept
 
-![æternity oracle & prediction market](http://i63.tinypic.com/30c291s.png)
+![æternity prediction market](https://github.com/aeternity/wiki/blob/master/images/AE101-Prediction_Market_noText.png)
 
 ## Governance & Consensus
 
-![æternity governance](http://i67.tinypic.com/axehab.png)
+![æternity governance](https://github.com/aeternity/wiki/blob/master/images/%C3%86_101_Governance.png)
+
 
 ## Futarchy
 
@@ -185,19 +172,15 @@ Publications dealing with æternity-specific technical concerns:
 Turing-completeness - what does it mean, and what does it enable?
 
 * [Stateful Turing-Complete Policies - by Vitalik Buterin](https://blog.ethereum.org/2015/11/09/stateful-turing-complete-policies/)
-
 * [Godfather of Ethereum - by Yanislav Georgiev Malahov](https://medium.com/@yanislav/king-of-bitcoin-godfather-of-ethereum-a9af9ecf56d5)
 
 State Channels - further reading and examples.
 
 * [From Smart Contracts to Courts with not so Smart Judges - by Christian Reitwiessner ](https://blog.ethereum.org/2016/02/17/smart-contracts-courts-not-smart-judges/)
-
+* [Universal Payment Channels By Jehan Tremback](http://jtremback.github.io/universal-payment-channels/universal-payment-channels.pdf)
 * [Ethereum Lightning Network and Beyond - by Arcturnus](http://www.arcturnus.com/ethereum-lightning-network-and-beyond/) - a discussion of state channel significance and implementation on Bitcoin and Ethereum.
-
 * [Raiden](http://raiden.network/) - forthcoming Ethereum state channel implementation.
-
 * [Abstracted State Channels](https://github.com/AnnaIsAWang/LedgerLabsCoops2016/tree/master/AbstractedStateChannel) Example by Ledger Labs
-
 * [Avocado](https://github.com/jtremback/avocado) - Example of an "judge" or oracle-based state channel implementation
 
 Blockchains - spinal column of cryptocurrency past, present, and future.
@@ -207,19 +190,66 @@ Blockchains - spinal column of cryptocurrency past, present, and future.
 Nontraditional DRAM architectures - background on innovations in Tromp's Cuckoo Cycle.
 
 * [Rethinking DRAM Design and Organization for Energy-Constrained Multi-Cores - by Udipi et al.](https://www.cs.utah.edu/~rajeev/pubs/isca10.pdf)
-
 * [The Dynamic Granularity Memory System - Yoon et. al](http://mbsullivan.info/attachments/papers/yoon2012dgms.pdf)
+
+Consensus, Proof-Of-Stake, and Slasher
+
+* [Proof of Stake: How I Learned to Love Weak Subjectivity by Vitalik Buterin](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)
+* [Slasher: A Punitive Proof-of-Stake Algorithm by Vitalik Buterin](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/)
+* [Slasher implementation by Zach Hess](https://github.com/zack-bitcoin/slasher)
+* [Comparison of Failure Modes between Flying Fox Consensus and Traditional Byzantine Fault Tolerant Consensus by Zach Hess](https://github.com/BumblebeeBat/FlyingFox/blob/master/docs/failure_modes.md)
+* [The Honey Badger of BFT Protocols by Miller et. al](https://eprint.iacr.org/2016/199.pdf)
+* [On Stake and Consensus by Andrew Poelstra](https://download.wpsoftware.net/bitcoin/pos.pdf)(contrarian account)
+* [A History of Casper by Vlad Zamfir](https://blog.ethereum.org/2016/12/06/history-casper-chapter-1/) A 5-chapter account.
+* [Tendermint: Consensus without Mining by Jae Kwon](https://cdn.relayto.com/media/files/LPgoWO18TCeMIggJVakt_tendermint.pdf)
 
 # Working Theories
 
+See: 
+
+* [Aeternity Testnet Docs](https://github.com/aeternity/testnet/tree/master/docs)
+* [Flying Fox Docs](https://github.com/BumblebeeBat/FlyingFox/tree/master/docs)
+
 # Open problems
+
+As summarized by Vitalik Buterin - [slides](https://edcon.io/ppt/one/Vitalik%20Buterin_Introduction%20to%20Cryptoeconomics_EDCON.pdf).  
+See also: [Problems - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/problems). 
 
 ## Optimal properties of consensus algorithms
 
+Considerations that go into defining 'optimal properties' listed by Buterin include: algorithm design, security margin, cost and performance under relevant economic models.
+
 ## Censorship resistance
+
+'Censorship resistance' refers to the problem of preventing or detecting Sybil attacks that would 'censor' or absent valid blocks on the chain. Such attacks may allow attackers to privilege or appropriate a set of transactions in blockchain contexts.  Present methods allow detection of censorship that may be occurring, but not censorship that has already occurred.  
+
+Proof-of-Work is considered a solution to this kind of attack (although proof-of-work systems are likewise subject to potential 51% attacks with similar consequences and motives).  Proof-of-Stake systems have gravitated towards security deposits that may be 'slashed' if participation in such an attack is detected.  Other suggestions have included the creation of anti-Sybil tokens that would be unique to individuals, and therefore produce a network of trust.
+
+See also: 
+
+* [Wikipedia - Sybil Attack](https://en.wikipedia.org/wiki/Sybil_attack)
+* [Problems - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/problems)
+* [Proof-Of-Stake FAQ - Ethereum Wiki](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+
 
 ## Maximally accurate time stamping
 
+See also: [On Slow and Fast Block Times by Vitalik Buterin](https://blog.ethereum.org/2015/09/14/on-slow-and-fast-block-times/)
+
 ## Scalable validation
 
+See also:
+
+* [Ethereum Wiki - Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+* [Notes on Scalable Blockchain Protocols - Buterin et. al](https://github.com/vbuterin/scalability_paper/blob/master/scalability.pdf)
+
+
 ## Optimal data availability solutions
+
+Blockchains that outstrip the data limitations of individual nodes are vulnerable to issues of data availability.  In sharded blockchains a single node is not expected to parse or retain the full contents of a block (as this would limit throughput).  Therefore correctness cannot be unambiguously proved, as the necessary data is 'unavailable.'  Requesting it would prove an unsustainable burden on such a system commensurate with a denial-of-service attack.
+
+One offered solution has been an 'honest-minority' assumption - that a certain percentage subset of the network is randomly selected to be deemed honest in order the finalize the state.  The other is erasure coding - the reconstruction of the entire, extended data from a fragmentary amount of the entire data.
+
+See also:
+
+* [A note on data availability and erasure coding - Ethereum Wiki](https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding)

@@ -1,32 +1,61 @@
-# Types of users, and where they might start
+Anyone who wants to store or transfer value with unparalleled speed,
+reliability, and privacy can do so with æternity. Think Bitcoin and
+Ethereum upgraded. Below is a summary of the various user types and how
+they might start with æternity.
 
-Anyone who wants to store or transfer value, with unparalleled speed, reliability and privacy will be able to use æternity to do so. Everything Bitcoin and Ethereum can do, just got upgraded. Below is a summary of the various user types and how they might start with æternity.
-
-### Contributors:
-
-Contributors can support æternity directly by participating in the [second phase](https://wallet.aeternity.com/) of the contribution campaign or by purchasing AE tokens directly on an exchange once Aeon has been listed on them. To do this, users must first be registered on an exchange where Aeon is trading. Next, the user must have funds available for which to purchase Aeon (likely ETH). Once the transaction is complete, the user can choose to store the AE tokens on the exchange (not recommended) or transfer to a wallet.
-
-In addition, many decentralized applications will be written on top of æternity. Contributors will be able to participate in the challenge and cutting edge projects on a most cutting edge blockchain by contributing to their initial coin offerings and/or purchasing their tokens on an exchange. 
-
-### Speculators:
-
-The value of Aeon will be recognized by all forward thinking people. Although we don't endorse it, many people will want to speculate on the potential and price of Aeon. Anyone interested in speculating in æternity is required to be registered on an exchange where AE tokens can be purchased. Typically, speculators purchase assets hoping to make a short-term profit based on anticipating developments in the fundamentals or the emergence of certain profitable trading patterns.
- 
-### Contract writers & Developers:
-
-Thanks to its unique features (State channels, Decentralized oracles, On-chain Governance, ENS) on top of everything other blockchains have to offer, æternity will be a logical choice for all developers and smart contract writers. It will be the Backbone of the Internet-of-Things.
-
-### Miners:
-
-Miners (Proof-of-Work) will enable them to be rewarded for providing adequate security to the æternity blockchain. The specificity of Cuckoo Cycle algorithm will enable anyone to become a miner, thus achieving great decentralization. Oracle mining (Proof-of-Stake) will be rewarded for providing real world data to the æternity blockchain.
+* [Contributors](#contributors)
+* [Speculators](#speculators)
+* [Contract writers and developers](#contract-writers-and-developers)
+* [Acquiring Tokens](#acquiring-tokens)
+* [Run a Node (testnet)](#run-a-node-testnet)
+* [and so on](#)
 
 
-# Applications and Components: 
-* Wallets
-* Account
-* Nodes 
+***
 
-# Grid of application/platform availability
-e.g., Windows, [MacOS](Troubleshooting#for-mac), [Linux](Troubleshooting#for-ubuntu), Other Unix (Rasp PI, Droid)
-# Links to each software with installation guides, common CLI interaction etc for newbies.
-* [Get the æternity software](Troubleshooting#building-from-source)
+## Contributors
+
+Contributors can support æternity directly by participating in the
+[second phase](https://wallet.aeternity.com/) of the contribution
+campaign or by purchasing AE on an exchange once aeon has been listed on
+them.
+
+[☝](#)
+
+## Speculators
+
+Although we don't endorse it, many people will want to speculate on the
+price of aeon. Speculators purchase assets hoping to make a short-term
+profit based on anticipating developments in fundamentals or the
+emergence of certain profitable trading patterns.
+
+[☝](#)
+
+## Contract writers and developers
+
+Thanks to its unique features (state channels, decentralized oracles,
+on-chain governance, ENS) in addition to everything else blockchains
+have to offer, æternity is a logical choice for developers and smart
+contract writers.
+
+[☝](#)
+## Acquiring Tokens
+
+The first round to purchase AE tokens was during æternity's public
+'Friends, Family and Real Innovators' round which took place on 3rd
+April 2017, 13:05 GMT and lasted for 72 hours until 6th April 13:05 GMT.
+This round was open to the public, meaning anyone could participate. At
+this time, you were able to buy 1000 AE tokens for 1 ETH. Investors in
+the first 24 hours received an extra 10% for a total of 1100 AE tokens
+for 1 ETH and the first 1000 contributors above 12 ETH will receive 1
+'limited edition' æternity branded Ledger.
+
+The second round will begin May 29th, 2017. You can participate and
+follow any updates here: https://wallet.aeternity.com/
+
+## Run a Node (testnet)
+
+Check out the [Wikipedia](https://en.wikipedia.org/wiki/AEternity) page
+on æternity.
+
+[☝](#)

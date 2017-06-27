@@ -5,28 +5,30 @@ Infolgedessen wurden viele Versuche unternommen, Anwendungen mit realen Daten au
 Wir glauben, dass die Speicherung des Zustands und des Codes einer Anwendung auf der Blockchain aus mehreren Gründen falsch ist.
 Dies bläht die Größe der Blockchain auf, setzt Smart Contracts unnötigen Schwachstellen aus und reduziert die Privatsphäre und verhindert so den Zugang von Blockchains für private Anwendungsfälle (Banken, private Unternehmen, ...).
 
-Aus diesem Grund wird die æternity als die einzige Blockkette entwickelt, die durch ihr Kerndesign den Durchsatz von Mainstream-Weltnutzungsfällen aufrechterhalten kann, während sie reale Schnittstellen innerhalb ihrer Blockchain bereitstellen.
+Aus diesem Grund wird æternity entwickelt, als die einzige Blockchain, die durch ihr Kerndesign den Durchsatz von Mainstream Anwendungsfällen aufrechterhalten kann, während sie Schnittstellen zur realen Welt innerhalb ihrer Blockchain bereitstellt.
 
-Es kann dank der integrierten Zustandskanäle einen größeren Transaktionsdurchsatz (mehr als Visa und Legacy-Systeme) verarbeiten.
+* Es kann dank der integrierten "State Channels" einen größeren Transaktionsdurchsatz verarbeiten (mehr als Visa und Legacy-Systeme).
 
-Die staatlichen Kanäle, die Off-Chain verarbeiten, machen intelligente Verträge einfacher zu analysieren, schneller zu verarbeiten und privater zu machen, während sie keinen wesentlichen Verlust an Funktionalität aufrechterhalten.
+* Die "State Channels" abseits der Blockchain ("off-chain") zu verarbeiten, erlaubt es, Smart Contracts einfacher zu analysieren, schneller zu verarbeiten und mehr Privatsphäre zu erstellen, während sie keinen wesentlichen Verlust an Funktionalität erleiden.
 
-Es ist der interne Konsensmechanismus, der das Orakel überprüfen und die Blockchain mit realen Weltdaten versorgen kann, wobei die Notwendigkeit vernachlässigt wird, ineffiziente Orakelmechanismen oben zu implementieren (wie Augur oder Gnosis oben auf Ethereum).
+* Sein interner Konsensmechanismus kann das Orakel überprüfen und die Blockchain mit realen Daten versorgen, wobei darauf verzichtet wird ineffiziente Orakelmechanismen darauf aufbauend zu implementieren (wie Augur oder Gnosis auf Basis von Ethereum).
 
-Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden. Mehrere Teile haben in Erlang vorgegebene Vorführungen. Entwicklungswerkzeuge und Anwendungsgrundlagen wie ein Brieftaschen-, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
+Anwendungen wie Märkte für synthetische Vermögenswerte und Vorhersagemärkte können auf globaler Ebene effizient umgesetzt werden.
+Für mehrere Teile gibt es bereits Implementierungen in Erlang, die die Machbarkeit zeigen (Proof-of-Concept).
+Entwicklungswerkzeuge und grundlegende Anwendungen wie ein Brieftaschen, Namens- und Identitätssystem werden in Kürze zur Verfügung gestellt.
 
 ***
-Download des Whitepaper's v0.1 (PDF) in english hier:
-[æternity whitepaper](https://blockchain.aeternity.com/%C3%A6ternity-blockchain-whitepaper.pdf)
+Das Whitepaper v0.1 (PDF) im englischen Original kann hier heruntergeladen werden:
+[æternity whitepaper](https://github.com/aeternity/wiki/blob/master/whitepapers/%C3%A6ternity-blockchain-whitepaper.pdf)
 
-Authoren:  
+Autoren:  
 Zackary Hess - zack@aeternity.com  
 Yanislav Malahov - yani@aeternity.com  
 Jack Pettersson - jack@aeternity.com
 
 Veröffentlicht:  6. Februar 2017
 
-(bitte haben Sie Verständnis dass diese Seite aktuell unter Bearbeitung ist, Sie können uns gerne in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meinen wir die „ æternity Community„)
+(bitte haben Sie Verständnis, dass diese Seite aktuell unter Bearbeitung ist, Sie können uns gerne in unserer Arbeit unterstützen. Wenn wir von „WIR und UNS“ reden meinen wir die „ æternity Community„)
 ***
 lese mehr: [Dokumente in deutsch]([German]-æternity-TOC)
 ***

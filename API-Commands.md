@@ -19,7 +19,7 @@ inside this file:
 
 | Function                    | Variables                                  | ok  | Action                        |
 |:----------------------------|:-------------------------------------------|:----|:------------------------------|
-| "height"                    | none                                       | [x] | shows the latest block height |
+| "height" <a name="height"></a>                   | none                                       | [x] | shows the latest block height |
 | "top"                       |                                            | [x] |                               |
 | "sign"                      | TX                                         | [x] |                               |
 | "tx_maker"                  | F                                          | [ ] |                               |
@@ -79,6 +79,8 @@ inside this file:
 |                             |                                            | [ ] |                               |
 |                             |                                            | [ ] |                               |
 
+* <a href="#height">test anchor height</a>
+
 
 [x] = tested and ok / [ ] = untested or not working at moment
 
@@ -86,14 +88,14 @@ inside this file:
 
 ### Actions with API commands
 
-Read this perfect page for more and detailed information about the 
+Read this page for more detailed information about the 
 [Transaction-Types](Transaction-Types)
 
 ***
 
 ### Setup first for using API commands
 
-Read this page, it describes an easy to use and setup for æternity Testnet
+Read this page, it describes an easy to use setup for æternity Testnet
 [Testnet setup start and use](Testnet-setup-start-and-use)
 
 ***

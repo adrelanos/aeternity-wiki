@@ -5,7 +5,7 @@
 
 [æternity関連サイトまとめ(日本語)](https://github.com/aeternity/wiki/wiki/%C3%86ternity%E9%96%A2%E9%80%A3%E3%82%B5%E3%82%A4%E3%83%88%E3%81%BE%E3%81%A8%E3%82%81(%E6%97%A5%E6%9C%AC%E8%AA%9E))
 
-<a href="http://www.aeternity.com/"><img width="160px" src="http://www.aeternity.com/user/themes/aeon/img/aeternity_logo.png" align="left" hspace="10" vspace="10"></a>
+<a href="http://www.aeternity.com/"><img width="160px" src="https://github.com/aeternity/wiki/blob/master/images/Aeternity-logo.png" align="left" hspace="10" vspace="10"></a>
 
 <p align = right><a target="_blank" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&text=Aeternity:%20scalable%20smart%20contracts%20interfacing%20with%20real%20world%20data&tw_p=tweetbutton&url=http%3A%2F%2Fwww.aeternity.com%2F&via=aetrnty"><img src="http://s30.postimg.org/j2q6ql27h/Tweet.png"></a>
 <a target="_blank" href="https://twitter.com/aetrnty"> <img src="https://s24.postimg.org/4xcf9j8xh/Follow-_Twitter.jpg?2"></a>
@@ -27,7 +27,7 @@
 
 ステートチャネル技術に関する最近の研究では、多くの場合、ステートオンチェーン上にデータを保存することは不要であることが証明されてます。ほとんどの場合、全てのデータはステートチャネル内に保存することができます。そしてブロックチェーンは結果の情報を保存し解決すため、及び・または争いが発生した際の仲裁方法としてのみ使用されます。これは、ステートチャンネルではできるが、ブロックチェーンではできないチューリング完全なスマートコントラクトによってマークされているアルタネイティブブロックチェーンアーキテクチャを示してます。これにより、全てのトランザクションが独立して処理されるため、スケーラビリティが爆発的に向上します。さらに、このアプローチは、スマートコントラクトが共有されないため、コントラクトのテスト及び検証が大幅に簡素化されます。<p>
 
-[[Augur]] is a decentralized prediction market that attempted to integrate real-world data with the blockchain in a decentralized manner via a process that implements a consensus mechanism on smart contracts, rather than implementing the consensus mechanism provided by the underlying blockchain. This will result in inefficiencies, yet it won’t boost security. So, it is logically better to generalize the consensus mechanism of the blockchain so that it can provide information on the next [[internal state]] as well as on the external world’s state. So, we can assume that the blockchain’s consensus mechanism dictates the outcome of executing what [[complexity theory]] describes as an “[[oracle machine]]”. An oracle machine is a theoretical machine that is far more powerful than a [[Turing machine]] due to the fact that it can bear answers to questions whose answers cannot be computed such as “Who won the Super Bowl in 2016?”<p>
+[[Augur]]は基礎レイヤーブロックチェーンによってデフォルトで使うことができるコンセンサスアルゴリズムを実装するのではなく、実世界のデータを分散型な方法でブロックチェーン上に書き込もうとする分散型予測市場です。この方法は非効率で、またセキュリティーも高くありません。なので、[[ブロックチェーン内の状態]]と実世界のデータに関するデータを提供するためには、ブロックチェーンのコンセンサスメカニズムを普遍化することが論理的に優れています。したがってブロックチェーンのコンセンサスメカニズムを[[複雑性理論]]化すると「[[オラクルマシン]]」と表現できると推測できます。オラクルマシーンは、「スーパーボールを獲得したのは誰か？」といった計算できない問いに対する答えを出せるといった理由から、[[チューリング完全なマシーン]]よりもはるかに強力です。<p>
 
 <b>Overview and Applications of æternity:<p>
 
